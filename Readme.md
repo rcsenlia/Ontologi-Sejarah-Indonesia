@@ -1,2 +1,13 @@
 # Ontologi-Sejarah-Indonesia
 
+## Korpus untuk Populasi Data
+1. [Delpher] (https://www.delpher.nl/)
+2. [Arsip Nasional RI](https://anri.go.id/sekitar-arsip/arsip-statis/sarana-temu-balik-arsip/daftar-arsip)
+3. [Arsip Nasional Australia](https://www.naa.gov.au)
+4. [Perpusnas](https://khastara.perpusnas.go.id/)
+
+## Referensi 
+1. [Sejarah Nasional Indonesia Jilid 4](https://archive.org/details/sejarah-nasional-indonesia-jilid-4-penjajahan-indo/page/n33/mode/2up?view=theater)
+2. [Sejarah Nasional Indonesia Jilid 5](https://archive.org/details/sejarah-nasional-indonesia-jilid-5-zaman-kebangkitan/page/9/mode/1up?view=theater)
+3. [Sejarah Nasional Indonesia Jilid 6](https://archive.org/details/sejarah-nasional-indonesia-jilid-6-zaman-jepang/page/n33/mode/2up?view=theater)
+   
