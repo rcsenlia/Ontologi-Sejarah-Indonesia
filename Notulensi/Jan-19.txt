@@ -1,0 +1,15 @@
+Sources Data:
+
+1. Di Arsip Nasional belum terlihat datanya, keyword yang sesuai belum ketemu
+2. Britannica.com -> Perlu dieksplor apakah ada APInya. Srivijaya vs Sriwijaya, Soekarno vs Sukarno
+
+Benchmark:
+3. The Vienna History Wiki
+
+Rumusan masalah:
+1. Cara mengambil data dan mengolah
+2. Definisi ontologi
+
+Metode pemecahan masalah:
+
+Terminologi disamakan: vocabulary, ontology
