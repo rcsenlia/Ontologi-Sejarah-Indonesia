@@ -11,6 +11,7 @@
 ## Referensi Paper
 1. [WarSampo Knowledge Graph: Finland in the
 Second World War as Linked Open Data](https://www.semantic-web-journal.net/system/files/swj2354.pdf)
+2. [Semantic Technologies for Historical Research:A Survey](https://www.semantic-web-journal.net/system/files/swj588_0.pdf)
 
 ## Ontologi atau Vocabulary untuk Data Sejarah
 1. [CDOC CRM](https://www.cidoc-crm.org/)
