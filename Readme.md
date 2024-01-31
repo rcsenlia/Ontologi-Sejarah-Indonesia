@@ -5,8 +5,12 @@
 2. [Arsip Nasional RI](https://anri.go.id/sekitar-arsip/arsip-statis/sarana-temu-balik-arsip/daftar-arsip)
 3. [Arsip Nasional Australia](https://www.naa.gov.au)
 4. [Perpusnas](https://khastara.perpusnas.go.id/)
-5. [Encyclopedia API](https://encyclopaediaapi.com/)
-6. [Sejarah Nusantara](https://sejarah-nusantara.anri.go.id/)
+5. [Sejarah Nusantara](https://sejarah-nusantara.anri.go.id/)
+
+## Structured Database
+1. [Dump Wikipedia Indonesia](https://dumps.wikimedia.org/idwiki/20240101/)
+2. [Encyclopedia API](https://encyclopaediaapi.com/)
+3. [DBPedia](https://dbpedia.org)
 
 ## Referensi Paper
 1. [WarSampo Knowledge Graph: Finland in the
