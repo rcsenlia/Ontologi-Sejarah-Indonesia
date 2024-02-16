@@ -1,3 +1,5 @@
 idwiki-*.*
 .idea
 ir.ipynb
+.env
+categories_with_page.txt
