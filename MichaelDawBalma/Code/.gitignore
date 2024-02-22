@@ -3,3 +3,5 @@ idwiki-*.*
 ir.ipynb
 .env
 categories_with_page.txt
+apicache-py3
+throttle.ctrl
