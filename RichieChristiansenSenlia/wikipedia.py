@@ -1,6 +1,7 @@
 import xml.sax
 import subprocess
 import mwparserfromhell
+import json
 class WikiXmlHandler(xml.sax.handler.ContentHandler):
     """Content handler for Wiki XML data using SAX"""
     def __init__(self):
@@ -30,9 +31,10 @@ class WikiXmlHandler(xml.sax.handler.ContentHandler):
         if name == 'page':
             self._number += 1
             # print(self._number)
-            found = self.process_article(self._values['title'],self._values['text'])
-            if(found):
-                self._pages.append((self._values['title'],self._values['text']))
+            self._pages.append(self._values['title'][11:])
+            # found = self.process_article(self._values['title'],self._values['text'])
+            # if(found):
+            #     self._pages.append((self._values['title'],self._values['text']))
             # if(self._values['title']=="Perang Padri"):
             #     print(len(self._pages))
             #     print(self._number)
@@ -64,25 +66,26 @@ data = "idwiki-20240101-pages-articles.xml.bz2"
 
 # Object for handling xml
 handler = WikiXmlHandler()
-# Parsing object
 parser = xml.sax.make_parser()
 parser.setContentHandler(handler)
-# Iteratively process file
-for line in subprocess.Popen(['bzcat'], 
-                              stdin = open(data), 
-                              stdout = subprocess.PIPE).stdout:
-    # print(line)
-    parser.feed(line)
-    
-    # Stop when 3 articles have been found
-    # if len(handler._pages) == 1:
-    #     break
 
-# print(handler._pages[0])
-# wiki = mwparserfromhell.parse(handler._pages[0][1])
-# wikilinks = [x.title for x in wiki.filter_wikilinks()]
-# print(wikilinks[:5])
-# template = wiki.filter_text()
-# print(template)
-print(handler._number)
-print(len(handler._pages))
+with open("mapping_id.xml") as file:
+    for i in file:
+        
+        parser.feed(i)
+        # if len(handler._pages) == 1:
+        #     break
+print(handler._pages)
+
+handler2 = WikiXmlHandler()
+parser2 = xml.sax.make_parser()
+parser2.setContentHandler(handler2)
+
+with open("mapping_en.xml") as file:
+    for i in file:
+        parser2.feed(i)
+        # if len(handler._pages) == 1:
+        #     break
+print(handler2._pages)
+with open("type_mapping_en.json",'w') as file:
+    file.write(json.dumps(handler2._pages))
