@@ -1,0 +1,349 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:Sambas  rdf:type        geo:Feature ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "1.52190995"^^xsd:double ;
+                           :longitude  "109.4138089644859"^^xsd:double
+                         ] .
+
+:KrisisTimorTimur1999
+        rdf:type      :MilitaryConflict ;
+        rdfs:label    "Krisis Timor Timur 1999" ;
+        :caption      "Rumah-rumah yang hancur di Dili." ;
+        :casualties1  "Timor Leste Timor Leste – 16 tewas (staf PBB lokal), Australia – 2 tewas secara tidak sengaja, Selandia Baru – 5 tewas (4 karena kecelakaan), Thailand – 2 tewas, Amerika Serikat – 1 terluka, Bangladesh – 1 tewas dan 1 terluka akibat IED, Brasil – 1 tewas, Fiji – 2 tewas dan 11 terluka, Filipina – 4 tewas dan 4 terluka, Ghana – 1 meninggal karena penyakit, Indonesia – 2 tewas (staf PBB lokal), Irlandia – 2 tewas, Jerman – 1 tewas, Korea Selatan – 4 tewas dan 1 hilang karena kecelakaan, Malaysia – 3 tewash, Nepal – 1 tewas dan 3 terluka, Portugal – 4 tewas dan 9 terluka, Rusia – 5 tewas dan 1 hilang karena kecelakaan, Spanyol – 1 tewas, Tajikistan – 1 tewas, Total: 64 tewas, 49 staf PBB dan LSM yang ditangkap kemudian dibebaskan" ;
+        :casualties2  "15–19 tewas\n301+ ditangkap" ;
+        :location     :TimorLeste ;
+        :strength1    "11000 militer dan polisi" ;
+        :strength2    "13,000 milisi pro-Indonesia" ;
+        time:hasTime  [ rdf:type           time:TemporalEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "01/04/1999"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "01/01/2005"^^xsd:date
+                                           ]
+                      ] .
+
+:TimorLeste  rdf:type    geo:Feature ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-8.7443169"^^xsd:double ;
+                           :longitude  "126.063482"^^xsd:double
+                         ] .
+
+:PertempuranLautAru  rdf:type  :MilitaryConflict ;
+        rdfs:label    "Pertempuran Laut Aru" ;
+        :caption      "RI Matjan Tutul (650)" ;
+        :casualties1  "Komodor Yos SudarsoKapten Wiratno (Kapten kapal RI Matjan Tutul), Kapten Memet Sastrawiria (Ajudan Komodor Yos Sudarso), Kapten Tjiptadi, 21 orang tenggelam, 53 orang ditahan Belanda, Total 39 orang tewas" ;
+        :location     <http://127.0.0.1:3333/LautArafura,Indonesia> ;
+        :result       "Kemenangan Belanda \nRI Matjan Tutul tenggelam, 2 lainnya berhasil selamat" ;
+        :strength1    "RI Matjan Tutul (Tenggelam), RI Matjan Kumbang(Rusak), RI Harimau(Rusak)" ;
+        :strength2    "Hr. Ms. Evertsen, Hr. Ms. Kortenaer, Hr. Ms. Utrecht, didukung P-2 Neptune dan jenis Fairey Firefly" ;
+        time:hasTime  [ rdf:type           time:TemporalEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "15/01/1962"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "15/01/1962"^^xsd:date
+                                           ]
+                      ] .
+
+<http://127.0.0.1:3333/KelurahanLubangBuaya,Cipayung,JakartaTimur>
+        rdf:type         geo:Feature ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-6.2920937"^^xsd:double ;
+                           :longitude  "106.90694401894501"^^xsd:double
+                         ] .
+
+<http://127.0.0.1:3333/LautArafura,Indonesia>
+        rdf:type         geo:Feature ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-0.789275"^^xsd:double ;
+                           :longitude  "113.921327"^^xsd:double
+                         ] .
+
+:KerusuhanSambas  rdf:type  :MilitaryConflict ;
+        rdfs:label    "Kerusuhan Sambas" ;
+        :casualties1  "*1.189 terbunuh  168 orang luka berat 34 orang luka ringan  29.823 warga Madura mengungsi." ;
+        :location     :Sambas .
+
+:PendudukanIndonesiaatasTimorTimur
+        rdf:type      :MilitaryConflict ;
+        rdfs:label    "Pendudukan Indonesia atas Timor Timur" ;
+        :caption      "Lokasi Timor Timur, dengan menampilkan negara-negara tetangga." ;
+        :casualties1  "2.277 tentara dan polisi Indonesia tewas, 1.527 milisi Timor Timur tewas, 2.400 terluka, Total: 3.408 tewas dan 2.400 terluka" ;
+        :casualties2  "Perkiraan berkisar antara 100.000–300.000 orang tewas" ;
+        :location     :TimorTimur ;
+        :result       "*Krisis Timor Timur 1999\nTimor Timur memperoleh kemerdekaan setelah referendum kemerdekaan memilih untuk meninggalkan Indonesia\n Indonesia memiliki pengaruh yang kuat di Timor Timur" ;
+        time:hasTime  [ rdf:type           time:TemporalEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "07/12/1975"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "31/10/1999"^^xsd:date
+                                           ]
+                      ] .
+
+:KerusuhanPoso  rdf:type  :MilitaryConflict ;
+        rdfs:label    "Kerusuhan Poso" ;
+        :caption      "Front pertempuran dalam kerusuhan Poso III." ;
+        :causes       "Penyerangan pemuda Muslim oleh pemuda Kristen yang mabuk di Masjid Sayo" ;
+        :location     :KabupatenPoso ;
+        :result       "Deklarasi Malino\n Kekerasan pasca kerusuhan di Poso" ;
+        time:hasTime  [ rdf:type           time:TemporalEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "25/12/1998"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "20/12/2001"^^xsd:date
+                                           ]
+                      ] .
+
+:PendaratandiLabis  rdf:type  :MilitaryConflict ;
+        rdfs:label    "Pendaratan di Labis" ;
+        :casualties1  "1 tewas" ;
+        :casualties2  "~32 tewas, 62 ditangkap" ;
+        :location     <http://127.0.0.1:3333/Labis,Johor,Malaysia> ;
+        :result       "Kemenangan Persemakmuran" ;
+        :strength2    "~98 orang" ;
+        time:hasTime  [ rdf:type           time:TemporalEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "01/09/1964"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "01/10/1964"^^xsd:date
+                                           ]
+                      ] .
+
+:TimorTimur  rdf:type    geo:Feature ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-8.7443169"^^xsd:double ;
+                           :longitude  "126.063482"^^xsd:double
+                         ] ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-8.7443169"^^xsd:double ;
+                           :longitude  "126.063482"^^xsd:double
+                         ] .
+
+:PertempuranSungeiKoemba
+        rdf:type      :MilitaryConflict ;
+        rdfs:label    "Pertempuran Sungei Koemba" ;
+        :caption      "Seorang tentara Australia dari 3RAR dengan senjata mesin ringan L4A4 melakukan patroli dekat perbatasan Sarawak-Kalimantan, 1965." ;
+        :casualties1  "2 Terluka" ;
+        :casualties2  "~30 tewas" ;
+        :location     <http://127.0.0.1:3333/SungeiKoemba,Kalimantan> ;
+        :result       "Kemenangan Australia" ;
+        :strength1    "~120 tentara" ;
+        time:hasTime  [ rdf:type           time:TemporalEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "27/05/1965"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "12/06/1965"^^xsd:date
+                                           ]
+                      ] .
+
+:IrianBarat  rdf:type    geo:Feature ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "3.5871487"^^xsd:double ;
+                           :longitude  "98.6825909"^^xsd:double
+                         ] .
+
+<http://127.0.0.1:3333/SungeiKoemba,Kalimantan>
+        rdf:type         geo:Feature ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-0.789275"^^xsd:double ;
+                           :longitude  "113.921327"^^xsd:double
+                         ] .
+
+<http://127.0.0.1:3333/Limbang,Sarawak,Borneo>
+        rdf:type         geo:Feature ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "4.7142581"^^xsd:double ;
+                           :longitude  "114.79861740822082"^^xsd:double
+                         ] .
+
+:MilitaryConflict  rdfs:subClassOf  sem:Event .
+
+<http://127.0.0.1:3333/BelahanselatanKabupatenJayapura,IrianJaya>
+        rdf:type         geo:Feature ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-0.789275"^^xsd:double ;
+                           :longitude  "113.921327"^^xsd:double
+                         ] .
+
+<http://127.0.0.1:3333/Labis,Johor,Malaysia>
+        rdf:type         geo:Feature ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "2.3868877"^^xsd:double ;
+                           :longitude  "103.0199613"^^xsd:double
+                         ] .
+
+:OperasiJayapura1976  rdf:type  :MilitaryConflict ;
+        rdfs:label    "Operasi Jayapura 1976" ;
+        :casualties1  "425 tewas800 luka-luka (klaim OPM)Osborne 2001 134-135Savage Martin 1977 342" ;
+        :casualties2  "1.605 tewas (klaim OPM)" ;
+        :location     <http://127.0.0.1:3333/BelahanselatanKabupatenJayapura,IrianJaya> ;
+        :strength1    "10.0" ;
+        :strength2    "3.000–5.000" ;
+        time:hasTime  [ rdf:type           time:TemporalEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "01/01/1976"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "01/02/1976"^^xsd:date
+                                           ]
+                      ] .
+
+<http://127.0.0.1:3333/Mapenduma,Jayawijaya,IrianJaya,(sekarangdiProvinsiPapua)Indonesia>
+        rdf:type         geo:Feature ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-0.789275"^^xsd:double ;
+                           :longitude  "113.921327"^^xsd:double
+                         ] .
+
+:KrisissanderaMapenduma
+        rdf:type      :MilitaryConflict ;
+        rdfs:label    "Krisis sandera Mapenduma" ;
+        :caption      "Irian Jaya, Indonesia" ;
+        :casualties1  "5 tewas, 1 helikopter jatuh" ;
+        :casualties2  "8 tewas, 2 ditangkap" ;
+        :location     <http://127.0.0.1:3333/Mapenduma,Jayawijaya,IrianJaya,(sekarangdiProvinsiPapua)Indonesia> ;
+        :strength1    "100 Komando" ;
+        :strength2    "200 Pejuang" ;
+        time:hasTime  [ rdf:type           time:TemporalEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "08/01/1996"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "09/05/1996"^^xsd:date
+                                           ]
+                      ] .
+
+:OperasiTrikora  rdf:type  :MilitaryConflict ;
+        rdfs:label    "Operasi Trikora" ;
+        :caption      "Perangko Indonesia memperingati Pertempuran Laut Aru" ;
+        :casualties1  "214 tewas" ;
+        :location     :IrianBarat ;
+        :result       "Kemenangan Indonesia \n Perjanjian New York ditandatangani\n Irian Barat diserahkan ke PBB lalu ke Indonesia\n Awal dari Konflik Papua" ;
+        :strength1    "13.000 tentara, 7.000 pasukan terjun payung, 4.500 marinir" ;
+        :strength2    "10.000 tentara, 1.400 marinir, 1.000 sukarelawan" ;
+        time:hasTime  [ rdf:type           time:TemporalEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "19/12/1961"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "15/08/1962"^^xsd:date
+                                           ]
+                      ] .
+
+:OperasimiliterIndonesiadiAceh1990-1998
+        rdf:type      :MilitaryConflict ;
+        rdfs:label    "Operasi militer Indonesia di Aceh 1990-1998" ;
+        :caption      "Lokasi Aceh di Indonesia" ;
+        :location     <http://127.0.0.1:3333/Aceh,Indonesia> ;
+        :result       "Penarikan ABRI dari Aceh" ;
+        :strength1    "12000" ;
+        :strength2    "750+" ;
+        time:hasTime  [ rdf:type           time:TemporalEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "01/01/1990"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "22/08/1998"^^xsd:date
+                                           ]
+                      ] .
+
+<http://127.0.0.1:3333/Manokwari,IrianJaya>
+        rdf:type         geo:Feature ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-0.846104"^^xsd:double ;
+                           :longitude  "134.0618874"^^xsd:double
+                         ] .
+
+<http://127.0.0.1:3333/Aceh,Indonesia>
+        rdf:type         geo:Feature ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "4.3685491"^^xsd:double ;
+                           :longitude  "97.0253024"^^xsd:double
+                         ] .
+
+:InvasiIndonesiakeTimorTimur
+        rdf:type      :MilitaryConflict ;
+        rdfs:label    "Invasi Indonesia ke Timor Timur" ;
+        :caption      "Peta Bahasa Inggris yang menunjukkan daerah yang di invasi oleh Indonesia" ;
+        :casualties1  "1.000 tewas, terluka atau ditangkapPower Kills R.J. RummelEckhardt, William, in World Military and Social Expenditures 1987–88 (12th ed., 1987) by Ruth Leger Sivard." ;
+        :casualties2  "185.000+ tewas, terluka atau ditangkap (1974–1999)" ;
+        :location     :TimorTimur ;
+        :result       "Kemenangan Indonesia\n Pendudukan Indonesia di Timor Timur sampai tahun 1999\n Genosida Timor Timur" ;
+        :strength1    "35.000 tentara" ;
+        :strength2    "25.000 pasukan reguler, 70.000 milisi, 5.000 cadangan, Total 100.000" ;
+        time:hasTime  [ rdf:type           time:TemporalEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "07/12/1975"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "17/07/1976"^^xsd:date
+                                           ]
+                      ] .
+
+:KabupatenPoso  rdf:type  geo:Feature ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-1.6568513"^^xsd:double ;
+                           :longitude  "120.5421575"^^xsd:double
+                         ] .
+
+:PeristiwaArfai  rdf:type  :MilitaryConflict ;
+        rdfs:label    "Peristiwa Arfai" ;
+        :casualties1  "Djopari, Johannes Rudolf Gerzon tewas" ;
+        :casualties2  "Mampioper Dominggus tewas" ;
+        :location     <http://127.0.0.1:3333/Manokwari,IrianJaya> ;
+        :strength1    "1 batalion" ;
+        :strength2    "400" ;
+        time:hasTime  [ rdf:type           time:TemporalEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "28/07/1965"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "28/07/1965"^^xsd:date
+                                           ]
+                      ] .
+
+:SerangankeLimbang  rdf:type  :MilitaryConflict ;
+        rdfs:label    "Serangan ke Limbang" ;
+        :casualties1  "Lima tewas, delapan terluka" ;
+        :casualties2  "12 tewas, 15 terluka" ;
+        :location     <http://127.0.0.1:3333/Limbang,Sarawak,Borneo> ;
+        :result       "Kemenangan Britania" ;
+        :strength1    "Satu kompi" ;
+        :strength2    "~150" ;
+        time:hasTime  [ rdf:type           time:TemporalEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "12/12/1962"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "12/12/1962"^^xsd:date
+                                           ]
+                      ] .
+
+:Gerakan30September  rdf:type  :MilitaryConflict ;
+        rdfs:label    "Gerakan 30 September" ;
+        :caption      "Proses pengangkatan 7 jenazah korban G30S dari sebuah sumur lama di kawasan Lubang Buaya pada tanggal 3 Oktober 1965" ;
+        :casualties1  "1. Letnan Jenderal TNI Ahmad Yani (43 tahun)  2. Mayor Jenderal TNI Raden Soeprapto (45 tahun)  3. Mayor Jenderal TNI Mas Tirtodarmo Haryono (41 tahun)  4. Mayor Jenderal TNI Siswondo Parman (47 tahun)  5. Brigadir Jenderal TNI Donald Isaac Panjaitan (40 tahun)  6. Brigadir Jenderal TNI Sutoyo Siswomiharjo (43 tahun)  7. Letnan Satu Pierre Andreas Tendean (26 tahun)  dan korban-korban lainnya." ;
+        :location     <http://127.0.0.1:3333/KelurahanLubangBuaya,Cipayung,JakartaTimur> ;
+        time:hasTime  [ rdf:type           time:TemporalEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "30/09/1965"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "01/10/1965"^^xsd:date
+                                           ]
+                      ] .
