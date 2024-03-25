@@ -1,0 +1,196 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <https://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+<http://127.0.0.1:3333/KonfrontasiIndonesia–Malaysia>
+        rdf:type      sem:Event ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1963-01-20"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1966-08-11"^^xsd:date
+                                           ]
+                      ] .
+
+:KrisisTimorTimur1999
+        rdf:type      sem:Event ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1999-04-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "2005-01-01"^^xsd:date
+                                           ]
+                      ] .
+
+:PertempuranLautAru  rdf:type  sem:Event ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1962-01-15"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1962-01-15"^^xsd:date
+                                           ]
+                      ] .
+
+:KerusuhanSambas  rdf:type  sem:Event ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1970-01-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1999-12-31"^^xsd:date
+                                           ]
+                      ] .
+
+:KerusuhanPoso  rdf:type  sem:Event ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1998-12-25"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "2001-12-20"^^xsd:date
+                                           ]
+                      ] .
+
+:PendaratandiLabis  rdf:type  sem:Event ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1964-09-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1964-10-31"^^xsd:date
+                                           ]
+                      ] .
+
+:PertempuranSungeiKoemba
+        rdf:type      sem:Event ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1965-05-27"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1965-06-12"^^xsd:date
+                                           ]
+                      ] .
+
+:OperasiJayapura1976  rdf:type  sem:Event ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1976-01-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1976-02-29"^^xsd:date
+                                           ]
+                      ] .
+
+:KrisissanderaMapenduma
+        rdf:type      sem:Event ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1996-01-08"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1996-05-09"^^xsd:date
+                                           ]
+                      ] .
+
+:OperasiTrikora  rdf:type  sem:Event ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1961-12-19"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1962-08-15"^^xsd:date
+                                           ]
+                      ] .
+
+:OperasimiliterIndonesiadiAceh1990-1998
+        rdf:type      sem:Event ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1990-01-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1998-08-22"^^xsd:date
+                                           ]
+                      ] .
+
+:KonflikPapua  rdf:type  sem:Event ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1962-10-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "2024-01-01"^^xsd:date
+                                           ]
+                      ] .
+
+:PendudukanIndonesiadiTimorTimur
+        rdf:type      sem:Event ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1975-12-07"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1999-10-31"^^xsd:date
+                                           ]
+                      ] .
+
+<http://127.0.0.1:3333/PemberontakandiAceh(1976–2005)>
+        rdf:type      sem:Event ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1976-12-04"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "2005-08-15"^^xsd:date
+                                           ]
+                      ] .
+
+:InvasiIndonesiakeTimorTimur
+        rdf:type      sem:Event ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1975-12-07"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1976-07-17"^^xsd:date
+                                           ]
+                      ] .
+
+:PeristiwaArfai  rdf:type  sem:Event ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1965-07-28"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1965-07-28"^^xsd:date
+                                           ]
+                      ] .
+
+:SerangankeLimbang  rdf:type  sem:Event ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1962-12-12"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1962-12-12"^^xsd:date
+                                           ]
+                      ] .
+
+:Gerakan30September  rdf:type  sem:Event ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1965-09-30"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1965-30-01"^^xsd:date
+                                           ]
+                      ] .
