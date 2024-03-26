@@ -1,0 +1,147 @@
+@prefix ex: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Conflict rdfs:subClassOf ex:Event .
+
+ex:KedatanganBangsaEropa
+    rdf:type ex:Conflict ;
+    rdfs:label "Kedatangan Bangsa Eropa" ;
+    ex:tahun_peristiwa "1602"^^xsd:integer ;
+    ex:latitude "-6.17511"^^xsd:decimal ;
+    ex:longitude "106.865036"^^xsd:decimal .
+
+ex:LahirnyaBudiUtomo
+    rdf:type ex:Conflict ;
+    rdfs:label "Lahirnya Budi Utomo" ;
+    ex:tahun_peristiwa "1908"^^xsd:integer ;
+    ex:latitude "-6.186486"^^xsd:decimal ;
+    ex:longitude "106.834091"^^xsd:decimal .
+
+ex:SumpahPemuda
+    rdf:type ex:Conflict ;
+    rdfs:label "Sumpah Pemuda" ;
+    ex:tahun_peristiwa "1928"^^xsd:integer ;
+    ex:latitude "-6.199986"^^xsd:decimal ;
+    ex:longitude "106.83226"^^xsd:decimal .
+
+ex:IndonesiaDikuasaiJepang
+    rdf:type ex:Conflict ;
+    rdfs:label "Indonesia Dikuasai Jepang" ;
+    ex:tahun_peristiwa "1942"^^xsd:integer ;
+    ex:latitude "-6.17511"^^xsd:decimal ;
+    ex:longitude "106.865036"^^xsd:decimal .
+
+ex:ProklamasiKemerdekaanIndonesia
+    rdf:type ex:Conflict ;
+    rdfs:label "Proklamasi Kemerdekaan Indonesia" ;
+    ex:tahun_peristiwa "1945"^^xsd:integer ;
+    ex:latitude "-6.199986"^^xsd:decimal ;
+    ex:longitude "106.83226"^^xsd:decimal .
+
+ex:PertempuranMedanArea
+    rdf:type ex:Conflict ;
+    rdfs:label "Pertempuran Medan Area" ;
+    ex:tahun_peristiwa "1945"^^xsd:integer ;
+    ex:latitude "3.595196"^^xsd:decimal ;
+    ex:longitude "98.672223"^^xsd:decimal .
+
+ex:PertempuranSurabaya
+    rdf:type ex:Conflict ;
+    rdfs:label "Pertempuran Surabaya" ;
+    ex:tahun_peristiwa "1945"^^xsd:integer ;
+    ex:latitude "-7.257472"^^xsd:decimal ;
+    ex:longitude "112.752088"^^xsd:decimal .
+
+ex:PerjanjianLinggarjati
+    rdf:type ex:Conflict ;
+    rdfs:label "Perjanjian Linggarjati" ;
+    ex:tahun_peristiwa "1946"^^xsd:integer ;
+    ex:latitude "-6.819562"^^xsd:decimal ;
+    ex:longitude "108.291649"^^xsd:decimal .
+
+ex:PemberontakanDITII
+    rdf:type ex:Conflict ;
+    rdfs:label "Pemberontakan DI/TII" ;
+    ex:tahun_peristiwa "1948"^^xsd:integer ;
+    ex:latitude "-7.801194"^^xsd:decimal ;
+    ex:longitude "110.364917"^^xsd:decimal .
+
+ex:SeranganUmum1Maret
+    rdf:type ex:Conflict ;
+    rdfs:label "Serangan Umum 1 Maret" ;
+    ex:tahun_peristiwa "1949"^^xsd:integer ;
+    ex:latitude "-7.801194"^^xsd:decimal ;
+    ex:longitude "110.364917"^^xsd:decimal .
+
+ex:KonferensiMejaBundar
+    rdf:type ex:Conflict ;
+    rdfs:label "Konferensi Meja Bundar" ;
+    ex:tahun_peristiwa "1949"^^xsd:integer ;
+    ex:latitude "52.370216"^^xsd:decimal ;
+    ex:longitude "4.895168"^^xsd:decimal .
+
+ex:DekritPresiden5Juli
+    rdf:type ex:Conflict ;
+    rdfs:label "Dekrit Presiden 5 Juli" ;
+    ex:tahun_peristiwa "1959"^^xsd:integer ;
+    ex:latitude "-6.17511"^^xsd:decimal ;
+    ex:longitude "106.865036"^^xsd:decimal .
+
+ex:PeristiwaG30SPKI
+    rdf:type ex:Conflict ;
+    rdfs:label "Peristiwa G30S/PKI" ;
+    ex:tahun_peristiwa "1965"^^xsd:integer ;
+    ex:latitude "-6.17511"^^xsd:decimal ;
+    ex:longitude "106.865036"^^xsd:decimal .
+
+ex:Supersemar
+    rdf:type ex:Conflict ;
+    rdfs:label "Supersemar" ;
+    ex:tahun_peristiwa "1966"^^xsd:integer ;
+    ex:latitude "-6.17511"^^xsd:decimal ;
+    ex:longitude "106.865036"^^xsd:decimal .
+
+ex:PembantaianWargaTionghoadiBatavia
+    rdf:type ex:Conflict ;
+    rdfs:label "Pembantaian Warga Tionghoa di Batavia" ;
+    ex:tahun_peristiwa "1740"^^xsd:integer ;
+    ex:latitude "-6.17511"^^xsd:decimal ;
+    ex:longitude "106.865036"^^xsd:decimal .
+
+ex:PerangPadri
+    rdf:type ex:Conflict ;
+    rdfs:label "Perang Padri" ;
+    ex:tahun_peristiwa "1803"^^xsd:integer ;
+    ex:latitude "-0.305556"^^xsd:decimal ;
+    ex:longitude "100.369167"^^xsd:decimal .
+
+ex:PeristiwaRengasdengklok
+    rdf:type ex:Conflict ;
+    rdfs:label "Peristiwa Rengasdengklok" ;
+    ex:tahun_peristiwa "1945"^^xsd:integer ;
+    ex:latitude "-6.148056"^^xsd:decimal ;
+    ex:longitude "107.293056"^^xsd:decimal .
+
+ex:PerjanjianRenville
+    rdf:type ex:Conflict ;
+    rdfs:label "Perjanjian Renville" ;
+    ex:tahun_peristiwa "1948"^^xsd:integer ;
+    ex:latitude "-6.17511"^^xsd:decimal ;
+    ex:longitude "106.865036"^^xsd:decimal .
+
+ex:PerundinganRoemRoyen
+    rdf:type ex:Conflict ;
+    rdfs:label "Perundingan Roem Royen" ;
+    ex:tahun_peristiwa "1949"^^xsd:integer ;
+    ex:latitude "-6.17511"^^xsd:decimal ;
+    ex:longitude "106.865036"^^xsd:decimal .
+
+ex:PertempuranBandungLautanApi
+    rdf:type ex:Conflict ;
+    rdfs:label "Pertempuran Bandung Lautan Api" ;
+    ex:tahun_peristiwa "1946"^^xsd:integer ;
+    ex:latitude "-6.917464"^^xsd:decimal ;
+    ex:longitude "107.619123"^^xsd:decimal .
+

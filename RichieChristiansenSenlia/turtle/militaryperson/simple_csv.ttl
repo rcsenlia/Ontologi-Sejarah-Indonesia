@@ -1,0 +1,359 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <https://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:Malaya  rdf:type   geo:feature ;
+        rdfs:label  "Malaya" .
+
+<http://127.0.0.1:3333/PrefekturKōchi,Jepang>
+        rdf:type    geo:feature ;
+        rdfs:label  "Prefektur Kōchi, Jepang" .
+
+:Mainz  rdf:type    geo:feature ;
+        rdfs:label  "Mainz" .
+
+:EmpireofJapan  rdf:type  sem:Actor ;
+        rdfs:label  "Empire of Japan" .
+
+:KekaisaranJepang  rdf:type  sem:Actor ;
+        rdfs:label  "Kekaisaran Jepang" .
+
+:HisaichiTerauchi  rdf:type  :Military_Person ;
+        rdfs:label    "Hisaichi Terauchi" , "Terauchi Hisaichi" ;
+        :allegiance   :KekaisaranJepang ;
+        :birth_date   [ rdf:type         time:Instant ;
+                        time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                           time:monthOfyear  "08" ;
+                                           time:year         "1879"
+                                         ] ;
+                        time:inXSDDate   "1879-08-08"
+                      ] ;
+        :birth_place  <http://127.0.0.1:3333/PrefekturYamaguchi,Jepang> ;
+        :death_date   [ rdf:type         time:Instant ;
+                        time:inDateTime  [ time:monthOfyear  "June" ;
+                                           time:year         "1946"
+                                         ] ;
+                        time:inXSDDate   "1946-06-12"
+                      ] ;
+        :death_place  :Malaya ;
+        :rank         "Field Marshal" .
+
+<http://127.0.0.1:3333/PrefekturAkita,Jepang>
+        rdf:type    geo:feature ;
+        rdfs:label  "Prefektur Akita, Jepang" .
+
+:Buleleng  rdf:type  sem:Actor ;
+        rdfs:label  "Buleleng" .
+
+:BritaniaRayaMalukuBritania
+        rdf:type    sem:Actor ;
+        rdfs:label  "Britania Raya Maluku Britania" .
+
+:IGustiKetutJelantik  rdf:type  :Military_Person ;
+        rdfs:label    "I Gusti Ketut Jelantik" ;
+        :allegiance   :Buleleng ;
+        :birth_date   [ rdf:type         time:Instant ;
+                        time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                      ] ;
+        :birth_place  <http://127.0.0.1:3333/Tukadmungga,Buleleng,Buleleng> ;
+        :death_date   [ rdf:type         time:Instant ;
+                        time:inDateTime  [] 
+                      ] ;
+        :death_place  <http://127.0.0.1:3333/Jagaraga,Buleleng> ;
+        :rank         "Patih" .
+
+<http://127.0.0.1:3333/SurigaoStrait,Filipina>
+        rdf:type    geo:feature ;
+        rdfs:label  "Surigao Strait, Filipina" .
+
+:Jepang  rdf:type   geo:feature ;
+        rdfs:label  "Jepang" .
+
+_:b0    rdf:type         time:Instant ;
+        time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                           time:monthOfyear  "10" ;
+                           time:year         "1886"
+                         ] ;
+        time:inXSDDate   "1886-10-02" .
+
+<http://127.0.0.1:3333/Haria,Saparua,MalukuTengah>
+        rdf:type    geo:feature ;
+        rdfs:label  "Haria, Saparua, Maluku Tengah" .
+
+_:b1    rdf:type         time:Instant ;
+        time:inDateTime  []  .
+
+:LautJawa  rdf:type  geo:feature ;
+        rdfs:label  "Laut Jawa" .
+
+:GubernurMiliterAceh  rdf:type  sem:Actor ;
+        rdfs:label  "Gubernur Militer Aceh" .
+
+<http://127.0.0.1:3333/Utrecht,Belanda>
+        rdf:type    geo:feature ;
+        rdfs:label  "Utrecht, Belanda" .
+
+:JisaburoOzawa  rdf:type  :Military_Person ;
+        rdfs:label    "Jisaburō Ozawa" , "Jan van Swieten" , "Kiyotake Kawaguchi" , "Jisaburo Ozawa" , "Karel Doorman" ;
+        :allegiance   :EmpireofJapan , :Belanda20px , :Belanda , :KekaisaranJepang ;
+        :birth_date   _:b2 , _:b0 , _:b3 , _:b4 ;
+        :birth_name   "Karel Willem Frederik Marie Doorman" ;
+        :birth_place  <http://127.0.0.1:3333/PrefekturKōchi,Jepang> , :Mainz , <http://127.0.0.1:3333/Utrecht,Belanda> , <http://127.0.0.1:3333/DistrikKoyu,Miyazaki,Jepang> ;
+        :death_date   _:b5 , _:b1 , _:b6 , _:b7 ;
+        :death_place  :Jepang , :DenHaag , :LautJawa ;
+        :native_name  "小沢 治三郎" , "川口 清健" ;
+        :nickname     "\"Gargoyle\"" ;
+        :rank         "Letnan Jenderal" , "Mayor Jenderal" , "nl Schout-bij-nacht" , "30px Laksamana Madya" .
+
+<http://127.0.0.1:3333/PrefekturYamaguchi,Jepang>
+        rdf:type    geo:feature ;
+        rdfs:label  "Prefektur Yamaguchi, Jepang" .
+
+<http://127.0.0.1:3333/Sendai,PrefekturMiyagi,Jepang>
+        rdf:type    geo:feature ;
+        rdfs:label  "Sendai, Prefektur Miyagi, Jepang" .
+
+<http://127.0.0.1:3333/DenHaag,Belanda>
+        rdf:type    geo:feature ;
+        rdfs:label  "Den Haag, Belanda" .
+
+_:b2    rdf:type         time:Instant ;
+        time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                           time:monthOfyear  "04" ;
+                           time:year         "1889"
+                         ] ;
+        time:inXSDDate   "1889-04-23" .
+
+:Pattimura  rdf:type  :Military_Person ;
+        rdfs:label    "Pattimura" , "Thomas Matulessy" ;
+        :allegiance   :BritaniaRayaMalukuBritania ;
+        :birth_date   [ rdf:type         time:Instant ;
+                        time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                           time:monthOfyear  "06" ;
+                                           time:year         "1783"
+                                         ] ;
+                        time:inXSDDate   "1783-06-08"
+                      ] ;
+        :birth_place  <http://127.0.0.1:3333/Haria,Saparua,MalukuTengah> ;
+        :death_date   [ rdf:type         time:Instant ;
+                        time:inDateTime  [ time:monthOfyear  "December" ;
+                                           time:year         "1817"
+                                         ] ;
+                        time:inXSDDate   "1817-12-16"
+                      ] ;
+        :death_place  <http://127.0.0.1:3333/Victoria,Ambon,KepulauanMaluku> ;
+        :nickname     "Kapitan Pattimura" ;
+        :rank         "Sersan Mayor" ;
+        :religion     "Kristen Protestan" .
+
+<http://127.0.0.1:3333/Victoria,Ambon,KepulauanMaluku>
+        rdf:type    geo:feature ;
+        rdfs:label  "Victoria, Ambon, Kepulauan Maluku" .
+
+:JohanHarmenRudolfKöhler
+        rdf:type      :Military_Person ;
+        rdfs:label    "Johan Harmen Rudolf Köhler" ;
+        :allegiance   :GubernurMiliterAceh ;
+        :birth_date   [ rdf:type         time:Instant ;
+                        time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                           time:monthOfyear  "07" ;
+                                           time:year         "1818"
+                                         ] ;
+                        time:inXSDDate   "1818-07-03"
+                      ] ;
+        :birth_place  <http://127.0.0.1:3333/Groningen,Belanda> ;
+        :death_date   [ rdf:type         time:Instant ;
+                        time:inDateTime  [ time:monthOfyear  "April" ;
+                                           time:year         "1873"
+                                         ] ;
+                        time:inXSDDate   "1873-04-14"
+                      ] ;
+        :death_place  <http://127.0.0.1:3333/BandaAceh,KesultananAcehDarussalam> ;
+        :rank         "Jendral" ;
+        :unit         "Infanteri" .
+
+<http://127.0.0.1:3333/Semarang,HindiaBelanda>
+        rdf:type    geo:feature ;
+        rdfs:label  "Semarang, Hindia Belanda" .
+
+<http://127.0.0.1:3333/Groningen,Belanda>
+        rdf:type    geo:feature ;
+        rdfs:label  "Groningen, Belanda" .
+
+_:b7    rdf:type         time:Instant ;
+        time:inDateTime  [ time:monthOfyear  "February" ;
+                           time:year         "1942"
+                         ] ;
+        time:inXSDDate   "1942-02-28" .
+
+:HeinterPoorten  rdf:type  :Military_Person ;
+        rdfs:label    "Hein ter Poorten" ;
+        :allegiance   :Belanda ;
+        :birth_date   [ rdf:type         time:Instant ;
+                        time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                           time:monthOfyear  "11" ;
+                                           time:year         "1887"
+                                         ] ;
+                        time:inXSDDate   "1887-11-21"
+                      ] ;
+        :birth_place  <http://127.0.0.1:3333/Buitenzorg,HindiaBelanda> ;
+        :death_date   [ rdf:type         time:Instant ;
+                        time:inDateTime  [ time:monthOfyear  "January" ;
+                                           time:year         "1968"
+                                         ] ;
+                        time:inXSDDate   "1968-01-15"
+                      ] ;
+        :death_place  <http://127.0.0.1:3333/DenHaag,Belanda> ;
+        :rank         "Letnan jenderal" .
+
+_:b6    rdf:type         time:Instant ;
+        time:inDateTime  [ time:monthOfyear  "November" ;
+                           time:year         "1966"
+                         ] ;
+        time:inXSDDate   "1966-11-09" .
+
+:ConradHelfrich  rdf:type  :Military_Person ;
+        rdfs:label    "Conrad Helfrich" ;
+        :allegiance   :Belanda ;
+        :birth_date   [ rdf:type         time:Instant ;
+                        time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                           time:monthOfyear  "10" ;
+                                           time:year         "1886"
+                                         ] ;
+                        time:inXSDDate   "1886-10-11"
+                      ] ;
+        :birth_place  <http://127.0.0.1:3333/Semarang,HindiaBelanda> ;
+        :death_date   [ rdf:type         time:Instant ;
+                        time:inDateTime  [] 
+                      ] ;
+        :death_place  <http://127.0.0.1:3333/DenHaag,Belanda> ;
+        :rank         "Letnan Laksamana" .
+
+:HitoshiImamura  rdf:type  :Military_Person ;
+        rdfs:label    "Hitoshi Imamura" ;
+        :allegiance   :KekaisaranJepang ;
+        :birth_date   [ rdf:type         time:Instant ;
+                        time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                           time:monthOfyear  "06" ;
+                                           time:year         "1886"
+                                         ] ;
+                        time:inXSDDate   "1886-06-28"
+                      ] ;
+        :birth_place  <http://127.0.0.1:3333/Sendai,PrefekturMiyagi,Jepang> ;
+        :death_date   [ rdf:type         time:Instant ;
+                        time:inDateTime  [ time:monthOfyear  "October" ;
+                                           time:year         "1968"
+                                         ] ;
+                        time:inXSDDate   "1968-10-04"
+                      ] ;
+        :laterwork    "Penulis" ;
+        :native_name  "今村 均" ;
+        :rank         "Jendral" .
+
+:DenHaag  rdf:type  geo:feature ;
+        rdfs:label  "Den Haag" .
+
+<http://127.0.0.1:3333/BandaAceh,KesultananAcehDarussalam>
+        rdf:type    geo:feature ;
+        rdfs:label  "Banda Aceh, Kesultanan Aceh Darussalam" .
+
+_:b4    rdf:type         time:Instant ;
+        time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                           time:monthOfyear  "12" ;
+                           time:year         "1892"
+                         ] ;
+        time:inXSDDate   "1892-12-03" .
+
+:ShojiNishimura  rdf:type  :Military_Person ;
+        rdfs:label    "Shōji Nishimura" , "Shoji Nishimura" ;
+        :allegiance   :EmpireofJapan ;
+        :birth_date   [ rdf:type         time:Instant ;
+                        time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                           time:monthOfyear  "11" ;
+                                           time:year         "1889"
+                                         ] ;
+                        time:inXSDDate   "1889-11-30"
+                      ] ;
+        :birth_place  <http://127.0.0.1:3333/PrefekturAkita,Jepang> ;
+        :death_date   [ rdf:type         time:Instant ;
+                        time:inDateTime  [ time:monthOfyear  "October" ;
+                                           time:year         "1944"
+                                         ] ;
+                        time:inXSDDate   "1944-10-24"
+                      ] ;
+        :death_place  <http://127.0.0.1:3333/SurigaoStrait,Filipina> ;
+        :native_name  "西村 祥治" ;
+        :rank         "Laksamana Madya" .
+
+:KarelDoorman  rdf:type  :Military_Person ;
+        rdfs:label    "Kiyotake Kawaguchi" , "Jisaburo Ozawa" , "Jan van Swieten" , "Jisaburō Ozawa" , "Karel Doorman" ;
+        :allegiance   :EmpireofJapan , :Belanda , :Belanda20px , :KekaisaranJepang ;
+        :birth_date   _:b0 , _:b2 , _:b3 , _:b4 ;
+        :birth_name   "Karel Willem Frederik Marie Doorman" ;
+        :birth_place  <http://127.0.0.1:3333/DistrikKoyu,Miyazaki,Jepang> , <http://127.0.0.1:3333/Utrecht,Belanda> , <http://127.0.0.1:3333/PrefekturKōchi,Jepang> , :Mainz ;
+        :death_date   _:b5 , _:b6 , _:b7 , _:b1 ;
+        :death_place  :DenHaag , :LautJawa , :Jepang ;
+        :native_name  "小沢 治三郎" , "川口 清健" ;
+        :nickname     "\"Gargoyle\"" ;
+        :rank         "Letnan Jenderal" , "Mayor Jenderal" , "nl Schout-bij-nacht" , "30px Laksamana Madya" .
+
+:KiyotakeKawaguchi  rdf:type  :Military_Person ;
+        rdfs:label    "Jan van Swieten" , "Jisaburo Ozawa" , "Jisaburō Ozawa" , "Karel Doorman" , "Kiyotake Kawaguchi" ;
+        :allegiance   :Belanda20px , :EmpireofJapan , :KekaisaranJepang , :Belanda ;
+        :birth_date   _:b0 , _:b3 , _:b2 , _:b4 ;
+        :birth_name   "Karel Willem Frederik Marie Doorman" ;
+        :birth_place  <http://127.0.0.1:3333/Utrecht,Belanda> , <http://127.0.0.1:3333/DistrikKoyu,Miyazaki,Jepang> , :Mainz , <http://127.0.0.1:3333/PrefekturKōchi,Jepang> ;
+        :death_date   _:b1 , _:b5 , _:b7 , _:b6 ;
+        :death_place  :LautJawa , :DenHaag , :Jepang ;
+        :native_name  "川口 清健" , "小沢 治三郎" ;
+        :nickname     "\"Gargoyle\"" ;
+        :rank         "30px Laksamana Madya" , "nl Schout-bij-nacht" , "Letnan Jenderal" , "Mayor Jenderal" .
+
+:JanvanSwieten  rdf:type  :Military_Person ;
+        rdfs:label    "Jisaburō Ozawa" , "Kiyotake Kawaguchi" , "Jisaburo Ozawa" , "Karel Doorman" , "Jan van Swieten" ;
+        :allegiance   :Belanda20px , :Belanda , :EmpireofJapan , :KekaisaranJepang ;
+        :birth_date   _:b0 , _:b4 , _:b2 , _:b3 ;
+        :birth_name   "Karel Willem Frederik Marie Doorman" ;
+        :birth_place  :Mainz , <http://127.0.0.1:3333/Utrecht,Belanda> , <http://127.0.0.1:3333/PrefekturKōchi,Jepang> , <http://127.0.0.1:3333/DistrikKoyu,Miyazaki,Jepang> ;
+        :death_date   _:b6 , _:b7 , _:b5 , _:b1 ;
+        :death_place  :LautJawa , :DenHaag , :Jepang ;
+        :native_name  "川口 清健" , "小沢 治三郎" ;
+        :nickname     "\"Gargoyle\"" ;
+        :rank         "Mayor Jenderal" , "Letnan Jenderal" , "nl Schout-bij-nacht" , "30px Laksamana Madya" .
+
+:Belanda  rdf:type  sem:Actor ;
+        rdfs:label  "Belanda" .
+
+<http://127.0.0.1:3333/Buitenzorg,HindiaBelanda>
+        rdf:type    geo:feature ;
+        rdfs:label  "Buitenzorg, Hindia Belanda" .
+
+_:b3    rdf:type         time:Instant ;
+        time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ] .
+
+<http://127.0.0.1:3333/DistrikKoyu,Miyazaki,Jepang>
+        rdf:type    geo:feature ;
+        rdfs:label  "Distrik Koyu, Miyazaki, Jepang" .
+
+:Belanda20px  rdf:type  sem:Actor ;
+        rdfs:label  "Belanda 20px" .
+
+<http://127.0.0.1:3333/Tukadmungga,Buleleng,Buleleng>
+        rdf:type    geo:feature ;
+        rdfs:label  "Tukadmungga, Buleleng, Buleleng" .
+
+_:b5    rdf:type         time:Instant ;
+        time:inDateTime  [ time:monthOfyear  "May" ;
+                           time:year         "1961"
+                         ] ;
+        time:inXSDDate   "1961-05-16" .
+
+<http://127.0.0.1:3333/Jagaraga,Buleleng>
+        rdf:type    geo:feature ;
+        rdfs:label  "Jagaraga, Buleleng" .

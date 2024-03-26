@@ -1,0 +1,180 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+<http://127.0.0.1:3333/KonfrontasiIndonesia–Malaysia>
+        :commander2  :EddyMartadinata , :BongKeeChok , :Soeharto , :YassinAffandi , :D.N.Aidit , :AhmadYani , :PranotoReksosamudro , :Soekarno , :A.M.Azahari , :OmarDhani .
+
+:NinoKonisSantana  rdf:type  :Person ;
+        rdfs:label  "Nino Konis Santana" .
+
+:KeriLaranSabalae  rdf:type  :Person ;
+        rdfs:label  "Keri Laran Sabalae" .
+
+:Sekarang  rdf:type  :Person ;
+        rdfs:label  "Sekarang" .
+
+<http://127.0.0.1:3333/AbdullahSyafi'i>
+        rdf:type    :Person ;
+        rdfs:label  "Abdullah Syafi'i" .
+
+:ManueldeSousa  rdf:type  :Person ;
+        rdfs:label  "Manuel de Sousa" .
+
+:KrisisTimorTimur1999
+        :commander2  :CancioLopezdeCarvalho , :OlivioMendoncaMoruk , :ManueldeSousa , :EuricoGuterres , :Wiranto .
+
+:MuzakirManaf  rdf:type  :Person ;
+        rdfs:label  "Muzakir Manaf" .
+
+:D.N.Aidit  rdf:type  :Person ;
+        rdfs:label  "D. N. Aidit" .
+
+:EddyMartadinata  rdf:type  :Person ;
+        rdfs:label  "Eddy Martadinata" .
+
+:KellyKwalik  rdf:type  :Person ;
+        rdfs:label  "Kelly Kwalik " , "Kelly Kwalik" .
+
+:JacobRumbiak  rdf:type  :Person ;
+        rdfs:label  "Jacob Rumbiak" .
+
+:GoliathTabuni  rdf:type  :Person ;
+        rdfs:label  "Goliath Tabuni" .
+
+:A.M.Azahari  rdf:type  :Person ;
+        rdfs:label  "A. M. Azahari" .
+
+:PendudukanIndonesiaatasTimorTimur
+        :commander2  :FranciscoXavierdoAmaral , :DavidAlex , :NicolaudosReisLobato , :RogérioLobato , :KeriLaranSabalae , :XananaGusmão , <http://127.0.0.1:3333/Ma'hunoBulerekKarathayano> , :NinoKonisSantana , :MariAlkatiri , :TaurMatanRuak .
+
+:KerusuhanPoso  :commander2  :AdnanArsal .
+
+:SofyanDawood  rdf:type  :Person ;
+        rdfs:label  "Sofyan Dawood" .
+
+:NicolaudosReisLobato
+        rdf:type    :Person ;
+        rdfs:label  "Nicolau dos Reis Lobato" .
+
+:EuricoGuterres  rdf:type  :Person ;
+        rdfs:label  "Eurico Guterres" .
+
+:DavidAlex  rdf:type  :Person ;
+        rdfs:label  "David Alex" .
+
+:XananaGusmão  rdf:type  :Person ;
+        rdfs:label  "Xanana Gusmão" .
+
+:OmarDhani  rdf:type  :Person ;
+        rdfs:label  "Omar Dhani" .
+
+:HasandiTiro  rdf:type  :Person ;
+        rdfs:label  "Hasan di Tiro" .
+
+:EgianusKogoya  rdf:type  :Person ;
+        rdfs:label  "Egianus Kogoya" .
+
+:JacobPrai  rdf:type  :Person ;
+        rdfs:label  "Jacob Prai" .
+
+:MariAlkatiri  rdf:type  :Person ;
+        rdfs:label  "Mari Alkatiri" .
+
+:PemberontakandiAceh  :commander2  :IshakDaud , :AyahMuni , :SofyanDawood , :MuzakirManaf , <http://127.0.0.1:3333/AbdullahSyafi'i> , :ZainiAbdullah , :HasandiTiro .
+
+:AyahMuni  rdf:type  :Person ;
+        rdfs:label  "Ayah Muni" .
+
+:YassinAffandi  rdf:type  :Person ;
+        rdfs:label  "Yassin Affandi" .
+
+:SallehBinSambas  rdf:type  :Person ;
+        rdfs:label  "Salleh Bin Sambas" .
+
+:KrisissanderaMapenduma
+        :commander2  :KellyKwalik .
+
+:OperasiTrikora  :commander2  :W.A.vanHeuven , :C.J.vanWestenbrugge .
+
+:SebbySambom  rdf:type  :Person ;
+        rdfs:label  "Sebby Sambom" .
+
+:Soekarno  rdf:type  :Person ;
+        rdfs:label  "Soekarno" .
+
+:OperasimiliterIndonesiadiAceh1990-1998
+        :commander2  <http://127.0.0.1:3333/AbdullahSyafi'i> , :HasanDiTiro .
+
+:KonflikPapua  :commander2  :JacobPrai , :EgianusKogoya , :SebbySambom , :KellyKwalik , :JacobRumbiak , :GoliathTabuni , :Sekarang , :JoniBotak , :MathiasWenda , :BennyWenda .
+
+:MathiasWenda  rdf:type  :Person ;
+        rdfs:label  "Mathias Wenda" .
+
+:IshakDaud  rdf:type  :Person ;
+        rdfs:label  "Ishak Daud" .
+
+:W.A.vanHeuven  rdf:type  :Person ;
+        rdfs:label  "W.A. van Heuven" .
+
+:BongKeeChok  rdf:type  :Person ;
+        rdfs:label  "Bong Kee Chok" .
+
+:InvasiIndonesiakeTimorTimur
+        :commander2  :NicolaudosReisLobato , :FranciscoXavierdoAmaral .
+
+:CancioLopezdeCarvalho
+        rdf:type    :Person ;
+        rdfs:label  "Cancio Lopez de Carvalho" .
+
+:BennyWenda  rdf:type  :Person ;
+        rdfs:label  "Benny Wenda" .
+
+:RogérioLobato  rdf:type  :Person ;
+        rdfs:label  "Rogério Lobato" .
+
+:AdnanArsal  rdf:type  :Person ;
+        rdfs:label  "Adnan Arsal" .
+
+<http://127.0.0.1:3333/Ma'hunoBulerekKarathayano>
+        rdf:type    :Person ;
+        rdfs:label  "Ma'huno Bulerek Karathayano" .
+
+:PranotoReksosamudro  rdf:type  :Person ;
+        rdfs:label  "Pranoto Reksosamudro" .
+
+:AhmadYani  rdf:type  :Person ;
+        rdfs:label  "Ahmad Yani" .
+
+:HasanDiTiro  rdf:type  :Person ;
+        rdfs:label  "Hasan Di Tiro" .
+
+:C.J.vanWestenbrugge  rdf:type  :Person ;
+        rdfs:label  "C.J. van Westenbrugge" .
+
+:SerangankeLimbang  :commander2  :SallehBinSambas .
+
+:OlivioMendoncaMoruk  rdf:type  :Person ;
+        rdfs:label  "Olivio Mendonca Moruk" .
+
+:FranciscoXavierdoAmaral
+        rdf:type    :Person ;
+        rdfs:label  "Francisco Xavier do Amaral" .
+
+:Wiranto  rdf:type  :Person ;
+        rdfs:label  "Wiranto" .
+
+:Soeharto  rdf:type  :Person ;
+        rdfs:label  "Soeharto" .
+
+:ZainiAbdullah  rdf:type  :Person ;
+        rdfs:label  "Zaini Abdullah" .
+
+:TaurMatanRuak  rdf:type  :Person ;
+        rdfs:label  "Taur Matan Ruak" .
+
+:JoniBotak  rdf:type  :Person ;
+        rdfs:label  "Joni Botak" .

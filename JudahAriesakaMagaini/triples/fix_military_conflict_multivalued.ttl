@@ -1,0 +1,697 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:IvorHodgkinsonPerson
+        rdf:type    :Person ;
+        rdfs:label  "Ivor Hodgkinson" .
+
+:MuhammadJusufPerson  rdf:type  :Person ;
+        rdfs:label  "Muhammad Jusuf" .
+
+:DadingKalbuadiPerson
+        rdf:type    :Person ;
+        rdfs:label  "Dading Kalbuadi" .
+
+:PortugalActor  rdf:type  sem:Actor ;
+        rdfs:label  "Portugal" .
+
+:JemaahIslamiyahActor
+        rdf:type    sem:Actor ;
+        rdfs:label  "Jemaah Islamiyah" .
+
+:Gerakan30September  rdf:type  :MilitaryConflict .
+
+:DeddyWoeryantonoPerson
+        rdf:type    :Person ;
+        rdfs:label  "Deddy Woeryantono" .
+
+:TaurMatanRuakPerson  rdf:type  :Person ;
+        rdfs:label  "Taur Matan Ruak" .
+
+:W.A.vanHeuvenPerson  rdf:type  :Person ;
+        rdfs:label  "W.A. van Heuven" .
+
+:AdnanArsalPerson  rdf:type  :Person ;
+        rdfs:label  "Adnan Arsal" .
+
+:CareyAdamsonPerson  rdf:type  :Person ;
+        rdfs:label  "Carey Adamson" .
+
+:LeonardusBenyaminMoerdaniPerson
+        rdf:type    :Person ;
+        rdfs:label  "Leonardus Benyamin Moerdani" .
+
+:NigerActor  rdf:type  sem:Actor ;
+        rdfs:label  "Niger" .
+
+:SutiyosoPerson  rdf:type  :Person ;
+        rdfs:label  "Sutiyoso" .
+
+:KrisissanderaMapenduma
+        rdf:type     :MilitaryConflict ;
+        :combatant1  :IndonesiaActor ;
+        :combatant2  :RepublikPapuaBaratActor ;
+        :commander1  :PrabowoSubiantoPerson ;
+        :commander2  :KellyKwalikPerson .
+
+:TaiwanActor  rdf:type  sem:Actor ;
+        rdfs:label  "Taiwan" .
+
+:OperasimiliterIndonesiadiAceh1990-1998
+        rdf:type     :MilitaryConflict ;
+        :combatant1  :AmerikaSerikatActor , :IndonesiaActor ;
+        :combatant2  <http://127.0.0.1:3333/TentaraNasionalAceh(TNA)Actor> , :LaskarInöngBalèActor , :GerakanAcehMerdekaActor ;
+        :commander1  :SutiyosoPerson , :TrySutrisnoPerson , :SoehartoPerson ;
+        :commander2  :HasanDiTiroPerson , <http://127.0.0.1:3333/AbdullahSyafi'iPerson> .
+
+:MahidiActor  rdf:type  sem:Actor ;
+        rdfs:label  "Mahidi" .
+
+:FilipinaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Filipina" .
+
+:BeninActor  rdf:type  sem:Actor ;
+        rdfs:label  "Benin" .
+
+:KaptenMemetSastrawiriaPerson
+        rdf:type    :Person ;
+        rdfs:label  "Kapten Memet Sastrawiria" .
+
+:AustriaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Austria" .
+
+:MesirActor  rdf:type  sem:Actor ;
+        rdfs:label  "Mesir" .
+
+:PolresPosoActor  rdf:type  sem:Actor ;
+        rdfs:label  "Polres Poso" .
+
+:ItaliaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Italia" .
+
+:NepalActor  rdf:type  sem:Actor ;
+        rdfs:label  "Nepal" .
+
+:YordaniaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Yordania" .
+
+:KerusuhanSambas  rdf:type  :MilitaryConflict ;
+        :combatant1  :SukuDayakActor , :SukuMelayuActor ;
+        :combatant2  :SukuMaduraActor .
+
+:PemerintahPusatActor
+        rdf:type    sem:Actor ;
+        rdfs:label  "Pemerintah Pusat" .
+
+:PeterCosgrovePerson  rdf:type  :Person ;
+        rdfs:label  "Peter Cosgrove" .
+
+:RogérioLobatoPerson  rdf:type  :Person ;
+        rdfs:label  "Rogério Lobato" .
+
+:PertempuranSungeiKoemba
+        rdf:type     :MilitaryConflict ;
+        :combatant1  :AustraliaActor ;
+        :combatant2  :IndonesiaActor ;
+        :commander1  :IvorHodgkinsonPerson , :WilliamBroderickPerson .
+
+:SérgioVieiradeMelloPerson
+        rdf:type    :Person ;
+        rdfs:label  "Sérgio Vieira de Mello" .
+
+:GardaMudaPenegakIntegrasiActor
+        rdf:type    sem:Actor ;
+        rdfs:label  "Garda Muda Penegak Integrasi" .
+
+<http://127.0.0.1:3333/AbdullahSyafi'iPerson>
+        rdf:type    :Person ;
+        rdfs:label  "Abdullah Syafi'i" .
+
+:TentaraNasionalKalimantanUtaraActor
+        rdf:type    sem:Actor ;
+        rdfs:label  "Tentara Nasional Kalimantan Utara" .
+
+:NinoKonisSantanaPerson
+        rdf:type    :Person ;
+        rdfs:label  "Nino Konis Santana" .
+
+:OperasiTrikora  rdf:type  :MilitaryConflict ;
+        :combatant1  :UniSovietActor , :IndonesiaActor ;
+        :combatant2  :BelandaActor , :NuginiBelandaActor ;
+        :commander1  :LeonardusBenyaminMoerdaniPerson , :AbdulHarisNasutionPerson , :EddyMartadinataPerson , :AhmadYaniPerson , :SoerjadiSoerjadarmaPerson , :SoekarnoPerson , :YosSudarsoPerson , :SoehartoPerson , :OmarDhaniPerson ;
+        :commander2  :C.J.vanWestenbruggePerson , :W.A.vanHeuvenPerson .
+
+:SusiloBambangYudhoyonoPerson
+        rdf:type    :Person ;
+        rdfs:label  "Susilo Bambang Yudhoyono" .
+
+:BosniadanHerzegovinaActor
+        rdf:type    sem:Actor ;
+        rdfs:label  "Bosnia dan Herzegovina" .
+
+:SamoaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Samoa" .
+
+:SukuDayakActor  rdf:type  sem:Actor ;
+        rdfs:label  "Suku Dayak" .
+
+:MujahidinKOMPAKActor
+        rdf:type    sem:Actor ;
+        rdfs:label  "Mujahidin KOMPAK" .
+
+:BangladeshActor  rdf:type  sem:Actor ;
+        rdfs:label  "Bangladesh" .
+
+:SwediaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Swedia" .
+
+:PrabowoSubiantoPerson
+        rdf:type    :Person ;
+        rdfs:label  "Prabowo Subianto" .
+
+:RusiaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Rusia" .
+
+:NuginiBelandaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Nugini Belanda" .
+
+:L.B.MoerdaniPerson  rdf:type  :Person ;
+        rdfs:label  "L. B. Moerdani" .
+
+:CNRMActor  rdf:type  sem:Actor ;
+        rdfs:label  "CNRM" .
+
+:PeruActor  rdf:type  sem:Actor ;
+        rdfs:label  "Peru" .
+
+:HelenClarkPerson  rdf:type  :Person ;
+        rdfs:label  "Helen Clark" .
+
+:JohnHowardPerson  rdf:type  :Person ;
+        rdfs:label  "John Howard" .
+
+:TidakdiketahuiPerson
+        rdf:type    :Person ;
+        rdfs:label  "Tidak diketahui" .
+
+:TiongkokActor  rdf:type  sem:Actor ;
+        rdfs:label  "Tiongkok" .
+
+:MariAlkatiriPerson  rdf:type  :Person ;
+        rdfs:label  "Mari Alkatiri" .
+
+:KaptenTjiptadiPerson
+        rdf:type    :Person ;
+        rdfs:label  "Kapten Tjiptadi" .
+
+:PemerintahKabupatenActor
+        rdf:type    sem:Actor ;
+        rdfs:label  "Pemerintah Kabupaten" .
+
+:LaskarJihadActor  rdf:type  sem:Actor ;
+        rdfs:label  "Laskar Jihad" .
+
+:LobiJakartaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Lobi Jakarta" .
+
+:BatalyonInfanteri711Actor
+        rdf:type    sem:Actor ;
+        rdfs:label  "Batalyon Infanteri 711" .
+
+:SerangankeLimbang  rdf:type  :MilitaryConflict ;
+        :combatant1  :BritaniaRayaActor ;
+        :combatant2  :TentaraNasionalKalimantanUtaraActor ;
+        :commander1  :JeremyMoorePerson ;
+        :commander2  :SallehBinSambasPerson .
+
+:PendaratandiLabis  rdf:type  :MilitaryConflict ;
+        :combatant1  :SelandiaBaruActor , :BritaniaRayaActor , :MalaysiaActor ;
+        :combatant2  :IndonesiaActor ;
+        :commander1  :TidakdiketahuiPerson .
+
+:PakistanActor  rdf:type  sem:Actor ;
+        rdfs:label  "Pakistan" .
+
+:CâncioLopezdeCarvalhoPerson
+        rdf:type    :Person ;
+        rdfs:label  "Câncio Lopez de Carvalho" .
+
+:UDTActor  rdf:type  sem:Actor ;
+        rdfs:label  "UDT" .
+
+:MilisiIslamActor  rdf:type  sem:Actor ;
+        rdfs:label  "Milisi Islam" .
+
+:IsraelActor  rdf:type  sem:Actor ;
+        rdfs:label  "Israel" .
+
+:L.B.MurdaniPerson  rdf:type  :Person ;
+        rdfs:label  "L. B. Murdani" .
+
+:SelandiaBaruActor  rdf:type  sem:Actor ;
+        rdfs:label  "Selandia Baru" .
+
+:JepangActor  rdf:type  sem:Actor ;
+        rdfs:label  "Jepang" .
+
+:JeremyMoorePerson  rdf:type  :Person ;
+        rdfs:label  "Jeremy Moore" .
+
+:LibyaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Libya" .
+
+:IrlandiaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Irlandia" .
+
+:POLRIActor  rdf:type  sem:Actor ;
+        rdfs:label  "POLRI" .
+
+<http://127.0.0.1:3333/TentaraNasionalAceh(TNA)Actor>
+        rdf:type    sem:Actor ;
+        rdfs:label  "Tentara Nasional Aceh (TNA)" .
+
+:InvasiIndonesiakeTimorTimur
+        rdf:type     :MilitaryConflict ;
+        :combatant1  :IndonesiaActor , :PSTTActor , :ABRIActor , :TaiwanActor , :AmerikaSerikatActor , :APODETIActor , :AustraliaActor , :ArabSaudiActor , :KoreaSelatanActor , :UDTActor ;
+        :combatant2  :SwediaActor , :FRETILINActor , :TimorLesteActor , :FALINTILActor , :KubaActor , :UniSovietActor , :MozambikActor , :TiongkokActor ;
+        :commander1  :MaradenPanggabeanPerson , :WidjojoSoejonoPerson , :JoséAbílioOsórioSoaresPerson , :SoehartoPerson , :LuhutBinsarPandjaitanPerson , :L.B.MoerdaniPerson , :PrabowoSubiantoPerson , :DadingKalbuadiPerson ;
+        :commander2  :FranciscoXavierdoAmaralPerson , :NicolaudosReisLobatoPerson .
+
+:SpanyolActor  rdf:type  sem:Actor ;
+        rdfs:label  "Spanyol" .
+
+:KerusuhanPoso  rdf:type  :MilitaryConflict ;
+        :combatant1  :PoldaSulawesiTengahActor , :PemerintahPusatActor , :BatalyonInfanteri711Actor , :Korem132TadulakoActor , :PemerintahProvinsiActor , :KodamWirabuanaActor , :PolresPosoActor , :PemerintahKabupatenActor , :POLRIActor , :TNIActor ;
+        :combatant2  :MilisiIslamActor , :JemaahIslamiyahActor , :MujahidinKOMPAKActor , :LaskarJihadActor ;
+        :commander1  :SusiloBambangYudhoyonoPerson , :ZainalAbidinIshakPerson , :AbdurrahmanWahidPerson , :DeddyWoeryantonoPerson , :DjasmanBasoOpuPerson , :AminuddinPonulelePerson , :JusufKallaBandjelaPaliudjuPerson , :SlametKirbiantoroPerson , :AriefPatangaPerson , :MuinPusadanPerson ;
+        :commander2  :AdnanArsalPerson .
+
+:SallehBinSambasPerson
+        rdf:type    :Person ;
+        rdfs:label  "Salleh Bin Sambas" .
+
+:PertempuranLautAru  rdf:type  :MilitaryConflict ;
+        :combatant1  :IndonesiaActor ;
+        :combatant2  :BelandaActor ;
+        :commander1  :KaptenMemetSastrawiriaPerson , :KaptenTjiptadiPerson , :KaptenWiratnoPerson , :KolonelSudomoPerson , :KomodorYosSudarsoPerson .
+
+:LuhutBinsarPandjaitanPerson
+        rdf:type    :Person ;
+        rdfs:label  "Luhut Binsar Pandjaitan" .
+
+:Korem132TadulakoActor
+        rdf:type    sem:Actor ;
+        rdfs:label  "Korem 132 Tadulako" .
+
+:KodamWirabuanaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Kodam Wirabuana" .
+
+:FALINTILActor  rdf:type  sem:Actor ;
+        rdfs:label  "FALINTIL" .
+
+:ManueldeSousaPerson  rdf:type  :Person ;
+        rdfs:label  "Manuel de Sousa" .
+
+:PoldaSulawesiTengahActor
+        rdf:type    sem:Actor ;
+        rdfs:label  "Polda Sulawesi Tengah" .
+
+:ZimbabweActor  rdf:type  sem:Actor ;
+        rdfs:label  "Zimbabwe" .
+
+:TrySutrisnoPerson  rdf:type  :Person ;
+        rdfs:label  "Try Sutrisno" .
+
+:ZainalAbidinIshakPerson
+        rdf:type    :Person ;
+        rdfs:label  "Zainal Abidin Ishak" .
+
+:SerbiadanMontenegroActor
+        rdf:type    sem:Actor ;
+        rdfs:label  "Serbia dan Montenegro" .
+
+:KanadaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Kanada" .
+
+:FranciscoXavierdoAmaralPerson
+        rdf:type    :Person ;
+        rdfs:label  "Francisco Xavier do Amaral" .
+
+:NicolaudosReisLobatoPerson
+        rdf:type    :Person ;
+        rdfs:label  "Nicolau dos Reis Lobato" .
+
+:PSTTActor  rdf:type  sem:Actor ;
+        rdfs:label  "PSTT" .
+
+:OrganisasiPapuaMerdekaActor
+        rdf:type    sem:Actor ;
+        rdfs:label  "Organisasi Papua Merdeka" .
+
+:AbdurrahmanWahidPerson
+        rdf:type    :Person ;
+        rdfs:label  "Abdurrahman Wahid" .
+
+:GerakanAcehMerdekaActor
+        rdf:type    sem:Actor ;
+        rdfs:label  "Gerakan Aceh Merdeka" .
+
+:XananaGusmãoPerson  rdf:type  :Person ;
+        rdfs:label  "Xanana Gusmão" .
+
+:KolonelSudomoPerson  rdf:type  :Person ;
+        rdfs:label  "Kolonel Sudomo" .
+
+:FRETILINActor  rdf:type  sem:Actor ;
+        rdfs:label  "FRETILIN" .
+
+:MuinPusadanPerson  rdf:type  :Person ;
+        rdfs:label  "Muin Pusadan" .
+
+:FijiActor  rdf:type  sem:Actor ;
+        rdfs:label  "Fiji" .
+
+:BesiMerahPutihActor  rdf:type  sem:Actor ;
+        rdfs:label  "Besi Merah Putih" .
+
+:KenyaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Kenya" .
+
+:SriLankaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Sri Lanka" .
+
+:MaradenPanggabeanPerson
+        rdf:type    :Person ;
+        rdfs:label  "Maraden Panggabean" .
+
+:AriefPatangaPerson  rdf:type  :Person ;
+        rdfs:label  "Arief Patanga" .
+
+:KomodorYosSudarsoPerson
+        rdf:type    :Person ;
+        rdfs:label  "Komodor Yos Sudarso" .
+
+:OmarDhaniPerson  rdf:type  :Person ;
+        rdfs:label  "Omar Dhani" .
+
+:DenmarkActor  rdf:type  sem:Actor ;
+        rdfs:label  "Denmark" .
+
+:SlametKirbiantoroPerson
+        rdf:type    :Person ;
+        rdfs:label  "Slamet Kirbiantoro" .
+
+:BulgariaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Bulgaria" .
+
+:ThailandActor  rdf:type  sem:Actor ;
+        rdfs:label  "Thailand" .
+
+:NigeriaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Nigeria" .
+
+:BritaniaRayaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Britania Raya" .
+
+:SloveniaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Slovenia" .
+
+:INTERFETActor  rdf:type  sem:Actor ;
+        rdfs:label  "INTERFET" .
+
+:KellyKwalikPerson  rdf:type  :Person ;
+        rdfs:label  "Kelly Kwalik" .
+
+:ArgentinaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Argentina" .
+
+:KaptenWiratnoPerson  rdf:type  :Person ;
+        rdfs:label  "Kapten Wiratno" .
+
+:EdiSudradjatPerson  rdf:type  :Person ;
+        rdfs:label  "Edi Sudradjat" .
+
+:SoehartoPerson  rdf:type  :Person ;
+        rdfs:label  "Soeharto" .
+
+:AustraliaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Australia" .
+
+:UniSovietActor  rdf:type  sem:Actor ;
+        rdfs:label  "Uni Soviet" .
+
+:AminuddinPonulelePerson
+        rdf:type    :Person ;
+        rdfs:label  "Aminuddin Ponulele" .
+
+:WilliamBroderickPerson
+        rdf:type    :Person ;
+        rdfs:label  "William Broderick" .
+
+:SoekarnoPerson  rdf:type  :Person ;
+        rdfs:label  "Soekarno" .
+
+:TurkiActor  rdf:type  sem:Actor ;
+        rdfs:label  "Turki" .
+
+:IndonesiaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Indonesia" .
+
+:NorwayActor  rdf:type  sem:Actor ;
+        rdfs:label  "Norway" .
+
+:PendudukanIndonesiaatasTimorTimur
+        rdf:type     :MilitaryConflict ;
+        :combatant1  :AustraliaActor , :KanadaActor , :BritaniaRayaActor , :AmerikaSerikatActor , :IndonesiaActor , :MalaysiaActor , :JepangActor , :TimorTimurActor ;
+        :combatant2  :FilipinaActor , :MozambikActor , :AmerikaSerikatActor , :TimorLesteActor , :JepangActor , :KoreaSelatanActor , :TiongkokActor , :KanadaActor , :CNRMActor , :ThailandActor , :BritaniaRayaActor , :PortugalActor , :MalaysiaActor , :UDTActor , :RusiaActor , :AustraliaActor , :LibyaActor , :UniSovietActor , :FretilinActor ;
+        :commander1  :MuhammadJusufPerson , :L.B.MurdaniPerson , :MaradenPanggabeanPerson , :FeisalTanjungPerson , :EdiSudradjatPerson , :WirantoPerson , :TrySutrisnoPerson , :SoehartoPerson , :B.J.HabibiePerson , :PrabowoSubiantoPerson , :EuricoGuterresPerson , :DadingKalbuadiPerson , :JoséAbílioOsórioSoaresPerson ;
+        :commander2  :RogérioLobatoPerson , :NinoKonisSantanaPerson , :KeriLaranSabalaePerson , :NicolaudosReisLobatoPerson , <http://127.0.0.1:3333/Ma'hunoBulerekKarathayanoPerson> , :FranciscoXavierdoAmaralPerson , :XananaGusmãoPerson , :MariAlkatiriPerson , :TaurMatanRuakPerson , :DavidAlexPerson .
+
+:B.J.HabibiePerson  rdf:type  :Person ;
+        rdfs:label  "B. J. Habibie" .
+
+:ArabSaudiActor  rdf:type  sem:Actor ;
+        rdfs:label  "Arab Saudi" .
+
+:YosSudarsoPerson  rdf:type  :Person ;
+        rdfs:label  "Yos Sudarso" .
+
+:MeksikoActor  rdf:type  sem:Actor ;
+        rdfs:label  "Meksiko" .
+
+:KubaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Kuba" .
+
+:RepublikPapuaBaratActor
+        rdf:type    sem:Actor ;
+        rdfs:label  "Republik Papua Barat" .
+
+:BrasilActor  rdf:type  sem:Actor ;
+        rdfs:label  "Brasil" .
+
+:BINActor  rdf:type  sem:Actor ;
+        rdfs:label  "BIN" .
+
+:FeisalTanjungPerson  rdf:type  :Person ;
+        rdfs:label  "Feisal Tanjung" .
+
+:VanuatuActor  rdf:type  sem:Actor ;
+        rdfs:label  "Vanuatu" .
+
+:AitarakActor  rdf:type  sem:Actor ;
+        rdfs:label  "Aitarak" .
+
+:UkrainaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Ukraina" .
+
+:FretilinActor  rdf:type  sem:Actor ;
+        rdfs:label  "Fretilin" .
+
+:APODETIActor  rdf:type  sem:Actor ;
+        rdfs:label  "APODETI" .
+
+:KroasiaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Kroasia" .
+
+:OlivioMendoncaMorukPerson
+        rdf:type    :Person ;
+        rdfs:label  "Olivio Mendonca Moruk" .
+
+:GhanaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Ghana" .
+
+:JoséAbílioOsórioSoaresPerson
+        rdf:type    :Person ;
+        rdfs:label  "José Abílio Osório Soares" .
+
+:SenegalActor  rdf:type  sem:Actor ;
+        rdfs:label  "Senegal" .
+
+:AmerikaSerikatActor  rdf:type  sem:Actor ;
+        rdfs:label  "Amerika Serikat" .
+
+:PeristiwaArfai  rdf:type  :MilitaryConflict ;
+        :combatant1  :IndonesiaActor ;
+        :combatant2  :OrganisasiPapuaMerdekaActor , :RepublikPapuaBaratActor .
+
+:PemerintahProvinsiActor
+        rdf:type    sem:Actor ;
+        rdfs:label  "Pemerintah Provinsi" .
+
+:JusufKallaBandjelaPaliudjuPerson
+        rdf:type    :Person ;
+        rdfs:label  "Jusuf Kalla Bandjela Paliudju" .
+
+:WidjojoSoejonoPerson
+        rdf:type    :Person ;
+        rdfs:label  "Widjojo Soejono" .
+
+:ZambiaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Zambia" .
+
+:BelandaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Belanda" .
+
+:JermanActor  rdf:type  sem:Actor ;
+        rdfs:label  "Jerman" .
+
+:NamibiaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Namibia" .
+
+:ABRIActor  rdf:type  sem:Actor ;
+        rdfs:label  "ABRI" .
+
+:TNIActor  rdf:type  sem:Actor ;
+        rdfs:label  "TNI" .
+
+:TimorLesteActor  rdf:type  sem:Actor ;
+        rdfs:label  "Timor Leste" .
+
+:KrisisTimorTimur1999
+        rdf:type     :MilitaryConflict ;
+        :combatant1  :BeninActor , :YordaniaActor , :NorwayActor , :IsraelActor , :SingapuraActor , :BoliviaActor , :ChiliActor , :BosniadanHerzegovinaActor , :SerbiadanMontenegroActor , :SenegalActor , :FilipinaActor , :TiongkokActor , :NigerActor , :SlowakiaActor , :PeruActor , :BritaniaRayaActor , :AustraliaActor , :UkrainaActor , :SriLankaActor , :JepangActor , :INTERFETActor , :SamoaActor , :AmerikaSerikatActor , :BangladeshActor , :ThailandActor , :MesirActor , :PakistanActor , :KenyaActor , :AustriaActor , :SwediaActor , :NigeriaActor , :MozambikActor , :MalaysiaActor , :ZimbabweActor , :ItaliaActor , :SelandiaBaruActor , :GhanaActor , :DenmarkActor , :NamibiaActor , :JermanActor , :UNTAETActor , :KroasiaActor , :MeksikoActor , :IrlandiaActor , :KanadaActor , :SpanyolActor , :TimorLesteActor , :BulgariaActor , :PortugalActor , :BrasilActor , :SloveniaActor , :NepalActor , :TurkiActor , :RusiaActor , :FijiActor , :GambiaActor , :ZambiaActor , :UruguayActor , :KoreaSelatanActor , :ArgentinaActor , :PrancisActor , :VanuatuActor , :TajikistanActor ;
+        :combatant2  :LaksaurActor , :GardaMudaPenegakIntegrasiActor , :MahidiActor , :KopassusActor , :AitarakActor , :IndonesiaActor , :LobiJakartaActor , :BesiMerahPutihActor , :BINActor , :Milisipro-IndonesiaActor ;
+        :commander1  :CareyAdamsonPerson , :PeterCosgrovePerson , :JennyShipleyPerson , :HelenClarkPerson , :SérgioVieiradeMelloPerson , :Brigjen.PauloPereiraGuerreiroPerson , :JohnHowardPerson ;
+        :commander2  :CâncioLopezdeCarvalhoPerson , :EuricoGuterresPerson , :OlivioMendoncaMorukPerson , :ManueldeSousaPerson , :WirantoPerson .
+
+:Milisipro-IndonesiaActor
+        rdf:type    sem:Actor ;
+        rdfs:label  "Milisi pro-Indonesia" .
+
+:JennyShipleyPerson  rdf:type  :Person ;
+        rdfs:label  "Jenny Shipley" .
+
+:SukuMelayuActor  rdf:type  sem:Actor ;
+        rdfs:label  "Suku Melayu" .
+
+:TimorTimurActor  rdf:type  sem:Actor ;
+        rdfs:label  "Timor Timur" .
+
+:HasanDiTiroPerson  rdf:type  :Person ;
+        rdfs:label  "Hasan Di Tiro" .
+
+:MozambikActor  rdf:type  sem:Actor ;
+        rdfs:label  "Mozambik" .
+
+:EddyMartadinataPerson
+        rdf:type    :Person ;
+        rdfs:label  "Eddy Martadinata" .
+
+:ChiliActor  rdf:type  sem:Actor ;
+        rdfs:label  "Chili" .
+
+:SingapuraActor  rdf:type  sem:Actor ;
+        rdfs:label  "Singapura" .
+
+:DavidAlexPerson  rdf:type  :Person ;
+        rdfs:label  "David Alex" .
+
+:LaksaurActor  rdf:type  sem:Actor ;
+        rdfs:label  "Laksaur" .
+
+:C.J.vanWestenbruggePerson
+        rdf:type    :Person ;
+        rdfs:label  "C.J. van Westenbrugge" .
+
+:TajikistanActor  rdf:type  sem:Actor ;
+        rdfs:label  "Tajikistan" .
+
+<http://127.0.0.1:3333/Ma'hunoBulerekKarathayanoPerson>
+        rdf:type    :Person ;
+        rdfs:label  "Ma'huno Bulerek Karathayano" .
+
+:KoreaSelatanActor  rdf:type  sem:Actor ;
+        rdfs:label  "Korea Selatan" .
+
+:Brigjen.PauloPereiraGuerreiroPerson
+        rdf:type    :Person ;
+        rdfs:label  "Brigjen. Paulo Pereira Guerreiro" .
+
+:AbdulHarisNasutionPerson
+        rdf:type    :Person ;
+        rdfs:label  "Abdul Haris Nasution" .
+
+:MalaysiaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Malaysia" .
+
+:BoliviaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Bolivia" .
+
+:DjasmanBasoOpuPerson
+        rdf:type    :Person ;
+        rdfs:label  "Djasman Baso Opu" .
+
+:UNTAETActor  rdf:type  sem:Actor ;
+        rdfs:label  "UNTAET" .
+
+:EuricoGuterresPerson
+        rdf:type    :Person ;
+        rdfs:label  "Eurico Guterres" .
+
+:UruguayActor  rdf:type  sem:Actor ;
+        rdfs:label  "Uruguay" .
+
+:LaskarInöngBalèActor
+        rdf:type    sem:Actor ;
+        rdfs:label  "Laskar Inöng Balè" .
+
+:WirantoPerson  rdf:type  :Person ;
+        rdfs:label  "Wiranto" .
+
+:SukuMaduraActor  rdf:type  sem:Actor ;
+        rdfs:label  "Suku Madura" .
+
+:PrancisActor  rdf:type  sem:Actor ;
+        rdfs:label  "Prancis" .
+
+:AhmadYaniPerson  rdf:type  :Person ;
+        rdfs:label  "Ahmad Yani" .
+
+:SlowakiaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Slowakia" .
+
+:GambiaActor  rdf:type  sem:Actor ;
+        rdfs:label  "Gambia" .
+
+:SoerjadiSoerjadarmaPerson
+        rdf:type    :Person ;
+        rdfs:label  "Soerjadi Soerjadarma" .
+
+:KeriLaranSabalaePerson
+        rdf:type    :Person ;
+        rdfs:label  "Keri Laran Sabalae" .
+
+:KopassusActor  rdf:type  sem:Actor ;
+        rdfs:label  "Kopassus" .
+
+:OperasiJayapura1976  rdf:type  :MilitaryConflict ;
+        :combatant1  :IndonesiaActor ;
+        :combatant2  :RepublikPapuaBaratActor .

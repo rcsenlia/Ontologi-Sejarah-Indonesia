@@ -1,0 +1,154 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <https://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:JanJacobKareldeMoulin
+        rdf:type    :Person ;
+        rdfs:label  "Jan Jacob Karel de Moulin" .
+
+<http://127.0.0.1:3333/PertempuranMelaka(1641)>
+        rdf:type     sem:Event ;
+        :commander1  :TunAbdulJamil , :WillmsoonCartekoe .
+
+:MayorPrager  rdf:type  :Person ;
+        rdfs:label  "Mayor Prager" .
+
+:KaptenPoland  rdf:type  :Person ;
+        rdfs:label  "Kapten Poland" .
+
+:PerangBelasting  rdf:type  sem:Event .
+
+:PerangAceh  rdf:type  sem:Event ;
+        :commander1  :KarelvanderHeijden , :JanJacobKareldeMoulin , :JohannesBenedictusvanHeutsz , :JohannesPel , :JanvanSwieten , :GotfriedvanDaalen , :JohanKöhler , :JohanCornelisvanderWijck , :HenryDemmeni .
+
+:PerangPadri  rdf:type  sem:Event ;
+        :commander1  :KolonelStuers , :MayorLaemlin , :MayorduBus , :RajoAlam , :LetnanKolonelKrieger , :MayorJendralCochius , :KaptenPoland , :LetnanKolonelBauer , :KaptenLange , :LetnanKolonelElout , :MayorPrager , :LetnanKolonelRaaff .
+
+:SerbuanYuan-MongolkeJawa
+        rdf:type     sem:Event ;
+        :commander1  :Gaoxing , :IkeMese , <http://127.0.0.1:3333/Shi-bi(jenderal)> , <http://127.0.0.1:3333/KubilaiKhan(komandantertinggi)> .
+
+:JohannesPel  rdf:type  :Person ;
+        rdfs:label  "Johannes Pel" .
+
+:LetnanKolonelRaaff  rdf:type  :Person ;
+        rdfs:label  "Letnan Kolonel Raaff" .
+
+:WillmsoonCartekoe  rdf:type  :Person ;
+        rdfs:label  "Willmsoon Cartekoe" .
+
+:HenryDemmeni  rdf:type  :Person ;
+        rdfs:label  "Henry Demmeni" .
+
+:HermanWillemDaendels
+        rdf:type    :Person ;
+        rdfs:label  "Herman Willem Daendels" .
+
+:HamengkubuwanaII  rdf:type  :Person ;
+        rdfs:label  "Hamengkubuwana II" .
+
+:MayorduBus  rdf:type  :Person ;
+        rdfs:label  "Mayor du Bus" .
+
+:JohanCornelisvanderWijck
+        rdf:type    :Person ;
+        rdfs:label  "Johan Cornelis van der Wijck" .
+
+:LetnanKolonelElout  rdf:type  :Person ;
+        rdfs:label  "Letnan Kolonel Elout" .
+
+:RajoAlam  rdf:type  :Person ;
+        rdfs:label  "Rajo Alam" .
+
+:Wongsonegoro  rdf:type  :Person ;
+        rdfs:label  "Wongsonegoro" .
+
+:IkeMese  rdf:type  :Person ;
+        rdfs:label  "Ike Mese" .
+
+:PemberontakanRadenRonggo
+        rdf:type     sem:Event ;
+        :commander1  :HermanWillemDaendels .
+
+<http://127.0.0.1:3333/KubilaiKhan(komandantertinggi)>
+        rdf:type    :Person ;
+        rdfs:label  "Kubilai Khan (komandan tertinggi)" .
+
+:PangeranJagapati  rdf:type  :Person ;
+        rdfs:label  "Pangeran Jagapati" .
+
+:Gaoxing  rdf:type  :Person ;
+        rdfs:label  "Gaoxing" .
+
+:KarelvanderHeijden  rdf:type  :Person ;
+        rdfs:label  "Karel van der Heijden" .
+
+<http://127.0.0.1:3333/Shi-bi(jenderal)>
+        rdf:type    :Person ;
+        rdfs:label  "Shi-bi (jenderal)" .
+
+:KRTSumadiningrat  rdf:type  :Person ;
+        rdfs:label  "KRT Sumadiningrat" .
+
+:GegerSepehi  rdf:type  sem:Event ;
+        :commander1  :KRTSumadiningrat , :HamengkubuwanaII .
+
+:GotfriedvanDaalen  rdf:type  :Person ;
+        rdfs:label  "Gotfried van Daalen" .
+
+:dr.Kariadi  rdf:type  :Person ;
+        rdfs:label  "dr. Kariadi" .
+
+:PerangBayu  rdf:type  sem:Event ;
+        :commander1  :WongAgungWilis , :PangeranJagapati .
+
+:WongAgungWilis  rdf:type  :Person ;
+        rdfs:label  "Wong Agung Wilis" .
+
+:KolonelStuers  rdf:type  :Person ;
+        rdfs:label  "Kolonel Stuers" .
+
+:MayorLaemlin  rdf:type  :Person ;
+        rdfs:label  "Mayor Laemlin" .
+
+:PerangDiponegoro  rdf:type  sem:Event ;
+        :commander1  :HermanusW.Dotulong , :HendrikM.deKock .
+
+:LetnanKolonelBauer  rdf:type  :Person ;
+        rdfs:label  "Letnan Kolonel Bauer" .
+
+:MayorJendralCochius  rdf:type  :Person ;
+        rdfs:label  "Mayor Jendral Cochius" .
+
+:PertempuranLimaHari  rdf:type  sem:Event ;
+        :commander1  :Wongsonegoro , :dr.Kariadi .
+
+:LetnanKolonelKrieger
+        rdf:type    :Person ;
+        rdfs:label  "Letnan Kolonel Krieger" .
+
+:JanvanSwieten  rdf:type  :Person ;
+        rdfs:label  "Jan van Swieten" .
+
+:TunAbdulJamil  rdf:type  :Person ;
+        rdfs:label  "Tun Abdul Jamil" .
+
+:JohanKöhler  rdf:type  :Person ;
+        rdfs:label  "Johan Köhler" .
+
+:HendrikM.deKock  rdf:type  :Person ;
+        rdfs:label  "Hendrik M. de Kock" .
+
+:HermanusW.Dotulong  rdf:type  :Person ;
+        rdfs:label  "Hermanus W. Dotulong" .
+
+:KaptenLange  rdf:type  :Person ;
+        rdfs:label  "Kapten Lange" .
+
+:JohannesBenedictusvanHeutsz
+        rdf:type    :Person ;
+        rdfs:label  "Johannes Benedictus van Heutsz" .

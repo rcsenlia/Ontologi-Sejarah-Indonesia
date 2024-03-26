@@ -1,0 +1,127 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:Indonesia  rdf:type  geo:Feature ;
+        rdfs:label  "Indonesia" .
+
+<http://127.0.0.1:3333/KonfrontasiIndonesia–Malaysia>
+        :location  :Kalimantan , :SemenanjungMalaka .
+
+:Sambas  rdf:type   geo:Feature ;
+        rdfs:label  "Sambas" .
+
+:KrisisTimorTimur1999
+        :location  :TimorLeste .
+
+:LubangBuaya  rdf:type  geo:Feature ;
+        rdfs:label  "Lubang Buaya" .
+
+:TimorLeste  rdf:type  geo:Feature ;
+        rdfs:label  "Timor Leste" .
+
+:PertempuranLautAru  :location  :Indonesia , :LautArafura .
+
+:Kalimantan  rdf:type  geo:Feature ;
+        rdfs:label  "Kalimantan" .
+
+<http://127.0.0.1:3333/Mapenduma,Jayawijaya>
+        rdf:type    geo:Feature ;
+        rdfs:label  "Mapenduma, Jayawijaya" .
+
+:KerusuhanSambas  :location  :Sambas .
+
+:Malaysia  rdf:type  geo:Feature ;
+        rdfs:label  "Malaysia" .
+
+:PendudukanIndonesiaatasTimorTimur
+        :location  :TimorTimur .
+
+:KerusuhanPoso  :location  :KabupatenPoso .
+
+:PendaratandiLabis  :location  :Malaysia , :Johor , :Labis .
+
+:TimorTimur  rdf:type  geo:Feature ;
+        rdfs:label  "Timor Timur" .
+
+:PertempuranSungeiKoemba
+        :location  :Kalimantan .
+
+:KabupatenJayapura  rdf:type  geo:Feature ;
+        rdfs:label  "Kabupaten Jayapura" .
+
+:IrianBarat  rdf:type  geo:Feature ;
+        rdfs:label  "Irian Barat" .
+
+:Manokwari  rdf:type  geo:Feature ;
+        rdfs:label  "Manokwari" .
+
+:ProvinsiPapua  rdf:type  geo:Feature ;
+        rdfs:label  "Provinsi Papua" .
+
+:PemberontakandiAceh  :location  :Indonesia , :Aceh .
+
+:Limbang  rdf:type  geo:Feature ;
+        rdfs:label  "Limbang" .
+
+:LautArafura  rdf:type  geo:Feature ;
+        rdfs:label  "Laut Arafura" .
+
+:Aceh   rdf:type    geo:Feature ;
+        rdfs:label  "Aceh" .
+
+:OperasiJayapura1976  :location  :IrianJaya , :KabupatenJayapura .
+
+:Borneo  rdf:type   geo:Feature ;
+        rdfs:label  "Borneo" .
+
+:KrisissanderaMapenduma
+        :location  :Indonesia , :ProvinsiPapua , :IrianJaya , <http://127.0.0.1:3333/Mapenduma,Jayawijaya> .
+
+:OperasiTrikora  :location  :IrianBarat .
+
+:OperasimiliterIndonesiadiAceh1990-1998
+        :location  :Indonesia , :Aceh .
+
+:Labis  rdf:type    geo:Feature ;
+        rdfs:label  "Labis" .
+
+:KonflikPapua  :location  :PapuaNugini , <http://127.0.0.1:3333/Papua(wilayahIndonesia)> .
+
+:PapuaNugini  rdf:type  geo:Feature ;
+        rdfs:label  "Papua Nugini" .
+
+:Johor  rdf:type    geo:Feature ;
+        rdfs:label  "Johor" .
+
+:SemenanjungMalaka  rdf:type  geo:Feature ;
+        rdfs:label  "Semenanjung Malaka" .
+
+:InvasiIndonesiakeTimorTimur
+        :location  :TimorTimur .
+
+:KabupatenPoso  rdf:type  geo:Feature ;
+        rdfs:label  "Kabupaten Poso" .
+
+:PeristiwaArfai  :location  :IrianJaya , :Manokwari .
+
+:IrianJaya  rdf:type  geo:Feature ;
+        rdfs:label  "Irian Jaya" .
+
+<http://127.0.0.1:3333/Papua(wilayahIndonesia)>
+        rdf:type    geo:Feature ;
+        rdfs:label  "Papua (wilayah Indonesia)" .
+
+:SerangankeLimbang  :location  :Borneo , :Sarawak , :Limbang .
+
+:Sarawak  rdf:type  geo:Feature ;
+        rdfs:label  "Sarawak" .
+
+:Gerakan30September  :location  :LubangBuaya .

@@ -16,4 +16,3 @@
 
     #### Notes Bimbingan:
     Untuk beberapa halaman, seperti untuk masa kolonialisme, dapat digunakan *template* yang memiliki informasi lebih lengkap dibandingkan menggunakan kategori. Selain itu, untuk data-data dari *infobox* yang berupa `json` perlu diproses lebih lanjut karena beberapa penamaan *key* yang kurang memiliki makna. Selanjutnya, dapat mengeksplorasi file *dumps* enwiki dan mencari referensi ontologi lain yang dapat digunakan.
-

@@ -1,0 +1,96 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <https://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:GegerSepehi  rdf:type  sem:Event ;
+        :combatant2  :KadipatenMangkunagaran , :Dibantuoleh: , :PendudukanInggrisdiJawa , :BritaniaRaya .
+
+:KesultananAceh  rdf:type  sem:Actor ;
+        rdfs:label  "Kesultanan Aceh" .
+
+:HindiaBelanda  rdf:type  sem:Actor ;
+        rdfs:label  "Hindia Belanda" .
+
+:PertempuranLimaHari  rdf:type  sem:Event .
+
+:PemberontakanRadenRonggo
+        rdf:type     sem:Event ;
+        :combatant2  :TentaraKaresidenanMadiun .
+
+:PendudukanInggrisdiJawa
+        rdf:type    sem:Actor ;
+        rdfs:label  "Pendudukan Inggris di Jawa" .
+
+:PerangDiponegoro  rdf:type  sem:Event ;
+        :combatant2  <http://127.0.0.1:3333/PasukanJawa/Diponegoro> .
+
+<http://127.0.0.1:3333/PertempuranMelaka(1641)>
+        rdf:type  sem:Event .
+
+:PerangBelasting  rdf:type  sem:Event ;
+        :combatant2  :HindiaBelanda .
+
+:BritaniaRaya  rdf:type  sem:Actor ;
+        rdfs:label  "Britania Raya" .
+
+:KadipatenMangkunagaran
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kadipaten Mangkunagaran" .
+
+:TentaraKaresidenanMadiun
+        rdf:type    sem:Actor ;
+        rdfs:label  "Tentara Karesidenan Madiun" .
+
+:PerangBayu  rdf:type  sem:Event ;
+        :combatant2  :KesultananMataram , :PasukanVOC .
+
+:Perang1833-1838:  rdf:type  sem:Actor ;
+        rdfs:label  "Perang 1833-1838:" .
+
+:KerajaanSinghasari  rdf:type  sem:Actor ;
+        rdfs:label  "Kerajaan Singhasari" .
+
+:KaumPadri  rdf:type  sem:Actor ;
+        rdfs:label  "Kaum Padri" .
+
+<http://127.0.0.1:3333/PasukanJawa/Diponegoro>
+        rdf:type    sem:Actor ;
+        rdfs:label  "Pasukan Jawa/Diponegoro" .
+
+:Majapahit  rdf:type  sem:Actor ;
+        rdfs:label  "Majapahit" .
+
+:PerangAceh  rdf:type  sem:Event ;
+        :combatant2  :UlamaIslam , :KesultananAceh .
+
+:KaumAdat  rdf:type  sem:Actor ;
+        rdfs:label  "Kaum Adat" .
+
+:KesultananMataram  rdf:type  sem:Actor ;
+        rdfs:label  "Kesultanan Mataram" .
+
+:SerbuanYuan-MongolkeJawa
+        rdf:type     sem:Event ;
+        :combatant2  :Majapahit , :KerajaanSinghasari .
+
+:PerangPadri  rdf:type  sem:Event ;
+        :combatant2  :KaumAdat , :Perang1833-1838: , :Perang1821-1833: , :KaumPadri , :Perang1803-1821: .
+
+:Dibantuoleh:  rdf:type  sem:Actor ;
+        rdfs:label  "Dibantu oleh:" .
+
+:Perang1803-1821:  rdf:type  sem:Actor ;
+        rdfs:label  "Perang 1803-1821:" .
+
+:Perang1821-1833:  rdf:type  sem:Actor ;
+        rdfs:label  "Perang 1821-1833:" .
+
+:UlamaIslam  rdf:type  sem:Actor ;
+        rdfs:label  "Ulama Islam" .
+
+:PasukanVOC  rdf:type  sem:Actor ;
+        rdfs:label  "Pasukan VOC" .

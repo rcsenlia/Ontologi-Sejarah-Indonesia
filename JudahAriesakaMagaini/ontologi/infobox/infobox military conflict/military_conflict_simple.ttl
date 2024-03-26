@@ -1,0 +1,136 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:PeristiwaArfai  rdf:type  :MilitaryConflict ;
+        rdfs:label    "Peristiwa Arfai" ;
+        :casualties1  "3–18 tewas" ;
+        :casualties2  "4–36 tewas" ;
+        :partof       "Konflik Papua" ;
+        :strength1    "1 batalion" ;
+        :strength2    "1 batalion" .
+
+:KerusuhanSambas  rdf:type  :MilitaryConflict ;
+        rdfs:label    "Kerusuhan Sambas" ;
+        :casualties1  "*1.189 terbunuh  168 orang luka berat 34 orang luka ringan  29.823 warga Madura mengungsi." .
+
+:OperasimiliterIndonesiadiAceh1990-1998
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Operasi militer Indonesia di Aceh 1990-1998" ;
+        :partof     "Konflik di Aceh dan Separatisme di Indonesia" ;
+        :strength1  "12,000 (1990)" ;
+        :strength2  "12,000 (1990)" .
+
+:PendudukanIndonesiaatasTimorTimur
+        rdf:type      :MilitaryConflict ;
+        rdfs:label    "Pendudukan Indonesia atas Timor Timur" ;
+        :casualties1  "2.277 tentara dan polisi Indonesia tewas1.527 milisi Timor Timur tewas2.400 terlukaTotal: 3.408 tewas dan 2.400 terluka" ;
+        :casualties2  "Perkiraan berkisar antara 100.000–300.000 orang tewas (lihat di bawah)" ;
+        :partof       "Perang Dingin" .
+
+<http://127.0.0.1:3333/KonfrontasiIndonesia–Malaysia>
+        rdf:type      :MilitaryConflict ;
+        rdfs:label    "Konfrontasi Indonesia–Malaysia" ;
+        :casualties1  "Total: • 280 terbunuh dan 183 luka-luka               140 terbunuh (termasuk 44 ghurka)43 luka-luka 23 terbunuh9 luka-luka 12 terbunuh8 luka-luka 9 terbunuhGurkha 44 terbunuh83 luka-lukaLainnya: 44 terbunuh40 luka-luka" ;
+        :casualties2  "Total: 590 terbunuh 222 luka-luka 771 ditangkap" ;
+        :partof       "Pembentukan Malaysia dan Perang Dingin" .
+
+:PendaratandiLabis  rdf:type  :MilitaryConflict ;
+        rdfs:label    "Pendaratan di Labis" ;
+        :casualties1  "1 tewas" ;
+        :casualties2  "~32 tewas, 62 ditangkap" ;
+        :partof       "Konfrontasi Indonesia-Malaysia" .
+
+:MilitaryConflict  rdfs:subClassOf  <sem:Event> .
+
+:PertempuranLautAru  rdf:type  :MilitaryConflict ;
+        rdfs:label    "Pertempuran Laut Aru" ;
+        :casualties1  "Komodor Yos SudarsoKapten Wiratno (Kapten kapal RI Matjan Tutul)Kapten Memet Sastrawiria (Ajudan Komodor Yos Sudarso)Kapten Tjiptadi21 orang tenggelam53 orang ditahan Belanda<small>Total 39 orang tewas<small>" ;
+        :casualties2  "-" ;
+        :partof       "Operasi Trikora" ;
+        :strength1    "RI Matjan Tutul (Tenggelam) RI Matjan Kumbang(Rusak) RI Harimau(Rusak)" ;
+        :strength2    "RI Matjan Tutul (Tenggelam) RI Matjan Kumbang(Rusak) RI Harimau(Rusak)" .
+
+:KerusuhanPoso  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Kerusuhan Poso" ;
+        :partof     "Konflik Poso" .
+
+:OperasiJayapura1976  rdf:type  :MilitaryConflict ;
+        rdfs:label    "Operasi Jayapura 1976" ;
+        :casualties1  "425 tewas800 luka-luka (klaim OPM)" ;
+        :casualties2  "1.605 tewas (klaim OPM)" ;
+        :partof       "Konflik Papua" ;
+        :strength1    "10.000–16.0002 aircraft" ;
+        :strength2    "10.000–16.0002 aircraft" .
+
+:PemberontakandiAceh  rdf:type  :MilitaryConflict ;
+        rdfs:label    "Pemberontakan di Aceh" ;
+        :casualties1  "128 tewas" ;
+        :casualties2  "15.000 tewas<small>(Kebanyakan warga sipil)" ;
+        :partof       "Separatisme di Indonesia" ;
+        :strength1    "12,000 (1990)Uppsala conflict data expansion. Non-state actor information. Codebook pp. 295-296 30,000 (2001) 15,000 (2002) 35,000Global Security - Free Aceh Movement–50,000 (2003)" ;
+        :strength2    "12,000 (1990)Uppsala conflict data expansion. Non-state actor information. Codebook pp. 295-296 30,000 (2001) 15,000 (2002) 35,000Global Security - Free Aceh Movement–50,000 (2003)" .
+
+:InvasiIndonesiakeTimorTimur
+        rdf:type      :MilitaryConflict ;
+        rdfs:label    "Invasi Indonesia ke Timor Timur" ;
+        :casualties1  "1.000 tewas, terluka atau ditangkapPower Kills R.J. RummelEckhardt, William, in World Military and Social Expenditures 1987–88 (12th ed., 1987) by Ruth Leger Sivard." ;
+        :casualties2  "185.000 tewas, terluka atau ditangkap (1975–1999)„Chega!“-Report of Commission for Reception, Truth and Reconciliation in East Timor (CAVR)(termasuk warga sipil)" ;
+        :partof       "Perang Dingin" ;
+        :strength1    "35.000 tentara" ;
+        :strength2    "35.000 tentara" .
+
+:OperasiTrikora  rdf:type  :MilitaryConflict ;
+        rdfs:label    "Operasi Trikora" ;
+        :casualties1  "214 tewas1 kapal motor torpedo tenggelam2 kapal motor torpedo rusak" ;
+        :casualties2  "Tidak diketahui" ;
+        :partof       "Pembebasan Irian Barat dan Perang Dingin" ;
+        :strength1    "13.000 tentara7.000 pasukan terjun payung4.500 marinir" ;
+        :strength2    "13.000 tentara7.000 pasukan terjun payung4.500 marinir" .
+
+:Gerakan30September  rdf:type  :MilitaryConflict ;
+        rdfs:label    "Gerakan 30 September" ;
+        :casualties1  "1. Letnan Jenderal TNI Ahmad Yani (43 tahun)  2. Mayor Jenderal TNI Raden Soeprapto (45 tahun)  3. Mayor Jenderal TNI Mas Tirtodarmo Haryono (41 tahun)  4. Mayor Jenderal TNI Siswondo Parman (47 tahun)  5. Brigadir Jenderal TNI Donald Isaac Panjaitan (40 tahun)  6. Brigadir Jenderal TNI Sutoyo Siswomiharjo (43 tahun)  7. Letnan Satu Pierre Andreas Tendean (26 tahun)  dan korban-korban lainnya." .
+
+:KonflikPapua  rdf:type  :MilitaryConflict ;
+        rdfs:label    "Konflik Papua" ;
+        :casualties1  "setidaknya 72 TNI dan 34 polisi tewas Total: 106 aparat keamanan tewas (2010 – Maret 2022)" ;
+        :casualties2  "setidaknya 69 TPNPB–OPM tewas (2010 – Maret 2023)" ;
+        :partof       "Persengketaan Nugini Barat dan Dekolonisasi Oseania" .
+
+:SerangankeLimbang  rdf:type  :MilitaryConflict ;
+        rdfs:label    "Serangan ke Limbang" ;
+        :casualties1  "Lima tewas, delapan terluka" ;
+        :casualties2  "12 tewas, 15 terluka" ;
+        :partof       "Konfrontasi Indonesia-Malaysia" ;
+        :strength1    "Satu kompi" ;
+        :strength2    "Satu kompi" .
+
+:KrisissanderaMapenduma
+        rdf:type      :MilitaryConflict ;
+        rdfs:label    "Krisis sandera Mapenduma" ;
+        :casualties1  "5 tewas1 helikopter jatuh" ;
+        :casualties2  "8 tewas2 ditangkap" ;
+        :casus        "Tuntuntan Organisasi Papua Merdeka untuk kemerdekaan Wilayah Papua Barat" ;
+        :partof       "Konflik Papua" ;
+        :strength1    "100 Komando" ;
+        :strength2    "100 Komando" .
+
+:KrisisTimorTimur1999
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Krisis Timor Timur 1999" ;
+        :partof     "Dekolonisasi Asia, Pendudukan Indonesia di Timor Timur dan Kejatuhan Suharto" ;
+        :strength1  "11,000 militer dan polisi" ;
+        :strength2  "11,000 militer dan polisi" .
+
+:PertempuranSungeiKoemba
+        rdf:type      :MilitaryConflict ;
+        rdfs:label    "Pertempuran Sungei Koemba" ;
+        :casualties1  "2 Terluka" ;
+        :casualties2  "~30 tewas" ;
+        :partof       "Konfrontasi Indonesia–Malaysia" ;
+        :strength1    "~120 tentara" ;
+        :strength2    "~120 tentara" .

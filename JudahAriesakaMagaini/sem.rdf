@@ -1,0 +1,898 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:cs="http://www.kulttuurisampo.fi/ebkr/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:eo="http://purl.org/NET/c4dm/event.owl#"
+     xmlns:ex="http://example.org/test/"
+     xmlns:cyc="http://sw.opencyc.org/2009/04/07/concept/en/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:sem="http://semanticweb.cs.vu.nl/2009/11/sem/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:lode="http://linkedevents.org/ontology/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:sumo="http://www.ontologyportal.org/translations/SUMO.owl.txt#"
+     xmlns:time="http://www.w3.org/2006/time"
+     xmlns:cidoc="http://www8.informatik.uni-erlangen.de/IMMD8/Services/cidoc-crm/erlangen-crm_090330_5_0_1.owl#"
+     xmlns:dolce="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#"
+     xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:dctype="http://purl.org/dc/dcmitype/"
+     xmlns:dcterms="http://purl.org/dc/terms/">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broadMatch -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broadMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#narrowMatch -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrowMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#relatedMatch -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/accordingTo -->
+
+    <ObjectProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/accordingTo">
+        <rdfs:domain rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/View"/>
+        <rdfs:range rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Authority"/>
+        <rdfs:comment>According to is used to state which Authority sais that a property constrained by the View Constraint is true.</rdfs:comment>
+        <rdfs:label>according to</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/actorProperty -->
+
+    <ObjectProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/actorProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Actor"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/actorType -->
+
+    <ObjectProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/actorType">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/type"/>
+        <rdfs:domain rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Actor"/>
+        <rdfs:range rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/ActorType"/>
+        <rdfs:comment>Has actor type is used to assign a type to an actor.</rdfs:comment>
+        <rdfs:label>has actor type</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/birthPlace -->
+
+    <ObjectProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/birthPlace">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/actorProperty"/>
+        <rdfs:domain rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Actor"/>
+        <rdfs:range rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Place"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/casualty -->
+
+    <ObjectProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/casualty">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/hasActor"/>
+        <rdfs:domain rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Event"/>
+        <rdfs:range rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Actor"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/child -->
+
+    <ObjectProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/child">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/actorProperty"/>
+        <rdfs:domain rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Actor"/>
+        <rdfs:range rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Actor"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/combatant -->
+
+    <ObjectProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/combatant">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/hasActor"/>
+        <rdfs:domain rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Conflict"/>
+        <rdfs:range rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Actor"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/deathPlace -->
+
+    <ObjectProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/deathPlace">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/actorProperty"/>
+        <rdfs:domain rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Actor"/>
+        <rdfs:range rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Place"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/eventProperty -->
+
+    <ObjectProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/eventProperty">
+        <rdfs:comment>Event properties connect Events to other SEM Core entities.</rdfs:comment>
+        <rdfs:label>event property</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/eventType -->
+
+    <ObjectProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/eventType">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/type"/>
+        <rdfs:domain rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Event"/>
+        <rdfs:range rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/EventType"/>
+        <rdfs:comment>Has event type is used to assign a type to an event.</rdfs:comment>
+        <rdfs:label>has event type</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/father -->
+
+    <ObjectProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/father">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/actorProperty"/>
+        <rdfs:domain rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Actor"/>
+        <rdfs:range rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Actor"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/hasActor -->
+
+    <ObjectProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/hasActor">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/eventProperty"/>
+        <rdfs:range rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Actor"/>
+        <rdfs:comment>Has actor is used to state which Actors or Objects participate in an Event.</rdfs:comment>
+        <rdfs:label>has Actor</rdfs:label>
+        <skos:exactMatch rdf:resource="http://linkedevents.org/ontology/involved"/>
+        <skos:narrowMatch rdf:resource="http://www.kulttuurisampo.fi/ebkr/agent"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/hasPlace -->
+
+    <ObjectProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/hasPlace">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/eventProperty"/>
+        <rdfs:range rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Place"/>
+        <rdfs:comment>Has place is used to state in which Place(s) an Event happened. Coordinates can be attached to the Place with the W3C Geospatial Vocabulary (http://www.w3.org/2005/Incubator/geo/XGR-geo-20071023/).</rdfs:comment>
+        <rdfs:label>has Place</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.kulttuurisampo.fi/ebkr/place"/>
+        <skos:narrowMatch rdf:resource="http://linkedevents.org/ontology/inSpace"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/hasSubEvent -->
+
+    <ObjectProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/hasSubEvent">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/eventProperty"/>
+        <inverseOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/subEventOf"/>
+        <rdfs:domain rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Event"/>
+        <rdfs:range rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Event"/>
+        <rdfs:comment>Has subevent connects an Event to other Events that belong to it. This is a very generic property that does not mean the subevents fully define the superconcept or that there is any causal relationship.</rdfs:comment>
+        <rdfs:label>has subevent</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/NET/c4dm/event.owl#sub_event"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/hasSubType -->
+
+    <ObjectProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/hasSubType">
+        <inverseOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/subTypeOf"/>
+        <rdfs:domain rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Type"/>
+        <rdfs:range rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Type"/>
+        <rdfs:comment>Has sub type is used to state that a type falls under another type. This is a generic aggregation relation that is used to generalize over various hierarchical relations that can exist between types.</rdfs:comment>
+        <rdfs:label>has subtype</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/hasTime -->
+
+    <ObjectProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/hasTime">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/eventProperty"/>
+        <rdfs:range rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Time"/>
+        <rdfs:comment>Has time is used to indicate at which time an Event took place or when a property under the Temporary Constraint is valid. Has time points to a symbolic representation of time, which allows semantic relations between time resources. (see http://www.w3.org/TR/owl-time/)</rdfs:comment>
+        <rdfs:label>has Time</rdfs:label>
+        <skos:broadMatch rdf:resource="http://linkedevents.org/ontology/atTime"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/mother -->
+
+    <ObjectProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/mother">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/actorProperty"/>
+        <rdfs:domain rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Actor"/>
+        <rdfs:range rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Actor"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/placeType -->
+
+    <ObjectProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/placeType">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/type"/>
+        <rdfs:domain rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Place"/>
+        <rdfs:range rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/PlaceType"/>
+        <rdfs:comment>Has place type is used to assign a type to a place.</rdfs:comment>
+        <rdfs:label>has place type</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/roleType -->
+
+    <ObjectProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/roleType">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/type"/>
+        <rdfs:domain rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Role"/>
+        <rdfs:range rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/RoleType"/>
+        <rdfs:comment>Has role type is used to assign a role type to a Role property constraint. This role is a subspecification of the eventProperty which it constrains. For example, if an Event hasActor an Actor and this property is given a Role Constraint, then roleType can be used to assign a role to the participation of the Actor in the Event indicated by hasActor.</rdfs:comment>
+        <rdfs:label>has role type</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/sibling -->
+
+    <ObjectProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/sibling">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/actorProperty"/>
+        <rdfs:domain rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Actor"/>
+        <rdfs:range rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Actor"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/spouse -->
+
+    <ObjectProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/spouse">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/actorProperty"/>
+        <rdfs:domain rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Actor"/>
+        <rdfs:range rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Actor"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/subEventOf -->
+
+    <ObjectProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/subEventOf">
+        <rdfs:comment>Inverse property of hasSubEvent</rdfs:comment>
+        <rdfs:label>subevent of</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/subTypeOf -->
+
+    <ObjectProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/subTypeOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <rdfs:comment>The inverse property of hasSubType.</rdfs:comment>
+        <rdfs:label>subtype of</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/timeType -->
+
+    <ObjectProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/timeType">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/type"/>
+        <rdfs:domain rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Time"/>
+        <rdfs:range rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/TimeType"/>
+        <rdfs:comment>Has time type is used to assign a type to a time individual.</rdfs:comment>
+        <rdfs:label>has time type</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/type -->
+
+    <ObjectProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/type">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <rdfs:range rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Type"/>
+        <rdfs:comment>Type is the super property of the properties that are used to indicate the type of a Core instance, eventType, actorType, placeType, timeType; and of roleType. Types can be both classes and individuals, cf. OWL 2 punning.</rdfs:comment>
+        <rdfs:label>type property</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.org/dc/elements/1.1/type"/>
+        <skos:relatedMatch rdf:resource="http://www.kulttuurisampo.fi/ebkr/quality"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#type -->
+
+    <ObjectProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#subClassOf -->
+
+    <ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/birthDate -->
+
+    <DatatypeProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/birthDate">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/hasPersonalInformation"/>
+        <rdfs:domain rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Actor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/causes -->
+
+    <DatatypeProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/causes">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/hasInformation"/>
+        <rdfs:domain rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/date -->
+
+    <DatatypeProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/date">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/hasInformation"/>
+        <rdfs:domain rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/deathDate -->
+
+    <DatatypeProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/deathDate">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/hasPersonalInformation"/>
+        <rdfs:domain rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Actor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/hasBeginTimeStamp -->
+
+    <DatatypeProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/hasBeginTimeStamp">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/hasTimeStamp"/>
+        <rdfs:comment>Has begin timestamp is used to indicate the beginning of a time interval. Omitting the hasBeginTimeStamp while stating a hasEndTimeStamp is interpreted as an open ended interval.</rdfs:comment>
+        <rdfs:label>has begin timestamp</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/hasEarliestBeginTimeStamp -->
+
+    <DatatypeProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/hasEarliestBeginTimeStamp">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/hasBeginTimeStamp"/>
+        <rdfs:comment>Has earliest begin timestamp is used to indicate the earliest possible starting time of an uncertain time interval.</rdfs:comment>
+        <rdfs:label>has earliest begin timestamp</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/hasEarliestEndTimeStamp -->
+
+    <DatatypeProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/hasEarliestEndTimeStamp">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/hasEndTimeStamp"/>
+        <rdfs:comment>Has earliest end timestamp is used to indicate the earliest possible ending time of an uncertain time interval.</rdfs:comment>
+        <rdfs:label>has earliest end timestamp</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/hasEndTimeStamp -->
+
+    <DatatypeProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/hasEndTimeStamp">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/hasTimeStamp"/>
+        <rdfs:comment>Has end timestamp is used to indicate the end of a time interval. Omitting the hasEndTimeStamp while stating a hasBeginTimeStamp is interpreted as an open ended interval.</rdfs:comment>
+        <rdfs:label>has end timestamp</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/hasInformation -->
+
+    <DatatypeProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/hasInformation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/hasLatestBeginTimeStamp -->
+
+    <DatatypeProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/hasLatestBeginTimeStamp">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/hasBeginTimeStamp"/>
+        <rdfs:comment>Has latest begin timestamp is used to indicate the latest possible starting time of an uncertain time interval.</rdfs:comment>
+        <rdfs:label>has latest begin timestamp</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/hasLatestEndTimeStamp -->
+
+    <DatatypeProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/hasLatestEndTimeStamp">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/hasEndTimeStamp"/>
+        <rdfs:comment>Has latest end timestamp is used to indicate the latest possible ending time of an uncertain time interval.</rdfs:comment>
+        <rdfs:label>has latest end timestamp</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/hasPersonalInformation -->
+
+    <DatatypeProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/hasPersonalInformation">
+        <rdfs:domain rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Actor"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/hasTimeStamp -->
+
+    <DatatypeProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/hasTimeStamp">
+        <rdfs:comment>Has timestamp is used to put time indicators on any individual. It is the most common way to state when an Event took place. There are subproperties of hasTimeStamp to represent time intervals and uncertain time intervals. If the exact moment is not known, but it is necessary to specify a certain time, use hasTime instead. All of these properties are also used to indicate the time at which a property under the Temporary Constraint is valid.</rdfs:comment>
+        <rdfs:label>has timestamp</rdfs:label>
+        <skos:closeMatch rdf:resource="http://www.kulttuurisampo.fi/ebkr/time"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/honorificPrefix -->
+
+    <DatatypeProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/honorificPrefix">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/hasPersonalInformation"/>
+        <rdfs:domain rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Actor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/name -->
+
+    <DatatypeProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/name">
+        <rdfs:subPropertyOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/hasPersonalInformation"/>
+        <rdfs:domain rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Actor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/Actor -->
+
+    <Class rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/Actor">
+        <rdfs:subClassOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Authority"/>
+        <rdfs:subClassOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Core"/>
+        <rdfs:comment>Actors are entities that take part in an Event, either actively or passively. Actors do not necessarily have to be sentient. They can also be objects. Actors are a thing, animate or inanimate, physical or non-physical.
+</rdfs:comment>
+        <rdfs:label>Actor</rdfs:label>
+        <skos:broadMatch rdf:resource="http://sw.opencyc.org/2009/04/07/concept/en/SomethingExisting"/>
+        <skos:broadMatch rdf:resource="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#endurant"/>
+        <skos:closeMatch rdf:resource="http://purl.org/dc/terms/Agent"/>
+        <skos:closeMatch rdf:resource="http://purl.org/dc/terms/AgentClass"/>
+        <skos:closeMatch rdf:resource="http://sw.opencyc.org/2009/04/07/concept/en/Agent-Generic"/>
+        <skos:closeMatch rdf:resource="http://www.ontologyportal.org/translations/SUMO.owl.txt#Agent"/>
+        <skos:closeMatch rdf:resource="http://www8.informatik.uni-erlangen.de/IMMD8/Services/cidoc-crm/erlangen-crm_090330_5_0_1.owl#E39.Actor"/>
+        <skos:closeMatch rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </Class>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/ActorType -->
+
+    <Class rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/ActorType">
+        <rdfs:subClassOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Type"/>
+        <rdfs:comment>EventType contains all resources that are used to classify Actors, e.g. person</rdfs:comment>
+        <rdfs:label>Actor type</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/Authority -->
+
+    <Class rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/Authority">
+        <rdfs:comment>Authorities are entities that state SEM properties. Their nature is not specified. They can symbolize people, organizations, sources of information, etc.</rdfs:comment>
+        <rdfs:label>Authority</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/Conflict -->
+
+    <Class rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/Conflict">
+        <rdfs:subClassOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Event"/>
+    </Class>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/Constraint -->
+
+    <Class rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/Constraint">
+        <rdfs:comment>The SEM Constraint class contains instances of properties that have a constrained (i.e. not universal) validity. This includes time dependent validity (Temporary), validity in the guise of a specific role (Role), or validity according to a given Authority (View).</rdfs:comment>
+        <rdfs:label>Constraint</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/Core -->
+
+    <Class rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/Core">
+        <rdfs:comment>The SEM Core class contains all entities that make up the context of an event: Events, Actors, Places, Times. This class is meant to be extended for each application domain.</rdfs:comment>
+        <rdfs:label>Core</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/Event -->
+
+    <Class rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/Event">
+        <rdfs:subClassOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Core"/>
+        <rdfs:comment>Events are things that happen. This comprises everything from historical events to web site sessions and mythical journeys. Event is the central class of SEM.</rdfs:comment>
+        <rdfs:label>Event</rdfs:label>
+        <skos:broadMatch rdf:resource="http://linkedevents.org/ontology/Event"/>
+        <skos:broadMatch rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
+        <skos:closeMatch rdf:resource="http://purl.org/dc/dcmitype/Event"/>
+        <skos:closeMatch rdf:resource="http://sw.opencyc.org/2009/04/07/concept/en/Situation"/>
+        <skos:closeMatch rdf:resource="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#perdurant"/>
+        <skos:closeMatch rdf:resource="http://www.ontologyportal.org/translations/SUMO.owl.txt#Process"/>
+        <skos:closeMatch rdf:resource="http://www8.informatik.uni-erlangen.de/IMMD8/Services/cidoc-crm/erlangen-crm_090330_5_0_1.owl#E5.Event"/>
+    </Class>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/EventType -->
+
+    <Class rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/EventType">
+        <rdfs:subClassOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Type"/>
+        <rdfs:comment>EventType contains all resources that are used to classify Events, e.g. meeting.</rdfs:comment>
+        <rdfs:label>Event type</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/Object -->
+
+    <Class rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/Object">
+        <rdfs:subClassOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Actor"/>
+        <rdfs:comment>Objects are passive, inanimate Actors.</rdfs:comment>
+        <rdfs:label>Object</rdfs:label>
+        <skos:broadMatch rdf:resource="http://sw.opencyc.org/2009/04/07/concept/en/SomethingExisting"/>
+        <skos:broadMatch rdf:resource="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#endurant"/>
+        <skos:closeMatch rdf:resource="http://www.ontologyportal.org/translations/SUMO.owl.txt#Object"/>
+        <skos:closeMatch rdf:resource="http://www8.informatik.uni-erlangen.de/IMMD8/Services/cidoc-crm/erlangen-crm_090330_5_0_1.owl#E19.Physical_Object"/>
+        <skos:closeMatch rdf:resource="http://www8.informatik.uni-erlangen.de/IMMD8/Services/cidoc-crm/erlangen-crm_090330_5_0_1.owl#E21.Person"/>
+        <skos:narrowMatch rdf:resource="http://purl.org/NET/c4dm/event.owl#Factor"/>
+        <skos:narrowMatch rdf:resource="http://purl.org/NET/c4dm/event.owl#Product"/>
+        <skos:narrowMatch rdf:resource="http://purl.org/dc/dcmitype/PhysicalObject"/>
+        <skos:narrowMatch rdf:resource="http://purl.org/dc/terms/PhysicalResource"/>
+    </Class>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/Person -->
+
+    <Class rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/Person">
+        <rdfs:subClassOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/ActorType"/>
+    </Class>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/Place -->
+
+    <Class rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/Place">
+        <rdfs:subClassOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Core"/>
+        <rdfs:comment>Places are locations where an Event happens. They do not need to be physical places and hence do not necessarily need coordinates. Neither do they need to have any significance apart from them being the location of an Event.</rdfs:comment>
+        <rdfs:label>Place</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.org/dc/terms/Location"/>
+        <skos:closeMatch rdf:resource="http://sw.opencyc.org/2009/04/07/concept/en/EnduringThing-Localized"/>
+        <skos:closeMatch rdf:resource="http://www.ontologyportal.org/translations/SUMO.owl.txt#GeographicArea"/>
+        <skos:closeMatch rdf:resource="http://www8.informatik.uni-erlangen.de/IMMD8/Services/cidoc-crm/erlangen-crm_090330_5_0_1.owl#E53.Place"/>
+        <skos:narrowMatch rdf:resource="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#PhysicalRegion"/>
+        <skos:narrowMatch rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+    </Class>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/PlaceType -->
+
+    <Class rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/PlaceType">
+        <rdfs:subClassOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Type"/>
+        <rdfs:comment>EventType contains all resources that are used to classify Places, e.g. river.</rdfs:comment>
+        <rdfs:label>Place type</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/Role -->
+
+    <Class rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/Role">
+        <rdfs:subClassOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Constraint"/>
+        <rdfs:comment>Roles are properties with a subspecified function or position indicated by a RoleType in the scope of an Event. For example, the sem:hasActor property can be subspecified with the RoleType attacker, to denote that the type of participation of the Actor in the scope of the Event is &quot;attacker&quot;. The sem:hasPlace property can be subspecified with the RoleType origin, to denote that within the scope of the Event it is the origin.</rdfs:comment>
+        <rdfs:label>Role</rdfs:label>
+        <skos:relatedMatch rdf:resource="http://sw.opencyc.org/2009/04/07/concept/en/Role"/>
+        <skos:relatedMatch rdf:resource="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#region"/>
+        <skos:relatedMatch rdf:resource="http://www.ontologyportal.org/translations/SUMO.owl.txt#IntentionalProcess"/>
+    </Class>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/RoleType -->
+
+    <Class rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/RoleType">
+        <rdfs:subClassOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Type"/>
+        <rdfs:comment>EventType contains all resources that are used to classify Roles, e.g. receiver.</rdfs:comment>
+        <rdfs:label>Role type</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/Temporary -->
+
+    <Class rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/Temporary">
+        <rdfs:subClassOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Constraint"/>
+        <rdfs:comment>Temporaries are properties that only hold during a certain Time, which is either indicated with the sem:hasTime property to an instance of sem:Time, or with the sem:hasTimeStamp property to some timestamp(s).</rdfs:comment>
+        <rdfs:label>Temporary</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/Time -->
+
+    <Class rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/Time">
+        <rdfs:subClassOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Core"/>
+        <rdfs:comment>Time contains symbolic representations of when an Event took place. Time instances do not necessarily need to have a timestamp associated with them. The Time class exists to represent semantics of time, e.g. that one thing happens before another, even though the exact timestamps are unknown.</rdfs:comment>
+        <rdfs:label>Time</rdfs:label>
+        <skos:broadMatch rdf:resource="http://www.w3.org/2006/timeTemporalEntity"/>
+    </Class>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/TimeType -->
+
+    <Class rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/TimeType">
+        <rdfs:subClassOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Type"/>
+        <rdfs:comment>EventType contains all resources that are used to classify Time, e.g. century.</rdfs:comment>
+        <rdfs:label>Time type</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/Type -->
+
+    <Class rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/Type">
+        <rdfs:comment>The SEM Type class contains all types of Core instances. These can be either individuals of classes themselves. This class is meant to be extended for each application domain.</rdfs:comment>
+        <rdfs:label>Type</rdfs:label>
+        <skos:closeMatch rdf:resource="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#AbstractRegion"/>
+        <skos:closeMatch rdf:resource="http://www8.informatik.uni-erlangen.de/IMMD8/Services/cidoc-crm/erlangen-crm_090330_5_0_1.owl#E55.Type"/>
+    </Class>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/View -->
+
+    <Class rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/View">
+        <rdfs:subClassOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/Constraint"/>
+        <rdfs:comment>Views are properties that only hold according to a certain Authority.</rdfs:comment>
+        <rdfs:label>View</rdfs:label>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://linkedevents.org/ontology/Event">
+        <rdfs:isDefinedBy rdf:resource="http://linkedevents.org/ontology/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://linkedevents.org/ontology/atTime">
+        <rdfs:isDefinedBy rdf:resource="http://linkedevents.org/ontology/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://linkedevents.org/ontology/inSpace">
+        <rdfs:isDefinedBy rdf:resource="http://linkedevents.org/ontology/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://linkedevents.org/ontology/involved">
+        <rdfs:isDefinedBy rdf:resource="http://linkedevents.org/ontology/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/NET/c4dm/event.owl#Event">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/NET/c4dm/event.owl#"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/NET/c4dm/event.owl#Factor">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/NET/c4dm/event.owl#"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/NET/c4dm/event.owl#Product">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/NET/c4dm/event.owl#"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/NET/c4dm/event.owl#sub_event">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/NET/c4dm/event.owl#"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/dcmitype/Event">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/dcmitype/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/dcmitype/PhysicalObject">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/dcmitype/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/type">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/Agent">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/AgentClass">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/Location">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/PhysicalResource">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sw.opencyc.org/2009/04/07/concept/en/Agent-Generic">
+        <rdfs:isDefinedBy rdf:resource="http://sw.opencyc.org/2009/04/07/concept/en/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sw.opencyc.org/2009/04/07/concept/en/EnduringThing-Localized">
+        <rdfs:isDefinedBy rdf:resource="http://sw.opencyc.org/2009/04/07/concept/en/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sw.opencyc.org/2009/04/07/concept/en/Role">
+        <rdfs:isDefinedBy rdf:resource="http://sw.opencyc.org/2009/04/07/concept/en/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sw.opencyc.org/2009/04/07/concept/en/Situation">
+        <rdfs:isDefinedBy rdf:resource="http://sw.opencyc.org/2009/04/07/concept/en/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sw.opencyc.org/2009/04/07/concept/en/SomethingExisting">
+        <rdfs:isDefinedBy rdf:resource="http://sw.opencyc.org/2009/04/07/concept/en/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.kulttuurisampo.fi/ebkr/agent">
+        <rdfs:isDefinedBy rdf:resource="http://www.kulttuurisampo.fi/ebkr/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.kulttuurisampo.fi/ebkr/place">
+        <rdfs:isDefinedBy rdf:resource="http://www.kulttuurisampo.fi/ebkr/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.kulttuurisampo.fi/ebkr/quality">
+        <rdfs:isDefinedBy rdf:resource="http://www.kulttuurisampo.fi/ebkr/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.kulttuurisampo.fi/ebkr/time">
+        <rdfs:isDefinedBy rdf:resource="http://www.kulttuurisampo.fi/ebkr/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#AbstractRegion">
+        <rdfs:isDefinedBy rdf:resource="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#PhysicalRegion">
+        <rdfs:isDefinedBy rdf:resource="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#endurant">
+        <rdfs:isDefinedBy rdf:resource="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#perdurant">
+        <rdfs:isDefinedBy rdf:resource="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#region">
+        <rdfs:isDefinedBy rdf:resource="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.ontologyportal.org/translations/SUMO.owl.txt#Agent">
+        <rdfs:isDefinedBy rdf:resource="http://www.ontologyportal.org/translations/SUMO.owl.txt#"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.ontologyportal.org/translations/SUMO.owl.txt#GeographicArea">
+        <rdfs:isDefinedBy rdf:resource="http://www.ontologyportal.org/translations/SUMO.owl.txt#"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.ontologyportal.org/translations/SUMO.owl.txt#IntentionalProcess">
+        <rdfs:isDefinedBy rdf:resource="http://www.ontologyportal.org/translations/SUMO.owl.txt#"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.ontologyportal.org/translations/SUMO.owl.txt#Object">
+        <rdfs:isDefinedBy rdf:resource="http://www.ontologyportal.org/translations/SUMO.owl.txt#"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.ontologyportal.org/translations/SUMO.owl.txt#Process">
+        <rdfs:isDefinedBy rdf:resource="http://www.ontologyportal.org/translations/SUMO.owl.txt#"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing">
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.w3.org/2006/timeTemporalEntity">
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2006/time"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www8.informatik.uni-erlangen.de/IMMD8/Services/cidoc-crm/erlangen-crm_090330_5_0_1.owl#E19.Physical_Object">
+        <rdfs:isDefinedBy rdf:resource="http://www8.informatik.uni-erlangen.de/IMMD8/Services/cidoc-crm/erlangen-crm_090330_5_0_1.owl#"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www8.informatik.uni-erlangen.de/IMMD8/Services/cidoc-crm/erlangen-crm_090330_5_0_1.owl#E21.Person">
+        <rdfs:isDefinedBy rdf:resource="http://www8.informatik.uni-erlangen.de/IMMD8/Services/cidoc-crm/erlangen-crm_090330_5_0_1.owl#"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www8.informatik.uni-erlangen.de/IMMD8/Services/cidoc-crm/erlangen-crm_090330_5_0_1.owl#E39.Actor">
+        <rdfs:isDefinedBy rdf:resource="http://www8.informatik.uni-erlangen.de/IMMD8/Services/cidoc-crm/erlangen-crm_090330_5_0_1.owl#"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www8.informatik.uni-erlangen.de/IMMD8/Services/cidoc-crm/erlangen-crm_090330_5_0_1.owl#E5.Event">
+        <rdfs:isDefinedBy rdf:resource="http://www8.informatik.uni-erlangen.de/IMMD8/Services/cidoc-crm/erlangen-crm_090330_5_0_1.owl#"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www8.informatik.uni-erlangen.de/IMMD8/Services/cidoc-crm/erlangen-crm_090330_5_0_1.owl#E53.Place">
+        <rdfs:isDefinedBy rdf:resource="http://www8.informatik.uni-erlangen.de/IMMD8/Services/cidoc-crm/erlangen-crm_090330_5_0_1.owl#"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www8.informatik.uni-erlangen.de/IMMD8/Services/cidoc-crm/erlangen-crm_090330_5_0_1.owl#E55.Type">
+        <rdfs:isDefinedBy rdf:resource="http://www8.informatik.uni-erlangen.de/IMMD8/Services/cidoc-crm/erlangen-crm_090330_5_0_1.owl#"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent">
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
