@@ -1,0 +1,27 @@
+@prefix :      <http://localhost:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:JisaburoOzawa  :awards  "Order of the Sacred Treasure (2nd class)" .
+
+:KarelDoorman  :awards  "Ordo Orange-Nassau" , "Order of the Netherlands Lion" , "Militaire Willems-Orde" .
+
+:JohanHarmenRudolfKöhler
+        :awards  "Military William Order" .
+
+:JanvanSwieten  :awards  "Officer's Cross" , "Knight of the Order of the Dutch Lion" , "Commander of the Order of Orange-Nassau" , "Militaire Willems-Orde (Knight Grand Cross)" .
+
+:ShojiNishimura  :awards  "Order of the Rising Sun (3rd class)" .
+
+:ConradHelfrich  :awards  "Silver Cross of the Virtuti Militari (Polandia)" , "Knight Commander of the Order of the Bath (Britania Raya)" , "Commander of the Order of Orange-Nassau" , "Knight Grand Cross of the Order of the Netherlands Lion" .
+
+:Pattimura  :awards  "(diterima 6 November 1973)" , "Pahlawan Nasional Indonesia" .
+
+:HisaichiTerauchi  :awards  "Orde Matahari Terbit (kelas ke-1)" .
+
+:HitoshiImamura  :awards  "Ordo Layangan Emas, Ordo Matahari Terbit" .
+
+:IGustiKetutJelantik  :awards  "Pahlawan Nasional Indonesia" .

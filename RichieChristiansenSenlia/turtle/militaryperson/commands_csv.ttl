@@ -1,0 +1,72 @@
+@prefix :      <http://localhost:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <https://www.w3.org/TR/owl-time/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:HeinterPoorten  :commands  :American-British-Dutch-AustralianCommand .
+
+:TentaraKeduaPuluhTiga
+        rdf:type    sem:Actor ;
+        rdfs:label  "Tentara Kedua Puluh Tiga" .
+
+:American-British-Dutch-AustralianCommand
+        rdf:type    sem:Actor ;
+        rdfs:label  "American-British-Dutch-Australian Command" .
+
+:TentaraAreaKedelapanAngkatanDaratke-16Jepang
+        rdf:type    sem:Actor ;
+        rdfs:label  "Tentara Area KedelapanAngkatan Darat ke-16 Jepang" .
+
+<http://localhost:3333/Mikazukihttp://navalhistory.flixco.info/H/138302x19846/8330/a0.htm>
+        rdf:type    sem:Actor ;
+        rdfs:label  "Mikazukihttp://navalhistory.flixco.info/H/138302x19846/8330/a0.htm" .
+
+:JisaburoOzawa  :commands  <http://localhost:3333/1stFleet,8thCruiserDivision,SouthernExpeditionaryFleet,1stSouthernExpeditionaryFleet,3rdFleet,1stTaskFleet,NavalGeneralStaff,CombinedFleet> , <http://localhost:3333/,,,,> .
+
+:KepalastafKoninklijkNederlandsch-IndischeLeger
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kepala staf Koninklijk Nederlandsch-Indische Leger" .
+
+:HitoshiImamura  :commands  :TentaraAreaKedelapanAngkatanDaratke-16Jepang , :TentaraKeenamBelas , :TentaraKeduaPuluhTiga , :Divisike-5 .
+
+:TentaraKeenamBelas  rdf:type  sem:Actor ;
+        rdfs:label  "Tentara Keenam Belas" .
+
+:TaiwanTentaraJepang  rdf:type  sem:Actor ;
+        rdfs:label  "Taiwan Tentara Jepang" .
+
+<http://localhost:3333/1stFleet,8thCruiserDivision,SouthernExpeditionaryFleet,1stSouthernExpeditionaryFleet,3rdFleet,1stTaskFleet,NavalGeneralStaff,CombinedFleet>
+        rdf:type    sem:Actor ;
+        rdfs:label  "1st Fleet, 8th Cruiser Division, Southern Expeditionary Fleet, 1st Southern Expeditionary Fleet, 3rd Fleet, 1st Task Fleet, Naval General Staff, Combined Fleet" .
+
+:ShojiNishimura  :commands  <http://localhost:3333/Mikazukihttp://navalhistory.flixco.info/H/138302x19846/8330/a0.htm> .
+
+:Divisike-5  rdf:type  sem:Actor ;
+        rdfs:label  "Divisi ke-5" .
+
+:HisaichiTerauchi  :commands  :SouthernExpeditionaryArmyGrup , :ChinautaradiAreaTentara , :TaiwanTentaraJepang , :Divisike-4 , :Divisike-5 .
+
+:ChinautaradiAreaTentara
+        rdf:type    sem:Actor ;
+        rdfs:label  "China utara di Area Tentara" .
+
+:ABDAFLOAT  rdf:type  sem:Actor ;
+        rdfs:label  "ABDAFLOAT" .
+
+<http://localhost:3333/,,,,>
+        rdf:type    sem:Actor ;
+        rdfs:label  ", , , ," .
+
+:Divisike-4  rdf:type  sem:Actor ;
+        rdfs:label  "Divisi ke-4" .
+
+:ConradHelfrich  :commands  :ABDAFLOAT .
+
+:SouthernExpeditionaryArmyGrup
+        rdf:type    sem:Actor ;
+        rdfs:label  "Southern Expeditionary Army Grup" .
+
+:JanvanSwieten  :commands  :KepalastafKoninklijkNederlandsch-IndischeLeger .
