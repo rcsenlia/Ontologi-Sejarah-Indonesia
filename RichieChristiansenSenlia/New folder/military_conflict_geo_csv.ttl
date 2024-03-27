@@ -1,0 +1,210 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:Indonesia  rdf:type     geo:Feature ;
+        rdfs:label       "Indonesia" ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-2.4833826"^^xsd:double ;
+                           :longitude  "117.8902853"^^xsd:double
+                         ] .
+
+:KabupatenBanyuwangi  rdf:type  geo:Feature ;
+        rdfs:label       "Kabupaten Banyuwangi" ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-8.53116335"^^xsd:double ;
+                           :longitude  "114.02447456497055"^^xsd:double
+                         ] .
+
+:KesultananAceh  rdf:type  geo:Feature ;
+        rdfs:label       "Kesultanan Aceh" ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-0.789275"^^xsd:double ;
+                           :longitude  "113.921327"^^xsd:double
+                         ] ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-0.789275"^^xsd:double ;
+                           :longitude  "113.921327"^^xsd:double
+                         ] ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-0.789275"^^xsd:double ;
+                           :longitude  "113.921327"^^xsd:double
+                         ] ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-0.789275"^^xsd:double ;
+                           :longitude  "113.921327"^^xsd:double
+                         ] .
+
+:JawaTengah  rdf:type    geo:Feature ;
+        rdfs:label       "Jawa Tengah" ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-7.3032412"^^xsd:double ;
+                           :longitude  "110.0044145"^^xsd:double
+                         ] ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-7.3032412"^^xsd:double ;
+                           :longitude  "110.0044145"^^xsd:double
+                         ] .
+
+<http://127.0.0.1:3333/PertempuranMelaka(1641)>
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Pertempuran Melaka (1641)" ;
+        :location   :Malaysia , :Melaka .
+
+:PerangBelasting  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Belasting" ;
+        :location   :SumateraBarat , :Agam , <http://127.0.0.1:3333/KamangMagek,Agam> .
+
+:PerangAceh  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Aceh" ;
+        :location   :KesultananAceh .
+
+:PerangPadri  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Padri" ;
+        :location   :Riau , :SumateraUtara , :SumateraBarat .
+
+:SerbuanYuan-MongolkeJawa
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Serbuan Yuan-Mongol ke Jawa" ;
+        :location   :JawaTimur .
+
+:KotaSemarang  rdf:type  geo:Feature ;
+        rdfs:label       "Kota Semarang" ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-7.0206378"^^xsd:double ;
+                           :longitude  "110.3366201"^^xsd:double
+                         ] .
+
+:Malaysia  rdf:type      geo:Feature ;
+        rdfs:label       "Malaysia" ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "4.5693754"^^xsd:double ;
+                           :longitude  "102.2656823"^^xsd:double
+                         ] .
+
+:Riau   rdf:type         geo:Feature ;
+        rdfs:label       "Riau" ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "0.5004112"^^xsd:double ;
+                           :longitude  "101.5475811"^^xsd:double
+                         ] .
+
+:Agam   rdf:type         geo:Feature ;
+        rdfs:label       "Agam" ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-0.2547205"^^xsd:double ;
+                           :longitude  "100.17003113862154"^^xsd:double
+                         ] .
+
+:SumateraBarat  rdf:type  geo:Feature ;
+        rdfs:label       "Sumatera Barat" ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-0.5827529"^^xsd:double ;
+                           :longitude  "100.6133379"^^xsd:double
+                         ] ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-0.5827529"^^xsd:double ;
+                           :longitude  "100.6133379"^^xsd:double
+                         ] .
+
+<http://127.0.0.1:3333/KamangMagek,Agam>
+        rdf:type         geo:Feature ;
+        rdfs:label       "Kamang Magek, Agam" ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-0.2331557"^^xsd:double ;
+                           :longitude  "100.4323849"^^xsd:double
+                         ] .
+
+:Yogyakarta  rdf:type    geo:Feature ;
+        rdfs:label       "Yogyakarta" ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-7.9778383999999996"^^xsd:double ;
+                           :longitude  "110.36722565020224"^^xsd:double
+                         ] .
+
+:Melaka  rdf:type        geo:Feature ;
+        rdfs:label       "Melaka" ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "2.3293744"^^xsd:double ;
+                           :longitude  "102.2880962"^^xsd:double
+                         ] .
+
+:PemberontakanRadenRonggo
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Pemberontakan Raden Ronggo" ;
+        :location   :Jawa .
+
+<http://127.0.0.1:3333/Songgon,Banyuwangi>
+        rdf:type         geo:Feature ;
+        rdfs:label       "Songgon, Banyuwangi" ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-8.2331097"^^xsd:double ;
+                           :longitude  "114.20228"^^xsd:double
+                         ] .
+
+:KeratonYogyakarta  rdf:type  geo:Feature ;
+        rdfs:label       "Keraton Yogyakarta" ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-7.80820795"^^xsd:double ;
+                           :longitude  "110.36378395221467"^^xsd:double
+                         ] .
+
+<http://127.0.0.1:3333/Bayu,Songgon,Banyuwangi>
+        rdf:type         geo:Feature ;
+        rdfs:label       "Bayu, Songgon, Banyuwangi" ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-0.789275"^^xsd:double ;
+                           :longitude  "113.921327"^^xsd:double
+                         ] .
+
+:GegerSepehi  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Geger Sepehi" ;
+        :location   :KeratonYogyakarta .
+
+:Surakarta  rdf:type     geo:Feature ;
+        rdfs:label       "Surakarta" ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-7.5692489"^^xsd:double ;
+                           :longitude  "110.828448"^^xsd:double
+                         ] .
+
+:JawaTimur  rdf:type     geo:Feature ;
+        rdfs:label       "Jawa Timur" ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-7.6977397"^^xsd:double ;
+                           :longitude  "112.4914199"^^xsd:double
+                         ] ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-7.6977397"^^xsd:double ;
+                           :longitude  "112.4914199"^^xsd:double
+                         ] .
+
+:PerangBayu  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Bayu" ;
+        :location   :KabupatenBanyuwangi , <http://127.0.0.1:3333/Songgon,Banyuwangi> , <http://127.0.0.1:3333/Bayu,Songgon,Banyuwangi> .
+
+:PerangDiponegoro  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Diponegoro" ;
+        :location   :JawaTimur , :JawaTengah , :Surakarta , :Yogyakarta .
+
+:SumateraUtara  rdf:type  geo:Feature ;
+        rdfs:label       "Sumatera Utara" ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "2.1923519"^^xsd:double ;
+                           :longitude  "99.3812201"^^xsd:double
+                         ] .
+
+:PertempuranLimaHari  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Pertempuran Lima Hari" ;
+        :location   :Indonesia , :JawaTengah , :KotaSemarang .
+
+:Jawa   rdf:type         geo:Feature ;
+        rdfs:label       "Jawa" ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-6.71150765"^^xsd:double ;
+                           :longitude  "110.63371366935611"^^xsd:double
+                         ] .

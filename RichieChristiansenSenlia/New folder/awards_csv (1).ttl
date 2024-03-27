@@ -1,0 +1,63 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:0      rdf:type  :MilitaryPerson ;
+        :awards   "0" .
+
+:6      rdf:type  :MilitaryPerson ;
+        :awards   "6" .
+
+:12     rdf:type  :MilitaryPerson ;
+        :awards   "12" .
+
+:18     rdf:type  :MilitaryPerson ;
+        :awards   "18" .
+
+:5      rdf:type  :MilitaryPerson ;
+        :awards   "5" .
+
+:11     rdf:type  :MilitaryPerson ;
+        :awards   "11" .
+
+:17     rdf:type  :MilitaryPerson ;
+        :awards   "17" .
+
+:4      rdf:type  :MilitaryPerson ;
+        :awards   "4" .
+
+:10     rdf:type  :MilitaryPerson ;
+        :awards   "10" .
+
+:16     rdf:type  :MilitaryPerson ;
+        :awards   "16" .
+
+:3      rdf:type  :MilitaryPerson ;
+        :awards   "3" .
+
+:9      rdf:type  :MilitaryPerson ;
+        :awards   "9" .
+
+:15     rdf:type  :MilitaryPerson ;
+        :awards   "15" .
+
+:2      rdf:type  :MilitaryPerson ;
+        :awards   "2" .
+
+:8      rdf:type  :MilitaryPerson ;
+        :awards   "8" .
+
+:14     rdf:type  :MilitaryPerson ;
+        :awards   "14" .
+
+:1      rdf:type  :MilitaryPerson ;
+        :awards   "1" .
+
+:7      rdf:type  :MilitaryPerson ;
+        :awards   "7" .
+
+:13     rdf:type  :MilitaryPerson ;
+        :awards   "13" .

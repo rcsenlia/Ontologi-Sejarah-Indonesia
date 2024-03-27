@@ -1,0 +1,97 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <https://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:GegerSepehi  rdf:type  :MilitaryConflict ;
+        rdfs:label   "Geger Sepehi" ;
+        :combatant2  :KadipatenMangkunagaran , :PendudukanInggrisdiJawa , :BritaniaRaya .
+
+:KesultananAceh  rdf:type  sem:Actor ;
+        rdfs:label  "Kesultanan Aceh" .
+
+:HindiaBelanda  rdf:type  sem:Actor ;
+        rdfs:label  "Hindia Belanda" .
+
+<http://127.0.0.1:3333/KaumPadri(1803-1821)>
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kaum Padri (1803-1821)" .
+
+:PemberontakanRadenRonggo
+        rdf:type     :MilitaryConflict ;
+        rdfs:label   "Pemberontakan Raden Ronggo" ;
+        :combatant2  :TentaraKaresidenanMadiun .
+
+:PendudukanInggrisdiJawa
+        rdf:type    sem:Actor ;
+        rdfs:label  "Pendudukan Inggris di Jawa" .
+
+<http://127.0.0.1:3333/KaumPadri(1821-1833)>
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kaum Padri (1821-1833)" .
+
+:PerangDiponegoro  rdf:type  :MilitaryConflict ;
+        rdfs:label   "Perang Diponegoro" ;
+        :combatant2  <http://127.0.0.1:3333/PasukanJawa/Diponegoro> .
+
+:PerangBelasting  rdf:type  :MilitaryConflict ;
+        rdfs:label   "Perang Belasting" ;
+        :combatant2  :HindiaBelanda .
+
+:BritaniaRaya  rdf:type  sem:Actor ;
+        rdfs:label  "Britania Raya" .
+
+:KadipatenMangkunagaran
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kadipaten Mangkunagaran" .
+
+:TentaraKaresidenanMadiun
+        rdf:type    sem:Actor ;
+        rdfs:label  "Tentara Karesidenan Madiun" .
+
+:PerangBayu  rdf:type  :MilitaryConflict ;
+        rdfs:label   "Perang Bayu" ;
+        :combatant2  :KesultananMataram , :PasukanVOC .
+
+:KerajaanSinghasari  rdf:type  sem:Actor ;
+        rdfs:label  "Kerajaan Singhasari" .
+
+<http://127.0.0.1:3333/PasukanJawa/Diponegoro>
+        rdf:type    sem:Actor ;
+        rdfs:label  "Pasukan Jawa/Diponegoro" .
+
+:Majapahit  rdf:type  sem:Actor ;
+        rdfs:label  "Majapahit" .
+
+:PerangAceh  rdf:type  :MilitaryConflict ;
+        rdfs:label   "Perang Aceh" ;
+        :combatant2  :UlamaIslam , :KesultananAceh .
+
+<http://127.0.0.1:3333/KaumPadri(1833-1838)>
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kaum Padri (1833-1838)" .
+
+:KesultananMataram  rdf:type  sem:Actor ;
+        rdfs:label  "Kesultanan Mataram" .
+
+:SerbuanYuan-MongolkeJawa
+        rdf:type     :MilitaryConflict ;
+        rdfs:label   "Serbuan Yuan-Mongol ke Jawa" ;
+        :combatant2  :Majapahit , :KerajaanSinghasari .
+
+:PerangPadri  rdf:type  :MilitaryConflict ;
+        rdfs:label   "Perang Padri" ;
+        :combatant2  <http://127.0.0.1:3333/KaumAdat(1833-1838)> , <http://127.0.0.1:3333/KaumPadri(1833-1838)> , <http://127.0.0.1:3333/KaumPadri(1821-1833)> , <http://127.0.0.1:3333/KaumPadri(1803-1821)> .
+
+:UlamaIslam  rdf:type  sem:Actor ;
+        rdfs:label  "Ulama Islam" .
+
+<http://127.0.0.1:3333/KaumAdat(1833-1838)>
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kaum Adat (1833-1838)" .
+
+:PasukanVOC  rdf:type  sem:Actor ;
+        rdfs:label  "Pasukan VOC" .

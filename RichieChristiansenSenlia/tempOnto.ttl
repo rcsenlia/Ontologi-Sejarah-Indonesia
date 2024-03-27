@@ -65,6 +65,11 @@ local:MilitaryPersonProperty rdf:type owl:ObjectProperty ;
                              rdfs:domain local:MilitaryPerson .
 
 
+###  http://127.0.0.1:3333/RoyaltyProperty
+local:RoyaltyProperty rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty .
+
+
 ###  http://127.0.0.1:3333/battles
 local:battles rdf:type owl:ObjectProperty ;
               rdfs:subPropertyOf local:MilitaryPersonProperty ;
@@ -127,6 +132,12 @@ local:death_date rdf:type owl:ObjectProperty ;
 local:death_place rdf:type owl:ObjectProperty ;
                   rdfs:subPropertyOf local:MilitaryPersonProperty ;
                   rdfs:range <http://www.opengis.net/ont/geosparql#Feature> .
+
+
+###  http://127.0.0.1:3333/spouse
+local:spouse rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf local:RoyaltyProperty ;
+             rdfs:range local:Person .
 
 
 ###  http://semanticweb.cs.vu.nl/2009/11/sem/accordingTo
@@ -290,13 +301,6 @@ sem:sibling rdf:type owl:ObjectProperty ;
             rdfs:range sem:Actor .
 
 
-###  http://semanticweb.cs.vu.nl/2009/11/sem/spouse
-sem:spouse rdf:type owl:ObjectProperty ;
-           rdfs:subPropertyOf sem:actorProperty ;
-           rdfs:domain sem:Actor ;
-           rdfs:range sem:Actor .
-
-
 ###  http://semanticweb.cs.vu.nl/2009/11/sem/subEventOf
 sem:subEventOf rdf:type owl:ObjectProperty ;
                rdfs:comment "Inverse property of hasSubEvent" ;
@@ -448,23 +452,33 @@ sem:name rdf:type owl:DatatypeProperty ;
 
 ###  http://127.0.0.1:3333/MilitaryConflict
 local:MilitaryConflict rdf:type owl:Class ;
-                       rdfs:subClassOf sem:Event .
+                       rdfs:subClassOf sem:Event ;
+                       rdfs:label "Military Conflict" .
 
 
 ###  http://127.0.0.1:3333/MilitaryPerson
 local:MilitaryPerson rdf:type owl:Class ;
                      rdfs:subClassOf local:Person ;
-                     owl:disjointWith local:OfficeHolder .
+                     owl:disjointWith local:OfficeHolder ;
+                     rdfs:label "Military Person" .
 
 
 ###  http://127.0.0.1:3333/OfficeHolder
 local:OfficeHolder rdf:type owl:Class ;
-                   rdfs:subClassOf local:Person .
+                   rdfs:subClassOf local:Person ;
+                   rdfs:label "Office Holder" .
 
 
 ###  http://127.0.0.1:3333/Person
 local:Person rdf:type owl:Class ;
-             rdfs:subClassOf sem:Actor .
+             rdfs:subClassOf sem:Actor ;
+             rdfs:label "Person" .
+
+
+###  http://127.0.0.1:3333/Royalty
+local:Royalty rdf:type owl:Class ;
+              rdfs:subClassOf local:Person ;
+              rdfs:label "Royalty" .
 
 
 ###  http://semanticweb.cs.vu.nl/2009/11/sem/Actor
@@ -628,6 +642,10 @@ sem:View rdf:type owl:Class ;
          rdfs:subClassOf sem:Constraint ;
          rdfs:comment "Views are properties that only hold according to a certain Authority." ;
          rdfs:label "View" .
+
+
+###  http://www.opengis.net/ont/geosparql#Feature
+<http://www.opengis.net/ont/geosparql#Feature> rdf:type owl:Class .
 
 
 #################################################################
