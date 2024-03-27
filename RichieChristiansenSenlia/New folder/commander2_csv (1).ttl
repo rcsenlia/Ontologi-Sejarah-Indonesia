@@ -1,0 +1,171 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:PanglimaPolem  rdf:type  :Person ;
+        rdfs:label  "Panglima Polem" .
+
+:TumenggungPrawirodigdoyo
+        rdf:type    :Person ;
+        rdfs:label  "Tumenggung Prawirodigdoyo" .
+
+:SultanMahmudSyah  rdf:type  :Person ;
+        rdfs:label  "Sultan Mahmud Syah" .
+
+<http://127.0.0.1:3333/PertempuranMelaka(1641)>
+        rdf:type     :MilitaryConflict ;
+        rdfs:label   "Pertempuran Melaka (1641)" ;
+        :commander2  :ManueldeSousaCoutinho .
+
+:CornelisvanBiesheuvel
+        rdf:type    :Person ;
+        rdfs:label  "Cornelis van Biesheuvel" .
+
+:BPHNatakusuma  rdf:type  :Person ;
+        rdfs:label  "BPH Natakusuma" .
+
+:RadenWijaya  rdf:type  :Person ;
+        rdfs:label  "Raden Wijaya" .
+
+:PerangAceh  rdf:type  :MilitaryConflict ;
+        rdfs:label   "Perang Aceh" ;
+        :commander2  :TeungkuFakinah , :CutMeutia , :PanglimaPolem , :SultanMahmudSyah , :CutNyakDhien , :TeukuUmar , :HabibAbdurrahmanAz-Zahir , :PocutMeuligoe , :SultanMuhammadDaudSyah , :TeungkuChikdiTiro , :TeukuBenMahmud .
+
+:AryaWiraraja  rdf:type  :Person ;
+        rdfs:label  "Arya Wiraraja" .
+
+:PerangPadri  rdf:type  :MilitaryConflict ;
+        rdfs:label   "Perang Padri" ;
+        :commander2  :TuankuTambusai , :TuankuRao , :TuankuImamBonjol , :TuankuPasaman .
+
+:SerbuanYuan-MongolkeJawa
+        rdf:type     :MilitaryConflict ;
+        rdfs:label   "Serbuan Yuan-Mongol ke Jawa" ;
+        :commander2  :AryaWiraraja , :RanggaLawe , :Nambi , :Sora , :RadenWijaya .
+
+:TuankuImamBonjol  rdf:type  :Person ;
+        rdfs:label  "Tuanku Imam Bonjol" .
+
+:TeukuUmar  rdf:type  :Person ;
+        rdfs:label  "Teuku Umar" .
+
+:HabibAbdurrahmanAz-Zahir
+        rdf:type    :Person ;
+        rdfs:label  "Habib Abdurrahman Az-Zahir" .
+
+:KidoShinichirō  rdf:type  :Person ;
+        rdfs:label  "Kido Shinichirō" .
+
+:RonggoPrawirodirjoIII
+        rdf:type    :Person ;
+        rdfs:label  "Ronggo Prawirodirjo III" .
+
+:NyiAgengSerang  rdf:type  :Person ;
+        rdfs:label  "Nyi Ageng Serang" .
+
+:TuankuRao  rdf:type  :Person ;
+        rdfs:label  "Tuanku Rao" .
+
+:TeungkuFakinah  rdf:type  :Person ;
+        rdfs:label  "Teungku Fakinah" .
+
+:TuankuTambusai  rdf:type  :Person ;
+        rdfs:label  "Tuanku Tambusai" .
+
+:Nambi  rdf:type    :Person ;
+        rdfs:label  "Nambi" .
+
+:TeukuBenMahmud  rdf:type  :Person ;
+        rdfs:label  "Teuku Ben Mahmud" .
+
+:PemberontakanRadenRonggo
+        rdf:type     :MilitaryConflict ;
+        rdfs:label   "Pemberontakan Raden Ronggo" ;
+        :commander2  :RonggoPrawirodirjoIII .
+
+:SentotPrawirodirdjo  rdf:type  :Person ;
+        rdfs:label  "Sentot Prawirodirdjo" .
+
+:PocutMeuligoe  rdf:type  :Person ;
+        rdfs:label  "Pocut Meuligoe" .
+
+:CutMeutia  rdf:type  :Person ;
+        rdfs:label  "Cut Meutia" .
+
+:GegerSepehi  rdf:type  :MilitaryConflict ;
+        rdfs:label   "Geger Sepehi" ;
+        :commander2  :TanJinSing , :BPHNatakusuma , :MangkunegaraII , :RobertRolloGillespie , :JohnCrawfurd , :ThomasStamfordRaffles .
+
+:SultanMuhammadDaudSyah
+        rdf:type    :Person ;
+        rdfs:label  "Sultan Muhammad Daud Syah" .
+
+:TeungkuChikdiTiro  rdf:type  :Person ;
+        rdfs:label  "Teungku Chik di Tiro" .
+
+:TuankuPasaman  rdf:type  :Person ;
+        rdfs:label  "Tuanku Pasaman" .
+
+:PerangBayu  rdf:type  :MilitaryConflict ;
+        rdfs:label   "Perang Bayu" ;
+        :commander2  :HendrikvanSchopoff , :CornelisvanBiesheuvel , :PetrusAlbertusvanderParra , :PakubuwonoII .
+
+:ManueldeSousaCoutinho
+        rdf:type    :Person ;
+        rdfs:label  "Manuel de Sousa Coutinho" .
+
+:CutNyakDhien  rdf:type  :Person ;
+        rdfs:label  "Cut Nyak Dhien" .
+
+:PakubuwanaVI  rdf:type  :Person ;
+        rdfs:label  "Pakubuwana VI" .
+
+:Sora   rdf:type    :Person ;
+        rdfs:label  "Sora" .
+
+:ThomasStamfordRaffles
+        rdf:type    :Person ;
+        rdfs:label  "Thomas Stamford Raffles" .
+
+:PerangDiponegoro  rdf:type  :MilitaryConflict ;
+        rdfs:label   "Perang Diponegoro" ;
+        :commander2  :TumenggungPrawirodigdoyo , :PakubuwanaVI , :NyiAgengSerang , :KiaiMadja , :SentotPrawirodirdjo , :Diponegoro .
+
+:TanJinSing  rdf:type  :Person ;
+        rdfs:label  "Tan Jin Sing" .
+
+:PetrusAlbertusvanderParra
+        rdf:type    :Person ;
+        rdfs:label  "Petrus Albertus van der Parra" .
+
+:Diponegoro  rdf:type  :Person ;
+        rdfs:label  "Diponegoro" .
+
+:PertempuranLimaHari  rdf:type  :MilitaryConflict ;
+        rdfs:label   "Pertempuran Lima Hari" ;
+        :commander2  :KidoShinichirō .
+
+:HendrikvanSchopoff  rdf:type  :Person ;
+        rdfs:label  "Hendrik van Schopoff" .
+
+:KiaiMadja  rdf:type  :Person ;
+        rdfs:label  "Kiai Madja" .
+
+:RobertRolloGillespie
+        rdf:type    :Person ;
+        rdfs:label  "Robert Rollo Gillespie" .
+
+:RanggaLawe  rdf:type  :Person ;
+        rdfs:label  "Rangga Lawe" .
+
+:PakubuwonoII  rdf:type  :Person ;
+        rdfs:label  "Pakubuwono II" .
+
+:MangkunegaraII  rdf:type  :Person ;
+        rdfs:label  "Mangkunegara II" .
+
+:JohnCrawfurd  rdf:type  :Person ;
+        rdfs:label  "John Crawfurd" .
