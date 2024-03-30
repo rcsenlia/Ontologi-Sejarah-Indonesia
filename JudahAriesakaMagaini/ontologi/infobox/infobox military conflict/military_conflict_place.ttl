@@ -12,7 +12,7 @@
 :Indonesia  rdf:type  geo:Feature ;
         rdfs:label  "Indonesia" .
 
-<http://127.0.0.1:3333/KonfrontasiIndonesia–Malaysia>
+<http://127.0.0.1:3333/KonfrontasiIndonesia-Malaysia>
         :location  :Kalimantan , :SemenanjungMalaka .
 
 :Sambas  rdf:type   geo:Feature ;

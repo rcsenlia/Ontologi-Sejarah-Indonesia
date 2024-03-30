@@ -7,8 +7,8 @@
 
 :PeristiwaArfai  rdf:type  :MilitaryConflict ;
         rdfs:label    "Peristiwa Arfai" ;
-        :casualties1  "3–18 tewas" ;
-        :casualties2  "4–36 tewas" ;
+        :casualties1  "3-18 tewas" ;
+        :casualties2  "4-36 tewas" ;
         :partof       "Konflik Papua" ;
         :strength1    "1 batalion" ;
         :strength2    "1 batalion" ;
@@ -34,19 +34,19 @@
         rdf:type      :MilitaryConflict ;
         rdfs:label    "Pendudukan Indonesia atas Timor Timur" ;
         :casualties1  "2.277 tentara dan polisi Indonesia tewas1.527 milisi Timor Timur tewas2.400 terlukaTotal: 3.408 tewas dan 2.400 terluka" ;
-        :casualties2  "Perkiraan berkisar antara 100.000–300.000 orang tewas (lihat di bawah)" ;
+        :casualties2  "Perkiraan berkisar antara 100.000-300.000 orang tewas (lihat di bawah)" ;
         :image        "LocationEastTimorNamed.svg" ;
         :partof       "Perang Dingin" ;
         :summary      "Pendudukan Indonesia atas Timor Timur dimulai pada bulan Desember 1975 dan berlangsung hingga Oktober 1999. Setelah berabad-abad diperintah oleh Portugis, kudeta tahun 1974 di Portugal memicu dekolonisasi di bekas koloninya, menciptakan ketidakstabilan di Timor Timur dan ketidakpastian akan masa depannya. Setelah perang saudara berskala kecil, Fretilin yang pro-kemerdekaan mendeklarasikan kemenangan di ibu kota Dili dan mendeklarasikan kemerdekaan Timor Timur pada tanggal 28 November 1975.\nDengan klaim bahwa pemimpin-pemimpin di Timor Timur meminta bantuan, pasukan militer Indonesia melakukan invasi ke Timor Timur pada tanggal 7 Desember 1975 (atas desakan Australia dan dukungan Amerika Serikat), dan pada 1979 militer Indonesia telah menghancurkan semua perlawanan terhadap pendudukan Indonesia di Timor Timur. Setelah diadakannya suatu pemungutan suara yang dianggap kontroversial karena dikatakan tidak sesuai dengan keinginan rakyat Timor Timur yang sesungguhnya, Indonesia mendeklarasikan wilayah Timor Timur sebagai provinsi Indonesia (provinsi Timor Timur)." ;
         :wikiurl      "https://id.wikipedia.org/wiki/Pendudukan_Indonesia_atas_Timor_Timur" .
 
-<http://127.0.0.1:3333/KonfrontasiIndonesia–Malaysia>
+<http://127.0.0.1:3333/KonfrontasiIndonesia-Malaysia>
         rdf:type      :MilitaryConflict ;
-        rdfs:label    "Konfrontasi Indonesia–Malaysia" ;
+        rdfs:label    "Konfrontasi Indonesia-Malaysia" ;
         :casualties1  "Total: • 280 terbunuh dan 183 luka-luka               140 terbunuh (termasuk 44 ghurka)43 luka-luka 23 terbunuh9 luka-luka 12 terbunuh8 luka-luka 9 terbunuhGurkha 44 terbunuh83 luka-lukaLainnya: 44 terbunuh40 luka-luka" ;
         :casualties2  "Total: 590 terbunuh 222 luka-luka 771 ditangkap" ;
         :partof       "Pembentukan Malaysia dan Perang Dingin" ;
-        :summary      "Konfrontasi Indonesia–Malaysia atau Konfrontasi Borneo (juga dikenal dengan Bahasa Indonesia / Melayu, Konfrontasi) adalah konflik bersenjata dari tahun 1963 hingga 1966 yang bermula dari penentangan Indonesia terhadap pembentukan Federasi Malaysia. Setelah presiden Indonesia Soekarno digulingkan pada tahun 1966, perselisihan berakhir secara damai dan negara Malaysia terbentuk.\nPembentukan Malaysia adalah penggabungan Federasi Malaya (sekarang Semenanjung Malaysia), Singapura dan koloni mahkota Inggris di Borneo Utara dan Sarawak (secara kolektif dikenal sebagai Borneo Inggris, sekarang Malaysia Timur) pada September 1963. Perintis penting konflik tersebut termasuk kebijakan konfrontasi Indonesia melawan Nugini Belanda dari Maret–Agustus 1962 dan Pemberontakan Brunei pada Desember 1962. Malaysia mendapat dukungan militer langsung dari Britania Raya, Australia, dan Selandia Baru." ;
+        :summary      "Konfrontasi Indonesia-Malaysia atau Konfrontasi Borneo (juga dikenal dengan Bahasa Indonesia / Melayu, Konfrontasi) adalah konflik bersenjata dari tahun 1963 hingga 1966 yang bermula dari penentangan Indonesia terhadap pembentukan Federasi Malaysia. Setelah presiden Indonesia Soekarno digulingkan pada tahun 1966, perselisihan berakhir secara damai dan negara Malaysia terbentuk.\nPembentukan Malaysia adalah penggabungan Federasi Malaya (sekarang Semenanjung Malaysia), Singapura dan koloni mahkota Inggris di Borneo Utara dan Sarawak (secara kolektif dikenal sebagai Borneo Inggris, sekarang Malaysia Timur) pada September 1963. Perintis penting konflik tersebut termasuk kebijakan konfrontasi Indonesia melawan Nugini Belanda dari Maret-Agustus 1962 dan Pemberontakan Brunei pada Desember 1962. Malaysia mendapat dukungan militer langsung dari Britania Raya, Australia, dan Selandia Baru." ;
         :wikiurl      "https://id.wikipedia.org/wiki/Konfrontasi_Indonesia%E2%80%93Malaysia" .
 
 :PendaratandiLabis  rdf:type  :MilitaryConflict ;
@@ -80,8 +80,8 @@
         :casualties1  "425 tewas800 luka-luka (klaim OPM)" ;
         :casualties2  "1.605 tewas (klaim OPM)" ;
         :partof       "Konflik Papua" ;
-        :strength1    "10.000–16.0002 aircraft" ;
-        :strength2    "10.000–16.0002 aircraft" ;
+        :strength1    "10.000-16.0002 aircraft" ;
+        :strength2    "10.000-16.0002 aircraft" ;
         :summary      "Pada awal 1976, Angkatan Darat Indonesia meluncurkan sebuah serangan terhadap unsur-unsur militer Organisasi Papua Merdeka (OPM) di belahan selatan Kabupaten Jayapura, sekarang Provinsi Papua. Meskipun operasi tersebut gagal untuk sepenuhnya menghancurkan keberadaan OPM, organisasi tersebut mengalami kekalahan besar dalam hal militer.\n\n\n== Catatan ==\n\n\n== Referensi ==\n\n\n== Daftar pustaka ==\nOsborne, Robin (2001). Kibaran Sampari: gerakan pembebasan OPM, dan perang rahasia di Papua Barat. Lembaga Studi dan Advokasi Masyarakat (ELSAM)." ;
         :wikiurl      "https://id.wikipedia.org/wiki/Operasi_Jayapura_1976" .
 
@@ -90,21 +90,21 @@
         :casualties1  "128 tewas" ;
         :casualties2  "15.000 tewas<small>(Kebanyakan warga sipil)" ;
         :partof       "Separatisme di Indonesia" ;
-        :strength1    "12,000 (1990)Uppsala conflict data expansion. Non-state actor information. Codebook pp. 295-296 30,000 (2001) 15,000 (2002) 35,000Global Security - Free Aceh Movement–50,000 (2003)" ;
-        :strength2    "12,000 (1990)Uppsala conflict data expansion. Non-state actor information. Codebook pp. 295-296 30,000 (2001) 15,000 (2002) 35,000Global Security - Free Aceh Movement–50,000 (2003)" ;
-        :summary      "Pemberontakan di Aceh dikobarkan oleh Gerakan Aceh Merdeka (GAM) untuk memperoleh kemerdekaan dari Indonesia antara tahun 1976 hingga tahun 2005. Operasi militer yang dilakukan TNI dan Polri (2003–2004), beserta kehancuran yang disebabkan oleh gempa bumi Samudra Hindia 2004 menyebabkan diadakannya persetujuan perdamaian dan berakhirnya pemberontakan. Amnesty International merilis laporan Time To Face The Past pada April 2013 setelah pemerintah Indonesia dianggap gagal menjalankan kewajibannya sesuai perjanjian damai 2005. Laporan tersebut memperingatkan bahwa kekerasan baru akan terjadi jika masalah ini tidak diselesaikan.\n\n\n== Latar belakang ==\nAda perbedaan budaya dan agama antara Aceh dan daerah lain di Indonesia." ;
+        :strength1    "12,000 (1990)Uppsala conflict data expansion. Non-state actor information. Codebook pp. 295-296 30,000 (2001) 15,000 (2002) 35,000Global Security - Free Aceh Movement-50,000 (2003)" ;
+        :strength2    "12,000 (1990)Uppsala conflict data expansion. Non-state actor information. Codebook pp. 295-296 30,000 (2001) 15,000 (2002) 35,000Global Security - Free Aceh Movement-50,000 (2003)" ;
+        :summary      "Pemberontakan di Aceh dikobarkan oleh Gerakan Aceh Merdeka (GAM) untuk memperoleh kemerdekaan dari Indonesia antara tahun 1976 hingga tahun 2005. Operasi militer yang dilakukan TNI dan Polri (2003-2004), beserta kehancuran yang disebabkan oleh gempa bumi Samudra Hindia 2004 menyebabkan diadakannya persetujuan perdamaian dan berakhirnya pemberontakan. Amnesty International merilis laporan Time To Face The Past pada April 2013 setelah pemerintah Indonesia dianggap gagal menjalankan kewajibannya sesuai perjanjian damai 2005. Laporan tersebut memperingatkan bahwa kekerasan baru akan terjadi jika masalah ini tidak diselesaikan.\n\n\n== Latar belakang ==\nAda perbedaan budaya dan agama antara Aceh dan daerah lain di Indonesia." ;
         :wikiurl      "https://id.wikipedia.org/wiki/Pemberontakan_di_Aceh" .
 
 :InvasiIndonesiakeTimorTimur
         rdf:type      :MilitaryConflict ;
         rdfs:label    "Invasi Indonesia ke Timor Timur" ;
-        :casualties1  "1.000 tewas, terluka atau ditangkapPower Kills R.J. RummelEckhardt, William, in World Military and Social Expenditures 1987–88 (12th ed., 1987) by Ruth Leger Sivard." ;
-        :casualties2  "185.000 tewas, terluka atau ditangkap (1975–1999)„Chega!“-Report of Commission for Reception, Truth and Reconciliation in East Timor (CAVR)(termasuk warga sipil)" ;
+        :casualties1  "1.000 tewas, terluka atau ditangkapPower Kills R.J. RummelEckhardt, William, in World Military and Social Expenditures 1987-88 (12th ed., 1987) by Ruth Leger Sivard." ;
+        :casualties2  "185.000 tewas, terluka atau ditangkap (1975-1999)„Chega!“-Report of Commission for Reception, Truth and Reconciliation in East Timor (CAVR)(termasuk warga sipil)" ;
         :image        "Timor - Indonesian Invasion.png" ;
         :partof       "Perang Dingin" ;
         :strength1    "35.000 tentara" ;
         :strength2    "35.000 tentara" ;
-        :summary      "Invasi Indonesia ke Timor Timur, lebih dikenal sebagai Operasi Seroja atau Perang Timor Timur, dimulai pada tanggal 7 Desember 1975 ketika militer Indonesia masuk ke Timor Timur dengan dalih anti-kolonialisme dan anti-komunisme untuk menggulingkan rezim Fretilin yang muncul pada tahun 1974. Penggulingan pemerintah yang dipimpin secara singkat oleh Fretilin memicu pendudukan kekerasan selama seperempat abad di mana sekitar 100.000–180.000 tentara dan warga sipil diperkirakan telah terbunuh atau mati kelaparan. Komisi Pengakuan, Kebenaran, dan Rekonsiliasi di Timor Leste (CAVR) mendokumentasikan perkiraan minimum sebesar 102.000 kematian terkait konflik di Timor Timur selama periode 1974 hingga 1999, termasuk 18.600 pembunuhan dengan kekerasan dan 84.200 kematian akibat penyakit dan kelaparan; pasukan Indonesia dan gabungan pasukan pembantunya bertanggung jawab atas 70% dari total pembunuhan.Bulan-bulan pertama pendudukan, militer Indonesia menghadapi perlawanan pemberontakan yang berat di pedalaman pegunungan pulau, tetapi dari tahun 1977-1978, militer memperoleh persenjataan canggih baru dari Amerika Serikat, Australia, dan negara-negara lain, untuk menghancurkan basis Fretilin. Dua dekade terakhir abad ini menyaksikan bentrokan terus menerus antara kelompok Indonesia dan Timor Timur mengenai status Timor Timur, sampai tahun 1999, ketika mayoritas rakyat Timor Timur memilih untuk merdeka (pilihan alternatifnya adalah \"otonomi khusus\" sementara tetap menjadi bagian dari Indonesia). Setelah dua setengah tahun transisi lebih lanjut di bawah naungan tiga misi PBB yang berbeda, Timor Timur berhasil merdeka pada 20 Mei 2002." ;
+        :summary      "Invasi Indonesia ke Timor Timur, lebih dikenal sebagai Operasi Seroja atau Perang Timor Timur, dimulai pada tanggal 7 Desember 1975 ketika militer Indonesia masuk ke Timor Timur dengan dalih anti-kolonialisme dan anti-komunisme untuk menggulingkan rezim Fretilin yang muncul pada tahun 1974. Penggulingan pemerintah yang dipimpin secara singkat oleh Fretilin memicu pendudukan kekerasan selama seperempat abad di mana sekitar 100.000-180.000 tentara dan warga sipil diperkirakan telah terbunuh atau mati kelaparan. Komisi Pengakuan, Kebenaran, dan Rekonsiliasi di Timor Leste (CAVR) mendokumentasikan perkiraan minimum sebesar 102.000 kematian terkait konflik di Timor Timur selama periode 1974 hingga 1999, termasuk 18.600 pembunuhan dengan kekerasan dan 84.200 kematian akibat penyakit dan kelaparan; pasukan Indonesia dan gabungan pasukan pembantunya bertanggung jawab atas 70% dari total pembunuhan.Bulan-bulan pertama pendudukan, militer Indonesia menghadapi perlawanan pemberontakan yang berat di pedalaman pegunungan pulau, tetapi dari tahun 1977-1978, militer memperoleh persenjataan canggih baru dari Amerika Serikat, Australia, dan negara-negara lain, untuk menghancurkan basis Fretilin. Dua dekade terakhir abad ini menyaksikan bentrokan terus menerus antara kelompok Indonesia dan Timor Timur mengenai status Timor Timur, sampai tahun 1999, ketika mayoritas rakyat Timor Timur memilih untuk merdeka (pilihan alternatifnya adalah \"otonomi khusus\" sementara tetap menjadi bagian dari Indonesia). Setelah dua setengah tahun transisi lebih lanjut di bawah naungan tiga misi PBB yang berbeda, Timor Timur berhasil merdeka pada 20 Mei 2002." ;
         :wikiurl      "https://id.wikipedia.org/wiki/Invasi_Indonesia_ke_Timor_Timur" .
 
 :OperasiTrikora  rdf:type  :MilitaryConflict ;
@@ -127,8 +127,8 @@
 
 :KonflikPapua  rdf:type  :MilitaryConflict ;
         rdfs:label    "Konflik Papua" ;
-        :casualties1  "setidaknya 72 TNI dan 34 polisi tewas Total: 106 aparat keamanan tewas (2010 – Maret 2022)" ;
-        :casualties2  "setidaknya 69 TPNPB–OPM tewas (2010 – Maret 2023)" ;
+        :casualties1  "setidaknya 72 TNI dan 34 polisi tewas Total: 106 aparat keamanan tewas (2010 - Maret 2022)" ;
+        :casualties2  "setidaknya 69 TPNPB-OPM tewas (2010 - Maret 2023)" ;
         :partof       "Persengketaan Nugini Barat dan Dekolonisasi Oseania" ;
         :summary      "Konflik Papua adalah konflik militer yang tejadi di wilayah Papua, Indonesia. diawali pada tahun 1961, muncul keinginan Belanda untuk membentuk negara Papua Barat yang terlepas dari Indonesia, Langkah Belanda ini kemudian ditentang oleh Presiden Indonesia, Soekarno dengan mendekatkan diri pada negara komunis terutama Uni Soviet. Sikap Soekarno ini membuat takut Belanda dan Presiden Amerika Serikat, John F. Kennedy. Sebab jika hal itu dibiarkan maka Indonesia kemungkinan menjadi negara komunis terbesar di Asia Tenggara. Ketakutan itu lalu membuat Belanda mengambil sikap untuk menyerahkan masalah Papua ke PBB. Dari dan melalui PBB, Belanda mengambil sikap untuk keluar dari Papua dan tidak jadi mengambil, merebut, dan menjajah Papua lalu Papua diserahkan \"kembali\" ke Indonesia dengan syarat memberi kesempatan pada rakyat Papua untuk menentukan sikap sendiri atau referendum (Penentuan Pendapat Rakyat/PEPERA)." ;
         :wikiurl      "https://id.wikipedia.org/wiki/Konflik_Papua" .
@@ -170,8 +170,8 @@
         rdfs:label    "Pertempuran Sungei Koemba" ;
         :casualties1  "2 Terluka" ;
         :casualties2  "~30 tewas" ;
-        :partof       "Konfrontasi Indonesia–Malaysia" ;
+        :partof       "Konfrontasi Indonesia-Malaysia" ;
         :strength1    "~120 tentara" ;
         :strength2    "~120 tentara" ;
-        :summary      "Pertempuran Sungei Koemba (27 Mei – 12 Juni 1965) berlangsung selama konfrontasi Indonesia–Malaysia. Melibatkan tentara Australia dan Indonesia, pertempuran ini terdiri dari serangkaian sergapan yang dilancarkan 3rd Battalion, Royal Australian Regiment (3 RAR) di sepanjang Sungei Koemba di Kalimantan. Penyergapan ini adalah bagian dari Operasi Claret yang melibatkan beberapa operasi lintas perbatasan oleh sejumlah satuan Persemakmuran Britania dari pangkalan di Sarawak, menembus wilayah Indonesia sejauh 10.000 yard (9.100 m) untuk mengganggu pergerakan dan pengiriman suplai ABRI dan membuat mereka kocar-kacir.\nPenyergapan pertama dilakukan oleh dua peleton B Company pada 27 Mei 1965 dan menewaskan beberapa tentara Indonesia tanpa korban di pihak Australia. Sergapan kedua dilakukan agak ke hilir oleh satu peleton C Company pada 12 Juni 1965 dan lagi-lagi menewaskan tentara Indonesia tanpa korban di pihak Australia." ;
+        :summary      "Pertempuran Sungei Koemba (27 Mei - 12 Juni 1965) berlangsung selama konfrontasi Indonesia-Malaysia. Melibatkan tentara Australia dan Indonesia, pertempuran ini terdiri dari serangkaian sergapan yang dilancarkan 3rd Battalion, Royal Australian Regiment (3 RAR) di sepanjang Sungei Koemba di Kalimantan. Penyergapan ini adalah bagian dari Operasi Claret yang melibatkan beberapa operasi lintas perbatasan oleh sejumlah satuan Persemakmuran Britania dari pangkalan di Sarawak, menembus wilayah Indonesia sejauh 10.000 yard (9.100 m) untuk mengganggu pergerakan dan pengiriman suplai ABRI dan membuat mereka kocar-kacir.\nPenyergapan pertama dilakukan oleh dua peleton B Company pada 27 Mei 1965 dan menewaskan beberapa tentara Indonesia tanpa korban di pihak Australia. Sergapan kedua dilakukan agak ke hilir oleh satu peleton C Company pada 12 Juni 1965 dan lagi-lagi menewaskan tentara Indonesia tanpa korban di pihak Australia." ;
         :wikiurl      "https://id.wikipedia.org/wiki/Pertempuran_Sungei_Koemba" .
