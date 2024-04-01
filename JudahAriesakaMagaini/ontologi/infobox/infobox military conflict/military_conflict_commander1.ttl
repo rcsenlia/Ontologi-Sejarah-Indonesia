@@ -12,7 +12,7 @@
 :ListyoSigitPrabowo  rdf:type  :Person ;
         rdfs:label  "Listyo Sigit Prabowo" .
 
-<http://127.0.0.1:3333/KonfrontasiIndonesia–Malaysia>
+<http://127.0.0.1:3333/KonfrontasiIndonesia-Malaysia>
         rdf:type     sem:Event ;
         :commander1  :LeeKuanYew , :TunkuAbdulRahman , :HaroldMacmillan , :WalterWalker , :HaroldWilson , :S.K.Ningkan , :AlecDouglas-Home , :AbdulRazakHussein , :RodneyMoore , :TuankuSyedPutra , :TunkuOsman , :MustaphaHarun , :YusofIshak , :IsmailNasiruddin .
 

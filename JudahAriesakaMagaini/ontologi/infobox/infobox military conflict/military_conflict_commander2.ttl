@@ -5,7 +5,7 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 
-<http://127.0.0.1:3333/KonfrontasiIndonesia–Malaysia>
+<http://127.0.0.1:3333/KonfrontasiIndonesia-Malaysia>
         :commander2  :EddyMartadinata , :BongKeeChok , :Soeharto , :YassinAffandi , :D.N.Aidit , :AhmadYani , :PranotoReksosamudro , :Soekarno , :A.M.Azahari , :OmarDhani .
 
 :NinoKonisSantana  rdf:type  :Person ;
