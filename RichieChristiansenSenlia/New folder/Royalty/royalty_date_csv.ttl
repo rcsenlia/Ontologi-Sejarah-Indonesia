@@ -1,0 +1,866 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <https://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:HimayatuddinMuhammadSaidi
+        rdf:type      :Royalty ;
+        rdfs:label    "Himayatuddin Muhammad Saidi" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1766"^^xsd:dateTime ;
+                                                                time:monthOfYear  "January"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1766-01-01"^^xsd:date
+                                           ]
+                      ] .
+
+:PakubuwanaIX  rdf:type  :Royalty ;
+        rdfs:label    "Pakubuwana IX" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1830"^^xsd:double ;
+                                                                time:monthOfYear  "December"
+                                                              ] ;
+                                             time:inXSDDate   "1830-12-22"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1893"^^xsd:dateTime ;
+                                                                time:monthOfYear  "March"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1893-03-16"^^xsd:date
+                                           ]
+                      ] .
+
+:KubilaiKhan  rdf:type  :Royalty ;
+        rdfs:label    "Kubilai Khan" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1215"^^xsd:double ;
+                                                                time:monthOfYear  "September"
+                                                              ] ;
+                                             time:inXSDDate   "1215-09-30"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ]
+                      ] .
+
+:ThahaSyaifuddindariJambi
+        rdf:type      :Royalty ;
+        rdfs:label    "Thaha Syaifuddin dari Jambi" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ]
+                      ] .
+
+:MangkunegaraII  rdf:type  :Royalty ;
+        rdfs:label    "Mangkunegara II" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1768"^^xsd:double ;
+                                                                time:monthOfYear  "January"
+                                                              ] ;
+                                             time:inXSDDate   "1768-01-05"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1835"^^xsd:dateTime ;
+                                                                time:monthOfYear  "January"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1835-01-17"^^xsd:date
+                                           ]
+                      ] .
+
+:SultanAgungdariMataram
+        rdf:type      :Royalty ;
+        rdfs:label    "Sultan Agung dari Mataram" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1593"^^xsd:double ;
+                                                                time:monthOfYear  "January"
+                                                              ] ;
+                                             time:inXSDDate   "1593-01-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1645"^^xsd:dateTime ;
+                                                                time:monthOfYear  "January"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1645-01-01"^^xsd:date
+                                           ]
+                      ] .
+
+:BatahaSantiago  rdf:type  :Royalty ;
+        rdfs:label    "Bataha Santiago" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1622"^^xsd:double ;
+                                                                time:monthOfYear  "January"
+                                                              ] ;
+                                             time:inXSDDate   "1622-01-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ]
+                      ] .
+
+:HamengkubuwanaII  rdf:type  :Royalty ;
+        rdfs:label    "Hamengkubuwana II" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1750"^^xsd:double ;
+                                                                time:monthOfYear  "March"
+                                                              ] ;
+                                             time:inXSDDate   "1750-03-07"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1828"^^xsd:dateTime ;
+                                                                time:monthOfYear  "January"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1828-01-03"^^xsd:date
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1750"^^xsd:double ;
+                                                                time:monthOfYear  "March"
+                                                              ] ;
+                                             time:inXSDDate   "1750-03-07"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1828"^^xsd:dateTime ;
+                                                                time:monthOfYear  "January"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1828-01-03"^^xsd:date
+                                           ]
+                      ] .
+
+:AmangkuratV  rdf:type  :Royalty ;
+        rdfs:label    "Amangkurat V" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1726"^^xsd:double ;
+                                                                time:monthOfYear  "January"
+                                                              ] ;
+                                             time:inXSDDate   "1726-01-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ]
+                      ] .
+
+:KiaiMadja  rdf:type  :Royalty ;
+        rdfs:label    "Kiai Madja" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1792"^^xsd:double ;
+                                                                time:monthOfYear  "January"
+                                                              ] ;
+                                             time:inXSDDate   "1792-01-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1849"^^xsd:dateTime ;
+                                                                time:monthOfYear  "December"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1849-12-20"^^xsd:date
+                                           ]
+                      ] .
+
+:SulaimandariBanjar  rdf:type  :Royalty ;
+        rdfs:label    "Sulaiman dari Banjar" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1825"^^xsd:dateTime ;
+                                                                time:monthOfYear  "June"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1825-06-03"^^xsd:date
+                                           ]
+                      ] .
+
+:AmangkuratI  rdf:type  :Royalty ;
+        rdfs:label    "Amangkurat I" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1618"^^xsd:double ;
+                                                                time:monthOfYear  "January"
+                                                              ] ;
+                                             time:inXSDDate   "1618-01-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1677"^^xsd:dateTime ;
+                                                                time:monthOfYear  "July"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1677-07-13"^^xsd:date
+                                           ]
+                      ] .
+
+:PakubuwanaII  rdf:type  :Royalty ;
+        rdfs:label    "Pakubuwana II" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1749"^^xsd:dateTime ;
+                                                                time:monthOfYear  "December"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1749-12-20"^^xsd:date
+                                           ]
+                      ] .
+
+:SultanAlauddinRiayatSyah
+        rdf:type      :Royalty ;
+        rdfs:label    "Sultan Alauddin Riayat Syah" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1605"^^xsd:dateTime ;
+                                                                time:monthOfYear  "January"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1605-01-01"^^xsd:date
+                                           ]
+                      ] .
+
+:PakuAlamVII  rdf:type  :Royalty ;
+        rdfs:label    "Paku Alam VII" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1882"^^xsd:double ;
+                                                                time:monthOfYear  "December"
+                                                              ] ;
+                                             time:inXSDDate   "1882-12-09"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1937"^^xsd:dateTime ;
+                                                                time:monthOfYear  "February"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1937-02-16"^^xsd:date
+                                           ]
+                      ] .
+
+:SultanMuhammadBahauddin
+        rdf:type      :Royalty ;
+        rdfs:label    "Sultan Muhammad Bahauddin" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1729"^^xsd:double ;
+                                                                time:monthOfYear  "March"
+                                                              ] ;
+                                             time:inXSDDate   "1729-03-15"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1804"^^xsd:dateTime ;
+                                                                time:monthOfYear  "April"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1804-04-02"^^xsd:date
+                                           ]
+                      ] .
+
+:SultanMahmudSyah  rdf:type  :Royalty ;
+        rdfs:label    "Sultan Mahmud Syah" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1874"^^xsd:dateTime ;
+                                                                time:monthOfYear  "January"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1874-01-28"^^xsd:date
+                                           ]
+                      ] .
+
+:PakubuwanaXI  rdf:type  :Royalty ;
+        rdfs:label    "Pakubuwana XI" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1886"^^xsd:double ;
+                                                                time:monthOfYear  "February"
+                                                              ] ;
+                                             time:inXSDDate   "1886-02-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1945"^^xsd:dateTime ;
+                                                                time:monthOfYear  "June"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1945-06-01"^^xsd:date
+                                           ]
+                      ] .
+
+:Anyakrawati  rdf:type  :Royalty ;
+        rdfs:label    "Anyakrawati" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1613"^^xsd:dateTime ;
+                                                                time:monthOfYear  "January"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1613-01-01"^^xsd:date
+                                           ]
+                      ] .
+
+:AndiAbdullahBauMassepe
+        rdf:type      :Royalty ;
+        rdfs:label    "Andi Abdullah Bau Massepe" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ]
+                      ] .
+
+:PakubuwanaX  rdf:type  :Royalty ;
+        rdfs:label    "Pakubuwana X" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1866"^^xsd:double ;
+                                                                time:monthOfYear  "November"
+                                                              ] ;
+                                             time:inXSDDate   "1866-11-29"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1939"^^xsd:dateTime ;
+                                                                time:monthOfYear  "February"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1939-02-22"^^xsd:date
+                                           ]
+                      ] .
+
+:AmangkuratIV  rdf:type  :Royalty ;
+        rdfs:label    "Amangkurat IV" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1680"^^xsd:double ;
+                                                                time:monthOfYear  "January"
+                                                              ] ;
+                                             time:inXSDDate   "1680-01-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1726"^^xsd:dateTime ;
+                                                                time:monthOfYear  "April"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1726-04-20"^^xsd:date
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1680"^^xsd:double ;
+                                                                time:monthOfYear  "January"
+                                                              ] ;
+                                             time:inXSDDate   "1680-01-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1726"^^xsd:dateTime ;
+                                                                time:monthOfYear  "April"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1726-04-20"^^xsd:date
+                                           ]
+                      ] .
+
+:Diponegoro  rdf:type  :Royalty ;
+        rdfs:label    "Diponegoro" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1785"^^xsd:double ;
+                                                                time:monthOfYear  "November"
+                                                              ] ;
+                                             time:inXSDDate   "1785-11-11"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1855"^^xsd:dateTime ;
+                                                                time:monthOfYear  "January"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1855-01-08"^^xsd:date
+                                           ]
+                      ] .
+
+:TirtayasadariBanten  rdf:type  :Royalty ;
+        rdfs:label    "Tirtayasa dari Banten" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1631"^^xsd:double ;
+                                                                time:monthOfYear  "January"
+                                                              ] ;
+                                             time:inXSDDate   "1631-01-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1692"^^xsd:dateTime ;
+                                                                time:monthOfYear  "January"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1692-01-01"^^xsd:date
+                                           ]
+                      ] .
+
+:PakubuwanaIII  rdf:type  :Royalty ;
+        rdfs:label    "Pakubuwana III" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1732"^^xsd:double ;
+                                                                time:monthOfYear  "February"
+                                                              ] ;
+                                             time:inXSDDate   "1732-02-24"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1788"^^xsd:dateTime ;
+                                                                time:monthOfYear  "September"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1788-09-26"^^xsd:date
+                                           ]
+                      ] .
+
+:AndiMappanyukki  rdf:type  :Royalty ;
+        rdfs:label    "Andi Mappanyukki" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ]
+                      ] .
+
+:SultanHasanuddin  rdf:type  :Royalty ;
+        rdfs:label    "Sultan Hasanuddin" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1631"^^xsd:double ;
+                                                                time:monthOfYear  "January"
+                                                              ] ;
+                                             time:inXSDDate   "1631-01-12"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1670"^^xsd:dateTime ;
+                                                                time:monthOfYear  "June"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1670-06-12"^^xsd:date
+                                           ]
+                      ] .
+
+:HidayatullahIIdariBanjar
+        rdf:type      :Royalty ;
+        rdfs:label    "Hidayatullah II dari Banjar" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1822"^^xsd:double ;
+                                                                time:monthOfYear  "January"
+                                                              ] ;
+                                             time:inXSDDate   "1822-01-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1904"^^xsd:dateTime ;
+                                                                time:monthOfYear  "November"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1904-11-24"^^xsd:date
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1822"^^xsd:double ;
+                                                                time:monthOfYear  "January"
+                                                              ] ;
+                                             time:inXSDDate   "1822-01-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1904"^^xsd:dateTime ;
+                                                                time:monthOfYear  "November"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1904-11-24"^^xsd:date
+                                           ]
+                      ] .
+
+:PakuAlamI  rdf:type  :Royalty ;
+        rdfs:label    "Paku Alam I" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1764"^^xsd:double ;
+                                                                time:monthOfYear  "March"
+                                                              ] ;
+                                             time:inXSDDate   "1764-03-21"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1829"^^xsd:dateTime ;
+                                                                time:monthOfYear  "October"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1829-10-04"^^xsd:date
+                                           ]
+                      ] .
+
+:HamengkubuwanaX  rdf:type  :Royalty ;
+        rdfs:label    "Hamengkubuwana X" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1946"^^xsd:double ;
+                                                                time:monthOfYear  "April"
+                                                              ] ;
+                                             time:inXSDDate   "1946-04-02"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ]
+                      ] .
+
+:HamengkubuwanaIII  rdf:type  :Royalty ;
+        rdfs:label    "Hamengkubuwana III" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1814"^^xsd:dateTime ;
+                                                                time:monthOfYear  "November"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1814-11-03"^^xsd:date
+                                           ]
+                      ] .
+
+:IGustiNgurahMadeAgung
+        rdf:type      :Royalty ;
+        rdfs:label    "I Gusti Ngurah Made Agung" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1876"^^xsd:double ;
+                                                                time:monthOfYear  "April"
+                                                              ] ;
+                                             time:inXSDDate   "1876-04-05"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1906"^^xsd:dateTime ;
+                                                                time:monthOfYear  "September"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1906-09-20"^^xsd:date
+                                           ]
+                      ] .
+
+:AmangkuratIII  rdf:type  :Royalty ;
+        rdfs:label    "Amangkurat III" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1734"^^xsd:dateTime ;
+                                                                time:monthOfYear  "January"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1734-01-01"^^xsd:date
+                                           ]
+                      ] .
+
+:PakubuwanaV  rdf:type  :Royalty ;
+        rdfs:label    "Pakubuwana V" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1784"^^xsd:double ;
+                                                                time:monthOfYear  "December"
+                                                              ] ;
+                                             time:inXSDDate   "1784-12-13"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1823"^^xsd:dateTime ;
+                                                                time:monthOfYear  "September"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1823-09-05"^^xsd:date
+                                           ]
+                      ] .
+
+:MangkunegaraI  rdf:type  :Royalty ;
+        rdfs:label    "Mangkunegara I" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1725"^^xsd:double ;
+                                                                time:monthOfYear  "April"
+                                                              ] ;
+                                             time:inXSDDate   "1725-04-07"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1795"^^xsd:dateTime ;
+                                                                time:monthOfYear  "December"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1795-12-28"^^xsd:date
+                                           ]
+                      ] .
+
+:PakubuwanaVI  rdf:type  :Royalty ;
+        rdfs:label    "Pakubuwana VI" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1807"^^xsd:double ;
+                                                                time:monthOfYear  "April"
+                                                              ] ;
+                                             time:inXSDDate   "1807-04-26"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1849"^^xsd:dateTime ;
+                                                                time:monthOfYear  "June"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1849-06-02"^^xsd:date
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1807"^^xsd:double ;
+                                                                time:monthOfYear  "April"
+                                                              ] ;
+                                             time:inXSDDate   "1807-04-26"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1849"^^xsd:dateTime ;
+                                                                time:monthOfYear  "June"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1849-06-02"^^xsd:date
+                                           ]
+                      ] .
+
+:PakubuwanaI  rdf:type  :Royalty ;
+        rdfs:label    "Pakubuwana I" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1648"^^xsd:double ;
+                                                                time:monthOfYear  "February"
+                                                              ] ;
+                                             time:inXSDDate   "1648-02-02"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1719"^^xsd:dateTime ;
+                                                                time:monthOfYear  "February"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1719-02-22"^^xsd:date
+                                           ]
+                      ] .
+
+:Baabullah  rdf:type  :Royalty ;
+        rdfs:label    "Baabullah" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1528"^^xsd:double ;
+                                                                time:monthOfYear  "February"
+                                                              ] ;
+                                             time:inXSDDate   "1528-02-20"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1583"^^xsd:dateTime ;
+                                                                time:monthOfYear  "July"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1583-07-01"^^xsd:date
+                                           ]
+                      ] .
+
+:IskandarMudadariAceh
+        rdf:type      :Royalty ;
+        rdfs:label    "Iskandar Muda dari Aceh" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1593"^^xsd:double ;
+                                                                time:monthOfYear  "January"
+                                                              ] ;
+                                             time:inXSDDate   "1593-01-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ]
+                      ] .
+
+:PakubuwanaVII  rdf:type  :Royalty ;
+        rdfs:label    "Pakubuwana VII" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1796"^^xsd:double ;
+                                                                time:monthOfYear  "July"
+                                                              ] ;
+                                             time:inXSDDate   "1796-07-08"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1858"^^xsd:dateTime ;
+                                                                time:monthOfYear  "May"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1858-05-10"^^xsd:date
+                                           ]
+                      ] .
+
+:UntungSuropati  rdf:type  :Royalty ;
+        rdfs:label    "Untung Suropati" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1660"^^xsd:double ;
+                                                                time:monthOfYear  "January"
+                                                              ] ;
+                                             time:inXSDDate   "1660-01-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ]
+                      ] .
+
+:HamengkubuwanaIX  rdf:type  :Royalty ;
+        rdfs:label    "Hamengkubuwana IX" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1912"^^xsd:double ;
+                                                                time:monthOfYear  "April"
+                                                              ] ;
+                                             time:inXSDDate   "1912-04-12"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1988"^^xsd:dateTime ;
+                                                                time:monthOfYear  "October"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1988-10-02"^^xsd:date
+                                           ]
+                      ] .
+
+:PangeranAnglingkusumo
+        rdf:type      :Royalty ;
+        rdfs:label    "Pangeran Anglingkusumo" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1944"^^xsd:double ;
+                                                                time:monthOfYear  "January"
+                                                              ] ;
+                                             time:inXSDDate   "1944-01-08"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ]
+                      ] .
+
+:KhairunJamildariTernate
+        rdf:type      :Royalty ;
+        rdfs:label    "Khairun Jamil dari Ternate" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1570"^^xsd:dateTime ;
+                                                                time:monthOfYear  "March"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1570-03-10"^^xsd:date
+                                           ]
+                      ] .
+
+:HamengkubuwanaI  rdf:type  :Royalty ;
+        rdfs:label    "Hamengkubuwana I" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1717"^^xsd:double ;
+                                                                time:monthOfYear  "August"
+                                                              ] ;
+                                             time:inXSDDate   "1717-08-04"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1792"^^xsd:dateTime ;
+                                                                time:monthOfYear  "March"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1792-03-24"^^xsd:date
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1717"^^xsd:double ;
+                                                                time:monthOfYear  "August"
+                                                              ] ;
+                                             time:inXSDDate   "1717-08-04"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1792"^^xsd:dateTime ;
+                                                                time:monthOfYear  "March"^^xsd:dateTime
+                                                              ] ;
+                                             time:inXSDDate   "1792-03-24"^^xsd:date
+                                           ]
+                      ] .

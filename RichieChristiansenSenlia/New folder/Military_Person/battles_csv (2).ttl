@@ -1,0 +1,150 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:RevolusiBelgia  rdf:type  sem:Event ;
+        rdfs:label  "Revolusi Belgia" .
+
+:PertempuranTelukLeyte
+        rdf:type    sem:Event ;
+        rdfs:label  "Pertempuran Teluk Leyte" .
+
+:PertempuranHendersonField
+        rdf:type    sem:Event ;
+        rdfs:label  "Pertempuran Henderson Field" .
+
+:PerangAcehI  rdf:type  sem:Event ;
+        rdfs:label  "Perang Aceh I" .
+
+:HisaichiTerauchi  rdf:type  :MilitaryPerson ;
+        rdfs:label  "Hisaichi Terauchi" ;
+        :battles    :PerangDuniaII , :PerangTiongkok-JepangKedua , :PerangRusia-Jepang .
+
+:IGustiKetutJelantik  rdf:type  :MilitaryPerson ;
+        rdfs:label  "I Gusti Ketut Jelantik" ;
+        :battles    :PerangJagaraga .
+
+:PerangJagaraga  rdf:type  sem:Event ;
+        rdfs:label  "Perang Jagaraga" .
+
+:BattleofBalikpapan  rdf:type  sem:Event ;
+        rdfs:label  "Battle of Balikpapan" .
+
+:HariKampanye  rdf:type  sem:Event ;
+        rdfs:label  "Hari Kampanye" .
+
+:PerangAcehII  rdf:type  sem:Event ;
+        rdfs:label  "Perang Aceh II" .
+
+:JisaburoOzawa  rdf:type  :MilitaryPerson ;
+        rdfs:label  "Jisaburo Ozawa" ;
+        :battles    :PertempuranTelukLeyte , :PertempuranLautFilipina , :KampanyeHindiaBelanda , :PertempuranMalaya , :PerangDuniaII .
+
+:PerangBaliIII  rdf:type  sem:Event ;
+        rdfs:label  "Perang Bali III" .
+
+<http://127.0.0.1:3333/PertempuranFilipina(1941-42)>
+        rdf:type    sem:Event ;
+        rdfs:label  "Pertempuran Filipina (1941-42)" .
+
+:PertempuranSelatBadung
+        rdf:type    sem:Event ;
+        rdfs:label  "Pertempuran Selat Badung" .
+
+:Tiongkok  rdf:type  sem:Event ;
+        rdfs:label  "Tiongkok" .
+
+:KepulauanSolomon  rdf:type  sem:Event ;
+        rdfs:label  "Kepulauan Solomon" .
+
+:PertempuranSelatMakassar
+        rdf:type    sem:Event ;
+        rdfs:label  "Pertempuran Selat Makassar" .
+
+:PerangBaliII  rdf:type  sem:Event ;
+        rdfs:label  "Perang Bali II" .
+
+:Pattimura  rdf:type  :MilitaryPerson ;
+        rdfs:label  "Pattimura" ;
+        :battles    :PerangPattimura .
+
+:PertempuranMalaya  rdf:type  sem:Event ;
+        rdfs:label  "Pertempuran Malaya" .
+
+:JohanHarmenRudolfKöhler
+        rdf:type    :MilitaryPerson ;
+        rdfs:label  "Johan Harmen Rudolf Köhler" ;
+        :battles    :PerangAcehI , :EkspedisiLampongse , :HariKampanye .
+
+:PerangRusia-Jepang  rdf:type  sem:Event ;
+        rdfs:label  "Perang Rusia-Jepang" .
+
+:EkspedisiLampongse  rdf:type  sem:Event ;
+        rdfs:label  "Ekspedisi Lampongse" .
+
+:KampanyeHindiaBelanda
+        rdf:type    sem:Event ;
+        rdfs:label  "Kampanye Hindia Belanda" .
+
+:PertempuranLautJawa  rdf:type  sem:Event ;
+        rdfs:label  "Pertempuran Laut Jawa" .
+
+<http://127.0.0.1:3333/PertempuranEdson'sRidge>
+        rdf:type    sem:Event ;
+        rdfs:label  "Pertempuran Edson's Ridge" .
+
+:PerangTiongkok-JepangKedua
+        rdf:type    sem:Event ;
+        rdfs:label  "Perang Tiongkok-Jepang Kedua" .
+
+:HeinterPoorten  rdf:type  :MilitaryPerson ;
+        rdfs:label  "Hein ter Poorten" ;
+        :battles    :KampanyeHindiaBelanda .
+
+:PerangDuniaII  rdf:type  sem:Event ;
+        rdfs:label  "Perang Dunia II" .
+
+:ConradHelfrich  rdf:type  :MilitaryPerson ;
+        rdfs:label  "Conrad Helfrich" ;
+        :battles    :RevolusiNasionalIndonesia , :KampanyeHindiaBelanda , :PerangDuniaII .
+
+:HitoshiImamura  rdf:type  :MilitaryPerson ;
+        rdfs:label  "Hitoshi Imamura" ;
+        :battles    :KepulauanSolomon , :PapuaNugini , :Tiongkok , :PerangDuniaII .
+
+:PapuaNugini  rdf:type  sem:Event ;
+        rdfs:label  "Papua Nugini" .
+
+:PertempuranLautFilipina
+        rdf:type    sem:Event ;
+        rdfs:label  "Pertempuran Laut Filipina" .
+
+:ShojiNishimura  rdf:type  :MilitaryPerson ;
+        rdfs:label  "Shoji Nishimura" ;
+        :battles    :PertempuranTelukLeyte , :KampanyeGuadalcanal , :PertempuranLautJawa , :BattleofBalikpapan , :PerangDuniaII .
+
+:KarelDoorman  rdf:type  :MilitaryPerson ;
+        rdfs:label  "Karel Doorman" ;
+        :battles    :PertempuranLautJawa , :PertempuranSelatBadung , :PertempuranSelatMakassar , :KampanyeHindiaBelanda , :PerangDuniaII .
+
+:KiyotakeKawaguchi  rdf:type  :MilitaryPerson ;
+        rdfs:label  "Kiyotake Kawaguchi" ;
+        :battles    :PertempuranHendersonField , <http://127.0.0.1:3333/PertempuranEdson'sRidge> , :KampanyeGuadalcanal , <http://127.0.0.1:3333/PertempuranFilipina(1941-42)> , :PerangTiongkok-JepangKedua , :PerangDuniaII .
+
+:JanvanSwieten  rdf:type  :MilitaryPerson ;
+        rdfs:label  "Jan van Swieten" ;
+        :battles    :PerangAcehII , :PerangBaliIII , :PerangBaliII , :RevolusiBelgia .
+
+:RevolusiNasionalIndonesia
+        rdf:type    sem:Event ;
+        rdfs:label  "Revolusi Nasional Indonesia" .
+
+:PerangPattimura  rdf:type  sem:Event ;
+        rdfs:label  "Perang Pattimura" .
+
+:KampanyeGuadalcanal  rdf:type  sem:Event ;
+        rdfs:label  "Kampanye Guadalcanal" .

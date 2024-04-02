@@ -1,0 +1,45 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:PerangBayu  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Bayu" ;
+        :result     "VOC Menang" .
+
+:PerangAceh  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Aceh" ;
+        :result     "Dibentuknya Karesidenan Aceh beserta daerah taklukannya (Atjeh en Onderhoorigheden)." , "Kekuasaan Uleebalang dipulihkan" , "Belanda menguasai Aceh" , "Sultan Aceh menyerah dan Kesultanan Aceh dibubarkan" , "Kemenangan Belanda" .
+
+<http://127.0.0.1:3333/PertempuranMelaka(1641)>
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Pertempuran Melaka (1641)" ;
+        :result     "Kemenangan Belanda" .
+
+:SerbuanYuan-MongolkeJawa
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Serbuan Yuan-Mongol ke Jawa" ;
+        :result     "kemenangan Raden Wijaya dan didirikannya Majapahit" , "Runtuhnya Kerajaan Kadiri" .
+
+:PemberontakanRadenRonggo
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Pemberontakan Raden Ronggo" ;
+        :result     "pemberontakan berakhir." , "Raden Ronggo tewas dalam perang" .
+
+:GegerSepehi  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Geger Sepehi" ;
+        :result     "Hamengkubuwana III kembali naik tahta" , "Hamengkubuwana II dibuang ke Pulau Penang" , "Penyerbuan berhasil" .
+
+:PerangDiponegoro  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Diponegoro" ;
+        :result     "Penangkapan dan pengasingan Pangeran Diponegoro ke Makassar" , "Kemenangan Belanda" .
+
+:PerangPadri  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Padri" ;
+        :result     "Kemenangan koalisi Adat dan Belanda" .
+
+:PertempuranLimaHari  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Pertempuran Lima Hari" ;
+        :result     "Gencatan senjata" .
