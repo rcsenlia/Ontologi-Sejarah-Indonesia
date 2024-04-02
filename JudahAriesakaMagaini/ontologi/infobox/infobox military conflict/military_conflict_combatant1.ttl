@@ -21,7 +21,7 @@
 :SriLanka  rdf:type  sem:Actor ;
         rdfs:label  "Sri Lanka" .
 
-<http://127.0.0.1:3333/KonfrontasiIndonesia–Malaysia>
+<http://127.0.0.1:3333/KonfrontasiIndonesia-Malaysia>
         rdf:type     :MilitaryConflict ;
         :combatant1  :Kanada , :PBB , :BritaniaRaya , :Brunei , :Malaysia , :AmerikaSerikat , :Singapura , :SelandiaBaru , :Australia .
 

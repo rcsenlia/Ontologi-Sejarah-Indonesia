@@ -1,0 +1,146 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:Indonesia  rdf:type  sem:Actor .
+
+:KekaisaranJepang  rdf:type  sem:Actor .
+
+:SelandiaBaru  rdf:type  sem:Actor .
+
+:TNI    rdf:type  sem:Actor .
+
+:DesertirTentaraIndia
+        rdf:type  sem:Actor .
+
+:Australia  rdf:type  sem:Actor .
+
+:KorpsBrigadeMobil  rdf:type  sem:Actor .
+
+:PeristiwaTigaMaret  rdf:type  :MilitaryConflict ;
+        :combatant1  :Indonesia .
+
+:BKR    rdf:type  sem:Actor .
+
+:TRI    rdf:type  sem:Actor .
+
+:BritaniaRaya  rdf:type  sem:Actor .
+
+:PDRI   rdf:type  sem:Actor .
+
+:PertempuranKumai  rdf:type  :MilitaryConflict ;
+        :combatant1  :BarisanUlama , :LaskarKalimantan , :TentaraKeamananRakyat .
+
+:AmerikaSerikat  rdf:type  sem:Actor .
+
+:BarisanUlama  rdf:type  sem:Actor .
+
+:RepublikIndonesia  rdf:type  sem:Actor .
+
+<http://127.0.0.1:3333/KampanyeKalimantan(1945)>
+        rdf:type     :MilitaryConflict ;
+        :combatant1  :BritaniaRaya , :Belanda , :AmerikaSerikat , :Australia .
+
+:UniSoviet  rdf:type  sem:Actor .
+
+:DelapanJamPertempurandiMangkang
+        rdf:type     :MilitaryConflict ;
+        :combatant1  :Indonesia .
+
+:PerangCumbok  rdf:type  :MilitaryConflict ;
+        :combatant1  :PUSA .
+
+:SeranganUmum1Maret1949
+        rdf:type     :MilitaryConflict ;
+        :combatant1  :Indonesia .
+
+:PertempuranBojongKokosan
+        rdf:type     :MilitaryConflict ;
+        :combatant1  :Indonesia .
+
+:Peristiwa19November  rdf:type  :MilitaryConflict ;
+        :combatant1  :Indonesia .
+
+:KampanyeHindiaBelanda
+        rdf:type     :MilitaryConflict ;
+        :combatant1  :AmerikaSerikat , :SelandiaBaru , :Australia , :BritaniaRaya , :HindiaBelanda , :Belanda , :ABDACommand .
+
+:Fiji   rdf:type  sem:Actor .
+
+:India  rdf:type  sem:Actor .
+
+:RelawanTentaraKekaisaranJepang
+        rdf:type  sem:Actor .
+
+:PerangDayakDesa  rdf:type  :MilitaryConflict ;
+        :combatant1  :KekaisaranJepang .
+
+:PuputanMargarana  rdf:type  :MilitaryConflict ;
+        :combatant1  :Indonesia .
+
+:PertempuranLengkong  rdf:type  :MilitaryConflict ;
+        :combatant1  :TentaraKeamananRakyat .
+
+:PUSA   rdf:type  sem:Actor .
+
+:PertempuranMedanArea
+        rdf:type     :MilitaryConflict ;
+        :combatant1  :Indonesia .
+
+:LaskarKalimantan  rdf:type  sem:Actor .
+
+:KonflikPapua  rdf:type  :MilitaryConflict ;
+        :combatant1  :Fiji , :UniSoviet , :Australia , :AmerikaSerikat , :PapuaNugini , :Indonesia .
+
+:PapuaNugini  rdf:type  sem:Actor .
+
+:PenyerbuanKotabaruYogyakarta
+        rdf:type     :MilitaryConflict ;
+        :combatant1  :Indonesia .
+
+:SeranganUmumSurakarta
+        rdf:type     :MilitaryConflict ;
+        :combatant1  :Indonesia .
+
+<http://127.0.0.1:3333/PemberontakanDI/TIIdiAceh>
+        rdf:type     :MilitaryConflict ;
+        :combatant1  :NegaraIslamIndonesia .
+
+:PertempuranLimaHari  rdf:type  :MilitaryConflict ;
+        :combatant1  :Indonesia .
+
+:BandungLautanApi  rdf:type  :MilitaryConflict ;
+        :combatant1  :RepublikIndonesia .
+
+:HindiaBelanda  rdf:type  sem:Actor .
+
+:Belanda  rdf:type  sem:Actor .
+
+:TKR    rdf:type  sem:Actor .
+
+:PertempuranSurabaya  rdf:type  :MilitaryConflict ;
+        :combatant1  :RepublikIndonesia .
+
+:TentaraKeamananRakyat
+        rdf:type  sem:Actor .
+
+:NegaraIslamIndonesia
+        rdf:type  sem:Actor .
+
+:ABDACommand  rdf:type  sem:Actor .
+
+:RevolusiNasionalIndonesia
+        rdf:type     :MilitaryConflict ;
+        :combatant1  :TKR , :India , :KorpsBrigadeMobil , :TRI , :BKR , :RepublikIndonesia , :UniSoviet , :RelawanTentaraKekaisaranJepang , :PDRI , :AmerikaSerikat , :DesertirTentaraIndia , :TNI , :Australia .
+
+:Gerakan30September  rdf:type  :MilitaryConflict .
+
+:Operasi17Agustus  rdf:type  :MilitaryConflict ;
+        :combatant1  :Indonesia .

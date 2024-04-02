@@ -1,0 +1,91 @@
+<!--Documentation: https://timeline.knightlab.com/docs/-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Timeline</title>
+
+    <style>
+        .tl-timenav {
+            background-color: #ad5151;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<!-- 1 -->
+<link title="timeline-styles" rel="stylesheet"
+      href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+
+<!-- 2 -->
+<script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+
+<div id='timeline-embed' style="width: 100%; height: 600px"></div>
+
+<script type="text/javascript">
+    var timelineData = {
+        "events": [
+            {
+                "start_date": {
+                    "year": 1947,
+                    "month": 7,
+                    "day": 21
+                },
+                "end_date": {
+                    "year": 1947,
+                    "month": 8,
+                    "day": 5
+                },
+                "text": {
+                    "headline": "Agresi Militer Belanda 1",
+                    "text": "Agresi Militer Belanda I atau dikenal juga dengan Operatie Product adalah sebuah operasi militer Belanda di Jawa dan Sumatra yang merupakan wilayah Republik Indonesia Serikat pada 21 Juli 1947-5 Agustus 1947"
+                },
+                "group" : "Peristiwa Sejarah"
+            },
+            {
+                "start_date": {
+                    "year": 1948,
+                    "month": 12,
+                    "day": 19
+                },
+                "end_date": {
+                    "year": 1949,
+                    "month": 1,
+                    "day": 5
+                },
+                "text": {
+                    "headline": "Agresi Militer Belanda 2",
+                    "text": "Agresi Militer Belanda II atau Operasi Gagak (bahasa Belanda: Operatie Kraai) terjadi pada 19 Desember 1948 yang diawali dengan serangan terhadap Yogyakarta, ibu kota Indonesia saat itu, serta penangkapan Soekarno, Mohammad Hatta, Sjahrir dan beberapa tokoh lainnya. Jatuhnya ibu kota negara ini menyebabkan dibentuknya Pemerintah Darurat Republik Indonesia di Sumatra yang dipimpin oleh Sjafruddin Prawiranegara"
+                },
+                "group" : "Peristiwa Sejarah"
+            },
+             {
+                "start_date": {
+                    "year": 1946,
+                    "month": 11,
+                    "day": 15
+                },
+                "text": {
+                    "headline": "Perundingan Linggarjati",
+                    "text": "Perjanjian ini adalah langkah awal dalam proses panjang menuju pengakuan kemerdekaan Indonesia dan penyelesaian Konflik Indonesia-Belanda."
+                },
+                "group" : "Perundingan",
+                "background" : {
+                    "url": "https://asset.kompas.com/crops/lhDhZpwGMZVAYxtBJBRlDEBPnes=/65x0:964x599/750x500/data/photo/2018/11/15/1300558138.JPG",
+                }
+            }
+        ],
+        "title": {
+                "text": {
+                    "headline": "Peristiwa Orde Lama",
+                    "text": "Orde Lama (1959-1966)"
+                }
+        }
+    };
+    window.timeline = new TL.Timeline('timeline-embed', timelineData);
+</script>
+</body>
+</html>

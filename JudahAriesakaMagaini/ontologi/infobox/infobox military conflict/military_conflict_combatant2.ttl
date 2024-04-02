@@ -15,7 +15,7 @@
 :GerakanAcehMerdeka  rdf:type  sem:Actor ;
         rdfs:label  "Gerakan Aceh Merdeka" .
 
-<http://127.0.0.1:3333/KonfrontasiIndonesia–Malaysia>
+<http://127.0.0.1:3333/KonfrontasiIndonesia-Malaysia>
         rdf:type     sem:Event ;
         :combatant2  :VietnamUtara , :UniSoviet , :Filipina , :Tiongkok , :PRB , :PKKU , :PKI , :Indonesia .
 

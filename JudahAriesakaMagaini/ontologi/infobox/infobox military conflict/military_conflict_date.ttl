@@ -2,12 +2,12 @@
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix sem:   <https://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
 @prefix time:  <http://www.w3.org/2006/time#> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 
-<http://127.0.0.1:3333/KonfrontasiIndonesia–Malaysia>
+<http://127.0.0.1:3333/KonfrontasiIndonesia-Malaysia>
         rdf:type      sem:Event ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type        time:Instant ;
@@ -143,7 +143,7 @@
                                            ]
                       ] .
 
-<http://127.0.0.1:3333/PemberontakandiAceh(1976–2005)>
+<http://127.0.0.1:3333/PemberontakandiAceh(1976-2005)>
         rdf:type      sem:Event ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type        time:Instant ;

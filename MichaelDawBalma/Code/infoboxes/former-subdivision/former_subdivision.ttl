@@ -1,0 +1,529 @@
+@prefix :      <http://localhost:3333/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:NSS    rdf:type         geo:Feature ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "9.15982515"^^xsd:double ;
+                           :longitude  "76.64200119535784"^^xsd:double
+                         ] .
+
+:Bandoeng  rdf:type  :City ;
+        rdfs:label  "Bandoeng" .
+
+:Indonesia  rdf:type     geo:Feature , :Country ;
+        rdfs:label       "Indonesia" ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-2.4833826"^^xsd:double ;
+                           :longitude  "117.8902853"^^xsd:double
+                         ] ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-2.4833826"^^xsd:double ;
+                           :longitude  "117.8902853"^^xsd:double
+                         ] .
+
+:Medan  rdf:type    :City ;
+        rdfs:label  "Medan" .
+
+:RevolusiIndonesia  rdf:type  sem:Event ;
+        rdfs:label  "Revolusi Indonesia" .
+
+:RevolusiNasionalIndonesia
+        rdf:type    sem:Event ;
+        rdfs:label  "Revolusi Nasional Indonesia" .
+
+:Kalimantan  rdf:type            :FormerSubdivision ;
+        rdfs:label               "Kalimantan" ;
+        :capital                 :Banjarmasin ;
+        :common_name             "Indonesia"^^geo:asWKTLiteral ;
+        :continent               "Asia" ;
+        :conventional_long_name  "Kalimantan" ;
+        :era                     :PerangDingin ;
+        :government_type         "Provinsi" ;
+        :image_map               "IndonesiaBorneoProvince.png" ;
+        :latitude                "-2.4833826" ;
+        :leader2                 "Dr. Moerdjani" ;
+        :leader3                 "Mas Subarjo" ;
+        :leader4                 "Raden Tumenggung Arya Milono" ;
+        :location                :Indonesia ;
+        :longitude               "117.8902853" ;
+        :nation                  :Indonesia ;
+        :p2                      "Dayak Besar" ;
+        :p3                      "Daerah Banjar" ;
+        :p4                      "Federasi Kalimantan Tenggara" ;
+        :p5                      "Kalimantan Timur (RIS)" ;
+        :page_title              "Kalimantan (provinsi)" ;
+        :region                  "Asia Tenggara" ;
+        :s2                      "Kalimantan Timur" ;
+        :s3                      "Kalimantan Selatan" ;
+        :s4                      "Kalimantan Tengah" ;
+        :s5                      "Kalimantan Utara" ;
+        :status_text             "Bekas provinsi Indonesia" ;
+        :subdivision             "Provinsi" ;
+        :summary                 "Provinsi Kalimantan adalah nama salah satu provinsi di Indonesia pada masa dahulu yang dibentuk pada 14 Agustus 1950 yang beribu kota di Banjarmasin, dengan gubernur pertama dr. Moerdjani (m. 1950-1953) dan sebagai Kepala Daerah Provinsi adalah Mas Subarjo (m. 1950-1953). Dalam tahun 1945 wilayah provinsi ini disebut Provinsi Borneo.Wilayah Provinsi [Administratif] Kalimantan terbagi menjadi 3 Karesidenan: \n\nKaresidenan Kalimantan Barat\nKaresidenan Kalimantan Selatan\nKaresidenan Kalimantan TimurPada tahun 1957, 3 Karesidenan di Provinsi Kalimantan dimekarkan menjadi tiga provinsi yaitu Kalimantan Barat, Kalimantan Timur dan Kalimantan Selatan." ;
+        :title_leader            "Gubernur" ;
+        :wikiurl                 "https://id.wikipedia.org/wiki/Kalimantan_(provinsi)" ;
+        :year_leader1            "1945–1950" ;
+        :year_leader2            "1950–1953" ;
+        :year_leader3            "1953–1955" ;
+        :year_leader4            "1955–1957" ;
+        time:hasTime             [ rdf:type           time:TemporalEntity ;
+                                   time:hasBeginning  [ rdf:type        time:Instant ;
+                                                        time:inXSDDate  "1950-08-14"^^xsd:date
+                                                      ] ;
+                                   time:hasEnd        [ rdf:type        time:Instant ;
+                                                        rdfs:label      "Dimekarkan menjadi 3 provinsi" ;
+                                                        time:inXSDDate  "1957-12-31"^^xsd:date
+                                                      ]
+                                 ] .
+
+:NegaraBagianSumatraTimur
+        rdf:type                 :FormerSubdivision ;
+        rdfs:label               "Negara Bagian Sumatra Timur" ;
+        :capital                 :Medan ;
+        :common_name             "NST"^^geo:asWKTLiteral ;
+        :continent               "Asia" ;
+        :conventional_long_name  "Negara Bagian Sumatra Timur" ;
+        :government_type         "Negara bagian" ;
+        :image_coat              "Coat of arms of East Sumatra.png" ;
+        :image_flag              "Flag of East Sumatra.svg" ;
+        :image_map               "State of East Sumatra.jpg" ;
+        :latitude                "32.06675625" ;
+        :legislature             "Dewan Perwakilan Sementara Negara Sumatra Timur" ;
+        :location                :NST ;
+        :longitude               "72.70921683735315" ;
+        :nation                  :Indonesia ;
+        :native_name             "State of the East Sumatra" ;
+        :page_title              "Negara Sumatera Timur" ;
+        :region                  "Asia" ;
+        :status_text             "Negara bagian RIS" ;
+        :subdivision             "Federasi" ;
+        :summary                 "Negara Sumatra Timur (NST) adalah salah satu negara bagian Republik Indonesia Serikat Republik Indonesia dan Kerajaan Belanda yang bertahan cukup lama di lingkungan diluar Hindia Belanda selain Negara Indonesia Timur, yakni 25 Desember 1947 hingga 1950. Negara ini tercipta karena banyak faktor kompleks yang membentuk persekutuan anti-republik. Persekutuan tersebut terdiri atas kaum bangsawan Melayu, sebagian besar raja-raja Simalungun, beberapa kepala suku Karo dan kebanyakan tokoh masyarakat Tionghoa. Bumiputera Melayu dengan kekuasaan Islam-nya beserta Simalungun dan Karo merasa terancam dengan berdirinya negara baru, yang akan mendudukkan mereka sebagai bawahan dari Republik Indonesia Yogya. Dalam banyak buku sejarah disebutkan Republik Indonesia Serikat merupakan gabungan dari berbagai negara-negara independen di Nusantara saat itu." ;
+        :title_leader            "Wali Negara" ;
+        :wikiurl                 "https://id.wikipedia.org/wiki/Negara_Sumatera_Timur" ;
+        :year_leader1            "1947-1950" ;
+        time:hasTime             [ rdf:type           time:TemporalEntity ;
+                                   time:hasBeginning  [ rdf:type        time:Instant ;
+                                                        time:inXSDDate  "1947-12-25"^^xsd:date
+                                                      ] ;
+                                   time:hasEnd        [ rdf:type        time:Instant ;
+                                                        time:inXSDDate  "1950-08-15"^^xsd:date
+                                                      ]
+                                 ] .
+
+:KalimantanTenggara  rdf:type  geo:Feature ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-0.07008139999999999"^^xsd:double ;
+                           :longitude  "109.34600977357367"^^xsd:double
+                         ] .
+
+:PascaPerangKemerdekaanIndonesia
+        rdf:type    sem:Event ;
+        rdfs:label  "Pasca Perang Kemerdekaan Indonesia" .
+
+:FormerSubdivision  rdfs:subClassOf  :Country .
+
+:NegaraJawaTimur  rdf:type       :FormerSubdivision ;
+        rdfs:label               "Negara Jawa Timur" ;
+        :common_name             "Jawa Timur"^^geo:asWKTLiteral ;
+        :continent               "Asia" ;
+        :conventional_long_name  "Negara Jawa Timur" ;
+        :era                     :PerangKemerdekaanIndonesia ;
+        :government_type         "Negara bagian" ;
+        :image_flag              "Flag of Various Autonomous Indonesian States.svg" ;
+        :image_map               "East Java in the United States of Indonesia.svg" ;
+        :latitude                "-7.6977397" ;
+        :location                :JawaTimur ;
+        :longitude               "112.4914199" ;
+        :nation                  :Indonesia ;
+        :page_title              "Negara Jawa Timur" ;
+        :region                  "Asia" ;
+        :status_text             "Negara bagian RIS" ;
+        :subdivision             "Federasi" ;
+        :summary                 "Negara Jawa Timur adalah sebuah wilayah bentukan Belanda yang didirikan pada tanggal 26 November 1948.Negara ini lahir berdasarkan resolusi Konferensi Djawa Timoer di Bondowoso, 23 November 1948, yang memutuskan didirikannya Negara Jawa Timur. Konferensi yang dihadiri oleh 75 orang Wakil dari Dewan-dewan Kabupaten yang diketuai oleh R.T.P. Achmad Kusumonegoro, Bupati Banyuwangi.Berdasarkan sumber surat kabar Pandji Ra'jat bertanggal 3 Desember 1948 diketahui bahwa ide tentang Negara Jawa Timur ini telah ada sejak resolusi 23 November sebelumnya. Hasil dari Konferensi itu memutuskan R.T. Achmad Kusumonegoro sebagai Wali Negara Djawa Timoer. Pelantikan tersebut disahkan oleh Dr. Beel selaku wakil Tinggi Mahkota Negeri Belanda." ;
+        :title_leader            "Wali Negara" ;
+        :wikiurl                 "https://id.wikipedia.org/wiki/Negara_Jawa_Timur" ;
+        time:hasTime             [ rdf:type           time:TemporalEntity ;
+                                   time:hasBeginning  [ rdf:type        time:Instant ;
+                                                        time:inXSDDate  "1948-11-26"^^xsd:date
+                                                      ] ;
+                                   time:hasEnd        [ rdf:type        time:Instant ;
+                                                        time:inXSDDate  "1950-03-09"^^xsd:date
+                                                      ]
+                                 ] .
+
+<http://localhost:3333/Banjarmasin(kota)>
+        rdf:type    :City ;
+        rdfs:label  "Banjarmasin (kota)" .
+
+:NegaraIndonesiaTimur
+        rdf:type                 :FormerSubdivision ;
+        rdfs:label               "Negara Indonesia Timur" ;
+        :capital                 :Makassar ;
+        :common_name             "East Indonesia"^^geo:asWKTLiteral ;
+        :continent               "Asia" ;
+        :conventional_long_name  "Negara Indonesia Timur" ;
+        :deputy1                 "Nadjamuddin Daeng Malewa" ;
+        :deputy2                 "Semuel Jusof Warouw" ;
+        :deputy3                 "Ida Anak Agung Gde Agung" ;
+        :deputy4                 "J.E. Tatengkeng" ;
+        :deputy5                 "D.P. Diapari" ;
+        :deputy6                 "Martinus Putuhena" ;
+        :era                     :PerangDingin ;
+        :government_type         "Negara bagian" ;
+        :image_coat              "Coat of arms of East Indonesia.svg" ;
+        :image_flag              "Flag of the State of East Indonesia.svg" ;
+        :image_map               "East Indonesia in the United States of Indonesia.svg" ;
+        :image_map_caption       "Wilayah N.I.T ditunjukkan pada warna merah" ;
+        :latitude                "-8.50998605" ;
+        :legislature             "Parlemen Indonesia Timur" ;
+        :location                :EastIndonesia ;
+        :longitude               "120.59815014764581" ;
+        :nation                  :Indonesia ;
+        :page_title              "Negara Indonesia Timur" ;
+        :region                  "Asia Tenggara" ;
+        :stat_area1              "349088.0" ;
+        :stat_pop1               "10.290.000" ;
+        :stat_year1              "1946.0" ;
+        :status_text             "Negara bagian RIS" ;
+        :subdivision             "Federasi" ;
+        :summary                 "Negara Indonesia Timur adalah negara bagian RIS yang meliputi wilayah Sulawesi, Sunda Kecil (Bali & Nusa Tenggara) dan Kepulauan Maluku, ibu kotanya Makassar. Negara ini dibentuk setelah dilaksanakan Konferensi Malino pada tanggal 16-22 Juli 1946 dan Konferensi Denpasar dari tanggal 7-24 Desember 1946 yang bertujuan untuk membahas gagasan berdirinya negara bagian tersendiri di wilayah Indonesia bagian timur oleh Belanda. Pada akhir Konferensi Denpasar 24 Desember  1946, negara baru ini dinamakan Negara Timur Raya, tetapi kemudian diganti menjadi Negara Indonesia Timur pada tanggal 27 Desember 1946.\n\n\n== Pendirian ==\n\nNegara Indonesia Timur didirikan untuk menyaingi dan memaksa Republik Indonesia untuk menerima bentuk negara federasi; dengan tujuan mengecilkan wilayah Republik Indonesia sehingga hanya menjadi salah satu negara bagian dari Republik Indonesia Serikat.\n\n\n== Pembagian wilayah ==\n\nNegara Indonesia Timur terbagi menjadi 13 daerah otonomi:\n\nDaerah Sulawesi Selatan\nDaerah Minahassa\nDaerah Kepulauan Sangihe dan Talaud\nDaerah Sulawesi Utara\nDaerah Sulawesi Tengah\nDaerah Bali\nDaerah Lombok\nDaerah Sumbawa\nDaerah Flores\nDaerah Sumba\nDaerah Timor dan kepulauan\nDaerah Maluku Selatan\nDaerah Maluku UtaraMenurut hasil Konferensi Denpasar, wilayah Negara Indonesia Timur terdiri dari daerah keresidan yang tercantum dalam Staatsblad 1938 Nomor 68 jo Staatsblad Nomor 264 kecuali daerah irian barat yang akan ditetapkan kemudian hari." ;
+        :title_leader            "Presiden" ;
+        :wikiurl                 "https://id.wikipedia.org/wiki/Negara_Indonesia_Timur" ;
+        :year_deputy1            "1947.0" ;
+        :year_deputy2            "1947.0" ;
+        :year_deputy3            "1947–1949" ;
+        :year_deputy4            "1949–1950" ;
+        :year_deputy5            "1950.0" ;
+        :year_deputy6            "1950.0" ;
+        :year_leader1            "1946–1950" ;
+        time:hasTime             [ rdf:type           time:TemporalEntity ;
+                                   time:hasBeginning  [ rdf:type        time:Instant ;
+                                                        time:inXSDDate  "1946-12-24"^^xsd:date
+                                                      ] ;
+                                   time:hasEnd        [ rdf:type        time:Instant ;
+                                                        time:inXSDDate  "1950-08-17"^^xsd:date
+                                                      ]
+                                 ] .
+
+:Yogyakarta  rdf:type  :City ;
+        rdfs:label  "Yogyakarta" .
+
+:NegaraPasundan  rdf:type        :FormerSubdivision ;
+        rdfs:label               "Negara Pasundan" ;
+        :capital                 :Bandoeng ;
+        :common_name             "Pasundan"^^geo:asWKTLiteral ;
+        :conventional_long_name  "Negara Pasundan" ;
+        :date_event1             "24 April 1948" ;
+        :date_event2             "11 Maret 1950" ;
+        :deputy1                 "Adil Puradiredja" ;
+        :deputy2                 "Djumhana Wiriaatmadja" ;
+        :deputy3                 "Anwar Tjokroaminoto" ;
+        :era                     :PerangDingin ;
+        :event1                  "Berganti nama menjadi Negara Bagian Pasundan" ;
+        :event2                  "Bergabung dengan Republik Indonesia" ;
+        :image_coat              "Coat of arms of the State of Pasundan.svg" ;
+        :image_flag              "Flag of Pasundan.svg" ;
+        :image_map               "State of Pasundan.svg" ;
+        :latitude                "-8.314176" ;
+        :legislature             "Parlemen Pasundan" ;
+        :location                :Pasundan ;
+        :longitude               "113.6224232" ;
+        :motto                   "Kemakmuran dan kegembiraan dari lautan sampai pegunungan membuat semua orang berkembang dan berumur panjang  KBBI" ;
+        :nation                  :Indonesia ;
+        :native_name             "ᮕᮞᮥᮔ᮪ᮓᮔ᮪" ;
+        :page_title              "Negara Pasundan" ;
+        :s2                      "Daerah Khusus Ibukota Jakarta" ;
+        :s3                      "Banten" ;
+        :status_text             "Negara bagian Republik Indonesia Serikat" ;
+        :subdivision             "Federasi" ;
+        :summary                 "Negara Pasundan adalah salah satu negara bagian dari negara federal Republik Indonesia Serikat (RIS) yang didirikan oleh Belanda pada tanggal 24 April 1948. Letaknya di bagian barat Pulau Jawa (sekarang DKI Jakarta, Provinsi Jawa Barat dan Banten) dan beribu kota di Bandung. Presiden pertama dan terakhirnya adalah Raden Aria Adipati Wiranatakoesoema. Berdirinya Negara ini sangat tergantung akan bantuan Belanda, tampak terlihat saat Soeria Kartalegawa akan memproklamasikan pendirian negara ini di Bandung tahun 1947, Soeria Kartalegawa menunggu terlebih dahulu Pasukan Divisi Siliwangi yang hijrah ke Yogyakarta pergi.Pada konferensi ketiga pembentukan Negara Pasundan terdapat banyak peserta yang pro republik yang dipimpin oleh Raden Soejoso, eks Wedana Senen, Jakarta. Dari tiga kali hasil konferensi, sebagai wali negara, pertama dan terakhir, Wiranatakusumah." ;
+        :title_leader            "Wali Negara" ;
+        :today                   "Jawa Barat, Banten, dan Jakarta, Indonesia" ;
+        :wikiurl                 "https://id.wikipedia.org/wiki/Negara_Pasundan" ;
+        :year_deputy1            "1948–1949" ;
+        :year_deputy2            "1949–1950" ;
+        :year_deputy3            "1950.0" ;
+        :year_leader1            "1948–1950" ;
+        time:hasTime             [ rdf:type           time:TemporalEntity ;
+                                   time:hasBeginning  [ rdf:type        time:Instant ;
+                                                        rdfs:label      "Negara Jawa Barat didirikan" ;
+                                                        time:inXSDDate  "1948-02-26"^^xsd:date
+                                                      ] ;
+                                   time:hasEnd        [ rdf:type        time:Instant ;
+                                                        time:inXSDDate  "1950-12-31"^^xsd:date
+                                                      ]
+                                 ] .
+
+:RIS    rdf:type  :Country .
+
+:EastIndonesia  rdf:type  geo:Feature ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-8.50998605"^^xsd:double ;
+                           :longitude  "120.59815014764581"^^xsd:double
+                         ] .
+
+:DistrikFederalJakartaDistrikFederalBatavia
+        rdf:type         geo:Feature ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "42.8875912"^^xsd:double ;
+                           :longitude  "0.3983792"^^xsd:double
+                         ] .
+
+:City   rdfs:subClassOf  sem:Actor .
+
+:PerangKemerdekaanIndonesia
+        rdf:type    sem:Event ;
+        rdfs:label  "Perang Kemerdekaan Indonesia" .
+
+:PerangDingin  rdf:type  sem:Event ;
+        rdfs:label  "Perang Dingin" .
+
+:Pamekasan  rdf:type  :City ;
+        rdfs:label  "Pamekasan" .
+
+:FederasiKalimantanTenggara
+        rdf:type                 :FormerSubdivision ;
+        rdfs:label               "Federasi Kalimantan Tenggara" ;
+        :common_name             "Kalimantan Tenggara"^^geo:asWKTLiteral ;
+        :continent               "Asia" ;
+        :conventional_long_name  "Federasi Kalimantan Tenggara" ;
+        :era                     :RevolusiNasionalIndonesia ;
+        :image_map               "Southeast Borneo Federation in the United States of Indonesia.svg" ;
+        :image_map_caption       "Peta Kalimantan Tenggara dalam Republik Indonesia Serikat" ;
+        :latitude                "-0.07008139999999999" ;
+        :location                :KalimantanTenggara ;
+        :longitude               "109.34600977357367" ;
+        :nation                  :Indonesia ;
+        :page_title              "Federasi Kalimantan Tenggara" ;
+        :region                  "Asia" ;
+        :subdivision             "Daerah otonom setingkat negara" ;
+        :summary                 "Federasi Kalimantan Tenggara adalah satuan kenegaraan yang tegak berdiri sebagai daerah bagian [bukan negara bagian] dari RIS. Pada mulanya Belanda berencana menggabungkan daerah-daerah bagian di Kalimantan ini menjadi negara bagian sendiri yang dinamakan negara Borneo (bekas provinsi Borneo-Belanda) sebagaimana halnya negara Timur Besar (negara Indonesia Timur).\nDaerah bagian Kalimantan Tenggara merupakan penggabungan 3 Neo-landschap (Stb. 1947 Nomor 3):\n\nDewan Pulau Laut, terdiri Distrik Pulau Laut Utara dan Distrik Pulau Laut Selatan\nDewan Pagatan, terdiri Distrik Pagatan, Distrik Batulicin, Distrik Kusan\nDewan Cantung Sampanahan\n\n\n== Pembubaran ==\nPada tanggal 18 April 1950: Federasi Kalimantan Tenggara bersama dengan Dewan Dayak Besar dan Dewan Banjar dibubarkan dan selanjutnya menjadi bagian dari Provinsi Kalimantan yang dibentuk pada tanggal 14 Agustus 1950 dengan gubernur dr. Moerjani.\n\n\n== Suku Bangsa ==\n\n\n== Rencana Pembentukan ==\nPembentukan Provinsi Kalimantan Tenggara terdiri dari 7 Kabupaten/Kota pemekaran dari Provinsi Kalimantan Selatan dan Kalimantan Timur meliputi:\n\nKabupaten Tabalong\nKabupaten Balangan\nKabupaten Tanah Bumbu\nKabupaten Kotabaru\nKabupaten Penajam Paser Utara\nKabupaten Paser\nKabupaten Tanah Kambatanglima (segera dimekarkan)\nKota Kotabaru (segera dimekarkan)Provinsi Kalimantan Tenggara berada di Kotabaru\n\n\n== Pendudukan Jepang ==\n\n\n== Lihat pula ==\nAfdeeling Pasir en de Tanah Boemboe\n\n\n== Rujukan ==\n\n\n== Referensi ==\nFriend, Theodore (2003), Indonesian Destinies, Cambridge: Harvard University Press, ISBN 0-674-01834-6." ;
+        :title_leader            "Presiden" ;
+        :wikiurl                 "https://id.wikipedia.org/wiki/Federasi_Kalimantan_Tenggara" ;
+        time:hasTime             [ rdf:type           time:TemporalEntity ;
+                                   time:hasBeginning  [ rdf:type        time:Instant ;
+                                                        time:inXSDDate  "1947-01-08"^^xsd:date
+                                                      ] ;
+                                   time:hasEnd        [ rdf:type        time:Instant ;
+                                                        rdfs:label      "Bergabung dengan Indonesia" ;
+                                                        time:inXSDDate  "1950-04-04"^^xsd:date
+                                                      ]
+                                 ] .
+
+:Makassar  rdf:type  :City ;
+        rdfs:label  "Makassar" .
+
+:Madura  rdf:type        geo:Feature ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-7.059076299999999"^^xsd:double ;
+                           :longitude  "113.28431738934134"^^xsd:double
+                         ] .
+
+:NegaraBagianSumatraSelatan
+        rdf:type                 :FormerSubdivision ;
+        rdfs:label               "Negara Bagian Sumatra Selatan" ;
+        :common_name             "NSS"^^geo:asWKTLiteral ;
+        :continent               "Asia" ;
+        :conventional_long_name  "Negara Bagian Sumatra Selatan" ;
+        :government_type         "Negara bagian" ;
+        :image_flag              "Flag of South Sumatra.svg" ;
+        :image_map               "South Sumatra in the United States of Indonesia.svg" ;
+        :latitude                "9.15982515" ;
+        :location                :NSS ;
+        :longitude               "76.64200119535784" ;
+        :nation                  :Indonesia ;
+        :native_name             "State of the South Sumatra" ;
+        :page_title              "Negara Sumatera Selatan" ;
+        :region                  "Asia" ;
+        :status_text             "Negara bagian RIS" ;
+        :subdivision             "Federasi" ;
+        :summary                 "Negara Sumatera Selatan adalah sebuah wilayah bentukan Belanda pada tanggal 30 Agustus 1948. yang daerahnya meliputi Sumatera Selatan sekarang, Bengkulu, Lampung, dan Kepulauan Bangka Belitung.\nPada masa itu, setelah Belanda kembali ke Indonesia berkembang dua pemikiran bentuk kenegaraan yaitu bentuk negara kesatuan dan bentuk negara federasi. Republik Indonesia menginginkan bentuk negara kesatuan sedangkan Belanda menghendaki bentuk negara federasi. Perselisihan antara kedua negara itu mulai menemukan persamaan persepsi sejak persetujuan Linggarjati di paraf pada tanggal 15 November 1946." ;
+        :title_leader            "Wali Negara" ;
+        :wikiurl                 "https://id.wikipedia.org/wiki/Negara_Sumatera_Selatan" ;
+        time:hasTime             [ rdf:type           time:TemporalEntity ;
+                                   time:hasBeginning  [ rdf:type        time:Instant ;
+                                                        time:inXSDDate  "1948-08-30"^^xsd:date
+                                                      ] ;
+                                   time:hasEnd        [ rdf:type        time:Instant ;
+                                                        rdfs:label      "Bergabung dengan Republik Indonesia" ;
+                                                        time:inXSDDate  "1950-03-24"^^xsd:date
+                                                      ]
+                                 ] .
+
+:NegaraMadura  rdf:type          :FormerSubdivision ;
+        rdfs:label               "Negara Madura" ;
+        :capital                 :Pamekasan ;
+        :common_name             "Madura"^^geo:asWKTLiteral ;
+        :continent               "Asia" ;
+        :conventional_long_name  "Negara Madura" ;
+        :date_event1             "20 Februari 1948" ;
+        :era                     :PerangDingin ;
+        :event1                  "Diakui oleh Belanda" ;
+        :government_type         "Negara bagian" ;
+        :image_flag              "Flag of Various Autonomous Indonesian States.svg" ;
+        :image_map               "Madura in the United States of Indonesia.svg" ;
+        :latitude                "-7.059076299999999" ;
+        :location                :Madura ;
+        :longitude               "113.28431738934134" ;
+        :nation                  :Indonesia ;
+        :native_name             "Naghârâ Madhurâ نڮارا مادْوراْ ꦤꦒꦫꦩꦢꦸꦫ" ;
+        :page_title              "Negara Madura" ;
+        :region                  "Asia" ;
+        :status_text             "Negara bagian RIS" ;
+        :subdivision             "Federasi" ;
+        :summary                 "Negara Madura adalah negara yang dibentuk pada tanggal 23 Januari 1948 atas rekayasa Van der Plas yang saat itu menjadi Gubernur Belanda di Jawa Timur dan merupakan tangan kanan van Mook. Wilayah Negara ini meliputi Pulau Madura dan pulau-pulau kecil sekitarnya.\n\n\n== Latar Belakang ==\nPada bulan desember 1947 di Jakarta terbentuklah Komite serikat yang terdiri dari wakil-wakil negara bagian, tokoh-tokoh politik untuk membentuk negara Indonesia Serikat. Pada tanggal 14 Januari 1948 Residen Madura mengundang tokoh-tokoh masyarakat untuk membicarakan dan membentuk Komite Penentuan kedudukan Madura. Komite itu terdiri dari 11 orang dan R.A.A Tjakraningrat sebagai penasehatnya." ;
+        :title_leader            "Wali Negara" ;
+        :wikiurl                 "https://id.wikipedia.org/wiki/Negara_Madura" ;
+        time:hasTime             [ rdf:type           time:TemporalEntity ;
+                                   time:hasBeginning  [ rdf:type        time:Instant ;
+                                                        rdfs:label      "Negara Madura didirikan" ;
+                                                        time:inXSDDate  "1948-01-23"^^xsd:date
+                                                      ] ;
+                                   time:hasEnd        [ rdf:type        time:Instant ;
+                                                        rdfs:label      "Bergabung dengan Republik Indonesia" ;
+                                                        time:inXSDDate  "1950-03-09"^^xsd:date
+                                                      ]
+                                 ] .
+
+:Banjarmasin  rdf:type  :City ;
+        rdfs:label  "Banjarmasin" .
+
+:DayakBesar  rdf:type            :FormerSubdivision , geo:Feature ;
+        rdfs:label               "Dayak Besar" ;
+        :capital                 <http://localhost:3333/Banjarmasin(kota)> ;
+        :common_name             "Dayak Besar"^^geo:asWKTLiteral ;
+        :conventional_long_name  "Dayak Besar" ;
+        :era                     :RevolusiIndonesia ;
+        :image_flag              "Flag of Dayak Besar.svg" ;
+        :image_map               "Great Dayak in the United States of Indonesia.svg" ;
+        :image_map_caption       "Peta Dayak Besar dalam Republik Indonesia Serikat" ;
+        :latitude                "-0.2817973" ;
+        :location                :DayakBesar ;
+        :longitude               "117.0134993" ;
+        :nation                  :Indonesia ;
+        :native_name             "Groot Dajak" ;
+        :page_title              "Daerah Dayak Besar" ;
+        :subdivision             "Daerah otonom setingkat negara" ;
+        :summary                 "Daerah Dayak Besar (Groot Dajak) adalah satuan kenegaraan yang tegak berdiri sebagai daerah bagian [bukan negara bagian] dari Republik Indonesia Serikat, diketuai oleh J. van Dyk, dengan ibu kota sementara berkedudukan di Banjarmasin (yang juga merupakan ibukota Daerah Banjar). Pendirian daerah ini berdasarkan Keputusan Gubernemen tanggal 7 Desember 1946 no.10, tercatat dalam Statsblaad 1948 no. 134, Wakil Gubernur Jenderal menetapkan daerah ini menjadi neo-zelf-bestuur (daerah berpemerintahan sendiri baru) sebagaimana dimaksudkan dalam Staatsblad 1946 no. 17 dengan diberi nama Dayak Besar (Groot Dajak).Dayak Besar dibubarkan 18 April 1950, kemudian menjadi bagian Karesidenan Kalimantan Selatan (dengan Residen Mohammad Hanafiah) dari Provinsi Kalimantan yang dibentuk pada tanggal 14 Agustus 1950 yang beribu kota di Banjarmasin dengan gubernur Dr. Moerdjani." ;
+        :wikiurl                 "https://id.wikipedia.org/wiki/Daerah_Dayak_Besar" ;
+        :year_leader1            "1946−1950" ;
+        geo:hasGeometry          [ rdf:type    geo:Geometry ;
+                                   :latitude   "-0.2817973"^^xsd:double ;
+                                   :longitude  "117.0134993"^^xsd:double
+                                 ] ;
+        time:hasTime             [ rdf:type           time:TemporalEntity ;
+                                   time:hasBeginning  [ rdf:type        time:Instant ;
+                                                        time:inXSDDate  "1946-12-07"^^xsd:date
+                                                      ] ;
+                                   time:hasEnd        [ rdf:type        time:Instant ;
+                                                        time:inXSDDate  "1950-04-18"^^xsd:date
+                                                      ]
+                                 ] .
+
+:JawaTimur  rdf:type     geo:Feature ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-7.6977397"^^xsd:double ;
+                           :longitude  "112.4914199"^^xsd:double
+                         ] .
+
+:Country  rdfs:subClassOf  sem:Actor .
+
+:Pasundan  rdf:type      geo:Feature ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-8.314176"^^xsd:double ;
+                           :longitude  "113.6224232"^^xsd:double
+                         ] .
+
+:RepublikNegaraBagianIndonesia
+        rdf:type                 :FormerSubdivision ;
+        rdfs:label               "Republik Negara Bagian Indonesia" ;
+        :capital                 :Yogyakarta ;
+        :common_languages        "Bahasa Indonesia" ;
+        :common_name             "Indonesia"^^geo:asWKTLiteral ;
+        :continent               "Asia" ;
+        :conventional_long_name  "Republik Negara Bagian Indonesia" ;
+        :demonym                 "Indonesia" ;
+        :deputy1                 "Mr. Soesanto Tirtoprodjo" ;
+        :deputy2                 "Abdul Halim" ;
+        :era                     :PascaPerangKemerdekaanIndonesia ;
+        :government_type         "Negara bagian" ;
+        :image_coat              "Coat of arms of United States of Indonesia.svg" ;
+        :image_flag              "Flag of Indonesia.svg" ;
+        :image_map               "R.I. in the United States of Indonesia.svg" ;
+        :image_map_caption       "Bagian merah adalah RI" ;
+        :latitude                "-2.4833826" ;
+        :location                :Indonesia ;
+        :longitude               "117.8902853" ;
+        :nation                  :Indonesia ;
+        :native_name             "State of Indonesian Republic" ;
+        :page_title              "Republik Indonesia (1949–1950)" ;
+        :region                  "Asia Tenggara" ;
+        :status_text             "Negara bagian RIS" ;
+        :subdivision             "Federasi" ;
+        :summary                 "Negara Bagian Republik Indonesia atau umumnya dikenal dengan Republik Indonesia adalah salah satu negara bagian berumur pendek dari Republik Indonesia Serikat (RIS) yang berdiri pada tanggal 27 Desember 1949 hingga dibubarkan pada tanggal 17 Agustus 1950. Republik Indonesia beribukota di Yogyakarta sedangkan Jakarta menjadi ibu kota federal RIS. Karena Presiden Soekarno menjadi Presiden RIS maka diangkat Mr.Assaat menjadi Acting Presiden Indonesia dan Mr. Soesanto Tirtoprodjo sebagai Perdana Menteri hingga pada 17 Agustus 1950 RIS bubar dan berdiri Negara Kesatuan Republik Indonesia dan Assaat melepaskan jabatan kepada Soekarno.\n\n\n== Wilayah ==\nNegara bagian RI mencakup wilayah-wilayah ini:\n\n75% Wilayah Jawa Tengah\nWilayah Banten\n90% Wilayah Sumatra\nWilayah Daerah Istimewa Yogyakarta\nWilayah Republik Indonesia serikat: Aceh, Banten, Jawa tengah, Jawa timur, Lampung, Riau, Sumatera tengah, Daerah istimewa Yogyakarta. Ibukota berada di Yogyakarta\nSumatra Timur di Kota Medan." ;
+        :title_deputy            "Perdana Menteri" ;
+        :title_leader            "Presiden" ;
+        :wikiurl                 "https://id.wikipedia.org/wiki/Republik_Indonesia_(1949%E2%80%931950)" ;
+        :year_deputy1            "1949-1950" ;
+        :year_deputy2            "1950" ;
+        :year_leader1            "1949-1950" ;
+        time:hasTime             [ rdf:type           time:TemporalEntity ;
+                                   time:hasBeginning  [ rdf:type        time:Instant ;
+                                                        rdfs:label      "Didirikan" ;
+                                                        time:inXSDDate  "1949-12-27"^^xsd:date
+                                                      ] ;
+                                   time:hasEnd        [ rdf:type        time:Instant ;
+                                                        time:inXSDDate  "1950-08-17"^^xsd:date
+                                                      ]
+                                 ] .
+
+:Jakarta  rdf:type  :City ;
+        rdfs:label  "Jakarta" .
+
+:NST    rdf:type         geo:Feature ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "32.06675625"^^xsd:double ;
+                           :longitude  "72.70921683735315"^^xsd:double
+                         ] .
+
+:DaerahFederalJakarta
+        rdf:type                 :FormerSubdivision ;
+        rdfs:label               "Daerah Federal Jakarta" ;
+        :capital                 :Jakarta ;
+        :common_name             "Distrik Federal Jakarta  Distrik Federal Batavia"^^geo:asWKTLiteral ;
+        :continent               "Asia" ;
+        :conventional_long_name  "Daerah Federal Jakarta" ;
+        :country                 :Indonesia ;
+        :date_event1             "30 Desember 1949" ;
+        :era                     :PerangDingin ;
+        :event1                  "Berganti nama menjadi Daerah Federal Jakarta" ;
+        :government_type         "Daerah federal" ;
+        :latitude                "42.8875912" ;
+        :location                :DistrikFederalJakartaDistrikFederalBatavia ;
+        :longitude               "0.3983792" ;
+        :map_size                "300px" ;
+        :nation                  :RIS ;
+        :page_title              "Daerah Federal Jakarta" ;
+        :region                  "Jawa Barat" ;
+        :stat_area1              "3000.0" ;
+        :subdivision             "Daerah federal" ;
+        :summary                 "Daerah Federal Jakarta atau Distrik Federal Jakarta (sebelum 1949 bernama Daerah Federal Batavia) adalah istilah yang digunakan untuk membagi wilayah administratif secara khusus pada pusat pemerintahan negara, khususnya wilayah Jakarta (Batavia) dan sekitarnya sebagai pusat Politik, Ekonomi, dan Kebudayaan dari Republik Indonesia Serikat. Pembentukan Daerah Federal Jakarta merupakan adaptasi dari Amerika Serikat dan negara lain dalam memandang istilah federal ini guna memberlakukan peraturan istimewa untuk daerah ibu kotanya. Dalam prosesnya, kota Jakarta dan sekitarnya dipilih menjadi Daerah Federal karena memiliki corak dan wataknya tersendiri serta termasuk suatu daerah asing yang terdapat di dalam wilayah Negara Pasundan. Wilayah Jakarta juga dipilih menjadi Daerah atau Distrik Federal karena melalui Pelabuhan Tanjung Priok, Indonesia dikenal dan dipandang baik melalui jalur perdagangan Internasional. Selain itu, di dalam teritorial kota, terdapat kantor pusat dan maskapai besar yang menduduki wilayah tersebut." ;
+        :title_leader            "Gubernur" ;
+        :wikiurl                 "https://id.wikipedia.org/wiki/Daerah_Federal_Jakarta" ;
+        time:hasTime             [ rdf:type           time:TemporalEntity ;
+                                   time:hasBeginning  [ rdf:type        time:Instant ;
+                                                        rdfs:label      "Daerah Federal Batavia didirikan" ;
+                                                        time:inXSDDate  "1948-08-11"^^xsd:date
+                                                      ] ;
+                                   time:hasEnd        [ rdf:type        time:Instant ;
+                                                        time:inXSDDate  "1950-03-30"^^xsd:date
+                                                      ]
+                                 ] .
