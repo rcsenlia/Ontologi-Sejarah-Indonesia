@@ -1,0 +1,47 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:JohanHarmenRudolfKöhler
+        rdf:type    :MilitaryPerson ;
+        rdfs:label  "Johan Harmen Rudolf Köhler" ;
+        :awards     "Military William Order" .
+
+:IGustiKetutJelantik  rdf:type  :MilitaryPerson ;
+        rdfs:label  "I Gusti Ketut Jelantik" ;
+        :awards     "Pahlawan Nasional Indonesia" .
+
+:ShojiNishimura  rdf:type  :MilitaryPerson ;
+        rdfs:label  "Shoji Nishimura" ;
+        :awards     "Order of the Rising Sun (3rd class)" .
+
+:JanvanSwieten  rdf:type  :MilitaryPerson ;
+        rdfs:label  "Jan van Swieten" ;
+        :awards     "Officer's Cross" , "Knight of the Order of the Dutch Lion" , "Commander of the Order of Orange-Nassau" , "Militaire Willems-Orde (Knight Grand Cross)" .
+
+:HitoshiImamura  rdf:type  :MilitaryPerson ;
+        rdfs:label  "Hitoshi Imamura" ;
+        :awards     "Ordo Layangan Emas, Ordo Matahari Terbit" .
+
+:HisaichiTerauchi  rdf:type  :MilitaryPerson ;
+        rdfs:label  "Hisaichi Terauchi" ;
+        :awards     "Orde Matahari Terbit (kelas ke-1)" .
+
+:ConradHelfrich  rdf:type  :MilitaryPerson ;
+        rdfs:label  "Conrad Helfrich" ;
+        :awards     "Silver Cross of the Virtuti Militari (Polandia)" , "Knight Commander of the Order of the Bath (Britania Raya)" , "Commander of the Order of Orange-Nassau" , "Knight Grand Cross of the Order of the Netherlands Lion" .
+
+:KarelDoorman  rdf:type  :MilitaryPerson ;
+        rdfs:label  "Karel Doorman" ;
+        :awards     "Ordo Orange-Nassau" , "Order of the Netherlands Lion" , "Militaire Willems-Orde" .
+
+:JisaburoOzawa  rdf:type  :MilitaryPerson ;
+        rdfs:label  "Jisaburo Ozawa" ;
+        :awards     "Order of the Sacred Treasure (2nd class)" .
+
+:Pattimura  rdf:type  :MilitaryPerson ;
+        rdfs:label  "Pattimura" ;
+        :awards     "(diterima 6 November 1973)" , "Pahlawan Nasional Indonesia" .
