@@ -1,0 +1,55 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:JohanHarmenRudolfKöhler
+        rdf:type  :MilitaryPerson ;
+        :summary  "Johan Harmen Rudolf Köhler (3 Juli 1818 – 14 April 1873) ialah seorang jenderal Belanda yang memimpin KNIL dalam Perang Aceh Pertama pada tahun 1873." ;
+        :wikiurl  "https://id.wikipedia.org/wiki/Johan_Harmen_Rudolf_K%C3%B6hler" .
+
+:IGustiKetutJelantik  rdf:type  :MilitaryPerson ;
+        :summary  "I Gusti Ketut Jelantik (meninggal pada tahun 1849) adalah pahlawan nasional Indonesia yang berasal dari Karangasem, Bali. Ia merupakan patih Kerajaan Buleleng. Ia berperan dalam Perang Bali I, Perang Jagaraga, dan Perang Bali III yang terjadi di Bali pada tahun 1849. Ia gugur ketika peperangan berakhir, yaitu pada tahun 1849." ;
+        :wikiurl  "https://id.wikipedia.org/wiki/I_Gusti_Ketut_Jelantik" .
+
+:ShojiNishimura  rdf:type  :MilitaryPerson ;
+        :summary  "Shōji Nishimura (西村 祥治code: ja is deprecated , Nishimura Shōji, 30 November 1889 – 24 Oktober 1944) adalah seorang Laksamana di Imperial Japanese Navy saat berlangsungnya Perang Dunia II. Ia gugur pada Pertempuran Teluk Leyte." ;
+        :wikiurl  "https://id.wikipedia.org/wiki/Shoji_Nishimura" .
+
+:JanvanSwieten  rdf:type  :MilitaryPerson ;
+        :summary  "Jan van Swieten (28 Mei 1807 – 9 September 1888) ialah seorang tokoh militer, politikus, dan penulis Belanda." ;
+        :wikiurl  "https://id.wikipedia.org/wiki/Jan_van_Swieten" .
+
+:HeinterPoorten  rdf:type  :MilitaryPerson ;
+        :summary  "Hein ter Poorten (21 November 1887 – 15 Januari 1968) ialah komandan KNIL semasa Perang Pasifik." ;
+        :wikiurl  "https://id.wikipedia.org/wiki/Hein_ter_Poorten" .
+
+:HitoshiImamura  rdf:type  :MilitaryPerson ;
+        :summary  "Hitoshi Imamura (Hitosji Imamoera) (今村 均code: ja is deprecated , Imamura Hitoshi, 28 Juni 1886 – 4 Oktober 1968) adalah seorang jenderal Jepang pada masa Perang Dunia II. Ia pernah menjadi Panglima Tentara ke-16 sekaligus Gubernur Jenderal di Jawa periode Maret - November 1942. Pada bulan November 1942, Letnan Jenderal Imamura menjadi Panglima Tentara ke-8 di Kepulauan Solomon dan Papua Nugini." ;
+        :wikiurl  "https://id.wikipedia.org/wiki/Hitoshi_Imamura" .
+
+:HisaichiTerauchi  rdf:type  :MilitaryPerson ;
+        :summary  "Hisaichi Terauchi (寺内 寿一code: ja is deprecated , Terauchi Hisaichi) (8 Agustus 1879 – 12 Juni 1946) adalah seorang Marsekal Medan (Field Marshal) Angkatan Darat Kekaisaran Jepang dan Panglima Grup Angkatan Darat Expedisi Selatan pada masa Perang Dunia Kedua." ;
+        :wikiurl  "https://id.wikipedia.org/wiki/Hisaichi_Terauchi" .
+
+:ConradHelfrich  rdf:type  :MilitaryPerson ;
+        :summary  "Luitenant-Admiraal Conrad Emil Lambert Helfrich (KCB) (11 Oktober 1886 – 20 September 1962) dari Koninklijke Marine adalah tokoh AL utama Belanda dalam Perang Dunia II." ;
+        :wikiurl  "https://id.wikipedia.org/wiki/Conrad_Helfrich" .
+
+:KiyotakeKawaguchi  rdf:type  :MilitaryPerson ;
+        :summary  "Kiyotake Kawaguchi (川口 清健code: ja is deprecated , Kawaguchi Kiyotake, 3 Desember 1892 – 16 Mei 1961) adalah seorang Jenderal Angkatan Darat Kekaisaran Jepang pada masa Perang Dunia II. Setelah perang berakhir, ia ditangkap oleh otoritas SCAP (Supreme Commander for the Allied Powers) atau Komandan Tertinggi Sekutu dan dituntut sebagai penjahat perang." ;
+        :wikiurl  "https://id.wikipedia.org/wiki/Kiyotake_Kawaguchi" .
+
+:KarelDoorman  rdf:type  :MilitaryPerson ;
+        :summary  "Karel Willem Frederik Marie Doorman (23 April 1889 – 28 Februari 1942) ialah laksamana Belanda (bahasa Belanda: schout-bij-nacht) selama Perang Dunia II." ;
+        :wikiurl  "https://id.wikipedia.org/wiki/Karel_Doorman" .
+
+:JisaburoOzawa  rdf:type  :MilitaryPerson ;
+        :summary  "Jisaburo Ozawa (2 Oktober 1886 – 9 November 1966) adalah laksamana Angkatan Laut Jepang. Pada awal Perang Dunia II ia menjadi komandan satuan yang membantu pendudukan Semenanjung Malaya (Singapura) dan Sumatra (Palembang). Selanjutnya ia juga menaklukan Jawa Barat. Setelah menduduki pulau-pulau di selatan ini, ia mengalami kekalahan di pertempuran Laut Filipina (1944). Ia juga mengambil bagian dalam pertempuran Teluk Leyte (1944)." ;
+        :wikiurl  "https://id.wikipedia.org/wiki/Jisaburo_Ozawa" .
+
+:Pattimura  rdf:type  :MilitaryPerson ;
+        :summary  "Thomas Matulessy atau Thomas Matulessia, dikenal sebagai Kapitan Pattimura atau Pattimura (8 Juni 1783 – 16 Desember 1817), adalah Pahlawan Nasional Indonesia yang berasal dari Haria, Saparua, Maluku.Menurut buku \"Kisah Perjuangan Pattimura\" yang ditulis oleh M. Sapija, Pattimura tergolong keturunan bangsawan dari Nusa Ina." ;
+        :wikiurl  "https://id.wikipedia.org/wiki/Pattimura" .

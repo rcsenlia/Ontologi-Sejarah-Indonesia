@@ -1,0 +1,242 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:BatahaSantiago  rdf:type  :Royalty ;
+        rdfs:label  "Bataha Santiago" ;
+        :summary    "Bataha Santiago merupakan salah satu tokoh masyarakat yang berasal dari Sangihe Talaud, Ia merupakan raja ketiga Kerajaan Manganitu. Don Jugov (Jogolov) Sint Santiago adalah nama lengkapnya (\"Bataha\" berarti sakti). Ia lahir di desa Bowongtiwo-Kauhis, Manganitu pada tahun 1622. Ia merupakan satu-satunya raja di Kepulauan Sangihe yang keras kepala dan menolak menandatangani perjanjian dagang dengan VOC (Vereenigde Oost Indische Compagnie) Belanda." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Bataha_Santiago" .
+
+:AndiMappanyukki  rdf:type  :Royalty ;
+        rdfs:label  "Andi Mappanyukki" ;
+        :summary    "Andi Mappanyukki (lahir 1885 - meninggal 18 April 1967) adalah salah tokoh pejuang dan seorang bangsawan di Sulawesi Selatan. Ia adalah Putra dari Raja Gowa ke XXXIV yaitu I'Makkulau Daeng Serang Karaengta Lembang Parang Sultan Husain Tu Ilang ri Bundu’na (Somba Ilang) dan I Cella We'tenripadang Arung Alita, putri tertua dari La Parenrengi Paduka Sri Sultan Ahmad, Arumpone Bone (Raja Bone). Ia pulalah yang memimpin raja raja di Sulawesi Selatan untuk bersatu dan bergabung dengan NKRI (Negara Kesatuan Republik Indonesia) pada tahun 1950." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Andi_Mappanyukki" .
+
+:SultanMahmudSyah  rdf:type  :Royalty ;
+        rdfs:label  "Sultan Mahmud Syah" ;
+        :summary    "Sultan Alauddin Mahmud Syah atau disebut juga Sultan Alauddin Mahmud Syah II (meninggal 28 Januari 1874) adalah sultan ketiga puluh empat Kesultanan Aceh. Ia memerintah pada tahun 1870-1874 dan merupakan sultan terakhir yang memerintah Aceh sebelum invasi kolonial." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Sultan_Mahmud_Syah" .
+
+:SultanAlauddinRiayatSyah
+        rdf:type    :Royalty ;
+        rdfs:label  "Sultan Alauddin Riayat Syah" ;
+        :summary    "Sultan Alauddin Riayat Syah (nama lengkap: Sultan Alauddin Riayat Syah Sayyid al-Mukammil; meninggal tahun 1605) adalah sultan Kesultanan Aceh yang ke-10, yang berkuasa antara tahun 1596/1589–1604. Era pemerintahannya menjadi salah satu era penting dalam sejarah di wilayah Asia Tenggara karena pada masa itu untuk pertama kalinya wilayah perairan Selat Malaka kedatangan tiga kekuatan asing dari Eropa: Belanda, Inggris dan Prancis." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Sultan_Alauddin_Riayat_Syah" .
+
+:HamengkubuwanaX  rdf:type  :Royalty ;
+        rdfs:label  "Hamengkubuwana X" ;
+        :summary    "Sri Sultan Hamengkubuwana X, (sering disingkat HB X; (Hanacaraka): ꦯꦿꦶꦯꦸꦭ꧀ꦡꦟ꧀ꦲꦩꦼꦁꦑꦸꦨꦮꦟ꧇꧑꧐꧇; lahir 2 April 1946) yang lahir dengan nama Bendara Raden Mas Herjuno Darpito adalah raja Kasultanan Yogyakarta yang bertakhta sejak tahun 1989. Saat ini, ia juga menjabat sebagai Gubernur Daerah Istimewa Yogyakarta ketiga yang menjabat sejak 3 Oktober 1998." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Hamengkubuwana_X" .
+
+:KhairunJamildariTernate
+        rdf:type    :Royalty ;
+        rdfs:label  "Khairun Jamil dari Ternate" ;
+        :summary    "Sultan Khairun Jamil atau Sultan Hairun adalah Sultan Ternate ke-23, bertakhta selama 1534-1570. Ia merupakan ayah dari Sultan Baabullah yang pada akhirnya menjadi raja pula setelah sultan khaerun meninggal. Ia dikenal sebagai seorang pemimpin arif, tegas, pemberani dan muslim yang taat serta toleran. Tumbuh dalam masa penuh gejolak dan menyaksikan tindak-tanduk keji Portugis terhadap rakyat dan saudara-saudaranya membuatnya sangat membenci bangsa Eropa yang satu ini." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Khairun_Jamil_dari_Ternate" .
+
+:AndiAbdullahBauMassepe
+        rdf:type    :Royalty ;
+        rdfs:label  "Andi Abdullah Bau Massepe" ;
+        :summary    "Ini adalah nama orang Bugis, nama keluarganya adalah Massepe" ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Andi_Abdullah_Bau_Massepe" .
+
+:MangkunegaraI  rdf:type  :Royalty ;
+        rdfs:label  "Mangkunegara I" ;
+        :summary    "Kangjeng Gusti Pangeran Adipati Arya Mangkunegara I memiliki nama lahir yaitu Raden Mas Said (7 April 1725 – 28 Desember 1795) adalah pendiri Pura Mangkunegaran, sebuah kadipaten di Surakarta dan merupakan Pahlawan Nasional Indonesia. Ayahnya bernama KPA. Mangkunagara (Kartasura) dan ibunya bernama RAy. Wulan.Memiliki nama julukan sebagai Pangeran Sambernyawa oleh Nicholas Hartingh selaku perwakilan Gubernur VOC untuk Pantai Timur Jawa karena di dalam berbagai pertempuran RM. Said nyaris tidak pernah kalah dan selalu membawa kematian bagi musuh-musuhnya." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Mangkunegara_I" .
+
+:AmangkuratI  rdf:type  :Royalty ;
+        rdfs:label  "Amangkurat I" ;
+        :summary    "Amangkurat I (Jawa: ꦲꦩꦁ​ꦏꦸꦫꦠ꧀꧇꧑꧇, translit. amangkurat kapisan, har. 'amangkurat satu'; 1618/1619 – 13 Juli 1677) adalah penguasa Mataram keempat dengan gelar susuhunan yang memerintah dari 1646 hingga meninggal di tahun 1677. Pada masa pemerintahannya, ia harus menghadapi beberapa kali percobaan penggulingan kekuasaan dan Pemberontakan Trunajaya akibat kebijakannya yang banyak menyebabkan ketidakpuasan di internal kerajaan. Pemberontakan Trunajaya yang sukses menduduki Keraton Plered memaksa Amangkurat I melarikan diri untuk meminta perlindungan VOC, namun ia meninggal dunia ketika sedang dalam perjalanan. Raden Mas Rahmat, putranya, kemudian naik takhta menggantikannya." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Amangkurat_I" .
+
+:PakubuwanaX  rdf:type  :Royalty ;
+        rdfs:label  "Pakubuwana X" ;
+        :summary    "Sri Susuhunan Pakubuwana X (bahasa Jawa: ꧋ꦯꦩ꧀ꦥꦺꦪꦤ꧀ꦢꦊꦩ꧀ꦲꦶꦁꦏꦁ​ꦯꦶꦤꦸꦲꦸꦤ꧀ꦑꦁꦗꦼꦁ​ꦯꦸꦱꦸꦲꦸꦤꦤ꧀ꦦꦏꦸꦧꦸꦮꦤ꧇꧑꧐꧇ sering disingkat sebagai PB X; 29 November 1866 – 20 Februari 1939) adalah susuhunan kesembilan dari Kesunanan Surakarta. Ia memerintah dari tahun 1893 – 1939, menggantikan ayahnya, Pakubuwana IX, sebagai susuhunan Surakarta ketika Pakubuwana IX meninggal pada 16 Maret 1893. Dua minggu setelahnya Pakubuwana X resmi dilantik sebagai Susuhunan pada 30 Maret 1893." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Pakubuwana_X" .
+
+:KubilaiKhan  rdf:type  :Royalty ;
+        rdfs:label  "Kubilai Khan" ;
+        :summary    "Kubilai Khan (23 September 1215 – 18 Februari 1294), juga dikenal dengan nama kuil sebagai Kaisar Shizu dari Yuan dan nama regnal Setsen Khan, adalah pendiri dan kaisar pertama Kekaisaran Mongol yang memimpin Dinasti Yuan di Tiongkok. Dia memproklamirkan nama dinasti \"Yuan Agung\" pada tahun 1271, dan memerintah Dinasti Yuan hingga kematiannya pada tahun 1294." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Kubilai_Khan" .
+
+:HimayatuddinMuhammadSaidi
+        rdf:type    :Royalty ;
+        rdfs:label  "Himayatuddin Muhammad Saidi" ;
+        :summary    "La Karambau yang bergelar Sultan Himayatuddin Muhammad Saidi atau Oputa Yi Koo adalah seorang Sultan Buton ke-20 pada 1752–1755 dan ke-23 pada 1760–1763. Ia giat bergerilya melawan menentang pemerintahan Hindia Belanda dalam Perang Buton. Sejak 1755, tidak lama setelah perang Buton, Sultan Himayatuddin menetap di Siontapina hingga meninggal pada 1776. Sultan Himayatuddin dimakamkan di puncak Gunung Siontapina. Pada 7 November 2019, ia menjadi salah satu dari 6 orang yang diangkat menjadi Pahlawan Nasional Indonesia." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Himayatuddin_Muhammad_Saidi" .
+
+:PakubuwanaIII  rdf:type  :Royalty ;
+        rdfs:label  "Pakubuwana III" ;
+        :summary    "Sri Susuhunan Pakubuwana III (Jawa: ꦥꦏꦸꦧꦸꦮꦤ꧇꧓꧇, translit. Pakubuwana Katelu, har. 'Pakubuwana Tiga'; 24 Februari 1732 – 26 September 1788) adalah susuhunan kedua Surakarta yang memerintah tahun 1749 – 1788." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Pakubuwana_III" .
+
+:Baabullah  rdf:type  :Royalty ;
+        rdfs:label  "Baabullah" ;
+        :summary    "Sultan Baabullah (10 Februari 1528 (?) – Juli 1583) atau Babullah, juga dikenali sebagai Baab atau Babu dalam sumber Eropa, merupakan sultan ke-7 dan penguasa ke-24 Kesultanan Ternate di Maluku Utara yang memerintah antara tahun 1570 dan 1583. Ia dianggap sebagai Sultan teragung dalam sejarah Ternate dan Maluku karena keberhasilannya mengusir penjajah Portugis dari Ternate dan membawa kesultanan tersebut kepada puncak kejayaannya di akhir abad ke-16. Sultan Baabullah juga dikenali dengan gelar \"Penguasa 72 Pulau\", berdasarkan wilayah kekuasaannya di Indonesia timur, yang mencakup sebagian besar Kepulauan Maluku, Sangihe dan sebagian dari Sulawesi. Pengaruh Ternate pada masa kepemimpinannya bahkan mampu menjangkau Solor (Lamaholot), Bima (Sumbawa bagian timur), Mindanao, dan Raja Ampat. Peran Maluku dalam jaringan niaga Asia meningkat secara signifikan karena perdagangan bebas hasil rempah dan hutan Maluku pada masa pemerintahannya." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Baabullah" .
+
+:HidayatullahIIdariBanjar
+        rdf:type    :Royalty ;
+        rdfs:label  "Hidayatullah II dari Banjar" ;
+        :summary    "Sultan Hidayatullah II, terlahir dengan nama Gusti Andarun, dengan gelar mangkubumi Pangeran Hidayatullah kemudian bergelar Sultan Hidayatullah Halil Illah (lahir di Martapura, 1822 – meninggal di Cianjur, Jawa Barat, 24 November 1904 pada umur 82 tahun), adalah pemimpin Kesultanan Banjar yang memerintah antara tahun 1859 sampai 1862. Ia dikenal sebagai salah seorang tokoh pemimpin Perang Banjar melawan pemerintahan Hindia Belanda.Terlahir sebagai anak dari Pangeran Ratu Sultan Muda Abdurrahman bin Sultan Adam Al-Watsiq Billah, Gusti Andarun merupakan kandidat utama pewaris takhta Kesultanan Banjar untuk menggantikan kakeknya Sultan Adam, namun posisi tersebut malah diisi oleh kakak tirinya Tamjidullah II yang mendapat dukungan dari pemerintah Hindia Belanda. Peristiwa ini menimbulkan perpecahan di lingkungan keluarga bangsawan Banjar dan masyarakat, dimana terdapat kubu pendukung Tamjidullah yang dekat dengan Belanda dan kubu pendukung Gusti Andarun yang tidak setuju dengan keputusan pemerintah Hindia Belanda tersebut. Untuk meredam ketegangan tersebut, di tahun 1856 pemerintah Hindia Belanda lalu mengangkat Gusti Andarun sebagai mangkubumi (kepala pemerintahan) Banjar dengan gelar Pangeran Hidayatullah.Pengangkatan tersebut ternyata tidak bisa meredakan ketegangan antara keluarga bangsawan, masyarakat, dan pemerintah Hindia Belanda. Ketegangan ini pun menjadi pemicu dimulainya Perang Banjar, dimana pada 18 April 1859, pasukan Banjar yang dipimpin oleh Pangeran Antasari menyerang tambang batu bara Oranje-Nassau di Pengaron. Pemerintah kolonial lalu memakzulkan Tamjidullah dan mencoba menobatkan Hidayatullah sebagai sultan, namun Hidayatullah menolak tawaran tersebut. Ia sendiri dinobatkan oleh para panglima Banjar menjadi sultan pada September 1859, dengan gelar Sultan Hidayatullah Halil Illah.Ia memimpin Perang Banjar sampai di tahun 1862, ketika ia dan keluarganya berhasil ditangkap oleh pihak Hindia Belanda. Sultan Hidayatullah beserta keluarga dan sebagian pengikutnya lalu diasingkan ke Cianjur, dimana ia menghabiskan sisa hidupnya disana sampai ia wafat di tahun 1904. Atas sikapnya yang anti-imperialis dan kepemimpinannya dalam melawan pemerintahan Hindia Belanda dalam Perang Banjar, di tahun 1999 pemerintah Republik Indonesia menganugerahkannya Bintang Mahaputera Utama." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Hidayatullah_II_dari_Banjar" .
+
+:AmangkuratIV  rdf:type  :Royalty ;
+        rdfs:label  "Amangkurat IV" ;
+        :summary    "Amangkurat IV (Jawa: ꦲꦩꦁ​ꦏꦸꦫꦠ꧀꧇꧔꧇, translit. amangkurat kapapat, har. 'amangkurat empat', dikenal juga sebagai Sunan Jawi) adalah susuhunan Mataram kedelapan yang memerintah pada tahun 1719 – 1726. Ia kemudian dianggap sebagai leluhur raja-raja Jawa, bapak wangsa Mataram, karena menurunkan trah yang berkuasa di Surakarta dan Yogyakarta." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Amangkurat_IV" .
+
+:HamengkubuwanaII  rdf:type  :Royalty ;
+        rdfs:label  "Hamengkubuwana II" ;
+        :summary    "Sri Sultan Hamengkubuwana II (Jawa: ꦲꦩꦼꦁꦏꦸꦨꦸꦮꦤ꧇꧒꧇, 7 Maret 1750 – 3 Januari 1828) adalah raja  kedua Kesultanan Yogyakarta yang memerintah selama tiga periode, yaitu 1792 – 1810, 1811 – 1812, dan 1826 – 1828. Pada pemerintahan yang kedua dan ketiga ia dikenal dengan julukan Sultan Sepuh. Masa jabatannya yang kedua adalah yang paling singkat dalam sejarah Kesultanan Yogyakarta." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Hamengkubuwana_II" .
+
+:UntungSuropati  rdf:type  :Royalty ;
+        rdfs:label  "Untung Suropati" ;
+        :summary    "Untung Surapati (Bahasa Jawa: Untung Suropati) (terlahir Surawiraaji, lahir di Gelgel, Bali, 1660 – meninggal dunia di Bangil, Pasuruan, Mataram, 5 Desember 1706 pada umur 45/46 tahun) adalah seorang tokoh dalam sejarah Nusantara yang dicatat dalam Babad Tanah Jawi. Kisahnya menjadi legendaris karena mengisahkan seorang anak rakyat jelata dan budak VOC yang menjadi seorang bangsawan dan Tumenggung (Bupati) Pasuruan dengan gelar Tumenggung Wiranegara." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Untung_Suropati" .
+
+:AmangkuratIII  rdf:type  :Royalty ;
+        rdfs:label  "Amangkurat III" ;
+        :summary    "Amangkurat III (Jawa: ꦲꦩꦁ​ꦏꦸꦫꦠ꧀꧇꧓꧇, translit. amangkurat katelu, har. 'amangkurat tiga', dikenal juga sebagai Sunan Mas; tanggal lahir tidak diketahui, wafat di Sri Lanka tahun 1734), adalah susuhunan Mataram yang memerintah antara tahun 1703 – 1705." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Amangkurat_III" .
+
+:PakubuwanaV  rdf:type  :Royalty ;
+        rdfs:label  "Pakubuwana V" ;
+        :summary    "Sri Susuhunan Pakubuwana V (sering disingkat sebagai PB V; 13 Desember 1784 – 5 September 1823) adalah susuhunan keempat Surakarta yang memerintah tahun 1820 – 1823.Menjabat Selama 3 Tahun" ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Pakubuwana_V" .
+
+:Anyakrawati  rdf:type  :Royalty ;
+        rdfs:label  "Anyakrawati" ;
+        :summary    "Anyakrawati (Jawa: ꦱꦸꦱꦸꦲꦸꦤꦤꦢꦶꦥꦿꦧꦸꦮꦚꦏꦿꦮꦠꦶ, translit. Susuhunan Adi Prabu Anyakrawati; meninggal 1613) adalah susuhunan (pemimpin) kedua dari Mataram yang memerintah pada tahun 1601-1613. Ia tercatat mewarisi kepiawaian ayahnya dalam strategi perang dan berburu, maka dalam gelarnya juga disematkan gelar senapati ing ngalaga yang bermakna orang yang pandai berperang." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Anyakrawati" .
+
+:SulaimandariBanjar  rdf:type  :Royalty ;
+        rdfs:label  "Sulaiman dari Banjar" ;
+        :summary    "Sulaiman Saidullah II atau yang lebih dikenal dengan nama regnalnya Sultan Sulaiman al-Mu'tamidullah " ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Sulaiman_dari_Banjar" .
+
+:PakuAlamI  rdf:type  :Royalty ;
+        rdfs:label  "Paku Alam I" ;
+        :summary    "Paku Alam I (lahir dengan nama Bendara Pangeran Harya Natakusuma pada 21 Maret 1764 (versi lain 1760)) adalah Adipati Pakualaman yang pertama. Ia adalah putera ketiga Hamengkubuwono I dan Raden Ayu (R.Ay.) Srenggara, seorang selir yang berasal dari desa Karangnangka. Di dalam urutan seluruh putra-putri Hamengkubuwono I Notokusumo adalah urutan ke 11. Ia merupakan salah satu putra terkasih Sultan HB I." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Paku_Alam_I" .
+
+:IGustiNgurahMadeAgung
+        rdf:type    :Royalty ;
+        rdfs:label  "I Gusti Ngurah Made Agung" ;
+        :summary    "I Gusti Ngurah Made Agung atau yang setelah gugur bergelar Ida Tjokorda Mantuk Ring Rana (5 April 1876 – 20 September 1906) adalah Raja Badung atau Raja Denpasar ke-VI dan seorang pejuang yang menentang pemerintahan Hindia Belanda di Bali yang diangkat sebagai Pahlawan Nasional Indonesia oleh Presiden Joko Widodo pada tanggal 5 November 2015. Ia merupakan putra dari I Gusti Gede Ngurah Pemecutan, raja Badung ke-IV." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/I_Gusti_Ngurah_Made_Agung" .
+
+:IskandarMudadariAceh
+        rdf:type    :Royalty ;
+        rdfs:label  "Iskandar Muda dari Aceh" ;
+        :summary    "Sultan Iskandar Muda (Aksara Jawoë : سلطان إسكندر مودا) (Lahir di Bandar Aceh Darussalam, Kesultanan Aceh, 1590 atau 1593 – wafat di Bandar Aceh Darussalam, Kesultanan Aceh, 27 Desember 1636) merupakan sultan yang paling besar dalam masa Kesultanan Aceh, yang berkuasa dari tahun 1607sampai 1636. Sultan Iskandar Muda masih merupakan garis keturunan laki-laki dari pendiri Kesultanan Aceh Darussalam yaitu Sultan Ali Mughayat Syah sekaligus keturunan laki-laki terakhir dari Dinasti Meukuta Alam yang bertakhta sebagai Sultan Aceh. Aceh mencapai kejayaannya pada masa kepemimpinan Iskandar Muda, di mana daerah kekuasaannya yang semakin besar dan reputasi internasional sebagai pusat dari perdagangan dan pembelajaran tentang Islam. Beliau juga pernah melakukan serangan terhadap Portugis, tetapi serangan tersebut tidak berhasil, meskipun begitu Aceh tetap merupakan kerajaan yang merdeka. Namanya kini diabadikan untuk Universitas Iskandar Muda, Kodam Iskandar Muda dan Bandar Udara Internasional Sultan Iskandar Muda di Banda Aceh. beliau dikenal sangat piawai dalam membangun Kerajaan Aceh Darussalam." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Iskandar_Muda_dari_Aceh" .
+
+:PakubuwanaII  rdf:type  :Royalty ;
+        rdfs:label  "Pakubuwana II" ;
+        :summary    "Sri Susuhunan Pakubuwana II (Jawa: ꦥꦏꦸꦧꦸꦮꦤ꧇꧒꧇, translit. Pakubuwana Kapindho, har. 'Pakubuwana Dua', dikenal juga sebagai Sunan Kombul yang lahir pada 08 Desember 1711 – 20 Desember 1749) adalah raja Mataram kesembilan yang memerintah tahun 1726–1742 dan menjadi raja pertama Surakarta yang memerintah tahun 1745–1749, setelah pemberontakan Amangkurat V. Ia juga merupakan kakak dari Pangeran Mangkubumi (kemudian bergelar Hamengkubuwana I) dan paman dari Pangeran Sambernyawa (kemudian bergelar Mangkunagara I)." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Pakubuwana_II" .
+
+:PakuAlamVII  rdf:type  :Royalty ;
+        rdfs:label  "Paku Alam VII" ;
+        :summary    "Sampeyan Dalem Kanjeng Gusti Pangeran Adipati Arya Paku Alam VII, lahir dengan nama Bendara Raden Mas Haryo Surardjo (9 Desember 1882 – 16 Februari 1937) adalah putra Paku Alam VI dari permaisuri, yang bertahta pada tahun 1906 hingga 1937." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Paku_Alam_VII" .
+
+:HamengkubuwanaI  rdf:type  :Royalty ;
+        rdfs:label  "Hamengkubuwana I" ;
+        :summary    "Sri Sultan Hamengkubuwana I (Jawa: ꦲꦩꦼꦁꦏꦸꦨꦸꦮꦤ꧇꧑꧇, 6 Agustus 1717 – 24 Maret 1792) merupakan pendiri sekaligus raja pertama Kesultanan Yogyakarta yang memerintah tahun 1755 - 1792" ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Hamengkubuwana_I" .
+
+:PakubuwanaVI  rdf:type  :Royalty ;
+        rdfs:label  "Pakubuwana VI" ;
+        :summary    "Sri Susuhunan Pakubuwana VI (sering disingkat PB VI; 26 April 1807 – 2 Juni 1849) adalah susuhunan Surakarta kelima yang memerintah tahun 1823 – 1830. Ia dijuluki pula dengan nama Sinuhun Bangun Tapa karena kegemarannya melakukan tapa brata." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Pakubuwana_VI" .
+
+:HamengkubuwanaIX  rdf:type  :Royalty ;
+        rdfs:label  "Hamengkubuwana IX" ;
+        :summary    "Jenderal TNI (Tit.) (Purn.) H. Sri Sultan Hamengkubuwana IX (Jawa: ꦲꦩꦼꦁꦏꦸꦨꦸꦮꦤ꧇꧙꧇; 12 April 1912 – 2 Oktober 1988, lahir dengan nama Gusti Raden Mas Dorodjatun) adalah Sultan Yogyakarta kesembilan dan Gubernur Daerah Istimewa Yogyakarta yang pertama. Ia merupakan Wakil Presiden Indonesia kedua yang menjabat pada tahun 1973–1978. Hamengkubuwana IX juga merupakan Ketua Kwartir Nasional Gerakan Pramuka yang pertama dan dikenal sebagai Bapak Pramuka Indonesia." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Hamengkubuwana_IX" .
+
+:TirtayasadariBanten  rdf:type  :Royalty ;
+        rdfs:label  "Tirtayasa dari Banten" ;
+        :summary    "Tirtayasa dari Banten (lahir di Kesultanan Banten, 1631 – meninggal di Batavia, Hindia Belanda, 1692 pada umur 60–61 tahun) adalah sultan Banten ke-6. Ia naik takhta pada usia 20 tahun menggantikan kakeknya, Sultan Abdul Mafakhir yang wafat pada tanggal 10 Maret 1651, setelah sebelumnya ia diangkat menjadi Sultan Muda dengan gelar Pangeran Adipati atau Pangeran Dipati, menggantikan ayahnya yang wafat lebih dulu pada tahun 1650. Pada tahun 2017 sutradara Darwin Mahesa mengangkat film Tirtayasa The Sultan of Banten bergenre dokudrama yang diproduksi oleh Kremov Pictures." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Tirtayasa_dari_Banten" .
+
+:PakubuwanaI  rdf:type  :Royalty ;
+        rdfs:label  "Pakubuwana I" ;
+        :summary    "Pakubuwana I (Jawa: ꦥꦏꦸꦧꦸꦮꦤ꧇꧑꧇, translit. pakubuwana kapisan, har. 'pakubuwana satu', dikenal juga sebagai Sunan Ngalaga atau Pangeran Puger; lahir di Plered, Mataram pada tahun 1648, wafat di Kartasura, Mataram pada tanggal 22 Februari 1719) adalah susuhunan Mataram ketujuh yang memerintah antara tahun 1704 – 1719. Ia merupakan paman dari Amangkurat III dan menggantikan keponakannya sebagai sunan menggunakan gelar baru untuk garis keturunannya, dengan gelar Pakubuwana. Kebanyakan kronik Jawa (babad) menggambarkannya sebagai seorang penguasa yang bijaksana dan agung. Setelah wafat putranya menggantikannya dengan gelar Amangkurat IV." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Pakubuwana_I" .
+
+:Diponegoro  rdf:type  :Royalty ;
+        rdfs:label  "Diponegoro" ;
+        :summary    "Pangeran Diponegoro atau Raden Ontowiryo adalah putra tertua dari Sultan Hamengkubuwana III (11 November 1785 – 8 Januari 1855) dan seorang pahlawan nasional Republik Indonesia yang memimpin Perang Diponegoro atau Perang Jawa selama periode tahun 1825 hingga 1830 melawan pemerintah Hindia Belanda.Sejarah mencatat Perang Diponegoro atau Perang Jawa dikenal sebagai perang yang menelan korban terbanyak dalam sejarah Indonesia, yakni 8.000 korban serdadu Hindia Belanda, 7.000 pribumi, dan 200 ribu orang Jawa serta kerugian materi 25 juta gulden. Sebagai konversi 1 gulden merupakan uang yang setara dengan satu gram emas sebagai persamaan, dan saat itu total pendapatan pemerintah Hindia Belanda per tahunnya adalah 2 juta gulden maka perang ini menghabiskan 10 tahun APBN Belanda dalam 5 tahun." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Diponegoro" .
+
+:PangeranAnglingkusumo
+        rdf:type    :Royalty ;
+        rdfs:label  "Pangeran Anglingkusumo" ;
+        :summary    "Pangeran Anglingkusumo atau lengkapnya yakni Gusti Pangeran Hario H. Anglingkusumo (GPH. H. Anglingkusumo) (lahir 8 Januari 1944) adalah putra dari Sri Paduka KGPAA Paku Alam VIII. Dia adalah memiliki istri bernama Ir. KRAy. Hj. Setianingsih Moerwengdyah Anglingkusumo, S.Pd.,M.Eng. yang juga akrab disapa dengan sebutan Bunda Angling. Dia memiliki 3 orang putri antara lain:" ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Pangeran_Anglingkusumo" .
+
+:AmangkuratV  rdf:type  :Royalty ;
+        rdfs:label  "Amangkurat V" ;
+        :summary    "Amangkurat V (Jawa: ꦲꦩꦁ​ꦏꦸꦫꦠ꧀꧇꧕꧇, translit. amangkurat kalima, har. 'amangkurat lima', dikenal juga sebagai Sunan Kuning) adalah seorang cucu Amangkurat III di Mataram, putra dari Pangeran Tepasana. Tahun 1742, ia diangkat sebagai susuhunan Mataram menggantikan takhta Amangkurat IV oleh koalisi Jawa-Tionghoa yang menantang kekuasaan Pakubuwana II." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Amangkurat_V" .
+
+:HamengkubuwanaIII  rdf:type  :Royalty ;
+        rdfs:label  "Hamengkubuwana III" ;
+        :summary    "Sri Sultan Hamengkubuwana III (20 Februari 1769 – 3 November 1814) adalah raja ketiga Kesultanan Yogyakarta yang memerintah dalam dua periode, yaitu tahun 1810 – 1811 dan 1812 – 1814.Ia juga merupakan ayah dari Pangeran Diponegoro, tokoh yang berpengaruh dalam Perang Jawa pada tahun 1825-1830." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Hamengkubuwana_III" .
+
+:PakubuwanaXI  rdf:type  :Royalty ;
+        rdfs:label  "Pakubuwana XI" ;
+        :summary    "Sri Susuhunan Pakubuwana XI (sering disingkat sebagai PB XI; 1 Februari 1886 – 1 Juni 1945) adalah susuhunan Surakarta yang memerintah pada tahun 1939 – 1945." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Pakubuwana_XI" .
+
+:SultanMuhammadBahauddin
+        rdf:type    :Royalty ;
+        rdfs:label  "Sultan Muhammad Bahauddin" ;
+        :summary    "Sultan Muhammad Bahauddin (15 Maret 1729 - 2 April 1804), adalah Sultan Palembang yang berkuasa antara 1776-1804, namun telah menjadi Sultan dari tahun 1774 bersama ayahnya, Susuhunan Ahmad I. Ia adalah putra Susuhunan Ahmad I dan Ratu Sepuh. Beliau banyak berperan dalam pembangunan Kota, diantaranya membangun Kraton Kuto Besak." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Sultan_Muhammad_Bahauddin" .
+
+:PakubuwanaVII  rdf:type  :Royalty ;
+        rdfs:label  "Pakubuwana VII" ;
+        :summary    "Sri Susuhunan Pakubuwana VII (sering disingkat sebagai PB VII; 28 Juli 1796 – 10 Mei 1858), adalah susuhunan Surakarta keenam yang memerintah tahun 1830 – 1858." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Pakubuwana_VII" .
+
+:KiaiMadja  rdf:type  :Royalty ;
+        rdfs:label  "Kiai Madja" ;
+        :summary    "Muslim Mochammad Khalifah atau dikenal Kiai Madja, Kiai Modjo (lahir di Surakarta, Jawa Tengah, 1792) adalah seorang ulama yang dikenal sebagai orang kepercayaan Pangeran Diponegoro sekaligus panglima selama berlangsungnya Perang Jawa." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Kiai_Madja" .
+
+:SultanAgungdariMataram
+        rdf:type    :Royalty ;
+        rdfs:label  "Sultan Agung dari Mataram" ;
+        :summary    "Sultan Agung dari Mataram (Jawa: ꦱꦸꦭ꧀ꦠꦤ꧀ꦲꦒꦸꦁꦲꦢꦶꦥꦿꦧꦸꦲꦚꦏꦿꦏꦸꦱꦸꦩ, translit. Sultan Agung Adi Prabu Anyakrakusuma; lahir di Kotagede, 1593 – meninggal di Karta, 1645) adalah sultan Mataram ketiga yang memerintah dari tahun 1613-1645. Seorang sultan sekaligus senapati ing ngalaga (panglima perang) yang terampil ia membangun negerinya dan mengkonsolidasikan kesultanannya menjadi kekuatan teritorial dan militer yang besar." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Sultan_Agung_dari_Mataram" .
+
+:ThahaSyaifuddindariJambi
+        rdf:type    :Royalty ;
+        rdfs:label  "Thaha Syaifuddin dari Jambi" ;
+        :summary    "Sultan Thaha Syaifuddin (Tanah Pilih, Kesultanan Jambi, 1816 - Betung Bedarah, Tebo, 26 April 1904) adalah seorang sultan terakhir dari Kesultanan Jambi dan Pahlawan Nasional Indonesia. Ia dilahirkan di Keraton Tanah Pilih Jambi pada pertengahan tahun 1816. Ketika kecil ia biasa dipanggil Raden Thaha Jayadiningrat dan bersikap sebagai seorang bangsawan yang rendah hati dan suka bergaul dengan rakyat biasa.Sultan Thaha menolak untuk memperbarui perjanjian yang diberlakukan pada para sultan pendahulunya oleh Belanda, yang menginvasi Jambi pada tahun 1858, memerintah sebagian besar kesultanan sampai tahun 1899. Thaha, terus mengklaim kesultanan dan menguasai bagian-bagiannya yang sulit dijangkau sampai dia dibunuh oleh tentara Belanda.Pada pertempuran di Sungai Aro, jejak Sultan Thaha tidak diketahui lagi oleh rakyat umum, kecuali oleh pembantunya yang sangat dekat. Sultan Thaha Syaifuddin meninggal pada tanggal 26 April 1904 dan dimakamkan di Muara Tebo, Jambi. Namanya diabadikan untuk Bandar Udara Sultan Thaha di Kota Jambi dan menjadi nama salah satu perguruan tinggi di Jambi UIN Sultan Thaha Saifuddin." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Thaha_Syaifuddin_dari_Jambi" .
+
+:SultanHasanuddin  rdf:type  :Royalty ;
+        rdfs:label  "Sultan Hasanuddin" ;
+        :summary    "Sultan Hasanuddin (Dijuluki Ayam Jantan dari Timur oleh Belanda) (12 Januari 1631 – 12 Juni 1670) adalah Sultan Gowa ke-16 dan pahlawan nasional Indonesia yang terlahir dengan nama Muhammad Bakir I Mallombasi Daeng Mattawang Karaeng Bonto Mangape. Setelah menaiki takhta, ia digelar Sultan Hasanuddin, setelah meninggal ia digelar Tumenanga Ri Balla Pangkana. Karena keberaniannya, ia dijuluki De Haantjes van Het Osten oleh Belanda yang artinya Ayam Jantan dari Timur. Ia dimakamkan di Katangka, Kabupaten Gowa. Ia diangkat sebagai Pahlawan Nasional dengan Surat Keputusan Presiden No. 087/TK/1973, tanggal 6 November 1973." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Sultan_Hasanuddin" .
+
+:PakubuwanaIX  rdf:type  :Royalty ;
+        rdfs:label  "Pakubuwana IX" ;
+        :summary    "Sri Susuhunan Pakubuwana IX (sering disingkat sebagai PB IX" ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Pakubuwana_IX" .
+
+:MangkunegaraII  rdf:type  :Royalty ;
+        rdfs:label  "Mangkunegara II" ;
+        :summary    "Kangjeng Gusti Pangeran Adipati Arya Mangkunegara II adalah Adipati kedua dari Pura Mangkunegaran. Kekuasaannya berlangsung selama kurang lebih 39 tahun (1796-1835) dan banyak terlibat dalam persaingan politik yang penting. Bahkan Legiun Mangkunegaran yang berada di bawah kendali perintahnya juga terlibat dalam Perang Srondol untuk membantu pasukan gabungan Prancis - Belanda melawan Inggris yang menguasai Nusantara, penyerangan Inggris ke Yogyakarta tahun 1812, serta Perang Jawa membantu Kesultanan Yogyakarta melawan pasukan Diponegoro (1825 - 1830)." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Mangkunegara_II" .
