@@ -1,0 +1,59 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:PerangBayu  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Bayu" ;
+        :summary    "Perang Bayu (1771-1773) adalah perang yang diakibatkan oleh penyerahan sepihak Java’s Oosthoek (daerah Pasuruan hingga Blambangan) kepada kongsi dagang VOC yang dilakukan oleh Sunan Pakubuwono II melalui Perjanjian Ponorogo pada tahun 1743. Perang Bayu tidak bisa dilepaskan dari Perang Puputan Kabakaba dan Perang Wilis sebelumnya." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Perang_Bayu" .
+
+:PerangAceh  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Aceh" ;
+        :summary    "Perang Aceh–Belanda atau disingkat Perang Aceh adalah perang Kesultanan Aceh melawan Belanda dimulai pada 1873 hingga 1904. Sultan Aceh Muhammad Daud Syah menyerah pada Januari 1904, akan tetapi perlawanan rakyat Aceh yang dipimpin oleh raja-raja feodal atau Uleebalang dan para ulama dengan perang gerilya masih berlangsung hingga 1914 dan perlawanan sporadis rakyat Aceh terus berlanjut hingga 1942." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Perang_Aceh" .
+
+<http://127.0.0.1:3333/PertempuranMelaka(1641)>
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Pertempuran Melaka (1641)" ;
+        :summary    "Pertempuran Melaka (2 Agustus 1640 – 14 Januari 1641) merupakan pertempuran antara Portugis dengan Belanda dengan keberhasilan Belanda merebut Melaka dari Portugis." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Pertempuran_Melaka_(1641)" .
+
+:SerbuanYuan-MongolkeJawa
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Serbuan Yuan-Mongol ke Jawa" ;
+        :summary    "Serbuan Yuan-Mongol ke Jawa adalah invasi Kekaisaran Tiongkok-Mongol di bawah Dinasti Yuan ke pulau Jawa. Pada tahun 1293, Kubilai Khan, Khan Agung Kekaisaran Mongol dan pendiri Dinasti Yuan, mengirim invasi besar ke pulau Jawa dengan 20.000 sampai 30.000 tentara. Serbuan ini merupakan ekspedisi untuk menghukum Raja Kertanegara dari Kerajaan Singhasari, yang menolak membayar upeti dan bahkan melukai utusan Mongol. Namun, di tahun-tahun sela antara penolakan utusan dan kedatangan ekspedisi Mongol di Jawa, Kertanegara terbunuh dan Singhasari direbut oleh Kediri. Dengan demikian, pasukan ekspedisi Yuan diarahkan untuk mendapatkan penyerahan negara penerusnya, Kediri, sebagai gantinya. Setelah kampanye sengit, Kediri menyerah, tetapi pasukan Yuan diserang oleh bekas sekutu mereka, Majapahit, di bawah Raden Wijaya. Pada akhirnya invasi berakhir dengan kegagalan Dinasti Yuan dan kemenangan negara baru, Majapahit." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Serbuan_Yuan-Mongol_ke_Jawa" .
+
+:PemberontakanRadenRonggo
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Pemberontakan Raden Ronggo" ;
+        :summary    "Pemberontakan Raden Ronggo adalah peristiwa pertempuran yang terjadi antara tanggal 20 November hingga 17 Desember 1810 antara pasukan yang dipimpin Raden Ronggo Prawirodirjo III melawan tentara Belanda di bawah kepemimpinan Gubernur Jenderal Belanda Herman Willem Daendels. Pemberontakan berlangsung singkat dan dapat segera dipadamkan oleh Daendels dengan bantuan pihak Keraton Ngayogyakarta Hadiningrat. Sultan Hamengkubuwana II tidak dapat berbuat banyak selain berpura-pura mendukung Belanda akibat tuduhan yang diarahkan Sunan Pakubuwana IV kepadanya." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Pemberontakan_Raden_Ronggo" .
+
+:GegerSepehi  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Geger Sepehi" ;
+        :summary    "Geger Sepehi atau Geger Sepoy adalah peristiwa penyerbuan Keraton Yogyakarta yang dilakukan oleh Inggris pada tanggal 19-20 Juni 1812 untuk menggulingkan Sultan Hamengkubuwana II yang menolak bekerjasama dengan pemerintahan kolonial yang baru. Nama sepehi berasal dari pasukan Sepoy yang dipekerjakan oleh Inggris untuk menyerang keraton. Penyerbuan ini melibatkan 1.200 prajurit Inggris dan Sepoy serta dibantu oleh 800 prajurit Legiun Mangkunegaran." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Geger_Sepehi" .
+
+:PerangDiponegoro  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Diponegoro" ;
+        :summary    "Perang Diponegoro yang juga dikenal dengan sebutan Perang Jawa (Inggris:The Java War, Belanda: De Java Oorlog) adalah perang besar dan berlangsung selama lima tahun (1825-1830) di Pulau Jawa, Hindia Belanda (sekarang Indonesia). Perang ini melibatkan pasukan Belanda di bawah pimpinan Jenderal Hendrik Merkus de Kock yang berusaha meredam perlawanan penduduk Jawa di bawah pimpinan Pangeran Diponegoro. Akibat perang ini, penduduk Jawa yang tewas mencapai 200.000 jiwa, sementara korban tewas di pihak Belanda berjumlah 8.000 tentara Belanda dan 7000 serdadu pribumi. Akhir perang menegaskan penguasaan Belanda atas Pulau Jawa.Berkebalikan dari perang yang dipimpin oleh Raden Ronggo sekitar 15 tahun sebelumnya, pasukan Jawa juga menempatkan masyarakat Tionghoa di tanah Jawa sebagai target penyerangan. Namun, meskipun Pangeran Diponegoro secara tegas melarang pasukannya untuk bersekutu dengan masyarakat Tionghoa, sebagian pasukan Jawa yang berada di pesisir utara (sekitar Rembang dan Lasem) menerima bantuan dari penduduk Tionghoa setempat yang rata-rata beragama Islam." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Perang_Diponegoro" .
+
+:PerangBelasting  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Belasting" ;
+        :summary    "Perang belasting merupakan perang bersenjata pada 15-16 Juni 1908 yang melibatkan rakyat Sumatera Barat melawan pemerintah kolonial Hindia Belanda akibat penerapan pajak (Belanda: belastingcode: nl is deprecated ) langsung kepada masyarakat. Perlawanan masyarakat atas pemberlakuan pajak langsung ini dibalas oleh pemerintah Hindia Belanda dengan reaksi keras mengirimkan marechaussee (marsose) ke daerah konflik tersebut, yang akhirnya menimbulkan korban jiwa pada masyarakat maupun tentara kolonial." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Perang_Belasting" .
+
+:PerangPadri  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Padri" ;
+        :summary    "Perang Padri (juga dikenal sebagai Perang Minangkabau) adalah perang yang terjadi dari tahun 1803 sampai 1837 di Sumatera Barat, Indonesia antara kaum Padri dan Adat. Kaum Padri adalah umat muslim yang ingin menerapkan Syariat Islam di negeri Minangkabau di Sumatera Barat. Sedangkan kaum Adat mencakup para bangsawan dan ketua-ketua adat di sana. Mereka meminta tolong kepada Belanda, yang kemudian ikut campur pada tahun 1821 dan menolong kaum Adat mengalahkan faksi Padri." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Perang_Padri" .
+
+:PertempuranLimaHari  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Pertempuran Lima Hari" ;
+        :summary    "Pertempuran Lima Hari adalah adalah bentrokan antara pasukan Jepang dari Tentara Keenambelas dan pasukan Indonesia yang terdiri dari personil Badan Keamanan Rakyat dan pemuda pada bulan Oktober 1945 di kota Semarang, Jawa Tengah. Pertempuran ini dianggap sebagai bentrokan besar pertama yang melibatkan militer Indonesia." ;
+        :wikiurl    "https://id.wikipedia.org/wiki/Pertempuran_Lima_Hari" .
