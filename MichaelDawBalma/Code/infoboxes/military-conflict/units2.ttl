@@ -1,0 +1,33 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:SeranganUmumSurakarta
+        :units2  "11 Batalyon Tentara Belanda" .
+
+:KampanyeHindiaBelanda
+        :units2  "331 pesawat terbang" , "50.000 pasukan" , "18 kapal selam" , "52 kapal perang" .
+
+:PertempuranSurabaya  :units2  "49th Indian Infantry Brigade" , "23rd Indian Infantry Division" , "5th Indian Infantry Division" .
+
+:SeranganUmum1Maret1949
+        :units2  "Tentara Kerajaan Hindia Belanda" , "Tentara Kerajaan Belanda" .
+
+:RevolusiNasionalIndonesia
+        :units2  "Jepang: 35,000" , "Inggris: 50,000" , "Belanda: 200,000" .
+
+:PuputanMargarana  :units2  "Gajah Merah KNIL Batalyon Infanteri XII" , "Gajah Merah KNIL Batalyon Infanteri XI" , "Gajah Merah KNIL Batalyon Infanteri X" , "8 (IV) Bataljon Stoottroepen" , "1 pesawat pangebom (saking Makassar)" .
+
+:BandungLautanApi  :units2  "Tentara Kerajaan Hindia Belanda" , "Angkatan Darat Britania Raya" , "Angkatan Bersenjata Britania Raya" .
+
+:PertempuranMedanArea
+        :units2  "NICA" , "KNIL" , "Angkatan Darat Britania Raya" .
+
+:KonflikPapua  :units2  "Warga sipil pro-kemerdekaan" , "Persatuan Gerakan Pembebasan Papua Barat (ULMWP)" , "Unit otonom berafiliasi dengan Tentara Pembebasan Nasional Papua Barat (TPNPB) atau Tentara Revolusi West Papua (TRWP)" .
+
+:Operasi17Agustus  :units2  "Tidak diketahui" .
+
+:PertempuranLimaHari  :units2  "Yagi Butai (batalion Resimen Infanteri ke-42, Divisi ke-5, Angkatan Darat ke-2), dan unit-unit yang lebih kecil" , "Batalyon Infanteri Khusus ke-5 (Kido Butai)" .

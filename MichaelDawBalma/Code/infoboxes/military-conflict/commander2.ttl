@@ -1,0 +1,725 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <https://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:JisaburoOzawa  rdf:type  :Person ;
+        rdfs:label      "Jisaburo Ozawa" ;
+        :image          "Ozawa11.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Jisaburo_Ozawa" ;
+        dc:description  "Jisaburo Ozawa (2 Oktober 1886 – 9 November 1966) adalah laksamana Angkatan Laut Jepang.[2] Pada awal Perang Dunia II ia menjadi komandan satuan yang membantu pendudukan Semenanjung Malaya (Singapura) dan Sumatra (Palembang).[2] Selanjutnya ia juga menaklukan Jawa Barat.[2] Setelah menduduki pulau-pulau di selatan ini, ia mengalami kekalahan di pertempuran Laut Filipina (1944).[2] Ia juga mengambil bagian dalam pertempuran Teluk Leyte (1944).[2]" ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1886-10-02"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1966-11-09"^^xsd:date
+                                             ]
+                        ] .
+
+:RevolusiNasionalIndonesia
+        rdf:type     :MilitaryConflict ;
+        :commander2  :AubertinMallaby , :AmirSjarifoeddin , :HubertusJohannesvanMook , :LouisMountbatten , :Musso , :LoaSekHie , :RaymondWesterling , :AbdulkadirWidjojoatmodjo , :JuliusTahija , :PhilipChristison , :SyarifHamidIIdariPontianak , :SimonSpoor , :ConradHelfrich , :AbdulKaharMuzakkar , :RobertMansergh , :DirkCornelisBuurmanvanVreeden , :JulianadariBelanda , :WilhelminadariBelanda , :TjokordaGdeRakaSoekawati , :LudolphHendrikvanOyen , :DirkReinhardAdelbertvanLangen , :SekarmadjiMaridjanKartosoewirjo .
+
+:GoliathTabuni  rdf:type  :Person ;
+        rdfs:label      "Goliath Tabuni" ;
+        :image          "Jenderal._Goliath_Tabuni.JPG" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Goliath_Tabuni" ;
+        dc:description  "Goliath Tabuni adalah panglima tinggi Tentara Pembebasan Nasional Papua Barat. Goliath Tabuni bermarkas di Tingginambut Puncak jaya Papua Pegunungan. Pada tahun 2004 mulai beraksi melawan pemerintah Indonesia di wilayah tersebut. Pada awalnya Gen. Goliath Tabuni berjuang bersama Kelly Kwalik di Timika yang bermarkas di Kali Kabur. Penyaderaan di Mapenduma terjadi Goliath sebagai anggota dari Kelik Kwalik, selanjutnya dia pindah ke Puncakjaya memimpin pasukan dan mulai beraksi pada 2004 sampai saat ini. Goliath Tabuni memimpin perang di puncak jaya dengan sistem strategi gerilya." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1959-01-01"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type  time:Instant ]
+                        ] .
+
+:Soekarno  rdf:type     :Person ;
+        rdfs:label      "Soekarno" ;
+        :image          "Presiden_Sukarno.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Soekarno" ;
+        dc:description  "Dr. (H.C.) Ir. H. Soekarno[cat.] (Ejaan Republik: Sukarno, Jawa: ꦯꦸꦑꦂꦟ, pengucapan bahasa Jawa: [suːˈkarnɔ]; 6 Juni 1901 – 21 Juni 1970) adalah seorang politikus yang berperan penting dalam Revolusi Nasional Indonesia. Ia bersama Mohammad Hatta memproklamasikan Kemerdekaan Indonesia pada tanggal 17 Agustus 1945. Ia orang pertama yang mencetuskan konsep mengenai Pancasila sebagai dasar negara Indonesia dan ia sendiri yang menamainya.Selain sebagai proklamator, Soekarno juga menjabat sebagai Presiden Republik Indonesia pertama sejak 1945 hingga 1967, dengan masa pemerintahannya dikenal juga sebagai Orde Lama.:11, 81:26-32 Pada pertengahan tahun 1960-an, di masa-masa akhir jabatan Soekarno, Indonesia mengalami stagnasi produksi, kemiskinan dan kelaparan yang merajalela, infrastruktur yang tidak terurus, dan hiperinflasi mencapai hampir 600 persen.Pada 11 Maret 1966, Soekarno menandatangani Surat Perintah yang dikenal sebagai Supersemar yang menugaskan Letnan Jenderal Soeharto untuk mengamankan dan menjaga keamanan negara dan institusi kepresidenan. Supersemar menjadi landasan Letnan Jenderal Soeharto untuk membubarkan Partai Komunis Indonesia (PKI) dan mengganti anggota-anggotanya yang duduk di parlemen. Setelah pertanggungjawabannya ditolak Majelis Permusyawaratan Rakyat Sementara (MPRS) pada sidang umum ke empat tahun 1967, Soekarno diberhentikan dari jabatannya sebagai presiden pada Sidang Istimewa MPRS pada tahun yang sama dan Soeharto menggantikannya sebagai pejabat Presiden Republik Indonesia." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1901-06-06"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1970-06-21"^^xsd:date
+                                             ]
+                        ] .
+
+:KiyotakeKawaguchi  rdf:type  :Person ;
+        rdfs:label      "Kiyotake Kawaguchi" ;
+        :image          "Kawaguchi_Kiyotake.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Kiyotake_Kawaguchi" ;
+        dc:description  "Kiyotake Kawaguchi (川口 清健 , Kawaguchi Kiyotake, 3 Desember 1892 – 16 Mei 1961) adalah seorang Jenderal Angkatan Darat Kekaisaran Jepang pada masa Perang Dunia II. Setelah perang berakhir, ia ditangkap oleh otoritas SCAP (Supreme Commander for the Allied Powers) atau Komandan Tertinggi Sekutu dan dituntut sebagai penjahat perang." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1892-12-03"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1961-05-16"^^xsd:date
+                                             ]
+                        ] .
+
+:Gerakan30September  rdf:type  :MilitaryConflict .
+
+:RaymondWesterling  rdf:type  :Person ;
+        rdfs:label      "Raymond Westerling" ;
+        :image          "Raymond_Westerling.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Raymond_Westerling" ;
+        dc:description  "Raymond Pierre Paul Westerling (31 Agustus 1919 – 26 November 1987) adalah komandan pasukan Belanda yang terkenal karena memimpin Pembantaian Westerling (1946–1947) di Sulawesi Selatan dan percobaan kudeta APRA di Bandung, Jawa Barat. Dia adalah salah satu sosok paling kejam dalam sejarah Indonesia karena pembantaian yang dipimpinnya." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1919-08-31"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1987-11-26"^^xsd:date
+                                             ]
+                        ] .
+
+:JuliusTahija  rdf:type  :Person ;
+        rdfs:label      "Julius Tahija" ;
+        :image          "Julius_Tahija,_Minister_of_Social_Affairs.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Julius_Tahija" ;
+        dc:description  "Julius Tahija (13 Juli 1916 – 30 Juli 2002) dulu adalah seorang tentara, politisi, dan pebisnis asal Indonesia. Ia mendapat Orde Militer Willem atas aksinya pada kampanye Hindia Belanda saat bertugas di KNIL dan merupakan satu-satunya orang Indonesia pada masa perang yang menerima penghormatan militer tertinggi dari sebuah negara sekutu selama Perang Dunia II. Ia juga pernah menduduki sejumlah posisi menteri di Negara Indonesia Timur selama Revolusi Nasional Indonesia pada tahun 1947, lalu bekerja dan mendirikan konglomerat Indrapura Group, yang kemudian menjadi salah satu yang terbesar di Indonesia." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1916-07-13"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "2002-07-30"^^xsd:date
+                                             ]
+                        ] .
+
+:PenyerbuanKotabaruYogyakarta
+        rdf:type  :MilitaryConflict .
+
+:Assaat  rdf:type       :Person ;
+        rdfs:label      "Assaat" ;
+        :image          "Assaat,_Mr._Gelar_Datuk_Mudo,_Kami_Perkenalkan_(1954)_p76.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Assaat" ;
+        dc:description  "Mr. Assaat gelar Datuk Mudo (18 September 1904 – 16 Juni 1976) adalah seorang politisi dan pejuang kemerdekaan Indonesia. Ia merupakan pemangku jabatan Presiden Republik Indonesia pada masa pemerintahan Republik Indonesia di Yogyakarta. Ia juga pernah menjabat sebagai Menteri Dalam Negeri Indonesia." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1904-09-18"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1976-06-16"^^xsd:date
+                                             ]
+                        ] .
+
+:PertempuranBojongKokosan
+        rdf:type  :MilitaryConflict .
+
+<http://127.0.0.1:3333/PemberontakanDI/TIIdiAceh>
+        rdf:type     :MilitaryConflict ;
+        :commander2  :Soekarno .
+
+:EgianusKogoya  rdf:type  :Person ;
+        rdfs:label      "Egianus Kogoya" ;
+        :image          "https://img.inews.co.id/media/822/files/inews_new/2023/03/18/egianus_kogoya.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Egianus_Kogoya" ;
+        dc:description  "Egianus Kogoya (lahir 1999) adalah Panglima Komando Daerah Perang III Ndugama Tentara Pembebasan Nasional Papua Barat yang merupakan bagian dari kelompok Organisasi Papua Merdeka. Kelompok bersenjata yang dipimpin oleh Egianus Kogoya ini merupakan satu dari tujuh kelompok bersenjata yang masih aktif di Papua. Diperkirakan kelompok ini terdiri dari sekitar 50 orang. Dia merupakan putra dari Daniel Yudas Kogoya yang terlibat dalam penyanderaan tim Ekspedisi Lorentz (1996). " ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1999-01-01"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type  time:Instant ]
+                        ] .
+
+:HubertusJohannesvanMook
+        rdf:type        :Person ;
+        rdfs:label      "Hubertus Johannes van Mook" ;
+        :image          "Hubertus_J._van_Mook,_minister_van_koloniën,_NG-1992-3-3-9.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Hubertus_Johannes_van_Mook" ;
+        dc:description  "Hubertus Johannes (Huib) van Mook (30 Mei 1894 – 10 Mei 1965) adalah Gubernur Jenderal Hindia Belanda secara de facto (pangkat sesungguhnya adalah Wakil Gubernur Jenderal) yang terakhir yang menjabat setelah Jepang menguasai Hindia Belanda." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1894-05-20"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1965-05-10"^^xsd:date
+                                             ]
+                        ] .
+
+:PertempuranSurabaya  rdf:type  :MilitaryConflict ;
+        :commander2  :RobertMansergh , :AubertinMallaby .
+
+:SimonSpoor  rdf:type   :Person ;
+        rdfs:label      "Simon Spoor" ;
+        :image          "Simon_Spoor_(1948).jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Simon_Spoor" ;
+        dc:description  "Jenderal Simon Hendrik Spoor (12 Januari 1902 - 25 Mei 1949) adalah seorang jenderal Belanda yang terkenal perannya ketika Belanda berusaha merebut kembali Indonesia, dan ia memimpin langsung 2 aksi polisionil Belanda tersebut yaitu Agresi Militer Belanda I dan II." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1902-01-12"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1949-05-25"^^xsd:date
+                                             ]
+                        ] .
+
+:HitoshiImamura  rdf:type  :Person ;
+        rdfs:label      "Hitoshi Imamura" ;
+        :image          "Hitoshi_Imamura.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Hitoshi_Imamura" ;
+        dc:description  "Hitoshi Imamura (Hitosji Imamoera) (今村 均, Imamura Hitoshi, 28 Juni 1886 – 4 Oktober 1968) adalah seorang jenderal Jepang pada masa Perang Dunia II. Ia pernah menjadi Panglima Tentara ke-16 sekaligus Gubernur Jenderal di Jawa periode Maret - November 1942. Pada bulan November 1942, Letnan Jenderal Imamura menjadi Panglima Tentara ke-8 di Kepulauan Solomon dan Papua Nugini." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1886-06-28"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1968-10-04"^^xsd:date
+                                             ]
+                        ] .
+
+:Musso  rdf:type        :Person ;
+        rdfs:label      "Musso" ;
+        :image          "Musso.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Musso" ;
+        dc:description  "Musso atau Paul Mussotte bernama lengkap Muso Manowar atau Munawar Muso (12 Agustus 1897 – 31 Oktober 1948) adalah seorang pemimpin Partai Komunis Indonesia (PKI) dan salah satu tokoh kunci dalam pemberontakan Madiun 1948." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1897-08-12"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1948-10-31"^^xsd:date
+                                             ]
+                        ] .
+
+:PertempuranMedanArea
+        rdf:type  :MilitaryConflict .
+
+:PeristiwaTigaMaret  rdf:type  :MilitaryConflict ;
+        :commander2  <http://127.0.0.1:3333/AdamB.B.> , :SaalahYusufSutanMangkuto .
+
+:HisaichiTerauchi  rdf:type  :Person ;
+        rdfs:label      "Hisaichi Terauchi" ;
+        :image          "Hisaichi_Terauchi_2.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Hisaichi_Terauchi" ;
+        dc:description  "Hisaichi Terauchi (寺内 寿, Terauchi Hisaichi) (8 Agustus 1879 – 12 Juni 1946) adalah seorang Marsekal Medan (Field Marshal) Angkatan Darat Kekaisaran Jepang dan Panglima Grup Angkatan Darat Expedisi Selatan pada masa Perang Dunia Kedua." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1879-08-08"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1946-06-12"^^xsd:date
+                                             ]
+                        ] .
+
+:LouisMountbatten  rdf:type  :Person ;
+        rdfs:label      "Louis Mountbatten" ;
+        :image          "Lord_Mountbatten_Naval_in_colour_Allan_Warren.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Louis_Mountbatten" ;
+        dc:description  "Admiral of the Fleet Louis Francis Albert Victor Nicholas Mountbatten (biasa disebut secara informal sebagai Lord Mountbatten) merupakan seorang politisi, negarawan, serta perwira angkatan laut Britania Raya. Lord Mountbatten juga adalah paman dari Pangeran Philip dan sepupu Ratu Elizabeth II. Selama Perang Dunia II, ia bertindak sebagai Panglima Komando Asia Tenggara (1943-1946). Ia merupakan Raja Muda India terakhir sekaligus Gubernur Jenderal India yang pertama. Pada tahun 1950, India berdiri sebagai republik yang merdeka. Berbagai posisi penting dijabat Lord Mountbatten sesudah penugasannya di India baik di Britania Raya maupun di tingkat internasional." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1900-06-25"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1979-08-15"^^xsd:date
+                                             ]
+                        ] .
+
+<http://127.0.0.1:3333/AdamB.B.>
+        rdf:type        :Person ;
+        rdfs:label      "Adam B.B." ;
+        :image          "Syekh_Adam_BB.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Adam_B.B." ;
+        dc:description  "Syekh Haji Adam B.B. atau Syekh Adam Balai-Balai (31 Agustus 1889 – 15 Juli 1953) adalah salah seorang Ulama Minangkabau terkemuka yang tercatat sampai pertengahan abad ke-20. Adam B.B. yang sebelumnya adalah seorang pendekar dan parewa gadang (jagoan besar) juga dikenal sebagai ulama dan guru yang menginginkan lulusan surau yang ideal, yaitu kombinasi ulama, pandeka (pendekar) dan jiwa seni yang mandiri dan terampil, seperti sosok pribadinya. Ia merupakan pendiri Surau Pasar Baru (SPB) di Padang Panjang yang kemudian hari menjadi Madrasah Irsyadin Naas (MIN)." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1889-08-31"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1953-07-15"^^xsd:date
+                                             ]
+                        ] .
+
+:DirkCornelisBuurmanvanVreeden
+        rdf:type        :Person ;
+        rdfs:label      "Dirk Cornelis Buurman van Vreeden" ;
+        :image          "Dirk_Cornelis_Buurman_van_Vreeden_(1946).jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Dirk_Cornelis_Buurman_van_Vreeden" ;
+        dc:description  "Dirk Cornelis Buurman van Vreeden (16 Juni 1902 – 12 Juni 1964) adalah komandan KNIL yang terakhir. Ia menjabat antara bulan Mei 1949 hingga Juli 1950. Buurman van Vreeden menempuh pendidikan sekolah dasar di Den Haag dan Kampen. Pada tahun 1921, ia meneruskan ke Koninklijke Militaire Academie di Breda dan kemudian letnan di artileri Koninklijk Nederlandsch-Indisch Leger. Ia belajar di Hogere Krijgsschool antara tahun 1931-1934 dan menduduki berbagai kedudukan militer KNIL di Hindia Belanda (kini Indonesia)." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1902-06-16"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1964-06-12"^^xsd:date
+                                             ]
+                        ] .
+
+:SebbySambom  rdf:type  :Person ;
+        rdfs:label      "Sebby Sambom" ;
+        :image          "https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/698/2023/11/29/Jubir-Sebby-Sambom-3846253716.png" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Sebby_Sambom" ;
+        dc:description  "Sebby Sambom (lahir 3 Januari 1975) adalah Juru Bicara Tentara Pembebasan Nasional Papua Barat - Organisasi Papua Merdeka (TPNPB-OPM). Dia pernah ditahan pada tanggal 16 Agustus 2008 sehubungan dengan perencanaan atau pidato dalam aksi damai mendukung peluncuran Parlemen Internasional untuk Papua Barat." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1975-01-03"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type  time:Instant ]
+                        ] .
+
+:BandungLautanApi  rdf:type  :MilitaryConflict .
+
+:LudolphHendrikvanOyen
+        rdf:type        :Person ;
+        rdfs:label      "Ludolph Hendrik van Oyen" ;
+        :image          "Ludolph_Hendrik_van_Oyen_(1943).jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Ludolph_Hendrik_van_Oyen" ;
+        dc:description  "Ludolph Hendrik van Oyen (juga Oijen; 25 April 1889 – 28 Juli 1953) adalah seorang letnan jenderal berkebangsaan Belanda dan komandan AU KNIL semasa pecahnya Perang Dunia II. Ludolph Hendrik van Oyen memulai karier militer di Sekolah Taruna Alkmaar sejak tahun 1906 kemudian pada tahun 1911 melanjutkan ke Koninklijke Militaire Academie, Breda. Pada tanggal 4 Agustus 1913, ia menikah dengan Elise Marie Francina Brouwer dan dikaruniai 2 orang anak. Antara tahun 1922-1925, ia menjadi kapiten di Hoogere Krijgsschool, Den Haag dan setelah itu dilantik sebagai mayor dan komandan AU KNIL. Dalam berbagai posisi, ia tetap dalam pangkat itu hingga naik pangkat sebagai mayor jenderal pada tahun 1940." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1889-04-25"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1953-07-28"^^xsd:date
+                                             ]
+                        ] .
+
+:TjokordaGdeRakaSoekawati
+        rdf:type        :Person ;
+        rdfs:label      "Tjokorda Gde Raka Soekawati" ;
+        :image          "Tjokorda_Gde_Raka_Soekawati,_Volume_I_of_Pendidikan_Politik_Rakjat,_p4.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Tjokorda_Gde_Raka_Soekawati" ;
+        dc:description  "Tjokorda Gde Raka Soekawati (ejaan baru: Cokorda Gde Raka Sukawati), (lahir di Ubud, Gianyar, Bali, 15 Januari 1899 dan meninggal tahun 1967) adalah satu-satunya Presiden Negara Indonesia Timur. Ia menjabat dari tahun 1946 hingga pembubaran Negara Indonesia Timur pada 1950. Gelarnya, Tjokorda Gde, menandai bahwa Soekawati masuk kedalam kasta ksatria. Ia memiliki dua orang istri, yang pertama adalah orang Bali yaitu, Gusti Agung Niang Putu yang memberikan seorang putra yang bernama Tjokorda Ngurah Wim Sukawati. Pada tahun 1933, ia menikahi seorang perempuan Prancis bernama Gilbert Vincent, yang memberikannya dua orang anak." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1899-01-15"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1967-12-31"^^xsd:date
+                                             ]
+                        ] .
+
+:TeukuNyakArif  rdf:type  :Person ;
+        rdfs:label      "Teuku Nyak Arif" ;
+        :image          "Tnarief.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Teuku_Nyak_Arif" ;
+        dc:description  "Teuku Nyak Arif adalah Pahlawan Nasional Indonesia. Ia juga merupakan Residen/gubernur Aceh yang pertama periode 1945–1946. Pada masa perjuangan kemerdekaan Indonesia, saat Volksraad (parlemen) dibentuk, Teuku Nyak Arif terpilih sebagai wakil pertama dari Aceh." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1899-07-17"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1946-05-04"^^xsd:date
+                                             ]
+                        ] .
+
+:KellyKwalik  rdf:type  :Person ;
+        rdfs:label      "Kelly Kwalik" ;
+        :image          "Kelly_Kwalik.png" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Kelly_Kwalik" ;
+        dc:description  "Kelly Kwalik (lahir di Agimuga, Mimika, Papua, Nugini Belanda, 1955 - meninggal di Timika, Papua, Indonesia, 16 Desember 2009) adalah seorang pemimpin separatis senior dan komandan dari sayap militer Organisasi Papua Merdeka (OPM), sebuah organisasi separatis yang berbasis di Provinsi Papua di Indonesia." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1955-01-01"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "2009-12-16"^^xsd:date
+                                             ]
+                        ] .
+
+:PangSuma  rdf:type     :Person ;
+        rdfs:label      "Pang Suma" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Pang_Suma" ;
+        dc:description  "Pang Suma adalah seorang tokoh pejuang kemerdekaan Indonesia yang bergerilya di Kalimantan Barat. Pang Suma dikenal sebagai pejuang melawan penjajah Jepang. Hingga kini, tokoh pahlawan yang bernama Pangsuma, belum ada satu pun yang mengetahui di mana dan kapan ia lahir. Namun menurut penuturan cucu pengawal Pangsuma, Sera, atau lebih dikenal dengan Pang Ronda, menuturkan bahwa Pangsuma berasal dari dusun di Kecamatan Meliau bernama Nek Bindang. Pangsuma merupakan nama panggilan, dalam Bahasa Meliau merupakan penggabungan dua suku kata yakni Pang berarti bapak dan Suma adalah nama anaknya." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type  time:Instant ] ;
+                          time:hasEnd        [ rdf:type  time:Instant ]
+                        ] .
+
+:PuputanMargarana  rdf:type  :MilitaryConflict .
+
+:SeranganUmum1Maret1949
+        rdf:type     :MilitaryConflict ;
+        :commander2  :DirkReinhardAdelbertvanLangen .
+
+:Operasi17Agustus  rdf:type  :MilitaryConflict ;
+        :commander2  :Assaat , :AhmadHusein , :MaludinSimbolon , :SyafruddinPrawiranegara .
+
+:ShojiNishimura  rdf:type  :Person ;
+        rdfs:label      "Shoji Nishimura" ;
+        :image          "ShojiNishimura.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Shoji_Nishimura" ;
+        dc:description  "Shōji Nishimura (西村 祥治, Nishimura Shōji, 30 November 1889 – 24 Oktober 1944) adalah seorang Laksamana di Imperial Japanese Navy saat berlangsungnya Perang Dunia II. Ia gugur pada Pertempuran Teluk Leyte." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1889-11-30"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1944-10-24"^^xsd:date
+                                             ]
+                        ] .
+
+<http://127.0.0.1:3333/KampanyeKalimantan(1945)>
+        rdf:type  :MilitaryConflict .
+
+:TakeoTakagi  rdf:type  :Person ;
+        rdfs:label      "Takeo Takagi" ;
+        :image          "Takagi_Takeo.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Takeo_Takagi" ;
+        dc:description  "Takeo Takagi (高木武雄, Takagi Takeo, 25 Januari 1892 – 8 Juli 1944) ialah seorang laksamana AL Kekaisaran Jepang pada masa Perang Dunia II." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1892-01-25"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1944-07-08"^^xsd:date
+                                             ]
+                        ] .
+
+:DirkReinhardAdelbertvanLangen
+        rdf:type        :Person ;
+        rdfs:label      "Dirk Reinhard Adelbert van Langen" ;
+        :image          "D.R.A._van_Langen.png" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Dirk_Reinhard_Adelbert_van_Langen" ;
+        dc:description  "Mayor-jenderal Dirk Reinhard Adelbert van Langen (17 Mei 1898 – 20 Januari 1983) adalah seorang anggota Kepala Staf Tentara Kerajaan Hindia Belanda Komandan Teritorial Jawa Timur. Ia juga merupakan panglima brigade T pada Perang Kemerdekaan Indonesia di Hindia Belanda, dari 1946 sampai 1949, pada Revolusi Nasional Indonesia." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1898-05-17"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1983-01-20"^^xsd:date
+                                             ]
+                        ] ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1898-05-17"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1983-01-20"^^xsd:date
+                                             ]
+                        ] .
+
+:SyafruddinPrawiranegara
+        rdf:type        :Person ;
+        rdfs:label      "Syafruddin Prawiranegara" ;
+        :image          "Sjafruddin_Prawiranegara.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Syafruddin_Prawiranegara" ;
+        dc:description  "Mr. Sjafruddin Prawiranegara (EYD: Syafruddin Prawiranegara) 28 Februari 1911 – 15 Februari 1989) adalah seorang negarawan dan ekonom Indonesia. Ia memimpin Indonesia sebagai Ketua Pemerintah Darurat Republik Indonesia (PDRI). Selama masa Demokrasi Liberal, ia menjabat sebagai Menteri Keuangan dan Gubernur Bank Indonesia pertama." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1911-02-28"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1989-02-15"^^xsd:date
+                                             ]
+                        ] .
+
+:SaalahYusufSutanMangkuto
+        rdf:type        :Person ;
+        rdfs:label      "Saalah Yusuf Sutan Mangkuto" ;
+        :image          "SY_Sutan_Mangkuto.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Saalah_Yusuf_Sutan_Mangkuto" ;
+        dc:description  "Saalah Yusuf Sutan Mangkuto, sering ditulis S.Y. Sutan Mangkuto, (1901–1974) adalah organisiator dan aktivis Muhammadiyah. Ia merupakan pendiri cabang Muhammadiyah di Padang Panjang pada  1926 dan pernah menjadi Ketua Pimpinan Muhammadiyah Sumatra Tengah periode 1949–1956." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1901-01-01"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1974-02-28"^^xsd:date
+                                             ]
+                        ] .
+
+:WilhelminadariBelanda
+        rdf:type        :Person ;
+        rdfs:label      "Wilhelmina dari Belanda" ;
+        :image          "Jacob_Merkelbach,_Afb_010164033306.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Wilhelmina_dari_Belanda" ;
+        dc:description  "Ratu Wilhelmina  (Wilhelmina Helena Pauline Marie van Orange-Nassau; (31 Agustus 1880 – 28 November 1962), Putri Orange-Nassau, adalah Ratu Belanda sejak 1890 - 1948 dan Ibu Suri (dengan sebutan Putri) sejak 1948 - 1962." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1880-08-31"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1962-11-28"^^xsd:date
+                                             ]
+                        ] .
+
+:PertempuranLimaHari  rdf:type  :MilitaryConflict .
+
+:SeranganUmumSurakarta
+        rdf:type  :MilitaryConflict .
+
+:PerangCumbok  rdf:type  :MilitaryConflict ;
+        :commander2  :TeukuNyakArif .
+
+:PerangDayakDesa  rdf:type  :MilitaryConflict ;
+        :commander2  :PangSuma .
+
+:MaludinSimbolon  rdf:type  :Person ;
+        rdfs:label      "Maludin Simbolon" ;
+        :image          "Kolonel_Maludin_SIMBOLON.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Maludin_Simbolon" ;
+        dc:description  "Kolonel Infanteri Maludin Simbolon (13 September 1916 – 15 April 2000) adalah seorang pejuang kemerdekaan Indonesia, Panglima Tentara Teritorium I/Bukit Barisan, dan kemudian Menteri Luar Negeri dalam kabinet Pemerintahan Revolusioner Republik Indonesia (PRRI)." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1916-04-13"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "2000-04-15"^^xsd:date
+                                             ]
+                        ] .
+
+:LoaSekHie  rdf:type    :Person ;
+        rdfs:label      "Loa Sek Hie" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Loa_Sek_Hie" ;
+        dc:description  "Loa Sek Hie Sia (lahir di Batavia pada tahun 1898 - meninggal di Den Haag pada tahun 1965) dulu adalah seorang politisi dan anggota parlemen di Hindia Belanda. Ia adalah voorzitter atau chairman pertama dari pasukan bela diri etnis Tionghoa, Pao An Tui (1946 - 1949). Ia adalah Peranakan keturunan Tionghoa-Indonesia, Austria, dan Jawa. Dalam karir politiknya, ia mengkampanyekan perlawanan terhadap diskriminasi rasial serta memperjuangkan pelayanan kesehatan dan pendidikan yang lebih baik bagi etnis Tionghoa di Hindia Belanda." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1898-01-01"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1965-12-31"^^xsd:date
+                                             ]
+                        ] .
+
+:SyarifHamidIIdariPontianak
+        rdf:type        :Person ;
+        rdfs:label      "Syarif Hamid II dari Pontianak" ;
+        :image          "Syarif_Hamid_II_of_Pontianak.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Syarif_Hamid_II_dari_Pontianak" ;
+        dc:description  "Sultan Hamid II, lahir dengan nama Syarif Abdul Hamid Alkadrie, (12 Juli 1913 – 30 Maret 1978) adalah putra sulung Sultan Pontianak ke-6, Sultan Syarif Muhammad Alkadrie, adalah perancang Lambang Negara Indonesia, Garuda Pancasila. Ia memiliki darah keturunan Arab-Indonesia. Semasa hidupnya, Hamid II beristrikan seorang perempuan Belanda kelahiran Surabaya, yang memberikannya dua anak yang sekarang tinggal di Belanda." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1913-07-12"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1978-03-30"^^xsd:date
+                                             ]
+                        ] .
+
+:PhilipChristison  rdf:type  :Person ;
+        rdfs:label      "Philip Christison" ;
+        :image          "https://asset.kompas.com/crops/26NcBHvtwCkAdI8GxsAkg3mMHxM=/0x56:549x422/750x500/data/photo/2021/08/17/611bbaf6c9217.jpeg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Philip_Christison" ;
+        dc:description  "Jend. Sir (Alexander Frank) Philip Christison, 4th Baronet GBE CB DSO MC (17 November 1893 – 21 Desember 1993) adalah komandan militer Britania Raya selama Perang Dunia II." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1893-11-17"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1993-12-21"^^xsd:date
+                                             ]
+                        ] .
+
+:PertempuranKumai  rdf:type  :MilitaryConflict .
+
+:BennyWenda  rdf:type   :Person ;
+        rdfs:label      "Benny Wenda" ;
+        :image          "Benny_Wenda.png" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Benny_Wenda" ;
+        dc:description  "Benny Wenda (lahir di Lembah Baliem, Irian Jaya) adalah pemimpin kemerdekaan Papua Barat dan Ketua Persatuan Gerakan Pembebasan Papua Barat (Inggris: United Liberation Movement for West Papua (ULMWP)).  Dia adalah pelobi internasional untuk kemerdekaan Papua Barat dari Indonesia. Dia tinggal di pengasingan di Inggris Raya. Pada tahun 2003 dia diberikan suaka politik oleh pemerintah Inggris setelah dia melarikan diri dari tahanan saat diadili." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1975-01-01"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type  time:Instant ]
+                        ] .
+
+:AhmadHusein  rdf:type  :Person ;
+        rdfs:label      "Ahmad Husein" ;
+        :image          "Let._Kol._Ahmad_Husein.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Ahmad_Husein" ;
+        dc:description  "Kolonel (Purn.) Ahmad Husein (1 April 1925 – 28 November 1998) adalah seorang pejuang kemerdekaan Indonesia dan pemimpin militer PRRI. Pada tanggal 15 Februari 1958 di Padang dia membentuk Pemerintahan Revolusioner Republik Indonesia (PRRI) di bawah pimpinan Syafruddin Prawiranegara sebagai Perdana Menteri dengan tujuan mengoreksi pemerintahan otoriter Soekarno yang dianggap inkonstitusional dan mengabaikan pembangunan dan kesejahteraan masyarakat di daerah. Tindakan koreksinya itu ternyata mendapat sambutan berupa aksi militer dari pemerintah pusat di Jakarta sehingga menimbulkan perang saudara di Sumatera Barat." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1925-04-01"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1998-11-28"^^xsd:date
+                                             ]
+                        ] .
+
+:DelapanJamPertempurandiMangkang
+        rdf:type  :MilitaryConflict .
+
+:AbdulkadirWidjojoatmodjo
+        rdf:type        :Person ;
+        rdfs:label      "Abdulkadir Widjojoatmodjo" ;
+        :image          "Voorzitter_van_de_Nederlandse_delegatie_op_de_Renville_Abdoel_Kadir,_Bestanddeelnr_902-5011_(3x4).jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Abdulkadir_Widjojoatmodjo" ;
+        dc:description  "Raden Abdulkadir Widjojoatmodjo (18 Desember 1904 – 24 Desember 1992) adalah seorang perwira militer, diplomat, dan pejabat tinggi Hindia Belanda" ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1904-12-18"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1992-12-24"^^xsd:date
+                                             ]
+                        ] .
+
+:ConradHelfrich  rdf:type  :Person ;
+        rdfs:label      "Conrad Helfrich" ;
+        :image          "Conrad_Helfrich_colourized.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Conrad_Helfrich" ;
+        dc:description  "Luitenant-Admiraal Conrad Emil Lambert Helfrich (KCB) (11 Oktober 1886 – 20 September 1962) dari Koninklijke Marine adalah tokoh AL utama Belanda dalam Perang Dunia II." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1886-10-11"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1962-09-20"^^xsd:date
+                                             ]
+                        ] .
+
+:JacobPrai  rdf:type    :Person ;
+        rdfs:label      "Jacob Prai" ;
+        :image          "https://www.ulmwp.org/wp-content/uploads/2022/06/287230120_3152293418408468_6921440470420884462_n-768x541.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Jacob_Prai" ;
+        dc:description  "Jacob Prai  (17 Juli 1942 – 26 Mei 2022) adalah ketua pimpinan Organisasi Papua Merdeka (OPM) yang sebelumnya ia telah menjabat sebagai Kepala Senat Pemerintahan Sementara Papua Barat. Dinyatakan di Great Waris, daerah perbatasan antara Papua Nugini dan Papua Barat, tanah air Prai ini Mr Prai diberi suaka di Swedia dengan Dr John Otto Ondawame dan pernah memimpin Gerakan Papua Kantor Internasional di Malmö, Swedia." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1942-07-17"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "2022-05-26"^^xsd:date
+                                             ]
+                        ] .
+
+:PertempuranLengkong  rdf:type  :MilitaryConflict .
+
+:AbdulKaharMuzakkar  rdf:type  :Person ;
+        rdfs:label      "Abdul Kahar Muzakkar" ;
+        :image          "Kaharmuzakkar.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Abdul_Kahar_Muzakkar" ;
+        dc:description  "Abdul Kahar Muzakkar atau Abdul Qahhar Mudzakkar, (24 Maret 1921 – 3 Februari 1965) (nama kecilnya La Domeng), adalah pendiri Tentara Islam Indonesia di Sulawesi." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1921-03-24"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1965-02-03"^^xsd:date
+                                             ]
+                        ] .
+
+:RobertMansergh  rdf:type  :Person ;
+        rdfs:label      "Robert Mansergh" ;
+        :image          "Robertmansergh.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Robert_Mansergh" ;
+        dc:description  "Jend. Sir Eric Carden Robert Mansergh GCB KBE MC (12 Mei 1900 – 8 November 1970) adalah jenderal British Army selama dan setelah Perang Dunia II." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1900-05-12"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1970-11-08"^^xsd:date
+                                             ]
+                        ] ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1900-05-12"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1970-11-08"^^xsd:date
+                                             ]
+                        ] .
+
+:JacobRumbiak  rdf:type  :Person ;
+        rdfs:label      "Jacob Rumbiak" ;
+        :image          "https://www.ulmwp.org/wp-content/uploads/2016/04/jacob-rumbiak-foreign-affairs-minister-federated-republic-of-west-papua.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Jacob_Rumbiak" ;
+        dc:description  "Drs. Jacob Rumbiak (lahir 11 Maret 1958) adalah akademisi dan pemimpin politik Papua Barat yang telah mengasingkan diri di Australia setelah melarikan diri dari penahanan sebagai tahanan politik selama sepuluh tahun di penjara Indonesia. Rumbiak adalah perwakilan Urusan Luar Negeri dari Republik Federasi Papua Barat yang dideklarasikan pada akhir Kongres Rakyat Papua Ketiga pada 19 Oktober 2011. Nasihat Rumbiak dari dalam Papua Barat untuk tidak menghadiri Kongres karena alasan keamanan dibenarkan dalam penumpasan yang  menyebabkan enam kematian, ratusan penangkapan dan hukuman lima tokoh utama masing-masing penjara tiga tahun karena pengkhianatan." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1958-03-11"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type  time:Instant ]
+                        ] .
+
+:NobutakeKondō  rdf:type  :Person ;
+        rdfs:label      "Nobutake Kondō" ;
+        :image          "Vizeadmiral_Nobutake_Kondo.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Nobutake_Kond%C5%8D" ;
+        dc:description  "Nobutake Kondō (近藤 信竹, Kondō Nobutake, 25 September 1886 – 19 Februari 1953) adalah seorang Laksamana di Angkatan Laut selama Perang Dunia II. Sebagai komandan IJN Armada ke-2, kepala sekolah Angkatan Laut melepaskan diri untuk operasi independen, Kondo dianggap sebagai yang kedua setelah Laksamana  Isoroku Yamamoto." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1886-09-25"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1953-02-19"^^xsd:date
+                                             ]
+                        ] .
+
+:KonflikPapua  rdf:type  :MilitaryConflict ;
+        :commander2  :KellyKwalik , :GoliathTabuni , :SebbySambom , :EgianusKogoya , :JacobRumbiak , :BennyWenda , :JacobPrai .
+
+:SekarmadjiMaridjanKartosoewirjo
+        rdf:type        :Person ;
+        rdfs:label      "Sekarmadji Maridjan Kartosoewirjo" ;
+        :image          "Kartosuwirjo_17_August_1950_KR.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Sekarmadji_Maridjan_Kartosoewirjo" ;
+        dc:description  "Sekarmadji Maridjan Kartosoewirjo (7 Januari 1905 – 5 September 1962) adalah seorang tokoh Islam Indonesia yang mendirikan gerakan Darul Islam dari tahun 1949 hingga tahun 1962, dengan tujuan mendirikan Negara Islam Indonesia berdasarkan hukum syariah." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1905-01-07"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1962-09-05"^^xsd:date
+                                             ]
+                        ] .
+
+:AmirSjarifoeddin  rdf:type  :Person ;
+        rdfs:label      "Amir Sjarifoeddin" ;
+        :image          "Amir_Sjarifoeddin.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Amir_Sjarifoeddin" ;
+        dc:description  "Mr. Amir Sjarifoeddin Harahap (ER, EYD: Amir Syarifuddin Harahap; 27 April 1907 – 19 Desember 1948) adalah seorang politikus dan jurnalis Indonesia. Ia menjabat sebagai Perdana Menteri Indonesia ketika Revolusi Nasional Indonesia sedang berlangsung. Amir adalah pemimpin sayap kiri terdepan pada masa Revolusi. Pada tahun 1948. Sebagai pemimpin pemberontakan  PKI Madiun bersama Musso, Amir dieksekusi mati bersama beberapa tokoh PKI lainnya yang terlibat dalam Peristiwa Madiun." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1907-04-24"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1948-12-19"^^xsd:date
+                                             ]
+                        ] .
+
+:AubertinMallaby  rdf:type  :Person ;
+        rdfs:label      "Aubertin Mallaby" ;
+        :image          "Indonesian_delegate_speaking_to_Mallaby,_Impressions_of_the_Fight_..._in_Indonesia,_p16.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Aubertin_Mallaby" ;
+        dc:description  "Aubertin Walter Sothern Mallaby atau juga dikenal dengan Brigadir Mallaby (12 Desember 1899 – 30 Oktober 1945) adalah brigadir Britania yang tewas dalam peristiwa baku tembak 30 Oktober di Surabaya dan memicu keluarnya ultimatum Inggris dan meledaknya Pertempuran 10 November." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1899-12-12"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1945-10-30"^^xsd:date
+                                             ]
+                        ] ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1899-12-12"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1945-10-30"^^xsd:date
+                                             ]
+                        ] .
+
+:KampanyeHindiaBelanda
+        rdf:type     :MilitaryConflict ;
+        :commander2  :NobutakeKondō , :TakeoTakagi , :JisaburoOzawa , :ShojiNishimura , :HitoshiImamura , :KiyotakeKawaguchi , :HisaichiTerauchi .
+
+:JulianadariBelanda  rdf:type  :Person ;
+        rdfs:label      "Juliana dari Belanda" ;
+        :image          "Prinses_Juliana_1981.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Juliana_dari_Belanda" ;
+        dc:description  "Juliana Louise Marie Wilhelmina van Oranje-Nassau (30 April 1909 – 20 Maret 2004) adalah Ratu Kerajaan Belanda dari 6 September 1948, sampai tanggal 30 April 1980, ulang tahunnya ke-71, ketika putrinya, Beatrix naik takhta. Juliana menikah dengan Bernhard dari Lippe Biesterfeld, seorang bangsawan Jerman, pada tanggal 7 Januari 1937 dan mendapatkan empat anak Beatrix (1938), Irene (1939), Putri Margriet (1943), dan Marijke (1947) yang namanya kemudian diganti menjadi Christina." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1909-04-30"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "2004-03-20"^^xsd:date
+                                             ]
+                        ] .
+
+:Peristiwa19November  rdf:type  :MilitaryConflict .
