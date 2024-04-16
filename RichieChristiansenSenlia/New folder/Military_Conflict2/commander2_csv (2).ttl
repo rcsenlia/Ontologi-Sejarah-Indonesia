@@ -1,0 +1,342 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:EmmanueldeGrouchy  rdf:type  :Person ;
+        rdfs:label  "Emmanuel de Grouchy" .
+
+:Jean-BaptisteBessières
+        rdf:type    :Person ;
+        rdfs:label  "Jean-Baptiste Bessières" .
+
+:JanWillemJanssens  rdf:type  :Person ;
+        rdfs:label  "Jan Willem Janssens" .
+
+:DemangLehman  rdf:type  :Person ;
+        rdfs:label  "Demang Lehman" .
+
+:PangeranPuger  rdf:type  :Person ;
+        rdfs:label  "Pangeran Puger" .
+
+:JeromeI  rdf:type  :Person ;
+        rdfs:label  "Jerome I" .
+
+:IbōTakahashi  rdf:type  :Person ;
+        rdfs:label  "Ibō Takahashi" .
+
+:HisaichiTerauchi  rdf:type  :Person ;
+        rdfs:label  "Hisaichi Terauchi" .
+
+:NicolasCharlesOudinot
+        rdf:type    :Person ;
+        rdfs:label  "Nicolas Charles Oudinot" .
+
+:PerangTakhtaJawaKetiga
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Perang Takhta Jawa Ketiga" ;
+        :commander  :PangeranSambernyawa , :PangeranMangkubumi .
+
+:PerangBubat  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Bubat" ;
+        :commander  :PutriKerajaanSunda , :PutriPitaloka , :RajaSunda , :MaharajaLinggabuana .
+
+:AndréMasséna  rdf:type  :Person ;
+        rdfs:label  "André Masséna" .
+
+:JeanLannes  rdf:type  :Person ;
+        rdfs:label  "Jean Lannes" .
+
+:PutriPitaloka  rdf:type  :Person ;
+        rdfs:label  "Putri Pitaloka" .
+
+:NjomanGempol  rdf:type  :Person ;
+        rdfs:label  "Njoman Gempol" .
+
+:Surengrana  rdf:type  :Person ;
+        rdfs:label  "Surengrana" .
+
+:PerangTakhtaJawaKedua
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Perang Takhta Jawa Kedua" ;
+        :commander  :PangeranAryaDipanagara , :Surengrana , :Pemberontaklainnya , :PangeranAryaMataram , :PangeranPurbaya , :PangeranBalitar , :Penggugat .
+
+:InvasiCholakeSriwijaya
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Invasi Chola ke Sriwijaya" ;
+        :commander  :SangRamaWijayaTunggaWarman .
+
+:PerangBanjar  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Banjar" ;
+        :commander  :PangeranAntasari , :AminUllah , :DemangLehman , :PangeranHidayatullah .
+
+:PangeranChristianAugustdariAugustenburg
+        rdf:type    :Person ;
+        rdfs:label  "Pangeran Christian August dari Augustenburg" .
+
+:CharlesJohn  rdf:type  :Person ;
+        rdfs:label  "Charles John" .
+
+:FeliceBaciocchi  rdf:type  :Person ;
+        rdfs:label  "Felice Baciocchi" .
+
+:Pemberontaklainnya  rdf:type  :Person ;
+        rdfs:label  "Pemberontak lainnya" .
+
+:SultanMahmudBadaruddinII
+        rdf:type    :Person ;
+        rdfs:label  "Sultan Mahmud Badaruddin II" .
+
+:FrederickVI  rdf:type  :Person ;
+        rdfs:label  "Frederick VI" .
+
+:BhreWirabhumi  rdf:type  :Person ;
+        rdfs:label  "Bhre Wirabhumi" .
+
+:JisaburōOzawa  rdf:type  :Person ;
+        rdfs:label  "Jisaburō Ozawa" .
+
+:NobutakeKondō  rdf:type  :Person ;
+        rdfs:label  "Nobutake Kondō" .
+
+:HermanWillemDaendels
+        rdf:type    :Person ;
+        rdfs:label  "Herman Willem Daendels" .
+
+:ArmandAugustinLouisdeCaulaincourt
+        rdf:type    :Person ;
+        rdfs:label  "Armand Augustin Louis de Caulaincourt" .
+
+:Jean-AndocheJunot  rdf:type  :Person ;
+        rdfs:label  "Jean-Andoche Junot" .
+
+:JosephI  rdf:type  :Person ;
+        rdfs:label  "Joseph I" .
+
+:AminUllah  rdf:type  :Person ;
+        rdfs:label  "Amin Ullah" .
+
+:JamesMadison  rdf:type  :Person ;
+        rdfs:label  "James Madison" .
+
+:PerangTakhtaJawaPertama
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Perang Takhta Jawa Pertama" ;
+        :commander  :PangeranPuger , :GovertKnol .
+
+:GovertKnol  rdf:type  :Person ;
+        rdfs:label  "Govert Knol" .
+
+:Jean-de-DieuSoult  rdf:type  :Person ;
+        rdfs:label  "Jean-de-Dieu Soult" .
+
+:TakeoTakagi  rdf:type  :Person ;
+        rdfs:label  "Takeo Takagi" .
+
+:KarlPhilippvonWrede  rdf:type  :Person ;
+        rdfs:label  "Karl Philipp von Wrede" .
+
+:PangeranAryaDipanagara
+        rdf:type    :Person ;
+        rdfs:label  "Pangeran Arya Dipanagara" .
+
+:NapoleonI  rdf:type  :Person ;
+        rdfs:label  "Napoleon I" .
+
+:DutchRepublic  rdf:type  :Person ;
+        rdfs:label  "Dutch Republic" .
+
+:ÉdouardAdolpheCasimirJosephMortier
+        rdf:type    :Person ;
+        rdfs:label  "Édouard Adolphe Casimir Joseph Mortier" .
+
+:Louis-AlexandreBerthier
+        rdf:type    :Person ;
+        rdfs:label  "Louis-Alexandre Berthier" .
+
+:InvasiMaluku  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Invasi Maluku" ;
+        :commander  :HermanWillemDaendels .
+
+:RajaSunda  rdf:type  :Person ;
+        rdfs:label  "Raja Sunda" .
+
+:PeperanganeraNapoleon
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Peperangan era Napoleon" ;
+        :commander  :JeromeI , :JeanLannes , :PangeranChristianAugustdariAugustenburg , :LouisGabrielSuchet , :EmmanueldeGrouchy , :Jean-BaptisteBessières , :Jean-de-DieuSoult , :JeanBaptisteJulesBernadotte , :JacquesMacDonald , :NicolasCharlesOudinot , :MichelNey , :FeliceBaciocchi , :FathAliShahQajar , :Jean-BaptisteJourdan , :MaximilianI , :JosephI , :LaurentdeGouvionSaint-Cyr , :AndréMasséna , :FrederickVI , :Louis-AlexandreBerthier , :FrederickI , :KarlPhilippvonWrede , :JamesMadison , :PangeranPoniatowski , :Pierre-CharlesVilleneuve , :ArmandAugustinLouisdeCaulaincourt , :JoachimMurat , :CharlesJohn , :NapoleonI , :ÉdouardAdolpheCasimirJosephMortier , :Louis-NicolasDavout , :BonAdrienJeannotdeMoncey , :FrederickAugustusI , :AugusteFrédéricLouisViessedeMarmont , :LouisI , :Jean-AndocheJunot , :ClaudeVictor , :PangeranEugène , :CharlesXIII , :AbbasMirza .
+
+:PangeranAntasari  rdf:type  :Person ;
+        rdfs:label  "Pangeran Antasari" .
+
+:Penggugat  rdf:type  :Person ;
+        rdfs:label  "Penggugat" .
+
+:Jean-BaptisteJourdan
+        rdf:type    :Person ;
+        rdfs:label  "Jean-Baptiste Jourdan" .
+
+:JoachimMurat  rdf:type  :Person ;
+        rdfs:label  "Joachim Murat" .
+
+:AugusteFrédéricLouisViessedeMarmont
+        rdf:type    :Person ;
+        rdfs:label  "Auguste Frédéric Louis Viesse de Marmont" .
+
+:MaharajaLinggabuana  rdf:type  :Person ;
+        rdfs:label  "Maharaja Linggabuana" .
+
+:FrederickAugustusI  rdf:type  :Person ;
+        rdfs:label  "Frederick Augustus I" .
+
+:MaximilianI  rdf:type  :Person ;
+        rdfs:label  "Maximilian I" .
+
+:KampanyeHindiaBelanda
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Kampanye Hindia Belanda" ;
+        :commander  :HitoshiImamura , :HisaichiTerauchi , :JisaburōOzawa , :IbōTakahashi , :TakeoTakagi , :KiyotakeKawaguchi , :NobutakeKondō , :ShōjiNishimura .
+
+:PangeranEugène  rdf:type  :Person ;
+        rdfs:label  "Pangeran Eugène" .
+
+:PutriKerajaanSunda  rdf:type  :Person ;
+        rdfs:label  "Putri Kerajaan Sunda" .
+
+:DewaAgungJambeII  rdf:type  :Person ;
+        rdfs:label  "Dewa Agung Jambe II" .
+
+<http://127.0.0.1:3333/IntervensiBelandadiBali(1858)>
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Intervensi Belanda di Bali (1858)" ;
+        :commander  :NjomanGempol .
+
+:RajaKerajaanBangli  rdf:type  :Person ;
+        rdfs:label  "Raja Kerajaan Bangli" .
+
+:ShōjiNishimura  rdf:type  :Person ;
+        rdfs:label  "Shōji Nishimura" .
+
+:JacquesMacDonald  rdf:type  :Person ;
+        rdfs:label  "Jacques MacDonald" .
+
+:EkspedisiPalembangII
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Ekspedisi Palembang II" ;
+        :commander  :SultanMahmudBadaruddinII .
+
+:PangeranMangkubumi  rdf:type  :Person ;
+        rdfs:label  "Pangeran Mangkubumi" .
+
+:PenyerbuanMeesterCornelis
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Penyerbuan Meester Cornelis" ;
+        :commander  :JanWillemJanssens .
+
+:SangRamaWijayaTunggaWarman
+        rdf:type    :Person ;
+        rdfs:label  "Sang Rama Wijaya Tungga Warman" .
+
+:FathAliShahQajar  rdf:type  :Person ;
+        rdfs:label  "Fath Ali Shah Qajar" .
+
+<http://127.0.0.1:3333/IntervensiBelandadiBali(1908)>
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Intervensi Belanda di Bali (1908)" ;
+        :commander  :RajaKerajaanKarangasem , :RajaKerajaanBangli , :DewaAgungJambeII .
+
+:FrederickI  rdf:type  :Person ;
+        rdfs:label  "Frederick I" .
+
+:MichelNey  rdf:type  :Person ;
+        rdfs:label  "Michel Ney" .
+
+:HitoshiImamura  rdf:type  :Person ;
+        rdfs:label  "Hitoshi Imamura" .
+
+:ClaudeVictor  rdf:type  :Person ;
+        rdfs:label  "Claude Victor" .
+
+:PlaekPibulsonggram  rdf:type  :Person ;
+        rdfs:label  "Plaek Pibulsonggram" .
+
+:Hirohito  rdf:type  :Person ;
+        rdfs:label  "Hirohito" .
+
+:RajaKerajaanKarangasem
+        rdf:type    :Person ;
+        rdfs:label  "Raja Kerajaan Karangasem" .
+
+:PerangPasifik  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Pasifik" ;
+        :commander  :WangJingwei , :SubhasChandraBose , :PlaekPibulsonggram , :Hirohito .
+
+:PangeranSambernyawa  rdf:type  :Person ;
+        rdfs:label  "Pangeran Sambernyawa" .
+
+:PangeranPoniatowski  rdf:type  :Person ;
+        rdfs:label  "Pangeran Poniatowski" .
+
+:AbbasMirza  rdf:type  :Person ;
+        rdfs:label  "Abbas Mirza" .
+
+:Pierre-CharlesVilleneuve
+        rdf:type    :Person ;
+        rdfs:label  "Pierre-Charles Villeneuve" .
+
+:SubhasChandraBose  rdf:type  :Person ;
+        rdfs:label  "Subhas Chandra Bose" .
+
+:LouisGabrielSuchet  rdf:type  :Person ;
+        rdfs:label  "Louis Gabriel Suchet" .
+
+:WangJingwei  rdf:type  :Person ;
+        rdfs:label  "Wang Jingwei" .
+
+:LouisI  rdf:type   :Person ;
+        rdfs:label  "Louis I" .
+
+:PerangBelanda-Portugal
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Perang Belanda-Portugal" ;
+        :commander  :DutchRepublic .
+
+:KiyotakeKawaguchi  rdf:type  :Person ;
+        rdfs:label  "Kiyotake Kawaguchi" .
+
+:CharlesXIII  rdf:type  :Person ;
+        rdfs:label  "Charles XIII" .
+
+:PangeranAryaMataram  rdf:type  :Person ;
+        rdfs:label  "Pangeran Arya Mataram" .
+
+:LaurentdeGouvionSaint-Cyr
+        rdf:type    :Person ;
+        rdfs:label  "Laurent de Gouvion Saint-Cyr" .
+
+:JeanBaptisteJulesBernadotte
+        rdf:type    :Person ;
+        rdfs:label  "Jean Baptiste Jules Bernadotte" .
+
+:BonAdrienJeannotdeMoncey
+        rdf:type    :Person ;
+        rdfs:label  "Bon Adrien Jeannot de Moncey" .
+
+:PerangRegreg  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Regreg" ;
+        :commander  :BhreWirabhumi .
+
+:Louis-NicolasDavout  rdf:type  :Person ;
+        rdfs:label  "Louis-Nicolas Davout" .
+
+:PangeranPurbaya  rdf:type  :Person ;
+        rdfs:label  "Pangeran Purbaya" .
+
+:PangeranHidayatullah
+        rdf:type    :Person ;
+        rdfs:label  "Pangeran Hidayatullah" .
+
+:PangeranBalitar  rdf:type  :Person ;
+        rdfs:label  "Pangeran Balitar" .

@@ -1,0 +1,159 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <https://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:KerajaanBelanda  rdf:type  sem:Actor ;
+        rdfs:label  "Kerajaan Belanda" .
+
+:KerajaanSunda  rdf:type  sem:Actor ;
+        rdfs:label  "Kerajaan Sunda" .
+
+:Persia  rdf:type   sem:Actor ;
+        rdfs:label  "Persia" .
+
+:KerajaanKlungkung  rdf:type  sem:Actor ;
+        rdfs:label  "Kerajaan Klungkung" .
+
+:PerangTakhtaJawaKetiga
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Perang Takhta Jawa Ketiga" ;
+        :combatant  :Pemberontakanti-Belanda .
+
+:PerangBubat  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Bubat" ;
+        :combatant  :KerajaanSunda .
+
+:KonfederasiRhine:  rdf:type  sem:Actor ;
+        rdfs:label  "Konfederasi Rhine:" .
+
+:PerangTakhtaJawaKedua
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Perang Takhta Jawa Kedua" ;
+        :combatant  :Parapangeranpemberontak , :RivalpenggugattakhtaMataram .
+
+:RivalpenggugattakhtaMataram
+        rdf:type    sem:Actor ;
+        rdfs:label  "Rival penggugat takhta Mataram" .
+
+:KekaisaranPrancisPertama
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kekaisaran Prancis Pertama" .
+
+:InvasiCholakeSriwijaya
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Invasi Chola ke Sriwijaya" ;
+        :combatant  :Sriwijaya .
+
+:PerangBanjar  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Banjar" ;
+        :combatant  :KesultananBanjarmasin .
+
+:KerajaanBuleleng  rdf:type  sem:Actor ;
+        rdfs:label  "Kerajaan Buleleng" .
+
+:KadipatenWarsawa  rdf:type  sem:Actor ;
+        rdfs:label  "Kadipaten Warsawa" .
+
+:PerangTakhtaJawaPertama
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Perang Takhta Jawa Pertama" ;
+        :combatant  :PerusahaanHindiaTimurBelanda .
+
+:Holandia  rdf:type  sem:Actor ;
+        rdfs:label  "Holandia" .
+
+:KonfederasiSwiss  rdf:type  sem:Actor ;
+        rdfs:label  "Konfederasi Swiss" .
+
+:Prancis  rdf:type  sem:Actor ;
+        rdfs:label  "Prancis" .
+
+:PeperanganeraNapoleon
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Peperangan era Napoleon" ;
+        :combatant  :Holandia , :KadipatenWarsawa , :Napoli , :KonfederasiRhine: , :Prancis , :Denmark , :KonfederasiSwiss , :Etruria , :SpanyolBonaparte , :KepangerananLuccadanPiombino , :Persia .
+
+:InvasiMaluku  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Invasi Maluku" ;
+        :combatant  :Prancis .
+
+:Etruria  rdf:type  sem:Actor ;
+        rdfs:label  "Etruria" .
+
+:Parapangeranpemberontak
+        rdf:type    sem:Actor ;
+        rdfs:label  "Para pangeran pemberontak" .
+
+:Majapahittimur  rdf:type  sem:Actor ;
+        rdfs:label  "Majapahit timur" .
+
+:KepangerananLuccadanPiombino
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kepangeranan Lucca dan Piombino" .
+
+<http://127.0.0.1:3333/IntervensiBelandadiBali(1858)>
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Intervensi Belanda di Bali (1858)" ;
+        :combatant  :KerajaanBuleleng .
+
+:EkspedisiPalembangII
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Ekspedisi Palembang II" ;
+        :combatant  :KekuatanKesultananPalembang .
+
+:PenyerbuanMeesterCornelis
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Penyerbuan Meester Cornelis" ;
+        :combatant  :HindiaBelanda , :KerajaanBelanda , :KekaisaranPrancisPertama .
+
+<http://127.0.0.1:3333/IntervensiBelandadiBali(1908)>
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Intervensi Belanda di Bali (1908)" ;
+        :combatant  :KerajaanKlungkung .
+
+:KesultananBanjarmasin
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kesultanan Banjarmasin" .
+
+:Denmark  rdf:type  sem:Actor ;
+        rdfs:label  "Denmark" .
+
+:Napoli  rdf:type   sem:Actor ;
+        rdfs:label  "Napoli" .
+
+:KekuatanKesultananPalembang
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kekuatan Kesultanan Palembang" .
+
+:PerangBelanda-Portugal
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Perang Belanda-Portugal" ;
+        :combatant  :Belanda .
+
+:HindiaBelanda  rdf:type  sem:Actor ;
+        rdfs:label  "Hindia Belanda" .
+
+:Sriwijaya  rdf:type  sem:Actor ;
+        rdfs:label  "Sriwijaya" .
+
+:Belanda  rdf:type  sem:Actor ;
+        rdfs:label  "Belanda" .
+
+:PerusahaanHindiaTimurBelanda
+        rdf:type    sem:Actor ;
+        rdfs:label  "Perusahaan Hindia Timur Belanda" .
+
+:SpanyolBonaparte  rdf:type  sem:Actor ;
+        rdfs:label  "Spanyol Bonaparte" .
+
+:PerangRegreg  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Regreg" ;
+        :combatant  :Majapahittimur .
+
+:Pemberontakanti-Belanda
+        rdf:type    sem:Actor ;
+        rdfs:label  "Pemberontak anti-Belanda" .

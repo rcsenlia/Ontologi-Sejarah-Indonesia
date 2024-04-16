@@ -1,0 +1,79 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <https://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:GegerSepehi  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Geger Sepehi" ;
+        :combatant  :KesultananYogyakarta .
+
+:KesultananJohor  rdf:type  sem:Actor ;
+        rdfs:label  "Kesultanan Johor" .
+
+:Belanda  rdf:type  sem:Actor ;
+        rdfs:label  "Belanda" .
+
+:PemberontakanRadenRonggo
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Pemberontakan Raden Ronggo" ;
+        :combatant  :tentaraBelanda .
+
+:PerangDiponegoro  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Diponegoro" ;
+        :combatant  :PasukanTulungan , :KesultananYogyakarta , :Belanda .
+
+:KerajaanBlambangan  rdf:type  sem:Actor ;
+        rdfs:label  "Kerajaan Blambangan" .
+
+:tentaraBelanda  rdf:type  sem:Actor ;
+        rdfs:label  "tentara Belanda" .
+
+<http://127.0.0.1:3333/PertempuranMelaka(1641)>
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Pertempuran Melaka (1641)" ;
+        :combatant  :KesultananJohor .
+
+:PerangBelasting  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Belasting" ;
+        :combatant  :RakyatKamang .
+
+:PerangBayu  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Bayu" ;
+        :combatant  :KerajaanBlambangan .
+
+:KesultananYogyakarta
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kesultanan Yogyakarta" .
+
+:PerangAceh  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Aceh" ;
+        :combatant  <http://127.0.0.1:3333/TentaraKerajaanHindiaBelanda(KNIL)> .
+
+:PasukanTulungan  rdf:type  sem:Actor ;
+        rdfs:label  "Pasukan Tulungan" .
+
+:RakyatKamang  rdf:type  sem:Actor ;
+        rdfs:label  "Rakyat Kamang" .
+
+:KaumAdat  rdf:type  sem:Actor ;
+        rdfs:label  "Kaum Adat" .
+
+:SerbuanYuan-MongolkeJawa
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Serbuan Yuan-Mongol ke Jawa" ;
+        :combatant  <http://127.0.0.1:3333/KekaisaranTiongkok-Mongol(DinastiYuan)> .
+
+:PerangPadri  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Padri" ;
+        :combatant  :KaumAdat .
+
+<http://127.0.0.1:3333/TentaraKerajaanHindiaBelanda(KNIL)>
+        rdf:type    sem:Actor ;
+        rdfs:label  "Tentara Kerajaan Hindia Belanda (KNIL)" .
+
+<http://127.0.0.1:3333/KekaisaranTiongkok-Mongol(DinastiYuan)>
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kekaisaran Tiongkok-Mongol ( Dinasti Yuan)" .

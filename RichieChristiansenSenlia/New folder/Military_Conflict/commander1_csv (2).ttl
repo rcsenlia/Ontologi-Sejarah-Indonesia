@@ -1,11 +1,8 @@
 @prefix :      <http://127.0.0.1:3333/> .
-@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
-@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
-@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix sem:   <https://semanticweb.cs.vu.nl/2009/11/sem/> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 
@@ -14,9 +11,9 @@
         rdfs:label  "Jan Jacob Karel de Moulin" .
 
 <http://127.0.0.1:3333/PertempuranMelaka(1641)>
-        rdf:type     :MilitaryConflict ;
-        rdfs:label   "Pertempuran Melaka (1641)" ;
-        :commander1  :TunAbdulJamil , :WillmsoonCartekoe .
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Pertempuran Melaka (1641)" ;
+        :commander  :TunAbdulJamil , :WillmsoonCartekoe .
 
 :MayorPrager  rdf:type  :Person ;
         rdfs:label  "Mayor Prager" .
@@ -25,17 +22,17 @@
         rdfs:label  "Kapten Poland" .
 
 :PerangAceh  rdf:type  :MilitaryConflict ;
-        rdfs:label   "Perang Aceh" ;
-        :commander1  :KarelvanderHeijden , :JanJacobKareldeMoulin , :JohannesBenedictusvanHeutsz , :JohannesPel , :JanvanSwieten , :GotfriedvanDaalen , :JohanKöhler , :JohanCornelisvanderWijck , :HenryDemmeni .
+        rdfs:label  "Perang Aceh" ;
+        :commander  :JanJacobKareldeMoulin , :JohanKöhler , :GotfriedvanDaalen , :JanvanSwieten , :JohanCornelisvanderWijck , :JohannesBenedictusvanHeutsz , :HenryDemmeni , :KarelvanderHeijden , :JohannesPel .
 
 :PerangPadri  rdf:type  :MilitaryConflict ;
-        rdfs:label   "Perang Padri" ;
-        :commander1  :KolonelStuers , :MayorLaemlin , :MayorduBus , :RajoAlam , :LetnanKolonelKrieger , :MayorJendralCochius , :KaptenPoland , :LetnanKolonelBauer , :KaptenLange , :LetnanKolonelElout , :MayorPrager , :LetnanKolonelRaaff .
+        rdfs:label  "Perang Padri" ;
+        :commander  :LetnanKolonelKrieger , :LetnanKolonelRaaff , :KolonelStuers , :MayorPrager , :LetnanKolonelElout , :RajoAlam , :MayorLaemlin , :KaptenLange , :MayorJendralCochius , :MayorduBus , :KaptenPoland , :LetnanKolonelBauer .
 
 :SerbuanYuan-MongolkeJawa
-        rdf:type     :MilitaryConflict ;
-        rdfs:label   "Serbuan Yuan-Mongol ke Jawa" ;
-        :commander1  :Gaoxing , :IkeMese , :Shi-bi , :KubilaiKhan .
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Serbuan Yuan-Mongol ke Jawa" ;
+        :commander  :Gaoxing , :IkeMese , :Shi-bi , :KubilaiKhan .
 
 :JohannesPel  rdf:type  :Person ;
         rdfs:label  "Johannes Pel" .
@@ -79,9 +76,9 @@
         rdfs:label  "Ike Mese" .
 
 :PemberontakanRadenRonggo
-        rdf:type     :MilitaryConflict ;
-        rdfs:label   "Pemberontakan Raden Ronggo" ;
-        :commander1  :HermanWillemDaendels .
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Pemberontakan Raden Ronggo" ;
+        :commander  :HermanWillemDaendels .
 
 :Shi-bi  rdf:type   :Person ;
         rdfs:label  "Shi-bi" .
@@ -99,8 +96,8 @@
         rdfs:label  "KRT Sumadiningrat" .
 
 :GegerSepehi  rdf:type  :MilitaryConflict ;
-        rdfs:label   "Geger Sepehi" ;
-        :commander1  :KRTSumadiningrat , :HamengkubuwanaII .
+        rdfs:label  "Geger Sepehi" ;
+        :commander  :KRTSumadiningrat , :HamengkubuwanaII .
 
 :GotfriedvanDaalen  rdf:type  :Person ;
         rdfs:label  "Gotfried van Daalen" .
@@ -109,8 +106,8 @@
         rdfs:label  "dr. Kariadi" .
 
 :PerangBayu  rdf:type  :MilitaryConflict ;
-        rdfs:label   "Perang Bayu" ;
-        :commander1  :WongAgungWilis , :PangeranJagapati .
+        rdfs:label  "Perang Bayu" ;
+        :commander  :WongAgungWilis , :PangeranJagapati .
 
 :WongAgungWilis  rdf:type  :Person ;
         rdfs:label  "Wong Agung Wilis" .
@@ -122,8 +119,8 @@
         rdfs:label  "Mayor Laemlin" .
 
 :PerangDiponegoro  rdf:type  :MilitaryConflict ;
-        rdfs:label   "Perang Diponegoro" ;
-        :commander1  :HermanusW.Dotulong , :HendrikM.deKock .
+        rdfs:label  "Perang Diponegoro" ;
+        :commander  :HermanusW.Dotulong , :HendrikM.deKock .
 
 :LetnanKolonelBauer  rdf:type  :Person ;
         rdfs:label  "Letnan Kolonel Bauer" .
@@ -132,8 +129,8 @@
         rdfs:label  "Mayor Jendral Cochius" .
 
 :PertempuranLimaHari  rdf:type  :MilitaryConflict ;
-        rdfs:label   "Pertempuran Lima Hari" ;
-        :commander1  :Wongsonegoro , :dr.Kariadi .
+        rdfs:label  "Pertempuran Lima Hari" ;
+        :commander  :Wongsonegoro , :dr.Kariadi .
 
 :LetnanKolonelKrieger
         rdf:type    :Person ;

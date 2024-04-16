@@ -1,0 +1,45 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:PakubuwonoII  rdf:type  :Person ;
+        rdfs:label  "Pakubuwono II" .
+
+:HugoVerijsel  rdf:type  :Person ;
+        rdfs:label  "Hugo Verijsel" .
+
+:BartholomeusVisscher
+        rdf:type    :Person ;
+        rdfs:label  "Bartholomeus Visscher" .
+
+:JohannesThedens  rdf:type  :Person ;
+        rdfs:label  "Johannes Thedens" .
+
+:GustaafWillembaronvanImhoff
+        rdf:type    :Person ;
+        rdfs:label  "Gustaaf Willem baron van Imhoff" .
+
+:AdriaanValckenier  rdf:type  :Person ;
+        rdfs:label  "Adriaan Valckenier" .
+
+:PerangKuning  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Kuning" ;
+        :commander  :PakubuwanaII , :TumenggungCitrasomaIV , :CakraningratIV , :AdriaanValckenier , :JohannesThedens , :GustaafWillembaronvanImhoff , :BartholomeusVisscher .
+
+<http://127.0.0.1:3333/PerangJawa(1741–1743)>
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Perang Jawa (1741–1743)" ;
+        :commander  :PakubuwonoII , :CakraningratIV , :HugoVerijsel , :BartholomeusVisscher .
+
+:PakubuwanaII  rdf:type  :Person ;
+        rdfs:label  "Pakubuwana II" .
+
+:TumenggungCitrasomaIV
+        rdf:type    :Person ;
+        rdfs:label  "Tumenggung Citrasoma IV" .
+
+:CakraningratIV  rdf:type  :Person ;
+        rdfs:label  "Cakraningrat IV" .

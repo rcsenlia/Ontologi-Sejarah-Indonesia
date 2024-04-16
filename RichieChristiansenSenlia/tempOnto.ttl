@@ -93,28 +93,18 @@ local:children rdf:type owl:ObjectProperty ;
                rdfs:range local:Person .
 
 
-###  http://127.0.0.1:3333/combatant1
-local:combatant1 rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf local:MilitaryConflictProperty ;
-                 rdfs:range sem:Actor .
+###  http://127.0.0.1:3333/combatant
+local:combatant rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf local:MilitaryConflictProperty ;
+                rdfs:range sem:Actor ;
+                rdfs:label "pihak yang terlibat di dalam peristiwa" .
 
 
-###  http://127.0.0.1:3333/combatant2
-local:combatant2 rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf local:MilitaryConflictProperty ;
-                 rdfs:range sem:Actor .
-
-
-###  http://127.0.0.1:3333/commander1
-local:commander1 rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf local:MilitaryConflictProperty ;
-                 rdfs:range local:Person .
-
-
-###  http://127.0.0.1:3333/commander2
-local:commander2 rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf local:MilitaryConflictProperty ;
-                 rdfs:range local:Person .
+###  http://127.0.0.1:3333/commander
+local:commander rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf local:MilitaryConflictProperty ;
+                rdfs:range local:Person ;
+                rdfs:label "Pemimpin suatu peristiwa" .
 
 
 ###  http://127.0.0.1:3333/commands

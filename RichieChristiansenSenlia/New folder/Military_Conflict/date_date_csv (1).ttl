@@ -1,17 +1,14 @@
 @prefix :      <http://127.0.0.1:3333/> .
-@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
-@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix sem:   <https://semanticweb.cs.vu.nl/2009/11/sem/> .
 @prefix time:  <http://www.w3.org/2006/time#> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 
 <http://127.0.0.1:3333/PertempuranMelaka(1641)>
         rdf:type      :MilitaryConflict ;
-        rdfs:label    "Pertempuran Melaka (1641)" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -28,7 +25,6 @@
                       ] .
 
 :PerangBelasting  rdf:type  :MilitaryConflict ;
-        rdfs:label    "Perang Belasting" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -47,7 +43,6 @@
                       ] .
 
 :PerangAceh  rdf:type  :MilitaryConflict ;
-        rdfs:label    "Perang Aceh" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -80,7 +75,6 @@
                       ] .
 
 :PerangPadri  rdf:type  :MilitaryConflict ;
-        rdfs:label    "Perang Padri" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -100,7 +94,6 @@
 
 :SerbuanYuan-MongolkeJawa
         rdf:type      :MilitaryConflict ;
-        rdfs:label    "Serbuan Yuan-Mongol ke Jawa" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -120,7 +113,6 @@
 
 :PemberontakanRadenRonggo
         rdf:type      :MilitaryConflict ;
-        rdfs:label    "Pemberontakan Raden Ronggo" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -139,7 +131,6 @@
                       ] .
 
 :GegerSepehi  rdf:type  :MilitaryConflict ;
-        rdfs:label    "Geger Sepehi" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -158,7 +149,6 @@
                       ] .
 
 :PerangBayu  rdf:type  :MilitaryConflict ;
-        rdfs:label    "Perang Bayu" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -177,7 +167,6 @@
                       ] .
 
 :PerangDiponegoro  rdf:type  :MilitaryConflict ;
-        rdfs:label    "Perang Diponegoro" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -196,7 +185,6 @@
                       ] .
 
 :PertempuranLimaHari  rdf:type  :MilitaryConflict ;
-        rdfs:label    "Pertempuran Lima Hari" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;

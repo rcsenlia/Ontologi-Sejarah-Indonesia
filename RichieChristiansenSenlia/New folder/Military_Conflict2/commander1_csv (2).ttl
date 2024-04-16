@@ -1,0 +1,335 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <https://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:PrincevonSchwarzenberg
+        rdf:type    :Person ;
+        rdfs:label  "Prince von Schwarzenberg" .
+
+:GeorgeIII  rdf:type  :Person ;
+        rdfs:label  "George III" .
+
+:RajendraChola  rdf:type  :Person ;
+        rdfs:label  "Rajendra Chola" .
+
+:FrederickWilliamIII  rdf:type  :Person ;
+        rdfs:label  "Frederick William III" .
+
+:AdipatiWellington  rdf:type  :Person ;
+        rdfs:label  "Adipati Wellington" .
+
+:George  rdf:type   :Person ;
+        rdfs:label  "George" .
+
+:MaximilianIJoseph  rdf:type  :Person ;
+        rdfs:label  "Maximilian I Joseph" .
+
+:VictorEmmanuelI  rdf:type  :Person ;
+        rdfs:label  "Victor Emmanuel I" .
+
+:Wikramawardhana  rdf:type  :Person ;
+        rdfs:label  "Wikramawardhana" .
+
+:PerangTakhtaJawaKetiga
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Perang Takhta Jawa Ketiga" ;
+        :commander  :HamengkubuwanaI , :NicolaasHartingh , :PakubuwanaIII .
+
+:MariaI  rdf:type   :Person ;
+        rdfs:label  "Maria I" .
+
+:PerangBubat  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Bubat" ;
+        :commander  :MahapatihMajapahit , :GajahMada , :MaharajaMajapahit , :MaharajaHayamWuruk .
+
+:GubernurJenderalMatiasdeAlbuquerque
+        rdf:type    :Person ;
+        rdfs:label  "Gubernur Jenderal Matias de Albuquerque" .
+
+:SalvadordeSá  rdf:type  :Person ;
+        rdfs:label  "Salvador de Sá" .
+
+:Tamjid2dariBanjar  rdf:type  :Person ;
+        rdfs:label  "Tamjid 2 dari Banjar" .
+
+:GustavIVAdolf  rdf:type  :Person ;
+        rdfs:label  "Gustav IV Adolf" .
+
+:PerangTakhtaJawaKedua
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Perang Takhta Jawa Kedua" ;
+        :commander  :AmangkuratIV .
+
+:SamuelAuchmuty  rdf:type  :Person ;
+        rdfs:label  "Samuel Auchmuty" .
+
+:GebhardvonBlücher  rdf:type  :Person ;
+        rdfs:label  "Gebhard von Blücher" .
+
+:InvasiCholakeSriwijaya
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Invasi Chola ke Sriwijaya" ;
+        :commander  :RajendraChola .
+
+:PerangBanjar  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Banjar" ;
+        :commander  :GustaveVerspyck , :KolonelAJAndresen , :Tamjid2dariBanjar .
+
+:vanHasselt  rdf:type  :Person ;
+        rdfs:label  "van Hasselt" .
+
+:WilliamBeresford  rdf:type  :Person ;
+        rdfs:label  "William Beresford" .
+
+:FerdinandVII  rdf:type  :Person ;
+        rdfs:label  "Ferdinand VII" .
+
+:CharlesIV  rdf:type  :Person ;
+        rdfs:label  "Charles IV" .
+
+:SelimIII  rdf:type  :Person ;
+        rdfs:label  "Selim III" .
+
+:MigueldeÁlava  rdf:type  :Person ;
+        rdfs:label  "Miguel de Álava" .
+
+:PakubuwanaIII  rdf:type  :Person ;
+        rdfs:label  "Pakubuwana III" .
+
+:AmangkuratIV  rdf:type  :Person ;
+        rdfs:label  "Amangkurat IV" .
+
+:PerangTakhtaJawaPertama
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Perang Takhta Jawa Pertama" ;
+        :commander  :AmangkuratIII .
+
+:AndreasHofer  rdf:type  :Person ;
+        rdfs:label  "Andreas Hofer" .
+
+:KarlPhilippvonWrede  rdf:type  :Person ;
+        rdfs:label  "Karl Philipp von Wrede" .
+
+:HenryAddington  rdf:type  :Person ;
+        rdfs:label  "Henry Addington" .
+
+:AdipatiAgungCharles  rdf:type  :Person ;
+        rdfs:label  "Adipati Agung Charles" .
+
+:AloisvonReding  rdf:type  :Person ;
+        rdfs:label  "Alois von Reding" .
+
+:PyotrBagration  rdf:type  :Person ;
+        rdfs:label  "Pyotr Bagration" .
+
+:AmangkuratIII  rdf:type  :Person ;
+        rdfs:label  "Amangkurat III" .
+
+:ArchibaldWavell  rdf:type  :Person ;
+        rdfs:label  "Archibald Wavell" .
+
+:NicolaasHartingh  rdf:type  :Person ;
+        rdfs:label  "Nicolaas Hartingh" .
+
+:RepublicofChina  rdf:type  :Person ;
+        rdfs:label  "Republic of China" .
+
+:HoratioNelson  rdf:type  :Person ;
+        rdfs:label  "Horatio Nelson" .
+
+:HendrikMerkusdeKock  rdf:type  :Person ;
+        rdfs:label  "Hendrik Merkus de Kock" .
+
+:MahmudII  rdf:type  :Person ;
+        rdfs:label  "Mahmud II" .
+
+:PeperanganeraNapoleon
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Peperangan era Napoleon" ;
+        :commander  :PrincevonSchwarzenberg , :George , :SelimIII , :MuhammadAliPasha , :HenryAddington , :GustavIVAdolf , :MichaelAndreasBarclaydeTolly , :PetarIPetrović-Njegoš , :MahmudII , :AlexanderI , :JohnMoore , :GebhardvonBlücher , :PangeranHohenlohe , :AdipatiBrunswick , :HoratioNelson , :MigueldeÁlava , :VictorEmmanuelI , :CountBennigsen , :AdipatiAgungJohn , :WilliamBeresford , :MikhailKutuzov , :GeorgeIII , :KarlPhilippvonWrede , :FrederickI , :FrederickWilliamIII , :AloisvonReding , :CharlesAlten , :MiguelPereiraForjaz , :AndreasHofer , :FerdinandVII , :CharlesIV , :MaximilianIJoseph , :PiusVII , :RobertJenkinson , :AdipatiWellington , :WilliamPitt , :AdipatiAgungCharles , :MariaI , :FerdinandIII , :PyotrBagration , :LouisXVIII , :FerdinandIV , :FrancisI , :CharlesXIII , :AbbasMirza .
+
+:InvasiMaluku  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Invasi Maluku" ;
+        :commander  :EdwardTucker , :ChristopherCole .
+
+:EdwardTucker  rdf:type  :Person ;
+        rdfs:label  "Edward Tucker" .
+
+:AlexanderI  rdf:type  :Person ;
+        rdfs:label  "Alexander I" .
+
+:RobertStopford  rdf:type  :Person ;
+        rdfs:label  "Robert Stopford" .
+
+:RolloGillespie  rdf:type  :Person ;
+        rdfs:label  "Rollo Gillespie" .
+
+:JohnMoore  rdf:type  :Person ;
+        rdfs:label  "John Moore" .
+
+:KampanyeHindiaBelanda
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Kampanye Hindia Belanda" ;
+        :commander  :RichardPeirse , :KarelDoorman , :ConradHelfrich , :ThomasC.Hart , :ArchibaldWavell .
+
+:CountBennigsen  rdf:type  :Person ;
+        rdfs:label  "Count Bennigsen" .
+
+:MaharajaMajapahit  rdf:type  :Person ;
+        rdfs:label  "Maharaja Majapahit" .
+
+:GustaveVerspyck  rdf:type  :Person ;
+        rdfs:label  "Gustave Verspyck" .
+
+:ChristopherCole  rdf:type  :Person ;
+        rdfs:label  "Christopher Cole" .
+
+:WilliamPitt  rdf:type  :Person ;
+        rdfs:label  "William Pitt" .
+
+<http://127.0.0.1:3333/IntervensiBelandadiBali(1858)>
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Intervensi Belanda di Bali (1858)" ;
+        :commander  :KarelFelixvanSteijnvanHensbroek , :vanHasselt .
+
+:MikhailKutuzov  rdf:type  :Person ;
+        rdfs:label  "Mikhail Kutuzov" .
+
+:RobertJenkinson  rdf:type  :Person ;
+        rdfs:label  "Robert Jenkinson" .
+
+:CommanderNunoÁlvaresBotelho
+        rdf:type    :Person ;
+        rdfs:label  "Commander Nuno Álvares Botelho" .
+
+:EkspedisiPalembangII
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Ekspedisi Palembang II" ;
+        :commander  :HendrikMerkusdeKock .
+
+:PenyerbuanMeesterCornelis
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Penyerbuan Meester Cornelis" ;
+        :commander  :RolloGillespie , :SamuelAuchmuty , :RobertStopford .
+
+:MarinusBernardusRostvanTonningen
+        rdf:type    :Person ;
+        rdfs:label  "Marinus Bernardus Rost van Tonningen" .
+
+:FerdinandIV  rdf:type  :Person ;
+        rdfs:label  "Ferdinand IV" .
+
+:LaksamanaDonFadriquedeToledoOsório
+        rdf:type    :Person ;
+        rdfs:label  "Laksamana Don Fadrique de Toledo Osório" .
+
+:MartimAfonsodeCastro
+        rdf:type    :Person ;
+        rdfs:label  "Martim Afonso de Castro" .
+
+:MaharajaHayamWuruk  rdf:type  :Person ;
+        rdfs:label  "Maharaja Hayam Wuruk" .
+
+<http://127.0.0.1:3333/IntervensiBelandadiBali(1908)>
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Intervensi Belanda di Bali (1908)" ;
+        :commander  :MarinusBernardusRostvanTonningen .
+
+:FrederickI  rdf:type  :Person ;
+        rdfs:label  "Frederick I" .
+
+:MichaelAndreasBarclaydeTolly
+        rdf:type    :Person ;
+        rdfs:label  "Michael Andreas Barclay de Tolly" .
+
+:HamengkubuwanaI  rdf:type  :Person ;
+        rdfs:label  "Hamengkubuwana I" .
+
+:ConradHelfrich  rdf:type  :Person ;
+        rdfs:label  "Conrad Helfrich" .
+
+:MahapatihMajapahit  rdf:type  :Person ;
+        rdfs:label  "Mahapatih Majapahit" .
+
+:PerangPasifik  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Pasifik" ;
+        :commander  :RepublicofChina .
+
+:KarelFelixvanSteijnvanHensbroek
+        rdf:type    :Person ;
+        rdfs:label  "Karel Felix van Steijn van Hensbroek" .
+
+:FerdinandIII  rdf:type  :Person ;
+        rdfs:label  "Ferdinand III" .
+
+:AbbasMirza  rdf:type  :Person ;
+        rdfs:label  "Abbas Mirza" .
+
+:LouisXVIII  rdf:type  :Person ;
+        rdfs:label  "Louis XVIII" .
+
+:High-CaptainAntónioTelesdeMeneses
+        rdf:type    :Person ;
+        rdfs:label  "High-Captain António Teles de Meneses" .
+
+:FrancisI  rdf:type  :Person ;
+        rdfs:label  "Francis I" .
+
+:PiusVII  rdf:type  :Person ;
+        rdfs:label  "Pius VII" .
+
+:KolonelAJAndresen  rdf:type  :Person ;
+        rdfs:label  "Kolonel AJ Andresen" .
+
+:KarelDoorman  rdf:type  :Person ;
+        rdfs:label  "Karel Doorman" .
+
+:PerangBelanda-Portugal
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Perang Belanda-Portugal" ;
+        :commander  :SalvadordeSá , :LaksamanaDonFadriquedeToledoOsório , :MartimAfonsodeCastro , :GubernurJenderalMatiasdeAlbuquerque , :CommanderNunoÁlvaresBotelho , :High-CaptainAntónioTelesdeMeneses , :ViceroyPedrodaSilva .
+
+:PetarIPetrović-Njegoš
+        rdf:type    :Person ;
+        rdfs:label  "Petar I Petrović-Njegoš" .
+
+:CharlesXIII  rdf:type  :Person ;
+        rdfs:label  "Charles XIII" .
+
+:PangeranHohenlohe  rdf:type  :Person ;
+        rdfs:label  "Pangeran Hohenlohe" .
+
+:MuhammadAliPasha  rdf:type  :Person ;
+        rdfs:label  "Muhammad Ali Pasha" .
+
+:GajahMada  rdf:type  :Person ;
+        rdfs:label  "Gajah Mada" .
+
+:MiguelPereiraForjaz  rdf:type  :Person ;
+        rdfs:label  "Miguel Pereira Forjaz" .
+
+:AdipatiBrunswick  rdf:type  :Person ;
+        rdfs:label  "Adipati Brunswick" .
+
+:ViceroyPedrodaSilva  rdf:type  :Person ;
+        rdfs:label  "Viceroy Pedro da Silva" .
+
+:ThomasC.Hart  rdf:type  :Person ;
+        rdfs:label  "Thomas C. Hart" .
+
+:PerangRegreg  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Regreg" ;
+        :commander  :Wikramawardhana .
+
+:AdipatiAgungJohn  rdf:type  :Person ;
+        rdfs:label  "Adipati Agung John" .
+
+:CharlesAlten  rdf:type  :Person ;
+        rdfs:label  "Charles Alten" .
+
+:RichardPeirse  rdf:type  :Person ;
+        rdfs:label  "Richard Peirse" .

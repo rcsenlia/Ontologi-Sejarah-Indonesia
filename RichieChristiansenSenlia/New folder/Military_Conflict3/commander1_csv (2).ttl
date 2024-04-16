@@ -1,0 +1,56 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <https://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:PangeranSambernyawa  rdf:type  :Person ;
+        rdfs:label  "Pangeran Sambernyawa" .
+
+:KweeAnSay  rdf:type  :Person ;
+        rdfs:label  "Kwee An Say" .
+
+:AmangkuratV  rdf:type  :Person ;
+        rdfs:label  "Amangkurat V" .
+
+:PanjiMargono  rdf:type  :Person ;
+        rdfs:label  "Panji Margono" .
+
+:SingsehKhePandjang  rdf:type  :Person ;
+        rdfs:label  "Singseh   Khe Pandjang " .
+
+:OeiIngKiat  rdf:type  :Person ;
+        rdfs:label  "Oei Ing Kiat" .
+
+<http://127.0.0.1:3333/(hingga1742)>
+        rdf:type    :Person ;
+        rdfs:label  "(hingga 1742)" .
+
+:KyaiAliBadawi  rdf:type  :Person ;
+        rdfs:label  "Kyai Ali Badawi" .
+
+:PerangKuning  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Kuning" ;
+        :commander  :AmangkuratV , :Singseh , :TanKeeWie , :CakraningratIV , <http://127.0.0.1:3333/(hingga1742)> , :GuoLiuGuan , :PanjiMargono , :KweeAnSay , :PakubuwanaII , :PangeranSambernyawa , :KyaiAliBadawi , :OeiIngKiat .
+
+<http://127.0.0.1:3333/PerangJawa(1741–1743)>
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Perang Jawa (1741–1743)" ;
+        :commander  :SingsehKhePandjang .
+
+:PakubuwanaII  rdf:type  :Person ;
+        rdfs:label  "Pakubuwana II" .
+
+:Singseh  rdf:type  :Person ;
+        rdfs:label  "Singseh" .
+
+:CakraningratIV  rdf:type  :Person ;
+        rdfs:label  "Cakraningrat IV" .
+
+:TanKeeWie  rdf:type  :Person ;
+        rdfs:label  "Tan Kee Wie" .
+
+:GuoLiuGuan  rdf:type  :Person ;
+        rdfs:label  "Guo Liu Guan" .

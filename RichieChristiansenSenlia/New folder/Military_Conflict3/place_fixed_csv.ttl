@@ -1,0 +1,37 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:JawaTengah  rdf:type    geo:Feature ;
+        rdfs:label       "Jawa Tengah" ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-7.3032412"^^xsd:double ;
+                           :longitude  "110.0044145"^^xsd:double
+                         ] .
+
+:PerangKuning  rdf:type  :MilitaryConflict ;
+        rdfs:label  "Perang Kuning" ;
+        :location   :Jawa .
+
+<http://127.0.0.1:3333/PerangJawa(1741–1743)>
+        rdf:type    :MilitaryConflict ;
+        rdfs:label  "Perang Jawa (1741–1743)" ;
+        :location   :JawaTimur , :JawaTengah .
+
+:JawaTimur  rdf:type     geo:Feature ;
+        rdfs:label       "Jawa Timur" ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-7.6977397"^^xsd:double ;
+                           :longitude  "112.4914199"^^xsd:double
+                         ] .
+
+:Jawa   rdf:type         geo:Feature ;
+        rdfs:label       "Jawa" ;
+        geo:hasGeometry  [ rdf:type    geo:Geometry ;
+                           :latitude   "-6.71150765"^^xsd:double ;
+                           :longitude  "110.63371366935611"^^xsd:double
+                         ] .
