@@ -1,0 +1,1075 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <https://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:SeranganUmumSurakarta
+        rdf:type     :MilitaryConflict ;
+        :commander1  :AchmadiHadisoemarto , :SlametRijadi , :GatotSoebroto , :MangkunegaraVIII , :PakubuwanaXII .
+
+:SusiloBambangYudhoyono
+        rdf:type        :Person ;
+        rdfs:label      "Susilo Bambang Yudhoyono" ;
+        :image          "Presiden_Susilo_Bambang_Yudhoyono.png" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Susilo_Bambang_Yudhoyono" ;
+        dc:description  "Jenderal TNI (HOR) (Purn.) Prof. Dr. H. Susilo Bambang Yudhoyono, M.A. (lahir 9 September 1949), atau lebih dikenal dengan inisialnya SBY, adalah Presiden Indonesia keenam yang menjabat sejak 20 Oktober 2004 sampai 20 Oktober 2014. Ia merupakan Presiden pertama di era Reformasi yang terpilih melalui Pemilihan Umum secara langsung. SBY bersama Wakil Presiden Muhammad Jusuf Kalla, terpilih dalam Pemilu Presiden 2004. Ia berhasil melanjutkan pemerintahannya untuk periode kedua dengan kembali memenangkan Pemilu Presiden 2009, kali ini bersama Wakil Presiden Boediono. Sejak era Reformasi dimulai, Susilo Bambang Yudhoyono merupakan Presiden Indonesia pertama yang menyelesaikan masa jabatan selama 5 tahun dan berhasil terpilih kembali untuk periode kedua." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1949-09-09"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type  time:Instant ]
+                        ] .
+
+:RevolusiNasionalIndonesia
+        rdf:type     :MilitaryConflict ;
+        :commander1  :SutanSjahrir , :MoehammadJasin , :HamengkubuwanaIX , :TanMalaka , :PakubuwanaXII , :BambangSoegeng , :AbdulHarisNasution , :SyafruddinPrawiranegara , :Sutomo , :SyarifHamidIIdariPontianak , :OeripSoemohardjo , :MohammadHatta , :AgustinusAdisoetjipto , :T.B.Simatupang , :Soedirman , :R.E.Martadinata , :Soeharto , :Soekarno , :GatotSoebroto , :AmirSjarifoeddin .
+
+:Sutomo  rdf:type       :Person ;
+        rdfs:label      "Sutomo" ;
+        :image          "Bung_Tomo.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Sutomo" ;
+        dc:description  "Sutomo (3 Oktober 1920 – 7 Oktober 1981) atau lebih dikenal dengan sapaan akrab Bung Tomo adalah pahlawan nasional Indonesia dan pemimpin militer Indonesia pada masa Revolusi Nasional Indonesia yang dikenal karena peranannya dalam Pertempuran 10 November 1945." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1920-10-03"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1981-10-07"^^xsd:date
+                                             ]
+                        ] ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1920-10-03"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1981-10-07"^^xsd:date
+                                             ]
+                        ] .
+
+:DaanMogot  rdf:type    :Person ;
+        rdfs:label      "Daan Mogot" ;
+        :image          "Daan_Mogot_1.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Daan_Mogot" ;
+        dc:description  "Elias Daniel Mogot, atau lebih dikenal dengan nama Daan Mogot (28 Desember 1927 – 25 Januari 1946), adalah seorang pejuang kemerdekaan Indonesia dan mantan anggota (dan pelatih) PETA di Bali dan Jakarta pada tahun 1942-1945. Setelah Perang Dunia ke-2 selesai, ia menjadi Komandan TKR di Jakarta dengan pangkat Mayor. Bulan November 1945 mendirikan sekaligus menjadi Direktur Pertama Akademi Militer Tangerang (MAT) dalam usia 18 tahun. Ia gugur di Hutan Lengkong, di selatan Kota Tangerang, bersama 36 orang lainnya dalam pertempuran melawan tentara Jepang saat hendak melucuti senjata mereka di Hutan Lengkong di Tangerang." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1927-12-28"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1946-01-25"^^xsd:date
+                                             ]
+                        ] .
+
+:JokoWidodo  rdf:type   :Person ;
+        rdfs:label      "Joko Widodo" ;
+        :image          "Joko_Widodo_2019_official_portrait.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Joko_Widodo" ;
+        dc:description  "Ir. H. Joko Widodo (Indonesia: [dʒɔkɔ widɔdɔ]; lahir 21 Juni 1961), lebih dikenal sebagai Jokowi, adalah presiden Indonesia ke-7 yang mulai menjabat sejak terpilih dalam pemilihan umum tahun 2014. Jokowi menjadi presiden Indonesia pertama yang bukan berasal dari elit politik atau militer Indonesia. Ia terpilih bersama Wakil Presiden Jusuf Kalla dan kembali terpilih bersama Wakil Presiden Ma'ruf Amin pada tahun 2019. Sebelumnya ia menjabat sebagai Wali Kota Surakarta dan Gubernur DKI Jakarta." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1961-06-21"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type  time:Instant ]
+                        ] .
+
+:HarioJonosewojo  rdf:type  :Person ;
+        rdfs:label      "Hario Jonosewojo" ;
+        :image          "https://d220hvstrn183r.cloudfront.net/attachment/55089736130230161617.large" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Hario_Jonosewojo" ;
+        dc:description  "Mayor Jenderal TNI (Purn.) Kanjeng Raden Mas Hario Jonosewojo Handajaningrat atau K.R.M. Hario Jonosewojo Handajaningrat (9 Juni 1921 – 22 Maret 1994) adalah seorang tokoh militer Indonesia. Dan mantan Panglima Divisi VI/Narotama TRI. Ia juga seorang tokoh yang berperan dalam membantu dalam perjuangan kemerdekaan Indonesia dan perkembangan lembaga olahraga di Indonesia. Ia akrab dipanggil mas Piet. Ia merupakan lulusan pendidikan di Command General Staff College Regular Course di Fort Leavenworth Kansas, AS pada tahun 1960-1961, dimana sepulang dari pendidikan tersebut beliau dan keluarga menempati kediaman di jalan Lembang Terusan, Jakarta hingga akhir hayatnya. Sejak remaja ia sering bermain tennis. Ia sering mengikuti berbagai kejuaraan namun belum pernah juara. Ia masuk PELTI (Persatuan Lawn Tennis Indonesia) sejak serikat tennis ini didirikan pada tahun 1948. 15 tahun semenjak ia bergabung dengan PELTI, ia dipercaya menjadi ketua umum PELTI pada tahun 1963. Ia juga pernah menjadi Ajudan Senior Pejabat Presiden Djuanda dan kepala sekuriti BKR (Badan Keamanan Rakyat) Surabaya.[1]" ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1920-06-09"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1994-03-22"^^xsd:date
+                                             ]
+                        ] .
+
+:MangkunegaraVIII  rdf:type  :Person ;
+        rdfs:label      "Mangkunegara VIII" ;
+        :image          "Raden_Mas_Saroso_Notosoeparto,_de_latere_Mangkoe_Nagoro_VIII.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Mangkunegara_VIII" ;
+        dc:description  "Kanjeng Gusti Pangeran Adipati Arya Mangkunegara VIII (1 Januari 1920 – 3 September 1987) adalah Adipati kedelapan Mangkunagaran yang merupakan penguasa dari Kadipaten Praja Mangkunegaraan kenaikan takhta tepat pada tanggal 19 Juli 1944 (masa pemerintahaan Jepang) dan bertepatan pada wafat ayahnya yaitu Mangkunegara VII. Mangkunegara VIII memiliki nama B.R.M Natosoeparto dipilih atas dasar karena merupakan anak laki-laki yang tertua dan mempunyai sebuah pengalaman di luar istana." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1920-01-01"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1987-09-03"^^xsd:date
+                                             ]
+                        ] .
+
+:AbdulHarisNasution  rdf:type  :Person ;
+        rdfs:label      "Abdul Haris Nasution" ;
+        :image          "Abdul Haris Nasution.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Abdul_Haris_Nasution" ;
+        dc:description  "Jenderal Besar TNI (Purn.) Dr. (H.C.) Abdul Haris Nasution (3 Desember 1918 – 6 September 2000) adalah seorang jenderal berpangkat tinggi dan politikus Indonesia. Ia bertugas di militer selama Revolusi Nasional Indonesia dan ia tetap di militer selama gejolak berikutnya dari demokrasi Parlementer dan Demokrasi Terpimpin. Setelah jatuhnya Presiden Soekarno dari kekuasaan, ia menjadi Ketua Majelis Permusyawaratan Rakyat Sementara (MPRS) di bawah presiden Soeharto. Lahir dari keluarga Batak Mandailing, di desa Hutapungkut, ia belajar mengajar dan mendaftar di akademi militer di Bandung." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1918-12-03"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "2000-09-06"^^xsd:date
+                                             ]
+                        ] ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1918-12-03"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "2000-09-06"^^xsd:date
+                                             ]
+                        ] ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1918-12-03"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "2000-09-06"^^xsd:date
+                                             ]
+                        ] .
+
+:PrabowoSubianto  rdf:type  :Person ;
+        rdfs:label      "Prabowo Subianto" ;
+        :image          "Prabowo Subianto, Candidate for Indonesia's President in 2024.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Prabowo_Subianto" ;
+        dc:description  "Jenderal TNI (HOR) (Purn.) Datuk Seri H." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1951-10-17"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type  time:Instant ]
+                        ] .
+
+:TanMalaka  rdf:type    :Person ;
+        rdfs:label      "Tan Malaka" ;
+        :image          "TanMalaka_DariPendjara_ed3.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Tan_Malaka" ;
+        dc:description  "Tan Malaka atau Ibrahim Gelar Datuk Sutan Malaka (2 Juni 1897 – 21 Februari 1949) adalah pengajar, filsuf, pejuang kemerdekaan Indonesia, pendiri Partai Murba, salah satu Pahlawan Nasional Indonesia, dan penulis Naar de Republiek Indonesia, buku pertama yang ditulis oleh pribumi Hindia Belanda untuk menggambarkan gagasan Hindia Belanda yang merdeka sebagai Indonesia, untuk itu Muhammad Yamin memberikan julukan Tan Malaka sebagai 'Bapak Republik Indonesia'." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1897-06-02"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1949-02-21"^^xsd:date
+                                             ]
+                        ] .
+
+:SyafruddinPrawiranegara
+        rdf:type        :Person ;
+        rdfs:label      "Syafruddin Prawiranegara" ;
+        :image          "Sjafruddin_Prawiranegara.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Syafruddin_Prawiranegara" ;
+        dc:description  "Mr. Sjafruddin Prawiranegara (EYD: Syafruddin Prawiranegara) 28 Februari 1911 – 15 Februari 1989) adalah seorang negarawan dan ekonom Indonesia. Ia memimpin Indonesia sebagai Ketua Pemerintah Darurat Republik Indonesia (PDRI). Selama masa Demokrasi Liberal, ia menjabat sebagai Menteri Keuangan dan Gubernur Bank Indonesia pertama." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1911-02-28"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1989-02-15"^^xsd:date
+                                             ]
+                        ] .
+
+:GatotSoebroto  rdf:type  :Person ;
+        rdfs:label      "Gatot Soebroto" ;
+        :image          "Col_Gatot_Subroto,_Kenang-Kenangan_Pada_Panglima_Besar_Letnan_Djenderal_Soedirman,_p27.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Gatot_Soebroto" ;
+        dc:description  "Jenderal TNI Gatot Soebroto (10 Oktober 1907 – 11 Juni 1962) adalah tokoh perjuangan militer Indonesia dalam merebut kemerdekaan dan juga pahlawan nasional Indonesia. Ia dimakamkan di Ungaran, kabupaten Semarang." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1907-10-10"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1962-06-11"^^xsd:date
+                                             ]
+                        ] ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1907-10-10"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1962-06-11"^^xsd:date
+                                             ]
+                        ] .
+
+:KampanyeHindiaBelanda
+        rdf:type     :MilitaryConflict ;
+        :commander1  :KarelDoorman , :ConradHelfrich , :ThomasC.Hart , :HeinterPoorten , :AlidiusTjardavanStarkenborghStachouwer , <http://127.0.0.1:3333/ArchibaldWavell,1stEarlWavell> .
+
+:HamengkubuwanaIX  rdf:type  :Person ;
+        rdfs:label      "Hamengkubuwana IX" ;
+        :image          "Hamengkubawono_IX_Official_Portrait.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Hamengkubuwana_IX" ;
+        dc:description  "Jenderal TNI (Tit.) (Purn.) H. Sri Sultan Hamengkubuwana IX (Jawa: ꦲꦩꦼꦁꦏꦸꦨꦸꦮꦤ꧇꧙꧇; 12 April 1912 – 2 Oktober 1988, lahir dengan nama Gusti Raden Mas Dorodjatun) adalah Sultan Yogyakarta kesembilan dan Gubernur Daerah Istimewa Yogyakarta yang pertama. Ia merupakan Wakil Presiden Indonesia kedua yang menjabat pada tahun 1973–1978. Hamengkubuwana IX juga merupakan Ketua Kwartir Nasional Gerakan Pramuka yang pertama dan dikenal sebagai Bapak Pramuka Indonesia." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1912-04-12"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1988-10-02"^^xsd:date
+                                             ]
+                        ] ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1912-04-12"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1988-10-02"^^xsd:date
+                                             ]
+                        ] ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1912-04-12"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1988-10-02"^^xsd:date
+                                             ]
+                        ] .
+
+<http://127.0.0.1:3333/DaudBeureu'eh>
+        rdf:type        :Person ;
+        rdfs:label      "Daud Beureu'eh" ;
+        :image          "Teuku Daud Beureueh.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Daud_Beureu%27eh" ;
+        dc:description  "Teungku Muhammad Daud Beureueh (23 September 1896 – 10 Juni 1987)  atau bertepatan dengan 10 Zulhijjah 1316 Hijriah, akrab disapa Ayah Daud adalah mantan Gubernur Militer Aceh, Langkat dan Tanah Karo dan pejuang kemerdekaan Indonesia. Ia merupakan tokoh kontroversial yang populer di kalangan masyarakat Aceh. Ia melakukan pemberontakan kepada pemerintah dengan mendirikan NII akibat Soekarno yang melanggar perjanjian dengan rakyat Aceh dan ketidakpuasannya atas pemerintahan Soekarno. Namanya kini diabadikan untuk sebuah jalan di Banda Aceh." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1896-09-23"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1987-06-10"^^xsd:date
+                                             ]
+                        ] ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1896-09-23"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1987-06-10"^^xsd:date
+                                             ]
+                        ] .
+
+:PertempuranBojongKokosan
+        rdf:type     :MilitaryConflict ;
+        :commander1  :EdiSukardi .
+
+:DelapanJamPertempurandiMangkang
+        rdf:type     :MilitaryConflict ;
+        :commander1  :Moekijat .
+
+:Soedirman  rdf:type    :Person ;
+        rdfs:label      "Soedirman" ;
+        :image          "Sudirman.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Soedirman" ;
+        dc:description  "Jenderal Besar TNI (Anumerta) Raden Soedirman (EYD: Sudirman; 24 Januari 1916 – 29 Januari 1950) adalah seorang perwira tinggi Indonesia pada masa Revolusi Nasional Indonesia. Sebagai Panglima Besar Tentara Nasional Indonesia pertama, ia adalah sosok yang dihormati di Indonesia. Terlahir dari pasangan rakyat biasa di Purbalingga, Hindia Belanda, Soedirman diadopsi oleh pamannya yang seorang priyayi. Setelah keluarganya pindah ke Cilacap pada tahun 1916, Soedirman tumbuh menjadi seorang siswa rajin; ia sangat aktif dalam kegiatan ekstrakurikuler, termasuk mengikuti program kepanduan yang dijalankan oleh organisasi Islam Muhammadiyah. Saat di sekolah menengah, Soedirman mulai menunjukkan kemampuannya dalam memimpin dan berorganisasi. Soedirman sangat dihormati oleh masyarakat karena ketaatannya pada Islam. Setelah berhenti kuliah keguruan, pada 1936 ia mulai bekerja sebagai seorang guru, dan kemudian menjadi kepala sekolah, di sekolah dasar Muhammadiyah; ia juga aktif dalam kegiatan Muhammadiyah lainnya dan menjadi pemimpin Kelompok Pemuda Muhammadiyah pada tahun 1937. Setelah Jepang menduduki Hindia Belanda pada 1942, Soedirman tetap mengajar. Pada tahun 1944, ia bergabung dengan tentara Pembela Tanah Air (PETA) yang disponsori Jepang, menjabat sebagai komandan batalion di Banyumas. Selama menjabat, Soedirman bersama rekannya sesama prajurit melakukan pemberontakan, hingga kemudian diasingkan ke Bogor." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1916-01-24"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1950-01-29"^^xsd:date
+                                             ]
+                        ] ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1916-01-24"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1950-01-29"^^xsd:date
+                                             ]
+                        ] .
+
+:BambangSoegeng  rdf:type  :Person ;
+        rdfs:label      "Bambang Soegeng" ;
+        :image          "Djenderal_Major_Bambang_Sugeng.png" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Bambang_Soegeng" ;
+        dc:description  "Letnan Jenderal TNI (Purn.) Bambang Soegeng (ER: Bambang Sugeng) (31 Oktober 1913 – 22 Juni 1977) adalah seorang tokoh militer Indonesia dan pernah menjadi Kepala Staf TNI Angkatan Darat ke-3 yang menjabat dari tanggal 22 Desember 1952 hingga 8 Mei 1955.Selain berkarier di dunia militer, Bambang juga pernah menjabat sebagai Duta Besar Indonesia untuk Vatikan, Jepang, dan Brasil." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1913-10-31"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1977-06-22"^^xsd:date
+                                             ]
+                        ] ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1913-10-31"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1977-06-22"^^xsd:date
+                                             ]
+                        ] .
+
+:AchmadiHadisoemarto  rdf:type  :Person ;
+        rdfs:label      "Achmadi Hadisoemarto" ;
+        :image          "Achmadi_Hadisumarto.png" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Achmadi_Hadisoemarto" ;
+        dc:description  "Mayor Jenderal TNI (Purn.) Achmadi Hadisoemarto (EYD: Akhmadi Hadisumarto; 5 Juni 1927 – 2 Januari 1984)  adalah seorang tentara Indonesia." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1927-06-05"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1984-01-02"^^xsd:date
+                                             ]
+                        ] .
+
+:PeristiwaTigaMaret  rdf:type  :MilitaryConflict ;
+        :commander1  :IsmaelLengah .
+
+:AndikaPerkasa  rdf:type  :Person ;
+        rdfs:label      "Andika Perkasa" ;
+        :image          "Jenderal_TNI_Andika_Perkasa,_Panglima_TNI.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Andika_Perkasa" ;
+        dc:description  "Jenderal TNI (Purn.) Muhammad Andika Perkasa, S.E., M.A., M.Sc., M.Phil., Ph.D. (nama lahir: Fransiskus Xaverius Emanuel Andika Perkasa, lahir 21 Desember 1964) adalah seorang purnawirawan TNI yang menjabat Panglima Tentara Nasional Indonesia pada tahun 2021 sampai 2022. Andika merupakan lulusan Akademi Militer tahun 1987. Sebelumnya, dia menjabat sebagai Kepala Staf TNI Angkatan Darat. Pada saat dilantik, ia adalah Panglima TNI tertua sepanjang sejarah, tetapi rekor itu dipecahkan oleh Laksamana Yudo Margono yang dilantik menggantikannya pada tanggal 19 Desember 2022. Selain itu juga berasal dari keluarga campuran Magelang, Jawa Tengah dan Blitar, Jawa Timur." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1964-12-21"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type  time:Instant ]
+                        ] .
+
+:AchmadTahir  rdf:type  :Person ;
+        rdfs:label      "Achmad Tahir" ;
+        :image          "Achmad Tahir - Fourth Development Cabinet.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Achmad_Tahir" ;
+        dc:description  "Jenderal TNI (HOR) (Purn.) Achmad Tahir (27 Juni 1924 – 17 Agustus 2002) adalah seorang pejuang kemerdekaan dan tokoh militer Indonesia. Dia pernah mengemban tugas sebagai Panglima Divisi IV/TKR pada zaman revolusi kemerdekaan Indonesia." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1924-06-27"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "2002-08-17"^^xsd:date
+                                             ]
+                        ] .
+
+:AhmadYani  rdf:type    :Person ;
+        rdfs:label      "Ahmad Yani" ;
+        :image          "Ahmad_Yani.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Ahmad_Yani" ;
+        dc:description  "Jenderal TNI (Anumerta) Ahmad Yani (juga dieja A. Yani, Achmad Yani); (19 Juni 1922 – 1 Oktober 1965) adalah Menteri/Panglima Angkatan Darat (setingkat KSAD) yang merupakan salah satu Pahlawan Revolusi yang gugur sebagai korban tragedi Gerakan 30 September karena dibunuh dalam Gerakan 30 September saat penculikan dari rumahnya." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1922-06-19"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1965-10-01"^^xsd:date
+                                             ]
+                        ] .
+
+:Operasi17Agustus  rdf:type  :MilitaryConflict ;
+        :commander1  :AhmadYani , :AbdulHarisNasution , :Soekarno .
+
+:MuhammadToha  rdf:type  :Person ;
+        rdfs:label      "Muhammad Toha" ;
+        :image          "Muhammad Toha.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Muhammad_Toha" ;
+        dc:description  "Mohammad Toha atau Mohammad Toha (Bandung, 1927 - Bandung, 11 Juli 1946) adalah seorang komandan Barisan Rakjat Indonesia, sebuah kelompok milisi pejuang yang aktif dalam masa Perang Kemerdekaan Indonesia. Toha gugur dalam kebakaran misi penghancuran gudang amunisi milik Tentara Sekutu bersama rekannya, setelah meledakkan dinamit dalam gudang amunisi tersebut." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1927-01-01"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1946-07-11"^^xsd:date
+                                             ]
+                        ] .
+
+:ConradHelfrich  rdf:type  :Person ;
+        rdfs:label      "Conrad Helfrich" ;
+        :image          "Conrad_Helfrich_colourized.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Conrad_Helfrich" ;
+        dc:description  "Luitenant-Admiraal Conrad Emil Lambert Helfrich (KCB) (11 Oktober 1886 – 20 September 1962) dari Koninklijke Marine adalah tokoh AL utama Belanda dalam Perang Dunia II." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1886-10-11"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1962-09-20"^^xsd:date
+                                             ]
+                        ] .
+
+:BandungLautanApi  rdf:type  :MilitaryConflict ;
+        :commander1  :MuhammadToha , :AbdulHarisNasution .
+
+:Gerakan30September  rdf:type  :MilitaryConflict .
+
+:MoehammadJasin  rdf:type  :Person ;
+        rdfs:label      "Moehammad Jasin" ;
+        :image          "Moehammad_Jasin.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Moehammad_Jasin" ;
+        dc:description  "Komisaris Jenderal Polisi (Purn.) Dr. H. Moehammad Jasin (9 Juni 1920 – 3 Mei 2012) yang dikenal sebagai \"Bapak Brimob Polri\". Moehammad Jasin menghembuskan nafas terakhir pada hari Kamis tanggal 3 Mei 2012 pukul 15.30 WIB, dalam usia 91 tahun di RS Polri Kramat Jati[1] dan dimakamkan di Taman Makam Pahlawan Kalibata." , "Komisaris Jenderal Polisi (Purn.) Dr. H. Moehammad Jasin (9 Juni 1920 – 3 Mei 2012) yang dikenal sebagai \"Bapak Brimob Polri\". Moehammad Jasin menghembuskan nafas terakhir pada hari Kamis tanggal 3 Mei 2012 pukul 15.30 WIB, dalam usia 91 tahun di RS Polri Kramat Jati dan dimakamkan di Taman Makam Pahlawan Kalibata." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1920-06-09"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "2012-05-03"^^xsd:date
+                                             ]
+                        ] ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1920-06-09"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "2012-05-03"^^xsd:date
+                                             ]
+                        ] .
+
+:KarelDoorman  rdf:type  :Person ;
+        rdfs:label      "Karel Doorman" ;
+        :image          "Karel_Doorman_as_lieutenant-commander.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Karel_Doorman" ;
+        dc:description  "Karel Willem Frederik Marie Doorman (23 April 1889 – 28 Februari 1942) ialah laksamana Belanda (bahasa Belanda: schout-bij-nacht) selama Perang Dunia II." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1889-04-23"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1942-02-28"^^xsd:date
+                                             ]
+                        ] .
+
+<http://127.0.0.1:3333/ArchibaldWavell,1stEarlWavell>
+        rdf:type        :Person ;
+        rdfs:label      "Archibald Wavell, 1st Earl Wavell" ;
+        :image          "Archibald Wavell2.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Archibald_Wavell,_1st_Earl_Wavell" ;
+        dc:description  "Marsekal Lapangan Archibald Percival Wavell, 1st Earl Wavell,  (5 Mei 1883 – 24 Mei 1950) adalah seorang perwira senior Angkatan Darat Inggris. Ia bertugas dalam Perang Boer Kedua, Kampanye Bazar Valley dan Perang Besar, di mana ia terluka dalam Pertempuran Ypres Kedua. Ia bertugas dalam Perang Dunia Kedua, awalnya sebagai Ketua Komandan Timur Tengah, di mana ia memimpin pasukan Inggris menuju kemenangan atas Italia di barat Mesir dan timur Libya saat Operasi Compass pada Desember 1940, dan hanya dikalahkan oleh Angkatan Darat erman di Gurun Barat pada April 1941. Ia bertugas sebagai Ketua Komandan India, dari Juli 1941 sampai Juni 1943 (selain melakukan tur sebagai Komandan ABDACOM) dan kemudian menjabat sebagai Viceroy India sampai ia pensiun pada Februari 1947." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1883-05-05"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1950-05-24"^^xsd:date
+                                             ]
+                        ] .
+
+:EdiSukardi  rdf:type   :Person ;
+        rdfs:label      "Edi Sukardi" ;
+        :image          "https://asset.kompas.com/crops/2smuVP-LEEDoc5vLkCgfE03gmtA=/777x584:2053x1435/750x500/data/photo/2021/12/31/61ce9776188f8.png" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Edi_Sukardi" ;
+        dc:description  "Kolonel  Inf. (Purn.) Edi Sukardi adalah seorang letnan kolonel Indonesia. Letkol Edi tercatat sebagai pemimpin dalam pertempuran Bojongkokosan yang terjadi di Sukabumi, 9 Desember 1945. Pertempuran Bojongkokosan kemudian diperingati sebagai Hari Juang Siliwangi. Dalam pertempuran Bojongkokosan, Tentara Keamanan Rakyat (TKR) dan berbagai spektrum laskar rakyat, baik kiri maupun kanan, mencegat tentara Inggris. Sebanyak 73 anggota TKR gugur, begitu juga lebih dari 80 orang tentara Inggris tewas. " ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1916-02-18"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "2014-09-05"^^xsd:date
+                                             ]
+                        ] .
+
+:LeslieMorshead  rdf:type  :Person ;
+        rdfs:label      "Leslie Morshead" ;
+        :image          "Morshead_(AWM_009517).jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Leslie_Morshead" ;
+        dc:description  "Letnan Jenderal Sir Leslie James Morshead,  (18 September 1889 – 26 September 1959) adalah seorang prajurit, guru, pengusaha, dan petani asal Australia, yang berkarier militer sepanjang dua perang dunia. Pada Perang Dunia Kedua, ia memimpin pasukan Australia dan Inggris di Pengepungan Tobruk (1941) dan di Pertempuran El Alamein Kedua" ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1889-09-18"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1959-09-26"^^xsd:date
+                                             ]
+                        ] .
+
+:SyarifHamidIIdariPontianak
+        rdf:type        :Person ;
+        rdfs:label      "Syarif Hamid II dari Pontianak" ;
+        :image          "Syarif_Hamid_II_of_Pontianak.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Syarif_Hamid_II_dari_Pontianak" ;
+        dc:description  "Sultan Hamid II, lahir dengan nama Syarif Abdul Hamid Alkadrie, (12 Juli 1913 – 30 Maret 1978) adalah putra sulung Sultan Pontianak ke-6, Sultan Syarif Muhammad Alkadrie, adalah perancang Lambang Negara Indonesia, Garuda Pancasila. Ia memiliki darah keturunan Arab-Indonesia. Semasa hidupnya, Hamid II beristrikan seorang perempuan Belanda kelahiran Surabaya, yang memberikannya dua anak yang sekarang tinggal di Belanda." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1913-07-12"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1978-03-30"^^xsd:date
+                                             ]
+                        ] .
+
+:KonflikPapua  rdf:type  :MilitaryConflict ;
+        :commander1  :PrabowoSubianto , :TrySutrisno , :MegawatiSoekarnoputri , :ListyoSigitPrabowo , :BudiGunawan , :JokoWidodo , :SusiloBambangYudhoyono , <http://127.0.0.1:3333/Ma'rufAmin> , :AbdurrahmanWahid , :Soeharto , :Wiranto , :AgusSubiyanto , :AndikaPerkasa , :LeonardusBenyaminMoerdani , :B.J.Habibie .
+
+:MuhammadMangundiprojo
+        rdf:type        :Person ;
+        rdfs:label      "Muhammad Mangundiprojo" ;
+        :image          "Muhammadmangundiprojo.png" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Muhammad_Mangundiprojo" ;
+        dc:description  "Mayor Jenderal TNI (Purn.) Raden Muhammad Mangoendiprodjo (EYD: Muhammad Mangundiprojo; 5 Januari 1905 – 13 Desember 1988) adalah seorang pejuang kemerdekaan dan perwira militer Indonesia yang ikut serta dalam Pertempuran Surabaya pada tanggal 10 November 1945. Ia diangkat sebagai Pahlawan Nasional Indonesia oleh Presiden Joko Widodo pada tanggal 7 November 2014." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1905-01-05"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1988-12-13"^^xsd:date
+                                             ]
+                        ] .
+
+:LeonardusBenyaminMoerdani
+        rdf:type        :Person ;
+        rdfs:label      "Leonardus Benyamin Moerdani" ;
+        :image          "Leonardus Benjamin Moerdani as Commander of the Indonesian National Armed Forces.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Leonardus_Benyamin_Moerdani" ;
+        dc:description  "Jenderal TNI (Purn.) Leonardus Benyamin Moerdani, atau L.B. Moerdani, atau kerap disebut Benny Moerdani (2 Oktober 1932 – 29 Agustus 2004) adalah salah satu tokoh militer Indonesia paling berpengaruh pada era Orde Baru. Benny Moerdani dikenal sebagai perwira TNI yang banyak berkecimpung di dunia intelijen, sehingga sosoknya banyak dianggap misterius. Selain itu, Ia juga memiliki julukan yang merupakan antitesis dari Soeharto yaitu \"Unsmiling General\".Moerdani merupakan perwira yang ikut terjun langsung di operasi militer penanganan pembajakan pesawat Garuda Indonesia Penerbangan 206 di Bandara Don Mueang, Bangkok, Kerajaan Thai pada tanggal 28 Maret 1981, peristiwa yang kemudian dicatat sebagai peristiwa pembajakan pesawat pertama dalam sejarah maskapai penerbangan Republik Indonesia dan terorisme bermotif jihad pertama di Indonesia. Ia juga dianggap banyak kalangan sebagai sosok yang bertanggung jawab terhadap peristiwa Tanjung Priok dan penembakan misterius pada tahun 1980-an ." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1932-10-02"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "2004-08-29"^^xsd:date
+                                             ]
+                        ] .
+
+:AlidiusTjardavanStarkenborghStachouwer
+        rdf:type        :Person ;
+        rdfs:label      "Alidius Tjarda van Starkenborgh Stachouwer" ;
+        :image          "COLLECTIE TROPENMUSEUM Portret van Gouverneur-Generaal Tjarda van Starkenborgh Stachouwer TMnr 10018816.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Alidius_Tjarda_van_Starkenborgh_Stachouwer" ;
+        dc:description  "Jonkheer Mr. Alidius Warmoldus Lambertus Tjarda van Starkenborgh-Stachouwer (7 Maret 1888 – 16 Agustus 1978) adalah seorang bangsawan dan negarawan Belanda, ia dikenal sebagai gubernur jenderal terakhir Hindia Belanda. Ia masuk dalam tahanan Jepang setelah menyerahnya angkatan perang seluruh Hindia Belanda tanpa syarat dalam Kapitulasi Kalijati pada 8 atau 9 Maret 1942. Pada awalnya, ia ditahan di Bandung dan Batavia, kemudian dipindahkan ke Manchuria. Pada saat penandatanganan kapitulasi yang dilakukan oleh Jenderal Hein ter Poorten, Tjarda telah meninggalkan ruangan perundingan. Sebelumnya, pada tanggal 5 Maret 1942, Tjarda telah memisahkan kekuasaan sipil dan militer serta mengalihkan kekuasaan militer kepada Ter Poorten. Ia kemudian tidak menyerahkan kekuasaan sipil atas Hindia Belanda pada Kapitulasi Kalijati. Tindakan tersebut dijadikan dasar bagi Belanda untuk mengalihkan kekuasaan sipil kepada Letnan Gubernur Jenderal Hubertus van Mook yang telah mengasingkan diri ke Australia. Legitimasi inilah yang digunakan untuk membentuk Pemerintahan Sipil Hindia Belanda (NICA) di pengasingan Australia." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1888-03-07"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1978-08-16"^^xsd:date
+                                             ]
+                        ] .
+
+:Moekijat  rdf:type     :Person ;
+        rdfs:label      "Moekijat" ;
+        :image          "Moekijat.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Moekijat" ;
+        dc:description  "Letnan Jenderal KKO (Purn.) Moekijat (EYD: Mukiyat; 15 Desember 1927 – 1 November 1985) adalah Panglima KKO-AL (sekarang Korps Marinir) dari 16 Oktober 1968 hingga 6 Desember 1971. Ia juga pernah menjadi Kepala KBRI di Kedutaan Besar Republik Indonesia di Pyongyang, Korea Utara (1971—1975) dan Kedutaan Besar Republik Indonesia di Helsinki, Finlandia (1975—1980)." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1927-12-15"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1985-11-01"^^xsd:date
+                                             ]
+                        ] .
+
+:SyamaunGaharu  rdf:type  :Person ;
+        rdfs:label      "Syamaun Gaharu" ;
+        :image          "Letnan_Kolonel_Sjamaun_Gaharu.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Syamaun_Gaharu" ;
+        dc:description  "Brigjen TNI (Purn.) H. Syamaun Gaharu (10 November 1913 – 30 September 2000) adalah seorang tokoh pejuang kemerdekaan menentang pemerintahan Hindia Belanda di Aceh." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1913-11-10"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "2000-09-30"^^xsd:date
+                                             ]
+                        ] .
+
+:IsmaelLengah  rdf:type  :Person ;
+        rdfs:label      "Ismael Lengah" ;
+        :image          "https://asset.kompas.com/crops/dnVXmfGXkoUifmdX37ydnOPlKeY=/0x166:1000x833/750x500/data/photo/2023/03/15/64111c9ba8710.jpeg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Ismael_Lengah" ;
+        dc:description  "Kolonel Ismael Lengah (22 September 1914 – 11 Januari 2005) adalah seorang tokoh militer dan pejuang kemerdekaan Indonesia. Pada tahun 1956 Ismael Lengah menjabat sebagai Panglima Komando Divisi IX Banteng sebelum meletusnya peristiwa PRRI. Komando Divisi IX Banteng adalah salah satu divisi dalam Angkatan Perang Republik Indonesia (APRI) dengan teritorial Sumatra Tengah yang meliputi provinsi Sumatera Barat, Riau, Kepulauan Riau dan Jambi sekarang. Ismael Lengah menjabat posisi panglima dengan pangkat Kolonel ketika itu.Sebelum dan sesudah kemerdekaan Ismael Lengah selalu aktif dalam perjuangan mengusir penjajah. Ia juga pernah memimpin suatu rapat rahasia di Padang yang dilangsungkan pada tanggal 18 Agustus 1945 yang kemudian berlanjut pada tanggal 25 Agustus 1945 dengan mendirikan Balai Penerangan Pemuda Indonesia (BPPI) yang diketuai langsung olehnya. Kelanjutan dari itu pada tanggal 31 Agustus, terbentuklah Komite Nasional Indonesia (KNI) Daerah Sumatra Tengah yang diketuai oleh Muhammad Sjafei." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1914-09-22"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "2005-01-11"^^xsd:date
+                                             ]
+                        ] .
+
+:BudiGunawan  rdf:type  :Person ;
+        rdfs:label      "Budi Gunawan" ;
+        :image          "Budi_Gunawan.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Budi_Gunawan" ;
+        dc:description  "Jenderal Polisi (Purn.) Tan Sri Prof. Dr. Budi Gunawan, S.H., M.Si., Ph.D.,  P.S.M. (lahir 11 Desember 1959) adalah Kepala Badan Intelijen Negara sejak 9 September 2016, dan juga Ketua Umum Pengurus Besar E-Sports Indonesia (PB ESI). Sebelumnya, ia pernah bertugas sebagai Wakapolri mendampingi Kapolri Badrodin Haiti dan Tito Karnavian. Ia adalah unsur Polisi kedua setelah Sutanto yang memimpin Badan Intelijen Negara." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1959-12-11"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type  time:Instant ]
+                        ] .
+
+:VentjeSumual  rdf:type  :Person ;
+        rdfs:label      "Ventje Sumual" ;
+        :image          "https://mmc.tirto.id/image/2017/03/02/TIRTO_2106LetkolVentjeSumual_square.JPG" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Ventje_Sumual" ;
+        dc:description  "Herman Nicolas Ventje Sumual (11 Juni 1923 – 28 Maret 2010) adalah salah seorang perwira militer yang berasal dari unsur kelaskaran dan juga tokoh Permesta." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1923-06-11"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "2010-03-28"^^xsd:date
+                                             ]
+                        ] .
+
+:PerangDayakDesa  rdf:type  :MilitaryConflict .
+
+<http://127.0.0.1:3333/KampanyeKalimantan(1945)>
+        rdf:type     :MilitaryConflict ;
+        :commander1  :LeslieMorshead , :DouglasMacArthur .
+
+:SeranganUmum1Maret1949
+        rdf:type     :MilitaryConflict ;
+        :commander1  :VentjeSumual , :Soeharto , :BambangSoegeng , :Soedirman , :HamengkubuwanaIX .
+
+<http://127.0.0.1:3333/PemberontakanDI/TIIdiAceh>
+        rdf:type     :MilitaryConflict ;
+        :commander1  <http://127.0.0.1:3333/DaudBeureu'eh> .
+
+:PertempuranLengkong  rdf:type  :MilitaryConflict ;
+        :commander1  :DaanMogot .
+
+:Peristiwa19November  rdf:type  :MilitaryConflict .
+
+:Soeharto  rdf:type     :Person ;
+        rdfs:label      "Soeharto" ;
+        :image          "President_Suharto,_1993.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Soeharto" ;
+        dc:description  "Jenderal Besar TNI (Purn.) H. M. Soeharto, (pelafalan dalam bahasa Indonesia: [/suːˈhɑːrtɔ/]; ER, EYD: Suharto; 8 Juni 1921 – 27 Januari 2008) adalah Presiden kedua Indonesia yang menjabat dari tahun 1967 hingga 1998. Secara luas dianggap sebagai diktator militer oleh pengamat internasional, Soeharto memimpin Indonesia sebagai rezim otoriter sejak kejatuhan pendahulunya Soekarno pada tahun 1967 hingga pengunduran dirinya pada tahun 1998 menyusul kerusuhan nasional. Kediktatorannya selama 32 tahun dianggap sebagai salah satu kediktatoran paling brutal dan korup di abad ke-20.Sebelum menjadi presiden, Soeharto adalah pemimpin militer pada masa Hindia Belanda dan Kekaisaran Jepang, dengan pangkat terakhir Mayor Jenderal. Setelah Gerakan 30 September 1965, Soeharto kemudian melakukan operasi penertiban dan pengamanan atas perintah dari Presiden Soekarno, salah satu yang dilakukannya adalah dengan menumpas Gerakan 30 September dan menyatakan bahwa PKI sebagai organisasi terlarang. Berbagai kontroversi menyebut operasi ini menewaskan sekitar 100.000 hingga 2 juta jiwa.Soeharto kemudian diberi mandat oleh Majelis Permusyawaratan Rakyat Sementara (MPRS) sebagai Presiden pada 26 Maret 1968 menggantikan Soekarno, dan resmi menjadi presiden pada tahun 1968. Ia dipilih kembali oleh MPR pada tahun 1973, 1978, 1983, 1988, 1993, dan 1998. Pada tahun 1998, masa jabatannya berakhir setelah mengundurkan diri pada tanggal 21 Mei tahun tersebut, menyusul terjadinya kerusuhan Mei 1998 dan pendudukan gedung DPR/MPR oleh ribuan mahasiswa. Ia merupakan orang terlama yang menjabat sebagai presiden Indonesia. Soeharto digantikan oleh B.J. Habibie." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1921-06-08"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "2008-01-27"^^xsd:date
+                                             ]
+                        ] ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1921-06-08"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "2008-01-27"^^xsd:date
+                                             ]
+                        ] ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1921-06-08"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "2008-01-27"^^xsd:date
+                                             ]
+                        ] ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1921-06-08"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "2008-01-27"^^xsd:date
+                                             ]
+                        ] .
+
+:JaminGinting  rdf:type  :Person ;
+        rdfs:label      "Jamin Ginting" ;
+        :image          "Djamin_Ginting.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Jamin_Ginting" ;
+        dc:description  "Letnan Jenderal TNI (Purn.) Drs. Jamin Ginting Suka (disingkat sebagai Jamin Gintings; Ejaan Republik: Djamin Gintings; 12 Januari 1921 – 23 Oktober 1974) adalah salah satu pejuang kemerdekaan Indonesia yang berasal dari Taneh Karo. Ia diangkat sebagai Pahlawan Nasional Indonesia oleh Joko Widodo pada tanggal 7 November 2014 lalu." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1921-01-12"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1974-10-23"^^xsd:date
+                                             ]
+                        ] .
+
+:Soengkono  rdf:type    :Person ;
+        rdfs:label      "Soengkono" ;
+        :image          "Col_Sungkono,_Kenang-Kenangan_Pada_Panglima_Besar_Letnan_Djenderal_Soedirman,_p27.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Soengkono" ;
+        dc:description  "Mayor Jenderal TNI (Purn.) Soengkono (1 Januari 1911 – 12 September 1977) adalah seorang tokoh militer Indonesia dan merupakan tokoh dalam Pertempuran Surabaya  10 November 1945 di Surabaya, Jawa Timur. Saat itu ia menjabat komandan BKR (Badan Keamanan Rakyat). Saat ini namanya diabadikan menjadi nama jalan utama di Kota Surabaya yaitu Jalan Mayjen Sungkono." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1911-01-01"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1977-09-12"^^xsd:date
+                                             ]
+                        ] .
+
+:SutanSjahrir  rdf:type  :Person ;
+        rdfs:label      "Sutan Sjahrir" ;
+        :image          "Soetan_Sjahrir_1948.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Sutan_Sjahrir" ;
+        dc:description  "Sutan Syahrir (ejaan lama: Soetan Sjahrir, 5 Maret 1909 – 9 April 1966) adalah seorang intelektual, perintis, dan revolusioner kemerdekaan Indonesia. Setelah Indonesia merdeka, ia menjadi politikus dan perdana menteri pertama Indonesia. Ia menjabat sebagai Perdana Menteri Indonesia dari 14 November 1945 hingga 20 Juni 1947. Sjahrir mendirikan Partai Sosialis Indonesia pada tahun 1948. Ia meninggal dalam pengasingan sebagai tawanan politik dan dimakamkan di TMP Kalibata, Jakarta. Sutan Sjahrir ditetapkan sebagai salah seorang Pahlawan Nasional Indonesia pada tanggal 9 April 1966 melalui Keppres nomor 76 tahun 1966." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1909-03-05"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1966-04-09"^^xsd:date
+                                             ]
+                        ] .
+
+:MohammadHatta  rdf:type  :Person ;
+        rdfs:label      "Mohammad Hatta" ;
+        :image          "Mohammad_Hatta,_Pekan_Buku_Indonesia_1954,_p242.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Mohammad_Hatta" ;
+        dc:description  "Dr. (H.C.) Drs. H. Mohammad Hatta atau dipanggil  Bung Hatta (12 Agustus 1902 – 14 Maret 1980) adalah seorang tokoh penting dalam perjuangan kemerdekaan Indonesia, negarawan, dan ekonom Indonesia yang menjabat sebagai Wakil Presiden Indonesia pertama. Ia bersama Soekarno adalah Proklamator Kemerdekaan, memainkan peranan sentral dalam perjuangan kemerdekaan Indonesia dari penjajahan Belanda sekaligus memproklamirkannya pada 17 Agustus 1945. Ia pernah menjabat sebagai Perdana Menteri dalam Kabinet Hatta I, Hatta II, dan RIS. Pada 1956, ia mundur dari jabatan wakil presiden." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1902-08-12"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1980-03-14"^^xsd:date
+                                             ]
+                        ] .
+
+:T.B.Simatupang  rdf:type  :Person ;
+        rdfs:label      "T.B. Simatupang" ;
+        :image          "Kolonel_Simatoepang_Chef-staf_van_de_TNI,_uitgever_van_de_order_\"staakt_het_vure…,_Bestanddeelnr_344030_010.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/T.B._Simatupang" ;
+        dc:description  "Letnan Jenderal TNI (Purn.) Tahi Bonar Simatupang (disingkat sebagai T.B. Simatupang; 28 Januari 1920 – 1 Januari 1990) adalah seorang tokoh militer dan tokoh Gereja di Indonesia." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1920-01-28"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1990-01-01"^^xsd:date
+                                             ]
+                        ] .
+
+:Wongsonegoro  rdf:type  :Person ;
+        rdfs:label      "Wongsonegoro" ;
+        :image          "Wongsonegoro,_Kami_Perkenalkan_(1954),_p17.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Wongsonegoro" ;
+        dc:description  "Mr. Wongsonegoro (20 April 1897 – 4 Maret 1978) adalah Wakil Perdana Menteri Indonesia Kabinet Ali Sastroamidjojo I pada tahun 1953 hingga tahun 1955 dan Menteri Pendidikan dan Kebudayaan Indonesia pada tahun 1951 hingga tahun 1952. Selain itu pada masa persiapan kemerdekaan Indonesia, ia juga bergabung dengan BPUPKI, mewakili Surakarta, bersama-sama dengan Wuryaningrat, Sosrodiningrat, dan Radjiman Wedyodiningrat." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1897-04-20"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1978-03-04"^^xsd:date
+                                             ]
+                        ] .
+
+:AgusSubiyanto  rdf:type  :Person ;
+        rdfs:label      "Agus Subiyanto" ;
+        :image          "Panglima_TNI_Jenderal_TNI_Agus_Subiyanto.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Agus_Subiyanto" ;
+        dc:description  "Jenderal TNI H. Agus Subiyanto, S.E., M.Si., (lahir 5 Agustus 1967) adalah seorang perwira tinggi Tentara Nasional Indonesia Angkatan Darat yang menjabat sebagai Panglima Tentara Nasional Indonesia sejak tanggal 22 November 2023, menggantikan Laksamana TNI Yudo Margono. Agus merupakan lulusan Akademi Militer (1991) yang berasal dari kecabangan Infanteri (Kopassus). Sebelumnya, beliau menjabat sebagai Kepala Staf TNI Angkatan Darat. Selain itu juga beliau merupakan putra daerah Jawa Barat yang berasal dari Cijulang, Pangandaran." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1967-08-05"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type  time:Instant ]
+                        ] .
+
+:PertempuranLimaHari  rdf:type  :MilitaryConflict ;
+        :commander1  :Wongsonegoro , :Kariadi .
+
+:AmirSjarifoeddin  rdf:type  :Person ;
+        rdfs:label      "Amir Sjarifoeddin" ;
+        :image          "Amir_Sjarifoeddin.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Amir_Sjarifoeddin" ;
+        dc:description  "Mr. Amir Sjarifoeddin Harahap (ER, EYD: Amir Syarifuddin Harahap; 27 April 1907 – 19 Desember 1948) adalah seorang politikus dan jurnalis Indonesia. Ia menjabat sebagai Perdana Menteri Indonesia ketika Revolusi Nasional Indonesia sedang berlangsung. Amir adalah pemimpin sayap kiri terdepan pada masa Revolusi. Pada tahun 1948. Sebagai pemimpin pemberontakan  PKI Madiun bersama Musso, Amir dieksekusi mati bersama beberapa tokoh PKI lainnya yang terlibat dalam Peristiwa Madiun." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1907-04-24"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1948-12-19"^^xsd:date
+                                             ]
+                        ] .
+
+:HeinterPoorten  rdf:type  :Person ;
+        rdfs:label      "Hein ter Poorten" ;
+        :image          "Hein_ter_Poorten.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Hein_ter_Poorten" ;
+        dc:description  "Hein ter Poorten (21 November 1887 – 15 Januari 1968) ialah komandan KNIL semasa Perang Pasifik." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1887-11-21"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1968-01-15"^^xsd:date
+                                             ]
+                        ] .
+
+:MegawatiSoekarnoputri
+        rdf:type        :Person ;
+        rdfs:label      "Megawati Soekarnoputri" ;
+        :image          "President_Megawati_Sukarnoputri_-_Indonesia.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Megawati_Soekarnoputri" ;
+        dc:description  "Prof. Dr. (H.C.) Hj. Diah Permata Megawati Setiawati Soekarnoputri (lahir 23 Januari 1947) adalah Presiden Indonesia yang kelima yang menjabat sejak 23 Juli 2001 sampai 20 Oktober 2004. Ia merupakan presiden wanita Indonesia pertama dan putri dari presiden Indonesia pertama, Soekarno, yang kemudian mengikuti jejak ayahnya menjadi Presiden Indonesia. Pada 20 September 2004, ia kalah suara dari Susilo Bambang Yudhoyono dalam Pemilu Presiden 2004 putaran yang kedua." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1947-01-23"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type  time:Instant ]
+                        ] .
+
+:Kariadi  rdf:type      :Person ;
+        rdfs:label      "Kariadi" ;
+        :image          "https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2021/11/09/2160610581.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Kariadi" ;
+        dc:description  "Untuk nama rumah sakit, lihat: Rumah Sakit Umum Pusat Dr. Kariadi.dr. Kariadi (15 September 1905 – 14 Oktober 1945) adalah pejuang Indonesia sekaligus dokter, pahlawan nasional yang gugur dalam Pertempuran Lima Hari, Semarang - Jawa Tengah. Namanya kini diabadikan di Rumah Sakit Umum Pusat Dr. Kariadi, Semarang." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1905-09-15"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1945-10-14"^^xsd:date
+                                             ]
+                        ] .
+
+:TrySutrisno  rdf:type  :Person ;
+        rdfs:label      "Try Sutrisno" ;
+        :image          "Try_Sutrisno_Official_Portrait.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Try_Sutrisno" ;
+        dc:description  "Jenderal TNI (Purn.) H. Try Sutrisno (lahir 15 November 1935) adalah Wakil Presiden Indonesia ke-6 periode 1993–1998. Sebelum diangkat sebagai Wakil Presiden Indonesia, Try menjabat sebagai Panglima Angkatan Bersenjata Republik Indonesia (ABRI)." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1935-11-15"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type  time:Instant ]
+                        ] .
+
+:PertempuranSurabaya  rdf:type  :MilitaryConflict ;
+        :commander1  :HarioJonosewojo , :MoehammadJasin , :MuhammadMangundiprojo , :Moestopo , :Soengkono , :Sutomo .
+
+:Moestopo  rdf:type     :Person ;
+        rdfs:label      "Moestopo" ;
+        :image          "Prof-Dr-Moestopo1.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Moestopo" ;
+        dc:description  "Mayor Jenderal TNI (Purn.) Prof. DR. Moestopo (13 Juni 1913 – 29 September 1986) adalah seorang dokter gigi Indonesia, pejuang kemerdekaan, dan pendidik. Dia dinyatakan sebagai Pahlawan Nasional pada tanggal 9 November 2007." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1913-06-13"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1986-09-29"^^xsd:date
+                                             ]
+                        ] .
+
+:Wiranto  rdf:type      :Person ;
+        rdfs:label      "Wiranto" ;
+        :image          "Wiranto2.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Wiranto" ;
+        dc:description  "Jenderal TNI (Purn.) Dr. H. Wiranto S.H. S.I.P. M.M. (lahir 4 April 1947) adalah seorang mantan perwira tinggi militer dan politikus senior berkebangsaan Indonesia. Saat ini, ia diberi mandat oleh Presiden Joko Widodo untuk menjabat sebagai Ketua Dewan Pertimbangan Presiden pada akhir 2019. Kiprahnya di politik di awali ketika dirinya ditunjuk menjadi Menteri Pertahanan dan Keamanan menjelang berakhirnya masa Orde Baru. Saat itu, Wiranto tergabung dalam Golongan Karya hingga akhirnya ia membentuk partai baru bernama Partai Hati Nurani Rakyat pada tahun 2006.Wiranto merupakan lulusan Akademi Militer Nasional 1968 berhasil meniti karir militer sampai puncak jabatan di ABRI (sekarang TNI) sebagai Panglima merangkap Menhankam.Jabatan rangkap sebagai Menhankam/Pangab, kecuali Wiranto juga pernah dijabat oleh Jenderal TNI (Purn.) M. Jusuf. Pada pergantian Orde Baru ke Orde Reformasi tahun 1998/1999, Wiranto sebagai Menhankam/Pangab memiliki peran yang sangat menentukan dalam mengawal proses pergantian tersebut." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1947-04-04"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type  time:Instant ]
+                        ] .
+
+:PertempuranMedanArea
+        rdf:type     :MilitaryConflict ;
+        :commander1  :JaminGinting , :AchmadTahir .
+
+:OeripSoemohardjo  rdf:type  :Person ;
+        rdfs:label      "Oerip Soemohardjo" ;
+        :image          "Oerip_Soemohardjo_5_November_1947_KR.JPG" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Oerip_Soemohardjo" ;
+        dc:description  "Jenderal TNI (Anumerta) Raden  Oerip Soemohardjo (EYD: Raden Urip Sumoharjo; nama baptis: Benedict Oerip Soemohardjo; 22 Februari 1893 – 17 November 1948) adalah seorang jenderal dan kepala staf umum Tentara Nasional Indonesia pertama pada masa Revolusi Nasional Indonesia. Lahir di Purworejo, Hindia Belanda, Oerip kecil adalah anak nakal yang sudah memperlihatkan kemampuan memimpin sejak usia dini. Orangtuanya menginginkan dirinya untuk mengikuti jejak kakeknya sebagai bupati, oleh sebab itu, setamat sekolah dasar, ia dikirim ke Sekolah Pendidikan Pegawai Pribumi (OSVIA) di Magelang. Ibunya wafat saat ia menjalani tahun kedua di sekolah, dan Oerip berhenti sekolah untuk mengikuti pelatihan militer di Meester Cornelis, Batavia (kini Jatinegara, Jakarta). Setelah lulus pada tahun 1914, ia menjadi letnan di Koninklijk Nederlands-Indische Leger (KNIL), tentara pemerintah kolonial Belanda. Bertugas selama hampir 25 tahun, ia ditempatkan di tiga pulau berbeda dan dipromosikan beberapa kali, dan akhirnya menjadi perwira pribumi dengan pangkat tertinggi di KNIL." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1893-02-22"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1948-11-17"^^xsd:date
+                                             ]
+                        ] .
+
+:PakubuwanaXII  rdf:type  :Person ;
+        rdfs:label      "Pakubuwana XII" ;
+        :image          "SSISKS_Pakubuwono_XII.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Pakubuwana_XII" ;
+        dc:description  "Letnan Jenderal TNI (Tit.) Sri Susuhunan Pakubuwana XII (disingkat sebagai PB XII, Jawa: ꦯꦩ꧀ꦥꦺꦪꦤ꧀ꦢꦊꦩ꧀ꦲꦶꦁꦏꦁ​ꦯꦶꦤꦸꦲꦸꦤ꧀ꦑꦁꦗꦼꦁ​ꦯꦸꦱꦸꦲꦸꦤꦤ꧀ꦦꦏꦸꦧꦸꦮꦤ XII; 14 April 1925 – 11 Juni 2004) adalah susuhunan Surakarta yang masa pemerintahannya paling lama di antara raja-raja Jawa, yaitu selama 59 tahun, tepatnya mulai tahun 1945 hingga 2004." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1925-04-14"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "2004-06-11"^^xsd:date
+                                             ]
+                        ] ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1925-04-14"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "2004-06-11"^^xsd:date
+                                             ]
+                        ] .
+
+:B.J.Habibie  rdf:type  :Person ;
+        rdfs:label      "B. J. Habibie" ;
+        :image          "B._J._Habibie,_President_of_Indonesia_portrait.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/B._J._Habibie" ;
+        dc:description  "Prof. Dr.-Ing. Ir. H. Bacharuddin Jusuf Habibie, FREng. (25 Juni 1936 – 11 September 2019) adalah Presiden Republik Indonesia yang ketiga. Sebelumnya, B.J. Habibie menjabat sebagai Wakil Presiden Republik Indonesia ke-7, menggantikan Try Sutrisno. B. J. Habibie menggantikan Soeharto yang mengundurkan diri dari jabatan presiden pada tanggal 21 Mei 1998. Sebelum memasuki dunia politik, Habibie dikenal luas sebagai seorang profesor dan ilmuwan dalam teknologi aviasi internasional dan satu-satunya presiden Indonesia hingga saat ini yang berlatarbelakang teknokrat." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1936-06-25"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "2019-09-11"^^xsd:date
+                                             ]
+                        ] .
+
+:ThomasC.Hart  rdf:type  :Person ;
+        rdfs:label      "Thomas C. Hart" ;
+        :image          "Thomas_C._Hart.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Thomas_C._Hart" ;
+        dc:description  "Thomas Charles Hart (12 Juni 1877 – 4 Juli 1971) adalah seorang laksamana dalam Angkatan Laut Amerika Serikat yang bertugas dari Perang Spanyol-Amerika sampai Perang Dunia II. Setelah ia pensiun dari AL, ia secara singkat menjabat sebagai Senator Amerika Serikat dari Connecticut." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1988-06-12"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1971-07-04"^^xsd:date
+                                             ]
+                        ] .
+
+:ListyoSigitPrabowo  rdf:type  :Person ;
+        rdfs:label      "Listyo Sigit Prabowo" ;
+        :image          "KAPOLRI,Jenderal_POL_Listyo_Sigit_Prabowo.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Listyo_Sigit_Prabowo" ;
+        dc:description  "Jenderal Polisi Drs. Listyo Sigit Prabowo, M.Si. (lahir 5 Mei 1969) adalah seorang perwira tinggi Polri yang menjabat sebagai Kepala Kepolisian Negara Republik Indonesia (Kapolri) sejak tanggal 27 Januari 2021, menggantikan Jenderal Idham Azis. Ia adalah Kapolri beragama Kristen kedua dalam sejarah setelah Widodo Budidarmo (1974–1978), dan Kapolri termuda kedua dalam sejarah saat dilantik (51 tahun, 267 hari), hanya kalah dari Tito Karnavian, yang berusia 51 tahun, 261 hari saat dilantik pada 2016. Sigit juga merupakan Alumni SMA Negeri 8 Yogyakarta (1988)." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1969-05-05"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type  time:Instant ]
+                        ] .
+
+:AbdurrahmanWahid  rdf:type  :Person ;
+        rdfs:label      "Abdurrahman Wahid" ;
+        :image          "President_Abdurrahman_Wahid_-_Indonesia.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Abdurrahman_Wahid" ;
+        dc:description  "Dr. (H.C.) K.H. Abdurrahman Wahid, Lc. ( ; dilahirkan dengan nama Abdurrahman ad-Dakhil; 7 September 1940 – 30 Desember 2009), atau lebih dikenal dengan nama Gus Dur (), adalah seorang politikus Indonesia dan pemimpin agama Islam yang menjabat sebagai presiden Indonesia ke-4, dari pemilu tahun 1999 hingga pemakzulannya pada tahun 2001. Selain sebagai pemimpin organisasi Nahdlatul Ulama, ia juga merupakan pendiri Partai Kebangkitan Bangsa (PKB). Ia adalah putra Menteri Agama Wahid Hasyim, dan cucu dari pendiri Nahdlatul Ulama, Hasyim Asy'ari. Ia menderita gangguan penglihatan yang disebabkan oleh glaukoma; Ia mengalami kebutaan total pada mata kirinya dan mata kanannya buta sebagian. Ia merupakan presiden Indonesia pertama dan satu-satunya (sejauh ini) yang memiliki disabilitas fisik." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1940-09-07"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "2009-12-30"^^xsd:date
+                                             ]
+                        ] .
+
+:R.E.Martadinata  rdf:type  :Person ;
+        rdfs:label      "R. E. Martadinata" ;
+        :image          "R.E_Martadinata_colorized_by_colorbykevin.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/R._E._Martadinata" ;
+        dc:description  "Laksamana TNI (Purn.) Raden Eddy Martadinata merupakan tokoh di bidang militer angkatan laut yang lahir di Bandung (29 Maret 1921 – 6 Oktober 1966), atau yang lebih dikenal dengan nama R. E. Martadinata, adalah tokoh ALRI (Angkatan Laut Republik Indonesia) dan pahlawan nasional Indonesia. Ia meninggal dunia akibat kecelakaan helikopter di Riung Gunung dan dimakamkan di TMP Kalibata, Jakarta." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1921-03-29"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1966-10-06"^^xsd:date
+                                             ]
+                        ] .
+
+:PertempuranKumai  rdf:type  :MilitaryConflict .
+
+<http://127.0.0.1:3333/Ma'rufAmin>
+        rdf:type        :Person ;
+        rdfs:label      "Ma'ruf Amin" ;
+        :image          "Ma'ruf_Amin_2019_official_portrait.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Ma%27ruf_Amin" ;
+        dc:description  "Prof. Dr.  (H.C.) K.H. Ma'ruf Amin (lahir 11 Maret 1943) adalah seorang ulama, dosen, dan politikus Indonesia yang saat ini menjabat sebagai Wakil Presiden Republik Indonesia, terhitung sejak tanggal 20 Oktober 2019. Ma'ruf menyertai politik sejak terpilihnya sebagai anggota DPRD DKI Jakarta pada 1971 hingga menjadi anggota Dewan Perwakilan Rakyat selama dua periode sejak 1997 sampai 2004. Setelahnya, ia aktif di Majelis Ulama Indonesia dan pada akhirnya ditunjuk oleh Joko Widodo untuk mendampinginya pada Pemilu Presiden 2019 dengan didukung oleh Koalisi Indonesia Kerja. Selain itu ia juga merupakan tokoh senior organisasi Nahdlatul Ulama sebagai Rais 'Aam sejak 2015, dan menjadi Mustasyar Pengurus Besar Nahdlatul Ulama sejak ia mencalonkan diri sebagai Wakil Presiden 2019." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1943-03-11"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type  time:Instant ]
+                        ] .
+
+:Soekarno  rdf:type     :Person ;
+        rdfs:label      "Soekarno" ;
+        :image          "Presiden_Sukarno.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Soekarno" ;
+        dc:description  "Dr. (H.C.) Ir. H. Soekarno[cat.] (Ejaan Republik: Sukarno, Jawa: ꦯꦸꦑꦂꦟ, pengucapan bahasa Jawa: [suːˈkarnɔ]; 6 Juni 1901 – 21 Juni 1970) adalah seorang politikus yang berperan penting dalam Revolusi Nasional Indonesia. Ia bersama Mohammad Hatta memproklamasikan Kemerdekaan Indonesia pada tanggal 17 Agustus 1945. Ia orang pertama yang mencetuskan konsep mengenai Pancasila sebagai dasar negara Indonesia dan ia sendiri yang menamainya.Selain sebagai proklamator, Soekarno juga menjabat sebagai Presiden Republik Indonesia pertama sejak 1945 hingga 1967, dengan masa pemerintahannya dikenal juga sebagai Orde Lama.:11, 81:26-32 Pada pertengahan tahun 1960-an, di masa-masa akhir jabatan Soekarno, Indonesia mengalami stagnasi produksi, kemiskinan dan kelaparan yang merajalela, infrastruktur yang tidak terurus, dan hiperinflasi mencapai hampir 600 persen.Pada 11 Maret 1966, Soekarno menandatangani Surat Perintah yang dikenal sebagai Supersemar yang menugaskan Letnan Jenderal Soeharto untuk mengamankan dan menjaga keamanan negara dan institusi kepresidenan. Supersemar menjadi landasan Letnan Jenderal Soeharto untuk membubarkan Partai Komunis Indonesia (PKI) dan mengganti anggota-anggotanya yang duduk di parlemen. Setelah pertanggungjawabannya ditolak Majelis Permusyawaratan Rakyat Sementara (MPRS) pada sidang umum ke empat tahun 1967, Soekarno diberhentikan dari jabatannya sebagai presiden pada Sidang Istimewa MPRS pada tahun yang sama dan Soeharto menggantikannya sebagai pejabat Presiden Republik Indonesia." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1901-06-06"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1970-06-21"^^xsd:date
+                                             ]
+                        ] ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1901-06-06"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1970-06-21"^^xsd:date
+                                             ]
+                        ] .
+
+:IGustiNgurahRai  rdf:type  :Person ;
+        rdfs:label      "I Gusti Ngurah Rai" ;
+        :image          "Lukisan_I_Gusti_Ngurah.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/I_Gusti_Ngurah_Rai" ;
+        dc:description  "Brigadir Jenderal TNI (Anumerta) I Gusti Ngurah Rai (30 Januari 1917 – 20 November 1946) adalah seorang tokoh militer Indonesia, yang berjasa dalam Perang Kemerdekaan. Ia merupakan pendiri dan panglima pertama satuan angkatan bersenjata Republik Indonesia di Kepulauan Sunda Kecil, yang memimpin langsung perlawanan bersenjata anti-Belanda di Bali. Ia gugur pada bulan November 1946 dalam pertempuran dengan pasukan Belanda di dekat desa Marga, Bali tengah." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1917-01-30"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1946-11-20"^^xsd:date
+                                             ]
+                        ] .
+
+:PenyerbuanKotabaruYogyakarta
+        rdf:type     :MilitaryConflict ;
+        :commander1  :Soeharto , :HamengkubuwanaIX .
+
+:PuputanMargarana  rdf:type  :MilitaryConflict ;
+        :commander1  :IGustiNgurahRai .
+
+:PerangCumbok  rdf:type  :MilitaryConflict ;
+        :commander1  :SyamaunGaharu , <http://127.0.0.1:3333/DaudBeureu'eh> .
+
+:DouglasMacArthur  rdf:type  :Person ;
+        rdfs:label      "Douglas MacArthur" ;
+        :image          "MacArthur_Manila.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Douglas_MacArthur" ;
+        dc:description  "Douglas MacArthur (26 Januari 1880 – 5 April 1964) adalah seorang jenderal bintang lima asal Amerika Serikat dan marsekal lapangan Angkatan Darat Filipina. Ia menjabat sebagai Kepala Staf Angkatan Darat Amerika Serikat pada dasawarsa 1930-an dan memiliki sumbangsih yang besar dalam upaya untuk melawan Kekaisaran Jepang di teater Pasifik selama Perang Dunia II. Ia dianugerahi Medal of Honor berkat jasa-jasanya selama kampanye militer Filipina sehingga dirinya dan ayahnya, Arthur MacArthur, Jr., menjadi pasangan ayah dan anak pertama yang sama-sama mendapatkan medali tersebut. Ia juga merupakan salah satu dari hanya lima orang yang diberikan pangkat Jenderal Besar di Angkatan Darat Amerika Serikat dan satu-satunya orang yang pernah diangkat sebagai marsekal lapangan di Angkatan Darat Filipina." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1880-01-26"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1964-04-05"^^xsd:date
+                                             ]
+                        ] .
+
+:AgustinusAdisoetjipto
+        rdf:type        :Person ;
+        rdfs:label      "Agustinus Adisoetjipto" ;
+        :image          "Potret_Adisucipto.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Agustinus_Adisoetjipto" ;
+        dc:description  "Komodor Muda Udara (Anumerta) dr. Agustinus Adisoetjipto (Hanacaraka: ꦄꦒꦸꦱ꧀ꦠꦶꦤꦸꦱ꧀‌ꦄꦢꦶꦱꦸꦕꦶꦥ꧀ꦠ) (3 Juli 1916 – 29 Juli 1947) adalah seorang pahlawan nasional beragama Katolik Roma dan seorang komodor udara Indonesia. Ia merupakan Bapak Penerbang Indonesia." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1916-07-03"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1947-07-29"^^xsd:date
+                                             ]
+                        ] .
+
+:SlametRijadi  rdf:type  :Person ;
+        rdfs:label      "Slamet Rijadi" ;
+        :image          "Zaterdag,_12_november_werd_in_het_stadion_te_Solo_een_grote_massabijeenkomst_geh,_Bestanddeelnr_924_(Slamet_Rijadi,_cropped).jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Slamet_Rijadi" ;
+        dc:description  "Brigadir Jenderal (Anumerta) TNI Ignatius Slamet Rijadi (EYD: Ignatius Slamet Riyadi; 26 Juli 1927 – 4 November 1950) adalah seorang tentara Indonesia. Rijadi lahir di Surakarta, Jawa Tengah, putra dari seorang tentara dan penjual buah. \"Dijual\" pada pamannya dan sempat berganti nama saat masih balita demi sembuh dari penyakit, Rijadi tumbuh besar di rumah orangtuanya dan belajar di sekolah milik Belanda. Setelah Jepang menduduki Hindia Belanda, Rijadi menghadiri sekolah pelaut yang dikelola oleh Jepang dan bekerja untuk mereka setelah lulus; ia meninggalkan tentara Jepang menjelang akhir Perang Dunia II dan turut mengobarkan perlawanan selama sisa pendudukan." ;
+        time:hasTime    [ rdf:type           time:temporanEntity ;
+                          time:hasBeginning  [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1927-07-26"^^xsd:date
+                                             ] ;
+                          time:hasEnd        [ rdf:type        time:Instant ;
+                                               time:inXSDDate  "1950-11-04"^^xsd:date
+                                             ]
+                        ] .

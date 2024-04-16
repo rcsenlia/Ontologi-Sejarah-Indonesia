@@ -1,0 +1,33 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:SeranganUmumSurakarta
+        :units1  "Detasemen TP Brigade XVII" , "Kompi Zeni TP atau TGP" , "MBK Brimob Karesidenan" , "MBB Brimob" , "Brigade V/Panembahan Senopati" .
+
+:KampanyeHindiaBelanda
+        :units1  "234 pesawat terbang" , "41 kapal selam" , "33 kapal perang" , "148.000 pasukan: 40.000 pasukan Belanda, 100.000 pasukan lokal, 8.000 pasukan Anglo-Amerika" .
+
+:PertempuranSurabaya  :units1  "Polisi Istimewa Surabaya" , "Barisan Pemberontakan Rakyat Indonesia" , "TKR Surabaya, Sidoarjo, Gresik" .
+
+:SeranganUmum1Maret1949
+        :units1  "Kepolisian Negara Republik Indonesia" , "Tentara Republik Indonesia" .
+
+:RevolusiNasionalIndonesia
+        :units1  "Desertir India: 600" , "Relawan Jepang: 1,000" , "Relawan Muda: 100,000" , "Laskar rakyat: diperkirakan 60,000" , "BKR/TKR/TRI/TNI: 150.000" .
+
+:PuputanMargarana  :units1  "Batalyon Ciung Wanara" .
+
+:BandungLautanApi  :units1  "Barisan Rakyat Indonesia" , "Tentara Republik Indonesia" .
+
+:PertempuranMedanArea
+        :units1  "Milisi" , "Tentara Keamanan Rakyat" .
+
+:KonflikPapua  :units1  "Warga sipil pro-Indonesia" , "Barisan Merah Putih" , "Kepolisian Negara Republik Indonesia" , "Kodam XVIII/Kasuari" , "Kodam XVII/Cenderawasih" , "Tentara Nasional Indonesia" .
+
+:Operasi17Agustus  :units1  "6.500 Personel TNI AD, AL, AU" .
+
+:PertempuranLimaHari  :units1  "Polisi" , "BKR" , "Pemuda Indonesia" .

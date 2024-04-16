@@ -1,0 +1,194 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:KrisisTimorTimur1999
+        rdf:type      :Conflict ;
+        rdfs:label    "Krisis Timor Timur 1999" ;
+        :casualties   "1.400 warga sipil tewas\n220.000+ pengungsi\n3 staf UNHCR tewas\n2 jurnalis tewas\n1 tentara Indonesia tewas\n1 polisi indonesia tewas" ;
+        :result       "Kemenangan taktis Timor Timur\nKekalahan milisi pro-Indonesia\nStabilisasi Timor Timur\nReferendum kemerdekaan Timor Timur\nEmbargo penjualan militer AS ke Indonesia dari 9 September 1999 - 22 November 2005\nEmbargo penjualan militer Britania Raya ke Indonesia dari 11 September 1999 - 11 April 2012\nEmbargo penjualan militer Australia ke Indonesia September 1999\nEmbargo penjualan militer Uni Eropa (EU) ke Indonesia dari 16 September 1999 - 17 Januari 2000\n\nKemenangan strategis milisi pro-Indonesia\n80% infrastruktur Timor Timur hancur akibat Operasi Bumi Hangus" ;
+        :summary      "Krisis Timor Timur 1999 atau Operasi Guntur adalah tindakan pembalasan oleh milisi pro-Indonesia terhadap rakyat Timor Timur dalam rangka hasil positif referendum kemerdekaan di Timor Timur pada tanggal 30 Agustus 1999. Dimulai dengan serangan militan anti-kemerdekaan terhadap warga sipil, dan meluas menjadi kerusuhan di seluruh Timor Timur, berpusat di ibu kota Dili. Kerusuhan meletus setelah mayoritas pemilih referendum Timor Timur memilih merdeka dari Indonesia. Sekitar 1.400 penduduk tewas. Tentara yang beraliansi dengan PBB (INTERFET), yang terdiri sebagian besar dari Angkatan Bersenjata Australia dikirim ke Timor Timur untuk mengembalikan stabilitas dan menjaga perdamaian." ;
+        :wikiurl      "https://id.wikipedia.org/wiki/Krisis_Timor_Timur_1999" ;
+        time:hasTime  [ rdf:type           time:TemporalEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1999-04-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "2005-04-30"^^xsd:date
+                                           ]
+                      ] .
+
+:KerusuhanSambas  rdf:type  :Conflict ;
+        rdfs:label    "Kerusuhan Sambas" ;
+        :casualties   "1189 terbunuh, 168 orang luka berat, 34 orang luka ringan, 29823 warga Madura mengungsi" ;
+        :summary      "Kerusuhan Sambas merujuk kepada peristiwa kerusuhan antar etnis di wilayah Kabupaten Sambas, Kalimantan Barat. Kerusuhan Sambas sudah berlangsung sekitar tujuh kali sejak 1970, tetapi kerusuhan tahun 1999 adalah yang terbesar dan merupakan akumulasi dari kejengkelan Melayu dan Dayak terhadap ulah oknum-oknum pendatang dari Madura. Akibatnya, orang-orang keturunan Madura yang sudah bermukim di Sambas sejak awal 1900-an, ikut menjadi korban. Korban akibat kerusuhan Sambas terdiri dari 1.188 orang tewas, 168 orang luka berat, 34 orang luka ringan, 3.833 rumah dibakar dan dirusak, 12 mobil dan 9 motor dibakar/dirusak, 8 masjid/madrasah dirusak/dibakar, 2 sekolah dirusak, 1 gudang dirusak, dan 29.823 warga Madura mengungsi." ;
+        :wikiurl      "https://id.wikipedia.org/wiki/Kerusuhan_Sambas" ;
+        time:hasTime  [ rdf:type           time:TemporalEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1970-01-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1999-12-31"^^xsd:date
+                                           ]
+                      ] .
+
+:OperasiTrisula  rdf:type  :Conflict ;
+        rdfs:label    "Operasi Trisula" ;
+        :casualties   "18 prajurit tewas, 33 militan tewas, 850 tertangkap" ;
+        :result       "Pemberontakan berhasil di tumpas" ;
+        :summary      "Operasi Trisula merupakan operasi yang dilaksanakan oleh Tentara Nasional Indonesia dalam rangka menumpas sisa-sisa Gerakan 30 September yang melarikan diri di daerah Blitar Selatan. Daerah Blitar Selatan ini sangat strategis sebagai tempat persembunyian dan berkumpulnya gembong-gembong PKI, karena daerah tersebut berupa tebing-tebing yang curam dan perbukitan yang sulit untuk dijangkau oleh pasukan darat. Untuk melaksanakan operasi tersebut Panglima Komando Daerah Militer VIII/Brawijaya membentuk Komando Satuan Tugas Operasi yang bernama Satgas Trisula pada tanggal 25 Mei 1968 dengan daerah operasi Blitar Selatan, Malang Selatan dan Tulungagung dengan tujuan untuk menumpas sisa-sisa pemberontakan G30S/PKI." ;
+        :wikiurl      "https://id.wikipedia.org/wiki/Operasi_Trisula" ;
+        time:hasTime  [ rdf:type           time:TemporalEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1968-06-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1968-09-07"^^xsd:date
+                                           ]
+                      ] .
+
+:PendudukanIndonesiaatasTimorTimur
+        rdf:type      :Conflict ;
+        rdfs:label    "Pendudukan Indonesia atas Timor Timur" ;
+        :casualties   "Perkiraan berkisar antara 100.000-300.000 orang tewas" ;
+        :result       "Timor Timur memperoleh kemerdekaan setelah referendum kemerdekaan memilih untuk meninggalkan Indonesia, Indonesia memiliki pengaruh yang kuat di Timor Timur" ;
+        :summary      "Pendudukan Indonesia atas Timor Timur dimulai pada bulan Desember 1975 dan berlangsung hingga Oktober 1999. Setelah berabad-abad diperintah oleh Portugis, kudeta tahun 1974 di Portugal memicu dekolonisasi di bekas koloninya, menciptakan ketidakstabilan di Timor Timur dan ketidakpastian akan masa depannya. Setelah perang saudara berskala kecil, Fretilin yang pro-kemerdekaan mendeklarasikan kemenangan di ibu kota Dili dan mendeklarasikan kemerdekaan Timor Timur pada tanggal 28 November 1975." ;
+        :wikiurl      "https://id.wikipedia.org/wiki/Pendudukan_Indonesia_atas_Timor_Timur" ;
+        time:hasTime  [ rdf:type           time:TemporalEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1975-12-07"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1999-10-31"^^xsd:date
+                                           ]
+                      ] .
+
+:KerusuhanPoso  rdf:type  :Conflict ;
+        rdfs:label    "Kerusuhan Poso" ;
+        :causes       "Penyerangan pemuda Muslim oleh pemuda Kristen yang mabuk di Masjid Sayo" ;
+        :result       "Deklarasi Malino\n Kekerasan pasca kerusuhan di Poso" ;
+        :summary      "Kerusuhan Poso atau konflik komunal Poso, adalah sebutan bagi serangkaian kerusuhan yang terjadi di Kabupaten Poso, Sulawesi Tengah, Indonesia. Peristiwa ini awalnya bermula dari bentrokan kecil antarkelompok pemuda sebelum berkembang menjadi kerusuhan bernuansa agama. Beberapa faktor berkontribusi terhadap pecahnya kekerasan, termasuk persaingan ekonomi antara penduduk asli Poso yang mayoritas beragama Kristen dengan para pendatang seperti pedagang-pedagang Bugis dan transmigran dari Jawa yang memeluk Islam, ketidakstabilan politik dan ekonomi menyusul jatuhnya Orde Baru, persaingan antarpejabat pemerintah daerah mengenai posisi birokrasi, dan pembagian kekuasaan tingkat kabupaten antara pihak Kristen dan Islam yang tidak seimbang. Situasi dan kondisi yang tidak stabil, dikombinasikan dengan penegakan hukum yang lemah, menciptakan lingkungan yang menjanjikan untuk terjadinya kekerasan." ;
+        :wikiurl      "https://id.wikipedia.org/wiki/Kerusuhan_Poso" ;
+        time:hasTime  [ rdf:type           time:TemporalEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1998-12-25"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "2001-12-20"^^xsd:date
+                                           ]
+                      ] .
+
+:PemberontakandiAceh  rdf:type  :Conflict ;
+        rdfs:label    "Pemberontakan di Aceh" ;
+        :casualties   "15128 tewas" ;
+        :result       "Kemenangan taktis Indonesia, Persetujuan perdamaian Helsinki, Otonomi khusus untuk Aceh, Pelucutan GAM, Ditariknya pasukan non-organik Indonesia, hanya menyisakan 25.000 prajurit di provinsi tersebut, Misi Pemantau Aceh, Diadakannya pilkada" ;
+        :summary      "Pemberontakan di Aceh dikobarkan oleh Gerakan Aceh Merdeka (GAM) untuk memperoleh kemerdekaan dari Indonesia antara tahun 1976 hingga tahun 2005. Operasi militer yang dilakukan TNI dan Polri (2003–2004), beserta kehancuran yang disebabkan oleh gempa bumi Samudra Hindia 2004 menyebabkan diadakannya persetujuan perdamaian dan berakhirnya pemberontakan. Amnesty International merilis laporan Time To Face The Past pada April 2013 setelah pemerintah Indonesia dianggap gagal menjalankan kewajibannya sesuai perjanjian damai 2005. Laporan tersebut memperingatkan bahwa kekerasan baru akan terjadi jika masalah ini tidak diselesaikan." ;
+        :wikiurl      "https://id.wikipedia.org/wiki/Pemberontakan_di_Aceh" ;
+        time:hasTime  [ rdf:type           time:TemporalEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1976-12-04"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "2005-08-15"^^xsd:date
+                                           ]
+                      ] .
+
+:OperasiJayapura1976  rdf:type  :Conflict ;
+        rdfs:label    "Operasi Jayapura 1976" ;
+        :casualties   "Lebih dari 2000 tewas dan 800 luka-luka menurut OPM" ;
+        :summary      "Pada awal 1976, Angkatan Darat Indonesia meluncurkan sebuah serangan terhadap unsur-unsur militer Organisasi Papua Merdeka (OPM) di belahan selatan Kabupaten Jayapura, sekarang Provinsi Papua. Meskipun operasi tersebut gagal untuk sepenuhnya menghancurkan keberadaan OPM, organisasi tersebut mengalami kekalahan besar dalam hal militer." ;
+        :wikiurl      "https://id.wikipedia.org/wiki/Operasi_Jayapura_1976" ;
+        time:hasTime  [ rdf:type           time:TemporalEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1976-01-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1976-02-29"^^xsd:date
+                                           ]
+                      ] .
+
+:KrisissanderaMapenduma
+        rdf:type      :Conflict ;
+        rdfs:label    "Krisis sandera Mapenduma" ;
+        :casualties   "13 tewas, 1 helikopter jatuh, 2 ditangkap" ;
+        :summary      "Krisis sandera Mapenduma adalah peristiwa krisis sandera yang terjadi pada tanggal 8 Januari 1996 di Mapenduma, Jayawijaya, dengan disanderanya 26 anggota Tim Ekspedisi Lorentz 95 oleh sayap militer Organisasi Papua Merdeka yang dipimpin Kelly Kwalik." ;
+        :wikiurl      "https://id.wikipedia.org/wiki/Krisis_sandera_Mapenduma" ;
+        time:hasTime  [ rdf:type           time:TemporalEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1996-01-08"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1996-05-09"^^xsd:date
+                                           ]
+                      ] .
+
+:OperasimiliterIndonesiadiAceh1990-1998
+        rdf:type      :Conflict ;
+        rdfs:label    "Operasi militer Indonesia di Aceh 1990-1998" ;
+        :casualties   "9.000+ orang tewas sebagian besar warga sipil" ;
+        :result       "Penarikan ABRI dari Aceh" ;
+        :summary      "Operasi militer Indonesia di Aceh 1990-1998 atau juga disebut Operasi Jaring Merah adalah operasi kontra-pemberontakan yang diluncurkan pada awal 1990-an sampai 22 Agustus 1998 melawan gerakan separatis Gerakan Aceh Merdeka (GAM) di Aceh. Selama periode tersebut, Aceh dinyatakan sebagai \"Daerah Operasi Militer\" (DOM), di mana Angkatan Bersenjata Republik Indonesia diduga melakukan pelanggaran hak asasi manusia dalam skala besar dan sistematis terhadap pejuang GAM maupun rakyat sipil Aceh. Operasi ini ditandai sebagai perang paling kotor di Indonesia yang melibatkan eksekusi sewenang-wenang, penculikan, penyiksaan dan penghilangan, dan pembakaran desa. Amnesty International menyebut diluncurkannya operasi militer ini sebagai \"shock therapy\" bagi GAM.Desa yang dicurigai menyembunyikan anggota GAM dibakar dan anggota keluarga tersangka militan diculik dan disiksa. Diperkirakan lebih dari 300 wanita dan anak di bawah umur mengalami perkosaan  dan antara 9.000-12.000 orang, sebagian besar warga sipil tewas antara tahun 1989 dan 1998 dalam operasi ABRI tersebut.Operasi ini berakhir dengan penarikan hampir seluruh personel ABRI yang terlibat atas perintah Presiden BJ Habibie pada tanggal 22 Agustus 1998 setelah jatuhnya Presiden Soeharto dan berakhirnya era Orde Baru." ;
+        :wikiurl      "https://id.wikipedia.org/wiki/Operasi_militer_Indonesia_di_Aceh_1990-1998" ;
+        time:hasTime  [ rdf:type           time:TemporalEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1990-01-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1998-08-22"^^xsd:date
+                                           ]
+                      ] .
+
+:KonflikPapua  rdf:type  :Conflict ;
+        rdfs:label    "Konflik Papua" ;
+        :casualties   "Setidaknya 72 TNI, 34 polisi dan 69 TPNPB-OPM tewas" ;
+        :summary      "Konflik Papua adalah konflik militer yang tejadi di wilayah Papua, Indonesia. diawali pada tahun 1961, muncul keinginan Belanda untuk membentuk negara Papua Barat yang terlepas dari Indonesia, Langkah Belanda ini kemudian ditentang oleh Presiden Indonesia, Soekarno dengan mendekatkan diri pada negara komunis terutama Uni Soviet. Sikap Soekarno ini membuat takut Belanda dan Presiden Amerika Serikat, John F. Kennedy. Sebab jika hal itu dibiarkan maka Indonesia kemungkinan menjadi negara komunis terbesar di Asia Tenggara. Ketakutan itu lalu membuat Belanda mengambil sikap untuk menyerahkan masalah Papua ke PBB. Dari dan melalui PBB, Belanda mengambil sikap untuk keluar dari Papua dan tidak jadi mengambil, merebut, dan menjajah Papua lalu Papua diserahkan \"kembali\" ke Indonesia dengan syarat memberi kesempatan pada rakyat Papua untuk menentukan sikap sendiri atau referendum (Penentuan Pendapat Rakyat/PEPERA)." ;
+        :wikiurl      "https://id.wikipedia.org/wiki/Konflik_Papua" ;
+        time:hasTime  [ rdf:type           time:TemporalEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1962-10-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "2024-01-01"^^xsd:date
+                                           ]
+                      ] .
+
+:InvasiIndonesiakeTimorTimur
+        rdf:type      :Conflict ;
+        rdfs:label    "Invasi Indonesia ke Timor Timur" ;
+        :casualties   "185.000 tewas, terluka atau ditangkap (1975-1999) (termasuk warga sipil)" ;
+        :result       "Kemenangan Indonesia\nPendudukan Indonesia di Timor Timur sampai tahun 1999\nGenosida Timor Timur" ;
+        :summary      "Invasi Indonesia ke Timor Timur, lebih dikenal sebagai Operasi Seroja atau Perang Timor Timur, dimulai pada tanggal 7 Desember 1975 ketika militer Indonesia masuk ke Timor Timur dengan dalih anti-kolonialisme dan anti-komunisme untuk menggulingkan rezim Fretilin yang muncul pada tahun 1974. Penggulingan pemerintah yang dipimpin secara singkat oleh Fretilin memicu pendudukan kekerasan selama seperempat abad di mana sekitar 100.000–180.000 tentara dan warga sipil diperkirakan telah terbunuh atau mati kelaparan. Komisi Pengakuan, Kebenaran, dan Rekonsiliasi di Timor Leste (CAVR) mendokumentasikan perkiraan minimum sebesar 102.000 kematian terkait konflik di Timor Timur selama periode 1974 hingga 1999, termasuk 18.600 pembunuhan dengan kekerasan dan 84.200 kematian akibat penyakit dan kelaparan; pasukan Indonesia dan gabungan pasukan pembantunya bertanggung jawab atas 70% dari total pembunuhan.Bulan-bulan pertama pendudukan, militer Indonesia menghadapi perlawanan pemberontakan yang berat di pedalaman pegunungan pulau, tetapi dari tahun 1977-1978, militer memperoleh persenjataan canggih baru dari Amerika Serikat, Australia, dan negara-negara lain, untuk menghancurkan basis Fretilin. Dua dekade terakhir abad ini menyaksikan bentrokan terus menerus antara kelompok Indonesia dan Timor Timur mengenai status Timor Timur, sampai tahun 1999, ketika mayoritas rakyat Timor Timur memilih untuk merdeka (pilihan alternatifnya adalah \"otonomi khusus\" sementara tetap menjadi bagian dari Indonesia). Setelah dua setengah tahun transisi lebih lanjut di bawah naungan tiga misi PBB yang berbeda, Timor Timur berhasil merdeka pada 20 Mei 2002." ;
+        :wikiurl      "https://id.wikipedia.org/wiki/Invasi_Indonesia_ke_Timor_Timur" ;
+        time:hasTime  [ rdf:type           time:TemporalEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1975-12-07"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1976-07-17"^^xsd:date
+                                           ]
+                      ] .
+
+:Conflict  rdfs:subClassOf  sem:Event .
+
+:KonfrontasiIndonesia-Malaysia
+        rdf:type      :Conflict ;
+        rdfs:label    "Konfrontasi Indonesia-Malaysia" ;
+        :casualties   "Lebih dari 590 terbunuh, lebih dari 222 luka-luka, 775 ditangkap (termasuk warga sipil)" ;
+        :result       "Kemenangan Persemakmuran Bangsa-Bangsa, Indonesia menerima pembentukan Malaysia, Soekarno digantikan oleh Soeharto menyusul upaya kudeta G30S, Pemberontakan Komunis di Sarawak berlanjut hingga tahun 1989" ;
+        :summary      "Konfrontasi Indonesia–Malaysia atau Konfrontasi Borneo (juga dikenal dengan Bahasa Indonesia / Melayu, Konfrontasi) adalah konflik bersenjata dari tahun 1963 hingga 1966 yang bermula dari penentangan Indonesia terhadap pembentukan Federasi Malaysia. Setelah presiden Indonesia Soekarno digulingkan pada tahun 1966, perselisihan berakhir secara damai dan negara Malaysia terbentuk." ;
+        :wikiurl      "https://id.wikipedia.org/wiki/Konfrontasi_Indonesia%E2%80%93Malaysia" ;
+        time:hasTime  [ rdf:type           time:TemporalEntity ;
+                        time:hasBeginning  [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1963-01-20"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type        time:Instant ;
+                                             time:inXSDDate  "1966-08-11"^^xsd:date
+                                           ]
+                      ] .
