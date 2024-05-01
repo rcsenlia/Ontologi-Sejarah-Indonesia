@@ -12,8 +12,7 @@
 
 <http://127.0.0.1:3333/> rdf:type owl:Ontology ;
                           owl:versionIRI <http://127.0.0.1:3333/1.0.0> ;
-                          owl:imports <file:/D:/kuliah/semester%208/ta/Ontologi-Sejarah-Indonesia/ontology/dublin_core_terms.rdf> ,
-                                      <file:/D:/kuliah/semester%208/ta/Ontologi-Sejarah-Indonesia/ontology/sem.rdf> ,
+                          owl:imports <file:/D:/kuliah/semester%208/ta/Ontologi-Sejarah-Indonesia/ontology/sem.rdf> ,
                                       <http://www.opengis.net/ont/geosparql/1.1> ,
                                       <http://www.w3.org/2006/time#2016> .
 
