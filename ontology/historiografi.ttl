@@ -1,0 +1,361 @@
+@prefix : <http://127.0.0.1:3333/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@base <http://127.0.0.1:3333/> .
+
+<http://127.0.0.1:3333/> rdf:type owl:Ontology ;
+                          owl:versionIRI <http://127.0.0.1:3333/1.0.0> ;
+                          owl:imports <file:/D:/kuliah/semester%208/ta/Ontologi-Sejarah-Indonesia/ontology/dublin_core_terms.rdf> ,
+                                      <file:/D:/kuliah/semester%208/ta/Ontologi-Sejarah-Indonesia/ontology/sem.rdf> ,
+                                      <http://www.opengis.net/ont/geosparql/1.1> ,
+                                      <http://www.w3.org/2006/time#2016> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://127.0.0.1:3333/image
+:image rdf:type owl:AnnotationProperty ;
+       rdfs:range xsd:string .
+
+
+###  http://127.0.0.1:3333/wikiurl
+:wikiurl rdf:type owl:AnnotationProperty ;
+         rdfs:range xsd:string .
+
+
+###  http://www.w3.org/2004/02/skos/core#broadMatch
+<http://www.w3.org/2004/02/skos/core#broadMatch> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#closeMatch
+<http://www.w3.org/2004/02/skos/core#closeMatch> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#exactMatch
+<http://www.w3.org/2004/02/skos/core#exactMatch> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#narrowMatch
+<http://www.w3.org/2004/02/skos/core#narrowMatch> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#relatedMatch
+<http://www.w3.org/2004/02/skos/core#relatedMatch> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://127.0.0.1:3333/almamater
+:almamater rdf:type owl:ObjectProperty ;
+           rdfs:domain foaf:Person ;
+           rdfs:range geo:Feature .
+
+
+###  http://127.0.0.1:3333/birthPlace
+:birthPlace rdf:type owl:ObjectProperty ;
+            rdfs:domain foaf:Person ;
+            rdfs:range geo:Feature .
+
+
+###  http://127.0.0.1:3333/deathPlace
+:deathPlace rdf:type owl:ObjectProperty ;
+            rdfs:domain foaf:Person ;
+            rdfs:range geo:Feature .
+
+
+###  http://127.0.0.1:3333/isActorOf
+:isActorOf rdf:type owl:ObjectProperty ;
+           owl:inverseOf sem:hasActor .
+
+
+###  http://127.0.0.1:3333/isLocationOf
+:isLocationOf rdf:type owl:ObjectProperty ;
+              owl:inverseOf :location ;
+              rdfs:domain geo:Feature ;
+              rdfs:range sem:Event .
+
+
+###  http://127.0.0.1:3333/leadFigure
+:leadFigure rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf sem:hasActor ;
+            rdfs:domain :Conflict ;
+            rdfs:range foaf:Person .
+
+
+###  http://127.0.0.1:3333/location
+:location rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain sem:Event ;
+          rdfs:range geo:Feature .
+
+
+###  http://127.0.0.1:3333/relative
+:relative rdf:type owl:ObjectProperty ,
+                   owl:SymmetricProperty ;
+          rdfs:domain foaf:Person ;
+          rdfs:range foaf:Person .
+
+
+###  http://127.0.0.1:3333/side
+:side rdf:type owl:ObjectProperty ;
+      rdfs:subPropertyOf sem:hasActor ;
+      rdfs:domain :Conflict ;
+      rdfs:range sem:Actor .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/accordingTo
+sem:accordingTo rdf:type owl:ObjectProperty .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/actorType
+sem:actorType rdf:type owl:ObjectProperty .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/eventProperty
+sem:eventProperty rdf:type owl:ObjectProperty ;
+                  rdfs:domain sem:Event .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/eventType
+sem:eventType rdf:type owl:ObjectProperty .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/hasActor
+sem:hasActor rdf:type owl:ObjectProperty ;
+             rdfs:domain sem:Event .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/hasPlace
+sem:hasPlace rdf:type owl:ObjectProperty ;
+             rdfs:range geo:Feature .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/hasSubEvent
+sem:hasSubEvent rdf:type owl:ObjectProperty .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/hasSubType
+sem:hasSubType rdf:type owl:ObjectProperty .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/hasTime
+sem:hasTime rdf:type owl:ObjectProperty ;
+            rdfs:range time:TemporalEntity .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/placeType
+sem:placeType rdf:type owl:ObjectProperty .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/roleType
+sem:roleType rdf:type owl:ObjectProperty .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/subEventOf
+sem:subEventOf rdf:type owl:ObjectProperty .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/subTypeOf
+sem:subTypeOf rdf:type owl:ObjectProperty .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/timeType
+sem:timeType rdf:type owl:ObjectProperty .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/type
+sem:type rdf:type owl:ObjectProperty .
+
+
+###  http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+rdf:type rdf:type owl:ObjectProperty .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#subClassOf
+rdfs:subClassOf rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://127.0.0.1:3333/birthName
+:birthName rdf:type owl:DatatypeProperty ;
+           rdfs:domain foaf:Person ;
+           rdfs:range xsd:string .
+
+
+###  http://127.0.0.1:3333/casualties
+:casualties rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Conflict ;
+            rdfs:range xsd:string .
+
+
+###  http://127.0.0.1:3333/causes
+:causes rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Conflict ;
+        rdfs:range xsd:string .
+
+
+###  http://127.0.0.1:3333/deathCause
+:deathCause rdf:type owl:DatatypeProperty ;
+            rdfs:domain foaf:Person ;
+            rdfs:range xsd:string .
+
+
+###  http://127.0.0.1:3333/honorificPrefix
+:honorificPrefix rdf:type owl:DatatypeProperty ;
+                 rdfs:domain foaf:Person ;
+                 rdfs:range xsd:string .
+
+
+###  http://127.0.0.1:3333/profession
+:profession rdf:type owl:DatatypeProperty ;
+            rdfs:domain foaf:Person ;
+            rdfs:range xsd:string .
+
+
+###  http://127.0.0.1:3333/religion
+:religion rdf:type owl:DatatypeProperty ;
+          rdfs:domain foaf:Person ;
+          rdfs:range xsd:string .
+
+
+###  http://127.0.0.1:3333/result
+:result rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Conflict ;
+        rdfs:range xsd:string .
+
+
+###  http://127.0.0.1:3333/title
+:title rdf:type owl:DatatypeProperty ;
+       rdfs:domain foaf:Person ;
+       rdfs:range xsd:string .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/hasBeginTimeStamp
+sem:hasBeginTimeStamp rdf:type owl:DatatypeProperty .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/hasEarliestBeginTimeStamp
+sem:hasEarliestBeginTimeStamp rdf:type owl:DatatypeProperty .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/hasEarliestEndTimeStamp
+sem:hasEarliestEndTimeStamp rdf:type owl:DatatypeProperty .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/hasEndTimeStamp
+sem:hasEndTimeStamp rdf:type owl:DatatypeProperty .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/hasLatestBeginTimeStamp
+sem:hasLatestBeginTimeStamp rdf:type owl:DatatypeProperty .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/hasLatestEndTimeStamp
+sem:hasLatestEndTimeStamp rdf:type owl:DatatypeProperty .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/hasTimeStamp
+sem:hasTimeStamp rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://127.0.0.1:3333/Conflict
+:Conflict rdf:type owl:Class ;
+          rdfs:subClassOf sem:Event .
+
+
+###  http://127.0.0.1:3333/OfficeHolder
+:OfficeHolder rdf:type owl:Class ;
+              rdfs:subClassOf foaf:Person .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/Actor
+sem:Actor rdf:type owl:Class .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/ActorType
+sem:ActorType rdf:type owl:Class .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/Authority
+sem:Authority rdf:type owl:Class .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/Constraint
+sem:Constraint rdf:type owl:Class .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/Core
+sem:Core rdf:type owl:Class .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/Event
+sem:Event rdf:type owl:Class .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/EventType
+sem:EventType rdf:type owl:Class .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/Object
+sem:Object rdf:type owl:Class .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/Place
+sem:Place rdf:type owl:Class .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/PlaceType
+sem:PlaceType rdf:type owl:Class .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/Role
+sem:Role rdf:type owl:Class .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/RoleType
+sem:RoleType rdf:type owl:Class .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/Temporary
+sem:Temporary rdf:type owl:Class .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/Time
+sem:Time rdf:type owl:Class .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/TimeType
+sem:TimeType rdf:type owl:Class .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/Type
+sem:Type rdf:type owl:Class .
+
+
+###  http://semanticweb.cs.vu.nl/2009/11/sem/View
+sem:View rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Person
+foaf:Person rdf:type owl:Class ;
+            rdfs:subClassOf sem:Actor .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
