@@ -1,0 +1,246 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <https://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:Indonesia  rdf:type  sem:Actor ;
+        rdfs:label  "Indonesia" .
+
+:Tuvalu  rdf:type   sem:Actor ;
+        rdfs:label  "Tuvalu" .
+
+:KerajaanBelanda  rdf:type  sem:Actor ;
+        rdfs:label  "Kerajaan Belanda" .
+
+:KNIL   rdf:type    sem:Actor ;
+        rdfs:label  "KNIL" .
+
+:KekaisaranJepang  rdf:type  sem:Actor ;
+        rdfs:label  "Kekaisaran Jepang" .
+
+:SelandiaBaru  rdf:type  sem:Actor ;
+        rdfs:label  "Selandia Baru" .
+
+:TNI    rdf:type    sem:Actor ;
+        rdfs:label  "TNI" .
+
+:DesertirTentaraIndia
+        rdf:type    sem:Actor ;
+        rdfs:label  "Desertir Tentara India" .
+
+:Australia  rdf:type  sem:Actor ;
+        rdfs:label  "Australia" .
+
+:Tonga  rdf:type    sem:Actor ;
+        rdfs:label  "Tonga" .
+
+:KorpsBrigadeMobil  rdf:type  sem:Actor ;
+        rdfs:label  "Korps Brigade Mobil" .
+
+:Jepang  rdf:type   sem:Actor ;
+        rdfs:label  "Jepang" .
+
+:PeristiwaTigaMaret  rdf:type  :Conflict ;
+        :combatant  :Indonesia , :MilitanIslam .
+
+:BKR    rdf:type    sem:Actor ;
+        rdfs:label  "BKR" .
+
+:TRI    rdf:type    sem:Actor ;
+        rdfs:label  "TRI" .
+
+:BritaniaRaya  rdf:type  sem:Actor ;
+        rdfs:label  "Britania Raya" .
+
+:PDRI   rdf:type    sem:Actor ;
+        rdfs:label  "PDRI" .
+
+:KemaharajaanBritania
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kemaharajaan Britania" .
+
+:PertempuranKumai  rdf:type  :Conflict ;
+        :combatant  :BarisanUlama , :LaskarKalimantan , :TentaraKeamananRakyat , :HindiaBelanda .
+
+:Kaumuleebalang  rdf:type  sem:Actor ;
+        rdfs:label  "Kaum uleebalang" .
+
+:AngkatanPerangRatuAdil
+        rdf:type    sem:Actor ;
+        rdfs:label  "Angkatan Perang Ratu Adil" .
+
+:AmerikaSerikat  rdf:type  sem:Actor ;
+        rdfs:label  "Amerika Serikat" .
+
+:BarisanUlama  rdf:type  sem:Actor ;
+        rdfs:label  "Barisan Ulama" .
+
+:PaoAnTui  rdf:type  sem:Actor ;
+        rdfs:label  "Pao An Tui" .
+
+:RepublikIndonesia  rdf:type  sem:Actor ;
+        rdfs:label  "Republik Indonesia" .
+
+<http://127.0.0.1:3333/KampanyeKalimantan(1945)>
+        rdf:type    :Conflict ;
+        :combatant  :BritaniaRaya , :Belanda , :AmerikaSerikat , :Australia , :KekaisaranJepang .
+
+:SukuDayakDesa  rdf:type  sem:Actor ;
+        rdfs:label  "Suku Dayak Desa" .
+
+:KesultananPontianak  rdf:type  sem:Actor ;
+        rdfs:label  "Kesultanan Pontianak" .
+
+:ImperiumBelanda  rdf:type  sem:Actor ;
+        rdfs:label  "Imperium Belanda" .
+
+:UniSoviet  rdf:type  sem:Actor ;
+        rdfs:label  "Uni Soviet" .
+
+:KepulauanSolomon  rdf:type  sem:Actor ;
+        rdfs:label  "Kepulauan Solomon" .
+
+:DelapanJamPertempurandiMangkang
+        rdf:type    :Conflict ;
+        :combatant  :Indonesia , :Belanda .
+
+:NICA   rdf:type    sem:Actor ;
+        rdfs:label  "NICA" .
+
+:PerangCumbok  rdf:type  :Conflict ;
+        :combatant  :PUSA , :Kaumuleebalang .
+
+:SeranganUmum1Maret1949
+        rdf:type    :Conflict ;
+        :combatant  :Indonesia , :Belanda .
+
+:PertempuranBojongKokosan
+        rdf:type    :Conflict ;
+        :combatant  :Indonesia , :BritaniaRaya .
+
+:Peristiwa19November  rdf:type  :Conflict ;
+        :combatant  :Indonesia , :Belanda .
+
+:KampanyeHindiaBelanda
+        rdf:type    :Conflict ;
+        :combatant  :AmerikaSerikat , :SelandiaBaru , :Australia , :BritaniaRaya , :HindiaBelanda , :Belanda , :ABDACommand , :KekaisaranJepang .
+
+:Fiji   rdf:type    sem:Actor ;
+        rdfs:label  "Fiji" .
+
+:Vanuatu  rdf:type  sem:Actor ;
+        rdfs:label  "Vanuatu" .
+
+:India  rdf:type    sem:Actor ;
+        rdfs:label  "India" .
+
+:RelawanTentaraKekaisaranJepang
+        rdf:type    sem:Actor ;
+        rdfs:label  "Relawan Tentara Kekaisaran Jepang" .
+
+:PerangDayakDesa  rdf:type  :Conflict ;
+        :combatant  :KekaisaranJepang , :SukuDayakDesa .
+
+:PuputanMargarana  rdf:type  :Conflict ;
+        :combatant  :Indonesia , :Belanda .
+
+:PertempuranLengkong  rdf:type  :Conflict ;
+        :combatant  :TentaraKeamananRakyat , :Jepang .
+
+:PUSA   rdf:type    sem:Actor ;
+        rdfs:label  "PUSA" .
+
+:PertempuranMedanArea
+        rdf:type    :Conflict ;
+        :combatant  :Indonesia , :HindiaBelanda , :Belanda , :KemaharajaanBritania , :BritaniaRaya .
+
+:Palau  rdf:type    sem:Actor ;
+        rdfs:label  "Palau" .
+
+:KekaisaranBritania  rdf:type  sem:Actor ;
+        rdfs:label  "Kekaisaran Britania" .
+
+:PemerintahanSipilHindiaBelanda
+        rdf:type    sem:Actor ;
+        rdfs:label  "Pemerintahan Sipil Hindia Belanda" .
+
+:LaskarKalimantan  rdf:type  sem:Actor ;
+        rdfs:label  "Laskar Kalimantan" .
+
+:KonflikPapua  rdf:type  :Conflict ;
+        :combatant  :OrganisasiPapuaMerdeka , :Tonga , :Vanuatu , :Palau , :AmerikaSerikat , :Libya , :Australia , :Nauru , :Samoa , :Indonesia , :KepulauanSolomon , :Fiji , :Tuvalu , :UniSoviet , :PapuaNugini .
+
+:OrganisasiPapuaMerdeka
+        rdf:type    sem:Actor ;
+        rdfs:label  "Organisasi Papua Merdeka" .
+
+:PapuaNugini  rdf:type  sem:Actor ;
+        rdfs:label  "Papua Nugini" .
+
+:Nauru  rdf:type    sem:Actor ;
+        rdfs:label  "Nauru" .
+
+:PenyerbuanKotabaruYogyakarta
+        rdf:type    :Conflict ;
+        :combatant  :Indonesia , :Jepang .
+
+:SeranganUmumSurakarta
+        rdf:type    :Conflict ;
+        :combatant  :Indonesia , :Belanda .
+
+:Samoa  rdf:type    sem:Actor ;
+        rdfs:label  "Samoa" .
+
+<http://127.0.0.1:3333/PemberontakanDI/TIIdiAceh>
+        rdf:type    :Conflict ;
+        :combatant  :NegaraIslamIndonesia , :Indonesia .
+
+:PertempuranLimaHari  rdf:type  :Conflict ;
+        :combatant  :Indonesia , :Jepang .
+
+:PRRI   rdf:type    sem:Actor ;
+        rdfs:label  "PRRI" .
+
+:BandungLautanApi  rdf:type  :Conflict ;
+        :combatant  :RepublikIndonesia , :PemerintahanSipilHindiaBelanda , :HindiaBelanda , :KerajaanBelanda , :ImperiumBelanda , :India , :BritaniaRaya , :KekaisaranBritania .
+
+:HindiaBelanda  rdf:type  sem:Actor ;
+        rdfs:label  "Hindia Belanda" .
+
+:Belanda  rdf:type  sem:Actor ;
+        rdfs:label  "Belanda" .
+
+:MilitanIslam  rdf:type  sem:Actor ;
+        rdfs:label  "Militan Islam" .
+
+:TKR    rdf:type    sem:Actor ;
+        rdfs:label  "TKR" .
+
+:PertempuranSurabaya  rdf:type  :Conflict ;
+        :combatant  :RepublikIndonesia , :India , :BritaniaRaya .
+
+:TentaraKeamananRakyat
+        rdf:type    sem:Actor ;
+        rdfs:label  "Tentara Keamanan Rakyat" .
+
+:NegaraIslamIndonesia
+        rdf:type    sem:Actor ;
+        rdfs:label  "Negara Islam Indonesia" .
+
+:ABDACommand  rdf:type  sem:Actor ;
+        rdfs:label  "ABDA Command" .
+
+:RevolusiNasionalIndonesia
+        rdf:type    :Conflict ;
+        :combatant  :TKR , :DesertirTentaraIndia , :KesultananPontianak , :UniSoviet , :TRI , :KNIL , :RelawanTentaraKekaisaranJepang , :BKR , :NICA , :AngkatanPerangRatuAdil , :AmerikaSerikat , :RepublikIndonesia , :HindiaBelanda , :BritaniaRaya , :Belanda , :KemaharajaanBritania , :PaoAnTui , :India , :KorpsBrigadeMobil , :TNI , :Australia , :PDRI .
+
+:Gerakan30September  rdf:type  :Conflict .
+
+:Operasi17Agustus  rdf:type  :Conflict ;
+        :combatant  :Indonesia , :PRRI .
+
+:Libya  rdf:type    sem:Actor ;
+        rdfs:label  "Libya" .
