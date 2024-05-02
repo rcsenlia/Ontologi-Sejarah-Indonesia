@@ -37,7 +37,7 @@
 
 :KrisisTimorTimur1999
         rdf:type     :Conflict ;
-        :leadfigure  :Wiranto , :ManueldeSousa , :JennyShipley , :Brigjen.PauloPereiraGuerreiro , :PeterCosgrove , :CancioLopezdeCarvalho , :CareyAdamson , :OlivioMendoncaMoruk , :SergioVieiradeMello , :EuricoGuterres , :JohnHoward , :HelenClark .
+        :leadFigure  :Wiranto , :ManueldeSousa , :JennyShipley , :Brigjen.PauloPereiraGuerreiro , :PeterCosgrove , :CancioLopezdeCarvalho , :CareyAdamson , :OlivioMendoncaMoruk , :SergioVieiradeMello , :EuricoGuterres , :JohnHoward , :HelenClark .
 
 :MuzakirManaf  rdf:type  :Person ;
         rdfs:label  "Muzakir Manaf" .
@@ -92,14 +92,14 @@
         rdfs:label  "Rinaldy Damanik" .
 
 :OperasiTrisula  rdf:type  :Conflict ;
-        :leadfigure  :B.O.Hutapea , :Kartomo , :Witarmin , :AbdulHarisNasution , :Soeharto .
+        :leadFigure  :B.O.Hutapea , :Kartomo , :Witarmin , :AbdulHarisNasution , :Soeharto .
 
 :PendudukanIndonesiaatasTimorTimur
         rdf:type     :Conflict ;
-        :leadfigure  :B.J.Habibie , <http://127.0.0.1:3333/Ma'hunoBulerekKarathayano> , :FranciscoXavierdoAmaral , :TrySutrisno , :Wiranto , :JoseAbilioOsorioSoares , :RogerioLobato , :PrabowoSubianto , :EdiSudradjat , :TaurMatanRuak , :L.B.Murdani , :FeisalTanjung , :MuhammadJusuf , :NicolaudosReisLobato , :Soeharto , :EuricoGuterres , :NinoKonisSantana , :DadingKalbuadi , :MariAlkatiri , :MaradenPanggabean , :KeriLaranSabalae , :XananaGusmao , :DavidAlex .
+        :leadFigure  :B.J.Habibie , <http://127.0.0.1:3333/Ma'hunoBulerekKarathayano> , :FranciscoXavierdoAmaral , :TrySutrisno , :Wiranto , :JoseAbilioOsorioSoares , :RogerioLobato , :PrabowoSubianto , :EdiSudradjat , :TaurMatanRuak , :L.B.Murdani , :FeisalTanjung , :MuhammadJusuf , :NicolaudosReisLobato , :Soeharto , :EuricoGuterres , :NinoKonisSantana , :DadingKalbuadi , :MariAlkatiri , :MaradenPanggabean , :KeriLaranSabalae , :XananaGusmao , :DavidAlex .
 
 :KerusuhanPoso  rdf:type  :Conflict ;
-        :leadfigure  :DeddyWoeryantono , :FabianusTibo , :MuinPusadan , :DjasmanBasoOpu , :SlametKirbiantoro , :ZainalAbidinIshak , :AdnanArsal , :AriefPatanga , :BandjelaPaliudju , :SusiloBambangYudhoyono , :JusufKalla , :MarinusRiwu , :AminuddinPonulele , :RinaldyDamanik , :DominggusdaSilva , :AbdurrahmanWahid .
+        :leadFigure  :DeddyWoeryantono , :FabianusTibo , :MuinPusadan , :DjasmanBasoOpu , :SlametKirbiantoro , :ZainalAbidinIshak , :AdnanArsal , :AriefPatanga , :BandjelaPaliudju , :SusiloBambangYudhoyono , :JusufKalla , :MarinusRiwu , :AminuddinPonulele , :RinaldyDamanik , :DominggusdaSilva , :AbdurrahmanWahid .
 
 :DeddyWoeryantono  rdf:type  :Person ;
         rdfs:label  "Deddy Woeryantono" .
@@ -207,7 +207,7 @@
         rdfs:label  "Tunku Osman" .
 
 :PemberontakandiAceh  rdf:type  :Conflict ;
-        :leadfigure  :Soeharto , :IshakDaud , :TrySutrisno , :SusiloYudhoyono , :Sutiyoso , :MuzakirManaf , :ZainiAbdullah , :B.J.Habibie , :AbdurahmanWahid , :HasandiTiro , :BambangDarmono , :EndriartonoSutarto , :Megawati , :SofyanDawood , :AyahMuni , <http://127.0.0.1:3333/AbdullahSyafi'i> .
+        :leadFigure  :Soeharto , :IshakDaud , :TrySutrisno , :SusiloYudhoyono , :Sutiyoso , :MuzakirManaf , :ZainiAbdullah , :B.J.Habibie , :AbdurahmanWahid , :HasandiTiro , :BambangDarmono , :EndriartonoSutarto , :Megawati , :SofyanDawood , :AyahMuni , <http://127.0.0.1:3333/AbdullahSyafi'i> .
 
 :JusufKalla  rdf:type  :Person ;
         rdfs:label  "Jusuf Kalla" .
@@ -246,7 +246,7 @@
 
 :KrisissanderaMapenduma
         rdf:type     :Conflict ;
-        :leadfigure  :KellyKwalik , :PrabowoSubianto .
+        :leadFigure  :KellyKwalik , :PrabowoSubianto .
 
 :Sutiyoso  rdf:type  :Person ;
         rdfs:label  "Sutiyoso" .
@@ -271,7 +271,7 @@
 
 :OperasimiliterIndonesiadiAceh1990-1998
         rdf:type     :Conflict ;
-        :leadfigure  <http://127.0.0.1:3333/AbdullahSyafi'i> , :HasanDiTiro , :Sutiyoso , :TrySutrisno , :Soeharto .
+        :leadFigure  <http://127.0.0.1:3333/AbdullahSyafi'i> , :HasanDiTiro , :Sutiyoso , :TrySutrisno , :Soeharto .
 
 :DominggusdaSilva  rdf:type  :Person ;
         rdfs:label  "Dominggus da Silva" .
@@ -287,7 +287,7 @@
         rdfs:label  "Brigjen. Paulo Pereira Guerreiro" .
 
 :KonflikPapua  rdf:type  :Conflict ;
-        :leadfigure  :JacobPrai , :BudiGunawan , :AbdurrahmanWahid , :MathiasWenda , :TrySutrisno , :KellyKwalik , :AndikaPerkasa , :MegawatiSukarnoputri , :JacobRumbiak , :LeonardusBenyaminMoerdani , :JokoWidodo , :AgusSubiyanto , :Wiranto , :Suharto , <http://127.0.0.1:3333/Ma'rufAmin> , :SebbySambom , :ListyoSigitPrabowo , :GoliathTabuni , :JoniBotak , :EgianusKogoya , :PrabowoSubianto , :BennyWenda , :B.J.Habibie , :SusiloBambangYudhoyono .
+        :leadFigure  :JacobPrai , :BudiGunawan , :AbdurrahmanWahid , :MathiasWenda , :TrySutrisno , :KellyKwalik , :AndikaPerkasa , :MegawatiSukarnoputri , :JacobRumbiak , :LeonardusBenyaminMoerdani , :JokoWidodo , :AgusSubiyanto , :Wiranto , :Suharto , <http://127.0.0.1:3333/Ma'rufAmin> , :SebbySambom , :ListyoSigitPrabowo , :GoliathTabuni , :JoniBotak , :EgianusKogoya , :PrabowoSubianto , :BennyWenda , :B.J.Habibie , :SusiloBambangYudhoyono .
 
 :IshakDaud  rdf:type  :Person ;
         rdfs:label  "Ishak Daud" .
@@ -315,7 +315,7 @@
 
 :InvasiIndonesiakeTimorTimur
         rdf:type     :Conflict ;
-        :leadfigure  :FranciscoXavierdoAmaral , :Soeharto , :Wiranto , :DadingKalbuadi , :NicolaudosReisLobato , :MaradenPanggabean , :LuhutBinsarPandjaitan , :JoseAbilioOsorioSoares , :L.B.Moerdani , :WidjojoSoejono .
+        :leadFigure  :FranciscoXavierdoAmaral , :Soeharto , :Wiranto , :DadingKalbuadi , :NicolaudosReisLobato , :MaradenPanggabean , :LuhutBinsarPandjaitan , :JoseAbilioOsorioSoares , :L.B.Moerdani , :WidjojoSoejono .
 
 :CancioLopezdeCarvalho
         rdf:type    :Person ;
@@ -392,4 +392,4 @@
 
 :KonfrontasiIndonesia-Malaysia
         rdf:type     :Conflict ;
-        :leadfigure  :OmarDhani , :IsmailNasiruddin , :EddyMartadinata , :S.K.Ningkan , :RodneyMoore , :MustaphaHarun , :TuankuSyedPutra , :BongKeeChok , :A.M.Azahari , :Soekarno , :AhmadYani , :HaroldMacmillan , :WalterWalker , :PranotoReksosamudro , :A.H.Nasution , :AlecDouglas-Home , :TunkuOsman , :OmarAliSaifuddienIII , :Soeharto , :HaroldWilson , :YusofIshak , :TunkuAbdulRahman , :LeeKuanYew , :D.N.Aidit , :YassinAffandi , :AbdulRazakHussein .
+        :leadFigure  :OmarDhani , :IsmailNasiruddin , :EddyMartadinata , :S.K.Ningkan , :RodneyMoore , :MustaphaHarun , :TuankuSyedPutra , :BongKeeChok , :A.M.Azahari , :Soekarno , :AhmadYani , :HaroldMacmillan , :WalterWalker , :PranotoReksosamudro , :A.H.Nasution , :AlecDouglas-Home , :TunkuOsman , :OmarAliSaifuddienIII , :Soeharto , :HaroldWilson , :YusofIshak , :TunkuAbdulRahman , :LeeKuanYew , :D.N.Aidit , :YassinAffandi , :AbdulRazakHussein .

@@ -2074,6 +2074,7 @@ time:years rdf:type owl:DatatypeProperty ;
 
 ###  http://127.0.0.1:3333/Conflict
 :Conflict rdf:type owl:Class ;
+          rdfs:label "Conflict" ;
           rdfs:subClassOf sem:Event .
 
 
@@ -2239,6 +2240,7 @@ sem:View rdf:type owl:Class ;
 geo:Feature rdf:type owl:Class ;
             rdfs:subClassOf geo:SpatialObject ;
             owl:disjointWith geo:Geometry ;
+            rdfs:label "Feature" ;
             rdfs:isDefinedBy geo: ,
                              <http://www.opengis.net/spec/geosparql/1.0/req/core/feature-class> ,
                              <http://www.opengis.net/spec/geosparql/1.1/req/core/feature-class> ;
@@ -2873,6 +2875,7 @@ It is deprecated in this edition of OWL-Time. """ ;
 
 ###  http://xmlns.com/foaf/0.1/Person
 foaf:Person rdf:type owl:Class ;
+            rdfs:label "Person" ;
             rdfs:subClassOf sem:Actor .
 
 
