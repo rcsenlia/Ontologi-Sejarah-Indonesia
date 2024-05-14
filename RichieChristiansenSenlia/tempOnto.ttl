@@ -128,7 +128,8 @@ local:death_place rdf:type owl:ObjectProperty ;
 local:spouse rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf local:MilitaryPersonProperty ,
                                 local:RoyaltyProperty ;
-             rdfs:range local:Person .
+             rdfs:range local:Person ;
+             rdfs:label "pasangan (istri/suami)" .
 
 
 ###  http://semanticweb.cs.vu.nl/2009/11/sem/accordingTo
