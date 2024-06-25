@@ -31,7 +31,7 @@ class WikiXmlHandler(xml.sax.handler.ContentHandler):
         if name == 'page':
             self._number += 1
             # print(self._number)
-            self._pages.append(self._values['title'][11:])
+            self._pages.append(self._values['title'])
             # found = self.process_article(self._values['title'],self._values['text'])
             # if(found):
             #     self._pages.append((self._values['title'],self._values['text']))
@@ -69,23 +69,31 @@ handler = WikiXmlHandler()
 parser = xml.sax.make_parser()
 parser.setContentHandler(handler)
 
-with open("mapping_id.xml") as file:
-    for i in file:
+for line in subprocess.Popen(['bzcat'], 
+                              stdin = open(data), 
+                              stdout = subprocess.PIPE).stdout:
+    parser.feed(line)
+    
+print(len(handler._pages))
+    # Stop when 3 articles have been found
+    
+# with open("mapping_id.xml") as file:
+#     for i in file:
         
-        parser.feed(i)
-        # if len(handler._pages) == 1:
-        #     break
-print(handler._pages)
+#         parser.feed(i)
+#         # if len(handler._pages) == 1:
+#         #     break
+# print(handler._pages)
 
-handler2 = WikiXmlHandler()
-parser2 = xml.sax.make_parser()
-parser2.setContentHandler(handler2)
+# handler2 = WikiXmlHandler()
+# parser2 = xml.sax.make_parser()
+# parser2.setContentHandler(handler2)
 
-with open("mapping_en.xml") as file:
-    for i in file:
-        parser2.feed(i)
-        # if len(handler._pages) == 1:
-        #     break
-print(handler2._pages)
-with open("type_mapping_en.json",'w') as file:
-    file.write(json.dumps(handler2._pages))
+# with open("mapping_en.xml") as file:
+#     for i in file:
+#         parser2.feed(i)
+#         # if len(handler._pages) == 1:
+#         #     break
+# print(handler2._pages)
+# with open("type_mapping_en.json",'w') as file:
+#     file.write(json.dumps(handler2._pages))

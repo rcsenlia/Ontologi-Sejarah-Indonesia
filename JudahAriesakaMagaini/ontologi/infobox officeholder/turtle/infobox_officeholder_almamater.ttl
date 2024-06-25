@@ -1,0 +1,403 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:BernardusSugiartaMuljana
+        :almamater  :UniversitasIndonesia .
+
+:PierreTendean  :almamater  :AkademiMiliter .
+
+:A.M.Hendropriyono  :almamater  :AkademiMiliter .
+
+:BurhanuddinAbdullah  :almamater  :UniversitasNegeriMichigan , :UniversitasPadjajaran .
+
+:PramonoEdhieWibowo  :almamater  :SeskoTNI , :Seskoad , :AkademiTentaraNasionalIndonesia .
+
+:SubiaktoTjakrawerdaya
+        :almamater  :UniversitasKristenIndonesia .
+
+:SumantriBrodjonegoro
+        :almamater  :TechnischeUniversiteitDelft , :InstitutTeknologiBandung .
+
+:MuammarKhadafi  :almamater  :AkademiUniversitasMiliterBenghazi , :UniversitasLibya .
+
+<http://127.0.0.1:3333/WidodoA.S.>
+        :almamater  :AkademiAngkatanLaut .
+
+:AwaloedinDjamin  :almamater  :UniversitasCaliforniaSelatan , :UniversitasPittsburgh , :PTIKJakarta .
+
+:RusliHalil  :almamater  :UniversitasNasional .
+
+:LindaAmaliaSari  :almamater  :UniversitasTerbuka .
+
+:AgumGumelar  :almamater  :AkademiTentaraNasionalIndonesia .
+
+:DanangHadiwibowo  :almamater  :AkademiAngkatanUdara .
+
+:KaharMuzakir  :almamater  :IKIPYogyakarta .
+
+:SoetardjoSoerjogoeritno
+        :almamater  :UniversitasGadjahMada .
+
+:NasrudinSumintapura  :almamater  :UniversitasIndonesia .
+
+:SayidimanSuryohadiprojo
+        :almamater  :AngkatanI , :AkademiMiliter .
+
+:SophanSophiaan  :almamater  :UniversitasKristenIndonesia , :ViennaUniversityofEconomicsandBusiness .
+
+:MervinSadipunKomber  :almamater  :UniversitasTrisakti , :UniversitasCenderawasih .
+
+:LatiefHendraningrat  :almamater  :PETA .
+
+:AjitSingh  :almamater  :UniversityofMalaysia .
+
+:Adhyatma  :almamater  :UniversityofBerkeley , :UniversitasIndonesia .
+
+:RadiusPrawiro  :almamater  :UniversitasIndonesia .
+
+:AdrianusMooy  :almamater  <http://127.0.0.1:3333/UniversitasWisconsin–Madison> , :UniversitasGadjahMada .
+
+:PahriAzhari  :almamater  :UniversitasSriwijaya .
+
+:HaryonoSuyono  :almamater  :UniversityofChicago , :PoliteknikStatistikaSTIS , :UniversitasGadjahMada , :SMANegeri4Yogyakarta .
+
+:SyarwanHamid  :almamater  :AkademiMiliter .
+
+:A.R.Soehoed  :almamater  :InstitutTeknologiBandung .
+
+:EdiSudradjat  :almamater  :AkademiMiliter .
+
+:RanoKarno  :almamater  :SekolahTinggiIlmuPemerintahanAbdiNegaraJakarta .
+
+:BomerPasaribu  :almamater  :InstitutPertanianBogor , :UniversitasSumateraUtara .
+
+:SriAdiningsih  :almamater  :UniversitasGadjahMada , :UniversityofIllinois .
+
+:MarzukiAlie  :almamater  :UniversitiUtaraMalaysia , :UniversitasSriwijaya .
+
+:SubagyoHadiSiswoyo  :almamater  :AkademiTentaraNasionalIndonesia .
+
+:AirlanggaHartarto  :almamater  :UniversityofMelbourne , :MonashUniversity , :UniversitasGadjahMada .
+
+:YogiSupardi  :almamater  :AngkatanI , :AkademiMiliter .
+
+:DadingKalbuadi  :almamater  <http://127.0.0.1:3333/P3AD(PusatPendidikanPerwiraAngkatanDarat)> .
+
+:ImanuelEkadianusBlegur
+        :almamater  :UniversitasIndonesia , :UniversitasNusaCendanaKupang .
+
+:SunawarSukowati  :almamater  :UniversitasPadjadjaran , :UniversitasGadjahMada .
+
+:Alirahman  :almamater  :InstitutPertanianBogor .
+
+:HermanDeru  :almamater  :STIETrisnaNegara , :UniversitasSjakhyakirtiPalembang .
+
+:EmanuelMelkiadesLakaLena
+        :almamater  :UniversitasSanataDharma .
+
+:BambangSoesatyo  :almamater  :UniversitasPadjadjaran , :UniversitasTerbuka , :STIEIndonesiaJakarta .
+
+:MahfudMD  :almamater  :UniversitasGadjahMada , :UniversitasIslamIndonesia .
+
+:MochamadJasin  :almamater  <http://127.0.0.1:3333/DefenceGeneralStaffCollege,Wellington,India> .
+
+:S.K.Trimurti  :almamater  :UniversitasIndonesia .
+
+:SlametImanSantoso  :almamater  :GeneeskundeSchoolofArtsBataviaSentrum , :SchooltotOpleidingvanIndischeArtsen .
+
+:CosmasBatubara  :almamater  :UniversitasIndonesia .
+
+:AksaMahmud  :almamater  :UniversitasHasanuddin .
+
+:AchmadSoebardjo  :almamater  :UniversitasLeiden .
+
+:AmienRais  :almamater  :UniversitasChicago , :UniversitasNotreDame , :UINSunanKalijaga , :UniversitasGadjahMada .
+
+:MooryatiSoedibyo  :almamater  :UniversitasSebelasMaret , :UniversitasTerbuka , :UniversitasSaraswati .
+
+:T.B.Simatupang  :almamater  :KNIL .
+
+:NazomNurhawi  :almamater  :AkademiMiliter .
+
+:BambangPurwanto  :almamater  :AkademiKepolisian .
+
+:Subroto  :almamater  :UniversitasIndonesia .
+
+:MakmunMurod  :almamater  :AkademiMiliter .
+
+:A.M.Fatwa  :almamater  :AkademiAngkatanLaut .
+
+:LodewijkFreidrichPaulus
+        :almamater  :AkademiTentaraNasionalIndonesia .
+
+:SariYuliati  :almamater  :UniversitasIndonesia , :UniversitasTrisakti .
+
+:JohannesLeimena  :almamater  :SchooltotOpleidingvanInlandscheArtsen .
+
+:AlexanderAndriesMaramis
+        :almamater  :UniversitasLeiden .
+
+<http://127.0.0.1:3333/AbdulLatief(pengusaha)>
+        :almamater  :UniversitasKrisnadwipayana , :AkademiPimpinanPerusahaanJakarta .
+
+:MarzukiDarusman  :almamater  :UniversitasKatolikParahyangan .
+
+:BustanilArifin  :almamater  :UniversitasPadjajaran .
+
+:AburizalBakrie  :almamater  :InstitutTeknologiBandung .
+
+:DaveLaksono  :almamater  :UniversitasPertahananIndonesia , :UniversitasIndonesia , <http://127.0.0.1:3333/CaliforniaStateUniversity,Northridge> , :SantaMonicaCollege , :ArmyNavyAcademy .
+
+:SofjanWanandi  :almamater  :KoleseKanisius , :UniversitasIndonesia .
+
+:SlametKirbiantoro  :almamater  :AkademiTentaraNasionalIndonesia .
+
+<http://127.0.0.1:3333/ZaenalMa'arif>
+        :almamater  :UniversitasMuhammadiyahSurakarta , :UniversitasGadjahMada .
+
+:SoesiloSoedarman  :almamater  :AngkatanI , :AkademiMiliter .
+
+:IshakMekki  :almamater  :UniversitasSriwijaya .
+
+:AkbarTanjung  :almamater  :UniversitasGadjahMada , :UniversitasIndonesia .
+
+<http://127.0.0.1:3333/Soerjadi(militer)>
+        :almamater  :AkademiMiliter .
+
+:AzwarAnas  :almamater  :InstitutTeknologiBandung .
+
+:MuchdiPurwoprandjono
+        :almamater  :AkademiTentaraNasionalIndonesia .
+
+:J.B.Sumarlin  :almamater  :UniversitasIndonesia .
+
+:Kuntara  :almamater  :AkademiMiliter .
+
+:Poniman  :almamater  :PETA .
+
+:HasjrulHarahap  :almamater  :InstitutPertanianBogor .
+
+:OetojoOesman  :almamater  :UniversitasIndonesia .
+
+<http://127.0.0.1:3333/Sugiono(militer)>
+        :almamater  :AkademiMiliter .
+
+:AndiSinjayaGhalib  :almamater  :AkademiKepolisian .
+
+:AgungLaksono  :almamater  :UniversitasKristenIndonesia .
+
+:SalehAfiff  :almamater  :UniversitasIndonesia .
+
+:HayonoIsman  :almamater  :SekolahTinggiIlmuPemerintahanAbdiNegaraJakarta .
+
+:MusannifRyacudu  :almamater  :PETA .
+
+:AriefPatanga  :almamater  :UniversitasIslamIndonesia .
+
+:GatotSoebroto  :almamater  :KNIL .
+
+:RoesminNoerjadin  :almamater  :AkademiAngkatanUdara .
+
+:SuharnokoHarbani  :almamater  :SekolahPenerbangA-1 .
+
+:OemarSenoAdji  :almamater  :UniversitasGadjahMada .
+
+:HidayatNurWahid  :almamater  :UniversitasIslamMadinah , :UINSunanKalijaga , :PondokModernDarussalamGontor .
+
+:KuntoAriefWibowo  :almamater  :UniversitasTerbuka , :AkademiMiliter .
+
+:HimawanSoetanto  :almamater  :AngkatanI , :AkademiMiliter .
+
+:Barlian  :almamater  :SekolahStafdanKomandoTNIAngkatanDarat .
+
+:FahriHamzah  :almamater  :UniversitasIndonesia .
+
+:HermanBernhardLeopoldMantiri
+        :almamater  :AkademiMiliter .
+
+:Tarub  :almamater  :AkademiMiliter .
+
+:Moetojib  :almamater  :AkademiMiliter .
+
+:GitaWirjawan  :almamater  :HarvardUniversity .
+
+:IndriyantoSenoAdji  :almamater  :UniversitasIndonesia .
+
+:FuadBawazier  :almamater  :UniversityofMaryland , :WilliamCollege , :UniversitasGadjahMada .
+
+:DorodjatunKuntjoro-Jakti
+        :almamater  <http://127.0.0.1:3333/UniversitasCalifornia,Berkeley> , :UniversitasIndonesia .
+
+:AgusHermanto  :almamater  :UniversitasBrawijaya .
+
+:HarisSudarno  :almamater  :AkademiMiliter .
+
+:JuwonoSudarsono  :almamater  :LondonSchoolofEconomicsandPoliticalScience , :UniversitasIndonesia .
+
+:RachmatSaleh  :almamater  :UniversitasIndonesia .
+
+:SoegihArto  :almamater  :HogereKriegjschool .
+
+:NugrohoNotosusanto  :almamater  :UniversitasIndonesia .
+
+:HuseinMutahar  :almamater  :UniversitasGadjahMada , :AlgemeneMiddelbareSchool , :MeerUitgebreidLagerOnderwijs , :EuropeescheLagereSchool .
+
+:MuhammadAlwiDahlan  :almamater  :UniversitasIllinoisUrbana-Champaign , :UniversitasStanford , :UniversitasAmerika .
+
+:JusufWibisono  :almamater  :RechtscoogeschoolteBatavia .
+
+:BandjelaPaliudju  :almamater  :SekolahCalonPerwiraAngkatanDarat .
+
+:JustikaBaharsjah  :almamater  :UniversitasCornell , :UniversitasKentucky , :InstitutPertanianBogor .
+
+:SoedjonoDjoenedPoesponegoro
+        :almamater  :UniversitasLeiden , :GeneeskundigeHoogeschoolteBatavia .
+
+:ArifinSiregar  :almamater  :UniversitasMünster , :NederlandscheEconomischeHogeschool .
+
+:GinandjarKartasasmita
+        :almamater  :SekolahStafdanKomandoAngkatanUdara , :SekolahDasarPerwira , :SekolahTinggiIlmuAdministrasiLembagaAdministrasiNegara , :TokyoUniversityofAgricultureandTechnology , :InstitutTeknologiBandung .
+
+:FransSeda  :almamater  :KatoliekeEconomischeHogeschool , :HollandscheBurgerschool .
+
+:HasriAinunBesari  :almamater  :UniversitasIndonesia .
+
+:YogieSuardiMemet  :almamater  :AkademiMiliter .
+
+:Wahono  :almamater  :PETA .
+
+:IGustiKetutPudja  :almamater  :RechtshoogeschoolteBatavia .
+
+:PeterCosgrove  :almamater  <http://127.0.0.1:3333/RoyalMilitaryCollege,Duntroon> .
+
+:Djatikoesoemo  :almamater  :CorpsOpleidingReserveOfficieren .
+
+:SoerjadiSoerjadarma  :almamater  :KMABreda .
+
+:SabamSirait  :almamater  :UniversitasIndonesia .
+
+:SetyaNovanto  :almamater  :UniversitasTrisakti , :UniversitasKatolikWidyaMandalaSurabaya .
+
+:AliSaid  :almamater  :SekolahTinggiHukumMiliterAHM-PTHM .
+
+:MochtarKusumaatmadja
+        :almamater  :UniversitasPadjajaran , :UniversitasIndonesia .
+
+:MohamadHekal  :almamater  :AmericanUniversity , :UniversityofMaryland .
+
+:Soemono  :almamater  :InstitutTeknologiBandung .
+
+:MarzukiUsman  :almamater  :DukeUniversity , :UniversitasGadjahMada .
+
+:AhmadYunusMokoginta  :almamater  :AkademiMiliterBreda .
+
+:Soebandrio  :almamater  :SekolahTinggiKedokteranJakarta .
+
+:IskandarSitompul  :almamater  :AkademiAngkatanLaut .
+
+:RyamizardRyacudu  :almamater  :AkademiTentaraNasionalIndonesia .
+
+:HaryatiSoebadio  :almamater  :UniversitasIndonesia .
+
+:AdnanKapauGani  :almamater  :GeneeskundigeHoogeschoolteBatavia .
+
+:NaniSoedarsono  :almamater  :UniversitasGadjahMada .
+
+:SuronoReksodimedjo  :almamater  :PembelaTanahAir .
+
+:SoemarnoSosroatmodjo
+        :almamater  :UniversitasVanderbilt , :UniversitasPadjadjaran .
+
+:Muladi  :almamater  :UniversitasPadjajaran , :UniversitasDiponegoro .
+
+:DjoehanaWiradikarta  :almamater  :UniversitasAmsterdam , :SchooltotOpleidingvanInlandscheArtsen .
+
+:AlamsyahRatuPerwiranegara
+        :almamater  :U.SArmyGeneralandCommandStaffCollege , :GyuGun .
+
+:LukitaDinarsyahTuwo  :almamater  :InstitutTeknologiBandung .
+
+:HadiPrabowo  :almamater  :InstitutPemerintahanDalamNegeri , :UniversitasIslamIndonesia , :UniversitasDiponegoro .
+
+:M.Sarbini  :almamater  :AkademiMiliter .
+
+:IrmanGusman  :almamater  :UniversityofBridgeport , :UniversitasKristenIndonesia .
+
+:Wiranto  :almamater  :UniversitasNegeriJakarta , :PerguruanTinggiIlmuHukumMiliter , :UniversitasTerbuka , :AkademiMiliter .
+
+<http://127.0.0.1:3333/Soetedjo(akademisi)>
+        :almamater  :InstitutTeknologiBandung .
+
+:SoerjadiSoedirdja  :almamater  :AkademiMiliter .
+
+:R.Hartono  :almamater  :AkademiMiliter .
+
+:FirmanSantyabudi  :almamater  :AkademiKepolisian .
+
+:W.A.F.J.Tumbelaka  :almamater  :UniversitasIndonesia .
+
+:AliMoertopo  :almamater  :Pendidikanmilitertk.Bintara .
+
+:Rudini  :almamater  :KoninklijkeAkademiMiliterBreda .
+
+:ToyibHadiwijaya  :almamater  :UniversitasIndonesia , :InstitutPertanianBogor .
+
+:SintongPanjaitan  :almamater  :AkademiMiliter .
+
+:SuyonoSosrodarsono  :almamater  :InstitutTeknologiBandung .
+
+:MuinPusadan  :almamater  :UniversitasTadulako .
+
+:KasmanSingodimedjo  :almamater  :ELS , :HIS , :AMS , :GMS , :MULO , :SchooltotOpleidingvanInlandscheArtsen .
+
+:FilomenoHornay  :almamater  <http://127.0.0.1:3333/LincolnUniversity,NewZealand> .
+
+:HartantoEdhieWibowo  :almamater  :UniversitasNegeriOregon .
+
+:Soekarto  :almamater  :AkademiMiliter .
+
+:DewiAsmara  :almamater  :UniversitasPadjadjaran , :UniversitasIndonesia .
+
+:AdeKomarudin  :almamater  :UniversitasPadjadjaran , :UniversitasIslamNegeriSyarifHidayatullahJakarta .
+
+:BambangSubianto  :almamater  :KatholiekeUniversiteitteLeuven , :InstitutTeknologiBandung .
+
+:MaharMardjono  :almamater  :UniversityofCalifornia , :ArmedForcesInstituteofPathology , :UniversitasIndonesia .
+
+:WidjojoNitisastro  :almamater  :UniversityofCalifornia , :UniversitasIndonesia .
+
+:Goenarso  :almamater  :InstitutTeknologiBandung .
+
+:MohamadSulemanHidayat
+        :almamater  :UniversitasPadjadjaran .
+
+:AhmadYani  :almamater  :CommandandGeneralStafCollege , :PendidikanCalonPerwiraDinasTopografiMiliter , :AMS .
+
+:FeisalTanjung  :almamater  :AkademiMiliter .
+
+:HadiUtomo  :almamater  :SekolahTinggiIlmuEkonomiWidyaJayakarta , :SekolahTinggiHukumMiliter , :AkademiTentaraNasionalIndonesia .
+
+:Sujudi  :almamater  :UniversitasIndonesia .
+
+:IdaBagusMantra  :almamater  :UniversitasVisva-Bharati .
+
+:AmirMachmud  :almamater  :AkademiMiliter .
+
+:HastoWardoyo  :almamater  :UniversitasGadjahMada .
+
+:SoedarsonoHadisapoetro
+        :almamater  :UniversitasGadjahMada .
+
+:WismoyoArismunandar  :almamater  :AkademiMiliter .
+
+:SoemitroDjojohadikoesoemo
+        :almamater  :SekolahTinggiEkonomiBelanda , :UniversitasSorbonne .
+
+:SyariefThayeb  :almamater  :MindanaoUniversity , :HarvardUniversity , :UniversitasIndonesia .
+
+:PurwotoGandasubrata  :almamater  :FakultasHukumUniversitasIndonesia .

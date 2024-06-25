@@ -1,0 +1,433 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <https://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:Indonesia  rdf:type  sem:Actor ;
+        rdfs:label  "Indonesia" .
+
+:LobiJakarta  rdf:type  sem:Actor ;
+        rdfs:label  "Lobi Jakarta" .
+
+:GerakanAcehMerdeka  rdf:type  sem:Actor ;
+        rdfs:label  "Gerakan Aceh Merdeka" .
+
+:Zambia  rdf:type   sem:Actor ;
+        rdfs:label  "Zambia" .
+
+:PolresPoso  rdf:type  sem:Actor ;
+        rdfs:label  "Polres Poso" .
+
+:Uruguay  rdf:type  sem:Actor ;
+        rdfs:label  "Uruguay" .
+
+:SriLanka  rdf:type  sem:Actor ;
+        rdfs:label  "Sri Lanka" .
+
+:Tuvalu  rdf:type   sem:Actor ;
+        rdfs:label  "Tuvalu" .
+
+:KrisisTimorTimur1999
+        rdf:type  :Conflict ;
+        :side     :Israel , :Kopassus , :Ghana , :Irlandia , :Aitarak , :Italia , :Bulgaria , :UNTAET , :Chili , :Prancis , :BosniadanHerzegovina , :Meksiko , :Jerman , :BritaniaRaya , :Zambia , :Senegal , :Mahidi , :Slowakia , :Tiongkok , :Swedia , :TimorLeste , :Benin , :Laksaur , :Uruguay , :GardaMudaPenegakIntegrasi , :SriLanka , :Brasil , :INTERFET , :Turki , :Samoa , :Pakistan , :Rusia , :Mozambik , :Niger , :Slovenia , :Namibia , :Nigeria , :Peru , :Bolivia , :Thailand , :Milisipro-Indonesia , :Jepang , :SelandiaBaru , :Argentina , :Denmark , :BIN , :Kanada , :Kenya , :BesiMerahPutih , :Austria , :KoreaSelatan , :Australia , :LobiJakarta , :Mesir , :Malaysia , :Kroasia , :Spanyol , :Yordania , :Gambia , :Fiji , :Nepal , :Filipina , :SerbiadanMontenegro , :Bangladesh , :Norway , :Vanuatu , :AmerikaSerikat , :Tajikistan , :Ukraina , :Zimbabwe , :Singapura , :Portugal .
+
+:LaskarJihad  rdf:type  sem:Actor ;
+        rdfs:label  "Laskar Jihad" .
+
+:Zimbabwe  rdf:type  sem:Actor ;
+        rdfs:label  "Zimbabwe" .
+
+:POLRI  rdf:type    sem:Actor ;
+        rdfs:label  "POLRI" .
+
+:SelandiaBaru  rdf:type  sem:Actor ;
+        rdfs:label  "Selandia Baru" .
+
+:SukuDayak  rdf:type  sem:Actor ;
+        rdfs:label  "Suku Dayak" .
+
+:TNI    rdf:type    sem:Actor ;
+        rdfs:label  "TNI" .
+
+:Bulgaria  rdf:type  sem:Actor ;
+        rdfs:label  "Bulgaria" .
+
+:Spanyol  rdf:type  sem:Actor ;
+        rdfs:label  "Spanyol" .
+
+:TimorLeste  rdf:type  sem:Actor ;
+        rdfs:label  "Timor Leste" .
+
+:Senegal  rdf:type  sem:Actor ;
+        rdfs:label  "Senegal" .
+
+:PKKU   rdf:type    sem:Actor ;
+        rdfs:label  "PKKU" .
+
+:Kanada  rdf:type   sem:Actor ;
+        rdfs:label  "Kanada" .
+
+:Filipina  rdf:type  sem:Actor ;
+        rdfs:label  "Filipina" .
+
+:Turki  rdf:type    sem:Actor ;
+        rdfs:label  "Turki" .
+
+:Aitarak  rdf:type  sem:Actor ;
+        rdfs:label  "Aitarak" .
+
+<http://127.0.0.1:3333/TentaraNasionalAceh(TNA)>
+        rdf:type    sem:Actor ;
+        rdfs:label  "Tentara Nasional Aceh (TNA)" .
+
+:Tonga  rdf:type    sem:Actor ;
+        rdfs:label  "Tonga" .
+
+:Australia  rdf:type  sem:Actor ;
+        rdfs:label  "Australia" .
+
+:Malaysia  rdf:type  sem:Actor ;
+        rdfs:label  "Malaysia" .
+
+:KerusuhanSambas  rdf:type  :Conflict ;
+        :side     :SukuMadura , :SukuDayak , :SukuMelayu .
+
+:Jepang  rdf:type   sem:Actor ;
+        rdfs:label  "Jepang" .
+
+:Jerman  rdf:type   sem:Actor ;
+        rdfs:label  "Jerman" .
+
+:Laksaur  rdf:type  sem:Actor ;
+        rdfs:label  "Laksaur" .
+
+:Yordania  rdf:type  sem:Actor ;
+        rdfs:label  "Yordania" .
+
+:Bolivia  rdf:type  sem:Actor ;
+        rdfs:label  "Bolivia" .
+
+:Milisipro-Indonesia  rdf:type  sem:Actor ;
+        rdfs:label  "Milisi pro-Indonesia" .
+
+:OperasiTrisula  rdf:type  :Conflict ;
+        :side     :PartaiKomunisIndonesia , :Brimob , :Polri , :TNI , :Indonesia .
+
+:PendudukanIndonesiaatasTimorTimur
+        rdf:type  :Conflict ;
+        :side     :TimorLeste , :Portugal , :Thailand , :BritaniaRaya , :Jepang , :Mozambik , :CNRM , :Australia , :FRETILIN , :Falintil , :Tiongkok , :Kanada , :UDT , :Malaysia , :Rusia , :AmerikaSerikat , :Libya , :Filipina , :Indonesia , :KoreaSelatan , :UniSoviet , :TimorTimur .
+
+:KerusuhanPoso  rdf:type  :Conflict ;
+        :side     :KodamWirabuana , :BatalyonInfanteri711 , :TNI , :LaskarKristus , :POLRI , :PolresPoso , :Korem132Tadulako , :LaskarJihad , :MujahidinKOMPAK , :JemaahIslamiyah , :PoldaSulawesiTengah , :KelelawarHitam , :BrigadeManguni .
+
+:KoreaSelatan  rdf:type  sem:Actor ;
+        rdfs:label  "Korea Selatan" .
+
+:Norway  rdf:type   sem:Actor ;
+        rdfs:label  "Norway" .
+
+:Mahidi  rdf:type   sem:Actor ;
+        rdfs:label  "Mahidi" .
+
+:Bangladesh  rdf:type  sem:Actor ;
+        rdfs:label  "Bangladesh" .
+
+:TimorTimur  rdf:type  sem:Actor ;
+        rdfs:label  "Timor Timur" .
+
+:BrigadeManguni  rdf:type  sem:Actor ;
+        rdfs:label  "Brigade Manguni" .
+
+:Namibia  rdf:type  sem:Actor ;
+        rdfs:label  "Namibia" .
+
+:BritaniaRaya  rdf:type  sem:Actor ;
+        rdfs:label  "Britania Raya" .
+
+:VietnamUtara  rdf:type  sem:Actor ;
+        rdfs:label  "Vietnam Utara" .
+
+:Mozambik  rdf:type  sem:Actor ;
+        rdfs:label  "Mozambik" .
+
+:Israel  rdf:type   sem:Actor ;
+        rdfs:label  "Israel" .
+
+:Austria  rdf:type  sem:Actor ;
+        rdfs:label  "Austria" .
+
+:Slowakia  rdf:type  sem:Actor ;
+        rdfs:label  "Slowakia" .
+
+:Brimob  rdf:type   sem:Actor ;
+        rdfs:label  "Brimob" .
+
+:Tajikistan  rdf:type  sem:Actor ;
+        rdfs:label  "Tajikistan" .
+
+:INTERFET  rdf:type  sem:Actor ;
+        rdfs:label  "INTERFET" .
+
+:Chili  rdf:type    sem:Actor ;
+        rdfs:label  "Chili" .
+
+:Swedia  rdf:type   sem:Actor ;
+        rdfs:label  "Swedia" .
+
+:AmerikaSerikat  rdf:type  sem:Actor ;
+        rdfs:label  "Amerika Serikat" .
+
+:Tiongkok  rdf:type  sem:Actor ;
+        rdfs:label  "Tiongkok" .
+
+:CNRM   rdf:type    sem:Actor ;
+        rdfs:label  "CNRM" .
+
+:GardaMudaPenegakIntegrasi
+        rdf:type    sem:Actor ;
+        rdfs:label  "Garda Muda Penegak Integrasi" .
+
+:SukuMadura  rdf:type  sem:Actor ;
+        rdfs:label  "Suku Madura" .
+
+:PemberontakandiAceh  rdf:type  :Conflict ;
+        :side     :LibyanArabJamahiriya , :GerakanAcehMerdeka , :AmerikaSerikat , :Indonesia .
+
+:Italia  rdf:type   sem:Actor ;
+        rdfs:label  "Italia" .
+
+:UniSoviet  rdf:type  sem:Actor ;
+        rdfs:label  "Uni Soviet" .
+
+:Prancis  rdf:type  sem:Actor ;
+        rdfs:label  "Prancis" .
+
+:KepulauanSolomon  rdf:type  sem:Actor ;
+        rdfs:label  "Kepulauan Solomon" .
+
+:PersemakmuranBangsa-Bangsa
+        rdf:type    sem:Actor ;
+        rdfs:label  "Persemakmuran Bangsa-Bangsa" .
+
+:Rusia  rdf:type    sem:Actor ;
+        rdfs:label  "Rusia" .
+
+:BesiMerahPutih  rdf:type  sem:Actor ;
+        rdfs:label  "Besi Merah Putih" .
+
+:Falintil  rdf:type  sem:Actor ;
+        rdfs:label  "Falintil" .
+
+:Brunei  rdf:type   sem:Actor ;
+        rdfs:label  "Brunei" .
+
+:APODETI  rdf:type  sem:Actor ;
+        rdfs:label  "APODETI" .
+
+:Taiwan  rdf:type   sem:Actor ;
+        rdfs:label  "Taiwan" .
+
+:Thailand  rdf:type  sem:Actor ;
+        rdfs:label  "Thailand" .
+
+:OperasiJayapura1976  rdf:type  :Conflict ;
+        :side     :RepublikPapuaBarat , :Indonesia .
+
+:Nigeria  rdf:type  sem:Actor ;
+        rdfs:label  "Nigeria" .
+
+:KrisissanderaMapenduma
+        rdf:type  :Conflict ;
+        :side     :RepublikPapuaBarat , :Indonesia .
+
+:PoldaSulawesiTengah  rdf:type  sem:Actor ;
+        rdfs:label  "Polda Sulawesi Tengah" .
+
+:Fiji   rdf:type    sem:Actor ;
+        rdfs:label  "Fiji" .
+
+:Vanuatu  rdf:type  sem:Actor ;
+        rdfs:label  "Vanuatu" .
+
+:PKI    rdf:type    sem:Actor ;
+        rdfs:label  "PKI" .
+
+:KelelawarHitam  rdf:type  sem:Actor ;
+        rdfs:label  "Kelelawar Hitam" .
+
+:Gambia  rdf:type   sem:Actor ;
+        rdfs:label  "Gambia" .
+
+:Meksiko  rdf:type  sem:Actor ;
+        rdfs:label  "Meksiko" .
+
+:BosniadanHerzegovina
+        rdf:type    sem:Actor ;
+        rdfs:label  "Bosnia dan Herzegovina" .
+
+:Kuba   rdf:type    sem:Actor ;
+        rdfs:label  "Kuba" .
+
+:PRB    rdf:type    sem:Actor ;
+        rdfs:label  "PRB" .
+
+:UDT    rdf:type    sem:Actor ;
+        rdfs:label  "UDT" .
+
+:OperasimiliterIndonesiadiAceh1990-1998
+        rdf:type  :Conflict ;
+        :side     :LaskarInongBale , <http://127.0.0.1:3333/TentaraNasionalAceh(TNA)> , :GerakanAcehMerdeka , :AmerikaSerikat , <http://127.0.0.1:3333/AngkatanBersenjataRepublikIndonesia(ABRI)> , :Indonesia .
+
+:Kroasia  rdf:type  sem:Actor ;
+        rdfs:label  "Kroasia" .
+
+:Palau  rdf:type    sem:Actor ;
+        rdfs:label  "Palau" .
+
+:FALINTIL  rdf:type  sem:Actor ;
+        rdfs:label  "FALINTIL" .
+
+:PartaiKomunisIndonesia
+        rdf:type    sem:Actor ;
+        rdfs:label  "Partai Komunis Indonesia" .
+
+:KonflikPapua  rdf:type  :Conflict ;
+        :side     :UniSoviet , :Tonga , :PapuaNugini , :OrganisasiPapuaMerdeka , :Fiji , :Vanuatu , :Indonesia , :AmerikaSerikat , :Palau , :Libya , :Nauru , :KepulauanSolomon , :Samoa , :Tuvalu , :Australia .
+
+:OrganisasiPapuaMerdeka
+        rdf:type    sem:Actor ;
+        rdfs:label  "Organisasi Papua Merdeka" .
+
+:PapuaNugini  rdf:type  sem:Actor ;
+        rdfs:label  "Papua Nugini" .
+
+:FRETILIN  rdf:type  sem:Actor ;
+        rdfs:label  "FRETILIN" .
+
+:SerbiadanMontenegro  rdf:type  sem:Actor ;
+        rdfs:label  "Serbia dan Montenegro" .
+
+:Pakistan  rdf:type  sem:Actor ;
+        rdfs:label  "Pakistan" .
+
+:Denmark  rdf:type  sem:Actor ;
+        rdfs:label  "Denmark" .
+
+:Nauru  rdf:type    sem:Actor ;
+        rdfs:label  "Nauru" .
+
+:LaskarInongBale  rdf:type  sem:Actor ;
+        rdfs:label  "Laskar Inong Bale" .
+
+:UNTAET  rdf:type   sem:Actor ;
+        rdfs:label  "UNTAET" .
+
+:RepublikPapuaBarat  rdf:type  sem:Actor ;
+        rdfs:label  "Republik Papua Barat" .
+
+:Nepal  rdf:type    sem:Actor ;
+        rdfs:label  "Nepal" .
+
+:Ukraina  rdf:type  sem:Actor ;
+        rdfs:label  "Ukraina" .
+
+:Niger  rdf:type    sem:Actor ;
+        rdfs:label  "Niger" .
+
+:LibyanArabJamahiriya
+        rdf:type    sem:Actor ;
+        rdfs:label  "Libyan Arab Jamahiriya" .
+
+:ABRI   rdf:type    sem:Actor ;
+        rdfs:label  "ABRI" .
+
+:Korem132Tadulako  rdf:type  sem:Actor ;
+        rdfs:label  "Korem 132 Tadulako" .
+
+:InvasiIndonesiakeTimorTimur
+        rdf:type  :Conflict ;
+        :side     :KoreaSelatan , :ArabSaudi , :FRETILIN , :AmerikaSerikat , :Kuba , :PSTT , :Tiongkok , :Mozambik , :Swedia , :Taiwan , :APODETI , :UDT , :UniSoviet , :Indonesia , :ABRI , :TimorLeste , :Australia , :FALINTIL .
+
+:Polri  rdf:type    sem:Actor ;
+        rdfs:label  "Polri" .
+
+:Samoa  rdf:type    sem:Actor ;
+        rdfs:label  "Samoa" .
+
+<http://127.0.0.1:3333/AngkatanBersenjataRepublikIndonesia(ABRI)>
+        rdf:type    sem:Actor ;
+        rdfs:label  "Angkatan Bersenjata Republik Indonesia (ABRI)" .
+
+:MujahidinKOMPAK  rdf:type  sem:Actor ;
+        rdfs:label  "Mujahidin KOMPAK" .
+
+:BIN    rdf:type    sem:Actor ;
+        rdfs:label  "BIN" .
+
+:BatalyonInfanteri711
+        rdf:type    sem:Actor ;
+        rdfs:label  "Batalyon Infanteri 711" .
+
+:Mesir  rdf:type    sem:Actor ;
+        rdfs:label  "Mesir" .
+
+:Peru   rdf:type    sem:Actor ;
+        rdfs:label  "Peru" .
+
+:KodamWirabuana  rdf:type  sem:Actor ;
+        rdfs:label  "Kodam Wirabuana" .
+
+:JemaahIslamiyah  rdf:type  sem:Actor ;
+        rdfs:label  "Jemaah Islamiyah" .
+
+:Benin  rdf:type    sem:Actor ;
+        rdfs:label  "Benin" .
+
+:Kenya  rdf:type    sem:Actor ;
+        rdfs:label  "Kenya" .
+
+:PSTT   rdf:type    sem:Actor ;
+        rdfs:label  "PSTT" .
+
+:SukuMelayu  rdf:type  sem:Actor ;
+        rdfs:label  "Suku Melayu" .
+
+:ArabSaudi  rdf:type  sem:Actor ;
+        rdfs:label  "Arab Saudi" .
+
+:Irlandia  rdf:type  sem:Actor ;
+        rdfs:label  "Irlandia" .
+
+:Libya  rdf:type    sem:Actor ;
+        rdfs:label  "Libya" .
+
+:Ghana  rdf:type    sem:Actor ;
+        rdfs:label  "Ghana" .
+
+:Slovenia  rdf:type  sem:Actor ;
+        rdfs:label  "Slovenia" .
+
+:Kopassus  rdf:type  sem:Actor ;
+        rdfs:label  "Kopassus" .
+
+:Portugal  rdf:type  sem:Actor ;
+        rdfs:label  "Portugal" .
+
+:Brasil  rdf:type   sem:Actor ;
+        rdfs:label  "Brasil" .
+
+:Argentina  rdf:type  sem:Actor ;
+        rdfs:label  "Argentina" .
+
+:Singapura  rdf:type  sem:Actor ;
+        rdfs:label  "Singapura" .
+
+:KonfrontasiIndonesia-Malaysia
+        rdf:type  :Conflict ;
+        :side     :SelandiaBaru , :Malaysia , :Indonesia , :VietnamUtara , :PKI , :PKKU , :AmerikaSerikat , :Singapura , :Tiongkok , :Filipina , :Australia , :UniSoviet , :Brunei , :BritaniaRaya , :PRB , :PersemakmuranBangsa-Bangsa , :Kanada .
+
+:LaskarKristus  rdf:type  sem:Actor ;
+        rdfs:label  "Laskar Kristus" .

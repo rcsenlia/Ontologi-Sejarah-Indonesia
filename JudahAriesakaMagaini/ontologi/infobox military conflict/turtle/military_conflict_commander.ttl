@@ -1,0 +1,395 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:HelenClark  rdf:type  :Person ;
+        rdfs:label  "Helen Clark" .
+
+:JoseAbilioOsorioSoares
+        rdf:type    :Person ;
+        rdfs:label  "Jose Abilio Osorio Soares" .
+
+:KeriLaranSabalae  rdf:type  :Person ;
+        rdfs:label  "Keri Laran Sabalae" .
+
+:NinoKonisSantana  rdf:type  :Person ;
+        rdfs:label  "Nino Konis Santana" .
+
+:ListyoSigitPrabowo  rdf:type  :Person ;
+        rdfs:label  "Listyo Sigit Prabowo" .
+
+:ManueldeSousa  rdf:type  :Person ;
+        rdfs:label  "Manuel de Sousa" .
+
+<http://127.0.0.1:3333/AbdullahSyafi'i>
+        rdf:type    :Person ;
+        rdfs:label  "Abdullah Syafi'i" .
+
+:SlametKirbiantoro  rdf:type  :Person ;
+        rdfs:label  "Slamet Kirbiantoro" .
+
+:AndikaPerkasa  rdf:type  :Person ;
+        rdfs:label  "Andika Perkasa" .
+
+:KrisisTimorTimur1999
+        rdf:type     :Conflict ;
+        :leadFigure  :Wiranto , :ManueldeSousa , :JennyShipley , :Brigjen.PauloPereiraGuerreiro , :PeterCosgrove , :CancioLopezdeCarvalho , :CareyAdamson , :OlivioMendoncaMoruk , :SergioVieiradeMello , :EuricoGuterres , :JohnHoward , :HelenClark .
+
+:MuzakirManaf  rdf:type  :Person ;
+        rdfs:label  "Muzakir Manaf" .
+
+:MustaphaHarun  rdf:type  :Person ;
+        rdfs:label  "Mustapha Harun" .
+
+:D.N.Aidit  rdf:type  :Person ;
+        rdfs:label  "D. N. Aidit" .
+
+:EddyMartadinata  rdf:type  :Person ;
+        rdfs:label  "Eddy Martadinata" .
+
+:KellyKwalik  rdf:type  :Person ;
+        rdfs:label  "Kelly Kwalik" .
+
+:LeonardusBenyaminMoerdani
+        rdf:type    :Person ;
+        rdfs:label  "Leonardus Benyamin Moerdani" .
+
+:YusofIshak  rdf:type  :Person ;
+        rdfs:label  "Yusof Ishak" .
+
+:SusiloYudhoyono  rdf:type  :Person ;
+        rdfs:label  "Susilo Yudhoyono" .
+
+:LeeKuanYew  rdf:type  :Person ;
+        rdfs:label  "Lee Kuan Yew" .
+
+:JacobRumbiak  rdf:type  :Person ;
+        rdfs:label  "Jacob Rumbiak" .
+
+:BandjelaPaliudju  rdf:type  :Person ;
+        rdfs:label  "Bandjela Paliudju" .
+
+:DjasmanBasoOpu  rdf:type  :Person ;
+        rdfs:label  "Djasman Baso Opu" .
+
+:GoliathTabuni  rdf:type  :Person ;
+        rdfs:label  "Goliath Tabuni" .
+
+:A.M.Azahari  rdf:type  :Person ;
+        rdfs:label  "A. M. Azahari" .
+
+:JokoWidodo  rdf:type  :Person ;
+        rdfs:label  "Joko Widodo" .
+
+:AbdurrahmanWahid  rdf:type  :Person ;
+        rdfs:label  "Abdurrahman Wahid" .
+
+:RinaldyDamanik  rdf:type  :Person ;
+        rdfs:label  "Rinaldy Damanik" .
+
+:OperasiTrisula  rdf:type  :Conflict ;
+        :leadFigure  :B.O.Hutapea , :Kartomo , :Witarmin , :AbdulHarisNasution , :Soeharto .
+
+:PendudukanIndonesiaatasTimorTimur
+        rdf:type     :Conflict ;
+        :leadFigure  :B.J.Habibie , <http://127.0.0.1:3333/Ma'hunoBulerekKarathayano> , :FranciscoXavierdoAmaral , :TrySutrisno , :Wiranto , :JoseAbilioOsorioSoares , :RogerioLobato , :PrabowoSubianto , :EdiSudradjat , :TaurMatanRuak , :L.B.Murdani , :FeisalTanjung , :MuhammadJusuf , :NicolaudosReisLobato , :Soeharto , :EuricoGuterres , :NinoKonisSantana , :DadingKalbuadi , :MariAlkatiri , :MaradenPanggabean , :KeriLaranSabalae , :XananaGusmao , :DavidAlex .
+
+:KerusuhanPoso  rdf:type  :Conflict ;
+        :leadFigure  :DeddyWoeryantono , :FabianusTibo , :MuinPusadan , :DjasmanBasoOpu , :SlametKirbiantoro , :ZainalAbidinIshak , :AdnanArsal , :AriefPatanga , :BandjelaPaliudju , :SusiloBambangYudhoyono , :JusufKalla , :MarinusRiwu , :AminuddinPonulele , :RinaldyDamanik , :DominggusdaSilva , :AbdurrahmanWahid .
+
+:DeddyWoeryantono  rdf:type  :Person ;
+        rdfs:label  "Deddy Woeryantono" .
+
+:SofyanDawood  rdf:type  :Person ;
+        rdfs:label  "Sofyan Dawood" .
+
+:SusiloBambangYudhoyono
+        rdf:type    :Person ;
+        rdfs:label  "Susilo Bambang Yudhoyono" .
+
+:CareyAdamson  rdf:type  :Person ;
+        rdfs:label  "Carey Adamson" .
+
+:L.B.Murdani  rdf:type  :Person ;
+        rdfs:label  "L. B. Murdani" .
+
+:NicolaudosReisLobato
+        rdf:type    :Person ;
+        rdfs:label  "Nicolau dos Reis Lobato" .
+
+:XananaGusmao  rdf:type  :Person ;
+        rdfs:label  "Xanana Gusmao" .
+
+:ZainalAbidinIshak  rdf:type  :Person ;
+        rdfs:label  "Zainal Abidin Ishak" .
+
+:AbdurahmanWahid  rdf:type  :Person ;
+        rdfs:label  "Abdurahman Wahid" .
+
+:AbdulHarisNasution  rdf:type  :Person ;
+        rdfs:label  "Abdul Haris Nasution" .
+
+:TrySutrisno  rdf:type  :Person ;
+        rdfs:label  "Try Sutrisno" .
+
+:IsmailNasiruddin  rdf:type  :Person ;
+        rdfs:label  "Ismail Nasiruddin" .
+
+:HaroldWilson  rdf:type  :Person ;
+        rdfs:label  "Harold Wilson" .
+
+:WalterWalker  rdf:type  :Person ;
+        rdfs:label  "Walter Walker" .
+
+:Suharto  rdf:type  :Person ;
+        rdfs:label  "Suharto" .
+
+:B.O.Hutapea  rdf:type  :Person ;
+        rdfs:label  "B.O. Hutapea" .
+
+:JohnHoward  rdf:type  :Person ;
+        rdfs:label  "John Howard" .
+
+:BudiGunawan  rdf:type  :Person ;
+        rdfs:label  "Budi Gunawan" .
+
+:EuricoGuterres  rdf:type  :Person ;
+        rdfs:label  "Eurico Guterres" .
+
+:MarinusRiwu  rdf:type  :Person ;
+        rdfs:label  "Marinus Riwu" .
+
+:DavidAlex  rdf:type  :Person ;
+        rdfs:label  "David Alex" .
+
+:MuhammadJusuf  rdf:type  :Person ;
+        rdfs:label  "Muhammad Jusuf" .
+
+:S.K.Ningkan  rdf:type  :Person ;
+        rdfs:label  "S. K. Ningkan" .
+
+:MuinPusadan  rdf:type  :Person ;
+        rdfs:label  "Muin Pusadan" .
+
+:OmarDhani  rdf:type  :Person ;
+        rdfs:label  "Omar Dhani" .
+
+:BambangDarmono  rdf:type  :Person ;
+        rdfs:label  "Bambang Darmono" .
+
+:JennyShipley  rdf:type  :Person ;
+        rdfs:label  "Jenny Shipley" .
+
+:HasandiTiro  rdf:type  :Person ;
+        rdfs:label  "Hasan di Tiro" .
+
+:EgianusKogoya  rdf:type  :Person ;
+        rdfs:label  "Egianus Kogoya" .
+
+:Kartomo  rdf:type  :Person ;
+        rdfs:label  "Kartomo" .
+
+:LuhutBinsarPandjaitan
+        rdf:type    :Person ;
+        rdfs:label  "Luhut Binsar Pandjaitan" .
+
+:JacobPrai  rdf:type  :Person ;
+        rdfs:label  "Jacob Prai" .
+
+:MariAlkatiri  rdf:type  :Person ;
+        rdfs:label  "Mari Alkatiri" .
+
+:TunkuOsman  rdf:type  :Person ;
+        rdfs:label  "Tunku Osman" .
+
+:PemberontakandiAceh  rdf:type  :Conflict ;
+        :leadFigure  :Soeharto , :IshakDaud , :TrySutrisno , :SusiloYudhoyono , :Sutiyoso , :MuzakirManaf , :ZainiAbdullah , :B.J.Habibie , :AbdurahmanWahid , :HasandiTiro , :BambangDarmono , :EndriartonoSutarto , :Megawati , :SofyanDawood , :AyahMuni , <http://127.0.0.1:3333/AbdullahSyafi'i> .
+
+:JusufKalla  rdf:type  :Person ;
+        rdfs:label  "Jusuf Kalla" .
+
+:OmarAliSaifuddienIII
+        rdf:type    :Person ;
+        rdfs:label  "Omar Ali Saifuddien III" .
+
+:TuankuSyedPutra  rdf:type  :Person ;
+        rdfs:label  "Tuanku Syed Putra" .
+
+:AyahMuni  rdf:type  :Person ;
+        rdfs:label  "Ayah Muni" .
+
+<http://127.0.0.1:3333/Ma'rufAmin>
+        rdf:type    :Person ;
+        rdfs:label  "Ma'ruf Amin" .
+
+:Megawati  rdf:type  :Person ;
+        rdfs:label  "Megawati" .
+
+:YassinAffandi  rdf:type  :Person ;
+        rdfs:label  "Yassin Affandi" .
+
+:AgusSubiyanto  rdf:type  :Person ;
+        rdfs:label  "Agus Subiyanto" .
+
+:RodneyMoore  rdf:type  :Person ;
+        rdfs:label  "Rodney Moore" .
+
+:DadingKalbuadi  rdf:type  :Person ;
+        rdfs:label  "Dading Kalbuadi" .
+
+:A.H.Nasution  rdf:type  :Person ;
+        rdfs:label  "A.H. Nasution" .
+
+:KrisissanderaMapenduma
+        rdf:type     :Conflict ;
+        :leadFigure  :KellyKwalik , :PrabowoSubianto .
+
+:Sutiyoso  rdf:type  :Person ;
+        rdfs:label  "Sutiyoso" .
+
+:EdiSudradjat  rdf:type  :Person ;
+        rdfs:label  "Edi Sudradjat" .
+
+:PrabowoSubianto  rdf:type  :Person ;
+        rdfs:label  "Prabowo Subianto" .
+
+:SebbySambom  rdf:type  :Person ;
+        rdfs:label  "Sebby Sambom" .
+
+:AlecDouglas-Home  rdf:type  :Person ;
+        rdfs:label  "Alec Douglas-Home" .
+
+:Soekarno  rdf:type  :Person ;
+        rdfs:label  "Soekarno" .
+
+:FeisalTanjung  rdf:type  :Person ;
+        rdfs:label  "Feisal Tanjung" .
+
+:OperasimiliterIndonesiadiAceh1990-1998
+        rdf:type     :Conflict ;
+        :leadFigure  <http://127.0.0.1:3333/AbdullahSyafi'i> , :HasanDiTiro , :Sutiyoso , :TrySutrisno , :Soeharto .
+
+:DominggusdaSilva  rdf:type  :Person ;
+        rdfs:label  "Dominggus da Silva" .
+
+:FabianusTibo  rdf:type  :Person ;
+        rdfs:label  "Fabianus Tibo" .
+
+:MathiasWenda  rdf:type  :Person ;
+        rdfs:label  "Mathias Wenda" .
+
+:Brigjen.PauloPereiraGuerreiro
+        rdf:type    :Person ;
+        rdfs:label  "Brigjen. Paulo Pereira Guerreiro" .
+
+:KonflikPapua  rdf:type  :Conflict ;
+        :leadFigure  :JacobPrai , :BudiGunawan , :AbdurrahmanWahid , :MathiasWenda , :TrySutrisno , :KellyKwalik , :AndikaPerkasa , :MegawatiSukarnoputri , :JacobRumbiak , :LeonardusBenyaminMoerdani , :JokoWidodo , :AgusSubiyanto , :Wiranto , :Suharto , <http://127.0.0.1:3333/Ma'rufAmin> , :SebbySambom , :ListyoSigitPrabowo , :GoliathTabuni , :JoniBotak , :EgianusKogoya , :PrabowoSubianto , :BennyWenda , :B.J.Habibie , :SusiloBambangYudhoyono .
+
+:IshakDaud  rdf:type  :Person ;
+        rdfs:label  "Ishak Daud" .
+
+:MaradenPanggabean  rdf:type  :Person ;
+        rdfs:label  "Maraden Panggabean" .
+
+:B.J.Habibie  rdf:type  :Person ;
+        rdfs:label  "B. J. Habibie" .
+
+:Witarmin  rdf:type  :Person ;
+        rdfs:label  "Witarmin" .
+
+:TunkuAbdulRahman  rdf:type  :Person ;
+        rdfs:label  "Tunku Abdul Rahman" .
+
+:HaroldMacmillan  rdf:type  :Person ;
+        rdfs:label  "Harold Macmillan" .
+
+:AriefPatanga  rdf:type  :Person ;
+        rdfs:label  "Arief Patanga" .
+
+:BongKeeChok  rdf:type  :Person ;
+        rdfs:label  "Bong Kee Chok" .
+
+:InvasiIndonesiakeTimorTimur
+        rdf:type     :Conflict ;
+        :leadFigure  :FranciscoXavierdoAmaral , :Soeharto , :Wiranto , :DadingKalbuadi , :NicolaudosReisLobato , :MaradenPanggabean , :LuhutBinsarPandjaitan , :JoseAbilioOsorioSoares , :L.B.Moerdani , :WidjojoSoejono .
+
+:CancioLopezdeCarvalho
+        rdf:type    :Person ;
+        rdfs:label  "Cancio Lopez de Carvalho" .
+
+:BennyWenda  rdf:type  :Person ;
+        rdfs:label  "Benny Wenda" .
+
+:SergioVieiradeMello  rdf:type  :Person ;
+        rdfs:label  "Sergio Vieira de Mello" .
+
+:AdnanArsal  rdf:type  :Person ;
+        rdfs:label  "Adnan Arsal" .
+
+<http://127.0.0.1:3333/Ma'hunoBulerekKarathayano>
+        rdf:type    :Person ;
+        rdfs:label  "Ma'huno Bulerek Karathayano" .
+
+:PranotoReksosamudro  rdf:type  :Person ;
+        rdfs:label  "Pranoto Reksosamudro" .
+
+:AhmadYani  rdf:type  :Person ;
+        rdfs:label  "Ahmad Yani" .
+
+:HasanDiTiro  rdf:type  :Person ;
+        rdfs:label  "Hasan Di Tiro" .
+
+:MegawatiSukarnoputri
+        rdf:type    :Person ;
+        rdfs:label  "Megawati Sukarnoputri" .
+
+:PeterCosgrove  rdf:type  :Person ;
+        rdfs:label  "Peter Cosgrove" .
+
+:FranciscoXavierdoAmaral
+        rdf:type    :Person ;
+        rdfs:label  "Francisco Xavier do Amaral" .
+
+:OlivioMendoncaMoruk  rdf:type  :Person ;
+        rdfs:label  "Olivio Mendonca Moruk" .
+
+:EndriartonoSutarto  rdf:type  :Person ;
+        rdfs:label  "Endriartono Sutarto" .
+
+:AbdulRazakHussein  rdf:type  :Person ;
+        rdfs:label  "Abdul Razak Hussein" .
+
+:AminuddinPonulele  rdf:type  :Person ;
+        rdfs:label  "Aminuddin Ponulele" .
+
+:RogerioLobato  rdf:type  :Person ;
+        rdfs:label  "Rogerio Lobato" .
+
+:Wiranto  rdf:type  :Person ;
+        rdfs:label  "Wiranto" .
+
+:ZainiAbdullah  rdf:type  :Person ;
+        rdfs:label  "Zaini Abdullah" .
+
+:Soeharto  rdf:type  :Person ;
+        rdfs:label  "Soeharto" .
+
+:WidjojoSoejono  rdf:type  :Person ;
+        rdfs:label  "Widjojo Soejono" .
+
+:TaurMatanRuak  rdf:type  :Person ;
+        rdfs:label  "Taur Matan Ruak" .
+
+:JoniBotak  rdf:type  :Person ;
+        rdfs:label  "Joni Botak" .
+
+:L.B.Moerdani  rdf:type  :Person ;
+        rdfs:label  "L. B. Moerdani" .
+
+:KonfrontasiIndonesia-Malaysia
+        rdf:type     :Conflict ;
+        :leadFigure  :OmarDhani , :IsmailNasiruddin , :EddyMartadinata , :S.K.Ningkan , :RodneyMoore , :MustaphaHarun , :TuankuSyedPutra , :BongKeeChok , :A.M.Azahari , :Soekarno , :AhmadYani , :HaroldMacmillan , :WalterWalker , :PranotoReksosamudro , :A.H.Nasution , :AlecDouglas-Home , :TunkuOsman , :OmarAliSaifuddienIII , :Soeharto , :HaroldWilson , :YusofIshak , :TunkuAbdulRahman , :LeeKuanYew , :D.N.Aidit , :YassinAffandi , :AbdulRazakHussein .

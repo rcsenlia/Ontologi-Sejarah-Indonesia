@@ -1,0 +1,203 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <https://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+<http://127.0.0.1:3333/PertempuranMelaka(1641)>
+        rdf:type      :MilitaryConflict ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1641"^^xsd:double ;
+                                                                time:monthOfYear  "January"
+                                                              ] ;
+                                             time:inXSDDate   "1641-01-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:monthOfYear  "January"
+                                                              ]
+                                           ]
+                      ] .
+
+:PerangBelasting  rdf:type  :MilitaryConflict ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1908"^^xsd:double ;
+                                                                time:monthOfYear  "June"
+                                                              ] ;
+                                             time:inXSDDate   "1908-06-15"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1908"^^xsd:int ;
+                                                                time:monthOfYear  "June"
+                                                              ] ;
+                                             time:inXSDDate   "1908-06-16"^^xsd:date
+                                           ]
+                      ] .
+
+:PerangAceh  rdf:type  :MilitaryConflict ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1873"^^xsd:double ;
+                                                                time:monthOfYear  "January"
+                                                              ] ;
+                                             time:inXSDDate   "1873-01-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:monthOfYear  "January"
+                                                              ]
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1873"^^xsd:double ;
+                                                                time:monthOfYear  "January"
+                                                              ] ;
+                                             time:inXSDDate   "1873-01-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1904"^^xsd:int ;
+                                                                time:monthOfYear  "January"
+                                                              ] ;
+                                             time:inXSDDate   "1904-01-01"^^xsd:date
+                                           ]
+                      ] .
+
+:PerangPadri  rdf:type  :MilitaryConflict ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1803"^^xsd:double ;
+                                                                time:monthOfYear  "January"
+                                                              ] ;
+                                             time:inXSDDate   "1803-01-01"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1837"^^xsd:int ;
+                                                                time:monthOfYear  "January"
+                                                              ] ;
+                                             time:inXSDDate   "1837-01-01"^^xsd:date
+                                           ]
+                      ] .
+
+:SerbuanYuan-MongolkeJawa
+        rdf:type      :MilitaryConflict ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1293"^^xsd:double ;
+                                                                time:monthOfYear  "January"
+                                                              ] ;
+                                             time:inXSDDate   "1293-01-29"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1293"^^xsd:int ;
+                                                                time:monthOfYear  "January"
+                                                              ] ;
+                                             time:inXSDDate   "1293-08-08"^^xsd:date
+                                           ]
+                      ] .
+
+:PemberontakanRadenRonggo
+        rdf:type      :MilitaryConflict ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1810"^^xsd:double ;
+                                                                time:monthOfYear  "November"
+                                                              ] ;
+                                             time:inXSDDate   "1810-11-20"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1810"^^xsd:int ;
+                                                                time:monthOfYear  "November"
+                                                              ] ;
+                                             time:inXSDDate   "1810-12-17"^^xsd:date
+                                           ]
+                      ] .
+
+:GegerSepehi  rdf:type  :MilitaryConflict ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1812"^^xsd:double ;
+                                                                time:monthOfYear  "June"
+                                                              ] ;
+                                             time:inXSDDate   "1812-06-19"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1812"^^xsd:int ;
+                                                                time:monthOfYear  "June"
+                                                              ] ;
+                                             time:inXSDDate   "1812-06-20"^^xsd:date
+                                           ]
+                      ] .
+
+:PerangBayu  rdf:type  :MilitaryConflict ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1771"^^xsd:double ;
+                                                                time:monthOfYear  "August"
+                                                              ] ;
+                                             time:inXSDDate   "1771-08-05"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1772"^^xsd:int ;
+                                                                time:monthOfYear  "August"
+                                                              ] ;
+                                             time:inXSDDate   "1772-10-11"^^xsd:date
+                                           ]
+                      ] .
+
+:PerangDiponegoro  rdf:type  :MilitaryConflict ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1825"^^xsd:double ;
+                                                                time:monthOfYear  "July"
+                                                              ] ;
+                                             time:inXSDDate   "1825-07-21"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1830"^^xsd:int ;
+                                                                time:monthOfYear  "July"
+                                                              ] ;
+                                             time:inXSDDate   "1830-02-09"^^xsd:date
+                                           ]
+                      ] .
+
+:PertempuranLimaHari  rdf:type  :MilitaryConflict ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1945"^^xsd:double ;
+                                                                time:monthOfYear  "October"
+                                                              ] ;
+                                             time:inXSDDate   "1945-10-15"^^xsd:date
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type          <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:Year         "1945"^^xsd:int ;
+                                                                time:monthOfYear  "October"
+                                                              ] ;
+                                             time:inXSDDate   "1945-10-19"^^xsd:date
+                                           ]
+                      ] .

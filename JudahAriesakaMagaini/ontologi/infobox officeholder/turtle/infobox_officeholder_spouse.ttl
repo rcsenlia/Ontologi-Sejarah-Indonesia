@@ -1,0 +1,947 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:YettyRochyati  rdf:type  foaf:Person .
+
+:MarcellaSavitri  rdf:type  foaf:Person .
+
+:AlexanderAndriesMaramis
+        :spouse  :ElizabethMarieDienaVeldhoedt .
+
+:W.A.F.J.Tumbelaka  :spouse  :ConcordiaSophiaLodolaMononutu .
+
+:MuchdiPurwoprandjono
+        :spouse  :Ny.PujiAstuti .
+
+<http://127.0.0.1:3333/Hj.EndangAgustini,S.I.P.>
+        rdf:type  foaf:Person .
+
+:AdiPutraDarmawanTahir
+        :spouse  :RahmiLestari .
+
+:YohanaSitiMenaraSaidah
+        rdf:type  foaf:Person .
+
+:HartantoEdhieWibowo  :spouse  :SetyaKumalaSari .
+
+:Mariekebr.Tambunan  rdf:type  foaf:Person .
+
+:MohammadSadli  :spouse  :Prof.Dr.SaparinahSadli .
+
+:SyarwanHamid  rdf:type  foaf:Person ;
+        :spouse   <http://127.0.0.1:3333/Hj.EndangAgustini,S.I.P.> .
+
+:AdrianusMooy  :spouse  :AmeliaLatuperissaMooy .
+
+:SriAdiningsih  :spouse  :KuntaSetiaji .
+
+:AzwarAnas  :spouse  :Djusmeini .
+
+:IGustiAyuMadeMirah  rdf:type  foaf:Person .
+
+:SintongPanjaitan  :spouse  :LentinaNapitupulu .
+
+:MientarsihSyahbandar
+        rdf:type  foaf:Person .
+
+:RadiusPrawiro  :spouse  :LeoniSupit .
+
+:R.A.Soekarti  rdf:type  foaf:Person .
+
+:Fatihaal-Nuri  rdf:type  foaf:Person .
+
+:HayonoIsman  :spouse  :PoppyPuspitasari .
+
+:HoegengImanSantoso  :spouse  :MeriyatiRoeslani .
+
+:SetiadiReksoprodjo  :spouse  :KoesSoehartini .
+
+:AlbertinaKaunang  rdf:type  foaf:Person .
+
+:ArifinSiregar  :spouse  :Adiati .
+
+:RamlahKalla  rdf:type  foaf:Person .
+
+:JoséAbílioOsórioSoares
+        :spouse  :MariaCorreiadeLemosOsórioSoares .
+
+:HarioJonosewojo  :spouse  :RoroSoerjasahGondokoesoemo .
+
+:ShriHardhaniSadatSiswojo
+        rdf:type  foaf:Person .
+
+:BambangSubianto  :spouse  :SrieWahyuni .
+
+:SitiFatimah  rdf:type  foaf:Person .
+
+:MahfudMD  :spouse  :ZaizatunNihajati .
+
+:KrisninaMaharani  rdf:type  foaf:Person .
+
+:DaveLaksono  :spouse  :CelinaAlexandraXavier .
+
+:KoesSoehartini  rdf:type  foaf:Person .
+
+:MochamadJasin  :spouse  :SitiAbesanti .
+
+:Wastoeti  rdf:type  foaf:Person .
+
+:MarianaLubis  rdf:type  foaf:Person .
+
+:NurmiPalaguna  rdf:type  foaf:Person .
+
+:MuinPusadan  :spouse  :RamlahRauf .
+
+:AbdulHarisNasution  :spouse  :JohannaSunarti .
+
+:KirstySword  rdf:type  foaf:Person .
+
+:RugaiyaUsman  rdf:type  foaf:Person .
+
+:ElizabethMarieDienaVeldhoedt
+        rdf:type  foaf:Person .
+
+:PontjoSutowo  :spouse  :DarwinaSudarminingsih .
+
+:RobertusSanyoto  :spouse  :IndriRobert .
+
+:PermadiSoemarahatianto
+        rdf:type  foaf:Person .
+
+:YultinHarlotina  rdf:type  foaf:Person .
+
+:RyamizardRyacudu  :spouse  :NoraTristyana .
+
+:AmeliaLatuperissaMooy
+        rdf:type  foaf:Person .
+
+:MaradenPanggabean  :spouse  :MeidaSaimimaMatiurbr.Tambunan .
+
+:Maryati  rdf:type  foaf:Person .
+
+:BambangTrihatmodjo  :spouse  :Mayangsari , :HalimahAgustinaKamil .
+
+:SayidimanSuryohadiprojo
+        :spouse  :SriSuharyati .
+
+:GertrudWilhelmineHöhnerbach
+        rdf:type  foaf:Person .
+
+:SriSulastri  rdf:type  foaf:Person .
+
+:IdaDjubaedah  rdf:type  foaf:Person .
+
+:Kardinah  rdf:type  foaf:Person .
+
+:Dr.Soewondo  rdf:type  foaf:Person .
+
+:PeterCosgrove  :spouse  <http://127.0.0.1:3333/Lynne,LadyCosgrove> .
+
+:dr.MasrowidaLubis  rdf:type  foaf:Person .
+
+:Soerjati  rdf:type  foaf:Person .
+
+:Sapardjo  :spouse  :EndangSuparti .
+
+:DianaAbbasThalib  rdf:type  foaf:Person .
+
+:ServiatiOesman  rdf:type  foaf:Person .
+
+:R.A.Zuharya  rdf:type  foaf:Person .
+
+:Erlita  rdf:type  foaf:Person .
+
+:SitiLatifahHerawati  rdf:type  foaf:Person .
+
+:DorodjatunKuntjoro-Jakti
+        :spouse  :Emiwaty .
+
+:EddyRumpoko  :spouse  :DewantiRumpoko .
+
+:Sumirahaju  rdf:type  foaf:Person .
+
+:SitiRomlah  rdf:type  foaf:Person .
+
+:IGustiAyuBadri  rdf:type  foaf:Person .
+
+:EndangKusumaIntenSoeweno
+        rdf:type  foaf:Person ;
+        :spouse   :Soeweno .
+
+:SiswondoParman  :spouse  :Sumirahaju .
+
+:BandjelaPaliudju  :spouse  :Hj.Kamsiyah .
+
+:YasminStamboel  rdf:type  foaf:Person .
+
+:EriniMuthiaYufada  rdf:type  foaf:Person .
+
+:JennyShipley  :spouse  :BurtonShipley .
+
+:AburizalBakrie  :spouse  :Hj.TattyMurnitriati .
+
+:HermanBernhardLeopoldMantiri
+        :spouse  :OngkeHannaElia .
+
+:Utami  rdf:type  foaf:Person .
+
+:BambangSoegeng  :spouse  :Istiyah , :Sukemi .
+
+<http://127.0.0.1:3333/Soerjadi(militer)>
+        :spouse  :EndangWaluyatiSoerjadi .
+
+:Soekardi  :spouse  :R.A.Soekarti .
+
+:Nurnahar  rdf:type  foaf:Person .
+
+:NaniMurwantiSoewanto
+        rdf:type  foaf:Person .
+
+:LatiefHendraningrat  :spouse  :Sophia .
+
+:SalamibintiR.Sastrowihardjo
+        rdf:type  foaf:Person .
+
+:EndangSuparti  rdf:type  foaf:Person .
+
+:Witarmin  :spouse  :Suratmi .
+
+:TheresiaYostianaSoedarmi
+        rdf:type  foaf:Person .
+
+:YantiK.Isfandiary  rdf:type  foaf:Person .
+
+:AndiMurniati  rdf:type  foaf:Person .
+
+:RiantiniWanandi  rdf:type  foaf:Person .
+
+:SuronoReksodimedjo  :spouse  :R.A.Y.SunartiCokrosewoyo , :R.A.Y.WinarniCokrosewoyo .
+
+:ZaizatunNihajati  rdf:type  foaf:Person .
+
+:R.A.Y.SunartiCokrosewoyo
+        rdf:type  foaf:Person .
+
+:AchmadTahir  :spouse  :RooslilaSimanjuntak .
+
+:Muladi  :spouse  <http://127.0.0.1:3333/Hj.NanyRatnaAsmara,S.H.> .
+
+<http://127.0.0.1:3333/MohammadSyafa'atMintaredja>
+        :spouse  :SitiRomlah .
+
+:SariYuliati  :spouse  :ArieWiryawan .
+
+:AhmadYani  :spouse  :BandiahYayuRuliaSutowiryo .
+
+:R.A.Y.WinarniCokrosewoyo
+        rdf:type  foaf:Person .
+
+:SitiMastoechajah  rdf:type  foaf:Person .
+
+:JustikaBaharsjah  :spouse  :SjarifuddinBaharsjah .
+
+:SofjanWanandi  :spouse  :RiantiniWanandi .
+
+:NoraTristyana  rdf:type  foaf:Person .
+
+:SitiHadidjah  rdf:type  foaf:Person .
+
+:SoesiloSoedarman  :spouse  :Widaningsri .
+
+:RoroSoerjasahGondokoesoemo
+        rdf:type  foaf:Person .
+
+:MeriyatiRoeslani  rdf:type  foaf:Person .
+
+:MusannifRyacudu  :spouse  :R.A.Zuharya .
+
+:Soedharmono  rdf:type  foaf:Person ;
+        :spouse   :EmmaNorma .
+
+:AgungFirmanSampurna  :spouse  :DianAnggraini .
+
+:Boediardjo  :spouse  :SriRedjeki .
+
+:HasriAinunBesari  :spouse  :B.J.Habibie , :AhmadNotosastro .
+
+:OngEngDie  :spouse  :GertrudWilhelmineHöhnerbach .
+
+:HadiUtomo  :spouse  :MastutiRahayu .
+
+:SitiSalimaHardjuni  rdf:type  foaf:Person .
+
+:Subroto  :spouse  :Trisnawati .
+
+:EmmySariamah  rdf:type  foaf:Person .
+
+:EmiliaBatista  rdf:type  foaf:Person .
+
+:LukitaDinarsyahTuwo  :spouse  :AnitaKentjanawati .
+
+:MaemunahSupardiSuharnokoHarbani
+        rdf:type  foaf:Person .
+
+:Sapartinah  rdf:type  foaf:Person .
+
+:Trisnawati  rdf:type  foaf:Person .
+
+:SarwoEdhieWibowo  :spouse  :SunartiSriHadiyah .
+
+:HaryatiSoebadio  :spouse  :SunartoSoebadio .
+
+:AliWardhana  :spouse  :RendasihbintiSulaemanSukantabrata .
+
+:YogieSuardiMemet  :spouse  :EmmySariamah .
+
+:SriRomadhiyati  rdf:type  foaf:Person .
+
+:NononRatnapuri  rdf:type  foaf:Person .
+
+:SetyaNovanto  :spouse  <http://127.0.0.1:3333/DeistiAstrianiTagor,S.H.> , :LucianaLilyHerliyanti .
+
+:DewiIndriati  rdf:type  foaf:Person .
+
+:FransSeda  :spouse  :JohannaMariaPattinaja .
+
+<http://127.0.0.1:3333/dr.Sondangbr.Sidabutar,M.M.>
+        rdf:type  foaf:Person .
+
+:CosmasBatubara  :spouse  :R.A.CyprianaHadiwijono .
+
+:KRAy.Ratnaningrum  rdf:type  foaf:Person .
+
+:PakuAlamVIII  :spouse  :KRAy.Purnamaningrum , :KRAy.Ratnaningrum .
+
+:OmarDhani  :spouse  :SriWuryanti .
+
+:HimawanSoetanto  :spouse  :NononRatnapuri .
+
+:J.B.Sumarlin  :spouse  :TheresiaYostianaSoedarmi .
+
+:PahriAzhari  :spouse  <http://127.0.0.1:3333/Ir.Hj.LuciantyPahri,S.E> .
+
+:DaoedJoesoef  :spouse  :SriSulastri .
+
+:KharisSuhud  :spouse  :SriSukardi .
+
+:LuluLugiyati  rdf:type  foaf:Person .
+
+:SriSukardi  rdf:type  foaf:Person .
+
+:SunarniGondosaputro  rdf:type  foaf:Person .
+
+:IGustiKetutPudja  :spouse  :IGustiAyuMadeMirah .
+
+:EdiSudradjat  :spouse  :LuluLugiyati .
+
+:FransiscaPlay  rdf:type  foaf:Person .
+
+:LindaAmaliaSari  rdf:type  foaf:Person ;
+        :spouse   :AgumGumelar .
+
+:FilomenoHornay  :spouse  :MariaI.AliceAssis .
+
+:SitiAbesanti  rdf:type  foaf:Person .
+
+:MarzukiAlie  :spouse  :Asmawati .
+
+:LodewijkFreidrichPaulus
+        :spouse  :MeriaAgustina .
+
+:LucianaLilyHerliyanti
+        rdf:type  foaf:Person .
+
+:SrieWahyuni  rdf:type  foaf:Person .
+
+:MariaCorreiadeLemosOsórioSoares
+        rdf:type  foaf:Person .
+
+:AgumGumelar  rdf:type  foaf:Person ;
+        :spouse   :LindaAmaliaSari .
+
+:AtyKusumawaty  rdf:type  foaf:Person .
+
+:MelanchtonSiregar  :spouse  :BerthaRamianbr.Siburian .
+
+:SumartiBudiardjo  rdf:type  foaf:Person .
+
+:IndraRukmana  rdf:type  foaf:Person .
+
+:KusnasriyatiSriRahayu
+        rdf:type  foaf:Person .
+
+:GinandjarKartasasmita
+        :spouse  :YultinHarlotina .
+
+:RamlahRauf  rdf:type  foaf:Person .
+
+<http://127.0.0.1:3333/Lynne,LadyCosgrove>
+        rdf:type  foaf:Person .
+
+:Widyawati  rdf:type  foaf:Person .
+
+:SoerjadiSoedirdja  :spouse  :SriSoemarsih .
+
+:AlamsyahRatuPerwiranegara
+        :spouse  :SitiMaemunah .
+
+:RooslilaSimanjuntak  rdf:type  foaf:Person .
+
+:LeonardusBenyaminMoerdani
+        :spouse  :HartiniMoerdani .
+
+:A.M.Fatwa  :spouse  :NoenoengNoerdjanah .
+
+:JohannesLeimena  :spouse  :RadenTjitjihWiyarsihLeimenaPrawiradilaga .
+
+:RahartiRachimSoebijakto
+        rdf:type  foaf:Person .
+
+:AchmadSoebardjo  :spouse  :RadenAyuPoedjiAstutiSoebardjo .
+
+:Ny.PujiAstuti  rdf:type  foaf:Person .
+
+:SoemitroDjojohadikoesoemo
+        :spouse  :DoraMarieSigar .
+
+:Mayangsari  rdf:type  foaf:Person .
+
+:SitiKustini  rdf:type  foaf:Person .
+
+:IrmaSawitriRamelan  rdf:type  foaf:Person .
+
+:Satrio  :spouse  :Ny.R.A.Isbandiyah .
+
+:SitiMaemunah  rdf:type  foaf:Person .
+
+:AirlanggaHartarto  :spouse  :YantiK.Isfandiary .
+
+:R.A.Y.SitiRoestamy  rdf:type  foaf:Person .
+
+:NaniSadikin  rdf:type  foaf:Person .
+
+:HermanDeru  :spouse  :FebritaLustia .
+
+:JohannaSunarti  rdf:type  foaf:Person .
+
+:MochtarKusumaatmadja
+        :spouse  :SitiChadidjah .
+
+:FebritaLustia  rdf:type  foaf:Person .
+
+:SofiaMuriMardiana  rdf:type  foaf:Person .
+
+:SundariSukoco  rdf:type  foaf:Person .
+
+:DoraMarieSigar  rdf:type  foaf:Person .
+
+:NettyMarliza  rdf:type  foaf:Person .
+
+:ArieJeffryKumaat  :spouse  <http://127.0.0.1:3333/Dr.MariaJosephineKumaat-Mantik,M.Hum> .
+
+<http://127.0.0.1:3333/IndiraParamita,SP.>
+        rdf:type  foaf:Person .
+
+:LiestyanaRizalGusman
+        rdf:type  foaf:Person .
+
+:MeidaSaimimaMatiurbr.Tambunan
+        rdf:type  foaf:Person .
+
+:HaryonoSuyono  :spouse  :AstutiHasinah .
+
+:M.Sarbini  :spouse  :SalamibintiR.Sastrowihardjo .
+
+:EndangWaluyatiSoerjadi
+        rdf:type  foaf:Person .
+
+:SophanSophiaan  :spouse  :Widyawati .
+
+:NurainiMahdiati  rdf:type  foaf:Person .
+
+:SlametKirbiantoro  :spouse  :Muchayisoh .
+
+:D.I.Pandjaitan  :spouse  :Mariekebr.Tambunan .
+
+:LentinaNapitupulu  rdf:type  foaf:Person .
+
+:M.Jusuf  :spouse  :EllySaelan .
+
+:IndroyonoSoesilo  :spouse  <http://127.0.0.1:3333/Dr.Ir.NiningSriAstuti,MA.> .
+
+:WidjojoNitisastro  :spouse  :SitiSudarsih .
+
+:Suhardiman  :spouse  :Sapartinah .
+
+:ConcordiaSophiaLodolaMononutu
+        rdf:type  foaf:Person .
+
+:FeisalTanjung  :spouse  :dr.MasrowidaLubis .
+
+:HasjrulHarahap  :spouse  :SitiAidaNasution .
+
+:EuricoGuterres  :spouse  :GuidaGiatris .
+
+:KoriyatiMokoginta  rdf:type  foaf:Person .
+
+:Harmoko  :spouse  :SriRomadhiyati .
+
+:HartiniMoerdani  rdf:type  foaf:Person .
+
+:Safiael-Brasai  rdf:type  foaf:Person .
+
+:MasturahKapauGani  rdf:type  foaf:Person .
+
+:DewiAsmara  :spouse  :PermadiSoemarahatianto .
+
+:SitiHardjanti  rdf:type  foaf:Person .
+
+:RatuEmmaNorma  :spouse  :Soedharmono .
+
+:MooryatiSoedibyo  :spouse  :SoedibyoPurboHadiningrat .
+
+:SetyaKumalaSari  rdf:type  foaf:Person .
+
+:B.M.Diah  :spouse  :SitiLatifahHerawati .
+
+:AdeKomarudin  :spouse  :NettyMarliza .
+
+:AriefPatanga  :spouse  :RahmahMalewa .
+
+:IshakMekki  :spouse  :TartilaIshak .
+
+:Emiwaty  rdf:type  foaf:Person .
+
+:ErnaSambuaga  rdf:type  foaf:Person .
+
+:Adhyatma  :spouse  :SitiFatimah .
+
+:Irryanthy  rdf:type  foaf:Person .
+
+:Jatidjan  :spouse  :Soemaryo .
+
+:MariaIndrawati  rdf:type  foaf:Person .
+
+<http://127.0.0.1:3333/AbdulLatief(pengusaha)>
+        :spouse  :DonnaLouisaMaria , :Nursyamsiah .
+
+:MohammadNatsir  :spouse  :Nurnahar .
+
+:SabamSirait  :spouse  <http://127.0.0.1:3333/dr.Sondangbr.Sidabutar,M.M.> .
+
+:EgniRumambi  rdf:type  foaf:Person .
+
+:FuadBawazier  :spouse  :Soerjati .
+
+:NugrohoNotosusanto  :spouse  :IrmaSawitriRamelan .
+
+:Muchayisoh  rdf:type  foaf:Person .
+
+:R.A.CyprianaHadiwijono
+        rdf:type  foaf:Person .
+
+:KuntaSetiaji  rdf:type  foaf:Person .
+
+:EmmaNorma  rdf:type  foaf:Person .
+
+:DarwinaSudarminingsih
+        rdf:type  foaf:Person .
+
+:Soeharto  rdf:type  foaf:Person .
+
+:OddyanaRudini  rdf:type  foaf:Person .
+
+:Asmawati  rdf:type  foaf:Person .
+
+:MarselinaBlegurRatu  rdf:type  foaf:Person .
+
+:ZainalBasriPalaguna  :spouse  :NurmiPalaguna .
+
+:DodiRezaAlexNoerdin  :spouse  :EriniMuthiaYufada .
+
+<http://127.0.0.1:3333/ZalehabintiSjafe'ie>
+        rdf:type  foaf:Person .
+
+:SitiSudarsih  rdf:type  foaf:Person .
+
+:Hj.TattyMurnitriati  rdf:type  foaf:Person .
+
+:AndiMuhammadGhalib  :spouse  :AndiMurniati .
+
+:NaniekKusmani  rdf:type  foaf:Person .
+
+:AliMoertopo  :spouse  :Wastoeti .
+
+:DwikisworoSetyowireni
+        rdf:type  foaf:Person .
+
+:AdnanKapauGani  :spouse  :MasturahKapauGani .
+
+:R.Hartono  :spouse  :Oetari .
+
+<http://127.0.0.1:3333/Dr.Ir.NiningSriAstuti,MA.>
+        rdf:type  foaf:Person .
+
+:MeriaAgustina  rdf:type  foaf:Person .
+
+:EllySaelan  rdf:type  foaf:Person .
+
+:LindaSyamsudiMangan  rdf:type  foaf:Person .
+
+:MastutiRahayu  rdf:type  foaf:Person .
+
+:T.B.Simatupang  :spouse  :SumartiBudiardjo .
+
+:NoenoengNoerdjanah  rdf:type  foaf:Person .
+
+:DewantiRumpoko  rdf:type  foaf:Person .
+
+:XananaGusmão  :spouse  :KirstySword , :EmiliaBatista .
+
+:SriAdiati  rdf:type  foaf:Person .
+
+:SoedarsonoHadisapoetro
+        :spouse  :SendangLestari .
+
+:BambangSoesatyo  :spouse  :LennySriMulyani .
+
+:AndiSinjayaGhalib  :spouse  :MarcellaSavitri .
+
+:Prof.Dr.SaparinahSadli
+        rdf:type  foaf:Person .
+
+:RahmiLestari  rdf:type  foaf:Person .
+
+:ChaerulSaleh  :spouse  :YohanaSitiMenaraSaidah .
+
+:AnitaKentjanawati  rdf:type  foaf:Person .
+
+:KastiyanIndriyati  rdf:type  foaf:Person .
+
+:AhmadNotosastro  rdf:type  foaf:Person .
+
+:HalimahAgustinaKamil
+        rdf:type  foaf:Person .
+
+:SuharnokoHarbani  :spouse  :MaemunahSupardiSuharnokoHarbani .
+
+:FransiscaDiahWidhowaty
+        rdf:type  foaf:Person .
+
+:Nursyamsiah  rdf:type  foaf:Person .
+
+:RusliHalil  :spouse  :Syarwati .
+
+:HerwinoerBandrianiSinggih
+        rdf:type  foaf:Person .
+
+:IskandarSitompul  :spouse  :Irryanthy .
+
+:Syarwati  rdf:type  foaf:Person .
+
+:Poniman  :spouse  :IdaDjubaedah .
+
+:PoppyDharsono  rdf:type  foaf:Person .
+
+:MachicaMochtar  rdf:type  foaf:Person .
+
+<http://127.0.0.1:3333/Ir.Hj.LuciantyPahri,S.E>
+        rdf:type  foaf:Person .
+
+:DanangHadiwibowo  :spouse  :NoriChandrawati .
+
+<http://127.0.0.1:3333/Soetedjo(akademisi)>
+        :spouse  :Soemini .
+
+:Moerdiono  :spouse  :PoppyDharsono , :MachicaMochtar , :SundariSukoco , :Maryati .
+
+<http://127.0.0.1:3333/DeistiAstrianiTagor,S.H.>
+        rdf:type  foaf:Person .
+
+:NaniSoedarsono  :spouse  :Soedarsono .
+
+:Sudomo  :spouse  :AtyKusumawaty , :FransiscaDiahWidhowaty , :FransiscaPlay .
+
+:Djusmeini  rdf:type  foaf:Person .
+
+:TrySutrisno  rdf:type  foaf:Person .
+
+:BurhanuddinAbdullah  :spouse  :IkeJuliawati .
+
+:Istiyah  rdf:type  foaf:Person .
+
+<http://127.0.0.1:3333/SitiNurainiAsa'ari>
+        rdf:type  foaf:Person .
+
+:SoerjadiSoerjadarma  :spouse  :Utami .
+
+:Hartini  :spouse  :Soekarno , :Dr.Soewondo .
+
+:Mashudi  :spouse  :YettyRochyati .
+
+:MarzukiUsman  :spouse  :AswarniBusro .
+
+:SitiHardijantiRukmana
+        :spouse  :IndraRukmana .
+
+:PoppyPuspitasari  rdf:type  foaf:Person .
+
+:SuyonoSosrodarsono  :spouse  :AstutiSuyonoSosrodarsono .
+
+:MuammarKhadafi  :spouse  :Safiael-Brasai , :Fatihaal-Nuri .
+
+:DonnaLouisaMaria  rdf:type  foaf:Person .
+
+:MindriyatiAstiningsih
+        rdf:type  foaf:Person .
+
+:JohannaMariaPattinaja
+        rdf:type  foaf:Person .
+
+:SendangLestari  rdf:type  foaf:Person .
+
+:SunartoSoebadio  rdf:type  foaf:Person .
+
+:RendasihbintiSulaemanSukantabrata
+        rdf:type  foaf:Person .
+
+:IndriRobert  rdf:type  foaf:Person .
+
+:KaharuddinNasution  :spouse  :R.A.Y.SitiRoestamy .
+
+:AmirMurtono  :spouse  :NaniekKusmani .
+
+:Wiranto  :spouse  :RugaiyaUsman .
+
+:NoriChandrawati  rdf:type  foaf:Person .
+
+:Soedarsono  rdf:type  foaf:Person .
+
+:TheoL.Sambuaga  :spouse  :ErnaSambuaga .
+
+:KikiGayatriSoepono  rdf:type  foaf:Person .
+
+:Suratmi  rdf:type  foaf:Person .
+
+:ArdhiaPramestiRegitaCahyani
+        rdf:type  foaf:Person .
+
+:Rudini  :spouse  :OddyanaRudini .
+
+:PramonoEdhieWibowo  :spouse  :KikiGayatriSoepono .
+
+:Wahono  :spouse  :MientarsihSyahbandar .
+
+<http://127.0.0.1:3333/Sugiyono(politikus)>
+        :spouse  :EgniRumambi .
+
+<http://127.0.0.1:3333/Hj.NanyRatnaAsmara,S.H.>
+        rdf:type  foaf:Person .
+
+:OesmanSaptaOdang  :spouse  :ServiatiOesman .
+
+:AidaZulaikaNasution  :spouse  :IsmethAbdullah .
+
+:AmirMachmud  :spouse  :ShriHardhaniSadatSiswojo , :SitiHadidjah .
+
+:SriSoemarsih  rdf:type  foaf:Person .
+
+:IsthaSaraswati  rdf:type  foaf:Person .
+
+:EmanuelMelkiadesLakaLena
+        :spouse  :MindriyatiAstiningsih .
+
+:IbnuSutowo  :spouse  <http://127.0.0.1:3333/ZalehabintiSjafe'ie> .
+
+:LeoniSupit  rdf:type  foaf:Person .
+
+:AkbarTanjung  :spouse  :KrisninaMaharani .
+
+:BambangUtoyo  :spouse  <http://127.0.0.1:3333/SitiNurainiAsa'ari> .
+
+:KRAy.Purnamaningrum  rdf:type  foaf:Person .
+
+:R.Soebijakto  :spouse  :RahartiRachimSoebijakto .
+
+:RadenTjitjihWiyarsihLeimenaPrawiradilaga
+        rdf:type  foaf:Person .
+
+:AstutiHasinah  rdf:type  foaf:Person .
+
+:MuhammadAlwiDahlan  :spouse  :Erlita .
+
+:SriWuryanti  rdf:type  foaf:Person .
+
+:SayutiMelik  rdf:type  foaf:Person ;
+        :spouse   :S.K.Trimurti .
+
+:TutiSutiawati  :spouse  :TrySutrisno .
+
+:Adiati  rdf:type  foaf:Person .
+
+:GitaWirjawan  :spouse  :YasminStamboel .
+
+:SuciRohani  rdf:type  foaf:Person .
+
+:BerthaRamianbr.Siburian
+        rdf:type  foaf:Person .
+
+:HidayatNurWahid  :spouse  :DianaAbbasThalib , :KastiyanIndriyati .
+
+:BandiahYayuRuliaSutowiryo
+        rdf:type  foaf:Person .
+
+:Sukemi  rdf:type  foaf:Person .
+
+:B.J.Habibie  rdf:type  foaf:Person .
+
+:IsmethAbdullah  rdf:type  foaf:Person .
+
+:Ny.R.A.Isbandiyah  rdf:type  foaf:Person .
+
+:S.K.Trimurti  rdf:type  foaf:Person ;
+        :spouse   :SayutiMelik .
+
+:AliSadikin  :spouse  :LindaSyamsudiMangan , :NaniSadikin .
+
+:IkeJuliawati  rdf:type  foaf:Person .
+
+:AstutiSuyonoSosrodarsono
+        rdf:type  foaf:Person .
+
+:SriSuharyati  rdf:type  foaf:Person .
+
+:SjarifuddinBaharsjah
+        rdf:type  foaf:Person .
+
+:AbdulHakimHarahap  :spouse  :MarianaLubis .
+
+:SitiChadidjah  rdf:type  foaf:Person .
+
+:MohamadSulemanHidayat
+        :spouse  :NurainiMahdiati .
+
+:Soeweno  rdf:type  foaf:Person ;
+        :spouse   :EndangKusumaIntenSoeweno .
+
+:BobHasan  :spouse  :PertiwiHasan .
+
+:SoedibyoPurboHadiningrat
+        rdf:type  foaf:Person .
+
+:SoetardjoSoerjogoeritno
+        :spouse  :SriAdiati .
+
+:AksaMahmud  :spouse  :RamlahKalla .
+
+:SitiAidaNasution  rdf:type  foaf:Person .
+
+:RanoKarno  :spouse  :DewiIndriati , :NaniMurwantiSoewanto .
+
+:GuidaGiatris  rdf:type  foaf:Person .
+
+:RadenAyuPoedjiAstutiSoebardjo
+        rdf:type  foaf:Person .
+
+:MariaI.AliceAssis  rdf:type  foaf:Person .
+
+:SriRedjeki  rdf:type  foaf:Person .
+
+:Soemini  rdf:type  foaf:Person .
+
+:ImanuelEkadianusBlegur
+        :spouse  :MarselinaBlegurRatu .
+
+:Sophia  rdf:type  foaf:Person .
+
+:OngkeHannaElia  rdf:type  foaf:Person .
+
+:WidjojoSoejono  :spouse  :SitiMastoechajah .
+
+:AmienRais  :spouse  :KusnasriyatiSriRahayu .
+
+:ArnoldAchmadBaramuli
+        :spouse  :AlbertinaKaunang .
+
+:IdaBagusMantra  :spouse  :IGustiAyuBadri .
+
+:HastoWardoyo  :spouse  :DwikisworoSetyowireni .
+
+:DianAnggraini  rdf:type  foaf:Person .
+
+:TartilaIshak  rdf:type  foaf:Person .
+
+:TommySoeharto  :spouse  :ArdhiaPramestiRegitaCahyani .
+
+:WismoyoArismunandar  :spouse  :SitiHardjanti .
+
+:KuntoAriefWibowo  :spouse  <http://127.0.0.1:3333/IndiraParamita,SP.> .
+
+:Soekarto  :spouse  :MariaIndrawati .
+
+:IrmanGusman  :spouse  :LiestyanaRizalGusman .
+
+:KaharMuzakir  :spouse  :SuciRohani .
+
+<http://127.0.0.1:3333/Dr.MariaJosephineKumaat-Mantik,M.Hum>
+        rdf:type  foaf:Person .
+
+:Soekarno  rdf:type  foaf:Person .
+
+:SitiMilangoni  rdf:type  foaf:Person .
+
+:RahmahMalewa  rdf:type  foaf:Person .
+
+:Widaningsri  rdf:type  foaf:Person .
+
+:EndangAgustiniSyarwan
+        :spouse  :SyarwanHamid .
+
+:Soemaryo  rdf:type  foaf:Person .
+
+:AlexAsmasoebrata  :spouse  :SofiaMuriMardiana .
+
+:AgusHermanto  :spouse  :IsthaSaraswati .
+
+:SubiaktoTjakrawerdaya
+        :spouse  :SitiMilangoni .
+
+:PertiwiHasan  rdf:type  foaf:Person .
+
+:AhmadYunusMokoginta  :spouse  :KoriyatiMokoginta .
+
+:SunartiSriHadiyah  rdf:type  foaf:Person .
+
+:MohamadHekal  :spouse  :SitiSalimaHardjuni .
+
+:CelinaAlexandraXavier
+        rdf:type  foaf:Person .
+
+:LennySriMulyani  rdf:type  foaf:Person .
+
+:SutopoJuwono  :spouse  :SunarniGondosaputro .
+
+:SoepardjoRustam  :spouse  :Kardinah .
+
+:BurtonShipley  rdf:type  foaf:Person .
+
+:AswarniBusro  rdf:type  foaf:Person .
+
+:SitiHartinah  :spouse  :Soeharto .
+
+:Hj.Kamsiyah  rdf:type  foaf:Person .
+
+:KemalIdris  :spouse  :HerwinoerBandrianiSinggih .
+
+:Oetari  rdf:type  foaf:Person .
+
+:YosSudarso  :spouse  :SitiKustini .
+
+:Fatmawati  :spouse  :Soekarno .
+
+:ArieWiryawan  rdf:type  foaf:Person .
