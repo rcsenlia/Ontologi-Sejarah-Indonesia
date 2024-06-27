@@ -1,0 +1,28 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:PeristiwaKudetaAngkatanPerangRatuAdil
+        rdf:type    sem:Event ;
+        rdfs:label  "Peristiwa Kudeta Angkatan Perang Ratu Adil" .
+
+:AgresiMiliterBelandaII
+        rdf:type    sem:Event ;
+        rdfs:label  "Agresi Militer Belanda II" .
+
+:SeranganUmum1Maret1949
+        rdf:type    sem:Event ;
+        rdfs:label  "Serangan Umum 1 Maret 1949" .
+
+:RevolusiNasionalIndonesia
+        rdf:type    sem:Event ;
+        rdfs:label  "Revolusi Nasional Indonesia" .
+
+:HamengkubuwanaIX  rdf:type  sem:Actor ;
+        rdfs:label  "Hamengkubuwana IX" ;
+        :isActorOf  :PeristiwaKudetaAngkatanPerangRatuAdil , :SeranganUmum1Maret1949 , :AgresiMiliterBelandaII , :RevolusiNasionalIndonesia .
