@@ -1,0 +1,52 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:PangeranSambernyawa  rdf:type  sem:Actor ;
+        rdfs:label  "Pangeran Sambernyawa" .
+
+:KweeAnSay  rdf:type  sem:Actor ;
+        rdfs:label  "Kwee An Say" .
+
+:AmangkuratV  rdf:type  sem:Actor ;
+        rdfs:label  "Amangkurat V" .
+
+:PanjiMargono  rdf:type  sem:Actor ;
+        rdfs:label  "Panji Margono" .
+
+:SingsehKhePandjang  rdf:type  sem:Actor ;
+        rdfs:label  "Singseh   Khe Pandjang " .
+
+:OeiIngKiat  rdf:type  sem:Actor ;
+        rdfs:label  "Oei Ing Kiat" .
+
+:PerangJawa17411743  rdf:type  sem:Event ;
+        rdfs:label    "Perang Jawa (1741–1743)" ;
+        sem:hasActor  :SingsehKhePandjang .
+
+:KyaiAliBadawi  rdf:type  sem:Actor ;
+        rdfs:label  "Kyai Ali Badawi" .
+
+:PerangKuning  rdf:type  sem:Event ;
+        rdfs:label    "Perang Kuning" ;
+        sem:hasActor  :PakubuwanaII , :PanjiMargono , :AmangkuratV , :OeiIngKiat , :KweeAnSay , :KyaiAliBadawi , :PangeranSambernyawa , :GuoLiuGuan , :TanKeeWie , :CakraningratIV , :Singseh .
+
+:PakubuwanaII  rdf:type  sem:Actor ;
+        rdfs:label  "Pakubuwana II" .
+
+:Singseh  rdf:type  sem:Actor ;
+        rdfs:label  "Singseh" .
+
+:CakraningratIV  rdf:type  sem:Actor ;
+        rdfs:label  "Cakraningrat IV" .
+
+:TanKeeWie  rdf:type  sem:Actor ;
+        rdfs:label  "Tan Kee Wie" .
+
+:GuoLiuGuan  rdf:type  sem:Actor ;
+        rdfs:label  "Guo Liu Guan" .

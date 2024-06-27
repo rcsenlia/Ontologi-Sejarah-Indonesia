@@ -1,0 +1,100 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:TeukuRajaSulaiman  rdf:type  sem:Actor ;
+        rdfs:label  "Teuku Raja Sulaiman" .
+
+:TeukuBidin  rdf:type  sem:Actor ;
+        rdfs:label  "Teuku Bidin" .
+
+:CutMariyam  rdf:type  sem:Actor ;
+        rdfs:label  "Cut Mariyam" .
+
+:GBRAyHjRetnoWidanarni
+        rdf:type    sem:Actor ;
+        rdfs:label  "GBRAy. Hj. Retno Widanarni" .
+
+:GBRAyRetnoMartani  rdf:type  sem:Actor ;
+        rdfs:label  "GBRAy. Retno Martani" .
+
+:GBRAjRetnoPudjawati  rdf:type  sem:Actor ;
+        rdfs:label  "GBRAj. Retno Pudjawati" .
+
+:GBRAyRetnoSewayani  rdf:type  sem:Actor ;
+        rdfs:label  "GBRAy. Retno Sewayani" .
+
+:CutSjak  rdf:type  sem:Actor ;
+        rdfs:label  "Cut Sjak" .
+
+:GPHIndrokusumo  rdf:type  sem:Actor ;
+        rdfs:label  "GPH. Indrokusumo" .
+
+:GPHHTjondrokusumo  rdf:type  sem:Actor ;
+        rdfs:label  "GPH. H. Tjondrokusumo" .
+
+:GBRAyRetnoSuskamdani
+        rdf:type    sem:Actor ;
+        rdfs:label  "GBRAy. Retno Suskamdani" .
+
+:GPHSongkokusumo  rdf:type  sem:Actor ;
+        rdfs:label  "GPH. Songkokusumo" .
+
+:GPHHarioHarimurti  rdf:type  sem:Actor ;
+        rdfs:label  "GPH Hario Harimurti" .
+
+:GBRAyRetnoRukmini  rdf:type  sem:Actor ;
+        rdfs:label  "GBRAy. Retno Rukmini" .
+
+:TeukuUmar  rdf:type  sem:Actor ;
+        rdfs:label  "Teuku Umar" ;
+        :hasChild   :CutGambang , :TeukuBidin , :CutTeungoh , :CutSjak , :CutMariyam , :TeukuRajaSulaiman , :TeukuSapeh .
+
+:PakuAlamVIII  rdf:type  sem:Actor ;
+        rdfs:label  "Paku Alam VIII" ;
+        :hasChild   :GBRAyHjRetnoWidanarni , :GBRAjRetnoPudjawati , :GPHGondhokusumo , :IrGPHHProbokusumo , :GPHAnglingkusumo , :GPHSongkokusumo , :GPHAmbarkusumo , :GBRAyRetnoSewayani , :GBRAyRetnoRukmini , :GPHIndrokusumo , :GBRAyRetnoSundari , :GBRAyRetnoSuskamdani , :GBRAyRetnoMartani , :GPHWijoyokusumo , :GPHNdoyokusumo , :GPHHTjondrokusumo .
+
+:RMWijosenoHarioBimo  rdf:type  sem:Actor ;
+        rdfs:label  "RM Wijoseno Hario Bimo" .
+
+:TeukuSapeh  rdf:type  sem:Actor ;
+        rdfs:label  "Teuku Sapeh" .
+
+:GPHAnglingkusumo  rdf:type  sem:Actor ;
+        rdfs:label  "GPH. Anglingkusumo" .
+
+:CutTeungoh  rdf:type  sem:Actor ;
+        rdfs:label  "Cut Teungoh" .
+
+:GPHWijoyokusumo  rdf:type  sem:Actor ;
+        rdfs:label  "GPH. Wijoyokusumo" .
+
+:GBRAyRetnoSundari  rdf:type  sem:Actor ;
+        rdfs:label  "GBRAy. Retno Sundari" .
+
+:GPHGondhokusumo  rdf:type  sem:Actor ;
+        rdfs:label  "GPH. Gondhokusumo" .
+
+:GPHKusumodilogo  rdf:type  sem:Actor ;
+        rdfs:label  "GPH Kusumodilogo" .
+
+:GPHNdoyokusumo  rdf:type  sem:Actor ;
+        rdfs:label  "GPH. Ndoyokusumo" .
+
+:PakuAlamIX  rdf:type  sem:Actor ;
+        rdfs:label  "Paku Alam IX" ;
+        :hasChild   :GPHHarioHarimurti , :GPHKusumodilogo , :RMWijosenoHarioBimo .
+
+:IrGPHHProbokusumo  rdf:type  sem:Actor ;
+        rdfs:label  "Ir. GPH. H. Probokusumo" .
+
+:GPHAmbarkusumo  rdf:type  sem:Actor ;
+        rdfs:label  "GPH. Ambarkusumo" .
+
+:CutGambang  rdf:type  sem:Actor ;
+        rdfs:label  "Cut Gambang" .

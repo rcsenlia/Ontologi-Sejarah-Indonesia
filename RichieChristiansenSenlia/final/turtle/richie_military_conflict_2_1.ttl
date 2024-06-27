@@ -1,0 +1,178 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:Toskana  rdf:type  sem:Actor ;
+        rdfs:label  "Toskana" .
+
+:TentaraKerajaanHindiaBelanda
+        rdf:type    sem:Actor ;
+        rdfs:label  "Tentara Kerajaan Hindia Belanda" .
+
+:ImperiumPortugal  rdf:type  sem:Actor ;
+        rdfs:label  "Imperium Portugal" .
+
+:PerangBelandaPortugal
+        rdf:type      sem:Event ;
+        rdfs:label    "Perang Belanda-Portugal" ;
+        sem:hasActor  :TupiPotiguara , :KerajaanCochin , :Kastilia , :ImperiumPortugal .
+
+:KesunananSurakarta  rdf:type  sem:Actor ;
+        rdfs:label  "Kesunanan Surakarta " .
+
+:KesultananMataram  rdf:type  sem:Actor ;
+        rdfs:label  "Kesultanan Mataram" .
+
+:Persia  rdf:type   sem:Actor ;
+        rdfs:label  "Persia" .
+
+:KekaisaranChola  rdf:type  sem:Actor ;
+        rdfs:label  "Kekaisaran Chola" .
+
+:PerangTakhtaJawaKetiga
+        rdf:type      sem:Event ;
+        rdfs:label    "Perang Takhta Jawa Ketiga" ;
+        sem:hasActor  :KesultananYogyakarta , :KesunananSurakarta , :PerusahaanHindiaTimurBelanda , :KesultananMataram .
+
+:Nassau  rdf:type   sem:Actor ;
+        rdfs:label  "Nassau" .
+
+:PerangBubat  rdf:type  sem:Event ;
+        rdfs:label    "Perang Bubat" ;
+        sem:hasActor  :KemaharajaanMajapahit .
+
+:AngkatanLautKerajaanBelanda
+        rdf:type    sem:Actor ;
+        rdfs:label  "Angkatan Laut Kerajaan Belanda" .
+
+:Bavaria  rdf:type  sem:Actor ;
+        rdfs:label  "Bavaria" .
+
+:PerangTakhtaJawaKedua
+        rdf:type      sem:Event ;
+        rdfs:label    "Perang Takhta Jawa Kedua" ;
+        sem:hasActor  :PerusahaanHindiaTimurBelanda , :KesultananMataram .
+
+:InvasiCholakeSriwijaya
+        rdf:type      sem:Event ;
+        rdfs:label    "Invasi Chola ke Sriwijaya" ;
+        sem:hasActor  :KekaisaranChola .
+
+:PerangBanjar  rdf:type  sem:Event ;
+        rdfs:label    "Perang Banjar" ;
+        sem:hasActor  :KesultananBanjarmasin .
+
+:BritaniaRaya  rdf:type  sem:Actor ;
+        rdfs:label  "Britania Raya" .
+
+:KemaharajaanMajapahit
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kemaharajaan Majapahit" .
+
+:KerajaanCochin  rdf:type  sem:Actor ;
+        rdfs:label  "Kerajaan Cochin" .
+
+:PerangTakhtaJawaPertama
+        rdf:type      sem:Event ;
+        rdfs:label    "Perang Takhta Jawa Pertama" ;
+        sem:hasActor  :KesultananMataram .
+
+:PerusahaanHindiaTimurBritania
+        rdf:type    sem:Actor ;
+        rdfs:label  "Perusahaan Hindia Timur Britania" .
+
+:TupiPotiguara  rdf:type  sem:Actor ;
+        rdfs:label  "Tupi Potiguara" .
+
+:RoyalisPrancis  rdf:type  sem:Actor ;
+        rdfs:label  "Royalis Prancis" .
+
+:RepublicofChina  rdf:type  sem:Actor ;
+        rdfs:label  "Republic of China" .
+
+:PerusahaanHindiaTimur
+        rdf:type    sem:Actor ;
+        rdfs:label  "Perusahaan Hindia Timur" .
+
+:Hanover  rdf:type  sem:Actor ;
+        rdfs:label  "Hanover" .
+
+:PeperanganeraNapoleon
+        rdf:type      sem:Event ;
+        rdfs:label    "Peperangan era Napoleon" ;
+        sem:hasActor  :Montenegro , :Toskana , :RoyalisPrancis , :Tirol , :Hungaria , :Wrttemberg , :Persia , :Swiss , :Hanover , :Portugal , :Nassau , :Bavaria .
+
+:InvasiMaluku  rdf:type  sem:Event ;
+        rdfs:label    "Invasi Maluku" ;
+        sem:hasActor  :PerusahaanHindiaTimur , :BritaniaRaya .
+
+:Hungaria  rdf:type  sem:Actor ;
+        rdfs:label  "Hungaria" .
+
+:KampanyeHindiaBelanda
+        rdf:type    sem:Event ;
+        rdfs:label  "Kampanye Hindia Belanda" .
+
+:EkspedisiPalembangII
+        rdf:type      sem:Event ;
+        rdfs:label    "Ekspedisi Palembang II" ;
+        sem:hasActor  :KorpsMarinirKerajaanBelanda , :AngkatanLautKerajaanBelanda , :TentaraKerajaanHindiaBelanda .
+
+:PenyerbuanMeesterCornelis
+        rdf:type      sem:Event ;
+        rdfs:label    "Penyerbuan Meester Cornelis" ;
+        sem:hasActor  :PerusahaanHindiaTimurBritania , :KerajaanBersatuBritaniaRayadanIrlandia .
+
+:KesultananBanjarmasin
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kesultanan Banjarmasin" .
+
+:PerangPasifik  rdf:type  sem:Event ;
+        rdfs:label    "Perang Pasifik" ;
+        sem:hasActor  :RepublicofChina .
+
+:KerajaanBersatuBritaniaRayadanIrlandia
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kerajaan Bersatu Britania Raya dan Irlandia" .
+
+:Swiss  rdf:type    sem:Actor ;
+        rdfs:label  "Swiss" .
+
+:Majapahitbarat  rdf:type  sem:Actor ;
+        rdfs:label  "Majapahit barat" .
+
+:Wrttemberg  rdf:type  sem:Actor ;
+        rdfs:label  "Württemberg" .
+
+:KorpsMarinirKerajaanBelanda
+        rdf:type    sem:Actor ;
+        rdfs:label  "Korps Marinir Kerajaan Belanda" .
+
+:KesultananYogyakarta
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kesultanan Yogyakarta" .
+
+:PerusahaanHindiaTimurBelanda
+        rdf:type    sem:Actor ;
+        rdfs:label  "Perusahaan Hindia Timur Belanda" .
+
+:Tirol  rdf:type    sem:Actor ;
+        rdfs:label  "Tirol" .
+
+:PerangRegreg  rdf:type  sem:Event ;
+        rdfs:label    "Perang Regreg" ;
+        sem:hasActor  :Majapahitbarat .
+
+:Montenegro  rdf:type  sem:Actor ;
+        rdfs:label  "Montenegro" .
+
+:Kastilia  rdf:type  sem:Actor ;
+        rdfs:label  "Kastilia" .
+
+:Portugal  rdf:type  sem:Actor ;
+        rdfs:label  "Portugal" .

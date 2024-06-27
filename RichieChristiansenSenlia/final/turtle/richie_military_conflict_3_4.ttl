@@ -1,0 +1,46 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:PakubuwonoII  rdf:type  sem:Actor ;
+        rdfs:label  "Pakubuwono II" .
+
+:HugoVerijsel  rdf:type  sem:Actor ;
+        rdfs:label  "Hugo Verijsel" .
+
+:BartholomeusVisscher
+        rdf:type    sem:Actor ;
+        rdfs:label  "Bartholomeus Visscher" .
+
+:PerangJawa17411743  rdf:type  sem:Event ;
+        rdfs:label    "Perang Jawa (1741–1743)" ;
+        sem:hasActor  :PakubuwonoII , :CakraningratIV , :HugoVerijsel , :BartholomeusVisscher .
+
+:JohannesThedens  rdf:type  sem:Actor ;
+        rdfs:label  "Johannes Thedens" .
+
+:GustaafWillembaronvanImhoff
+        rdf:type    sem:Actor ;
+        rdfs:label  "Gustaaf Willem baron van Imhoff" .
+
+:AdriaanValckenier  rdf:type  sem:Actor ;
+        rdfs:label  "Adriaan Valckenier" .
+
+:PerangKuning  rdf:type  sem:Event ;
+        rdfs:label    "Perang Kuning" ;
+        sem:hasActor  :PakubuwanaII , :TumenggungCitrasomaIV , :CakraningratIV , :AdriaanValckenier , :JohannesThedens , :GustaafWillembaronvanImhoff , :BartholomeusVisscher .
+
+:PakubuwanaII  rdf:type  sem:Actor ;
+        rdfs:label  "Pakubuwana II" .
+
+:TumenggungCitrasomaIV
+        rdf:type    sem:Actor ;
+        rdfs:label  "Tumenggung Citrasoma IV" .
+
+:CakraningratIV  rdf:type  sem:Actor ;
+        rdfs:label  "Cakraningrat IV" .
