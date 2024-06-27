@@ -1,4 +1,5 @@
 @prefix :      <http://127.0.0.1:3333/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
@@ -70,14 +71,14 @@
 :KesultananMataram  rdf:type  sem:Actor ;
         rdfs:label  "Kesultanan Mataram" .
 
-:SerbuanYuan-MongolkeJawa
-        rdf:type      sem:Event ;
-        rdfs:label    "Serbuan Yuan-Mongol ke Jawa" ;
-        sem:hasActor  :Majapahit , :KerajaanSinghasari .
-
 :PerangPadri  rdf:type  sem:Event ;
         rdfs:label    "Perang Padri" ;
         sem:hasActor  :KaumAdat , :KaumPadri .
+
+:SerbuanYuanMongolkeJawa
+        rdf:type      sem:Event ;
+        rdfs:label    "Serbuan Yuan-Mongol ke Jawa" ;
+        sem:hasActor  :Majapahit , :KerajaanSinghasari .
 
 :UlamaIslam  rdf:type  sem:Actor ;
         rdfs:label  "Ulama Islam" .

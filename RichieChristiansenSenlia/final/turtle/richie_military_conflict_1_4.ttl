@@ -1,4 +1,5 @@
 @prefix :      <http://127.0.0.1:3333/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
@@ -16,11 +17,6 @@
 :SultanMahmudSyah  rdf:type  sem:Actor ;
         rdfs:label  "Sultan Mahmud Syah" .
 
-<http://127.0.0.1:3333/PertempuranMelaka(1641)>
-        rdf:type      sem:Event ;
-        rdfs:label    "Pertempuran Melaka (1641)" ;
-        sem:hasActor  :ManueldeSousaCoutinho .
-
 :CornelisvanBiesheuvel
         rdf:type    sem:Actor ;
         rdfs:label  "Cornelis van Biesheuvel" .
@@ -33,7 +29,10 @@
 
 :PerangAceh  rdf:type  sem:Event ;
         rdfs:label    "Perang Aceh" ;
-        sem:hasActor  :TeukuBenMahmud , :TeungkuChikdiTiro , :PocutMeuligoe , :SultanMahmudSyah , :CutMeutia , :HabibAbdurrahmanAz-Zahir , :CutNyakDhien , :PanglimaPolem , :TeungkuFakinah , :TeukuUmar , :SultanMuhammadDaudSyah .
+        sem:hasActor  :CutNyakDhien , :SultanMuhammadDaudSyah , :TeungkuChikdiTiro , :TeukuUmar , :TeukuBenMahmud , :HabibAbdurrahmanAzZahir , :SultanMahmudSyah , :PanglimaPolem , :PocutMeuligoe , :TeungkuFakinah , :CutMeutia .
+
+:KidoShinichir  rdf:type  sem:Actor ;
+        rdfs:label  "Kido Shinichirō" .
 
 :AryaWiraraja  rdf:type  sem:Actor ;
         rdfs:label  "Arya Wiraraja" .
@@ -42,23 +41,15 @@
         rdfs:label    "Perang Padri" ;
         sem:hasActor  :TuankuTambusai , :TuankuRao , :TuankuImamBonjol , :TuankuPasaman .
 
-:SerbuanYuan-MongolkeJawa
-        rdf:type      sem:Event ;
-        rdfs:label    "Serbuan Yuan-Mongol ke Jawa" ;
-        sem:hasActor  :AryaWiraraja , :RanggaLawe , :Nambi , :Sora , :RadenWijaya .
+:HabibAbdurrahmanAzZahir
+        rdf:type    sem:Actor ;
+        rdfs:label  "Habib Abdurrahman Az-Zahir" .
 
 :TuankuImamBonjol  rdf:type  sem:Actor ;
         rdfs:label  "Tuanku Imam Bonjol" .
 
 :TeukuUmar  rdf:type  sem:Actor ;
         rdfs:label  "Teuku Umar" .
-
-:HabibAbdurrahmanAz-Zahir
-        rdf:type    sem:Actor ;
-        rdfs:label  "Habib Abdurrahman Az-Zahir" .
-
-:KidoShinichirō  rdf:type  sem:Actor ;
-        rdfs:label  "Kido Shinichirō" .
 
 :RonggoPrawirodirjoIII
         rdf:type    sem:Actor ;
@@ -92,6 +83,11 @@
 
 :PocutMeuligoe  rdf:type  sem:Actor ;
         rdfs:label  "Pocut Meuligoe" .
+
+:PertempuranMelaka1641
+        rdf:type      sem:Event ;
+        rdfs:label    "Pertempuran Melaka (1641)" ;
+        sem:hasActor  :ManueldeSousaCoutinho .
 
 :CutMeutia  rdf:type  sem:Actor ;
         rdfs:label  "Cut Meutia" .
@@ -147,13 +143,18 @@
 
 :PertempuranLimaHari  rdf:type  sem:Event ;
         rdfs:label    "Pertempuran Lima Hari" ;
-        sem:hasActor  :KidoShinichirō .
+        sem:hasActor  :KidoShinichir .
 
 :HendrikvanSchopoff  rdf:type  sem:Actor ;
         rdfs:label  "Hendrik van Schopoff" .
 
 :KiaiMadja  rdf:type  sem:Actor ;
         rdfs:label  "Kiai Madja" .
+
+:SerbuanYuanMongolkeJawa
+        rdf:type      sem:Event ;
+        rdfs:label    "Serbuan Yuan-Mongol ke Jawa" ;
+        sem:hasActor  :AryaWiraraja , :RanggaLawe , :Nambi , :Sora , :RadenWijaya .
 
 :RobertRolloGillespie
         rdf:type    sem:Actor ;

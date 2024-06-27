@@ -25,11 +25,6 @@
 :SamudraPasifik  rdf:type  geo:Feature ;
         rdfs:label  "Samudra Pasifik" .
 
-<http://127.0.0.1:3333/PertempuranMelaka(1641)>
-        rdf:type      sem:Event ;
-        rdfs:label    "Pertempuran Melaka (1641)" ;
-        :hasLocation  :Malaysia , :Melaka .
-
 :PerangBelandaPortugal
         rdf:type      sem:Event ;
         rdfs:label    "Perang Belanda-Portugal" ;
@@ -44,6 +39,11 @@
 
 :KesultananBanjar  rdf:type  geo:Feature ;
         rdfs:label  "Kesultanan Banjar" .
+
+:IntervensiBelandadiBali1908
+        rdf:type      sem:Event ;
+        rdfs:label    "Intervensi Belanda di Bali (1908)" ;
+        :hasLocation  :Bali .
 
 :PerangAceh  rdf:type  sem:Event ;
         rdfs:label    "Perang Aceh" ;
@@ -156,6 +156,10 @@
 :SemenanjungMalaya  rdf:type  geo:Feature ;
         rdfs:label  "Semenanjung Malaya" .
 
+:PerangJawa174143  rdf:type  sem:Event ;
+        rdfs:label    "Perang Jawa (1741\uFFFD43)" ;
+        :hasLocation  :JawaTimur , :JawaTengah .
+
 :PemberontakanRadenRonggo
         rdf:type      sem:Event ;
         rdfs:label    "Pemberontakan Raden Ronggo" ;
@@ -182,6 +186,11 @@
 :RiodelaPlata  rdf:type  geo:Feature ;
         rdfs:label  "Rio de la Plata" .
 
+:PertempuranMelaka1641
+        rdf:type      sem:Event ;
+        rdfs:label    "Pertempuran Melaka (1641)" ;
+        :hasLocation  :Malaysia , :Melaka .
+
 :KampanyeHindiaBelanda
         rdf:type      sem:Event ;
         rdfs:label    "Kampanye Hindia Belanda" ;
@@ -189,11 +198,6 @@
 
 :KeratonYogyakarta  rdf:type  geo:Feature ;
         rdfs:label  "Keraton Yogyakarta" .
-
-<http://127.0.0.1:3333/IntervensiBelandadiBali(1858)>
-        rdf:type      sem:Event ;
-        rdfs:label    "Intervensi Belanda di Bali (1858)" ;
-        :hasLocation  :Bali .
 
 :GegerSepehi  rdf:type  sem:Event ;
         rdfs:label    "Geger Sepehi" ;
@@ -215,11 +219,6 @@
 :Surakarta  rdf:type  geo:Feature ;
         rdfs:label  "Surakarta" .
 
-<http://127.0.0.1:3333/IntervensiBelandadiBali(1908)>
-        rdf:type      sem:Event ;
-        rdfs:label    "Intervensi Belanda di Bali (1908)" ;
-        :hasLocation  :Bali .
-
 :JawaTimur  rdf:type  geo:Feature ;
         rdfs:label  "Jawa Timur" .
 
@@ -229,11 +228,6 @@
 
 :Jawatimur  rdf:type  geo:Feature ;
         rdfs:label  "Jawa timur" .
-
-<http://127.0.0.1:3333/PerangJawa(1741�43)>
-        rdf:type      sem:Event ;
-        rdfs:label    "Perang Jawa (1741\uFFFD43)" ;
-        :hasLocation  :JawaTimur , :JawaTengah .
 
 :PerangPasifik  rdf:type  sem:Event ;
         rdfs:label    "Perang Pasifik" ;
@@ -261,6 +255,11 @@
 
 :Batavia  rdf:type  geo:Feature ;
         rdfs:label  "Batavia" .
+
+:IntervensiBelandadiBali1858
+        rdf:type      sem:Event ;
+        rdfs:label    "Intervensi Belanda di Bali (1858)" ;
+        :hasLocation  :Bali .
 
 :Indochina  rdf:type  geo:Feature ;
         rdfs:label  "Indochina" .

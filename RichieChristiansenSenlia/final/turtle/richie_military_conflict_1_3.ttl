@@ -1,4 +1,5 @@
 @prefix :      <http://127.0.0.1:3333/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
@@ -10,11 +11,6 @@
         rdf:type    sem:Actor ;
         rdfs:label  "Jan Jacob Karel de Moulin" .
 
-<http://127.0.0.1:3333/PertempuranMelaka(1641)>
-        rdf:type      sem:Event ;
-        rdfs:label    "Pertempuran Melaka (1641)" ;
-        sem:hasActor  :TunAbdulJamil , :WillmsoonCartekoe .
-
 :MayorPrager  rdf:type  sem:Actor ;
         rdfs:label  "Mayor Prager" .
 
@@ -23,22 +19,20 @@
 
 :PerangAceh  rdf:type  sem:Event ;
         rdfs:label    "Perang Aceh" ;
-        sem:hasActor  :KarelvanderHeijden , :JohannesPel , :JanvanSwieten , :JohanCornelisvanderWijck , :JohannesBenedictusvanHeutsz , :GotfriedvanDaalen , :JohanKöhler , :HenryDemmeni , :JanJacobKareldeMoulin .
+        sem:hasActor  :JohanKhler , :JanJacobKareldeMoulin , :JanvanSwieten , :GotfriedvanDaalen , :JohannesPel , :KarelvanderHeijden , :JohanCornelisvanderWijck , :HenryDemmeni , :JohannesBenedictusvanHeutsz .
 
 :PerangPadri  rdf:type  sem:Event ;
         rdfs:label    "Perang Padri" ;
-        sem:hasActor  :MayorLaemlin , :MayorPrager , :LetnanKolonelKrieger , :LetnanKolonelRaaff , :KolonelStuers , :KaptenLange , :MayorJendralCochius , :LetnanKolonelBauer , :KaptenPoland , :RajoAlam , :LetnanKolonelElout , :MayorduBus .
-
-:SerbuanYuan-MongolkeJawa
-        rdf:type      sem:Event ;
-        rdfs:label    "Serbuan Yuan-Mongol ke Jawa" ;
-        sem:hasActor  :Gaoxing , :IkeMese , :Shi-bi , :KubilaiKhan .
+        sem:hasActor  :KaptenPoland , :KaptenLange , :KolonelStuers , :RajoAlam , :LetnanKolonelBauer , :LetnanKolonelKrieger , :MayorduBus , :MayorPrager , :LetnanKolonelRaaff , :MayorLaemlin , :LetnanKolonelElout , :MayorJendralCochius .
 
 :JohannesPel  rdf:type  sem:Actor ;
         rdfs:label  "Johannes Pel" .
 
 :LetnanKolonelRaaff  rdf:type  sem:Actor ;
         rdfs:label  "Letnan Kolonel Raaff" .
+
+:HermanusWDotulong  rdf:type  sem:Actor ;
+        rdfs:label  "Hermanus W. Dotulong" .
 
 :WillmsoonCartekoe  rdf:type  sem:Actor ;
         rdfs:label  "Willmsoon Cartekoe" .
@@ -48,6 +42,9 @@
 
 :HenryDemmeni  rdf:type  sem:Actor ;
         rdfs:label  "Henry Demmeni" .
+
+:drKariadi  rdf:type  sem:Actor ;
+        rdfs:label  "dr. Kariadi" .
 
 :HermanWillemDaendels
         rdf:type    sem:Actor ;
@@ -80,9 +77,6 @@
         rdfs:label    "Pemberontakan Raden Ronggo" ;
         sem:hasActor  :HermanWillemDaendels .
 
-:Shi-bi  rdf:type   sem:Actor ;
-        rdfs:label  "Shi-bi" .
-
 :PangeranJagapati  rdf:type  sem:Actor ;
         rdfs:label  "Pangeran Jagapati" .
 
@@ -91,6 +85,11 @@
 
 :KarelvanderHeijden  rdf:type  sem:Actor ;
         rdfs:label  "Karel van der Heijden" .
+
+:PertempuranMelaka1641
+        rdf:type      sem:Event ;
+        rdfs:label    "Pertempuran Melaka (1641)" ;
+        sem:hasActor  :TunAbdulJamil , :WillmsoonCartekoe .
 
 :KRTSumadiningrat  rdf:type  sem:Actor ;
         rdfs:label  "KRT Sumadiningrat" .
@@ -101,9 +100,6 @@
 
 :GotfriedvanDaalen  rdf:type  sem:Actor ;
         rdfs:label  "Gotfried van Daalen" .
-
-:dr.Kariadi  rdf:type  sem:Actor ;
-        rdfs:label  "dr. Kariadi" .
 
 :PerangBayu  rdf:type  sem:Event ;
         rdfs:label    "Perang Bayu" ;
@@ -120,7 +116,7 @@
 
 :PerangDiponegoro  rdf:type  sem:Event ;
         rdfs:label    "Perang Diponegoro" ;
-        sem:hasActor  :HermanusW.Dotulong , :HendrikM.deKock .
+        sem:hasActor  :HermanusWDotulong , :HendrikMdeKock .
 
 :LetnanKolonelBauer  rdf:type  sem:Actor ;
         rdfs:label  "Letnan Kolonel Bauer" .
@@ -130,11 +126,14 @@
 
 :PertempuranLimaHari  rdf:type  sem:Event ;
         rdfs:label    "Pertempuran Lima Hari" ;
-        sem:hasActor  :Wongsonegoro , :dr.Kariadi .
+        sem:hasActor  :Wongsonegoro , :drKariadi .
 
 :LetnanKolonelKrieger
         rdf:type    sem:Actor ;
         rdfs:label  "Letnan Kolonel Krieger" .
+
+:HendrikMdeKock  rdf:type  sem:Actor ;
+        rdfs:label  "Hendrik M. de Kock" .
 
 :JanvanSwieten  rdf:type  sem:Actor ;
         rdfs:label  "Jan van Swieten" .
@@ -142,14 +141,16 @@
 :TunAbdulJamil  rdf:type  sem:Actor ;
         rdfs:label  "Tun Abdul Jamil" .
 
-:JohanKöhler  rdf:type  sem:Actor ;
+:SerbuanYuanMongolkeJawa
+        rdf:type      sem:Event ;
+        rdfs:label    "Serbuan Yuan-Mongol ke Jawa" ;
+        sem:hasActor  :Gaoxing , :IkeMese , :Shibi , :KubilaiKhan .
+
+:Shibi  rdf:type    sem:Actor ;
+        rdfs:label  "Shi-bi" .
+
+:JohanKhler  rdf:type  sem:Actor ;
         rdfs:label  "Johan Köhler" .
-
-:HendrikM.deKock  rdf:type  sem:Actor ;
-        rdfs:label  "Hendrik M. de Kock" .
-
-:HermanusW.Dotulong  rdf:type  sem:Actor ;
-        rdfs:label  "Hermanus W. Dotulong" .
 
 :KaptenLange  rdf:type  sem:Actor ;
         rdfs:label  "Kapten Lange" .

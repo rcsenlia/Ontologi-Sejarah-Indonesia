@@ -1,4 +1,5 @@
 @prefix :      <http://127.0.0.1:3333/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,6 +10,11 @@
 :GegerSepehi  rdf:type  sem:Event ;
         rdfs:label    "Geger Sepehi" ;
         sem:hasActor  :KesultananYogyakarta .
+
+:PertempuranMelaka1641
+        rdf:type      sem:Event ;
+        rdfs:label    "Pertempuran Melaka (1641)" ;
+        sem:hasActor  :KesultananJohor .
 
 :KesultananJohor  rdf:type  sem:Actor ;
         rdfs:label  "Kesultanan Johor" .
@@ -31,11 +37,6 @@
 :tentaraBelanda  rdf:type  sem:Actor ;
         rdfs:label  "tentara Belanda" .
 
-<http://127.0.0.1:3333/PertempuranMelaka(1641)>
-        rdf:type      sem:Event ;
-        rdfs:label    "Pertempuran Melaka (1641)" ;
-        sem:hasActor  :KesultananJohor .
-
 :PerangBelasting  rdf:type  sem:Event ;
         rdfs:label    "Perang Belasting" ;
         sem:hasActor  :RakyatKamang .
@@ -50,7 +51,7 @@
 
 :PerangAceh  rdf:type  sem:Event ;
         rdfs:label    "Perang Aceh" ;
-        sem:hasActor  <http://127.0.0.1:3333/TentaraKerajaanHindiaBelanda(KNIL)> .
+        sem:hasActor  :TentaraKerajaanHindiaBelandaKNIL .
 
 :PasukanTulungan  rdf:type  sem:Actor ;
         rdfs:label  "Pasukan Tulungan" .
@@ -58,22 +59,22 @@
 :RakyatKamang  rdf:type  sem:Actor ;
         rdfs:label  "Rakyat Kamang" .
 
+:TentaraKerajaanHindiaBelandaKNIL
+        rdf:type    sem:Actor ;
+        rdfs:label  "Tentara Kerajaan Hindia Belanda (KNIL)" .
+
 :KaumAdat  rdf:type  sem:Actor ;
         rdfs:label  "Kaum Adat" .
 
-:SerbuanYuan-MongolkeJawa
-        rdf:type      sem:Event ;
-        rdfs:label    "Serbuan Yuan-Mongol ke Jawa" ;
-        sem:hasActor  <http://127.0.0.1:3333/KekaisaranTiongkok-Mongol(DinastiYuan)> .
+:KekaisaranTiongkokMongolDinastiYuan
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kekaisaran Tiongkok-Mongol ( Dinasti Yuan)" .
 
 :PerangPadri  rdf:type  sem:Event ;
         rdfs:label    "Perang Padri" ;
         sem:hasActor  :KaumAdat .
 
-<http://127.0.0.1:3333/TentaraKerajaanHindiaBelanda(KNIL)>
-        rdf:type    sem:Actor ;
-        rdfs:label  "Tentara Kerajaan Hindia Belanda (KNIL)" .
-
-<http://127.0.0.1:3333/KekaisaranTiongkok-Mongol(DinastiYuan)>
-        rdf:type    sem:Actor ;
-        rdfs:label  "Kekaisaran Tiongkok-Mongol ( Dinasti Yuan)" .
+:SerbuanYuanMongolkeJawa
+        rdf:type      sem:Event ;
+        rdfs:label    "Serbuan Yuan-Mongol ke Jawa" ;
+        sem:hasActor  :KekaisaranTiongkokMongolDinastiYuan .
