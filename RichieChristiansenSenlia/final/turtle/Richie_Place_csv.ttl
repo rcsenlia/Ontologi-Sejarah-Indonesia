@@ -1,0 +1,291 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:Indonesia  rdf:type  geo:Feature ;
+        rdfs:label  "Indonesia" .
+
+:Songgon  rdf:type  geo:Feature ;
+        rdfs:label  "Songgon" .
+
+:KabupatenBanyuwangi  rdf:type  geo:Feature ;
+        rdfs:label  "Kabupaten Banyuwangi" .
+
+:KesultananAceh  rdf:type  geo:Feature ;
+        rdfs:label  "Kesultanan Aceh" .
+
+:JawaTengah  rdf:type  geo:Feature ;
+        rdfs:label  "Jawa Tengah" .
+
+:SamudraPasifik  rdf:type  geo:Feature ;
+        rdfs:label  "Samudra Pasifik" .
+
+<http://127.0.0.1:3333/PertempuranMelaka(1641)>
+        rdf:type      sem:Event ;
+        rdfs:label    "Pertempuran Melaka (1641)" ;
+        :hasLocation  :Malaysia , :Melaka .
+
+:PerangBelandaPortugal
+        rdf:type      sem:Event ;
+        rdfs:label    "Perang Belanda-Portugal" ;
+        :hasLocation  :Indochina , :HindiaTimur , :AfrikaSelatan , :AfrikaBarat , :Brasil .
+
+:Jakarta  rdf:type  geo:Feature ;
+        rdfs:label  "Jakarta" .
+
+:PerangBelasting  rdf:type  sem:Event ;
+        rdfs:label    "Perang Belasting" ;
+        :hasLocation  :SumateraBarat , :Agam , :KamangMagek .
+
+:KesultananBanjar  rdf:type  geo:Feature ;
+        rdfs:label  "Kesultanan Banjar" .
+
+:PerangAceh  rdf:type  sem:Event ;
+        rdfs:label    "Perang Aceh" ;
+        :hasLocation  :KesultananAceh .
+
+:PerangPadri  rdf:type  sem:Event ;
+        rdfs:label    "Perang Padri" ;
+        :hasLocation  :Riau , :SumateraUtara , :SumateraBarat .
+
+:PerangTakhtaJawaKetiga
+        rdf:type      sem:Event ;
+        rdfs:label    "Perang Takhta Jawa Ketiga" ;
+        :hasLocation  :JawaTengah .
+
+:PerangBubat  rdf:type  sem:Event ;
+        rdfs:label    "Perang Bubat" ;
+        :hasLocation  :Indonesia , :Jawatimur , :KabupatenMojokerto , :Majapahit , :Trowulan , :AlunalunBubat .
+
+:KotaSemarang  rdf:type  geo:Feature ;
+        rdfs:label  "Kota Semarang" .
+
+:Bali   rdf:type    geo:Feature ;
+        rdfs:label  "Bali" .
+
+:Bayu   rdf:type    geo:Feature ;
+        rdfs:label  "Bayu" .
+
+:Malaysia  rdf:type  geo:Feature ;
+        rdfs:label  "Malaysia" .
+
+:PerangTakhtaJawaKedua
+        rdf:type      sem:Event ;
+        rdfs:label    "Perang Takhta Jawa Kedua" ;
+        :hasLocation  :Jawa .
+
+:AsiaSelatan  rdf:type  geo:Feature ;
+        rdfs:label  "Asia Selatan" .
+
+:InvasiCholakeSriwijaya
+        rdf:type      sem:Event ;
+        rdfs:label    "Invasi Chola ke Sriwijaya" ;
+        :hasLocation  :Sriwijaya , :SemenanjungMalaya , :Kedah , :Sumatra , :Palembang .
+
+:PerangBanjar  rdf:type  sem:Event ;
+        rdfs:label    "Perang Banjar" ;
+        :hasLocation  :KesultananBanjar .
+
+:Palembang  rdf:type  geo:Feature ;
+        rdfs:label  "Palembang" .
+
+:Trowulan  rdf:type  geo:Feature ;
+        rdfs:label  "Trowulan" .
+
+:Riau   rdf:type    geo:Feature ;
+        rdfs:label  "Riau" .
+
+:GuyanaPrancis  rdf:type  geo:Feature ;
+        rdfs:label  "Guyana Prancis" .
+
+:HindiaTimur  rdf:type  geo:Feature ;
+        rdfs:label  "Hindia Timur" .
+
+:AsiaTenggara  rdf:type  geo:Feature ;
+        rdfs:label  "Asia Tenggara" .
+
+:SamudraHindia  rdf:type  geo:Feature ;
+        rdfs:label  "Samudra Hindia" .
+
+:KamangMagek  rdf:type  geo:Feature ;
+        rdfs:label  "Kamang Magek" .
+
+:KepulauanMaluku  rdf:type  geo:Feature ;
+        rdfs:label  "Kepulauan Maluku" .
+
+:Agam   rdf:type    geo:Feature ;
+        rdfs:label  "Agam" .
+
+:LautUtara  rdf:type  geo:Feature ;
+        rdfs:label  "Laut Utara" .
+
+:SumateraBarat  rdf:type  geo:Feature ;
+        rdfs:label  "Sumatera Barat" .
+
+:AfrikaSelatan  rdf:type  geo:Feature ;
+        rdfs:label  "Afrika Selatan" .
+
+:Yogyakarta  rdf:type  geo:Feature ;
+        rdfs:label  "Yogyakarta" .
+
+:PerangTakhtaJawaPertama
+        rdf:type      sem:Event ;
+        rdfs:label    "Perang Takhta Jawa Pertama" ;
+        :hasLocation  :Jawa .
+
+:Oseania  rdf:type  geo:Feature ;
+        rdfs:label  "Oseania" .
+
+:Melaka  rdf:type   geo:Feature ;
+        rdfs:label  "Melaka" .
+
+:AsiaTimur  rdf:type  geo:Feature ;
+        rdfs:label  "Asia Timur" .
+
+:AlunalunBubat  rdf:type  geo:Feature ;
+        rdfs:label  "Alun-alun Bubat" .
+
+:LautMediterania  rdf:type  geo:Feature ;
+        rdfs:label  "Laut Mediterania" .
+
+:SemenanjungMalaya  rdf:type  geo:Feature ;
+        rdfs:label  "Semenanjung Malaya" .
+
+:PemberontakanRadenRonggo
+        rdf:type      sem:Event ;
+        rdfs:label    "Pemberontakan Raden Ronggo" ;
+        :hasLocation  :Jawa .
+
+:HindiaBarat  rdf:type  geo:Feature ;
+        rdfs:label  "Hindia Barat" .
+
+:PeperanganeraNapoleon
+        rdf:type      sem:Event ;
+        rdfs:label    "Peperangan era Napoleon" ;
+        :hasLocation  :KaukasusSelatan , :SamudraHindia , :HindiaBarat , :GuyanaPrancis , :RiodelaPlata , :LautUtara , :LautMediterania .
+
+:Sumatra  rdf:type  geo:Feature ;
+        rdfs:label  "Sumatra" .
+
+:InvasiMaluku  rdf:type  sem:Event ;
+        rdfs:label    "Invasi Maluku" ;
+        :hasLocation  :HindiaBelanda , :KepulauanMaluku .
+
+:AfrikaBarat  rdf:type  geo:Feature ;
+        rdfs:label  "Afrika Barat" .
+
+:RiodelaPlata  rdf:type  geo:Feature ;
+        rdfs:label  "Rio de la Plata" .
+
+:KampanyeHindiaBelanda
+        rdf:type      sem:Event ;
+        rdfs:label    "Kampanye Hindia Belanda" ;
+        :hasLocation  :HindiaBelanda .
+
+:KeratonYogyakarta  rdf:type  geo:Feature ;
+        rdfs:label  "Keraton Yogyakarta" .
+
+<http://127.0.0.1:3333/IntervensiBelandadiBali(1858)>
+        rdf:type      sem:Event ;
+        rdfs:label    "Intervensi Belanda di Bali (1858)" ;
+        :hasLocation  :Bali .
+
+:GegerSepehi  rdf:type  sem:Event ;
+        rdfs:label    "Geger Sepehi" ;
+        :hasLocation  :KeratonYogyakarta .
+
+:KabupatenMojokerto  rdf:type  geo:Feature ;
+        rdfs:label  "Kabupaten Mojokerto" .
+
+:EkspedisiPalembangII
+        rdf:type      sem:Event ;
+        rdfs:label    "Ekspedisi Palembang II" ;
+        :hasLocation  :Palembang .
+
+:PenyerbuanMeesterCornelis
+        rdf:type      sem:Event ;
+        rdfs:label    "Penyerbuan Meester Cornelis" ;
+        :hasLocation  :Indonesia , :Jakarta , :HindiaBelanda , :Batavia .
+
+:Surakarta  rdf:type  geo:Feature ;
+        rdfs:label  "Surakarta" .
+
+<http://127.0.0.1:3333/IntervensiBelandadiBali(1908)>
+        rdf:type      sem:Event ;
+        rdfs:label    "Intervensi Belanda di Bali (1908)" ;
+        :hasLocation  :Bali .
+
+:JawaTimur  rdf:type  geo:Feature ;
+        rdfs:label  "Jawa Timur" .
+
+:PerangBayu  rdf:type  sem:Event ;
+        rdfs:label    "Perang Bayu" ;
+        :hasLocation  :KabupatenBanyuwangi , :Songgon , :Bayu .
+
+:Jawatimur  rdf:type  geo:Feature ;
+        rdfs:label  "Jawa timur" .
+
+<http://127.0.0.1:3333/PerangJawa(1741�43)>
+        rdf:type      sem:Event ;
+        rdfs:label    "Perang Jawa (1741\uFFFD43)" ;
+        :hasLocation  :JawaTimur , :JawaTengah .
+
+:PerangPasifik  rdf:type  sem:Event ;
+        rdfs:label    "Perang Pasifik" ;
+        :hasLocation  :SamudraHindia , :SamudraPasifik , :Oseania , :AsiaTenggara , :AsiaSelatan , :AsiaTimur .
+
+:PerangDiponegoro  rdf:type  sem:Event ;
+        rdfs:label    "Perang Diponegoro" ;
+        :hasLocation  :JawaTimur , :JawaTengah , :Surakarta , :Yogyakarta .
+
+:SumateraUtara  rdf:type  geo:Feature ;
+        rdfs:label  "Sumatera Utara" .
+
+:PertempuranLimaHari  rdf:type  sem:Event ;
+        rdfs:label    "Pertempuran Lima Hari" ;
+        :hasLocation  :Indonesia , :JawaTengah , :KotaSemarang .
+
+:HindiaBelanda  rdf:type  geo:Feature ;
+        rdfs:label  "Hindia Belanda" .
+
+:Sriwijaya  rdf:type  geo:Feature ;
+        rdfs:label  "Sriwijaya" .
+
+:KaukasusSelatan  rdf:type  geo:Feature ;
+        rdfs:label  "Kaukasus Selatan" .
+
+:Batavia  rdf:type  geo:Feature ;
+        rdfs:label  "Batavia" .
+
+:Indochina  rdf:type  geo:Feature ;
+        rdfs:label  "Indochina" .
+
+:SerbuanYuanMongolkeJawa
+        rdf:type      sem:Event ;
+        rdfs:label    "Serbuan Yuan-Mongol ke Jawa" ;
+        :hasLocation  :JawaTimur .
+
+:Kedah  rdf:type    geo:Feature ;
+        rdfs:label  "Kedah" .
+
+:Majapahit  rdf:type  geo:Feature ;
+        rdfs:label  "Majapahit" .
+
+:PerangRegreg  rdf:type  sem:Event ;
+        rdfs:label    "Perang Regreg" ;
+        :hasLocation  :JawaTimur , :Majapahit .
+
+:Jawa   rdf:type    geo:Feature ;
+        rdfs:label  "Jawa" .
+
+:Brasil  rdf:type   geo:Feature ;
+        rdfs:label  "Brasil" .
+
+:PerangKuning  rdf:type  sem:Event ;
+        rdfs:label    "Perang Kuning" ;
+        :hasLocation  :Jawa .
