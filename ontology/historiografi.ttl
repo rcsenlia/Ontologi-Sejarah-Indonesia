@@ -296,6 +296,8 @@ Note that the value-space is not defined, so a generic OWL2 processor cannot com
 ###  http://127.0.0.1:3333/hasChild
 :hasChild rdf:type owl:ObjectProperty ;
           owl:inverseOf :hasParent ;
+          rdfs:domain sem:Actor ;
+          rdfs:range sem:Actor ;
           rdfs:label "child" .
 
 
