@@ -295,7 +295,8 @@ Note that the value-space is not defined, so a generic OWL2 processor cannot com
 
 ###  http://127.0.0.1:3333/hasChild
 :hasChild rdf:type owl:ObjectProperty ;
-          owl:inverseOf :hasParent .
+          owl:inverseOf :hasParent ;
+          rdfs:label "child" .
 
 
 ###  http://127.0.0.1:3333/hasLocation
@@ -303,20 +304,23 @@ Note that the value-space is not defined, so a generic OWL2 processor cannot com
              rdfs:subPropertyOf owl:topObjectProperty ;
              owl:inverseOf :isLocationOf ;
              rdfs:domain sem:Event ;
-             rdfs:range geo:Feature .
+             rdfs:range geo:Feature ;
+             rdfs:label "location" .
 
 
 ###  http://127.0.0.1:3333/hasParent
 :hasParent rdf:type owl:ObjectProperty ;
            rdfs:domain foaf:Person ;
-           rdfs:range foaf:Person .
+           rdfs:range foaf:Person ;
+           rdfs:label "parent" .
 
 
 ###  http://127.0.0.1:3333/hasRelative
 :hasRelative rdf:type owl:ObjectProperty ,
                       owl:SymmetricProperty ;
              rdfs:domain foaf:Person ;
-             rdfs:range foaf:Person .
+             rdfs:range foaf:Person ;
+             rdfs:label "relative" .
 
 
 ###  http://127.0.0.1:3333/isActorOf
