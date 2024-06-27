@@ -1,0 +1,86 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:GegerSepehi  rdf:type  sem:Event ;
+        rdfs:label    "Geger Sepehi" ;
+        sem:hasActor  :KadipatenMangkunagaran , :PendudukanInggrisdiJawa , :BritaniaRaya .
+
+:KesultananAceh  rdf:type  sem:Actor ;
+        rdfs:label  "Kesultanan Aceh" .
+
+:HindiaBelanda  rdf:type  sem:Actor ;
+        rdfs:label  "Hindia Belanda" .
+
+:PemberontakanRadenRonggo
+        rdf:type      sem:Event ;
+        rdfs:label    "Pemberontakan Raden Ronggo" ;
+        sem:hasActor  :TentaraKaresidenanMadiun .
+
+:PendudukanInggrisdiJawa
+        rdf:type    sem:Actor ;
+        rdfs:label  "Pendudukan Inggris di Jawa" .
+
+:PerangDiponegoro  rdf:type  sem:Event ;
+        rdfs:label    "Perang Diponegoro" ;
+        sem:hasActor  :Diponegoro .
+
+:PerangBelasting  rdf:type  sem:Event ;
+        rdfs:label    "Perang Belasting" ;
+        sem:hasActor  :HindiaBelanda .
+
+:BritaniaRaya  rdf:type  sem:Actor ;
+        rdfs:label  "Britania Raya" .
+
+:KadipatenMangkunagaran
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kadipaten Mangkunagaran" .
+
+:TentaraKaresidenanMadiun
+        rdf:type    sem:Actor ;
+        rdfs:label  "Tentara Karesidenan Madiun" .
+
+:PerangBayu  rdf:type  sem:Event ;
+        rdfs:label    "Perang Bayu" ;
+        sem:hasActor  :KesultananMataram , :PasukanVOC .
+
+:KaumPadri  rdf:type  sem:Actor ;
+        rdfs:label  "Kaum Padri" .
+
+:KerajaanSinghasari  rdf:type  sem:Actor ;
+        rdfs:label  "Kerajaan Singhasari" .
+
+:Majapahit  rdf:type  sem:Actor ;
+        rdfs:label  "Majapahit" .
+
+:Diponegoro  rdf:type  sem:Actor ;
+        rdfs:label  "Diponegoro" .
+
+:PerangAceh  rdf:type  sem:Event ;
+        rdfs:label    "Perang Aceh" ;
+        sem:hasActor  :UlamaIslam , :KesultananAceh .
+
+:KaumAdat  rdf:type  sem:Actor ;
+        rdfs:label  "Kaum Adat" .
+
+:KesultananMataram  rdf:type  sem:Actor ;
+        rdfs:label  "Kesultanan Mataram" .
+
+:SerbuanYuan-MongolkeJawa
+        rdf:type      sem:Event ;
+        rdfs:label    "Serbuan Yuan-Mongol ke Jawa" ;
+        sem:hasActor  :Majapahit , :KerajaanSinghasari .
+
+:PerangPadri  rdf:type  sem:Event ;
+        rdfs:label    "Perang Padri" ;
+        sem:hasActor  :KaumAdat , :KaumPadri .
+
+:UlamaIslam  rdf:type  sem:Actor ;
+        rdfs:label  "Ulama Islam" .
+
+:PasukanVOC  rdf:type  sem:Actor ;
+        rdfs:label  "Pasukan VOC" .
