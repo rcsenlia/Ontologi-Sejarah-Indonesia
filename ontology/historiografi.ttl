@@ -37,12 +37,12 @@
                                     "2024-02-29"^^xsd:date ;
 <http://purl.org/dc/terms/publisher> [ ] ;
 <http://purl.org/dc/terms/replaces> <http://www.opengis.net/ont/geosparql/1.0> ;
-<http://purl.org/dc/terms/rights> "(c) 2021 Open Geospatial Consortium" ,
-                                  "Copyright © 2006-2021 W3C, OGC. W3C and OGC liability, trademark and document use rules apply."@en ;
+<http://purl.org/dc/terms/rights> "Copyright © 2006-2021 W3C, OGC. W3C and OGC liability, trademark and document use rules apply."@en ,
+                                  "(c) 2021 Open Geospatial Consortium" ;
 <http://purl.org/dc/terms/source> <http://www.opengis.net/doc/IS/geosparql/1.1> ,
                                   "OGC GeoSPARQL - A Geographic Query Language for RDF Data OGC 11-052r5"@en ;
 <http://purl.org/dc/terms/title> "GeoSPARQL Ontology" ;
-<http://purl.org/vocab/vann/preferredNamespacePrefix> "geo"^^xsd:string ;
+<http://purl.org/vocab/vann/preferredNamespacePrefix> "geo" ;
 <http://purl.org/vocab/vann/preferredNamespaceUri> "http://www.opengis.net/ont/geosparql#"^^xsd:anyURI ;
 rdfs:label "OWL-Time"@en ,
            "Tiempo en OWL"@es ;
@@ -321,13 +321,17 @@ Note that the value-space is not defined, so a generic OWL2 processor cannot com
 
 ###  http://127.0.0.1:3333/isActorOf
 :isActorOf rdf:type owl:ObjectProperty ;
-           owl:inverseOf sem:hasActor .
+           owl:inverseOf sem:hasActor ;
+           rdfs:domain sem:Actor ;
+           rdfs:range sem:Event ;
+           rdfs:label "is actor of" .
 
 
 ###  http://127.0.0.1:3333/isLocationOf
 :isLocationOf rdf:type owl:ObjectProperty ;
               rdfs:domain geo:Feature ;
-              rdfs:range sem:Event .
+              rdfs:range sem:Event ;
+              rdfs:label "is location of" .
 
 
 ###  http://semanticweb.cs.vu.nl/2009/11/sem/accordingTo
@@ -435,6 +439,8 @@ sem:roleType rdf:type owl:ObjectProperty ;
 
 ###  http://semanticweb.cs.vu.nl/2009/11/sem/subEventOf
 sem:subEventOf rdf:type owl:ObjectProperty ;
+               rdfs:domain sem:Event ;
+               rdfs:range sem:Event ;
                rdfs:comment "Inverse property of hasSubEvent" ;
                rdfs:label "subevent of" .
 
@@ -954,8 +960,8 @@ time:before rdf:type owl:ObjectProperty ,
 time:dayOfWeek rdf:type owl:ObjectProperty ;
                rdfs:domain time:GeneralDateTimeDescription ;
                rdfs:range time:DayOfWeek ;
-               rdfs:comment "El día de la semana, cuyo valor es un miembro de la clase 'día de la semana'." ,
-                            "The day of week, whose value is a member of the class time:DayOfWeek"@en ;
+               rdfs:comment "The day of week, whose value is a member of the class time:DayOfWeek"@en ,
+                            "El día de la semana, cuyo valor es un miembro de la clase 'día de la semana'." ;
                rdfs:label "day of week"@en ,
                           "día de la semana"@es ;
                <http://www.w3.org/2004/02/skos/core#definition> "El día de la semana, cuyo valor es un miembro de la clase 'día de la semana'."@es ,
@@ -1341,11 +1347,11 @@ time:timeZone rdf:type owl:ObjectProperty ;
 An alignment axiom 
 	tzont:TimeZone rdfs:subClassOf time:TimeZone . 
 allows data encoded according to the previous version to be consistent with the updated ontology. """ ;
-              <http://www.w3.org/2004/02/skos/core#note> """IANA maintains a database of timezones. These are well maintained and generally considered authoritative, but individual items are not available at individual URIs, so cannot be used directly in data expressed using OWL-Time.
+              <http://www.w3.org/2004/02/skos/core#note> """IANA mantiene una base de datos de husos horarios. Éstas están bien mantenidas y generalmente se consideran autorizadas, pero los ítems individuales no están disponibles en URIs individuales, por tanto, no se pueden utilizar directamente en datos expresados utilizando OWL-Time.
+            La BDPedia proporciona un conjunto de recursos correspondientes a los husos horarios de IANA, con una URI para cada uno (por ejemplo, http://dbpedia.org/resource/Australia/Eucla). El Servicio de Reloj Mundial también proporciona una lista de husos horarios con la descripción de cada uno de los disponibles como una página Web individual con una URI adecuada individual (por ejemplo, https://www.timeanddate.com/time/zones/acwst). Éstos, y otros recursos similares, se puden usar como un valor de la propiedad 'huso horario'."""@es ,
+                                                         """IANA maintains a database of timezones. These are well maintained and generally considered authoritative, but individual items are not available at individual URIs, so cannot be used directly in data expressed using OWL-Time.
 
-DBPedia provides a set of resources corresponding to the IANA timezones, with a URI for each (e.g. http://dbpedia.org/resource/Australia/Eucla). The World Clock service also provides a list of time zones with the description of each available as an individual webpage with a convenient individual URI (e.g. https://www.timeanddate.com/time/zones/acwst). These or other, similar, resources might be used as a value of the time:timeZone property.""" ,
-                                                         """IANA mantiene una base de datos de husos horarios. Éstas están bien mantenidas y generalmente se consideran autorizadas, pero los ítems individuales no están disponibles en URIs individuales, por tanto, no se pueden utilizar directamente en datos expresados utilizando OWL-Time.
-            La BDPedia proporciona un conjunto de recursos correspondientes a los husos horarios de IANA, con una URI para cada uno (por ejemplo, http://dbpedia.org/resource/Australia/Eucla). El Servicio de Reloj Mundial también proporciona una lista de husos horarios con la descripción de cada uno de los disponibles como una página Web individual con una URI adecuada individual (por ejemplo, https://www.timeanddate.com/time/zones/acwst). Éstos, y otros recursos similares, se puden usar como un valor de la propiedad 'huso horario'."""@es .
+DBPedia provides a set of resources corresponding to the IANA timezones, with a URI for each (e.g. http://dbpedia.org/resource/Australia/Eucla). The World Clock service also provides a list of time zones with the description of each available as an individual webpage with a convenient individual URI (e.g. https://www.timeanddate.com/time/zones/acwst). These or other, similar, resources might be used as a value of the time:timeZone property.""" .
 
 
 ###  http://www.w3.org/2006/time#unitType
@@ -2427,8 +2433,8 @@ time:GeneralDateTimeDescription rdf:type owl:Class ;
                                              "Description of date and time structured with separate values for the various elements of a calendar-clock system"@en ;
                                 rdfs:label "Generalized date-time description"@en ,
                                            "descripción de fecha-hora generalizada"@es ;
-                                <http://www.w3.org/2004/02/skos/core#definition> "Descripción de fecha y hora estructurada con valores separados para los distintos elementos de un sistema calendario-reloj." ,
-                                                                                 "Description of date and time structured with separate values for the various elements of a calendar-clock system"@en ;
+                                <http://www.w3.org/2004/02/skos/core#definition> "Description of date and time structured with separate values for the various elements of a calendar-clock system"@en ,
+                                                                                 "Descripción de fecha y hora estructurada con valores separados para los distintos elementos de un sistema calendario-reloj." ;
                                 <http://www.w3.org/2004/02/skos/core#note> "Algunas combinaciones de propiedades son redundantes - por ejemplo, dentro de un 'año' especificado si se proporciona 'día del año' entonces 'día' y 'mes' se pueden computar, y viceversa. Los valores individuales deberían ser consistentes entre ellos y con el calendario, indicado a través del valor de la propiedad 'tiene TRS'."@es ,
                                                                            "Some combinations of properties are redundant - for example, within a specified :year if :dayOfYear is provided then :day and :month can be computed, and vice versa. Individual values should be consistent with each other and the calendar, indicated through the value of the :hasTRS property." .
 
@@ -3149,116 +3155,116 @@ time:unitYear rdf:type time:TemporalUnit ;
 
 
 [ <https://schema.org/affiliation> "Oracle Corporation" ;
-  <https://schema.org/email> "matthew.perry@oracle.com"^^xsd:string ;
+  <https://schema.org/email> "matthew.perry@oracle.com" ;
   <https://schema.org/name> "Matthew Perry" ;
   <https://schema.org/url> "https://orcid.org/0000-0003-1988-462X"^^xsd:anyURI
 ] .
 
 [ <https://schema.org/affiliation> "Oracle Corporation" ;
-   <https://schema.org/email> "john.herring@oracle.com"^^xsd:string ;
-   <https://schema.org/name> "John Herring"
- ] .
-
-[ <https://schema.org/affiliation> "Australian National University" ,
-                                    "SURROUND Australia Pty Ltd" ;
-   <https://schema.org/email> "nicholas.car@surroundaustralia.com"^^xsd:string ;
-   <https://schema.org/name> "Nicholas J. Car" ;
-   <https://schema.org/url> "https://orcid.org/0000-0002-8742-7730"^^xsd:anyURI
- ] .
-
-[ <https://schema.org/affiliation> "Geoscape Australia" ;
-   <https://schema.org/email> "joseph.abhayaratna@geoscape.com.au"^^xsd:string ;
-   <https://schema.org/name> "Joseph Abhayaratna" ;
-   <https://schema.org/url> "https://orcid.org/0000-0001-5075-6234"^^xsd:anyURI
- ] .
-
-[ <https://schema.org/affiliation> "Mainz University Of Applied Sciences" ;
-   <https://schema.org/email> "timo.homburg@hs-mainz.de"^^xsd:string ;
-   <https://schema.org/name> "Timo Homburg" ;
-   <https://schema.org/url> "https://orcid.org/0000-0002-9499-5840"^^xsd:anyURI
- ] .
-
-[ <https://schema.org/affiliation> "CSIRO Australia" ;
-   <https://schema.org/email> "simon.cox@csiro.au"^^xsd:string ;
-   <https://schema.org/name> "Simon J D Cox" ;
-   <https://schema.org/url> "https://orcid.org/0000-0002-3884-3420"^^xsd:anyURI
- ] .
-
-[ <https://schema.org/email> "fjknibbe@gmail.com"^^xsd:string ;
-   <https://schema.org/name> "Frans Knibbe" ;
-   <https://schema.org/url> "https://orcid.org/0000-0003-3789-2260"^^xsd:anyURI
- ] .
-
-[ <https://schema.org/affiliation> "KU Leuven" ,
-                                    "Neanex Technologies" ;
-   <https://schema.org/email> "mathias.bonduel@neanex.com"^^xsd:string ;
-   <https://schema.org/name> "Mathias Bonduel" ;
-   <https://schema.org/url> "https://orcid.org/0000-0002-3313-924X"^^xsd:anyURI
- ] .
-
-[ <https://schema.org/name> "Open Geospatial Consortium" ;
-   <https://schema.org/url> "https://www.ogc.org"^^xsd:anyURI
- ] .
-
-[ <https://schema.org/affiliation> "Mainz University Of Applied Sciences" ;
-   <https://schema.org/email> "timo.homburg@hs-mainz.de"^^xsd:string ;
-   <https://schema.org/name> "Timo Homburg" ;
-   <https://schema.org/url> "https://orcid.org/0000-0002-9499-5840"^^xsd:anyURI
- ] .
-
-[ <https://schema.org/affiliation> "Geoscape Australia" ;
-   <https://schema.org/email> "joseph.abhayaratna@geoscape.com.au"^^xsd:string ;
-   <https://schema.org/name> "Joseph Abhayaratna" ;
-   <https://schema.org/url> "https://orcid.org/0000-0001-5075-6234"^^xsd:anyURI
- ] .
-
-[ <https://schema.org/affiliation> "Australian National University" ,
-                                    "SURROUND Australia Pty Ltd" ;
-   <https://schema.org/email> "nicholas.car@surroundaustralia.com"^^xsd:string ;
-   <https://schema.org/name> "Nicholas J. Car" ;
-   <https://schema.org/url> "https://orcid.org/0000-0002-8742-7730"^^xsd:anyURI
- ] .
-
-[ <https://schema.org/affiliation> "Oracle Corporation" ;
-   <https://schema.org/email> "john.herring@oracle.com"^^xsd:string ;
-   <https://schema.org/name> "John Herring"
- ] .
-
-[ <https://schema.org/affiliation> "Oracle Corporation" ;
-   <https://schema.org/email> "matthew.perry@oracle.com"^^xsd:string ;
+   <https://schema.org/email> "matthew.perry@oracle.com" ;
    <https://schema.org/name> "Matthew Perry" ;
    <https://schema.org/url> "https://orcid.org/0000-0003-1988-462X"^^xsd:anyURI
  ] .
 
-[ <https://schema.org/affiliation> "KU Leuven" ,
-                                    "Neanex Technologies" ;
-   <https://schema.org/email> "mathias.bonduel@neanex.com"^^xsd:string ;
-   <https://schema.org/name> "Mathias Bonduel" ;
-   <https://schema.org/url> "https://orcid.org/0000-0002-3313-924X"^^xsd:anyURI
+[ <https://schema.org/affiliation> "Oracle Corporation" ;
+   <https://schema.org/email> "john.herring@oracle.com" ;
+   <https://schema.org/name> "John Herring"
  ] .
 
-[ <https://schema.org/email> "fjknibbe@gmail.com"^^xsd:string ;
-   <https://schema.org/name> "Frans Knibbe" ;
-   <https://schema.org/url> "https://orcid.org/0000-0003-3789-2260"^^xsd:anyURI
- ] .
-
-[ <https://schema.org/affiliation> "CSIRO Australia" ;
-   <https://schema.org/email> "simon.cox@csiro.au"^^xsd:string ;
-   <https://schema.org/name> "Simon J D Cox" ;
-   <https://schema.org/url> "https://orcid.org/0000-0002-3884-3420"^^xsd:anyURI
+[ <https://schema.org/affiliation> "Australian National University" ,
+                                    "SURROUND Australia Pty Ltd" ;
+   <https://schema.org/email> "nicholas.car@surroundaustralia.com" ;
+   <https://schema.org/name> "Nicholas J. Car" ;
+   <https://schema.org/url> "https://orcid.org/0000-0002-8742-7730"^^xsd:anyURI
  ] .
 
 [ <https://schema.org/name> "Open Geospatial Consortium" ;
    <https://schema.org/url> "https://www.ogc.org"^^xsd:anyURI
  ] .
 
-[ xsd:pattern "-?([1-9][0-9]{3,}|0[0-9]{3})(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?"
+[ <https://schema.org/affiliation> "CSIRO Australia" ;
+   <https://schema.org/email> "simon.cox@csiro.au" ;
+   <https://schema.org/name> "Simon J D Cox" ;
+   <https://schema.org/url> "https://orcid.org/0000-0002-3884-3420"^^xsd:anyURI
+ ] .
+
+[ <https://schema.org/email> "fjknibbe@gmail.com" ;
+   <https://schema.org/name> "Frans Knibbe" ;
+   <https://schema.org/url> "https://orcid.org/0000-0003-3789-2260"^^xsd:anyURI
+ ] .
+
+[ <https://schema.org/affiliation> "KU Leuven" ,
+                                    "Neanex Technologies" ;
+   <https://schema.org/email> "mathias.bonduel@neanex.com" ;
+   <https://schema.org/name> "Mathias Bonduel" ;
+   <https://schema.org/url> "https://orcid.org/0000-0002-3313-924X"^^xsd:anyURI
+ ] .
+
+[ <https://schema.org/affiliation> "Australian National University" ,
+                                    "SURROUND Australia Pty Ltd" ;
+   <https://schema.org/email> "nicholas.car@surroundaustralia.com" ;
+   <https://schema.org/name> "Nicholas J. Car" ;
+   <https://schema.org/url> "https://orcid.org/0000-0002-8742-7730"^^xsd:anyURI
+ ] .
+
+[ <https://schema.org/affiliation> "Oracle Corporation" ;
+   <https://schema.org/email> "john.herring@oracle.com" ;
+   <https://schema.org/name> "John Herring"
+ ] .
+
+[ <https://schema.org/affiliation> "Geoscape Australia" ;
+   <https://schema.org/email> "joseph.abhayaratna@geoscape.com.au" ;
+   <https://schema.org/name> "Joseph Abhayaratna" ;
+   <https://schema.org/url> "https://orcid.org/0000-0001-5075-6234"^^xsd:anyURI
+ ] .
+
+[ <https://schema.org/affiliation> "Mainz University Of Applied Sciences" ;
+   <https://schema.org/email> "timo.homburg@hs-mainz.de" ;
+   <https://schema.org/name> "Timo Homburg" ;
+   <https://schema.org/url> "https://orcid.org/0000-0002-9499-5840"^^xsd:anyURI
+ ] .
+
+[ <https://schema.org/name> "Open Geospatial Consortium" ;
+   <https://schema.org/url> "https://www.ogc.org"^^xsd:anyURI
+ ] .
+
+[ <https://schema.org/affiliation> "KU Leuven" ,
+                                    "Neanex Technologies" ;
+   <https://schema.org/email> "mathias.bonduel@neanex.com" ;
+   <https://schema.org/name> "Mathias Bonduel" ;
+   <https://schema.org/url> "https://orcid.org/0000-0002-3313-924X"^^xsd:anyURI
+ ] .
+
+[ <https://schema.org/email> "fjknibbe@gmail.com" ;
+   <https://schema.org/name> "Frans Knibbe" ;
+   <https://schema.org/url> "https://orcid.org/0000-0003-3789-2260"^^xsd:anyURI
+ ] .
+
+[ <https://schema.org/affiliation> "CSIRO Australia" ;
+   <https://schema.org/email> "simon.cox@csiro.au" ;
+   <https://schema.org/name> "Simon J D Cox" ;
+   <https://schema.org/url> "https://orcid.org/0000-0002-3884-3420"^^xsd:anyURI
+ ] .
+
+[ <https://schema.org/affiliation> "Mainz University Of Applied Sciences" ;
+   <https://schema.org/email> "timo.homburg@hs-mainz.de" ;
+   <https://schema.org/name> "Timo Homburg" ;
+   <https://schema.org/url> "https://orcid.org/0000-0002-9499-5840"^^xsd:anyURI
+ ] .
+
+[ <https://schema.org/affiliation> "Geoscape Australia" ;
+   <https://schema.org/email> "joseph.abhayaratna@geoscape.com.au" ;
+   <https://schema.org/name> "Joseph Abhayaratna" ;
+   <https://schema.org/url> "https://orcid.org/0000-0001-5075-6234"^^xsd:anyURI
+ ] .
+
+[ xsd:pattern "---(0[1-9]|[1-9][0-9])(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?"
  ] .
 
 [ xsd:pattern "--(0[1-9]|1[0-9]|20)(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?"
  ] .
 
-[ xsd:pattern "---(0[1-9]|[1-9][0-9])(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?"
+[ xsd:pattern "-?([1-9][0-9]{3,}|0[0-9]{3})(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?"
  ] .
 
 #################################################################
@@ -3394,4 +3400,4 @@ time:unitYear rdf:type time:TemporalUnit ;
 foaf:Agent rdfs:isDefinedBy foaf: .
 
 
-###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
