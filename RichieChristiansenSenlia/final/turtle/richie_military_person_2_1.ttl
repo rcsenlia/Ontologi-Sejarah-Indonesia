@@ -8,22 +8,58 @@
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 
 :PertempuranFilipina19411942
-        rdf:type    sem:Event ;
-        rdfs:label  "Pertempuran Filipina (1941-1942)" .
+        rdf:type      sem:Event ;
+        rdfs:label    "Pertempuran Filipina (1941-1942)" ;
+        rdfs:seeAlso  :wikipediaPertempuranFilipina19411942 .
+
+:wikipediaPertempuranLautJawa
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Laut Jawa" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :TakeoTakagi .
 
 :PertempuranLautKarang
-        rdf:type    sem:Event ;
-        rdfs:label  "Pertempuran Laut Karang" .
+        rdf:type      sem:Event ;
+        rdfs:label    "Pertempuran Laut Karang" ;
+        rdfs:seeAlso  :wikipediaPertempuranLautKarang .
+
+:wikipediaPerangDuniaII
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Dunia II" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :TakeoTakagi .
 
 :PertempuranLautJawa  rdf:type  sem:Event ;
-        rdfs:label  "Pertempuran Laut Jawa" .
+        rdfs:label    "Pertempuran Laut Jawa" ;
+        rdfs:seeAlso  :wikipediaPertempuranLautJawa .
 
 :PertempuranSaipan  rdf:type  sem:Event ;
-        rdfs:label  "Pertempuran Saipan" .
+        rdfs:label    "Pertempuran Saipan" ;
+        rdfs:seeAlso  :wikipediaPertempuranSaipan .
+
+:wikipediaPertempuranSaipan
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Saipan" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :TakeoTakagi .
 
 :PerangDuniaII  rdf:type  sem:Event ;
-        rdfs:label  "Perang Dunia II" .
+        rdfs:label    "Perang Dunia II" ;
+        rdfs:seeAlso  :wikipediaPerangDuniaII .
+
+:wikipediaPertempuranLautKarang
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Laut Karang" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :TakeoTakagi .
+
+:wikipedia  rdf:type  sem:Authority .
+
+:wikipediaPertempuranFilipina19411942
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Filipina (1941-1942)" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :TakeoTakagi .
 
 :TakeoTakagi  rdf:type  sem:Actor ;
-        rdfs:label  "Takeo Takagi" ;
-        :isActorOf  :PertempuranSaipan , :PertempuranLautKarang , :PertempuranLautJawa , :PertempuranFilipina19411942 , :PerangDuniaII .
+        rdfs:label  "Takeo Takagi" .

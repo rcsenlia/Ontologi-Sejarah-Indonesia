@@ -8,21 +8,50 @@
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 
 :PeristiwaKudetaAngkatanPerangRatuAdil
-        rdf:type    sem:Event ;
-        rdfs:label  "Peristiwa Kudeta Angkatan Perang Ratu Adil" .
+        rdf:type      sem:Event ;
+        rdfs:label    "Peristiwa Kudeta Angkatan Perang Ratu Adil" ;
+        rdfs:seeAlso  :wikipediaPeristiwaKudetaAngkatanPerangRatuAdil .
+
+:wikipediaPeristiwaKudetaAngkatanPerangRatuAdil
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Peristiwa Kudeta Angkatan Perang Ratu Adil" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :HamengkubuwanaIX .
+
+:wikipediaRevolusiNasionalIndonesia
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Revolusi Nasional Indonesia" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :HamengkubuwanaIX .
 
 :AgresiMiliterBelandaII
-        rdf:type    sem:Event ;
-        rdfs:label  "Agresi Militer Belanda II" .
+        rdf:type      sem:Event ;
+        rdfs:label    "Agresi Militer Belanda II" ;
+        rdfs:seeAlso  :wikipediaAgresiMiliterBelandaII .
 
 :SeranganUmum1Maret1949
-        rdf:type    sem:Event ;
-        rdfs:label  "Serangan Umum 1 Maret 1949" .
+        rdf:type      sem:Event ;
+        rdfs:label    "Serangan Umum 1 Maret 1949" ;
+        rdfs:seeAlso  :wikipediaSeranganUmum1Maret1949 .
 
 :RevolusiNasionalIndonesia
-        rdf:type    sem:Event ;
-        rdfs:label  "Revolusi Nasional Indonesia" .
+        rdf:type      sem:Event ;
+        rdfs:label    "Revolusi Nasional Indonesia" ;
+        rdfs:seeAlso  :wikipediaRevolusiNasionalIndonesia .
+
+:wikipediaAgresiMiliterBelandaII
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Agresi Militer Belanda II" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :HamengkubuwanaIX .
 
 :HamengkubuwanaIX  rdf:type  sem:Actor ;
-        rdfs:label  "Hamengkubuwana IX" ;
-        :isActorOf  :PeristiwaKudetaAngkatanPerangRatuAdil , :SeranganUmum1Maret1949 , :AgresiMiliterBelandaII , :RevolusiNasionalIndonesia .
+        rdfs:label  "Hamengkubuwana IX" .
+
+:wikipedia  rdf:type  sem:Authority .
+
+:wikipediaSeranganUmum1Maret1949
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Serangan Umum 1 Maret 1949" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :HamengkubuwanaIX .

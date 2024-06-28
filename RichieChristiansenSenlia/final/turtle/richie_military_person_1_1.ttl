@@ -8,144 +8,329 @@
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 
 :RevolusiBelgia  rdf:type  sem:Event ;
-        rdfs:label  "Revolusi Belgia" .
+        rdfs:label    "Revolusi Belgia" ;
+        rdfs:seeAlso  :wikipediaRevolusiBelgia .
+
+:wikipediaPerangJagaraga
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Jagaraga" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :IGustiKetutJelantik .
+
+:wikipediaHariKampanye
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Hari Kampanye" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :JohanHarmenRudolfKhler .
 
 :PertempuranTelukLeyte
-        rdf:type    sem:Event ;
-        rdfs:label  "Pertempuran Teluk Leyte" .
+        rdf:type      sem:Event ;
+        rdfs:label    "Pertempuran Teluk Leyte" ;
+        rdfs:seeAlso  :wikipediaPertempuranTelukLeyte .
 
 :PertempuranHendersonField
-        rdf:type    sem:Event ;
-        rdfs:label  "Pertempuran Henderson Field" .
+        rdf:type      sem:Event ;
+        rdfs:label    "Pertempuran Henderson Field" ;
+        rdfs:seeAlso  :wikipediaPertempuranHendersonField .
 
 :PerangAcehI  rdf:type  sem:Event ;
-        rdfs:label  "Perang Aceh I" .
+        rdfs:label    "Perang Aceh I" ;
+        rdfs:seeAlso  :wikipediaPerangAcehI .
 
 :HisaichiTerauchi  rdf:type  sem:Actor ;
-        rdfs:label  "Hisaichi Terauchi" ;
-        :isActorOf  :PerangDuniaII , :PerangTiongkokJepangKedua , :PerangRusiaJepang .
+        rdfs:label  "Hisaichi Terauchi" .
+
+:wikipediaPertempuranTelukLeyte
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Teluk Leyte" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :JisaburoOzawa , :ShojiNishimura .
 
 :IGustiKetutJelantik  rdf:type  sem:Actor ;
-        rdfs:label  "I Gusti Ketut Jelantik" ;
-        :isActorOf  :PerangJagaraga .
+        rdfs:label  "I Gusti Ketut Jelantik" .
+
+:wikipediaKepulauanSolomon
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kepulauan Solomon" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :HitoshiImamura .
+
+:wikipediaPerangRusiaJepang
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Rusia-Jepang" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :HisaichiTerauchi .
+
+:wikipediaPerangPattimura
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Pattimura" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :Pattimura .
+
+:wikipediaKampanyeGuadalcanal
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kampanye Guadalcanal" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :KiyotakeKawaguchi , :ShojiNishimura .
+
+:wikipediaEkspedisiLampongse
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Ekspedisi Lampongse" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :JohanHarmenRudolfKhler .
 
 :PerangJagaraga  rdf:type  sem:Event ;
-        rdfs:label  "Perang Jagaraga" .
+        rdfs:label    "Perang Jagaraga" ;
+        rdfs:seeAlso  :wikipediaPerangJagaraga .
+
+:wikipediaPerangBaliII
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Bali II" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :JanvanSwieten .
 
 :PerangRusiaJepang  rdf:type  sem:Event ;
-        rdfs:label  "Perang Rusia-Jepang" .
+        rdfs:label    "Perang Rusia-Jepang" ;
+        rdfs:seeAlso  :wikipediaPerangRusiaJepang .
+
+:wikipediaTiongkok  rdf:type  sem:View ;
+        rdfs:label       "wikipedia Tiongkok" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :HitoshiImamura .
 
 :BattleofBalikpapan  rdf:type  sem:Event ;
-        rdfs:label  "Battle of Balikpapan" .
+        rdfs:label    "Battle of Balikpapan" ;
+        rdfs:seeAlso  :wikipediaBattleofBalikpapan .
+
+:wikipediaPerangAcehI
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Aceh I" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :JohanHarmenRudolfKhler .
 
 :HariKampanye  rdf:type  sem:Event ;
-        rdfs:label  "Hari Kampanye" .
+        rdfs:label    "Hari Kampanye" ;
+        rdfs:seeAlso  :wikipediaHariKampanye .
 
 :PerangAcehII  rdf:type  sem:Event ;
-        rdfs:label  "Perang Aceh II" .
+        rdfs:label    "Perang Aceh II" ;
+        rdfs:seeAlso  :wikipediaPerangAcehII .
+
+:wikipediaPerangBaliIII
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Bali III" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :JanvanSwieten .
 
 :JisaburoOzawa  rdf:type  sem:Actor ;
-        rdfs:label  "Jisaburo Ozawa" ;
-        :isActorOf  :PertempuranTelukLeyte , :PertempuranLautFilipina , :KampanyeHindiaBelanda , :PertempuranMalaya , :PerangDuniaII .
+        rdfs:label  "Jisaburo Ozawa" .
 
 :PerangBaliIII  rdf:type  sem:Event ;
-        rdfs:label  "Perang Bali III" .
+        rdfs:label    "Perang Bali III" ;
+        rdfs:seeAlso  :wikipediaPerangBaliIII .
 
 :PertempuranSelatBadung
-        rdf:type    sem:Event ;
-        rdfs:label  "Pertempuran Selat Badung" .
+        rdf:type      sem:Event ;
+        rdfs:label    "Pertempuran Selat Badung" ;
+        rdfs:seeAlso  :wikipediaPertempuranSelatBadung .
 
-:Tiongkok  rdf:type  sem:Event ;
-        rdfs:label  "Tiongkok" .
+:Tiongkok  rdf:type   sem:Event ;
+        rdfs:label    "Tiongkok" ;
+        rdfs:seeAlso  :wikipediaTiongkok .
+
+:wikipediaKampanyeHindiaBelanda
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kampanye Hindia Belanda" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :JisaburoOzawa , :KarelDoorman , :ConradHelfrich , :HeinterPoorten .
 
 :JohanHarmenRudolfKhler
         rdf:type    sem:Actor ;
-        rdfs:label  "Johan Harmen Rudolf Köhler" ;
-        :isActorOf  :PerangAcehI , :EkspedisiLampongse , :HariKampanye .
+        rdfs:label  "Johan Harmen Rudolf Köhler" .
+
+:wikipediaPertempuranSelatBadung
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Selat Badung" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :KarelDoorman .
+
+:wikipediaPertempuranFilipina194142
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Filipina (1941-42)" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :KiyotakeKawaguchi .
+
+:wikipediaPertempuranMalaya
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Malaya" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :JisaburoOzawa .
+
+:wikipediaPerangTiongkokJepangKedua
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Tiongkok-Jepang Kedua" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :KiyotakeKawaguchi , :HisaichiTerauchi .
 
 :KepulauanSolomon  rdf:type  sem:Event ;
-        rdfs:label  "Kepulauan Solomon" .
+        rdfs:label    "Kepulauan Solomon" ;
+        rdfs:seeAlso  :wikipediaKepulauanSolomon .
 
 :PertempuranSelatMakassar
-        rdf:type    sem:Event ;
-        rdfs:label  "Pertempuran Selat Makassar" .
+        rdf:type      sem:Event ;
+        rdfs:label    "Pertempuran Selat Makassar" ;
+        rdfs:seeAlso  :wikipediaPertempuranSelatMakassar .
 
 :PerangBaliII  rdf:type  sem:Event ;
-        rdfs:label  "Perang Bali II" .
+        rdfs:label    "Perang Bali II" ;
+        rdfs:seeAlso  :wikipediaPerangBaliII .
 
 :Pattimura  rdf:type  sem:Actor ;
-        rdfs:label  "Pattimura" ;
-        :isActorOf  :PerangPattimura .
+        rdfs:label  "Pattimura" .
 
 :PertempuranMalaya  rdf:type  sem:Event ;
-        rdfs:label  "Pertempuran Malaya" .
+        rdfs:label    "Pertempuran Malaya" ;
+        rdfs:seeAlso  :wikipediaPertempuranMalaya .
 
 :EkspedisiLampongse  rdf:type  sem:Event ;
-        rdfs:label  "Ekspedisi Lampongse" .
+        rdfs:label    "Ekspedisi Lampongse" ;
+        rdfs:seeAlso  :wikipediaEkspedisiLampongse .
 
 :KampanyeHindiaBelanda
-        rdf:type    sem:Event ;
-        rdfs:label  "Kampanye Hindia Belanda" .
+        rdf:type      sem:Event ;
+        rdfs:label    "Kampanye Hindia Belanda" ;
+        rdfs:seeAlso  :wikipediaKampanyeHindiaBelanda .
 
 :PertempuranLautJawa  rdf:type  sem:Event ;
-        rdfs:label  "Pertempuran Laut Jawa" .
+        rdfs:label    "Pertempuran Laut Jawa" ;
+        rdfs:seeAlso  :wikipediaPertempuranLautJawa .
+
+:wikipediaPertempuranLautFilipina
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Laut Filipina" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :JisaburoOzawa .
+
+:wikipedia  rdf:type  sem:Authority .
+
+:wikipediaPerangDuniaII
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Dunia II" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :KarelDoorman , :ShojiNishimura , :HisaichiTerauchi , :HitoshiImamura , :KiyotakeKawaguchi , :ConradHelfrich , :JisaburoOzawa .
 
 :HeinterPoorten  rdf:type  sem:Actor ;
-        rdfs:label  "Hein ter Poorten" ;
-        :isActorOf  :KampanyeHindiaBelanda .
+        rdfs:label  "Hein ter Poorten" .
 
 :PerangDuniaII  rdf:type  sem:Event ;
-        rdfs:label  "Perang Dunia II" .
+        rdfs:label    "Perang Dunia II" ;
+        rdfs:seeAlso  :wikipediaPerangDuniaII .
 
 :PertempuranFilipina194142
-        rdf:type    sem:Event ;
-        rdfs:label  "Pertempuran Filipina (1941-42)" .
+        rdf:type      sem:Event ;
+        rdfs:label    "Pertempuran Filipina (1941-42)" ;
+        rdfs:seeAlso  :wikipediaPertempuranFilipina194142 .
 
 :ConradHelfrich  rdf:type  sem:Actor ;
-        rdfs:label  "Conrad Helfrich" ;
-        :isActorOf  :RevolusiNasionalIndonesia , :KampanyeHindiaBelanda , :PerangDuniaII .
+        rdfs:label  "Conrad Helfrich" .
 
 :HitoshiImamura  rdf:type  sem:Actor ;
-        rdfs:label  "Hitoshi Imamura" ;
-        :isActorOf  :KepulauanSolomon , :PapuaNugini , :Tiongkok , :PerangDuniaII .
+        rdfs:label  "Hitoshi Imamura" .
 
 :PerangTiongkokJepangKedua
-        rdf:type    sem:Event ;
-        rdfs:label  "Perang Tiongkok-Jepang Kedua" .
+        rdf:type      sem:Event ;
+        rdfs:label    "Perang Tiongkok-Jepang Kedua" ;
+        rdfs:seeAlso  :wikipediaPerangTiongkokJepangKedua .
 
 :PapuaNugini  rdf:type  sem:Event ;
-        rdfs:label  "Papua Nugini" .
+        rdfs:label    "Papua Nugini" ;
+        rdfs:seeAlso  :wikipediaPapuaNugini .
 
-:PertempuranLautFilipina
-        rdf:type    sem:Event ;
-        rdfs:label  "Pertempuran Laut Filipina" .
+:wikipediaRevolusiNasionalIndonesia
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Revolusi Nasional Indonesia" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :ConradHelfrich .
+
+:wikipediaRevolusiBelgia
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Revolusi Belgia" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :JanvanSwieten .
+
+:wikipediaPerangAcehII
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Aceh II" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :JanvanSwieten .
+
+:wikipediaPertempuranSelatMakassar
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Selat Makassar" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :KarelDoorman .
 
 :PertempuranEdsonsRidge
-        rdf:type    sem:Event ;
-        rdfs:label  "Pertempuran Edson's Ridge" .
+        rdf:type      sem:Event ;
+        rdfs:label    "Pertempuran Edson's Ridge" ;
+        rdfs:seeAlso  :wikipediaPertempuranEdsonsRidge .
+
+:PertempuranLautFilipina
+        rdf:type      sem:Event ;
+        rdfs:label    "Pertempuran Laut Filipina" ;
+        rdfs:seeAlso  :wikipediaPertempuranLautFilipina .
 
 :ShojiNishimura  rdf:type  sem:Actor ;
-        rdfs:label  "Shoji Nishimura" ;
-        :isActorOf  :PertempuranTelukLeyte , :KampanyeGuadalcanal , :PertempuranLautJawa , :BattleofBalikpapan , :PerangDuniaII .
+        rdfs:label  "Shoji Nishimura" .
 
 :KarelDoorman  rdf:type  sem:Actor ;
-        rdfs:label  "Karel Doorman" ;
-        :isActorOf  :PertempuranLautJawa , :PertempuranSelatBadung , :PertempuranSelatMakassar , :KampanyeHindiaBelanda , :PerangDuniaII .
+        rdfs:label  "Karel Doorman" .
+
+:wikipediaPertempuranLautJawa
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Laut Jawa" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :KarelDoorman , :ShojiNishimura .
 
 :KiyotakeKawaguchi  rdf:type  sem:Actor ;
-        rdfs:label  "Kiyotake Kawaguchi" ;
-        :isActorOf  :PertempuranHendersonField , :PertempuranEdsonsRidge , :KampanyeGuadalcanal , :PertempuranFilipina194142 , :PerangTiongkokJepangKedua , :PerangDuniaII .
+        rdfs:label  "Kiyotake Kawaguchi" .
 
 :JanvanSwieten  rdf:type  sem:Actor ;
-        rdfs:label  "Jan van Swieten" ;
-        :isActorOf  :PerangAcehII , :PerangBaliIII , :PerangBaliII , :RevolusiBelgia .
+        rdfs:label  "Jan van Swieten" .
+
+:wikipediaPertempuranHendersonField
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Henderson Field" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :KiyotakeKawaguchi .
+
+:wikipediaPertempuranEdsonsRidge
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Edson's Ridge" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :KiyotakeKawaguchi .
+
+:wikipediaPapuaNugini
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Papua Nugini" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :HitoshiImamura .
 
 :RevolusiNasionalIndonesia
-        rdf:type    sem:Event ;
-        rdfs:label  "Revolusi Nasional Indonesia" .
+        rdf:type      sem:Event ;
+        rdfs:label    "Revolusi Nasional Indonesia" ;
+        rdfs:seeAlso  :wikipediaRevolusiNasionalIndonesia .
 
 :PerangPattimura  rdf:type  sem:Event ;
-        rdfs:label  "Perang Pattimura" .
+        rdfs:label    "Perang Pattimura" ;
+        rdfs:seeAlso  :wikipediaPerangPattimura .
+
+:wikipediaBattleofBalikpapan
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Battle of Balikpapan" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :ShojiNishimura .
 
 :KampanyeGuadalcanal  rdf:type  sem:Event ;
-        rdfs:label  "Kampanye Guadalcanal" .
+        rdfs:label    "Kampanye Guadalcanal" ;
+        rdfs:seeAlso  :wikipediaKampanyeGuadalcanal .
