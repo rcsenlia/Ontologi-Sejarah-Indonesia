@@ -43,10 +43,6 @@
         :wikiurl        "https://id.wikipedia.org/wiki/Kiyotake_Kawaguchi" ;
         dc:description  "Kiyotake Kawaguchi (川口 清健 , Kawaguchi Kiyotake, 3 Desember 1892 – 16 Mei 1961) adalah seorang Jenderal Angkatan Darat Kekaisaran Jepang pada masa Perang Dunia II. Setelah perang berakhir, ia ditangkap oleh otoritas SCAP (Supreme Commander for the Allied Powers) atau Komandan Tertinggi Sekutu dan dituntut sebagai penjahat perang." .
 
-:Gerakan30September  rdf:type  sem:Event ;
-        rdfs:label    "Gerakan 30 September" ;
-        rdfs:seeAlso  :wikipediaGerakan30September .
-
 :RaymondWesterling  rdf:type  sem:Actor ;
         rdfs:label      "Raymond Westerling" ;
         :image          "Raymond_Westerling.jpg" ;
@@ -158,10 +154,16 @@
         rdf:type         sem:View ;
         rdfs:label       "wikipedia Bandung Lautan Api" ;
         sem:accordingTo  :wikipedia ;
-        sem:hasActor     :MacDonald .
+        sem:hasActor     :MacDonald , :MuhammadToha , :AbdulHarisNasution .
 
 :KidoShinichir  rdf:type  sem:Actor ;
         rdfs:label  "Kido Shinichirō" .
+
+:MuhammadToha  rdf:type  sem:Actor ;
+        rdfs:label      "Muhammad Toha" ;
+        :image          "Muhammad Toha.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Muhammad_Toha" ;
+        dc:description  "Mohammad Toha atau Mohammad Toha (Bandung, 1927 - Bandung, 11 Juli 1946) adalah seorang komandan Barisan Rakjat Indonesia, sebuah kelompok milisi pejuang yang aktif dalam masa Perang Kemerdekaan Indonesia. Toha gugur dalam kebakaran misi penghancuran gudang amunisi milik Tentara Sekutu bersama rekannya, setelah meledakkan dinamit dalam gudang amunisi tersebut." .
 
 :PrabowoSubianto  rdf:type  sem:Actor ;
         rdfs:label      "Prabowo Subianto" ;
@@ -180,11 +182,6 @@
         :image          "Budi_Gunawan.jpg" ;
         :wikiurl        "https://id.wikipedia.org/wiki/Budi_Gunawan" ;
         dc:description  "Jenderal Polisi (Purn.) Tan Sri Prof. Dr. Budi Gunawan, S.H., M.Si., Ph.D.,  P.S.M. (lahir 11 Desember 1959) adalah Kepala Badan Intelijen Negara sejak 9 September 2016, dan juga Ketua Umum Pengurus Besar E-Sports Indonesia (PB ESI). Sebelumnya, ia pernah bertugas sebagai Wakapolri mendampingi Kapolri Badrodin Haiti dan Tito Karnavian. Ia adalah unsur Polisi kedua setelah Sutanto yang memimpin Badan Intelijen Negara." .
-
-:wikipediaPeristiwa19November
-        rdf:type         sem:View ;
-        rdfs:label       "wikipedia Peristiwa 19 November" ;
-        sem:accordingTo  :wikipedia .
 
 :wikipediaPertempuranMedanArea
         rdf:type         sem:View ;
@@ -268,17 +265,17 @@
         :wikiurl        "https://id.wikipedia.org/wiki/Hitoshi_Imamura" ;
         dc:description  "Hitoshi Imamura (Hitosji Imamoera) (今村 均, Imamura Hitoshi, 28 Juni 1886 – 4 Oktober 1968) adalah seorang jenderal Jepang pada masa Perang Dunia II. Ia pernah menjadi Panglima Tentara ke-16 sekaligus Gubernur Jenderal di Jawa periode Maret - November 1942. Pada bulan November 1942, Letnan Jenderal Imamura menjadi Panglima Tentara ke-8 di Kepulauan Solomon dan Papua Nugini." .
 
-:Musso  rdf:type        sem:Actor ;
-        rdfs:label      "Musso" ;
-        :image          "Musso.jpg" ;
-        :wikiurl        "https://id.wikipedia.org/wiki/Musso" ;
-        dc:description  "Musso atau Paul Mussotte bernama lengkap Muso Manowar atau Munawar Muso (12 Agustus 1897 – 31 Oktober 1948) adalah seorang pemimpin Partai Komunis Indonesia (PKI) dan salah satu tokoh kunci dalam pemberontakan Madiun 1948." .
-
 :wikipediaPertempuranBojongKokosan
         rdf:type         sem:View ;
         rdfs:label       "wikipedia Pertempuran Bojong Kokosan" ;
         sem:accordingTo  :wikipedia ;
         sem:hasActor     :AJFDoulton , :EdiSukardi .
+
+:Musso  rdf:type        sem:Actor ;
+        rdfs:label      "Musso" ;
+        :image          "Musso.jpg" ;
+        :wikiurl        "https://id.wikipedia.org/wiki/Musso" ;
+        dc:description  "Musso atau Paul Mussotte bernama lengkap Muso Manowar atau Munawar Muso (12 Agustus 1897 – 31 Oktober 1948) adalah seorang pemimpin Partai Komunis Indonesia (PKI) dan salah satu tokoh kunci dalam pemberontakan Madiun 1948." .
 
 :AbdulKarimMS  rdf:type  sem:Actor ;
         rdfs:label  "Abdul Karim M.S" .
@@ -382,6 +379,9 @@
         :wikiurl        "https://id.wikipedia.org/wiki/Daan_Mogot" ;
         dc:description  "Elias Daniel Mogot, atau lebih dikenal dengan nama Daan Mogot (28 Desember 1927 – 25 Januari 1946), adalah seorang pejuang kemerdekaan Indonesia dan mantan anggota (dan pelatih) PETA di Bali dan Jakarta pada tahun 1942-1945. Setelah Perang Dunia ke-2 selesai, ia menjadi Komandan TKR di Jakarta dengan pangkat Mayor. Bulan November 1945 mendirikan sekaligus menjadi Direktur Pertama Akademi Militer Tangerang (MAT) dalam usia 18 tahun. Ia gugur di Hutan Lengkong, di selatan Kota Tangerang, bersama 36 orang lainnya dalam pertempuran melawan tentara Jepang saat hendak melucuti senjata mereka di Hutan Lengkong di Tangerang." .
 
+:IbTakahashi  rdf:type  sem:Actor ;
+        rdfs:label  "Ibō Takahashi" .
+
 :LudolphHendrikvanOyen
         rdf:type        sem:Actor ;
         rdfs:label      "Ludolph Hendrik van Oyen" ;
@@ -401,11 +401,6 @@
         rdfs:label       "wikipedia Pertempuran Lima Hari" ;
         sem:accordingTo  :wikipedia ;
         sem:hasActor     :KidoShinichir , :Wongsonegoro , :Kariadi .
-
-:wikipediaPertempuranKumai
-        rdf:type         sem:View ;
-        rdfs:label       "wikipedia Pertempuran Kumai" ;
-        sem:accordingTo  :wikipedia .
 
 :GatotSoebroto  rdf:type  sem:Actor ;
         rdfs:label      "Gatot Soebroto" ;
@@ -433,11 +428,6 @@
 :PuputanMargarana  rdf:type  sem:Event ;
         rdfs:label    "Puputan Margarana" ;
         rdfs:seeAlso  :wikipediaPuputanMargarana .
-
-:wikipediaGerakan30September
-        rdf:type         sem:View ;
-        rdfs:label       "wikipedia Gerakan 30 September" ;
-        sem:accordingTo  :wikipedia .
 
 :BJHabibie  rdf:type    sem:Actor ;
         rdfs:label      "B. J. Habibie" ;
@@ -561,7 +551,7 @@
         rdf:type         sem:View ;
         rdfs:label       "wikipedia Kampanye Hindia Belanda" ;
         sem:accordingTo  :wikipedia ;
-        sem:hasActor     :NobutakeKond , :HitoshiImamura , :ThomasCHart , :KiyotakeKawaguchi , :ConradHelfrich , :HeinterPoorten , :ArchibaldWavell1stEarlWavell , :JisaburoOzawa , :ShojiNishimura , :TakeoTakagi , :HisaichiTerauchi , :RichardPeirse , :KarelDoorman , :AlidiusTjardavanStarkenborghStachouwer .
+        sem:hasActor     :NobutakeKond , :HitoshiImamura , :ThomasCHart , :KiyotakeKawaguchi , :ConradHelfrich , :HeinterPoorten , :ArchibaldWavell1stEarlWavell , :JisaburoOzawa , :IbTakahashi , :ShojiNishimura , :TakeoTakagi , :HisaichiTerauchi , :RichardPeirse , :KarelDoorman , :AlidiusTjardavanStarkenborghStachouwer .
 
 :KarelDoorman  rdf:type  sem:Actor ;
         rdfs:label      "Karel Doorman" ;
@@ -725,10 +715,6 @@
         :image          "https://asset.kompas.com/crops/26NcBHvtwCkAdI8GxsAkg3mMHxM=/0x56:549x422/750x500/data/photo/2021/08/17/611bbaf6c9217.jpeg" ;
         :wikiurl        "https://id.wikipedia.org/wiki/Philip_Christison" ;
         dc:description  "Jend. Sir (Alexander Frank) Philip Christison, 4th Baronet GBE CB DSO MC (17 November 1893 – 21 Desember 1993) adalah komandan militer Britania Raya selama Perang Dunia II." .
-
-:PertempuranKumai  rdf:type  sem:Event ;
-        rdfs:label    "Pertempuran Kumai" ;
-        rdfs:seeAlso  :wikipediaPertempuranKumai .
 
 :BennyWenda  rdf:type   sem:Actor ;
         rdfs:label      "Benny Wenda" ;
@@ -947,10 +933,6 @@
         :image          "Prinses_Juliana_1981.jpg" ;
         :wikiurl        "https://id.wikipedia.org/wiki/Juliana_dari_Belanda" ;
         dc:description  "Juliana Louise Marie Wilhelmina van Oranje-Nassau (30 April 1909 – 20 Maret 2004) adalah Ratu Kerajaan Belanda dari 6 September 1948, sampai tanggal 30 April 1980, ulang tahunnya ke-71, ketika putrinya, Beatrix naik takhta. Juliana menikah dengan Bernhard dari Lippe Biesterfeld, seorang bangsawan Jerman, pada tanggal 7 Januari 1937 dan mendapatkan empat anak Beatrix (1938), Irene (1939), Putri Margriet (1943), dan Marijke (1947) yang namanya kemudian diganti menjadi Christina." .
-
-:Peristiwa19November  rdf:type  sem:Event ;
-        rdfs:label    "Peristiwa 19 November" ;
-        rdfs:seeAlso  :wikipediaPeristiwa19November .
 
 :MangkunegaraVIII  rdf:type  sem:Actor ;
         rdfs:label      "Mangkunegara VIII" ;
