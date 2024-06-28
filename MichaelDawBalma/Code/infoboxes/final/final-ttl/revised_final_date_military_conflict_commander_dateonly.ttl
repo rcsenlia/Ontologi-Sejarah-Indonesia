@@ -1,0 +1,2098 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <https://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:Assaat  rdfs:label   "Assaat" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "18" ;
+                                                                time:month  "09" ;
+                                                                time:year   "1904"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "16" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1976"
+                                                              ]
+                                           ]
+                      ] .
+
+:PhilipChristison  rdfs:label  "Philip Christison" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "17" ;
+                                                                time:month  "11" ;
+                                                                time:year   "1893"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "21" ;
+                                                                time:month  "12" ;
+                                                                time:year   "1993"
+                                                              ]
+                                           ]
+                      ] .
+
+:Sutomo  rdfs:label   "Sutomo" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "03" ;
+                                                                time:month  "10" ;
+                                                                time:year   "1920"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "07" ;
+                                                                time:month  "10" ;
+                                                                time:year   "1981"
+                                                              ]
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "03" ;
+                                                                time:month  "10" ;
+                                                                time:year   "1920"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "07" ;
+                                                                time:month  "10" ;
+                                                                time:year   "1981"
+                                                              ]
+                                           ]
+                      ] .
+
+:IsmaelLengah  rdfs:label  "Ismael Lengah" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "22" ;
+                                                                time:month  "09" ;
+                                                                time:year   "1914"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "11" ;
+                                                                time:month  "01" ;
+                                                                time:year   "2005"
+                                                              ]
+                                           ]
+                      ] .
+
+:AgustinusAdisoetjipto
+        rdfs:label    "Agustinus Adisoetjipto" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "03" ;
+                                                                time:month  "07" ;
+                                                                time:year   "1916"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "29" ;
+                                                                time:month  "07" ;
+                                                                time:year   "1947"
+                                                              ]
+                                           ]
+                      ] .
+
+:DirkReinhardAdelbertvanLangen
+        rdfs:label    "Dirk Reinhard Adelbert van Langen" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "17" ;
+                                                                time:month  "05" ;
+                                                                time:year   "1898"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "20" ;
+                                                                time:month  "01" ;
+                                                                time:year   "1983"
+                                                              ]
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "17" ;
+                                                                time:month  "05" ;
+                                                                time:year   "1898"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "20" ;
+                                                                time:month  "01" ;
+                                                                time:year   "1983"
+                                                              ]
+                                           ]
+                      ] .
+
+:SyafruddinPrawiranegara
+        rdfs:label    "Syafruddin Prawiranegara" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "28" ;
+                                                                time:month  "02" ;
+                                                                time:year   "1911"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "15" ;
+                                                                time:month  "02" ;
+                                                                time:year   "1989"
+                                                              ]
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "28" ;
+                                                                time:month  "02" ;
+                                                                time:year   "1911"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "15" ;
+                                                                time:month  "02" ;
+                                                                time:year   "1989"
+                                                              ]
+                                           ]
+                      ] .
+
+:KarelDoorman  rdfs:label  "Karel Doorman" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "23" ;
+                                                                time:month  "04" ;
+                                                                time:year   "1889"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "28" ;
+                                                                time:month  "02" ;
+                                                                time:year   "1942"
+                                                              ]
+                                           ]
+                      ] .
+
+:JaminGinting  rdfs:label  "Jamin Ginting" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "12" ;
+                                                                time:month  "01" ;
+                                                                time:year   "1921"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "23" ;
+                                                                time:month  "10" ;
+                                                                time:year   "1974"
+                                                              ]
+                                           ]
+                      ] .
+
+:AlidiusTjardavanStarkenborghStachouwer
+        rdfs:label    "Alidius Tjarda van Starkenborgh Stachouwer" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "07" ;
+                                                                time:month  "03" ;
+                                                                time:year   "1888"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "16" ;
+                                                                time:month  "08" ;
+                                                                time:year   "1978"
+                                                              ]
+                                           ]
+                      ] .
+
+:SebbySambom  rdfs:label  "Sebby Sambom" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "03" ;
+                                                                time:month  "01" ;
+                                                                time:year   "1975"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ]
+                      ] .
+
+:WilhelminadariBelanda
+        rdfs:label    "Wilhelmina dari Belanda" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "31" ;
+                                                                time:month  "08" ;
+                                                                time:year   "1880"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "28" ;
+                                                                time:month  "11" ;
+                                                                time:year   "1962"
+                                                              ]
+                                           ]
+                      ] .
+
+:BambangSoegeng  rdfs:label  "Bambang Soegeng" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "31" ;
+                                                                time:month  "10" ;
+                                                                time:year   "1913"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "22" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1977"
+                                                              ]
+                                           ]
+                      ] .
+
+:MangkunegaraVIII  rdfs:label  "Mangkunegara VIII" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "01" ;
+                                                                time:month  "01" ;
+                                                                time:year   "1920"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "03" ;
+                                                                time:month  "09" ;
+                                                                time:year   "1987"
+                                                              ]
+                                           ]
+                      ] .
+
+:HarioJonosewojo  rdfs:label  "Hario Jonosewojo" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "09" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1920"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "22" ;
+                                                                time:month  "03" ;
+                                                                time:year   "1994"
+                                                              ]
+                                           ]
+                      ] .
+
+:Moestopo  rdfs:label  "Moestopo" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "13" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1913"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "29" ;
+                                                                time:month  "09" ;
+                                                                time:year   "1986"
+                                                              ]
+                                           ]
+                      ] .
+
+:RobertMansergh  rdfs:label  "Robert Mansergh" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "12" ;
+                                                                time:month  "05" ;
+                                                                time:year   "1900"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "08" ;
+                                                                time:month  "11" ;
+                                                                time:year   "1970"
+                                                              ]
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "12" ;
+                                                                time:month  "05" ;
+                                                                time:year   "1900"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "08" ;
+                                                                time:month  "11" ;
+                                                                time:year   "1970"
+                                                              ]
+                                           ]
+                      ] .
+
+:ConradHelfrich  rdfs:label  "Conrad Helfrich" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "11" ;
+                                                                time:month  "10" ;
+                                                                time:year   "1886"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "20" ;
+                                                                time:month  "09" ;
+                                                                time:year   "1962"
+                                                              ]
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "11" ;
+                                                                time:month  "10" ;
+                                                                time:year   "1886"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "20" ;
+                                                                time:month  "09" ;
+                                                                time:year   "1962"
+                                                              ]
+                                           ]
+                      ] .
+
+:JokoWidodo  rdfs:label  "Joko Widodo" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "21" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1961"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ]
+                      ] .
+
+:JacobRumbiak  rdfs:label  "Jacob Rumbiak" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "11" ;
+                                                                time:month  "03" ;
+                                                                time:year   "1958"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ]
+                      ] .
+
+:ListyoSigitPrabowo  rdfs:label  "Listyo Sigit Prabowo" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "05" ;
+                                                                time:month  "05" ;
+                                                                time:year   "1969"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ]
+                      ] .
+
+:MegawatiSoekarnoputri
+        rdfs:label    "Megawati Soekarnoputri" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "23" ;
+                                                                time:month  "01" ;
+                                                                time:year   "1947"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ]
+                      ] .
+
+:AbdurrahmanWahid  rdfs:label  "Abdurrahman Wahid" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "07" ;
+                                                                time:month  "09" ;
+                                                                time:year   "1940"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "30" ;
+                                                                time:month  "12" ;
+                                                                time:year   "2009"
+                                                              ]
+                                           ]
+                      ] .
+
+:REMartadinata  rdfs:label  "R. E. Martadinata" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "29" ;
+                                                                time:month  "03" ;
+                                                                time:year   "1921"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "06" ;
+                                                                time:month  "10" ;
+                                                                time:year   "1966"
+                                                              ]
+                                           ]
+                      ] .
+
+:ThomasCHart  rdfs:label  "Thomas C. Hart" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "12" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1988"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "04" ;
+                                                                time:month  "07" ;
+                                                                time:year   "1971"
+                                                              ]
+                                           ]
+                      ] .
+
+:Kariadi  rdfs:label  "Kariadi" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "15" ;
+                                                                time:month  "09" ;
+                                                                time:year   "1905"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "14" ;
+                                                                time:month  "10" ;
+                                                                time:year   "1945"
+                                                              ]
+                                           ]
+                      ] .
+
+:AhmadYani  rdfs:label  "Ahmad Yani" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "19" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1922"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "01" ;
+                                                                time:month  "10" ;
+                                                                time:year   "1965"
+                                                              ]
+                                           ]
+                      ] .
+
+:BennyWenda  rdfs:label  "Benny Wenda" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:year  "1975"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ]
+                      ] .
+
+:Wongsonegoro  rdfs:label  "Wongsonegoro" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "20" ;
+                                                                time:month  "04" ;
+                                                                time:year   "1897"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "04" ;
+                                                                time:month  "03" ;
+                                                                time:year   "1978"
+                                                              ]
+                                           ]
+                      ] .
+
+:TrySutrisno  rdfs:label  "Try Sutrisno" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "15" ;
+                                                                time:month  "11" ;
+                                                                time:year   "1935"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ]
+                      ] .
+
+:KellyKwalik  rdfs:label  "Kelly Kwalik" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:year  "1955"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "16" ;
+                                                                time:month  "12" ;
+                                                                time:year   "2009"
+                                                              ]
+                                           ]
+                      ] .
+
+:AubertinMallaby  rdfs:label  "Aubertin Mallaby" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "12" ;
+                                                                time:month  "12" ;
+                                                                time:year   "1899"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "30" ;
+                                                                time:month  "10" ;
+                                                                time:year   "1945"
+                                                              ]
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "12" ;
+                                                                time:month  "12" ;
+                                                                time:year   "1899"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "30" ;
+                                                                time:month  "10" ;
+                                                                time:year   "1945"
+                                                              ]
+                                           ]
+                      ] .
+
+:SyarifHamidIIdariPontianak
+        rdfs:label    "Syarif Hamid II dari Pontianak" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "12" ;
+                                                                time:month  "07" ;
+                                                                time:year   "1913"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "30" ;
+                                                                time:month  "03" ;
+                                                                time:year   "1978"
+                                                              ]
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "12" ;
+                                                                time:month  "07" ;
+                                                                time:year   "1913"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "30" ;
+                                                                time:month  "03" ;
+                                                                time:year   "1978"
+                                                              ]
+                                           ]
+                      ] .
+
+:JisaburoOzawa  rdfs:label  "Jisaburo Ozawa" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "02" ;
+                                                                time:month  "10" ;
+                                                                time:year   "1886"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "09" ;
+                                                                time:month  "11" ;
+                                                                time:year   "1966"
+                                                              ]
+                                           ]
+                      ] .
+
+:AndikaPerkasa  rdfs:label  "Andika Perkasa" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "21" ;
+                                                                time:month  "12" ;
+                                                                time:year   "1964"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ]
+                      ] .
+
+:TeukuNyakArif  rdfs:label  "Teuku Nyak Arif" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "17" ;
+                                                                time:month  "07" ;
+                                                                time:year   "1899"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "04" ;
+                                                                time:month  "05" ;
+                                                                time:year   "1946"
+                                                              ]
+                                           ]
+                      ] .
+
+:MohammadHatta  rdfs:label  "Mohammad Hatta" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "12" ;
+                                                                time:month  "08" ;
+                                                                time:year   "1902"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "14" ;
+                                                                time:month  "03" ;
+                                                                time:year   "1980"
+                                                              ]
+                                           ]
+                      ] .
+
+:SlametRijadi  rdfs:label  "Slamet Rijadi" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "26" ;
+                                                                time:month  "07" ;
+                                                                time:year   "1927"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "04" ;
+                                                                time:month  "11" ;
+                                                                time:year   "1950"
+                                                              ]
+                                           ]
+                      ] .
+
+:AchmadiHadisoemarto  rdfs:label  "Achmadi Hadisoemarto" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "05" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1927"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "02" ;
+                                                                time:month  "01" ;
+                                                                time:year   "1984"
+                                                              ]
+                                           ]
+                      ] .
+
+:LeonardusBenyaminMoerdani
+        rdfs:label    "Leonardus Benyamin Moerdani" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "02" ;
+                                                                time:month  "10" ;
+                                                                time:year   "1932"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "29" ;
+                                                                time:month  "08" ;
+                                                                time:year   "2004"
+                                                              ]
+                                           ]
+                      ] .
+
+:HubertusJohannesvanMook
+        rdfs:label    "Hubertus Johannes van Mook" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "20" ;
+                                                                time:month  "05" ;
+                                                                time:year   "1894"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "10" ;
+                                                                time:month  "05" ;
+                                                                time:year   "1965"
+                                                              ]
+                                           ]
+                      ] .
+
+:AchmadTahir  rdfs:label  "Achmad Tahir" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "27" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1924"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "17" ;
+                                                                time:month  "08" ;
+                                                                time:year   "2002"
+                                                              ]
+                                           ]
+                      ] .
+
+:Soengkono  rdfs:label  "Soengkono" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "01" ;
+                                                                time:month  "01" ;
+                                                                time:year   "1911"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "12" ;
+                                                                time:month  "09" ;
+                                                                time:year   "1977"
+                                                              ]
+                                           ]
+                      ] .
+
+:ShojiNishimura  rdfs:label  "Shoji Nishimura" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "30" ;
+                                                                time:month  "11" ;
+                                                                time:year   "1889"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "24" ;
+                                                                time:month  "10" ;
+                                                                time:year   "1944"
+                                                              ]
+                                           ]
+                      ] .
+
+:MaludinSimbolon  rdfs:label  "Maludin Simbolon" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "13" ;
+                                                                time:month  "04" ;
+                                                                time:year   "1916"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "15" ;
+                                                                time:month  "04" ;
+                                                                time:year   "2000"
+                                                              ]
+                                           ]
+                      ] .
+
+:AbdulHarisNasution  rdfs:label  "Abdul Haris Nasution" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "03" ;
+                                                                time:month  "12" ;
+                                                                time:year   "1918"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "06" ;
+                                                                time:month  "09" ;
+                                                                time:year   "2000"
+                                                              ]
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "03" ;
+                                                                time:month  "12" ;
+                                                                time:year   "1918"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "06" ;
+                                                                time:month  "09" ;
+                                                                time:year   "2000"
+                                                              ]
+                                           ]
+                      ] .
+
+:HeinterPoorten  rdfs:label  "Hein ter Poorten" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "21" ;
+                                                                time:month  "11" ;
+                                                                time:year   "1887"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "15" ;
+                                                                time:month  "01" ;
+                                                                time:year   "1968"
+                                                              ]
+                                           ]
+                      ] .
+
+:GoliathTabuni  rdfs:label  "Goliath Tabuni" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:year  "1959"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ]
+                      ] .
+
+:HitoshiImamura  rdfs:label  "Hitoshi Imamura" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "28" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1886"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "04" ;
+                                                                time:month  "10" ;
+                                                                time:year   "1968"
+                                                              ]
+                                           ]
+                      ] .
+
+:Musso  rdfs:label    "Musso" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "12" ;
+                                                                time:month  "08" ;
+                                                                time:year   "1897"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "31" ;
+                                                                time:month  "10" ;
+                                                                time:year   "1948"
+                                                              ]
+                                           ]
+                      ] .
+
+:VentjeSumual  rdfs:label  "Ventje Sumual" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "11" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1923"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "28" ;
+                                                                time:month  "03" ;
+                                                                time:year   "2010"
+                                                              ]
+                                           ]
+                      ] .
+
+:Soeharto  rdfs:label  "Soeharto" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "08" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1921"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "27" ;
+                                                                time:month  "01" ;
+                                                                time:year   "2008"
+                                                              ]
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "08" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1921"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "27" ;
+                                                                time:month  "01" ;
+                                                                time:year   "2008"
+                                                              ]
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "08" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1921"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "27" ;
+                                                                time:month  "01" ;
+                                                                time:year   "2008"
+                                                              ]
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "08" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1921"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "27" ;
+                                                                time:month  "01" ;
+                                                                time:year   "2008"
+                                                              ]
+                                           ]
+                      ] .
+
+:EgianusKogoya  rdfs:label  "Egianus Kogoya" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:year  "1999"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ]
+                      ] .
+
+:AgusSubiyanto  rdfs:label  "Agus Subiyanto" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "05" ;
+                                                                time:month  "08" ;
+                                                                time:year   "1967"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ]
+                      ] .
+
+:BudiGunawan  rdfs:label  "Budi Gunawan" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "11" ;
+                                                                time:month  "12" ;
+                                                                time:year   "1959"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ]
+                      ] .
+
+:Soedirman  rdfs:label  "Soedirman" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "24" ;
+                                                                time:month  "01" ;
+                                                                time:year   "1916"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "29" ;
+                                                                time:month  "01" ;
+                                                                time:year   "1950"
+                                                              ]
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "24" ;
+                                                                time:month  "01" ;
+                                                                time:year   "1916"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "29" ;
+                                                                time:month  "01" ;
+                                                                time:year   "1950"
+                                                              ]
+                                           ]
+                      ] .
+
+:HisaichiTerauchi  rdfs:label  "Hisaichi Terauchi" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "08" ;
+                                                                time:month  "08" ;
+                                                                time:year   "1879"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "12" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1946"
+                                                              ]
+                                           ]
+                      ] .
+
+:JacobPrai  rdfs:label  "Jacob Prai" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "17" ;
+                                                                time:month  "07" ;
+                                                                time:year   "1942"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "26" ;
+                                                                time:month  "05" ;
+                                                                time:year   "2022"
+                                                              ]
+                                           ]
+                      ] .
+
+:SutanSjahrir  rdfs:label  "Sutan Sjahrir" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "05" ;
+                                                                time:month  "03" ;
+                                                                time:year   "1909"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "09" ;
+                                                                time:month  "04" ;
+                                                                time:year   "1966"
+                                                              ]
+                                           ]
+                      ] .
+
+:SekarmadjiMaridjanKartosoewirjo
+        rdfs:label    "Sekarmadji Maridjan Kartosoewirjo" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "07" ;
+                                                                time:month  "01" ;
+                                                                time:year   "1905"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "05" ;
+                                                                time:month  "09" ;
+                                                                time:year   "1962"
+                                                              ]
+                                           ]
+                      ] .
+
+:OeripSoemohardjo  rdfs:label  "Oerip Soemohardjo" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "22" ;
+                                                                time:month  "02" ;
+                                                                time:year   "1893"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "17" ;
+                                                                time:month  "11" ;
+                                                                time:year   "1948"
+                                                              ]
+                                           ]
+                      ] .
+
+:LoaSekHie  rdfs:label  "Loa Sek Hie" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:year  "1898"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:year  "1965"
+                                                              ]
+                                           ]
+                      ] .
+
+:AhmadHusein  rdfs:label  "Ahmad Husein" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "01" ;
+                                                                time:month  "04" ;
+                                                                time:year   "1925"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "28" ;
+                                                                time:month  "11" ;
+                                                                time:year   "1998"
+                                                              ]
+                                           ]
+                      ] .
+
+:AdamBB  rdfs:label   "Adam B.B." ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "31" ;
+                                                                time:month  "08" ;
+                                                                time:year   "1889"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "15" ;
+                                                                time:month  "07" ;
+                                                                time:year   "1953"
+                                                              ]
+                                           ]
+                      ] .
+
+:Moekijat  rdfs:label  "Moekijat" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "15" ;
+                                                                time:month  "12" ;
+                                                                time:year   "1927"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "01" ;
+                                                                time:month  "11" ;
+                                                                time:year   "1985"
+                                                              ]
+                                           ]
+                      ] .
+
+:AbdulkadirWidjojoatmodjo
+        rdfs:label    "Abdulkadir Widjojoatmodjo" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "18" ;
+                                                                time:month  "12" ;
+                                                                time:year   "1904"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "24" ;
+                                                                time:month  "12" ;
+                                                                time:year   "1992"
+                                                              ]
+                                           ]
+                      ] .
+
+:HamengkubuwanaIX  rdfs:label  "Hamengkubuwana IX" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "12" ;
+                                                                time:month  "04" ;
+                                                                time:year   "1912"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "02" ;
+                                                                time:month  "10" ;
+                                                                time:year   "1988"
+                                                              ]
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "12" ;
+                                                                time:month  "04" ;
+                                                                time:year   "1912"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "02" ;
+                                                                time:month  "10" ;
+                                                                time:year   "1988"
+                                                              ]
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "12" ;
+                                                                time:month  "04" ;
+                                                                time:year   "1912"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "02" ;
+                                                                time:month  "10" ;
+                                                                time:year   "1988"
+                                                              ]
+                                           ]
+                      ] .
+
+:KiyotakeKawaguchi  rdfs:label  "Kiyotake Kawaguchi" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "03" ;
+                                                                time:month  "12" ;
+                                                                time:year   "1892"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "16" ;
+                                                                time:month  "05" ;
+                                                                time:year   "1961"
+                                                              ]
+                                           ]
+                      ] .
+
+:DirkCornelisBuurmanvanVreeden
+        rdfs:label    "Dirk Cornelis Buurman van Vreeden" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "16" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1902"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "12" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1964"
+                                                              ]
+                                           ]
+                      ] .
+
+:TakeoTakagi  rdfs:label  "Takeo Takagi" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "25" ;
+                                                                time:month  "01" ;
+                                                                time:year   "1892"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "08" ;
+                                                                time:month  "07" ;
+                                                                time:year   "1944"
+                                                              ]
+                                           ]
+                      ] .
+
+:DouglasMacArthur  rdfs:label  "Douglas MacArthur" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "26" ;
+                                                                time:month  "01" ;
+                                                                time:year   "1880"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "05" ;
+                                                                time:month  "04" ;
+                                                                time:year   "1964"
+                                                              ]
+                                           ]
+                      ] .
+
+:Soekarno  rdfs:label  "Soekarno" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "06" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1901"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "21" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1970"
+                                                              ]
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "06" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1901"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "21" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1970"
+                                                              ]
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "06" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1901"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "21" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1970"
+                                                              ]
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "06" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1901"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "21" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1970"
+                                                              ]
+                                           ]
+                      ] .
+
+:IGustiNgurahRai  rdfs:label  "I Gusti Ngurah Rai" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "30" ;
+                                                                time:month  "01" ;
+                                                                time:year   "1917"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "20" ;
+                                                                time:month  "11" ;
+                                                                time:year   "1946"
+                                                              ]
+                                           ]
+                      ] .
+
+:MuhammadMangundiprojo
+        rdfs:label    "Muhammad Mangundiprojo" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "05" ;
+                                                                time:month  "01" ;
+                                                                time:year   "1905"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "13" ;
+                                                                time:month  "12" ;
+                                                                time:year   "1988"
+                                                              ]
+                                           ]
+                      ] .
+
+:LudolphHendrikvanOyen
+        rdfs:label    "Ludolph Hendrik van Oyen" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "25" ;
+                                                                time:month  "04" ;
+                                                                time:year   "1889"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "28" ;
+                                                                time:month  "07" ;
+                                                                time:year   "1953"
+                                                              ]
+                                           ]
+                      ] .
+
+:NobutakeKond  rdfs:label  "Nobutake Kondō" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "25" ;
+                                                                time:month  "09" ;
+                                                                time:year   "1886"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "19" ;
+                                                                time:month  "02" ;
+                                                                time:year   "1953"
+                                                              ]
+                                           ]
+                      ] .
+
+:DaudBeureueh  rdfs:label  "Daud Beureu'eh" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "23" ;
+                                                                time:month  "09" ;
+                                                                time:year   "1896"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "10" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1987"
+                                                              ]
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "23" ;
+                                                                time:month  "09" ;
+                                                                time:year   "1896"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "10" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1987"
+                                                              ]
+                                           ]
+                      ] .
+
+:JuliusTahija  rdfs:label  "Julius Tahija" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "13" ;
+                                                                time:month  "07" ;
+                                                                time:year   "1916"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "30" ;
+                                                                time:month  "07" ;
+                                                                time:year   "2002"
+                                                              ]
+                                           ]
+                      ] .
+
+:LouisMountbatten  rdfs:label  "Louis Mountbatten" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "25" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1900"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "15" ;
+                                                                time:month  "08" ;
+                                                                time:year   "1979"
+                                                              ]
+                                           ]
+                      ] .
+
+:TjokordaGdeRakaSoekawati
+        rdfs:label    "Tjokorda Gde Raka Soekawati" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "15" ;
+                                                                time:month  "01" ;
+                                                                time:year   "1899"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:year  "1967"
+                                                              ]
+                                           ]
+                      ] .
+
+:MarufAmin  rdfs:label  "Ma'ruf Amin" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "11" ;
+                                                                time:month  "03" ;
+                                                                time:year   "1943"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ]
+                      ] .
+
+:GatotSoebroto  rdfs:label  "Gatot Soebroto" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "10" ;
+                                                                time:month  "10" ;
+                                                                time:year   "1907"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "11" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1962"
+                                                              ]
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "10" ;
+                                                                time:month  "10" ;
+                                                                time:year   "1907"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "11" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1962"
+                                                              ]
+                                           ]
+                      ] .
+
+:SusiloBambangYudhoyono
+        rdfs:label    "Susilo Bambang Yudhoyono" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "09" ;
+                                                                time:month  "09" ;
+                                                                time:year   "1949"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ]
+                      ] .
+
+:AbdulKaharMuzakkar  rdfs:label  "Abdul Kahar Muzakkar" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "24" ;
+                                                                time:month  "03" ;
+                                                                time:year   "1921"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "03" ;
+                                                                time:month  "02" ;
+                                                                time:year   "1965"
+                                                              ]
+                                           ]
+                      ] .
+
+:RaymondWesterling  rdfs:label  "Raymond Westerling" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "31" ;
+                                                                time:month  "08" ;
+                                                                time:year   "1919"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "26" ;
+                                                                time:month  "11" ;
+                                                                time:year   "1987"
+                                                              ]
+                                           ]
+                      ] .
+
+:AmirSjarifoeddin  rdfs:label  "Amir Sjarifoeddin" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "24" ;
+                                                                time:month  "04" ;
+                                                                time:year   "1907"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "19" ;
+                                                                time:month  "12" ;
+                                                                time:year   "1948"
+                                                              ]
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "24" ;
+                                                                time:month  "04" ;
+                                                                time:year   "1907"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "19" ;
+                                                                time:month  "12" ;
+                                                                time:year   "1948"
+                                                              ]
+                                           ]
+                      ] .
+
+:ArchibaldWavell1stEarlWavell
+        rdfs:label    "Archibald Wavell, 1st Earl Wavell" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "05" ;
+                                                                time:month  "05" ;
+                                                                time:year   "1883"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "24" ;
+                                                                time:month  "05" ;
+                                                                time:year   "1950"
+                                                              ]
+                                           ]
+                      ] .
+
+:TanMalaka  rdfs:label  "Tan Malaka" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "02" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1897"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "21" ;
+                                                                time:month  "02" ;
+                                                                time:year   "1949"
+                                                              ]
+                                           ]
+                      ] .
+
+:LeslieMorshead  rdfs:label  "Leslie Morshead" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "18" ;
+                                                                time:month  "09" ;
+                                                                time:year   "1889"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "26" ;
+                                                                time:month  "09" ;
+                                                                time:year   "1959"
+                                                              ]
+                                           ]
+                      ] .
+
+:JulianadariBelanda  rdfs:label  "Juliana dari Belanda" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "30" ;
+                                                                time:month  "04" ;
+                                                                time:year   "1909"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "20" ;
+                                                                time:month  "03" ;
+                                                                time:year   "2004"
+                                                              ]
+                                           ]
+                      ] .
+
+:SaalahYusufSutanMangkuto
+        rdfs:label    "Saalah Yusuf Sutan Mangkuto" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:year  "1901"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:year  "1974"
+                                                              ]
+                                           ]
+                      ] .
+
+:DaanMogot  rdfs:label  "Daan Mogot" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "28" ;
+                                                                time:month  "12" ;
+                                                                time:year   "1927"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "25" ;
+                                                                time:month  "01" ;
+                                                                time:year   "1946"
+                                                              ]
+                                           ]
+                      ] .
+
+:TBSimatupang  rdfs:label  "T.B. Simatupang" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "28" ;
+                                                                time:month  "01" ;
+                                                                time:year   "1920"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "01" ;
+                                                                time:month  "01" ;
+                                                                time:year   "1990"
+                                                              ]
+                                           ]
+                      ] .
+
+:MoehammadJasin  rdfs:label  "Moehammad Jasin" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "09" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1920"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "03" ;
+                                                                time:month  "05" ;
+                                                                time:year   "2012"
+                                                              ]
+                                           ]
+                      ] ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "09" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1920"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "03" ;
+                                                                time:month  "05" ;
+                                                                time:year   "2012"
+                                                              ]
+                                           ]
+                      ] .
+
+:EdiSukardi  rdfs:label  "Edi Sukardi" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "18" ;
+                                                                time:month  "02" ;
+                                                                time:year   "1916"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "05" ;
+                                                                time:month  "09" ;
+                                                                time:year   "2014"
+                                                              ]
+                                           ]
+                      ] .
+
+:Wiranto  rdfs:label  "Wiranto" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "04" ;
+                                                                time:month  "04" ;
+                                                                time:year   "1947"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ]
+                      ] .
+
+:SimonSpoor  rdfs:label  "Simon Spoor" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "12" ;
+                                                                time:month  "01" ;
+                                                                time:year   "1902"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "25" ;
+                                                                time:month  "05" ;
+                                                                time:year   "1949"
+                                                              ]
+                                           ]
+                      ] .
+
+:BJHabibie  rdfs:label  "B. J. Habibie" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "25" ;
+                                                                time:month  "06" ;
+                                                                time:year   "1936"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "11" ;
+                                                                time:month  "09" ;
+                                                                time:year   "2019"
+                                                              ]
+                                           ]
+                      ] .
+
+:SyamaunGaharu  rdfs:label  "Syamaun Gaharu" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "10" ;
+                                                                time:month  "11" ;
+                                                                time:year   "1913"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "30" ;
+                                                                time:month  "09" ;
+                                                                time:year   "2000"
+                                                              ]
+                                           ]
+                      ] .
+
+:PakubuwanaXII  rdfs:label  "Pakubuwana XII" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "14" ;
+                                                                time:month  "04" ;
+                                                                time:year   "1925"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "11" ;
+                                                                time:month  "06" ;
+                                                                time:year   "2004"
+                                                              ]
+                                           ]
+                      ] .
+
+:PrabowoSubianto  rdfs:label  "Prabowo Subianto" ;
+        time:hasTime  [ rdf:type           time:temporanEntity ;
+                        time:hasBeginning  [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                time:day    "17" ;
+                                                                time:month  "10" ;
+                                                                time:year   "1951"
+                                                              ]
+                                           ] ;
+                        time:hasEnd        [ rdf:type         time:Instant ;
+                                             time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                           ]
+                      ] .

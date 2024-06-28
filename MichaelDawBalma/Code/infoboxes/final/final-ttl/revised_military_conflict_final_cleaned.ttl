@@ -1,0 +1,339 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:wikipediaPertempuranLimaHari
+        rdf:type          sem:View ;
+        rdfs:label        "wikipedia Pertempuran Lima Hari" ;
+        <dc:description>  "Pertempuran Lima Hari adalah adalah bentrokan antara pasukan Jepang dari Tentara Keenambelas dan pasukan Indonesia yang terdiri dari personil Badan Keamanan Rakyat dan pemuda pada bulan Oktober 1945 di kota Semarang, Jawa Tengah. Pertempuran ini dianggap sebagai bentrokan besar pertama yang melibatkan militer Indonesia." ;
+        :image            "File:Becak_Tugu_Muda_Semarang_Central_Java.jpg" ;
+        :wikiurl          "https://id.wikipedia.org/wiki/Pertempuran_Lima_Hari" ;
+        sem:accordingTo   :wikipedia ;
+        sem:hasSubEvent   :RevolusiNasionalIndonesia .
+
+:wikipediaPeristiwa19November
+        rdf:type          sem:View ;
+        rdfs:label        "wikipedia Peristiwa 19 November" ;
+        <dc:description>  "Peristiwa 19 November merupakan suatu peristiwa di awal Revolusi Nasional Indonesia dimana iring-iringan kendaraan Belanda disergap pemuda Indonesia di Kabupaten Kolaka, Sulawesi Tenggara, tanggal 19 November 1945." ;
+        :wikiurl          "https://id.wikipedia.org/wiki/Peristiwa_19_November" ;
+        sem:accordingTo   :wikipedia ;
+        sem:hasSubEvent   :RevolusiNasionalIndonesia .
+
+:wikipediaPertempuranSurabaya
+        rdf:type          sem:View ;
+        rdfs:label        "wikipedia Pertempuran Surabaya" ;
+        <dc:description>  "Pertempuran Surabaya merupakan pertempuran antara pasukan pejuang Indonesia yang diorganisir oleh pasukan anggota eks. Pembela Tanah Air yang dibentuk oleh Pasukan Jepang dan Polisi Istimewa di waktu masa Pendudukan Jepang di Indonesia (yang dulunya Hindia Belanda) pada saat itu, yang bertujuan untuk mencegah pasukan sekutu pasca Jepang menyerah tanpa syarat kepada sekutu  di Perang Pasifik yang mendarat di kota Surabaya yang terdiri dari pasukan Kekaisaran Britania dengan sukarelawan Persemakmuran Britania yakni Angkatan Darat India Britania dengan mendapatkan dukungan khusus oleh tentara Kekaisaran Belanda. Puncaknya terjadi pada tanggal 10 November 1945. Pertempuran ini adalah perang pertama pasukan Indonesia dengan pasukan Sekutu  setelah Proklamasi Kemerdekaan Indonesia dan satu pertempuran terbesar dan terberat dalam sejarah Revolusi Nasional Indonesia yang menjadi simbol nasional atas perlawanan Indonesia terhadap kolonialisme dan Imperialisme. Usai pertempuran ini, dukungan rakyat Indonesia dan dunia internasional terhadap perjuangan kemerdekaan Indonesia semakin kuat. 10 November diperingati setiap tahun sebagai Hari Pahlawan di Indonesia." ;
+        :image            "Collectie_NMvWereldculturen,_7082-nf-1167,_Ansichtkaart-_Oranje_Hotel_in_Surabaya,_1937.jpg" ;
+        :wikiurl          "https://id.wikipedia.org/wiki/Pertempuran_Surabaya" ;
+        sem:accordingTo   :wikipedia ;
+        sem:hasSubEvent   :RevolusiNasionalIndonesia .
+
+:wikipediaPerangDayakDesa
+        rdf:type          sem:View ;
+        rdfs:label        "wikipedia Perang Dayak Desa" ;
+        <dc:description>  "Perang Dayak Desa adalah perang antara Suku Dayak Desa dan pasukan Kekaisaran Jepang pada masa pendudukan Jepang di Kalimantan Barat. Perang yang berlangsung tahun 1944 hingga 1945 di Sanggau, Kalimantan Barat ini dilatarbelakangi oleh perlakuan Jepang yang sewenang-wenang terhadap Suku Dayak Desa." ;
+        :image            "SultanPontianak.jpg" ;
+        :wikiurl          "https://id.wikipedia.org/wiki/Perang_Dayak_Desa" ;
+        sem:accordingTo   :wikipedia ;
+        sem:hasSubEvent   :PendudukanJepangdiKalimantanBarat .
+
+:wikipediaKonflikPapua
+        rdf:type          sem:View ;
+        rdfs:label        "wikipedia Konflik Papua" ;
+        <dc:description>  "Konflik Papua adalah konflik militer yang tejadi di wilayah Papua, Indonesia. diawali pada tahun 1961, muncul keinginan Belanda untuk membentuk negara Papua Barat yang terlepas dari Indonesia, Langkah Belanda ini kemudian ditentang oleh Presiden Indonesia, Soekarno dengan mendekatkan diri pada negara komunis terutama Uni Soviet. Sikap Soekarno ini membuat takut Belanda dan Presiden Amerika Serikat, John F. Kennedy. Sebab jika hal itu dibiarkan maka Indonesia kemungkinan menjadi negara komunis terbesar di Asia Tenggara. Ketakutan itu lalu membuat Belanda mengambil sikap untuk menyerahkan masalah Papua ke PBB. Dari dan melalui PBB, Belanda mengambil sikap untuk keluar dari Papua dan tidak jadi mengambil, merebut, dan menjajah Papua lalu Papua diserahkan \"kembali\" ke Indonesia dengan syarat memberi kesempatan pada rakyat Papua untuk menentukan sikap sendiri atau referendum (Penentuan Pendapat Rakyat/PEPERA)." ;
+        :image            "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/524A/production/_118566012_a3b9d61f-12ff-4266-910c-22bbd3bcfb84.jpg" ;
+        :wikiurl          "https://id.wikipedia.org/wiki/Konflik_Papua" ;
+        sem:accordingTo   :wikipedia ;
+        sem:hasSubEvent   :PersengketaanNuginiBaratdanDekolonisasiOseania .
+
+:wikipediaPemberontakanDITIIdiAceh
+        rdf:type          sem:View ;
+        rdfs:label        "wikipedia Pemberontakan DI/TII di Aceh" ;
+        <dc:description>  "Pemberontakan DI/TII di Aceh dimulai pada tanggal 20 September 1953. Dimulai dengan pernyataan Proklamasi berdirinya Negara Islam Indonesia oleh Daud Beureueh, proklamasi itu menyatakan diri bahwa Aceh sebagai bagian dari Negara Islam Indonesia (NII) dibawah kepemimpinan Imam Besar NII" ;
+        :wikiurl          "https://id.wikipedia.org/wiki/Pemberontakan_DI/TII_di_Aceh" ;
+        sem:accordingTo   :wikipedia ;
+        sem:hasSubEvent   :PemberontakanDITII .
+
+:PeristiwaTigaMaret  rdf:type  sem:Event ;
+        rdfs:label    "Peristiwa Tiga Maret" ;
+        rdfs:seeAlso  :wikipediaPeristiwaTigaMaret .
+
+:wikipediaPerangCumbok
+        rdf:type          sem:View ;
+        rdfs:label        "wikipedia Perang Cumbok" ;
+        <dc:description>  "Perang Cumbok (dikenal juga sebagai Peristiwa Cumbok atau Revolusi Sosial) adalah serangkaian pertempuran yang terjadi di Kabupaten Pidie, Aceh mulai 2 Desember 1945 hingga 16 Januari 1946. Perang ini pecah antara kalangan ulama (teungku) para pendukung proklamasi kemerdekaan Indonesia yang tergabung dalam Persatuan Ulama Seluruh Aceh melawan kubu uleebalang (teuku) yang lebih memilih kekuasaan Belanda, sehingga menyebabkan revolusi di tatanan sosial masyarakat Aceh pada saat itu." ;
+        :image            "https://asset.kompas.com/crops/DJM_P8kIygNnZPCmB5ZULPCpq64=/0x54:698x520/750x500/data/photo/2021/11/05/6184a0902d731.jpeg" ;
+        :wikiurl          "https://id.wikipedia.org/wiki/Perang_Cumbok" ;
+        sem:accordingTo   :wikipedia ;
+        sem:hasSubEvent   :RevolusiNasionalIndonesia .
+
+:wikipediaPuputanMargarana
+        rdf:type          sem:View ;
+        rdfs:label        "wikipedia Puputan Margarana" ;
+        <dc:description>  "Pertempuran Puputan Margarana merupakan salah satu pertempuran antara Indonesia dan Belanda dalam masa Perang kemerdekaan Indonesia yang terjadi pada 20 November 1946. Pertempuran ini dipimpin oleh Kepala Divisi Sunda Kecil Kolonel I Gusti Ngurah Rai. Dimana Pasukan TKR di wilayah ini bertempur dengan habis habisan untuk mengusir Pasukan Belanda yang kembali datang setelah kekalahan Jepang, untuk menguasai kembali wilayahnya yang direbut Jepang pada Perang Dunia II, mengakibatkan gugurnya seluruh pasukan termasuk I Gusti Ngurah Rai yang kemudian dikenang sebagai salah-satu Puputan pada era awal kemerdekaan serta mengakibatkan Belanda sukses mendirikan Negara Indonesia Timur." ;
+        :image            "https://wiki.edunitas.com/_sepakbola/_baca_image.php?td=9&kodegb=Puputan2.jpg" ;
+        :wikiurl          "https://id.wikipedia.org/wiki/Puputan_Margarana" ;
+        sem:accordingTo   :wikipedia ;
+        sem:hasSubEvent   :RevolusiNasionalIndonesia .
+
+:PertempuranKumai  rdf:type  sem:Event ;
+        rdfs:label    "Pertempuran Kumai" ;
+        rdfs:seeAlso  :wikipediaPertempuranKumai .
+
+:wikipediaKampanyeHindiaBelanda
+        rdf:type          sem:View ;
+        rdfs:label        "wikipedia Kampanye Hindia Belanda" ;
+        <dc:description>  "Kampanye Hindia Belanda adalah upaya Sekutu untuk mempertahankan Hindia Belanda dari Jepang selama Perang Dunia II, terutama pada periode tahun 1941 sampai dengan tahun 1942. Sumber minyak bumi Hindia Belanda yang kaya menjadi tujuan utama Jepang selama perang. Kampanye ini menyebabkan pendudukan Jepang selama tiga setengah tahun dan berakhirnya penjajahan Belanda di wilayah Nusantara." ;
+        :image            "COLLECTIE TROPENMUSEUM Japanse invasie op Java TMnr 10001990.jpg" ;
+        :wikiurl          "https://id.wikipedia.org/wiki/Kampanye_Hindia_Belanda" ;
+        sem:accordingTo   :wikipedia ;
+        sem:hasSubEvent   :PerangPasifikdariPerangDuniaII .
+
+:wikipediaBandungLautanApi
+        rdf:type          sem:View ;
+        rdfs:label        "wikipedia Bandung Lautan Api" ;
+        <dc:description>  "Peristiwa Bandung Lautan Api adalah peristiwa kebakaran besar yang terjadi di Bandung, provinsi Jawa Barat, Indonesia pada 24 Maret 1946. Sekitar 200.000 penduduk Bandung membakar kediaman mereka sendiri dalam peristiwa tersebut , kemudian meninggalkan kota menuju pegunungan di daerah selatan Bandung. Hal ini dilakukan untuk mencegah tentara Sekutu yang dapat menggunakan kota Bandung sebagai markas strategis militer dalam Perang Kemerdekaan Indonesia." ;
+        :image            "File:Bandung Lautan Api.jpg" ;
+        :wikiurl          "https://id.wikipedia.org/wiki/Bandung_Lautan_Api" ;
+        sem:accordingTo   :wikipedia ;
+        sem:hasSubEvent   :RevolusiNasionalIndonesia .
+
+:DelapanJamPertempurandiMangkang
+        rdf:type      sem:Event ;
+        rdfs:label    "Delapan Jam Pertempuran di Mangkang" ;
+        rdfs:seeAlso  :wikipediaDelapanJamPertempurandiMangkang .
+
+:PerangCumbok  rdf:type  sem:Event ;
+        rdfs:label    "Perang Cumbok" ;
+        rdfs:seeAlso  :wikipediaPerangCumbok .
+
+:SeranganUmum1Maret1949
+        rdf:type      sem:Event ;
+        rdfs:label    "Serangan Umum 1 Maret 1949" ;
+        rdfs:seeAlso  :wikipediaSeranganUmum1Maret1949 .
+
+:PertempuranBojongKokosan
+        rdf:type      sem:Event ;
+        rdfs:label    "Pertempuran Bojong Kokosan" ;
+        rdfs:seeAlso  :wikipediaPertempuranBojongKokosan .
+
+:Peristiwa19November  rdf:type  sem:Event ;
+        rdfs:label    "Peristiwa 19 November" ;
+        rdfs:seeAlso  :wikipediaPeristiwa19November .
+
+:KampanyeHindiaBelanda
+        rdf:type      sem:Event ;
+        rdfs:label    "Kampanye Hindia Belanda" ;
+        rdfs:seeAlso  :wikipediaKampanyeHindiaBelanda .
+
+:PerangPasifikdariPerangDuniaII
+        rdf:type    sem:Event ;
+        rdfs:label  "Perang Pasifik dari Perang Dunia II" .
+
+:PascaPerangDuniaKedua
+        rdf:type    sem:Event ;
+        rdfs:label  "Pasca Perang Dunia Kedua" .
+
+:PerangDayakDesa  rdf:type  sem:Event ;
+        rdfs:label    "Perang Dayak Desa" ;
+        rdfs:seeAlso  :wikipediaPerangDayakDesa .
+
+:wikipediaOperasi17Agustus
+        rdf:type          sem:View ;
+        rdfs:label        "wikipedia Operasi 17 Agustus" ;
+        <dc:description>  "Operasi 17 Agustus merupakan operasi militer yang dipimpin oleh Kolonel Ahmad Yani yang bertujuan untuk menumpas gerakan Pemerintahan Revolusioner Republik Indonesia (PRRI) yang berada di Sumatera Barat, tepatnya di Padang. Operasi militer ini merupakan operasi gabungan yang melibatkan TNI Angkatan Laut, Angkatan Darat, dan Angkatan Udara. 17 Agustus merujuk pada sandi yang digunakan oleh Kolonel Ahmad Yani." ;
+        :image            "Navy military operations against PRRI (crop), Jalesveva Jayamahe, p241.jpg" ;
+        :wikiurl          "https://id.wikipedia.org/wiki/Operasi_17_Agustus" ;
+        sem:accordingTo   :wikipedia .
+
+:wikipedia  rdf:type  sem:Authority .
+
+:PuputanMargarana  rdf:type  sem:Event ;
+        rdfs:label    "Puputan Margarana" ;
+        rdfs:seeAlso  :wikipediaPuputanMargarana .
+
+:PemberontakanDITIIdiAceh
+        rdf:type      sem:Event ;
+        rdfs:label    "Pemberontakan DI/TII di Aceh" ;
+        rdfs:seeAlso  :wikipediaPemberontakanDITIIdiAceh .
+
+:PertempuranLengkong  rdf:type  sem:Event ;
+        rdfs:label    "Pertempuran Lengkong" ;
+        rdfs:seeAlso  :wikipediaPertempuranLengkong .
+
+:wikipediaGerakan30September
+        rdf:type          sem:View ;
+        rdfs:label        "wikipedia Gerakan 30 September" ;
+        <dc:description>  "Gerakan 30 September (G30S) adalah sebuah peristiwa berlatar belakang kudeta yang terjadi selama satu malam pada tanggal 30 September hingga 1 Oktober 1965 yang mengakibatkan gugurnya enam jenderal serta satu orang perwira pertama militer Indonesia dan jenazahnya dimasukkan ke dalam suatu lubang sumur lama di area Lubang Buaya, Jakarta Timur. Penyebutan peristiwa ini memiliki ragam jenis, Presiden Soekarno menyebut peristiwa ini dengan istilah GESTOK (Gerakan Satu Oktober), sementara Presiden Soeharto menyebutnya dengan istilah GESTAPU (Gerakan September Tiga Puluh), dan pada Orde Baru, Presiden Soeharto mengubah sebutannya menjadi G30S/PKI (Gerakan 30 September PKI) oleh karena tudingan bahwa Partai Komunis Indonesia (PKI) bertanggung jawab atas peristiwa ini. Korban kekejaman tragedi ini berada di Yogyakarta dan Jakarta. Salah satu korban kekejaman tragedi ini di Yogyakarta adalah Katamso Darmokusumo dan Sugiyono Mangunwiyoto." ;
+        :image            "potret gestapu.jpg" ;
+        :wikiurl          "https://id.wikipedia.org/wiki/Gerakan_30_September" ;
+        sem:accordingTo   :wikipedia .
+
+:PemberontakanDITII  rdf:type  sem:Event ;
+        rdfs:label  "Pemberontakan DI/TII" .
+
+:PertempuranMedanArea
+        rdf:type      sem:Event ;
+        rdfs:label    "Pertempuran Medan Area" ;
+        rdfs:seeAlso  :wikipediaPertempuranMedanArea .
+
+:PerangDuniaII  rdf:type  sem:Event ;
+        rdfs:label  "Perang Dunia II" .
+
+:KonflikPapua  rdf:type  sem:Event ;
+        rdfs:label    "Konflik Papua" ;
+        rdfs:seeAlso  :wikipediaKonflikPapua .
+
+:wikipediaPenyerbuanKotabaruYogyakarta
+        rdf:type          sem:View ;
+        rdfs:label        "wikipedia Penyerbuan Kotabaru Yogyakarta" ;
+        <dc:description>  "Penyerbuan markas Jepang di Kotabaru Yogyakarta (atau lebih dikenal sebagai Penyerbuan Kotabaru Yogyakarta) diawali dengan perundingan antara Jepang dengan pejuang Yogyakarta yang berlangsung pada tanggal 6 Oktober 1945. Perundingan ini tidak mencapai mufakat karena Jepang tidak mau menyerahkan senjatanya pada pejuang Yogyakarta sehingga pada tanggal 7 Oktober 1945 dilakukan penyerbuan ke markas Jepang oleh para pejuang Yogyakarta." ;
+        :image            "https://asset.kompas.com/crops/ZCeNV4OThSPOlTUz36NGVVy-Bmg=/177x0:2475x1532/750x500/data/photo/2021/12/22/61c2fb04e3e5c.jpg" ;
+        :wikiurl          "https://id.wikipedia.org/wiki/Penyerbuan_Kotabaru_Yogyakarta" ;
+        sem:accordingTo   :wikipedia ;
+        sem:hasSubEvent   :RevolusiNasionalIndonesia .
+
+:PerangKemerdekaanIndonesia
+        rdf:type    sem:Event ;
+        rdfs:label  "Perang Kemerdekaan Indonesia" .
+
+:wikipediaRevolusiNasionalIndonesia
+        rdf:type          sem:View ;
+        rdfs:label        "wikipedia Revolusi Nasional Indonesia" ;
+        <dc:description>  "Revolusi Nasional Indonesia adalah sebuah konflik bersenjata dan pertentangan diplomasi antara Republik Indonesia yang baru lahir melawan Kerajaan Belanda yang dibantu oleh pihak Sekutu, diwakili oleh Inggris. Rangkaian peristiwa ini terjadi mulai dari mendaratnya pasukan sekutu Inggris pertama kali di Jakarta pada 29 September 1945 yang dipimpin oleh Letnan Jenderal Christinson setelah ditandatanganinya Civil Affairs Agreement. Konflik ini berlangsung selama 4 tahun hingga pengakuan kemerdekaan Indonesia oleh Kerajaan Belanda pada 27 Desember 1949. Meskipun demikian, gerakan revolusi itu sendiri telah dimulai pada tahun 1908, yang saat ini diperingati sebagai tahun dimulainya kebangkitan nasional Indonesia." ;
+        :image            "Indonesia flag raising witnesses 17 August 1945.jpg" ;
+        :wikiurl          "https://id.wikipedia.org/wiki/Revolusi_Nasional_Indonesia" ;
+        sem:accordingTo   :wikipedia ;
+        sem:hasSubEvent   :PascaPerangDuniaKedua .
+
+:PenyerbuanKotabaruYogyakarta
+        rdf:type      sem:Event ;
+        rdfs:label    "Penyerbuan Kotabaru Yogyakarta" ;
+        rdfs:seeAlso  :wikipediaPenyerbuanKotabaruYogyakarta .
+
+:SeranganUmumSurakarta
+        rdf:type      sem:Event ;
+        rdfs:label    "Serangan Umum Surakarta" ;
+        rdfs:seeAlso  :wikipediaSeranganUmumSurakarta .
+
+:wikipediaDelapanJamPertempurandiMangkang
+        rdf:type          sem:View ;
+        rdfs:label        "wikipedia Delapan Jam Pertempuran di Mangkang" ;
+        <dc:description>  "Delapan Jam Pertempuran di Mangkang adalah sebuah peristiwa perlawanan pasukan Corps Mariners C.A. IV bertugas di daerah Pekalongan, Batang dan Pemalang yang dikenal sebagai Sub Wehrkreise Slamet V (SWKS V) terhadap Sekutu yang terjadi di Mangkang, Semarang, Jawa Tengah. dibawah pimpinan Letnan. Moekijat." ;
+        :wikiurl          "https://id.wikipedia.org/wiki/Delapan_Jam_Pertempuran_di_Mangkang" ;
+        sem:accordingTo   :wikipedia ;
+        sem:hasSubEvent   :PerangKemerdekaanIndonesia .
+
+:PertempuranLimaHari  rdf:type  sem:Event ;
+        rdfs:label    "Pertempuran Lima Hari" ;
+        rdfs:seeAlso  :wikipediaPertempuranLimaHari .
+
+:BandungLautanApi  rdf:type  sem:Event ;
+        rdfs:label    "Bandung Lautan Api" ;
+        rdfs:seeAlso  :wikipediaBandungLautanApi .
+
+:wikipediaPertempuranBojongKokosan
+        rdf:type          sem:View ;
+        rdfs:label        "wikipedia Pertempuran Bojong Kokosan" ;
+        <dc:description>  "Pertempuran Bojong Kokosan adalah pertempuran yang terjadi ketika konvoi tentara Inggris (Sekutu) yang hendak memperkuat pasukannya di Bandung disergap para pejuang Indonesia di Bojong Kokosan, Sukabumi." ;
+        :image            "https://aartreya.com/images/berita/konten_bojongkokoksan%20foto%20jokam.jpg" ;
+        :wikiurl          "https://id.wikipedia.org/wiki/Pertempuran_Bojong_Kokosan" ;
+        sem:accordingTo   :wikipedia ;
+        sem:hasSubEvent   :RevolusiNasionalIndonesia .
+
+:wikipediaPertempuranMedanArea
+        rdf:type          sem:View ;
+        rdfs:label        "wikipedia Pertempuran Medan Area" ;
+        <dc:description>  "Pertempuran Medan Area adalah sebuah peristiwa perlawanan rakyat terhadap Pasukan Sekutu yang terjadi di kawasan Medan, Sumatera Utara." ;
+        :image            "Medan Area Memorial.jpg" ;
+        :wikiurl          "https://id.wikipedia.org/wiki/Pertempuran_Medan_Area" ;
+        sem:accordingTo   :wikipedia ;
+        sem:hasSubEvent   :RevolusiNasionalIndonesia .
+
+:PertempuranSurabaya  rdf:type  sem:Event ;
+        rdfs:label    "Pertempuran Surabaya" ;
+        rdfs:seeAlso  :wikipediaPertempuranSurabaya .
+
+:wikipediaSeranganUmum1Maret1949
+        rdf:type          sem:View ;
+        rdfs:label        "wikipedia Serangan Umum 1 Maret 1949" ;
+        <dc:description>  "Serangan Umum 1 Maret 1949 adalah serangan yang terjadi pada tanggal 1 Maret 1949 di Yogyakarta. Serangan ini telah dipersiapkan oleh jajaran tertinggi militer di wilayah Divisi III/GM III dengan mengikutsertakan  pimpinan pemerintah sipil setempat berdasarkan instruksi dari Panglima Divisi III, Kol. Bambang Sugeng. Serangan ini bertujuan untuk membuktikan kepada dunia internasional bahwa Tentara Nasional Indonesia (TNI) dan Kepolisian Negara Republik indonesia masih ada dan cukup kuat, dengan harapan dapat memperkuat posisi Indonesia dalam perundingan yang sedang berlangsung di Dewan Keamanan PBB. Perundingan tersebut memiliki tujuan utama untuk mematahkan moral pasukan Belanda serta membuktikan pada dunia internasional bahwa Tentara Nasional Indonesia (TNI) masih mempunyai kekuatan untuk mengadakan perlawanan. Soeharto pada waktu itu menjabat sebagai Komandan Brigade X/Wehrkreis III turut serta sebagai pelaksana lapangan di wilayah Yogyakarta." ;
+        :image            "Munumen Serangan Umum 1 Maret 1949.jpg" ;
+        :wikiurl          "https://id.wikipedia.org/wiki/Serangan_Umum_1_Maret_1949" ;
+        sem:accordingTo   :wikipedia ;
+        sem:hasSubEvent   :RevolusiNasionalIndonesia .
+
+:wikipediaPertempuranLengkong
+        rdf:type          sem:View ;
+        rdfs:label        "wikipedia Pertempuran Lengkong" ;
+        <dc:description>  "Pertempuran Lengkong adalah pertempuran Tentara Keamanan Rakyat melawan pasukan Jepang di Desa Lengkong, Serpong, Tangerang Selatan, Banten, Indonesia yang terjadi pada tanggal 25 Januari 1946." ;
+        :image            "https://d220hvstrn183r.cloudfront.net/attachment/30585619145983802199" ;
+        :wikiurl          "https://id.wikipedia.org/wiki/Pertempuran_Lengkong" ;
+        sem:accordingTo   :wikipedia .
+
+:wikipediaSeranganUmumSurakarta
+        rdf:type          sem:View ;
+        rdfs:label        "wikipedia Serangan Umum Surakarta" ;
+        <dc:description>  "Serangan Umum Surakarta atau juga disebut Serangan Umum Empat Hari berlangsung pada tanggal 7 -10 Agustus 1949 secara gerilya oleh para pejuang, pelajar, dan mahasiswa. Pelajar dan mahasiswa yang berjuang tersebut kemudian dikenal sebagai tentara pelajar. Mereka berhasil membumihanguskan dan menduduki markas-maskas Belanda di Surakarta dan sekitarnya. Menurut catatan sejarah, serangan itu digagas di kawasan Monumen Banjarsari, Surakarta. Untuk menyusun serangan, para pejuang berkumpul di Desa Wonosido, Kabupaten Sragen dari situlah ide untuk melakukan serangan umum dikobarkan." ;
+        :image            "Monumen_Serangan_Umum_4_Hari_Surakarta.jpg" ;
+        :wikiurl          "https://id.wikipedia.org/wiki/Serangan_Umum_Surakarta" ;
+        sem:accordingTo   :wikipedia ;
+        sem:hasSubEvent   :RevolusiNasionalIndonesia .
+
+:KampanyeKalimantan1945
+        rdf:type      sem:Event ;
+        rdfs:label    "Kampanye Kalimantan (1945)" ;
+        rdfs:seeAlso  :wikipediaKampanyeKalimantan1945 .
+
+:PersengketaanNuginiBaratdanDekolonisasiOseania
+        rdf:type    sem:Event ;
+        rdfs:label  "Persengketaan Nugini Barat dan Dekolonisasi Oseania" .
+
+:wikipediaPeristiwaTigaMaret
+        rdf:type          sem:View ;
+        rdfs:label        "wikipedia Peristiwa Tiga Maret" ;
+        <dc:description>  "Peristiwa Tiga Maret adalah sebuah upaya pemberontakan terhadap pemerintahan Republik Indonesia di Sumatera Barat pada masa Revolusi Nasional Indonesia oleh para militan Islam. Pemberontakan ini gagal dan para pemimpinnya ditangkap." ;
+        :image            "https://koropak.co.id/storage/cover/sejarah-sumatra-barat-peristiwa-pemberontakan-tiga-maret_1709380377.jpg" ;
+        :wikiurl          "https://id.wikipedia.org/wiki/Peristiwa_Tiga_Maret" ;
+        sem:accordingTo   :wikipedia ;
+        sem:hasSubEvent   :RevolusiNasionalIndonesia .
+
+:PendudukanJepangdiKalimantanBarat
+        rdf:type    sem:Event ;
+        rdfs:label  "Pendudukan Jepang di Kalimantan Barat" .
+
+:RevolusiNasionalIndonesia
+        rdf:type      sem:Event ;
+        rdfs:label    "Revolusi Nasional Indonesia" ;
+        rdfs:seeAlso  :wikipediaRevolusiNasionalIndonesia .
+
+:wikipediaKampanyeKalimantan1945
+        rdf:type          sem:View ;
+        rdfs:label        "wikipedia Kampanye Kalimantan (1945)" ;
+        <dc:description>  "Kampanye Kalimantan tahun 1945 atau Kampanye Borneo tahun 1945 adalah kampanye utama terakhir Sekutu di wilayah Pasifik barat laut selama Perang Dunia II. Dalam berbagai serangan amfibi antara 1 Mei hingga 21 Juli 1945, tentara Australia di bawah Jendral Leslie Morshead, menyerang tentara Jepang yang menduduki pulau ini." ;
+        :image            "Borneo_Campaign_CMH.jpg" ;
+        :wikiurl          "https://id.wikipedia.org/wiki/Kampanye_Kalimantan_(1945)" ;
+        sem:accordingTo   :wikipedia ;
+        sem:hasSubEvent   :PerangDuniaII .
+
+:Gerakan30September  rdf:type  sem:Event ;
+        rdfs:label    "Gerakan 30 September" ;
+        rdfs:seeAlso  :wikipediaGerakan30September .
+
+:wikipediaPertempuranKumai
+        rdf:type          sem:View ;
+        rdfs:label        "wikipedia Pertempuran Kumai" ;
+        <dc:description>  "Pertempuran Kumai atau juga dikenal sebagai Pertempuran 14 Januari adalah sebuah pertikaian antara Pemerintahan Republik Indonesia dan para milisi Indonesia melawan Tentara Kerajaan Hindia Belanda di kota Kumai, Kalimantan Tengah. Milisi Indonesia, kebanyakan terdiri dari pemuda, Tentara Indonesia yang baru dibentuk, dan ulama Islam bersenjata— dikenal sebagai Barisan Ulama atau Barisan Berjenggot —bertindak melawan konvoi bersenjata Belanda yang berniat untuk mendarat di pelabuhan." ;
+        :image            "https://koranmakassar.com/wp-content/uploads/2022/01/c20b11ce5265054a5d4a3cf888edd9e1-e1642090647236.jpg" ;
+        :wikiurl          "https://id.wikipedia.org/wiki/Pertempuran_Kumai" ;
+        sem:accordingTo   :wikipedia ;
+        sem:hasSubEvent   :RevolusiNasionalIndonesia .
+
+:Operasi17Agustus  rdf:type  sem:Event ;
+        rdfs:label    "Operasi 17 Agustus" ;
+        rdfs:seeAlso  :wikipediaOperasi17Agustus .
