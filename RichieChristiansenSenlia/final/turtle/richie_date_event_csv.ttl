@@ -1,0 +1,1003 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <https://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:wikipedia31  rdfs:label  "wikipedia 31" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "25" ;
+                                                                   time:month  "1" ;
+                                                                   time:year   "1946"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:18     rdfs:label    "18" ;
+        rdfs:seeAlso  "wikipedia18" .
+
+:wikipedia7  rdfs:label  "wikipedia 7" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "15" ;
+                                                                   time:month  "10" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "19" ;
+                                                                   time:month  "10" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:1      rdfs:label    "1" ;
+        rdfs:seeAlso  "wikipedia1" .
+
+:wikipedia43  rdfs:label  "wikipedia 43" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "27" ;
+                                                                   time:month  "10" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "20" ;
+                                                                   time:month  "11" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipedia13  rdfs:label  "wikipedia 13" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1357"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:31     rdfs:label    "31" ;
+        rdfs:seeAlso  "wikipedia31" .
+
+:wikipedia25  rdfs:label  "wikipedia 25" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "7" ;
+                                                                   time:month  "12" ;
+                                                                   time:year   "1941"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "2" ;
+                                                                   time:month  "9" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:43     rdfs:label    "43" ;
+        rdfs:seeAlso  "wikipedia43" .
+
+:13     rdfs:label    "13" ;
+        rdfs:seeAlso  "wikipedia13" .
+
+:wikipedia37  rdfs:label  "wikipedia 37" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "30" ;
+                                                                   time:month  "9" ;
+                                                                   time:year   "1965"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "1" ;
+                                                                   time:month  "10" ;
+                                                                   time:year   "1965"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipedia2  rdfs:label  "wikipedia 2" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "21" ;
+                                                                   time:month  "6" ;
+                                                                   time:year   "1825"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "9" ;
+                                                                   time:month  "2" ;
+                                                                   time:year   "1830"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:7      rdfs:label    "7" ;
+        rdfs:seeAlso  "wikipedia7" .
+
+:25     rdfs:label    "25" ;
+        rdfs:seeAlso  "wikipedia25" .
+
+:wikipedia49  rdfs:label  "wikipedia 49" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "17" ;
+                                                                   time:month  "4" ;
+                                                                   time:year   "1958"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "24" ;
+                                                                   time:month  "5" ;
+                                                                   time:year   "1958"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipedia19  rdfs:label  "wikipedia 19" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "28" ;
+                                                                   time:month  "4" ;
+                                                                   time:year   "1908"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:month  "4"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipedia50  rdfs:label  "wikipedia 50" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "1" ;
+                                                                   time:month  "10" ;
+                                                                   time:year   "1962"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:37     rdfs:label    "37" ;
+        rdfs:seeAlso  "wikipedia37" .
+
+:wikipedia20  rdfs:label  "wikipedia 20" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "14" ;
+                                                                   time:month  "8" ;
+                                                                   time:year   "1811"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "26" ;
+                                                                   time:month  "8" ;
+                                                                   time:year   "1811"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:49     rdfs:label    "49" ;
+        rdfs:seeAlso  "wikipedia49" .
+
+:wikipedia32  rdfs:label  "wikipedia 32" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "24" ;
+                                                                   time:month  "3" ;
+                                                                   time:year   "1946"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "24" ;
+                                                                   time:month  "4" ;
+                                                                   time:year   "1946"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:19     rdfs:label    "19" ;
+        rdfs:seeAlso  "wikipedia19" .
+
+:50     rdfs:label    "50" ;
+        rdfs:seeAlso  "wikipedia50" .
+
+:wikipedia8  rdfs:label  "wikipedia 8" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "5" ;
+                                                                   time:month  "7" ;
+                                                                   time:year   "1771"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "11" ;
+                                                                   time:month  "10" ;
+                                                                   time:year   "1772"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:2      rdfs:label    "2" ;
+        rdfs:seeAlso  "wikipedia2" .
+
+:20     rdfs:label    "20" ;
+        rdfs:seeAlso  "wikipedia20" .
+
+:wikipedia44  rdfs:label  "wikipedia 44" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "19" ;
+                                                                   time:month  "11" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipedia14  rdfs:label  "wikipedia 14" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "8" ;
+                                                                   time:month  "12" ;
+                                                                   time:year   "1941"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "9" ;
+                                                                   time:month  "3" ;
+                                                                   time:year   "1942"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:32     rdfs:label    "32" ;
+        rdfs:seeAlso  "wikipedia32" .
+
+:wikipedia26  rdfs:label  "wikipedia 26" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1602"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1663"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:44     rdfs:label    "44" ;
+        rdfs:seeAlso  "wikipedia44" .
+
+:14     rdfs:label    "14" ;
+        rdfs:seeAlso  "wikipedia14" .
+
+:wikipedia38  rdfs:label  "wikipedia 38" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "1" ;
+                                                                   time:month  "5" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "15" ;
+                                                                   time:month  "8" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipedia3  rdfs:label  "wikipedia 3" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1803"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1837"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:8      rdfs:label    "8" ;
+        rdfs:seeAlso  "wikipedia8" .
+
+:26     rdfs:label    "26" ;
+        rdfs:seeAlso  "wikipedia26" .
+
+:38     rdfs:label    "38" ;
+        rdfs:seeAlso  "wikipedia38" .
+
+:wikipedia21  rdfs:label  "wikipedia 21" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1025"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipedia33  rdfs:label  "wikipedia 33" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "2" ;
+                                                                   time:month  "12" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "16" ;
+                                                                   time:month  "1" ;
+                                                                   time:year   "1946"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipedia9  rdfs:label  "wikipedia 9" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "19" ;
+                                                                   time:month  "6" ;
+                                                                   time:year   "1812"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "20" ;
+                                                                   time:month  "6" ;
+                                                                   time:year   "1812"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:3      rdfs:label    "3" ;
+        rdfs:seeAlso  "wikipedia3" .
+
+:21     rdfs:label    "21" ;
+        rdfs:seeAlso  "wikipedia21" .
+
+:wikipedia45  rdfs:label  "wikipedia 45" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "3" ;
+                                                                   time:month  "3" ;
+                                                                   time:year   "1947"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipedia15  rdfs:label  "wikipedia 15" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1404"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1406"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:33     rdfs:label    "33" ;
+        rdfs:seeAlso  "wikipedia33" .
+
+:wikipedia27  rdfs:label  "wikipedia 27" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:month  "2" ;
+                                                                   time:year   "1810"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:month  "8" ;
+                                                                   time:year   "1810"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:45     rdfs:label    "45" ;
+        rdfs:seeAlso  "wikipedia45" .
+
+:15     rdfs:label    "15" ;
+        rdfs:seeAlso  "wikipedia15" .
+
+:wikipedia39  rdfs:label  "wikipedia 39" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "13" ;
+                                                                   time:month  "10" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "15" ;
+                                                                   time:month  "4" ;
+                                                                   time:year   "1946"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipedia4  rdfs:label  "wikipedia 4" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1873"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1904"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:9      rdfs:label    "9" ;
+        rdfs:seeAlso  "wikipedia9" .
+
+:wikipedia40  rdfs:label  "wikipedia 40" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "7" ;
+                                                                   time:month  "8" ;
+                                                                   time:year   "1949"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:27     rdfs:label    "27" ;
+        rdfs:seeAlso  "wikipedia27" .
+
+:wikipedia10  rdfs:label  "wikipedia 10" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "20" ;
+                                                                   time:month  "11" ;
+                                                                   time:year   "1810"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "17" ;
+                                                                   time:month  "12" ;
+                                                                   time:year   "1810"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:39     rdfs:label    "39" ;
+        rdfs:seeAlso  "wikipedia39" .
+
+:wikipedia22  rdfs:label  "wikipedia 22" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1858"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:40     rdfs:label    "40" ;
+        rdfs:seeAlso  "wikipedia40" .
+
+:10     rdfs:label    "10" ;
+        rdfs:seeAlso  "wikipedia10" .
+
+:wikipedia34  rdfs:label  "wikipedia 34" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1946"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:4      rdfs:label    "4" ;
+        rdfs:seeAlso  "wikipedia4" .
+
+:22     rdfs:label    "22" ;
+        rdfs:seeAlso  "wikipedia22" .
+
+:wikipedia46  rdfs:label  "wikipedia 46" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "14" ;
+                                                                   time:month  "1" ;
+                                                                   time:year   "1946"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipedia16  rdfs:label  "wikipedia 16" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1719"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1723"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:34     rdfs:label    "34" ;
+        rdfs:seeAlso  "wikipedia34" .
+
+:wikipedia28  rdfs:label  "wikipedia 28" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "20" ;
+                                                                   time:month  "9" ;
+                                                                   time:year   "1953"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:46     rdfs:label    "46" ;
+        rdfs:seeAlso  "wikipedia46" .
+
+:16     rdfs:label    "16" ;
+        rdfs:seeAlso  "wikipedia16" .
+
+:wikipedia5  rdfs:label  "wikipedia 5" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "15" ;
+                                                                   time:month  "6" ;
+                                                                   time:year   "1908"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "16" ;
+                                                                   time:month  "6" ;
+                                                                   time:year   "1908"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipedia41  rdfs:label  "wikipedia 41" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "1" ;
+                                                                   time:month  "3" ;
+                                                                   time:year   "1949"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:28     rdfs:label    "28" ;
+        rdfs:seeAlso  "wikipedia28" .
+
+:wikipedia11  rdfs:label  "wikipedia 11" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1641"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipedia23  rdfs:label  "wikipedia 23" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1821"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:41     rdfs:label    "41" ;
+        rdfs:seeAlso  "wikipedia41" .
+
+:11     rdfs:label    "11" ;
+        rdfs:seeAlso  "wikipedia11" .
+
+:wikipedia35  rdfs:label  "wikipedia 35" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "20" ;
+                                                                   time:month  "11" ;
+                                                                   time:year   "1946"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipedia0  rdfs:label  "wikipedia 0" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:month  "2" ;
+                                                                   time:year   "1741"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1743"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:5      rdfs:label    "5" ;
+        rdfs:seeAlso  "wikipedia5" .
+
+:23     rdfs:label    "23" ;
+        rdfs:seeAlso  "wikipedia23" .
+
+:wikipedia47  rdfs:label  "wikipedia 47" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "29" ;
+                                                                   time:month  "9" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "27" ;
+                                                                   time:month  "12" ;
+                                                                   time:year   "1949"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipedia17  rdfs:label  "wikipedia 17" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1704"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1708"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:35     rdfs:label    "35" ;
+        rdfs:seeAlso  "wikipedia35" .
+
+:wikipedia29  rdfs:label  "wikipedia 29" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "15" ;
+                                                                   time:month  "10" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "19" ;
+                                                                   time:month  "10" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipedia  rdf:type  sem:Authority .
+
+:47     rdfs:label    "47" ;
+        rdfs:seeAlso  "wikipedia47" .
+
+:wikipedia30  rdfs:label  "wikipedia 30" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1945"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:17     rdfs:label    "17" ;
+        rdfs:seeAlso  "wikipedia17" .
+
+:wikipedia6  rdfs:label  "wikipedia 6" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "22" ;
+                                                                   time:month  "1" ;
+                                                                   time:year   "1293"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:month  "7" ;
+                                                                   time:year   "1293"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:0      rdfs:label    "0" ;
+        rdfs:seeAlso  "wikipedia0" .
+
+:wikipedia42  rdfs:label  "wikipedia 42" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "7" ;
+                                                                   time:month  "10" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:29     rdfs:label    "29" ;
+        rdfs:seeAlso  "wikipedia29" .
+
+:wikipedia12  rdfs:label  "wikipedia 12" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1873"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1904"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:30     rdfs:label    "30" ;
+        rdfs:seeAlso  "wikipedia30" .
+
+:wikipedia24  rdfs:label  "wikipedia 24" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1803"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1815"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:42     rdfs:label    "42" ;
+        rdfs:seeAlso  "wikipedia42" .
+
+:12     rdfs:label    "12" ;
+        rdfs:seeAlso  "wikipedia12" .
+
+:wikipedia36  rdfs:label  "wikipedia 36" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1944"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "0" ;
+                                                                   time:month  "6" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipedia1  rdfs:label  "wikipedia 1" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1741"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1750"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:6      rdfs:label    "6" ;
+        rdfs:seeAlso  "wikipedia6" .
+
+:24     rdfs:label    "24" ;
+        rdfs:seeAlso  "wikipedia24" .
+
+:wikipedia48  rdfs:label  "wikipedia 48" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "8" ;
+                                                                   time:month  "12" ;
+                                                                   time:year   "1941"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "9" ;
+                                                                   time:month  "3" ;
+                                                                   time:year   "1942"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipedia18  rdfs:label  "wikipedia 18" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "15" ;
+                                                                   time:month  "12" ;
+                                                                   time:year   "1749"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:month  "2" ;
+                                                                   time:year   "1757"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:36     rdfs:label    "36" ;
+        rdfs:seeAlso  "wikipedia36" .
+
+:48     rdfs:label    "48" ;
+        rdfs:seeAlso  "wikipedia48" .
