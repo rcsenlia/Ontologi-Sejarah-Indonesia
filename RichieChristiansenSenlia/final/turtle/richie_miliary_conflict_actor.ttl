@@ -1,0 +1,1336 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:PangeranPuger  rdf:type  sem:Actor ;
+        rdfs:label  "Pangeran Puger" .
+
+:PerangTakhtaJawaKedua
+        rdf:type      sem:Event ;
+        rdfs:label    "Perang Takhta Jawa Kedua" ;
+        rdfs:seeAlso  :wikipediaPerangTakhtaJawaKedua .
+
+:PasukanTulungan  rdf:type  sem:Actor ;
+        rdfs:label  "Pasukan Tulungan" .
+
+:FerdinandIV  rdf:type  sem:Actor ;
+        rdfs:label  "Ferdinand IV" .
+
+:SelimIII  rdf:type  sem:Actor ;
+        rdfs:label  "Selim III" .
+
+:NyiAgengSerang  rdf:type  sem:Actor ;
+        rdfs:label  "Nyi Ageng Serang" .
+
+:Denmark  rdf:type  sem:Actor ;
+        rdfs:label  "Denmark" .
+
+:KesunananSurakarta  rdf:type  sem:Actor ;
+        rdfs:label  "Kesunanan Surakarta " .
+
+:BritaniaRaya  rdf:type  sem:Actor ;
+        rdfs:label  "Britania Raya" .
+
+:PerangDiponegoro  rdf:type  sem:Event ;
+        rdfs:label    "Perang Diponegoro" ;
+        rdfs:seeAlso  :wikipediaPerangDiponegoro .
+
+:PetrusAlbertusvanderParra
+        rdf:type    sem:Actor ;
+        rdfs:label  "Petrus Albertus van der Parra" .
+
+:PangeranHidayatullah
+        rdf:type    sem:Actor ;
+        rdfs:label  "Pangeran Hidayatullah" .
+
+:RanggaLawe  rdf:type  sem:Actor ;
+        rdfs:label  "Rangga Lawe" .
+
+:wikipediaPerangBanjar
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Banjar" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :PangeranHidayatullah , :GustaveVerspyck , :Tamjid2dariBanjar , :KolonelAJAndresen , :PangeranAntasari , :AminUllah , :DemangLehman , :KesultananBanjarmasin .
+
+:SultanMuhammadDaudSyah
+        rdf:type    sem:Actor ;
+        rdfs:label  "Sultan Muhammad Daud Syah" .
+
+:Bavaria  rdf:type  sem:Actor ;
+        rdfs:label  "Bavaria" .
+
+:WilliamBeresford  rdf:type  sem:Actor ;
+        rdfs:label  "William Beresford" .
+
+:PakubuwanaVI  rdf:type  sem:Actor ;
+        rdfs:label  "Pakubuwana VI" .
+
+:OeiIngKiat  rdf:type  sem:Actor ;
+        rdfs:label  "Oei Ing Kiat" .
+
+:JacquesMacDonald  rdf:type  sem:Actor ;
+        rdfs:label  "Jacques MacDonald" .
+
+:MaximilianI  rdf:type  sem:Actor ;
+        rdfs:label  "Maximilian I" .
+
+:wikipediaPerangBelandaPortugal
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Belanda-Portugal" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :SalvadordeS , :CommanderNunovaresBotelho , :GubernurJenderalMatiasdeAlbuquerque , :MartimAfonsodeCastro , :KerajaanCochin , :TupiPotiguara , :HighCaptainAntioTelesdeMeneses , :LaksamanaDonFadriquedeToledoOsio , :ViceroyPedrodaSilva , :Belanda , :Kastilia , :DutchRepublic , :ImperiumPortugal .
+
+:SultanMahmudSyah  rdf:type  sem:Actor ;
+        rdfs:label  "Sultan Mahmud Syah" .
+
+:PerangTakhtaJawaPertama
+        rdf:type      sem:Event ;
+        rdfs:label    "Perang Takhta Jawa Pertama" ;
+        rdfs:seeAlso  :wikipediaPerangTakhtaJawaPertama .
+
+:NicolaasHartingh  rdf:type  sem:Actor ;
+        rdfs:label  "Nicolaas Hartingh" .
+
+:LetnanKolonelElout  rdf:type  sem:Actor ;
+        rdfs:label  "Letnan Kolonel Elout" .
+
+:KadipatenWarsawa  rdf:type  sem:Actor ;
+        rdfs:label  "Kadipaten Warsawa" .
+
+:Holandia  rdf:type  sem:Actor ;
+        rdfs:label  "Holandia" .
+
+:JisaburOzawa  rdf:type  sem:Actor ;
+        rdfs:label  "Jisabur? Ozawa" .
+
+:Penggugat  rdf:type  sem:Actor ;
+        rdfs:label  "Penggugat" .
+
+:wikipediaPeperanganeraNapoleon
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Peperangan era Napoleon" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :MikhailKutuzov , :AlexanderI , :PyotrBagration , :JeanBaptisteBessies , :PetarIPetroviNjego , :Swiss , :RoyalisPrancis , :Portugal , :VictorEmmanuelI , :LouisNicolasDavout , :Denmark , :BonAdrienJeannotdeMoncey , :Wttemberg , :Hanover , :Persia , :FrederickWilliamIII , :FerdinandVII , :CountBennigsen , :NicolasCharlesOudinot , :JeandeDieuSoult , :CharlesIV , :GeorgeIII , :LouisI , :FerdinandIII , :AdipatiAgungCharles , :NapoleonI , :LouisAlexandreBerthier , :SpanyolBonaparte , :FathAliShahQajar , :JohnMoore , :Nassau , :AndrMassa , :Prancis , :PangeranEuge , :PangeranPoniatowski , :Tirol , :MaximilianI , :JeromeI , :KonfederasiSwiss , :MariaI , :Holandia , :MahmudII , :FrederickVI , :WilliamPitt , :MiguelPereiraForjaz , :MuhammadAliPasha , :SelimIII , :LaurentdeGouvionSaintCyr , :PrincevonSchwarzenberg , :Montenegro , :LouisXVIII , :JeanLannes , :Etruria , :KepangerananLuccadanPiombino , :FerdinandIV , :AdipatiBrunswick , :MichelNey , :AloisvonReding , :MichaelAndreasBarclaydeTolly , :PierreCharlesVilleneuve , :AdipatiWellington , :Hungaria , :George , :JeanBaptisteJourdan , :KonfederasiRhine , :CharlesXIII , :CharlesAlten , :AdipatiAgungJohn , :AndreasHofer , :JosephI , :EmmanueldeGrouchy , :Bavaria , :Toskana , :HenryAddington , :Migueldeava , :CharlesJohn , :ArmandAugustinLouisdeCaulaincourt , :GustavIVAdolf , :FrederickI , :KadipatenWarsawa , :JoachimMurat , :GebhardvonBlher , :ouardAdolpheCasimirJosephMortier , :FrancisI , :AugusteFricLouisViessedeMarmont , :JacquesMacDonald , :FeliceBaciocchi , :Napoli , :PiusVII , :KarlPhilippvonWrede , :MaximilianIJoseph , :PangeranChristianAugustdariAugustenburg , :JeanAndocheJunot , :FrederickAugustusI , :AbbasMirza , :LouisGabrielSuchet , :PangeranHohenlohe , :WilliamBeresford , :JeanBaptisteJulesBernadotte , :ClaudeVictor , :RobertJenkinson , :HoratioNelson , :JamesMadison .
+
+:PerangBubat  rdf:type  sem:Event ;
+        rdfs:label    "Perang Bubat" ;
+        rdfs:seeAlso  :wikipediaPerangBubat .
+
+:KadipatenMangkunagaran
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kadipaten Mangkunagaran" .
+
+:Majapahitbarat  rdf:type  sem:Actor ;
+        rdfs:label  "Majapahit barat" .
+
+:KaptenLange  rdf:type  sem:Actor ;
+        rdfs:label  "Kapten Lange" .
+
+:KemaharajaanMajapahit
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kemaharajaan Majapahit" .
+
+:IkeMese  rdf:type  sem:Actor ;
+        rdfs:label  "Ike Mese" .
+
+:MaximilianIJoseph  rdf:type  sem:Actor ;
+        rdfs:label  "Maximilian I Joseph" .
+
+:LouisAlexandreBerthier
+        rdf:type    sem:Actor ;
+        rdfs:label  "Louis-Alexandre Berthier" .
+
+:KorpsMarinirKerajaanBelanda
+        rdf:type    sem:Actor ;
+        rdfs:label  "Korps Marinir Kerajaan Belanda" .
+
+:KerajaanCochin  rdf:type  sem:Actor ;
+        rdfs:label  "Kerajaan Cochin" .
+
+:RolloGillespie  rdf:type  sem:Actor ;
+        rdfs:label  "Rollo Gillespie" .
+
+:JohannesPel  rdf:type  sem:Actor ;
+        rdfs:label  "Johannes Pel" .
+
+:JohanKler  rdf:type  sem:Actor ;
+        rdfs:label  "Johan K鰄ler" .
+
+:JoachimMurat  rdf:type  sem:Actor ;
+        rdfs:label  "Joachim Murat" .
+
+:tentaraBelanda  rdf:type  sem:Actor ;
+        rdfs:label  "tentara Belanda" .
+
+:KepangerananLuccadanPiombino
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kepangeranan Lucca dan Piombino" .
+
+:wikipediaPerangPasifik
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Pasifik" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :WangJingwei , :SubhasChandraBose , :PlaekPibulsonggram , :Hirohito , :RepublicofChina .
+
+:George  rdf:type   sem:Actor ;
+        rdfs:label  "George" .
+
+:LaurentdeGouvionSaintCyr
+        rdf:type    sem:Actor ;
+        rdfs:label  "Laurent de Gouvion Saint-Cyr" .
+
+:WongAgungWilis  rdf:type  sem:Actor ;
+        rdfs:label  "Wong Agung Wilis" .
+
+:MangkunegaraII  rdf:type  sem:Actor ;
+        rdfs:label  "Mangkunegara II" .
+
+:TentaraKaresidenanMadiun
+        rdf:type    sem:Actor ;
+        rdfs:label  "Tentara Karesidenan Madiun" .
+
+:KarelvanderHeijden  rdf:type  sem:Actor ;
+        rdfs:label  "Karel van der Heijden" .
+
+:PerangRegreg  rdf:type  sem:Event ;
+        rdfs:label    "Perang Regreg" ;
+        rdfs:seeAlso  :wikipediaPerangRegreg .
+
+:AryaWiraraja  rdf:type  sem:Actor ;
+        rdfs:label  "Arya Wiraraja" .
+
+:HitoshiImamura  rdf:type  sem:Actor ;
+        rdfs:label  "Hitoshi Imamura" .
+
+:SalvadordeS  rdf:type  sem:Actor ;
+        rdfs:label  "Salvador de S\uFFFD" .
+
+:KampanyeHindiaBelanda
+        rdf:type      sem:Event ;
+        rdfs:label    "Kampanye Hindia Belanda" ;
+        rdfs:seeAlso  :wikipediaKampanyeHindiaBelanda .
+
+:Etruria  rdf:type  sem:Actor ;
+        rdfs:label  "Etruria" .
+
+:JanWillemJanssens  rdf:type  sem:Actor ;
+        rdfs:label  "Jan Willem Janssens" .
+
+:CharlesAlten  rdf:type  sem:Actor ;
+        rdfs:label  "Charles Alten" .
+
+:ouardAdolpheCasimirJosephMortier
+        rdf:type    sem:Actor ;
+        rdfs:label  "蒬ouard Adolphe Casimir Joseph Mortier" .
+
+:Nassau  rdf:type   sem:Actor ;
+        rdfs:label  "Nassau" .
+
+:FeliceBaciocchi  rdf:type  sem:Actor ;
+        rdfs:label  "Felice Baciocchi" .
+
+:wikipediaPerangAceh  rdf:type  sem:View ;
+        rdfs:label       "wikipedia Perang Aceh" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :KarelvanderHeijden , :SultanMahmudSyah , :TeungkuFakinah , :CutNyakDhien , :SultanMuhammadDaudSyah , :TentaraKerajaanHindiaBelandaKNIL , :GotfriedvanDaalen , :JohannesBenedictusvanHeutsz , :JohanKler , :JanJacobKareldeMoulin , :JohannesPel , :TeukuBenMahmud , :HenryDemmeni , :TeukuUmar , :UlamaIslam , :PocutMeuligoe , :JohanCornelisvanderWijck , :CutMeutia , :KesultananAceh , :PanglimaPolem , :HabibAbdurrahmanAzZahir , :JanvanSwieten , :TeungkuChikdiTiro .
+
+:wikipediaInvasiCholakeSriwijaya
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Invasi Chola ke Sriwijaya" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :SangRamaWijayaTunggaWarman , :RajendraChola , :Sriwijaya , :KekaisaranChola .
+
+:PlaekPibulsonggram  rdf:type  sem:Actor ;
+        rdfs:label  "Plaek Pibulsonggram" .
+
+:PakubuwanaIII  rdf:type  sem:Actor ;
+        rdfs:label  "Pakubuwana III" .
+
+:AngkatanLautKerajaanBelanda
+        rdf:type    sem:Actor ;
+        rdfs:label  "Angkatan Laut Kerajaan Belanda" .
+
+:AdriaanValckenier  rdf:type  sem:Actor ;
+        rdfs:label  "Adriaan Valckenier" .
+
+:GustavIVAdolf  rdf:type  sem:Actor ;
+        rdfs:label  "Gustav IV Adolf" .
+
+:KekaisaranPrancisPertama
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kekaisaran Prancis Pertama" .
+
+:KonfederasiRhine  rdf:type  sem:Actor ;
+        rdfs:label  "Konfederasi Rhine:" .
+
+:KarelFelixvanSteijnvanHensbroek
+        rdf:type    sem:Actor ;
+        rdfs:label  "Karel Felix van Steijn van Hensbroek" .
+
+:PakubuwonoII  rdf:type  sem:Actor ;
+        rdfs:label  "Pakubuwono II" .
+
+:PerangBayu  rdf:type  sem:Event ;
+        rdfs:label    "Perang Bayu" ;
+        rdfs:seeAlso  :wikipediaPerangBayu .
+
+:SingsehKhePandjang  rdf:type  sem:Actor ;
+        rdfs:label  "Singseh   Khe Pandjang " .
+
+:GebhardvonBlher  rdf:type  sem:Actor ;
+        rdfs:label  "Gebhard von Bl點her" .
+
+:PerangBelasting  rdf:type  sem:Event ;
+        rdfs:label    "Perang Belasting" ;
+        rdfs:seeAlso  :wikipediaPerangBelasting .
+
+:KolonelStuers  rdf:type  sem:Actor ;
+        rdfs:label  "Kolonel Stuers" .
+
+:KekuatanKesultananPalembang
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kekuatan Kesultanan Palembang" .
+
+:KesultananAceh  rdf:type  sem:Actor ;
+        rdfs:label  "Kesultanan Aceh" .
+
+:Portugal  rdf:type  sem:Actor ;
+        rdfs:label  "Portugal" .
+
+:FerdinandVII  rdf:type  sem:Actor ;
+        rdfs:label  "Ferdinand VII" .
+
+:LouisGabrielSuchet  rdf:type  sem:Actor ;
+        rdfs:label  "Louis Gabriel Suchet" .
+
+:RepublicofChina  rdf:type  sem:Actor ;
+        rdfs:label  "Republic of China" .
+
+:PutriPitaloka  rdf:type  sem:Actor ;
+        rdfs:label  "Putri Pitaloka" .
+
+:IntervensiBelandadiBali1858
+        rdf:type      sem:Event ;
+        rdfs:label    "Intervensi Belanda di Bali (1858)" ;
+        rdfs:seeAlso  :wikipediaIntervensiBelandadiBali1858 .
+
+:AmangkuratIII  rdf:type  sem:Actor ;
+        rdfs:label  "Amangkurat III" .
+
+:TumenggungCitrasomaIV
+        rdf:type    sem:Actor ;
+        rdfs:label  "Tumenggung Citrasoma IV" .
+
+:CornelisvanBiesheuvel
+        rdf:type    sem:Actor ;
+        rdfs:label  "Cornelis van Biesheuvel" .
+
+:wikipediaPerangBelasting
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Belasting" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :HindiaBelanda , :RakyatKamang .
+
+:PierreCharlesVilleneuve
+        rdf:type    sem:Actor ;
+        rdfs:label  "Pierre-Charles Villeneuve" .
+
+:PutriKerajaanSunda  rdf:type  sem:Actor ;
+        rdfs:label  "Putri Kerajaan Sunda" .
+
+:ConradHelfrich  rdf:type  sem:Actor ;
+        rdfs:label  "Conrad Helfrich" .
+
+:KiaiMadja  rdf:type  sem:Actor ;
+        rdfs:label  "Kiai Madja" .
+
+:ChristopherCole  rdf:type  sem:Actor ;
+        rdfs:label  "Christopher Cole" .
+
+:BhreWirabhumi  rdf:type  sem:Actor ;
+        rdfs:label  "Bhre Wirabhumi" .
+
+:MariaI  rdf:type   sem:Actor ;
+        rdfs:label  "Maria I" .
+
+:JohanCornelisvanderWijck
+        rdf:type    sem:Actor ;
+        rdfs:label  "Johan Cornelis van der Wijck" .
+
+:AdipatiWellington  rdf:type  sem:Actor ;
+        rdfs:label  "Adipati Wellington" .
+
+:GustaveVerspyck  rdf:type  sem:Actor ;
+        rdfs:label  "Gustave Verspyck" .
+
+:KarelDoorman  rdf:type  sem:Actor ;
+        rdfs:label  "Karel Doorman" .
+
+:GuoLiuGuan  rdf:type  sem:Actor ;
+        rdfs:label  "Guo Liu Guan" .
+
+:wikipediaPerangKuning
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Kuning" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :PakubuwanaII , :AmangkuratV , :TumenggungCitrasomaIV , :KesultananMataram , :AdriaanValckenier , :PangeranSambernyawa , :GuoLiuGuan , :JohannesThedens , :GustaafWillembaronvanImhoff , :TanKeeWie , :CakraningratIV , :BartholomeusVisscher , :PasukangabunganTionghoadanJawa , :Singseh , :KweeAnSay , :PerusahaanHindiaTimurBelandaVOC , :PanjiMargono , :KyaiAliBadawi , :OeiIngKiat .
+
+:KerajaanKlungkung  rdf:type  sem:Actor ;
+        rdfs:label  "Kerajaan Klungkung" .
+
+:Sora   rdf:type    sem:Actor ;
+        rdfs:label  "Sora" .
+
+:MarinusBernardusRostvanTonningen
+        rdf:type    sem:Actor ;
+        rdfs:label  "Marinus Bernardus Rost van Tonningen" .
+
+:SentotPrawirodirdjo  rdf:type  sem:Actor ;
+        rdfs:label  "Sentot Prawirodirdjo" .
+
+:PanjiMargono  rdf:type  sem:Actor ;
+        rdfs:label  "Panji Margono" .
+
+:Sriwijaya  rdf:type  sem:Actor ;
+        rdfs:label  "Sriwijaya" .
+
+:wikipediaPerangPadri
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Padri" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :MayorJendralCochius , :MayorLaemlin , :RajoAlam , :TuankuRao , :KaptenPoland , :LetnanKolonelBauer , :MayorduBus , :TuankuTambusai , :KaptenLange , :LetnanKolonelRaaff , :KaumPadri , :KolonelStuers , :KaumAdat , :TuankuPasaman , :LetnanKolonelElout , :MayorPrager , :LetnanKolonelKrieger , :TuankuImamBonjol .
+
+:ViceroyPedrodaSilva  rdf:type  sem:Actor ;
+        rdfs:label  "Viceroy Pedro da Silva" .
+
+:WangJingwei  rdf:type  sem:Actor ;
+        rdfs:label  "Wang Jingwei" .
+
+:LouisXVIII  rdf:type  sem:Actor ;
+        rdfs:label  "Louis XVIII" .
+
+:TeukuBenMahmud  rdf:type  sem:Actor ;
+        rdfs:label  "Teuku Ben Mahmud" .
+
+:TeungkuChikdiTiro  rdf:type  sem:Actor ;
+        rdfs:label  "Teungku Chik di Tiro" .
+
+:WillmsoonCartekoe  rdf:type  sem:Actor ;
+        rdfs:label  "Willmsoon Cartekoe" .
+
+:JeromeI  rdf:type  sem:Actor ;
+        rdfs:label  "Jerome I" .
+
+:Persia  rdf:type   sem:Actor ;
+        rdfs:label  "Persia" .
+
+:Hirohito  rdf:type  sem:Actor ;
+        rdfs:label  "Hirohito" .
+
+:GajahMada  rdf:type  sem:Actor ;
+        rdfs:label  "Gajah Mada" .
+
+:KolonelAJAndresen  rdf:type  sem:Actor ;
+        rdfs:label  "Kolonel AJ Andresen" .
+
+:Swiss  rdf:type    sem:Actor ;
+        rdfs:label  "Swiss" .
+
+:CharlesIV  rdf:type  sem:Actor ;
+        rdfs:label  "Charles IV" .
+
+:TuankuRao  rdf:type  sem:Actor ;
+        rdfs:label  "Tuanku Rao" .
+
+:vanHasselt  rdf:type  sem:Actor ;
+        rdfs:label  "van Hasselt" .
+
+:wikipediaPerangTakhtaJawaKetiga
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Takhta Jawa Ketiga" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :PakubuwanaIII , :NicolaasHartingh , :PangeranMangkubumi , :PangeranSambernyawa , :KesultananYogyakarta , :PerusahaanHindiaTimurBelanda , :KesunananSurakarta , :HamengkubuwanaI , :PemberontakantiBelanda , :KesultananMataram .
+
+:CharlesJohn  rdf:type  sem:Actor ;
+        rdfs:label  "Charles John" .
+
+:RajaKerajaanBangli  rdf:type  sem:Actor ;
+        rdfs:label  "Raja Kerajaan Bangli" .
+
+:GeorgeIII  rdf:type  sem:Actor ;
+        rdfs:label  "George III" .
+
+:CutNyakDhien  rdf:type  sem:Actor ;
+        rdfs:label  "Cut Nyak Dhien" .
+
+:BPHNatakusuma  rdf:type  sem:Actor ;
+        rdfs:label  "BPH Natakusuma" .
+
+:TeungkuFakinah  rdf:type  sem:Actor ;
+        rdfs:label  "Teungku Fakinah" .
+
+:JanJacobKareldeMoulin
+        rdf:type    sem:Actor ;
+        rdfs:label  "Jan Jacob Karel de Moulin" .
+
+:Belanda  rdf:type  sem:Actor ;
+        rdfs:label  "Belanda" .
+
+:HermanusWDotulong  rdf:type  sem:Actor ;
+        rdfs:label  "Hermanus W. Dotulong" .
+
+:MayorLaemlin  rdf:type  sem:Actor ;
+        rdfs:label  "Mayor Laemlin" .
+
+:KidoShinichir  rdf:type  sem:Actor ;
+        rdfs:label  "Kido Shinichir?" .
+
+:HighCaptainAntioTelesdeMeneses
+        rdf:type    sem:Actor ;
+        rdfs:label  "High-Captain Ant髇io Teles de Meneses" .
+
+:RobertJenkinson  rdf:type  sem:Actor ;
+        rdfs:label  "Robert Jenkinson" .
+
+:JosephI  rdf:type  sem:Actor ;
+        rdfs:label  "Joseph I" .
+
+:RobertRolloGillespie
+        rdf:type    sem:Actor ;
+        rdfs:label  "Robert Rollo Gillespie" .
+
+:InvasiMaluku  rdf:type  sem:Event ;
+        rdfs:label    "Invasi Maluku" ;
+        rdfs:seeAlso  :wikipediaInvasiMaluku .
+
+:PyotrBagration  rdf:type  sem:Actor ;
+        rdfs:label  "Pyotr Bagration" .
+
+:RonggoPrawirodirjoIII
+        rdf:type    sem:Actor ;
+        rdfs:label  "Ronggo Prawirodirjo III" .
+
+:TakeoTakagi  rdf:type  sem:Actor ;
+        rdfs:label  "Takeo Takagi" .
+
+:Singseh  rdf:type  sem:Actor ;
+        rdfs:label  "Singseh" .
+
+:Montenegro  rdf:type  sem:Actor ;
+        rdfs:label  "Montenegro" .
+
+:MahapatihMajapahit  rdf:type  sem:Actor ;
+        rdfs:label  "Mahapatih Majapahit" .
+
+:LetnanKolonelRaaff  rdf:type  sem:Actor ;
+        rdfs:label  "Letnan Kolonel Raaff" .
+
+:RajaKerajaanKarangasem
+        rdf:type    sem:Actor ;
+        rdfs:label  "Raja Kerajaan Karangasem" .
+
+:HendrikMerkusdeKock  rdf:type  sem:Actor ;
+        rdfs:label  "Hendrik Merkus de Kock" .
+
+:AndrMassa  rdf:type  sem:Actor ;
+        rdfs:label  "Andr\uFFFD Mass閚a" .
+
+:PocutMeuligoe  rdf:type  sem:Actor ;
+        rdfs:label  "Pocut Meuligoe" .
+
+:PakubuwanaII  rdf:type  sem:Actor ;
+        rdfs:label  "Pakubuwana II" .
+
+:HendrikMdeKock  rdf:type  sem:Actor ;
+        rdfs:label  "Hendrik M. de Kock" .
+
+:wikipediaPerangTakhtaJawaKedua
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Takhta Jawa Kedua" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :PangeranAryaDipanagara , :Pemberontaklainnya , :PerusahaanHindiaTimurBelanda , :PangeranPurbaya , :AmangkuratIV , :Surengrana , :Penggugat , :Parapangeranpemberontak , :RivalpenggugattakhtaMataram , :PangeranBalitar , :KesultananMataram , :PangeranAryaMataram .
+
+:PangeranJagapati  rdf:type  sem:Actor ;
+        rdfs:label  "Pangeran Jagapati" .
+
+:AlexanderI  rdf:type  sem:Actor ;
+        rdfs:label  "Alexander I" .
+
+:HamengkubuwanaII  rdf:type  sem:Actor ;
+        rdfs:label  "Hamengkubuwana II" .
+
+:PangeranPoniatowski  rdf:type  sem:Actor ;
+        rdfs:label  "Pangeran Poniatowski" .
+
+:NapoleonI  rdf:type  sem:Actor ;
+        rdfs:label  "Napoleon I" .
+
+:HermanWillemDaendels
+        rdf:type    sem:Actor ;
+        rdfs:label  "Herman Willem Daendels" .
+
+:SangRamaWijayaTunggaWarman
+        rdf:type    sem:Actor ;
+        rdfs:label  "Sang Rama Wijaya Tungga Warman" .
+
+:AugusteFricLouisViessedeMarmont
+        rdf:type    sem:Actor ;
+        rdfs:label  "Auguste Fr閐閞ic Louis Viesse de Marmont" .
+
+:PangeranHohenlohe  rdf:type  sem:Actor ;
+        rdfs:label  "Pangeran Hohenlohe" .
+
+:HabibAbdurrahmanAzZahir
+        rdf:type    sem:Actor ;
+        rdfs:label  "Habib Abdurrahman Az-Zahir" .
+
+:FrancisI  rdf:type  sem:Actor ;
+        rdfs:label  "Francis I" .
+
+:PersekutuanDagangHindiaTimur
+        rdf:type    sem:Actor ;
+        rdfs:label  "Persekutuan Dagang Hindia Timur" .
+
+:KonfederasiSwiss  rdf:type  sem:Actor ;
+        rdfs:label  "Konfederasi Swiss" .
+
+:BonAdrienJeannotdeMoncey
+        rdf:type    sem:Actor ;
+        rdfs:label  "Bon Adrien Jeannot de Moncey" .
+
+:PangeranAntasari  rdf:type  sem:Actor ;
+        rdfs:label  "Pangeran Antasari" .
+
+:ShjiNishimura  rdf:type  sem:Actor ;
+        rdfs:label  "Sh?ji Nishimura" .
+
+:SpanyolBonaparte  rdf:type  sem:Actor ;
+        rdfs:label  "Spanyol Bonaparte" .
+
+:Wikramawardhana  rdf:type  sem:Actor ;
+        rdfs:label  "Wikramawardhana" .
+
+:MikhailKutuzov  rdf:type  sem:Actor ;
+        rdfs:label  "Mikhail Kutuzov" .
+
+:wikipediaIntervensiBelandadiBali1858
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Intervensi Belanda di Bali (1858)" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :NjomanGempol , :KarelFelixvanSteijnvanHensbroek , :vanHasselt , :KerajaanBuleleng .
+
+:GegerSepehi  rdf:type  sem:Event ;
+        rdfs:label    "Geger Sepehi" ;
+        rdfs:seeAlso  :wikipediaGegerSepehi .
+
+:TentaraKerajaanHindiaBelanda
+        rdf:type    sem:Actor ;
+        rdfs:label  "Tentara Kerajaan Hindia Belanda" .
+
+:NjomanGempol  rdf:type  sem:Actor ;
+        rdfs:label  "Njoman Gempol" .
+
+:RajaSunda  rdf:type  sem:Actor ;
+        rdfs:label  "Raja Sunda" .
+
+:JohnCrawfurd  rdf:type  sem:Actor ;
+        rdfs:label  "John Crawfurd" .
+
+:JohannesBenedictusvanHeutsz
+        rdf:type    sem:Actor ;
+        rdfs:label  "Johannes Benedictus van Heutsz" .
+
+:JeandeDieuSoult  rdf:type  sem:Actor ;
+        rdfs:label  "Jean-de-Dieu Soult" .
+
+:AmangkuratV  rdf:type  sem:Actor ;
+        rdfs:label  "Amangkurat V" .
+
+:ClaudeVictor  rdf:type  sem:Actor ;
+        rdfs:label  "Claude Victor" .
+
+:Nambi  rdf:type    sem:Actor ;
+        rdfs:label  "Nambi" .
+
+:JanvanSwieten  rdf:type  sem:Actor ;
+        rdfs:label  "Jan van Swieten" .
+
+:JeanLannes  rdf:type  sem:Actor ;
+        rdfs:label  "Jean Lannes" .
+
+:IntervensiBelandadiBali1908
+        rdf:type      sem:Event ;
+        rdfs:label    "Intervensi Belanda di Bali (1908)" ;
+        rdfs:seeAlso  :wikipediaIntervensiBelandadiBali1908 .
+
+:wikipediaPerangBayu  rdf:type  sem:View ;
+        rdfs:label       "wikipedia Perang Bayu" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :CornelisvanBiesheuvel , :PangeranJagapati , :PakubuwonoII , :HendrikvanSchopoff , :PasukanVOC , :KerajaanBlambangan , :PetrusAlbertusvanderParra , :KesultananMataram , :WongAgungWilis .
+
+:wikipediaPerangRegreg
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Regreg" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :BhreWirabhumi , :Wikramawardhana , :Majapahittimur , :Majapahitbarat .
+
+:KweeAnSay  rdf:type  sem:Actor ;
+        rdfs:label  "Kwee An Say" .
+
+:DutchRepublic  rdf:type  sem:Actor ;
+        rdfs:label  "Dutch Republic" .
+
+:EmmanueldeGrouchy  rdf:type  sem:Actor ;
+        rdfs:label  "Emmanuel de Grouchy" .
+
+:TuankuTambusai  rdf:type  sem:Actor ;
+        rdfs:label  "Tuanku Tambusai" .
+
+:wikipediaPerangBubat
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Bubat" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :GajahMada , :KemaharajaanMajapahit , :PutriPitaloka , :RajaSunda , :MaharajaLinggabuana , :KerajaanSunda , :MahapatihMajapahit , :PutriKerajaanSunda , :MaharajaHayamWuruk , :MaharajaMajapahit .
+
+:RadenWijaya  rdf:type  sem:Actor ;
+        rdfs:label  "Raden Wijaya" .
+
+:PerusahaanHindiaTimurBritania
+        rdf:type    sem:Actor ;
+        rdfs:label  "Perusahaan Hindia Timur Britania" .
+
+:PangeranChristianAugustdariAugustenburg
+        rdf:type    sem:Actor ;
+        rdfs:label  "Pangeran Christian August dari Augustenburg" .
+
+:NicolasCharlesOudinot
+        rdf:type    sem:Actor ;
+        rdfs:label  "Nicolas Charles Oudinot" .
+
+:KRTSumadiningrat  rdf:type  sem:Actor ;
+        rdfs:label  "KRT Sumadiningrat" .
+
+:FrederickWilliamIII  rdf:type  sem:Actor ;
+        rdfs:label  "Frederick William III" .
+
+:FrederickI  rdf:type  sem:Actor ;
+        rdfs:label  "Frederick I" .
+
+:GubernurJenderalMatiasdeAlbuquerque
+        rdf:type    sem:Actor ;
+        rdfs:label  "Gubernur Jenderal Matias de Albuquerque" .
+
+:KyaiAliBadawi  rdf:type  sem:Actor ;
+        rdfs:label  "Kyai Ali Badawi" .
+
+:Napoli  rdf:type   sem:Actor ;
+        rdfs:label  "Napoli" .
+
+:PenyerbuanMeesterCornelis
+        rdf:type      sem:Event ;
+        rdfs:label    "Penyerbuan Meester Cornelis" ;
+        rdfs:seeAlso  :wikipediaPenyerbuanMeesterCornelis .
+
+:Kastilia  rdf:type  sem:Actor ;
+        rdfs:label  "Kastilia" .
+
+:Gaoxing  rdf:type  sem:Actor ;
+        rdfs:label  "Gaoxing" .
+
+:LetnanKolonelKrieger
+        rdf:type    sem:Actor ;
+        rdfs:label  "Letnan Kolonel Krieger" .
+
+:Tamjid2dariBanjar  rdf:type  sem:Actor ;
+        rdfs:label  "Tamjid 2 dari Banjar" .
+
+:MayorJendralCochius  rdf:type  sem:Actor ;
+        rdfs:label  "Mayor Jendral Cochius" .
+
+:SultanMahmudBadaruddinII
+        rdf:type    sem:Actor ;
+        rdfs:label  "Sultan Mahmud Badaruddin II" .
+
+:JeanBaptisteBessies  rdf:type  sem:Actor ;
+        rdfs:label  "Jean-Baptiste Bessi鑢es" .
+
+:MichelNey  rdf:type  sem:Actor ;
+        rdfs:label  "Michel Ney" .
+
+:TunAbdulJamil  rdf:type  sem:Actor ;
+        rdfs:label  "Tun Abdul Jamil" .
+
+:AmangkuratIV  rdf:type  sem:Actor ;
+        rdfs:label  "Amangkurat IV" .
+
+:AminUllah  rdf:type  sem:Actor ;
+        rdfs:label  "Amin Ullah" .
+
+:AdipatiAgungJohn  rdf:type  sem:Actor ;
+        rdfs:label  "Adipati Agung John" .
+
+:PendudukanInggrisdiJawa
+        rdf:type    sem:Actor ;
+        rdfs:label  "Pendudukan Inggris di Jawa" .
+
+:PiusVII  rdf:type  sem:Actor ;
+        rdfs:label  "Pius VII" .
+
+:wikipediaPerangJawa174143
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Jawa (1741\uFFFD43)" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :BartholomeusVisscher , :HugoVerijsel , :SingsehKhePandjang , :KesultananMataram , :PersekutuanDagangHindiaTimur , :PakubuwonoII , :PasukangabunganTionghoadanJawa , :CakraningratIV .
+
+:wikipediaKampanyeHindiaBelanda
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kampanye Hindia Belanda" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :NobutakeKond , :HitoshiImamura , :ThomasCHart , :KiyotakeKawaguchi , :ConradHelfrich , :ShjiNishimura , :JisaburOzawa , :IbTakahashi , :TakeoTakagi , :HisaichiTerauchi , :RichardPeirse , :KarelDoorman , :ArchibaldWavell .
+
+:KaumPadri  rdf:type  sem:Actor ;
+        rdfs:label  "Kaum Padri" .
+
+:HisaichiTerauchi  rdf:type  sem:Actor ;
+        rdfs:label  "Hisaichi Terauchi" .
+
+:VictorEmmanuelI  rdf:type  sem:Actor ;
+        rdfs:label  "Victor Emmanuel I" .
+
+:Hanover  rdf:type  sem:Actor ;
+        rdfs:label  "Hanover" .
+
+:JohnMoore  rdf:type  sem:Actor ;
+        rdfs:label  "John Moore" .
+
+:HamengkubuwanaI  rdf:type  sem:Actor ;
+        rdfs:label  "Hamengkubuwana I" .
+
+:KaptenPoland  rdf:type  sem:Actor ;
+        rdfs:label  "Kapten Poland" .
+
+:JamesMadison  rdf:type  sem:Actor ;
+        rdfs:label  "James Madison" .
+
+:TanKeeWie  rdf:type  sem:Actor ;
+        rdfs:label  "Tan Kee Wie" .
+
+:LouisI  rdf:type   sem:Actor ;
+        rdfs:label  "Louis I" .
+
+:PangeranMangkubumi  rdf:type  sem:Actor ;
+        rdfs:label  "Pangeran Mangkubumi" .
+
+:KekaisaranChola  rdf:type  sem:Actor ;
+        rdfs:label  "Kekaisaran Chola" .
+
+:KerajaanSunda  rdf:type  sem:Actor ;
+        rdfs:label  "Kerajaan Sunda" .
+
+:InvasiCholakeSriwijaya
+        rdf:type      sem:Event ;
+        rdfs:label    "Invasi Chola ke Sriwijaya" ;
+        rdfs:seeAlso  :wikipediaInvasiCholakeSriwijaya .
+
+:BartholomeusVisscher
+        rdf:type    sem:Actor ;
+        rdfs:label  "Bartholomeus Visscher" .
+
+:LouisNicolasDavout  rdf:type  sem:Actor ;
+        rdfs:label  "Louis-Nicolas Davout" .
+
+:wikipediaPertempuranMelaka1641
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Melaka (1641)" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :ManueldeSousaCoutinho , :TunAbdulJamil , :WillmsoonCartekoe , :KesultananJohor .
+
+:KesultananJohor  rdf:type  sem:Actor ;
+        rdfs:label  "Kesultanan Johor" .
+
+:PetarIPetroviNjego  rdf:type  sem:Actor ;
+        rdfs:label  "Petar I Petrovi?-Njego\uFFFD" .
+
+:HendrikvanSchopoff  rdf:type  sem:Actor ;
+        rdfs:label  "Hendrik van Schopoff" .
+
+:PerangPadri  rdf:type  sem:Event ;
+        rdfs:label    "Perang Padri" ;
+        rdfs:seeAlso  :wikipediaPerangPadri .
+
+:PangeranPurbaya  rdf:type  sem:Actor ;
+        rdfs:label  "Pangeran Purbaya" .
+
+:PerangBelandaPortugal
+        rdf:type      sem:Event ;
+        rdfs:label    "Perang Belanda-Portugal" ;
+        rdfs:seeAlso  :wikipediaPerangBelandaPortugal .
+
+:Wttemberg  rdf:type  sem:Actor ;
+        rdfs:label  "W黵ttemberg" .
+
+:PangeranSambernyawa  rdf:type  sem:Actor ;
+        rdfs:label  "Pangeran Sambernyawa" .
+
+:KekaisaranTiongkokMongolDinastiYuan
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kekaisaran Tiongkok-Mongol ( Dinasti Yuan)" .
+
+:Wongsonegoro  rdf:type  sem:Actor ;
+        rdfs:label  "Wongsonegoro" .
+
+:FrederickAugustusI  rdf:type  sem:Actor ;
+        rdfs:label  "Frederick Augustus I" .
+
+:HugoVerijsel  rdf:type  sem:Actor ;
+        rdfs:label  "Hugo Verijsel" .
+
+:PeperanganeraNapoleon
+        rdf:type      sem:Event ;
+        rdfs:label    "Peperangan era Napoleon" ;
+        rdfs:seeAlso  :wikipediaPeperanganeraNapoleon .
+
+:RoyalisPrancis  rdf:type  sem:Actor ;
+        rdfs:label  "Royalis Prancis" .
+
+:PertempuranLimaHari  rdf:type  sem:Event ;
+        rdfs:label    "Pertempuran Lima Hari" ;
+        rdfs:seeAlso  :wikipediaPertempuranLimaHari .
+
+:PerangBanjar  rdf:type  sem:Event ;
+        rdfs:label    "Perang Banjar" ;
+        rdfs:seeAlso  :wikipediaPerangBanjar .
+
+:PangeranBalitar  rdf:type  sem:Actor ;
+        rdfs:label  "Pangeran Balitar" .
+
+:TuankuPasaman  rdf:type  sem:Actor ;
+        rdfs:label  "Tuanku Pasaman" .
+
+:CountBennigsen  rdf:type  sem:Actor ;
+        rdfs:label  "Count Bennigsen" .
+
+:Toskana  rdf:type  sem:Actor ;
+        rdfs:label  "Toskana" .
+
+:KerajaanBuleleng  rdf:type  sem:Actor ;
+        rdfs:label  "Kerajaan Buleleng" .
+
+:GotfriedvanDaalen  rdf:type  sem:Actor ;
+        rdfs:label  "Gotfried van Daalen" .
+
+:wikipediaPenyerbuanMeesterCornelis
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Penyerbuan Meester Cornelis" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :HindiaBelanda , :PerusahaanHindiaTimurBritania , :JanWillemJanssens , :RobertStopford , :KerajaanBersatuBritaniaRayadanIrlandia , :KerajaanBelanda , :RolloGillespie , :KekaisaranPrancisPertama , :SamuelAuchmuty .
+
+:AbbasMirza  rdf:type  sem:Actor ;
+        rdfs:label  "Abbas Mirza" .
+
+:KesultananBanjarmasin
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kesultanan Banjarmasin" .
+
+:AloisvonReding  rdf:type  sem:Actor ;
+        rdfs:label  "Alois von Reding" .
+
+:DemangLehman  rdf:type  sem:Actor ;
+        rdfs:label  "Demang Lehman" .
+
+:wikipediaPertempuranLimaHari
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Lima Hari" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :KidoShinichir , :Wongsonegoro , :drKariadi .
+
+:TanJinSing  rdf:type  sem:Actor ;
+        rdfs:label  "Tan Jin Sing" .
+
+:TuankuImamBonjol  rdf:type  sem:Actor ;
+        rdfs:label  "Tuanku Imam Bonjol" .
+
+:TentaraKerajaanHindiaBelandaKNIL
+        rdf:type    sem:Actor ;
+        rdfs:label  "Tentara Kerajaan Hindia Belanda (KNIL)" .
+
+:RajendraChola  rdf:type  sem:Actor ;
+        rdfs:label  "Rajendra Chola" .
+
+:KarlPhilippvonWrede  rdf:type  sem:Actor ;
+        rdfs:label  "Karl Philipp von Wrede" .
+
+:KesultananYogyakarta
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kesultanan Yogyakarta" .
+
+:TeukuUmar  rdf:type  sem:Actor ;
+        rdfs:label  "Teuku Umar" .
+
+:AdipatiAgungCharles  rdf:type  sem:Actor ;
+        rdfs:label  "Adipati Agung Charles" .
+
+:ImperiumPortugal  rdf:type  sem:Actor ;
+        rdfs:label  "Imperium Portugal" .
+
+:wikipediaIntervensiBelandadiBali1908
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Intervensi Belanda di Bali (1908)" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :RajaKerajaanKarangasem , :RajaKerajaanBangli , :DewaAgungJambeII , :MarinusBernardusRostvanTonningen , :KerajaanKlungkung .
+
+:CakraningratIV  rdf:type  sem:Actor ;
+        rdfs:label  "Cakraningrat IV" .
+
+:JeanAndocheJunot  rdf:type  sem:Actor ;
+        rdfs:label  "Jean-Andoche Junot" .
+
+:Tirol  rdf:type    sem:Actor ;
+        rdfs:label  "Tirol" .
+
+:PasukanVOC  rdf:type  sem:Actor ;
+        rdfs:label  "Pasukan VOC" .
+
+:LaksamanaDonFadriquedeToledoOsio
+        rdf:type    sem:Actor ;
+        rdfs:label  "Laksamana Don Fadrique de Toledo Os髍io" .
+
+:HindiaBelanda  rdf:type  sem:Actor ;
+        rdfs:label  "Hindia Belanda" .
+
+:wikipediaInvasiMaluku
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Invasi Maluku" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :HermanWillemDaendels , :EdwardTucker , :ChristopherCole , :Prancis , :PerusahaanHindiaTimur , :BritaniaRaya .
+
+:wikipediaPerangDiponegoro
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Diponegoro" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :TumenggungPrawirodigdoyo , :NyiAgengSerang , :KesultananYogyakarta , :HendrikMdeKock , :Diponegoro , :PasukanTulungan , :KiaiMadja , :HermanusWDotulong , :PakubuwanaVI , :SentotPrawirodirdjo , :Belanda .
+
+:RichardPeirse  rdf:type  sem:Actor ;
+        rdfs:label  "Richard Peirse" .
+
+:GustaafWillembaronvanImhoff
+        rdf:type    sem:Actor ;
+        rdfs:label  "Gustaaf Willem baron van Imhoff" .
+
+:drKariadi  rdf:type  sem:Actor ;
+        rdfs:label  "dr. Kariadi" .
+
+:FerdinandIII  rdf:type  sem:Actor ;
+        rdfs:label  "Ferdinand III" .
+
+:ThomasCHart  rdf:type  sem:Actor ;
+        rdfs:label  "Thomas C. Hart" .
+
+:Surengrana  rdf:type  sem:Actor ;
+        rdfs:label  "Surengrana" .
+
+:PerusahaanHindiaTimurBelandaVOC
+        rdf:type    sem:Actor ;
+        rdfs:label  "Perusahaan Hindia Timur Belanda (VOC)" .
+
+:KaumAdat  rdf:type  sem:Actor ;
+        rdfs:label  "Kaum Adat" .
+
+:PerangTakhtaJawaKetiga
+        rdf:type      sem:Event ;
+        rdfs:label    "Perang Takhta Jawa Ketiga" ;
+        rdfs:seeAlso  :wikipediaPerangTakhtaJawaKetiga .
+
+:MaharajaHayamWuruk  rdf:type  sem:Actor ;
+        rdfs:label  "Maharaja Hayam Wuruk" .
+
+:Pemberontaklainnya  rdf:type  sem:Actor ;
+        rdfs:label  "Pemberontak lainnya" .
+
+:wikipediaEkspedisiPalembangII
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Ekspedisi Palembang II" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :SultanMahmudBadaruddinII , :HendrikMerkusdeKock , :KekuatanKesultananPalembang , :KorpsMarinirKerajaanBelanda , :AngkatanLautKerajaanBelanda , :TentaraKerajaanHindiaBelanda .
+
+:MartimAfonsodeCastro
+        rdf:type    sem:Actor ;
+        rdfs:label  "Martim Afonso de Castro" .
+
+:HenryDemmeni  rdf:type  sem:Actor ;
+        rdfs:label  "Henry Demmeni" .
+
+:CutMeutia  rdf:type  sem:Actor ;
+        rdfs:label  "Cut Meutia" .
+
+:SubhasChandraBose  rdf:type  sem:Actor ;
+        rdfs:label  "Subhas Chandra Bose" .
+
+:PangeranEuge  rdf:type  sem:Actor ;
+        rdfs:label  "Pangeran Eug鑞e" .
+
+:UlamaIslam  rdf:type  sem:Actor ;
+        rdfs:label  "Ulama Islam" .
+
+:wikipediaSerbuanYuanMongolkeJawa
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Serbuan Yuan-Mongol ke Jawa" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :RadenWijaya , :KubilaiKhan , :KekaisaranTiongkokMongolDinastiYuan , :Nambi , :Majapahit , :RanggaLawe , :Sora , :Shibi , :IkeMese , :AryaWiraraja , :KerajaanSinghasari , :Gaoxing .
+
+:IbTakahashi  rdf:type  sem:Actor ;
+        rdfs:label  "Ib? Takahashi" .
+
+:PemberontakantiBelanda
+        rdf:type    sem:Actor ;
+        rdfs:label  "Pemberontak anti-Belanda" .
+
+:Prancis  rdf:type  sem:Actor ;
+        rdfs:label  "Prancis" .
+
+:PasukangabunganTionghoadanJawa
+        rdf:type    sem:Actor ;
+        rdfs:label  "Pasukan gabungan Tionghoa dan Jawa" .
+
+:RivalpenggugattakhtaMataram
+        rdf:type    sem:Actor ;
+        rdfs:label  "Rival penggugat takhta Mataram" .
+
+:JohannesThedens  rdf:type  sem:Actor ;
+        rdfs:label  "Johannes Thedens" .
+
+:Majapahit  rdf:type  sem:Actor ;
+        rdfs:label  "Majapahit" .
+
+:wikipedia  rdf:type  sem:Authority .
+
+:RakyatKamang  rdf:type  sem:Actor ;
+        rdfs:label  "Rakyat Kamang" .
+
+:KesultananMataram  rdf:type  sem:Actor ;
+        rdfs:label  "Kesultanan Mataram" .
+
+:JeanBaptisteJourdan  rdf:type  sem:Actor ;
+        rdfs:label  "Jean-Baptiste Jourdan" .
+
+:KerajaanBelanda  rdf:type  sem:Actor ;
+        rdfs:label  "Kerajaan Belanda" .
+
+:TupiPotiguara  rdf:type  sem:Actor ;
+        rdfs:label  "Tupi Potiguara" .
+
+:Majapahittimur  rdf:type  sem:Actor ;
+        rdfs:label  "Majapahit timur" .
+
+:MahmudII  rdf:type  sem:Actor ;
+        rdfs:label  "Mahmud II" .
+
+:EdwardTucker  rdf:type  sem:Actor ;
+        rdfs:label  "Edward Tucker" .
+
+:wikipediaPemberontakanRadenRonggo
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pemberontakan Raden Ronggo" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :RonggoPrawirodirjoIII , :HermanWillemDaendels , :TentaraKaresidenanMadiun , :tentaraBelanda .
+
+:PerangJawa174143  rdf:type  sem:Event ;
+        rdfs:label    "Perang Jawa (1741\uFFFD43)" ;
+        rdfs:seeAlso  :wikipediaPerangJawa174143 .
+
+:FathAliShahQajar  rdf:type  sem:Actor ;
+        rdfs:label  "Fath Ali Shah Qajar" .
+
+:KerajaanBlambangan  rdf:type  sem:Actor ;
+        rdfs:label  "Kerajaan Blambangan" .
+
+:CommanderNunovaresBotelho
+        rdf:type    sem:Actor ;
+        rdfs:label  "Commander Nuno 羖vares Botelho" .
+
+:TumenggungPrawirodigdoyo
+        rdf:type    sem:Actor ;
+        rdfs:label  "Tumenggung Prawirodigdoyo" .
+
+:MayorPrager  rdf:type  sem:Actor ;
+        rdfs:label  "Mayor Prager" .
+
+:MaharajaLinggabuana  rdf:type  sem:Actor ;
+        rdfs:label  "Maharaja Linggabuana" .
+
+:SerbuanYuanMongolkeJawa
+        rdf:type      sem:Event ;
+        rdfs:label    "Serbuan Yuan-Mongol ke Jawa" ;
+        rdfs:seeAlso  :wikipediaSerbuanYuanMongolkeJawa .
+
+:CharlesXIII  rdf:type  sem:Actor ;
+        rdfs:label  "Charles XIII" .
+
+:PemberontakanRadenRonggo
+        rdf:type      sem:Event ;
+        rdfs:label    "Pemberontakan Raden Ronggo" ;
+        rdfs:seeAlso  :wikipediaPemberontakanRadenRonggo .
+
+:ArmandAugustinLouisdeCaulaincourt
+        rdf:type    sem:Actor ;
+        rdfs:label  "Armand Augustin Louis de Caulaincourt" .
+
+:KerajaanBersatuBritaniaRayadanIrlandia
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kerajaan Bersatu Britania Raya dan Irlandia" .
+
+:HenryAddington  rdf:type  sem:Actor ;
+        rdfs:label  "Henry Addington" .
+
+:EkspedisiPalembangII
+        rdf:type      sem:Event ;
+        rdfs:label    "Ekspedisi Palembang II" ;
+        rdfs:seeAlso  :wikipediaEkspedisiPalembangII .
+
+:PerangAceh  rdf:type  sem:Event ;
+        rdfs:label    "Perang Aceh" ;
+        rdfs:seeAlso  :wikipediaPerangAceh .
+
+:KerajaanSinghasari  rdf:type  sem:Actor ;
+        rdfs:label  "Kerajaan Singhasari" .
+
+:FrederickVI  rdf:type  sem:Actor ;
+        rdfs:label  "Frederick VI" .
+
+:GovertKnol  rdf:type  sem:Actor ;
+        rdfs:label  "Govert Knol" .
+
+:MayorduBus  rdf:type  sem:Actor ;
+        rdfs:label  "Mayor du Bus" .
+
+:PerusahaanHindiaTimurBelanda
+        rdf:type    sem:Actor ;
+        rdfs:label  "Perusahaan Hindia Timur Belanda" .
+
+:ManueldeSousaCoutinho
+        rdf:type    sem:Actor ;
+        rdfs:label  "Manuel de Sousa Coutinho" .
+
+:wikipediaGegerSepehi
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Geger Sepehi" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :BritaniaRaya , :KesultananYogyakarta , :KadipatenMangkunagaran , :BPHNatakusuma , :TanJinSing , :MangkunegaraII , :RobertRolloGillespie , :JohnCrawfurd , :HamengkubuwanaII , :ThomasStamfordRaffles , :KRTSumadiningrat , :PendudukanInggrisdiJawa .
+
+:Parapangeranpemberontak
+        rdf:type    sem:Actor ;
+        rdfs:label  "Para pangeran pemberontak" .
+
+:MuhammadAliPasha  rdf:type  sem:Actor ;
+        rdfs:label  "Muhammad Ali Pasha" .
+
+:PangeranAryaMataram  rdf:type  sem:Actor ;
+        rdfs:label  "Pangeran Arya Mataram" .
+
+:PerangPasifik  rdf:type  sem:Event ;
+        rdfs:label    "Perang Pasifik" ;
+        rdfs:seeAlso  :wikipediaPerangPasifik .
+
+:PerangKuning  rdf:type  sem:Event ;
+        rdfs:label    "Perang Kuning" ;
+        rdfs:seeAlso  :wikipediaPerangKuning .
+
+:KubilaiKhan  rdf:type  sem:Actor ;
+        rdfs:label  "Kubilai Khan" .
+
+:DewaAgungJambeII  rdf:type  sem:Actor ;
+        rdfs:label  "Dewa Agung Jambe II" .
+
+:SamuelAuchmuty  rdf:type  sem:Actor ;
+        rdfs:label  "Samuel Auchmuty" .
+
+:HoratioNelson  rdf:type  sem:Actor ;
+        rdfs:label  "Horatio Nelson" .
+
+:PerusahaanHindiaTimur
+        rdf:type    sem:Actor ;
+        rdfs:label  "Perusahaan Hindia Timur" .
+
+:WilliamPitt  rdf:type  sem:Actor ;
+        rdfs:label  "William Pitt" .
+
+:MichaelAndreasBarclaydeTolly
+        rdf:type    sem:Actor ;
+        rdfs:label  "Michael Andreas Barclay de Tolly" .
+
+:Hungaria  rdf:type  sem:Actor ;
+        rdfs:label  "Hungaria" .
+
+:JeanBaptisteJulesBernadotte
+        rdf:type    sem:Actor ;
+        rdfs:label  "Jean Baptiste Jules Bernadotte" .
+
+:ArchibaldWavell  rdf:type  sem:Actor ;
+        rdfs:label  "Archibald Wavell" .
+
+:MaharajaMajapahit  rdf:type  sem:Actor ;
+        rdfs:label  "Maharaja Majapahit" .
+
+:PanglimaPolem  rdf:type  sem:Actor ;
+        rdfs:label  "Panglima Polem" .
+
+:Shibi  rdf:type    sem:Actor ;
+        rdfs:label  "Shi-bi" .
+
+:PertempuranMelaka1641
+        rdf:type      sem:Event ;
+        rdfs:label    "Pertempuran Melaka (1641)" ;
+        rdfs:seeAlso  :wikipediaPertempuranMelaka1641 .
+
+:LetnanKolonelBauer  rdf:type  sem:Actor ;
+        rdfs:label  "Letnan Kolonel Bauer" .
+
+:Migueldeava  rdf:type  sem:Actor ;
+        rdfs:label  "Miguel de 羖ava" .
+
+:RobertStopford  rdf:type  sem:Actor ;
+        rdfs:label  "Robert Stopford" .
+
+:PrincevonSchwarzenberg
+        rdf:type    sem:Actor ;
+        rdfs:label  "Prince von Schwarzenberg" .
+
+:Diponegoro  rdf:type  sem:Actor ;
+        rdfs:label  "Diponegoro" .
+
+:ThomasStamfordRaffles
+        rdf:type    sem:Actor ;
+        rdfs:label  "Thomas Stamford Raffles" .
+
+:KiyotakeKawaguchi  rdf:type  sem:Actor ;
+        rdfs:label  "Kiyotake Kawaguchi" .
+
+:PangeranAryaDipanagara
+        rdf:type    sem:Actor ;
+        rdfs:label  "Pangeran Arya Dipanagara" .
+
+:wikipediaPerangTakhtaJawaPertama
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Takhta Jawa Pertama" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :PangeranPuger , :GovertKnol , :AmangkuratIII , :PerusahaanHindiaTimurBelanda , :KesultananMataram .
+
+:MiguelPereiraForjaz  rdf:type  sem:Actor ;
+        rdfs:label  "Miguel Pereira Forjaz" .
+
+:AndreasHofer  rdf:type  sem:Actor ;
+        rdfs:label  "Andreas Hofer" .
+
+:NobutakeKond  rdf:type  sem:Actor ;
+        rdfs:label  "Nobutake Kond?" .
+
+:AdipatiBrunswick  rdf:type  sem:Actor ;
+        rdfs:label  "Adipati Brunswick" .
+
+:RajoAlam  rdf:type  sem:Actor ;
+        rdfs:label  "Rajo Alam" .

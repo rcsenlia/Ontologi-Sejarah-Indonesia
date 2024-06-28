@@ -22,20 +22,32 @@
 :JawaTengah  rdf:type  geo:Feature ;
         rdfs:label  "Jawa Tengah" .
 
+:wikipediaPertempuranLimaHari
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Lima Hari" ;
+        :hasLocation     :Indonesia , :JawaTengah , :KotaSemarang ;
+        sem:accordingTo  :wikipedia .
+
 :SamudraPasifik  rdf:type  geo:Feature ;
         rdfs:label  "Samudra Pasifik" .
+
+:wikipediaPerangTakhtaJawaKedua
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Takhta Jawa Kedua" ;
+        :hasLocation     :Jawa ;
+        sem:accordingTo  :wikipedia .
 
 :PerangBelandaPortugal
         rdf:type      sem:Event ;
         rdfs:label    "Perang Belanda-Portugal" ;
-        :hasLocation  :Indochina , :HindiaTimur , :AfrikaSelatan , :AfrikaBarat , :Brasil .
+        rdfs:seeAlso  :wikipediaPerangBelandaPortugal .
 
 :Jakarta  rdf:type  geo:Feature ;
         rdfs:label  "Jakarta" .
 
 :PerangBelasting  rdf:type  sem:Event ;
         rdfs:label    "Perang Belasting" ;
-        :hasLocation  :SumateraBarat , :Agam , :KamangMagek .
+        rdfs:seeAlso  :wikipediaPerangBelasting .
 
 :KesultananBanjar  rdf:type  geo:Feature ;
         rdfs:label  "Kesultanan Banjar" .
@@ -43,24 +55,30 @@
 :IntervensiBelandadiBali1908
         rdf:type      sem:Event ;
         rdfs:label    "Intervensi Belanda di Bali (1908)" ;
-        :hasLocation  :Bali .
+        rdfs:seeAlso  :wikipediaIntervensiBelandadiBali1908 .
 
 :PerangAceh  rdf:type  sem:Event ;
         rdfs:label    "Perang Aceh" ;
-        :hasLocation  :KesultananAceh .
+        rdfs:seeAlso  :wikipediaPerangAceh .
+
+:wikipediaPerangJawa174143
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Jawa (1741\uFFFD43)" ;
+        :hasLocation     :JawaTimur , :JawaTengah ;
+        sem:accordingTo  :wikipedia .
 
 :PerangPadri  rdf:type  sem:Event ;
         rdfs:label    "Perang Padri" ;
-        :hasLocation  :Riau , :SumateraUtara , :SumateraBarat .
+        rdfs:seeAlso  :wikipediaPerangPadri .
 
 :PerangTakhtaJawaKetiga
         rdf:type      sem:Event ;
         rdfs:label    "Perang Takhta Jawa Ketiga" ;
-        :hasLocation  :JawaTengah .
+        rdfs:seeAlso  :wikipediaPerangTakhtaJawaKetiga .
 
 :PerangBubat  rdf:type  sem:Event ;
         rdfs:label    "Perang Bubat" ;
-        :hasLocation  :Indonesia , :Jawatimur , :KabupatenMojokerto , :Majapahit , :Trowulan , :AlunalunBubat .
+        rdfs:seeAlso  :wikipediaPerangBubat .
 
 :KotaSemarang  rdf:type  geo:Feature ;
         rdfs:label  "Kota Semarang" .
@@ -77,7 +95,13 @@
 :PerangTakhtaJawaKedua
         rdf:type      sem:Event ;
         rdfs:label    "Perang Takhta Jawa Kedua" ;
-        :hasLocation  :Jawa .
+        rdfs:seeAlso  :wikipediaPerangTakhtaJawaKedua .
+
+:wikipediaPerangTakhtaJawaKetiga
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Takhta Jawa Ketiga" ;
+        :hasLocation     :JawaTengah ;
+        sem:accordingTo  :wikipedia .
 
 :AsiaSelatan  rdf:type  geo:Feature ;
         rdfs:label  "Asia Selatan" .
@@ -85,11 +109,11 @@
 :InvasiCholakeSriwijaya
         rdf:type      sem:Event ;
         rdfs:label    "Invasi Chola ke Sriwijaya" ;
-        :hasLocation  :Sriwijaya , :SemenanjungMalaya , :Kedah , :Sumatra , :Palembang .
+        rdfs:seeAlso  :wikipediaInvasiCholakeSriwijaya .
 
 :PerangBanjar  rdf:type  sem:Event ;
         rdfs:label    "Perang Banjar" ;
-        :hasLocation  :KesultananBanjar .
+        rdfs:seeAlso  :wikipediaPerangBanjar .
 
 :Palembang  rdf:type  geo:Feature ;
         rdfs:label  "Palembang" .
@@ -103,11 +127,23 @@
 :GuyanaPrancis  rdf:type  geo:Feature ;
         rdfs:label  "Guyana Prancis" .
 
+:wikipediaInvasiMaluku
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Invasi Maluku" ;
+        :hasLocation     :HindiaBelanda , :KepulauanMaluku ;
+        sem:accordingTo  :wikipedia .
+
 :HindiaTimur  rdf:type  geo:Feature ;
         rdfs:label  "Hindia Timur" .
 
 :AsiaTenggara  rdf:type  geo:Feature ;
         rdfs:label  "Asia Tenggara" .
+
+:wikipediaInvasiCholakeSriwijaya
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Invasi Chola ke Sriwijaya" ;
+        :hasLocation     :Sriwijaya , :SemenanjungMalaya , :Kedah , :Sumatra , :Palembang ;
+        sem:accordingTo  :wikipedia .
 
 :SamudraHindia  rdf:type  geo:Feature ;
         rdfs:label  "Samudra Hindia" .
@@ -127,6 +163,18 @@
 :SumateraBarat  rdf:type  geo:Feature ;
         rdfs:label  "Sumatera Barat" .
 
+:wikipediaPeperanganeraNapoleon
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Peperangan era Napoleon" ;
+        :hasLocation     :LautUtara , :LautMediterania , :RiodelaPlata , :HindiaBarat , :GuyanaPrancis , :KaukasusSelatan , :SamudraHindia ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPerangBubat
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Bubat" ;
+        :hasLocation     :Indonesia , :Jawatimur , :KabupatenMojokerto , :Majapahit , :Trowulan , :AlunalunBubat ;
+        sem:accordingTo  :wikipedia .
+
 :AfrikaSelatan  rdf:type  geo:Feature ;
         rdfs:label  "Afrika Selatan" .
 
@@ -136,13 +184,19 @@
 :PerangTakhtaJawaPertama
         rdf:type      sem:Event ;
         rdfs:label    "Perang Takhta Jawa Pertama" ;
-        :hasLocation  :Jawa .
+        rdfs:seeAlso  :wikipediaPerangTakhtaJawaPertama .
 
 :Oseania  rdf:type  geo:Feature ;
         rdfs:label  "Oseania" .
 
 :Melaka  rdf:type   geo:Feature ;
         rdfs:label  "Melaka" .
+
+:wikipediaPerangDiponegoro
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Diponegoro" ;
+        :hasLocation     :JawaTimur , :JawaTengah , :Surakarta , :Yogyakarta ;
+        sem:accordingTo  :wikipedia .
 
 :AsiaTimur  rdf:type  geo:Feature ;
         rdfs:label  "Asia Timur" .
@@ -153,17 +207,40 @@
 :LautMediterania  rdf:type  geo:Feature ;
         rdfs:label  "Laut Mediterania" .
 
+:wikipediaPenyerbuanMeesterCornelis
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Penyerbuan Meester Cornelis" ;
+        :hasLocation     :Indonesia , :Jakarta , :HindiaBelanda , :Batavia ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaKampanyeHindiaBelanda
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kampanye Hindia Belanda" ;
+        :hasLocation     :HindiaBelanda ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaSerbuanYuanMongolkeJawa
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Serbuan Yuan-Mongol ke Jawa" ;
+        :hasLocation     :JawaTimur ;
+        sem:accordingTo  :wikipedia .
+
 :SemenanjungMalaya  rdf:type  geo:Feature ;
         rdfs:label  "Semenanjung Malaya" .
 
 :PerangJawa174143  rdf:type  sem:Event ;
         rdfs:label    "Perang Jawa (1741\uFFFD43)" ;
-        :hasLocation  :JawaTimur , :JawaTengah .
+        rdfs:seeAlso  :wikipediaPerangJawa174143 .
+
+:wikipediaPerangBayu  rdf:type  sem:View ;
+        rdfs:label       "wikipedia Perang Bayu" ;
+        :hasLocation     :KabupatenBanyuwangi , :Songgon , :Bayu ;
+        sem:accordingTo  :wikipedia .
 
 :PemberontakanRadenRonggo
         rdf:type      sem:Event ;
         rdfs:label    "Pemberontakan Raden Ronggo" ;
-        :hasLocation  :Jawa .
+        rdfs:seeAlso  :wikipediaPemberontakanRadenRonggo .
 
 :HindiaBarat  rdf:type  geo:Feature ;
         rdfs:label  "Hindia Barat" .
@@ -171,14 +248,14 @@
 :PeperanganeraNapoleon
         rdf:type      sem:Event ;
         rdfs:label    "Peperangan era Napoleon" ;
-        :hasLocation  :KaukasusSelatan , :SamudraHindia , :HindiaBarat , :GuyanaPrancis , :RiodelaPlata , :LautUtara , :LautMediterania .
+        rdfs:seeAlso  :wikipediaPeperanganeraNapoleon .
 
 :Sumatra  rdf:type  geo:Feature ;
         rdfs:label  "Sumatra" .
 
 :InvasiMaluku  rdf:type  sem:Event ;
         rdfs:label    "Invasi Maluku" ;
-        :hasLocation  :HindiaBelanda , :KepulauanMaluku .
+        rdfs:seeAlso  :wikipediaInvasiMaluku .
 
 :AfrikaBarat  rdf:type  geo:Feature ;
         rdfs:label  "Afrika Barat" .
@@ -189,66 +266,127 @@
 :PertempuranMelaka1641
         rdf:type      sem:Event ;
         rdfs:label    "Pertempuran Melaka (1641)" ;
-        :hasLocation  :Malaysia , :Melaka .
+        rdfs:seeAlso  :wikipediaPertempuranMelaka1641 .
+
+:wikipediaPerangBelasting
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Belasting" ;
+        :hasLocation     :SumateraBarat , :Agam , :KamangMagek ;
+        sem:accordingTo  :wikipedia .
 
 :KampanyeHindiaBelanda
         rdf:type      sem:Event ;
         rdfs:label    "Kampanye Hindia Belanda" ;
-        :hasLocation  :HindiaBelanda .
+        rdfs:seeAlso  :wikipediaKampanyeHindiaBelanda .
+
+:wikipediaPerangPadri
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Padri" ;
+        :hasLocation     :Riau , :SumateraUtara , :SumateraBarat ;
+        sem:accordingTo  :wikipedia .
 
 :KeratonYogyakarta  rdf:type  geo:Feature ;
         rdfs:label  "Keraton Yogyakarta" .
 
 :GegerSepehi  rdf:type  sem:Event ;
         rdfs:label    "Geger Sepehi" ;
-        :hasLocation  :KeratonYogyakarta .
+        rdfs:seeAlso  :wikipediaGegerSepehi .
 
 :KabupatenMojokerto  rdf:type  geo:Feature ;
         rdfs:label  "Kabupaten Mojokerto" .
 
+:wikipedia  rdf:type  sem:Authority .
+
 :EkspedisiPalembangII
         rdf:type      sem:Event ;
         rdfs:label    "Ekspedisi Palembang II" ;
-        :hasLocation  :Palembang .
+        rdfs:seeAlso  :wikipediaEkspedisiPalembangII .
+
+:wikipediaPerangRegreg
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Regreg" ;
+        :hasLocation     :JawaTimur , :Majapahit ;
+        sem:accordingTo  :wikipedia .
 
 :PenyerbuanMeesterCornelis
         rdf:type      sem:Event ;
         rdfs:label    "Penyerbuan Meester Cornelis" ;
-        :hasLocation  :Indonesia , :Jakarta , :HindiaBelanda , :Batavia .
+        rdfs:seeAlso  :wikipediaPenyerbuanMeesterCornelis .
 
 :Surakarta  rdf:type  geo:Feature ;
         rdfs:label  "Surakarta" .
 
+:wikipediaPertempuranMelaka1641
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Melaka (1641)" ;
+        :hasLocation     :Malaysia , :Melaka ;
+        sem:accordingTo  :wikipedia .
+
 :JawaTimur  rdf:type  geo:Feature ;
         rdfs:label  "Jawa Timur" .
 
+:wikipediaPerangKuning
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Kuning" ;
+        :hasLocation     :Jawa ;
+        sem:accordingTo  :wikipedia .
+
 :PerangBayu  rdf:type  sem:Event ;
         rdfs:label    "Perang Bayu" ;
-        :hasLocation  :KabupatenBanyuwangi , :Songgon , :Bayu .
+        rdfs:seeAlso  :wikipediaPerangBayu .
 
 :Jawatimur  rdf:type  geo:Feature ;
         rdfs:label  "Jawa timur" .
 
 :PerangPasifik  rdf:type  sem:Event ;
         rdfs:label    "Perang Pasifik" ;
-        :hasLocation  :SamudraHindia , :SamudraPasifik , :Oseania , :AsiaTenggara , :AsiaSelatan , :AsiaTimur .
+        rdfs:seeAlso  :wikipediaPerangPasifik .
+
+:wikipediaPemberontakanRadenRonggo
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pemberontakan Raden Ronggo" ;
+        :hasLocation     :Jawa ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaIntervensiBelandadiBali1858
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Intervensi Belanda di Bali (1858)" ;
+        :hasLocation     :Bali ;
+        sem:accordingTo  :wikipedia .
 
 :PerangDiponegoro  rdf:type  sem:Event ;
         rdfs:label    "Perang Diponegoro" ;
-        :hasLocation  :JawaTimur , :JawaTengah , :Surakarta , :Yogyakarta .
+        rdfs:seeAlso  :wikipediaPerangDiponegoro .
 
 :SumateraUtara  rdf:type  geo:Feature ;
         rdfs:label  "Sumatera Utara" .
 
 :PertempuranLimaHari  rdf:type  sem:Event ;
         rdfs:label    "Pertempuran Lima Hari" ;
-        :hasLocation  :Indonesia , :JawaTengah , :KotaSemarang .
+        rdfs:seeAlso  :wikipediaPertempuranLimaHari .
+
+:wikipediaEkspedisiPalembangII
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Ekspedisi Palembang II" ;
+        :hasLocation     :Palembang ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPerangAceh  rdf:type  sem:View ;
+        rdfs:label       "wikipedia Perang Aceh" ;
+        :hasLocation     :KesultananAceh ;
+        sem:accordingTo  :wikipedia .
+
+:Sriwijaya  rdf:type  geo:Feature ;
+        rdfs:label  "Sriwijaya" .
 
 :HindiaBelanda  rdf:type  geo:Feature ;
         rdfs:label  "Hindia Belanda" .
 
-:Sriwijaya  rdf:type  geo:Feature ;
-        rdfs:label  "Sriwijaya" .
+:wikipediaGegerSepehi
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Geger Sepehi" ;
+        :hasLocation     :KeratonYogyakarta ;
+        sem:accordingTo  :wikipedia .
 
 :KaukasusSelatan  rdf:type  geo:Feature ;
         rdfs:label  "Kaukasus Selatan" .
@@ -259,7 +397,7 @@
 :IntervensiBelandadiBali1858
         rdf:type      sem:Event ;
         rdfs:label    "Intervensi Belanda di Bali (1858)" ;
-        :hasLocation  :Bali .
+        rdfs:seeAlso  :wikipediaIntervensiBelandadiBali1858 .
 
 :Indochina  rdf:type  geo:Feature ;
         rdfs:label  "Indochina" .
@@ -267,7 +405,7 @@
 :SerbuanYuanMongolkeJawa
         rdf:type      sem:Event ;
         rdfs:label    "Serbuan Yuan-Mongol ke Jawa" ;
-        :hasLocation  :JawaTimur .
+        rdfs:seeAlso  :wikipediaSerbuanYuanMongolkeJawa .
 
 :Kedah  rdf:type    geo:Feature ;
         rdfs:label  "Kedah" .
@@ -275,16 +413,46 @@
 :Majapahit  rdf:type  geo:Feature ;
         rdfs:label  "Majapahit" .
 
+:wikipediaPerangBelandaPortugal
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Belanda-Portugal" ;
+        :hasLocation     :Indochina , :HindiaTimur , :AfrikaSelatan , :AfrikaBarat , :Brasil ;
+        sem:accordingTo  :wikipedia .
+
 :PerangRegreg  rdf:type  sem:Event ;
         rdfs:label    "Perang Regreg" ;
-        :hasLocation  :JawaTimur , :Majapahit .
+        rdfs:seeAlso  :wikipediaPerangRegreg .
+
+:wikipediaPerangTakhtaJawaPertama
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Takhta Jawa Pertama" ;
+        :hasLocation     :Jawa ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPerangBanjar
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Banjar" ;
+        :hasLocation     :KesultananBanjar ;
+        sem:accordingTo  :wikipedia .
 
 :Jawa   rdf:type    geo:Feature ;
         rdfs:label  "Jawa" .
 
+:wikipediaPerangPasifik
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Pasifik" ;
+        :hasLocation     :SamudraHindia , :SamudraPasifik , :Oseania , :AsiaTenggara , :AsiaSelatan , :AsiaTimur ;
+        sem:accordingTo  :wikipedia .
+
 :Brasil  rdf:type   geo:Feature ;
         rdfs:label  "Brasil" .
 
+:wikipediaIntervensiBelandadiBali1908
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Intervensi Belanda di Bali (1908)" ;
+        :hasLocation     :Bali ;
+        sem:accordingTo  :wikipedia .
+
 :PerangKuning  rdf:type  sem:Event ;
         rdfs:label    "Perang Kuning" ;
-        :hasLocation  :Jawa .
+        rdfs:seeAlso  :wikipediaPerangKuning .
