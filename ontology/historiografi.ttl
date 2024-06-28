@@ -340,6 +340,15 @@ Note that the value-space is not defined, so a generic OWL2 processor cannot com
               rdfs:label "is location of" .
 
 
+###  http://127.0.0.1:3333/rootEvent
+:rootEvent rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           owl:inverseOf rdfs:seeAlso ;
+           rdfs:domain sem:View ;
+           rdfs:range sem:Event ;
+           rdfs:label "mainstream view of event" .
+
+
 ###  http://semanticweb.cs.vu.nl/2009/11/sem/accordingTo
 sem:accordingTo rdf:type owl:ObjectProperty ;
                 rdfs:domain sem:View ;
@@ -375,8 +384,7 @@ sem:eventType rdf:type owl:ObjectProperty ;
 
 ###  http://semanticweb.cs.vu.nl/2009/11/sem/hasActor
 sem:hasActor rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf sem:eventProperty ;
-             rdfs:domain sem:Event ;
+             rdfs:domain sem:View ;
              rdfs:range sem:Actor ;
              rdfs:comment "Has actor is used to state which Actors or Objects participate in an Event." ;
              rdfs:label "has Actor" ;
@@ -386,7 +394,7 @@ sem:hasActor rdf:type owl:ObjectProperty ;
 
 ###  http://semanticweb.cs.vu.nl/2009/11/sem/hasPlace
 sem:hasPlace rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf sem:eventProperty ;
+             rdfs:domain sem:View ;
              rdfs:range sem:Place ,
                         geo:Feature ;
              rdfs:comment "Has place is used to state in which Place(s) an Event happened. Coordinates can be attached to the Place with the W3C Geospatial Vocabulary (http://www.w3.org/2005/Incubator/geo/XGR-geo-20071023/)." ;
@@ -417,7 +425,7 @@ sem:hasSubType rdf:type owl:ObjectProperty ;
 
 ###  http://semanticweb.cs.vu.nl/2009/11/sem/hasTime
 sem:hasTime rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf sem:eventProperty ;
+            rdfs:domain sem:View ;
             rdfs:range sem:Time ,
                        time:TemporalEntity ;
             rdfs:comment "Has time is used to indicate at which time an Event took place or when a property under the Temporary Constraint is valid. Has time points to a symbolic representation of time, which allows semantic relations between time resources. (see http://www.w3.org/TR/owl-time/)" ;
@@ -930,6 +938,13 @@ rdf:type rdf:type owl:ObjectProperty .
 
 ###  http://www.w3.org/2000/01/rdf-schema#member
 rdfs:member rdf:type owl:ObjectProperty .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#seeAlso
+rdfs:seeAlso rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain sem:Event ;
+             rdfs:range sem:View .
 
 
 ###  http://www.w3.org/2000/01/rdf-schema#subClassOf
@@ -3161,9 +3176,8 @@ time:unitYear rdf:type time:TemporalUnit ;
 
 
 [ <https://schema.org/affiliation> "Oracle Corporation" ;
-  <https://schema.org/email> "matthew.perry@oracle.com" ;
-  <https://schema.org/name> "Matthew Perry" ;
-  <https://schema.org/url> "https://orcid.org/0000-0003-1988-462X"^^xsd:anyURI
+  <https://schema.org/email> "john.herring@oracle.com" ;
+  <https://schema.org/name> "John Herring"
 ] .
 
 [ <https://schema.org/affiliation> "Oracle Corporation" ;
@@ -3173,30 +3187,15 @@ time:unitYear rdf:type time:TemporalUnit ;
  ] .
 
 [ <https://schema.org/affiliation> "Oracle Corporation" ;
-   <https://schema.org/email> "john.herring@oracle.com" ;
-   <https://schema.org/name> "John Herring"
+   <https://schema.org/email> "matthew.perry@oracle.com" ;
+   <https://schema.org/name> "Matthew Perry" ;
+   <https://schema.org/url> "https://orcid.org/0000-0003-1988-462X"^^xsd:anyURI
  ] .
 
-[ <https://schema.org/affiliation> "Australian National University" ,
-                                    "SURROUND Australia Pty Ltd" ;
-   <https://schema.org/email> "nicholas.car@surroundaustralia.com" ;
-   <https://schema.org/name> "Nicholas J. Car" ;
-   <https://schema.org/url> "https://orcid.org/0000-0002-8742-7730"^^xsd:anyURI
- ] .
-
-[ <https://schema.org/name> "Open Geospatial Consortium" ;
-   <https://schema.org/url> "https://www.ogc.org"^^xsd:anyURI
- ] .
-
-[ <https://schema.org/affiliation> "CSIRO Australia" ;
-   <https://schema.org/email> "simon.cox@csiro.au" ;
-   <https://schema.org/name> "Simon J D Cox" ;
-   <https://schema.org/url> "https://orcid.org/0000-0002-3884-3420"^^xsd:anyURI
- ] .
-
-[ <https://schema.org/email> "fjknibbe@gmail.com" ;
-   <https://schema.org/name> "Frans Knibbe" ;
-   <https://schema.org/url> "https://orcid.org/0000-0003-3789-2260"^^xsd:anyURI
+[ <https://schema.org/affiliation> "Mainz University Of Applied Sciences" ;
+   <https://schema.org/email> "timo.homburg@hs-mainz.de" ;
+   <https://schema.org/name> "Timo Homburg" ;
+   <https://schema.org/url> "https://orcid.org/0000-0002-9499-5840"^^xsd:anyURI
  ] .
 
 [ <https://schema.org/affiliation> "KU Leuven" ,
@@ -3206,11 +3205,50 @@ time:unitYear rdf:type time:TemporalUnit ;
    <https://schema.org/url> "https://orcid.org/0000-0002-3313-924X"^^xsd:anyURI
  ] .
 
+[ <https://schema.org/name> "Open Geospatial Consortium" ;
+   <https://schema.org/url> "https://www.ogc.org"^^xsd:anyURI
+ ] .
+
+[ <https://schema.org/name> "Open Geospatial Consortium" ;
+   <https://schema.org/url> "https://www.ogc.org"^^xsd:anyURI
+ ] .
+
 [ <https://schema.org/affiliation> "Australian National University" ,
                                     "SURROUND Australia Pty Ltd" ;
    <https://schema.org/email> "nicholas.car@surroundaustralia.com" ;
    <https://schema.org/name> "Nicholas J. Car" ;
    <https://schema.org/url> "https://orcid.org/0000-0002-8742-7730"^^xsd:anyURI
+ ] .
+
+[ <https://schema.org/email> "fjknibbe@gmail.com" ;
+   <https://schema.org/name> "Frans Knibbe" ;
+   <https://schema.org/url> "https://orcid.org/0000-0003-3789-2260"^^xsd:anyURI
+ ] .
+
+[ <https://schema.org/affiliation> "CSIRO Australia" ;
+   <https://schema.org/email> "simon.cox@csiro.au" ;
+   <https://schema.org/name> "Simon J D Cox" ;
+   <https://schema.org/url> "https://orcid.org/0000-0002-3884-3420"^^xsd:anyURI
+ ] .
+
+[ <https://schema.org/affiliation> "Australian National University" ,
+                                    "SURROUND Australia Pty Ltd" ;
+   <https://schema.org/email> "nicholas.car@surroundaustralia.com" ;
+   <https://schema.org/name> "Nicholas J. Car" ;
+   <https://schema.org/url> "https://orcid.org/0000-0002-8742-7730"^^xsd:anyURI
+ ] .
+
+[ <https://schema.org/affiliation> "KU Leuven" ,
+                                    "Neanex Technologies" ;
+   <https://schema.org/email> "mathias.bonduel@neanex.com" ;
+   <https://schema.org/name> "Mathias Bonduel" ;
+   <https://schema.org/url> "https://orcid.org/0000-0002-3313-924X"^^xsd:anyURI
+ ] .
+
+[ <https://schema.org/affiliation> "Geoscape Australia" ;
+   <https://schema.org/email> "joseph.abhayaratna@geoscape.com.au" ;
+   <https://schema.org/name> "Joseph Abhayaratna" ;
+   <https://schema.org/url> "https://orcid.org/0000-0001-5075-6234"^^xsd:anyURI
  ] .
 
 [ <https://schema.org/affiliation> "Oracle Corporation" ;
@@ -3218,27 +3256,10 @@ time:unitYear rdf:type time:TemporalUnit ;
    <https://schema.org/name> "John Herring"
  ] .
 
-[ <https://schema.org/affiliation> "Geoscape Australia" ;
-   <https://schema.org/email> "joseph.abhayaratna@geoscape.com.au" ;
-   <https://schema.org/name> "Joseph Abhayaratna" ;
-   <https://schema.org/url> "https://orcid.org/0000-0001-5075-6234"^^xsd:anyURI
- ] .
-
-[ <https://schema.org/affiliation> "Mainz University Of Applied Sciences" ;
-   <https://schema.org/email> "timo.homburg@hs-mainz.de" ;
-   <https://schema.org/name> "Timo Homburg" ;
-   <https://schema.org/url> "https://orcid.org/0000-0002-9499-5840"^^xsd:anyURI
- ] .
-
-[ <https://schema.org/name> "Open Geospatial Consortium" ;
-   <https://schema.org/url> "https://www.ogc.org"^^xsd:anyURI
- ] .
-
-[ <https://schema.org/affiliation> "KU Leuven" ,
-                                    "Neanex Technologies" ;
-   <https://schema.org/email> "mathias.bonduel@neanex.com" ;
-   <https://schema.org/name> "Mathias Bonduel" ;
-   <https://schema.org/url> "https://orcid.org/0000-0002-3313-924X"^^xsd:anyURI
+[ <https://schema.org/affiliation> "CSIRO Australia" ;
+   <https://schema.org/email> "simon.cox@csiro.au" ;
+   <https://schema.org/name> "Simon J D Cox" ;
+   <https://schema.org/url> "https://orcid.org/0000-0002-3884-3420"^^xsd:anyURI
  ] .
 
 [ <https://schema.org/email> "fjknibbe@gmail.com" ;
@@ -3246,10 +3267,10 @@ time:unitYear rdf:type time:TemporalUnit ;
    <https://schema.org/url> "https://orcid.org/0000-0003-3789-2260"^^xsd:anyURI
  ] .
 
-[ <https://schema.org/affiliation> "CSIRO Australia" ;
-   <https://schema.org/email> "simon.cox@csiro.au" ;
-   <https://schema.org/name> "Simon J D Cox" ;
-   <https://schema.org/url> "https://orcid.org/0000-0002-3884-3420"^^xsd:anyURI
+[ <https://schema.org/affiliation> "Geoscape Australia" ;
+   <https://schema.org/email> "joseph.abhayaratna@geoscape.com.au" ;
+   <https://schema.org/name> "Joseph Abhayaratna" ;
+   <https://schema.org/url> "https://orcid.org/0000-0001-5075-6234"^^xsd:anyURI
  ] .
 
 [ <https://schema.org/affiliation> "Mainz University Of Applied Sciences" ;
@@ -3258,16 +3279,10 @@ time:unitYear rdf:type time:TemporalUnit ;
    <https://schema.org/url> "https://orcid.org/0000-0002-9499-5840"^^xsd:anyURI
  ] .
 
-[ <https://schema.org/affiliation> "Geoscape Australia" ;
-   <https://schema.org/email> "joseph.abhayaratna@geoscape.com.au" ;
-   <https://schema.org/name> "Joseph Abhayaratna" ;
-   <https://schema.org/url> "https://orcid.org/0000-0001-5075-6234"^^xsd:anyURI
+[ xsd:pattern "--(0[1-9]|1[0-9]|20)(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?"
  ] .
 
 [ xsd:pattern "---(0[1-9]|[1-9][0-9])(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?"
- ] .
-
-[ xsd:pattern "--(0[1-9]|1[0-9]|20)(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?"
  ] .
 
 [ xsd:pattern "-?([1-9][0-9]{3,}|0[0-9]{3})(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?"
@@ -3377,6 +3392,9 @@ time:unitYear rdf:type time:TemporalUnit ;
 
 
 <http://www.ontologyportal.org/translations/SUMO.owl.txt#Process> rdfs:isDefinedBy <http://www.ontologyportal.org/translations/SUMO.owl.txt#> .
+
+
+rdfs:seeAlso rdfs:label "other version of event" .
 
 
 <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> rdfs:isDefinedBy <http://www.w3.org/2003/01/geo/wgs84_pos#> .
