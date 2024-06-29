@@ -142,10 +142,12 @@
 
 :PerangPasifikdariPerangDuniaII
         rdf:type      sem:Event ;
+        rdfs:label    "Perang Pasifik dari Perang Dunia II" ;
         rdfs:seeAlso  :wikipediaPerangPasifikdariPerangDuniaII .
 
 :PascaPerangDuniaKedua
         rdf:type      sem:Event ;
+        rdfs:label    "Pasca Perang Dunia Kedua" ;
         rdfs:seeAlso  :wikipediaPascaPerangDuniaKedua .
 
 :PerangDayakDesa  rdf:type  sem:Event ;
@@ -192,6 +194,7 @@
         rdfs:label  "wikipedia Perang Dunia II" .
 
 :PemberontakanDITII  rdf:type  sem:Event ;
+        rdfs:label    "Pemberontakan DI/TII" ;
         rdfs:seeAlso  :wikipediaPemberontakanDITII .
 
 :PertempuranMedanArea
@@ -200,6 +203,7 @@
         rdfs:seeAlso  :wikipediaPertempuranMedanArea .
 
 :PerangDuniaII  rdf:type  sem:Event ;
+        rdfs:label    "Perang Dunia II" ;
         rdfs:seeAlso  :wikipediaPerangDuniaII .
 
 :KonflikPapua  rdf:type  sem:Event ;
@@ -225,6 +229,7 @@
 
 :PerangKemerdekaanIndonesia
         rdf:type      sem:Event ;
+        rdfs:label    "Perang Kemerdekaan Indonesia" ;
         rdfs:seeAlso  :wikipediaPerangKemerdekaanIndonesia .
 
 :wikipediaRevolusiNasionalIndonesia
@@ -321,6 +326,7 @@
 
 :PersengketaanNuginiBaratdanDekolonisasiOseania
         rdf:type      sem:Event ;
+        rdfs:label    "Persengketaan Nugini Barat dan Dekolonisasi Oseania" ;
         rdfs:seeAlso  :wikipediaPersengketaanNuginiBaratdanDekolonisasiOseania .
 
 :wikipediaPeristiwaTigaMaret
@@ -334,6 +340,7 @@
 
 :PendudukanJepangdiKalimantanBarat
         rdf:type      sem:Event ;
+        rdfs:label    "Pendudukan Jepang di Kalimantan Barat" ;
         rdfs:seeAlso  :wikipediaPendudukanJepangdiKalimantanBarat .
 
 :RevolusiNasionalIndonesia
