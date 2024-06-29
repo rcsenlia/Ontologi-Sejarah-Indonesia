@@ -7,9 +7,13 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 
+:SeranganUmumSurakarta
+        rdfs:label    "Serangan Umum Surakarta" ;
+        rdfs:seeAlso  :wikipediaSeranganUmumSurakarta .
+
 :PerangTakhtaJawaKedua
         rdfs:label    "Perang Takhta Jawa Kedua" ;
-        rdfs:seeAlso  "wikipediaPerangTakhtaJawaKedua" .
+        rdfs:seeAlso  :wikipediaPerangTakhtaJawaKedua .
 
 :wikipediaBandungLautanApi
         rdfs:label       "wikipedia Bandung Lautan Api" ;
@@ -33,10 +37,10 @@
 
 :RevolusiNasionalIndonesia
         rdfs:label    "Revolusi Nasional Indonesia" ;
-        rdfs:seeAlso  "wikipediaRevolusiNasionalIndonesia" .
+        rdfs:seeAlso  :wikipediaRevolusiNasionalIndonesia .
 
 :PerangDiponegoro  rdfs:label  "Perang Diponegoro" ;
-        rdfs:seeAlso  "wikipediaPerangDiponegoro" .
+        rdfs:seeAlso  :wikipediaPerangDiponegoro .
 
 :wikipediaPerangBelandaPortugal
         rdfs:label       "wikipedia Perang Belanda-Portugal" ;
@@ -55,11 +59,14 @@
         sem:accordingTo  :wikipedia .
 
 :PerangJawa17411743  rdfs:label  "Perang Jawa (1741–1743)" ;
-        rdfs:seeAlso  "wikipediaPerangJawa17411743" .
+        rdfs:seeAlso  :wikipediaPerangJawa17411743 .
 
 :PerangTakhtaJawaPertama
         rdfs:label    "Perang Takhta Jawa Pertama" ;
-        rdfs:seeAlso  "wikipediaPerangTakhtaJawaPertama" .
+        rdfs:seeAlso  :wikipediaPerangTakhtaJawaPertama .
+
+:PerangBubat  rdfs:label  "Perang Bubat" ;
+        rdfs:seeAlso  :wikipediaPerangBubat .
 
 :wikipediaPeperanganeraNapoleon
         rdfs:label       "wikipedia Peperangan era Napoleon" ;
@@ -76,9 +83,6 @@
                                               ]
                          ] ;
         sem:accordingTo  :wikipedia .
-
-:PerangBubat  rdfs:label  "Perang Bubat" ;
-        rdfs:seeAlso  "wikipediaPerangBubat" .
 
 :wikipediaPemberontakanDITIIdiAceh
         rdfs:label       "wikipedia Pemberontakan DI/TII di Aceh" ;
@@ -151,11 +155,11 @@
         sem:accordingTo  :wikipedia .
 
 :PerangRegreg  rdfs:label  "Perang Regreg" ;
-        rdfs:seeAlso  "wikipediaPerangRegreg" .
+        rdfs:seeAlso  :wikipediaPerangRegreg .
 
 :KampanyeHindiaBelanda
         rdfs:label    "Kampanye Hindia Belanda" ;
-        rdfs:seeAlso  "wikipediaKampanyeHindiaBelanda" .
+        rdfs:seeAlso  :wikipediaKampanyeHindiaBelanda .
 
 :wikipediaRevolusiNasionalIndonesia
         rdfs:label       "wikipedia Revolusi Nasional Indonesia" ;
@@ -179,11 +183,11 @@
 
 :PertempuranBojongKokosan
         rdfs:label    "Pertempuran Bojong Kokosan" ;
-        rdfs:seeAlso  "wikipediaPertempuranBojongKokosan" .
+        rdfs:seeAlso  :wikipediaPertempuranBojongKokosan .
 
 :DelapanJamPertempurandiMangkang
         rdfs:label    "Delapan Jam Pertempuran di Mangkang" ;
-        rdfs:seeAlso  "wikipediaDelapanJamPertempurandiMangkang" .
+        rdfs:seeAlso  :wikipediaDelapanJamPertempurandiMangkang .
 
 :wikipediaPerangAceh  rdfs:label  "wikipedia Perang Aceh" ;
         time:hasTime     [ rdf:type           time:temporanEntity ;
@@ -227,20 +231,20 @@
         sem:accordingTo  :wikipedia .
 
 :PerangBayu  rdfs:label  "Perang Bayu" ;
-        rdfs:seeAlso  "wikipediaPerangBayu" .
+        rdfs:seeAlso  :wikipediaPerangBayu .
 
 :PerangBelasting  rdfs:label  "Perang Belasting" ;
-        rdfs:seeAlso  "wikipediaPerangBelasting" .
+        rdfs:seeAlso  :wikipediaPerangBelasting .
 
 :PeristiwaTigaMaret  rdfs:label  "Peristiwa Tiga Maret" ;
-        rdfs:seeAlso  "wikipediaPeristiwaTigaMaret" .
+        rdfs:seeAlso  :wikipediaPeristiwaTigaMaret .
 
 :IntervensiBelandadiBali1858
         rdfs:label    "Intervensi Belanda di Bali (1858)" ;
-        rdfs:seeAlso  "wikipediaIntervensiBelandadiBali1858" .
+        rdfs:seeAlso  :wikipediaIntervensiBelandadiBali1858 .
 
 :Operasi17Agustus  rdfs:label  "Operasi 17 Agustus" ;
-        rdfs:seeAlso  "wikipediaOperasi17Agustus" .
+        rdfs:seeAlso  :wikipediaOperasi17Agustus .
 
 :wikipediaPerangBelasting
         rdfs:label       "wikipedia Perang Belasting" ;
@@ -263,10 +267,10 @@
         sem:accordingTo  :wikipedia .
 
 :BandungLautanApi  rdfs:label  "Bandung Lautan Api" ;
-        rdfs:seeAlso  "wikipediaBandungLautanApi" .
+        rdfs:seeAlso  :wikipediaBandungLautanApi .
 
 :Gerakan30September  rdfs:label  "Gerakan 30 September" ;
-        rdfs:seeAlso  "wikipediaGerakan30September" .
+        rdfs:seeAlso  :wikipediaGerakan30September .
 
 :wikipediaPerangKuning
         rdfs:label       "wikipedia Perang Kuning" ;
@@ -373,10 +377,10 @@
         sem:accordingTo  :wikipedia .
 
 :KonflikPapua  rdfs:label  "Konflik Papua" ;
-        rdfs:seeAlso  "wikipediaKonflikPapua" .
+        rdfs:seeAlso  :wikipediaKonflikPapua .
 
 :InvasiMaluku  rdfs:label  "Invasi Maluku" ;
-        rdfs:seeAlso  "wikipediaInvasiMaluku" .
+        rdfs:seeAlso  :wikipediaInvasiMaluku .
 
 :wikipediaPerangTakhtaJawaKedua
         rdfs:label       "wikipedia Perang Takhta Jawa Kedua" ;
@@ -409,10 +413,10 @@
         sem:accordingTo  :wikipedia .
 
 :GegerSepehi  rdfs:label  "Geger Sepehi" ;
-        rdfs:seeAlso  "wikipediaGegerSepehi" .
+        rdfs:seeAlso  :wikipediaGegerSepehi .
 
 :PerangDayakDesa  rdfs:label  "Perang Dayak Desa" ;
-        rdfs:seeAlso  "wikipediaPerangDayakDesa" .
+        rdfs:seeAlso  :wikipediaPerangDayakDesa .
 
 :wikipediaKonflikPapua
         rdfs:label       "wikipedia Konflik Papua" ;
@@ -422,22 +426,6 @@
                                                                    time:day    "1" ;
                                                                    time:month  "10" ;
                                                                    time:year   "1962"
-                                                                 ]
-                                              ] ;
-                           time:hasEnd        [ rdf:type         time:Instant ;
-                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
-                                              ]
-                         ] ;
-        sem:accordingTo  :wikipedia .
-
-:wikipediaPeristiwaTigaMaret
-        rdfs:label       "wikipedia Peristiwa Tiga Maret" ;
-        time:hasTime     [ rdf:type           time:temporanEntity ;
-                           time:hasBeginning  [ rdf:type         time:Instant ;
-                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
-                                                                   time:day    "3" ;
-                                                                   time:month  "3" ;
-                                                                   time:year   "1947"
                                                                  ]
                                               ] ;
                            time:hasEnd        [ rdf:type         time:Instant ;
@@ -462,9 +450,25 @@
                          ] ;
         sem:accordingTo  :wikipedia .
 
+:wikipediaPeristiwaTigaMaret
+        rdfs:label       "wikipedia Peristiwa Tiga Maret" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "3" ;
+                                                                   time:month  "3" ;
+                                                                   time:year   "1947"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
 :IntervensiBelandadiBali1908
         rdfs:label    "Intervensi Belanda di Bali (1908)" ;
-        rdfs:seeAlso  "wikipediaIntervensiBelandadiBali1908" .
+        rdfs:seeAlso  :wikipediaIntervensiBelandadiBali1908 .
 
 :wikipediaPerangBayu  rdfs:label  "wikipedia Perang Bayu" ;
         time:hasTime     [ rdf:type           time:temporanEntity ;
@@ -535,18 +539,18 @@
 
 :KampanyeKalimantan1945
         rdfs:label    "Kampanye Kalimantan (1945)" ;
-        rdfs:seeAlso  "wikipediaKampanyeKalimantan1945" .
+        rdfs:seeAlso  :wikipediaKampanyeKalimantan1945 .
 
 :PenyerbuanMeesterCornelis
         rdfs:label    "Penyerbuan Meester Cornelis" ;
-        rdfs:seeAlso  "wikipediaPenyerbuanMeesterCornelis" .
+        rdfs:seeAlso  :wikipediaPenyerbuanMeesterCornelis .
 
 :SeranganUmum1Maret1949
         rdfs:label    "Serangan Umum 1 Maret 1949" ;
-        rdfs:seeAlso  "wikipediaSeranganUmum1Maret1949" .
+        rdfs:seeAlso  :wikipediaSeranganUmum1Maret1949 .
 
 :PertempuranLengkong  rdfs:label  "Pertempuran Lengkong" ;
-        rdfs:seeAlso  "wikipediaPertempuranLengkong" .
+        rdfs:seeAlso  :wikipediaPertempuranLengkong .
 
 :wikipediaGerakan30September
         rdfs:label       "wikipedia Gerakan 30 September" ;
@@ -605,7 +609,7 @@
         sem:accordingTo  :wikipedia .
 
 :Peristiwa19November  rdfs:label  "Peristiwa 19 November" ;
-        rdfs:seeAlso  "wikipediaPeristiwa19November" .
+        rdfs:seeAlso  :wikipediaPeristiwa19November .
 
 :wikipediaPertempuranLengkong
         rdfs:label       "wikipedia Pertempuran Lengkong" ;
@@ -625,7 +629,7 @@
 
 :InvasiCholakeSriwijaya
         rdfs:label    "Invasi Chola ke Sriwijaya" ;
-        rdfs:seeAlso  "wikipediaInvasiCholakeSriwijaya" .
+        rdfs:seeAlso  :wikipediaInvasiCholakeSriwijaya .
 
 :wikipediaPertempuranMelaka1641
         rdfs:label       "wikipedia Pertempuran Melaka (1641)" ;
@@ -662,11 +666,11 @@
         sem:accordingTo  :wikipedia .
 
 :PerangPadri  rdfs:label  "Perang Padri" ;
-        rdfs:seeAlso  "wikipediaPerangPadri" .
+        rdfs:seeAlso  :wikipediaPerangPadri .
 
 :PerangBelandaPortugal
         rdfs:label    "Perang Belanda-Portugal" ;
-        rdfs:seeAlso  "wikipediaPerangBelandaPortugal" .
+        rdfs:seeAlso  :wikipediaPerangBelandaPortugal .
 
 :wikipediaPertempuranKumai
         rdfs:label       "wikipedia Pertempuran Kumai" ;
@@ -686,7 +690,7 @@
 
 :PeperanganeraNapoleon
         rdfs:label    "Peperangan era Napoleon" ;
-        rdfs:seeAlso  "wikipediaPeperanganeraNapoleon" .
+        rdfs:seeAlso  :wikipediaPeperanganeraNapoleon .
 
 :wikipediaSeranganUmumSurakarta
         rdfs:label       "wikipedia Serangan Umum Surakarta" ;
@@ -705,7 +709,7 @@
         sem:accordingTo  :wikipedia .
 
 :PertempuranLimaHari  rdfs:label  "Pertempuran Lima Hari" ;
-        rdfs:seeAlso  "wikipediaPertempuranLimaHari" .
+        rdfs:seeAlso  :wikipediaPertempuranLimaHari .
 
 :wikipediaPenyerbuanMeesterCornelis
         rdfs:label       "wikipedia Penyerbuan Meester Cornelis" ;
@@ -780,7 +784,7 @@
         sem:accordingTo  :wikipedia .
 
 :PertempuranSurabaya  rdfs:label  "Pertempuran Surabaya" ;
-        rdfs:seeAlso  "wikipediaPertempuranSurabaya" .
+        rdfs:seeAlso  :wikipediaPertempuranSurabaya .
 
 :wikipediaIntervensiBelandadiBali1908
         rdfs:label       "wikipedia Intervensi Belanda di Bali (1908)" ;
@@ -802,7 +806,7 @@
 
 :PertempuranMedanArea
         rdfs:label    "Pertempuran Medan Area" ;
-        rdfs:seeAlso  "wikipediaPertempuranMedanArea" .
+        rdfs:seeAlso  :wikipediaPertempuranMedanArea .
 
 :wikipediaPertempuranSurabaya
         rdfs:label       "wikipedia Pertempuran Surabaya" ;
@@ -864,7 +868,7 @@
 
 :PerangTakhtaJawaKetiga
         rdfs:label    "Perang Takhta Jawa Ketiga" ;
-        rdfs:seeAlso  "wikipediaPerangTakhtaJawaKetiga" .
+        rdfs:seeAlso  :wikipediaPerangTakhtaJawaKetiga .
 
 :wikipediaEkspedisiPalembangII
         rdfs:label       "wikipedia Ekspedisi Palembang II" ;
@@ -953,22 +957,22 @@
 
 :SerbuanYuanMongolkeJawa
         rdfs:label    "Serbuan Yuan-Mongol ke Jawa" ;
-        rdfs:seeAlso  "wikipediaSerbuanYuanMongolkeJawa" .
+        rdfs:seeAlso  :wikipediaSerbuanYuanMongolkeJawa .
 
 :PemberontakanRadenRonggo
         rdfs:label    "Pemberontakan Raden Ronggo" ;
-        rdfs:seeAlso  "wikipediaPemberontakanRadenRonggo" .
+        rdfs:seeAlso  :wikipediaPemberontakanRadenRonggo .
 
 :PemberontakanDITIIdiAceh
         rdfs:label    "Pemberontakan DI/TII di Aceh" ;
-        rdfs:seeAlso  "wikipediaPemberontakanDITIIdiAceh" .
+        rdfs:seeAlso  :wikipediaPemberontakanDITIIdiAceh .
 
 :EkspedisiPalembangII
         rdfs:label    "Ekspedisi Palembang II" ;
-        rdfs:seeAlso  "wikipediaEkspedisiPalembangII" .
+        rdfs:seeAlso  :wikipediaEkspedisiPalembangII .
 
 :PerangAceh  rdfs:label  "Perang Aceh" ;
-        rdfs:seeAlso  "wikipediaPerangAceh" .
+        rdfs:seeAlso  :wikipediaPerangAceh .
 
 :wikipediaGegerSepehi
         rdfs:label       "wikipedia Geger Sepehi" ;
@@ -991,27 +995,27 @@
         sem:accordingTo  :wikipedia .
 
 :PertempuranKumai  rdfs:label  "Pertempuran Kumai" ;
-        rdfs:seeAlso  "wikipediaPertempuranKumai" .
+        rdfs:seeAlso  :wikipediaPertempuranKumai .
 
 :PerangPasifik  rdfs:label  "Perang Pasifik" ;
-        rdfs:seeAlso  "wikipediaPerangPasifik" .
+        rdfs:seeAlso  :wikipediaPerangPasifik .
 
 :PerangKuning  rdfs:label  "Perang Kuning" ;
-        rdfs:seeAlso  "wikipediaPerangKuning" .
+        rdfs:seeAlso  :wikipediaPerangKuning .
 
 :PenyerbuanKotabaruYogyakarta
         rdfs:label    "Penyerbuan Kotabaru Yogyakarta" ;
-        rdfs:seeAlso  "wikipediaPenyerbuanKotabaruYogyakarta" .
+        rdfs:seeAlso  :wikipediaPenyerbuanKotabaruYogyakarta .
 
 :PuputanMargarana  rdfs:label  "Puputan Margarana" ;
-        rdfs:seeAlso  "wikipediaPuputanMargarana" .
+        rdfs:seeAlso  :wikipediaPuputanMargarana .
 
 :PertempuranMelaka1641
         rdfs:label    "Pertempuran Melaka (1641)" ;
-        rdfs:seeAlso  "wikipediaPertempuranMelaka1641" .
+        rdfs:seeAlso  :wikipediaPertempuranMelaka1641 .
 
 :PerangCumbok  rdfs:label  "Perang Cumbok" ;
-        rdfs:seeAlso  "wikipediaPerangCumbok" .
+        rdfs:seeAlso  :wikipediaPerangCumbok .
 
 :wikipediaPerangTakhtaJawaPertama
         rdfs:label       "wikipedia Perang Takhta Jawa Pertama" ;
@@ -1048,7 +1052,3 @@
                                               ]
                          ] ;
         sem:accordingTo  :wikipedia .
-
-:SeranganUmumSurakarta
-        rdfs:label    "Serangan Umum Surakarta" ;
-        rdfs:seeAlso  "wikipediaSeranganUmumSurakarta" .

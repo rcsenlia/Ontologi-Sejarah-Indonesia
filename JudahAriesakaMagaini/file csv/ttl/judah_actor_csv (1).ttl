@@ -1,0 +1,1154 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:Batalyon328Kostrad  rdf:type  sem:Actor ;
+        rdfs:label  "Batalyon 328 Kostrad" .
+
+:Pesindo  rdf:type  sem:Actor ;
+        rdfs:label  "Pesindo" .
+
+:Tiongkok  rdf:type  sem:Actor ;
+        rdfs:label  "Tiongkok" .
+
+:wargasipilIndonesia  rdf:type  sem:Actor ;
+        rdfs:label  "warga sipil Indonesia" .
+
+:RevolusiNasionalIndonesia
+        rdf:type      sem:Event ;
+        rdfs:label    "Revolusi Nasional Indonesia" ;
+        rdfs:seeAlso  :wikipediaRevolusiNasionalIndonesia .
+
+:wikipediaPemberontakanPKI1948
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pemberontakan PKI 1948" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :Indonesia , :TNI , :Pesindo , :POLRI , :PBI , :FrontDemokrasiRakyat , :PSI , :PKI , :SOBSI .
+
+:SukuDayak  rdf:type  sem:Actor ;
+        rdfs:label  "Suku Dayak" .
+
+:PemudaPancasila  rdf:type  sem:Actor ;
+        rdfs:label  "Pemuda Pancasila" .
+
+:Australia  rdf:type  sem:Actor ;
+        rdfs:label  "Australia" .
+
+:Benin  rdf:type    sem:Actor ;
+        rdfs:label  "Benin" .
+
+:Gerakan30September  rdf:type  sem:Event ;
+        rdfs:label    "Gerakan 30 September" ;
+        rdfs:seeAlso  :wikipediaGerakan30September .
+
+:Meksiko  rdf:type  sem:Actor ;
+        rdfs:label  "Meksiko" .
+
+:TimorLeste  rdf:type  sem:Actor ;
+        rdfs:label  "Timor Leste" .
+
+:PasukanJihad  rdf:type  sem:Actor ;
+        rdfs:label  "Pasukan Jihad" .
+
+:CNRM   rdf:type    sem:Actor ;
+        rdfs:label  "CNRM" .
+
+:Malaysia  rdf:type  sem:Actor ;
+        rdfs:label  "Malaysia" .
+
+:Mahidi  rdf:type   sem:Actor ;
+        rdfs:label  "Mahidi" .
+
+:Brasil  rdf:type   sem:Actor ;
+        rdfs:label  "Brasil" .
+
+:KekaisaranJepang  rdf:type  sem:Actor ;
+        rdfs:label  "Kekaisaran Jepang" .
+
+:wikipedia  rdf:type  sem:Authority .
+
+:Taiwan  rdf:type   sem:Actor ;
+        rdfs:label  "Taiwan" .
+
+:Fiji   rdf:type    sem:Actor ;
+        rdfs:label  "Fiji" .
+
+:InvasiAmbon  rdf:type  sem:Event ;
+        rdfs:label    "Invasi Ambon" ;
+        rdfs:seeAlso  :wikipediaInvasiAmbon .
+
+:Samoa  rdf:type    sem:Actor ;
+        rdfs:label  "Samoa" .
+
+:KrisissanderaMapenduma
+        rdf:type      sem:Event ;
+        rdfs:label    "Krisis sandera Mapenduma" ;
+        rdfs:seeAlso  :wikipediaKrisissanderaMapenduma .
+
+:Kuba   rdf:type    sem:Actor ;
+        rdfs:label  "Kuba" .
+
+:KNIL   rdf:type    sem:Actor ;
+        rdfs:label  "KNIL" .
+
+:RepublikSovietIndonesia
+        rdf:type    sem:Actor ;
+        rdfs:label  "Republik Soviet Indonesia" .
+
+:BatalyonInfanteri711
+        rdf:type    sem:Actor ;
+        rdfs:label  "Batalyon Infanteri 711" .
+
+:Brunei  rdf:type   sem:Actor ;
+        rdfs:label  "Brunei" .
+
+:DarulIslam  rdf:type  sem:Actor ;
+        rdfs:label  "Darul Islam" .
+
+:PSI    rdf:type    sem:Actor ;
+        rdfs:label  "PSI" .
+
+:Aitarak  rdf:type  sem:Actor ;
+        rdfs:label  "Aitarak" .
+
+:AbdulkadirAliAlhabsyi
+        rdf:type    sem:Actor ;
+        rdfs:label  "Abdulkadir Ali Alhabsyi" .
+
+:PengebomanBorobudur1985
+        rdf:type      sem:Event ;
+        rdfs:label    "Pengeboman Borobudur 1985" ;
+        rdfs:seeAlso  :wikipediaPengebomanBorobudur1985 .
+
+:Spanyol  rdf:type  sem:Actor ;
+        rdfs:label  "Spanyol" .
+
+:Korem132Tadulako  rdf:type  sem:Actor ;
+        rdfs:label  "Korem 132 Tadulako" .
+
+:wikipediaPeristiwa19Agustus1966
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Peristiwa 19 Agustus 1966" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :MassapelajardanmahasiswadiBandung , :ElemenMasyarakatKotaBandungyangmasihProBungKarno .
+
+:wikipediaKerusuhanPoso
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kerusuhan Poso" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :TNI , :Korem132Tadulako , :POLRI , :PoldaSulawesiTengah , :LaskarKristus , :BatalyonInfanteri711 , :KodamWirabuana , :PolresPoso , :BrigadeManguni , :LaskarJihad , :KelelawarHitam , :MujahidinKOMPAK , :JemaahIslamiyah .
+
+:RepublikMalukuSelatan
+        rdf:type    sem:Actor ;
+        rdfs:label  "Republik Maluku Selatan" .
+
+:RepublikPapuaBarat  rdf:type  sem:Actor ;
+        rdfs:label  "Republik Papua Barat" .
+
+:Polri  rdf:type    sem:Actor ;
+        rdfs:label  "Polri" .
+
+:Tionghoa  rdf:type  sem:Actor ;
+        rdfs:label  "Tionghoa" .
+
+:NuginiBelanda  rdf:type  sem:Actor ;
+        rdfs:label  "Nugini Belanda" .
+
+:PartaiKomunisIndonesia
+        rdf:type    sem:Actor ;
+        rdfs:label  "Partai Komunis Indonesia" .
+
+:LaskarMujahidah  rdf:type  sem:Actor ;
+        rdfs:label  "Laskar Mujahidah" .
+
+:TragediTrisakti  rdf:type  sem:Event ;
+        rdfs:label    "Tragedi Trisakti" ;
+        rdfs:seeAlso  :wikipediaTragediTrisakti .
+
+:Italia  rdf:type   sem:Actor ;
+        rdfs:label  "Italia" .
+
+:TentaraNasionalKalimantanUtara
+        rdf:type    sem:Actor ;
+        rdfs:label  "Tentara Nasional Kalimantan Utara" .
+
+:wikipediaKerusuhanrasialJawaTengah1980
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kerusuhan rasial Jawa Tengah 1980" ;
+        sem:accordingTo  :wikipedia .
+
+:AngkatanPerangRatuAdil
+        rdf:type    sem:Actor ;
+        rdfs:label  "Angkatan Perang Ratu Adil" .
+
+:wikipediaInvasiIndonesiakeTimorTimur
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Invasi Indonesia ke Timor Timur" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :Kuba , :Swedia , :KoreaSelatan , :ABRI , :Australia , :PSTT , :UniSoviet , :ArabSaudi , :UDT , :FRETILIN , :AmerikaSerikat , :Taiwan , :TimorLeste , :APODETI , :Tiongkok , :Mozambik , :FALINTIL , :Indonesia .
+
+:PemberontakanPKI1948
+        rdf:type      sem:Event ;
+        rdfs:label    "Pemberontakan PKI 1948" ;
+        rdfs:seeAlso  :wikipediaPemberontakanPKI1948 .
+
+:PeristiwaTanjungPriok
+        rdf:type      sem:Event ;
+        rdfs:label    "Peristiwa Tanjung Priok" ;
+        rdfs:seeAlso  :wikipediaPeristiwaTanjungPriok .
+
+:TNI    rdf:type    sem:Actor ;
+        rdfs:label  "TNI" .
+
+:PasukanMerah  rdf:type  sem:Actor ;
+        rdfs:label  "Pasukan Merah" .
+
+:wikipediaBandungLautanApi
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Bandung Lautan Api" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :ImperiumBelanda , :Indonesia , :PemerintahanSipilHindiaBelanda , :KerajaanBelanda , :BritaniaRaya , :KekaisaranBritania , :KemaharajaanBritaniaIndia , :HindiaBelanda .
+
+:wikipediaPemberontakandiAceh
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pemberontakan di Aceh" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :LibyanArabJamahiriya , :GerakanAcehMerdeka , :AmerikaSerikat , :Indonesia .
+
+:KepulauanSolomon  rdf:type  sem:Actor ;
+        rdfs:label  "Kepulauan Solomon" .
+
+:TentaraNasionalIndonesiaAngkatanDarat
+        rdf:type    sem:Actor ;
+        rdfs:label  "Tentara Nasional Indonesia Angkatan Darat" .
+
+:wikipediaPembantaianBeutongAteueh
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pembantaian Beutong Ateueh" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :Batalyon328Kostrad , :Korem011Lilawangsa .
+
+:Rusia  rdf:type    sem:Actor ;
+        rdfs:label  "Rusia" .
+
+:KodamWirabuana  rdf:type  sem:Actor ;
+        rdfs:label  "Kodam Wirabuana" .
+
+:JemaahIslamiyah  rdf:type  sem:Actor ;
+        rdfs:label  "Jemaah Islamiyah" .
+
+:KerusuhanSambas  rdf:type  sem:Event ;
+        rdfs:label    "Kerusuhan Sambas" ;
+        rdfs:seeAlso  :wikipediaKerusuhanSambas .
+
+:LaskarInngBal  rdf:type  sem:Actor ;
+        rdfs:label  "Laskar Inöng Balè" .
+
+:BIN    rdf:type    sem:Actor ;
+        rdfs:label  "BIN" .
+
+:Brimob  rdf:type   sem:Actor ;
+        rdfs:label  "Brimob" .
+
+:PertempuranSungeiKoemba
+        rdf:type      sem:Event ;
+        rdfs:label    "Pertempuran Sungei Koemba" ;
+        rdfs:seeAlso  :wikipediaPertempuranSungeiKoemba .
+
+:LaskarJihad  rdf:type  sem:Actor ;
+        rdfs:label  "Laskar Jihad" .
+
+:wikipediaPengebomanBorobudur1985
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pengeboman Borobudur 1985" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :HuseinAliAlhabsyi , :AbdulkadirAliAlhabsyi , :MohammadJawad .
+
+:UNTAET  rdf:type   sem:Actor ;
+        rdfs:label  "UNTAET" .
+
+:OperasiTrikora  rdf:type  sem:Event ;
+        rdfs:label    "Operasi Trikora" ;
+        rdfs:seeAlso  :wikipediaOperasiTrikora .
+
+:SOBSI  rdf:type    sem:Actor ;
+        rdfs:label  "SOBSI" .
+
+:KerajaanBelanda  rdf:type  sem:Actor ;
+        rdfs:label  "Kerajaan Belanda" .
+
+:KonfrontasiIndonesiaMalaysia
+        rdf:type      sem:Event ;
+        rdfs:label    "Konfrontasi Indonesia–Malaysia" ;
+        rdfs:seeAlso  :wikipediaKonfrontasiIndonesiaMalaysia .
+
+:Kanada  rdf:type   sem:Actor ;
+        rdfs:label  "Kanada" .
+
+:PDRI   rdf:type    sem:Actor ;
+        rdfs:label  "PDRI" .
+
+:CIA    rdf:type    sem:Actor ;
+        rdfs:label  "CIA" .
+
+:wikipediaSerangankeLimbang
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Serangan ke Limbang" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :TentaraNasionalKalimantanUtara , :BritaniaRaya .
+
+:wikipediaOperasi17Agustus
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Operasi 17 Agustus" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :PRRI , :Indonesia .
+
+:wikipediaPembantaianGerejaLiqui
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pembantaian Gereja Liquiçá" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :UmatKatolikTimorTimur .
+
+:wikipediaPendaratandiLabis
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pendaratan di Labis" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :Indonesia , :SelandiaBaru , :BritaniaRaya , :Malaysia .
+
+:AgresiMiliterBelandaII
+        rdf:type      sem:Event ;
+        rdfs:label    "Agresi Militer Belanda II" ;
+        rdfs:seeAlso  :wikipediaAgresiMiliterBelandaII .
+
+:wikipediaPembakaranPlazaSentralKlender
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pembakaran Plaza Sentral Klender" ;
+        sem:accordingTo  :wikipedia .
+
+:TragediSemanggi  rdf:type  sem:Event ;
+        rdfs:label    "Tragedi Semanggi" ;
+        rdfs:seeAlso  :wikipediaTragediSemanggi .
+
+:Zambia  rdf:type   sem:Actor ;
+        rdfs:label  "Zambia" .
+
+:wikipediaPeristiwaTanjungPriok
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Peristiwa Tanjung Priok" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :WargamuslimTanjungPriok , :TentaraNasionalIndonesia .
+
+:UDT    rdf:type    sem:Actor ;
+        rdfs:label  "UDT" .
+
+:KemaharajaanBritaniaIndia
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kemaharajaan Britania India" .
+
+:Peristiwa27Juli  rdf:type  sem:Event ;
+        rdfs:label    "Peristiwa 27 Juli" ;
+        rdfs:seeAlso  :wikipediaPeristiwa27Juli .
+
+:Jerman  rdf:type   sem:Actor ;
+        rdfs:label  "Jerman" .
+
+:Permesta  rdf:type   sem:Actor , sem:Event ;
+        rdfs:label    "Permesta" ;
+        rdfs:seeAlso  :wikipediaPermesta .
+
+:KoreaSelatan  rdf:type  sem:Actor ;
+        rdfs:label  "Korea Selatan" .
+
+:Yordania  rdf:type  sem:Actor ;
+        rdfs:label  "Yordania" .
+
+:Tuvalu  rdf:type   sem:Actor ;
+        rdfs:label  "Tuvalu" .
+
+:wikipediaOperasiTrisula
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Operasi Trisula" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :PartaiKomunisIndonesia , :Brimob , :Polri , :TNI .
+
+:SukuMelayu  rdf:type  sem:Actor ;
+        rdfs:label  "Suku Melayu" .
+
+:Laksaur  rdf:type  sem:Actor ;
+        rdfs:label  "Laksaur" .
+
+:Nigeria  rdf:type  sem:Actor ;
+        rdfs:label  "Nigeria" .
+
+:KerusuhanrasialJawaTengah1980
+        rdf:type      sem:Event ;
+        rdfs:label    "Kerusuhan rasial Jawa Tengah 1980" ;
+        rdfs:seeAlso  :wikipediaKerusuhanrasialJawaTengah1980 .
+
+:PKKU   rdf:type    sem:Actor ;
+        rdfs:label  "PKKU" .
+
+:Polandia  rdf:type  sem:Actor ;
+        rdfs:label  "Polandia" .
+
+:Uruguay  rdf:type  sem:Actor ;
+        rdfs:label  "Uruguay" .
+
+:INTERFET  rdf:type  sem:Actor ;
+        rdfs:label  "INTERFET" .
+
+:Argentina  rdf:type  sem:Actor ;
+        rdfs:label  "Argentina" .
+
+:SerangankeLimbang  rdf:type  sem:Event ;
+        rdfs:label    "Serangan ke Limbang" ;
+        rdfs:seeAlso  :wikipediaSerangankeLimbang .
+
+:FALINTIL  rdf:type  sem:Actor ;
+        rdfs:label  "FALINTIL" .
+
+:PendaratandiLabis  rdf:type  sem:Event ;
+        rdfs:label    "Pendaratan di Labis" ;
+        rdfs:seeAlso  :wikipediaPendaratandiLabis .
+
+:wikipediaPeristiwaArfai
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Peristiwa Arfai" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :OrganisasiPapuaMerdeka , :RepublikPapuaBarat , :Indonesia .
+
+:MujahidinKOMPAK  rdf:type  sem:Actor ;
+        rdfs:label  "Mujahidin KOMPAK" .
+
+:Tajikistan  rdf:type  sem:Actor ;
+        rdfs:label  "Tajikistan" .
+
+:Fretilin  rdf:type  sem:Actor ;
+        rdfs:label  "Fretilin" .
+
+:wikipediaTragediTrisakti
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Tragedi Trisakti" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :TentaraNasionalIndonesiaAngkatanDarat , :UniversitasTrisakti .
+
+:Tonga  rdf:type    sem:Actor ;
+        rdfs:label  "Tonga" .
+
+:PSTT   rdf:type    sem:Actor ;
+        rdfs:label  "PSTT" .
+
+:PengebomanMasjidNurulIman1976
+        rdf:type      sem:Event ;
+        rdfs:label    "Pengeboman Masjid Nurul Iman 1976" ;
+        rdfs:seeAlso  :wikipediaPengebomanMasjidNurulIman1976 .
+
+:BosniadanHerzegovina
+        rdf:type    sem:Actor ;
+        rdfs:label  "Bosnia dan Herzegovina" .
+
+:NegaraIslamIndonesia
+        rdf:type    sem:Actor ;
+        rdfs:label  "Negara Islam Indonesia" .
+
+:PBI    rdf:type    sem:Actor ;
+        rdfs:label  "PBI" .
+
+:Palau  rdf:type    sem:Actor ;
+        rdfs:label  "Palau" .
+
+:SriLanka  rdf:type  sem:Actor ;
+        rdfs:label  "Sri Lanka" .
+
+:GenosidaTimorTimur  rdf:type  sem:Event ;
+        rdfs:label    "Genosida Timor Timur" ;
+        rdfs:seeAlso  :wikipediaGenosidaTimorTimur .
+
+:PemberontakandiAceh  rdf:type  sem:Event ;
+        rdfs:label    "Pemberontakan di Aceh" ;
+        rdfs:seeAlso  :wikipediaPemberontakandiAceh .
+
+:wikipediaKonfrontasiIndonesiaMalaysia
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Konfrontasi Indonesia–Malaysia" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :Filipina , :Tiongkok , :UniSoviet , :PRB , :SelandiaBaru , :Malaysia , :Indonesia , :PersemakmuranBangsaBangsa , :Australia , :Singapura , :PKKU , :Brunei , :BritaniaRaya , :AmerikaSerikat , :VietnamUtara , :Kanada , :PKI .
+
+:Thailand  rdf:type  sem:Actor ;
+        rdfs:label  "Thailand" .
+
+:OperasimiliterIndonesiadiAceh19901998
+        rdf:type      sem:Event ;
+        rdfs:label    "Operasi militer Indonesia di Aceh 1990-1998" ;
+        rdfs:seeAlso  :wikipediaOperasimiliterIndonesiadiAceh19901998 .
+
+:wikipediaKerusuhanSambas
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kerusuhan Sambas" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :SukuMadura , :SukuDayak , :SukuMelayu .
+
+:InvasiIndonesiakeTimorTimur
+        rdf:type      sem:Event ;
+        rdfs:label    "Invasi Indonesia ke Timor Timur" ;
+        rdfs:seeAlso  :wikipediaInvasiIndonesiakeTimorTimur .
+
+:BandungLautanApi  rdf:type  sem:Event ;
+        rdfs:label    "Bandung Lautan Api" ;
+        rdfs:seeAlso  :wikipediaBandungLautanApi .
+
+:Kopassus  rdf:type  sem:Actor ;
+        rdfs:label  "Kopassus" .
+
+:wikipediaKonfliksektarianMaluku
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Konflik sektarian Maluku" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :JemaahIslamiyah , :LaskarMujahidin , :PemudaPancasila , :LaskarKristus , :KomandoJihad , :DesaSabaleh , :KepolisianNegaraRepublikIndonesia , :Indonesia , :PasukanJihad , :PasukanKuning , :BrigadeManguni , :PasukanMerah , :TentaraNasionalIndonesia , :FrontPembelaIslam , :LaskarMujahidah , :FrontKedaulatanMaluku , :LaskarJihad .
+
+:HindiaBelanda  rdf:type  sem:Actor ;
+        rdfs:label  "Hindia Belanda" .
+
+:Peristiwa19Agustus1966
+        rdf:type      sem:Event ;
+        rdfs:label    "Peristiwa 19 Agustus 1966" ;
+        rdfs:seeAlso  :wikipediaPeristiwa19Agustus1966 .
+
+:KerusuhanPoso  rdf:type  sem:Event ;
+        rdfs:label    "Kerusuhan Poso" ;
+        rdfs:seeAlso  :wikipediaKerusuhanPoso .
+
+:Zimbabwe  rdf:type  sem:Actor ;
+        rdfs:label  "Zimbabwe" .
+
+:PertempuranLautAru  rdf:type  sem:Event ;
+        rdfs:label    "Pertempuran Laut Aru" ;
+        rdfs:seeAlso  :wikipediaPertempuranLautAru .
+
+:DesaSabaleh  rdf:type  sem:Actor ;
+        rdfs:label  "Desa Sabaleh" .
+
+:Nauru  rdf:type    sem:Actor ;
+        rdfs:label  "Nauru" .
+
+:PembakaranPlazaSentralKlender
+        rdf:type      sem:Event ;
+        rdfs:label    "Pembakaran Plaza Sentral Klender" ;
+        rdfs:seeAlso  :wikipediaPembakaranPlazaSentralKlender .
+
+:Libya  rdf:type    sem:Actor ;
+        rdfs:label  "Libya" .
+
+:UniversitasTrisakti  rdf:type  sem:Actor ;
+        rdfs:label  "Universitas Trisakti" .
+
+:Mesir  rdf:type    sem:Actor ;
+        rdfs:label  "Mesir" .
+
+:PembantaianGerejaSuai
+        rdf:type      sem:Event ;
+        rdfs:label    "Pembantaian Gereja Suai" ;
+        rdfs:seeAlso  :wikipediaPembantaianGerejaSuai .
+
+:Ukraina  rdf:type  sem:Actor ;
+        rdfs:label  "Ukraina" .
+
+:wikipediaGerakan30September
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Gerakan 30 September" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :TNI , :ResimenTjakrabirawa .
+
+:Bolivia  rdf:type  sem:Actor ;
+        rdfs:label  "Bolivia" .
+
+:Belanda  rdf:type  sem:Actor ;
+        rdfs:label  "Belanda" .
+
+:LibyanArabJamahiriya
+        rdf:type    sem:Actor ;
+        rdfs:label  "Libyan Arab Jamahiriya" .
+
+:wikipediaKerusuhanBanjarmasin
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kerusuhan Banjarmasin" ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPeristiwa27Juli
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Peristiwa 27 Juli" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :TentaraNasionalIndonesiaAngkatanDarat , :PemudaPancasila , :PemerintahOrdeBaru , :PendukungMegawatiSoekarnoputri .
+
+:TentaraKekaisaranJepang
+        rdf:type    sem:Actor ;
+        rdfs:label  "Tentara Kekaisaran Jepang" .
+
+:VietnamUtara  rdf:type  sem:Actor ;
+        rdfs:label  "Vietnam Utara" .
+
+:WargaTimorTimur  rdf:type  sem:Actor ;
+        rdfs:label  "Warga Timor Timur" .
+
+:KepolisianNegaraRepublikIndonesia
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kepolisian Negara Republik Indonesia" .
+
+:PemerintahanSipilHindiaBelanda
+        rdf:type    sem:Actor ;
+        rdfs:label  "Pemerintahan Sipil Hindia Belanda" .
+
+:Peru   rdf:type    sem:Actor ;
+        rdfs:label  "Peru" .
+
+:KekaisaranBritania  rdf:type  sem:Actor ;
+        rdfs:label  "Kekaisaran Britania" .
+
+:Chili  rdf:type    sem:Actor ;
+        rdfs:label  "Chili" .
+
+:SeranganUmum1Maret1949
+        rdf:type      sem:Event ;
+        rdfs:label    "Serangan Umum 1 Maret 1949" ;
+        rdfs:seeAlso  :wikipediaSeranganUmum1Maret1949 .
+
+:Operasi17Agustus  rdf:type  sem:Event ;
+        rdfs:label    "Operasi 17 Agustus" ;
+        rdfs:seeAlso  :wikipediaOperasi17Agustus .
+
+:Austria  rdf:type  sem:Actor ;
+        rdfs:label  "Austria" .
+
+:TimorTimur  rdf:type  sem:Actor ;
+        rdfs:label  "Timor Timur" .
+
+:PRRI   rdf:type    sem:Actor ;
+        rdfs:label  "PRRI" .
+
+:PembantaianSantaCruz
+        rdf:type      sem:Event ;
+        rdfs:label    "Pembantaian Santa Cruz" ;
+        rdfs:seeAlso  :wikipediaPembantaianSantaCruz .
+
+:Jepang  rdf:type   sem:Actor ;
+        rdfs:label  "Jepang" .
+
+:KomandoJihad  rdf:type  sem:Actor ;
+        rdfs:label  "Komando Jihad" .
+
+:LaskarKristus  rdf:type  sem:Actor ;
+        rdfs:label  "Laskar Kristus" .
+
+:PembantaianBeutongAteueh
+        rdf:type      sem:Event ;
+        rdfs:label    "Pembantaian Beutong Ateueh" ;
+        rdfs:seeAlso  :wikipediaPembantaianBeutongAteueh .
+
+:Swedia  rdf:type   sem:Actor ;
+        rdfs:label  "Swedia" .
+
+:PembantaianGerejaLiqui
+        rdf:type      sem:Event ;
+        rdfs:label    "Pembantaian Gereja Liquiçá" ;
+        rdfs:seeAlso  :wikipediaPembantaianGerejaLiqui .
+
+:AbanganJawa  rdf:type  sem:Actor ;
+        rdfs:label  "Abangan Jawa" .
+
+:wikipediaKerusuhanMei1998
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kerusuhan Mei 1998" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :KorpsBrigadeMobil , :Indonesia , :KepolisianNegaraRepublikIndonesia , :MegawatiSoekarnoputri , :BadanIntelijenNegaraIndonesia , :Tionghoa , :KodamJayakarta , :TentaraNasionalIndonesia , :wargasipilIndonesia .
+
+:wikipediaKejatuhanSoeharto
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kejatuhan Soeharto" ;
+        sem:accordingTo  :wikipedia .
+
+:BesiMerahPutih  rdf:type  sem:Actor ;
+        rdfs:label  "Besi Merah Putih" .
+
+:SelandiaBaru  rdf:type  sem:Actor ;
+        rdfs:label  "Selandia Baru" .
+
+:Mozambik  rdf:type  sem:Actor ;
+        rdfs:label  "Mozambik" .
+
+:GardaMudaPenegakIntegrasi
+        rdf:type    sem:Actor ;
+        rdfs:label  "Garda Muda Penegak Integrasi" .
+
+:Senegal  rdf:type  sem:Actor ;
+        rdfs:label  "Senegal" .
+
+:ResimenTjakrabirawa  rdf:type  sem:Actor ;
+        rdfs:label  "Resimen Tjakrabirawa" .
+
+:wikipediaPembantaianGerejaSuai
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pembantaian Gereja Suai" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :UmatKatolikTimorTimur .
+
+:KesultananPontianak  rdf:type  sem:Actor ;
+        rdfs:label  "Kesultanan Pontianak" .
+
+:Filipina  rdf:type  sem:Actor ;
+        rdfs:label  "Filipina" .
+
+:Gambia  rdf:type   sem:Actor ;
+        rdfs:label  "Gambia" .
+
+:PRB    rdf:type    sem:Actor ;
+        rdfs:label  "PRB" .
+
+:wikipediaKampanyeHindiaBelanda
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kampanye Hindia Belanda" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :KekaisaranJepang , :ABDACommand , :AmerikaSerikat , :Belanda , :SelandiaBaru , :BritaniaRaya , :HindiaBelanda , :Australia .
+
+:TentaraNasionalIndonesia
+        rdf:type    sem:Actor ;
+        rdfs:label  "Tentara Nasional Indonesia " , "Tentara Nasional Indonesia" .
+
+:Indonesia  rdf:type  sem:Actor ;
+        rdfs:label  "Indonesia" .
+
+:Ghana  rdf:type    sem:Actor ;
+        rdfs:label  "Ghana" .
+
+:POLRI  rdf:type    sem:Actor ;
+        rdfs:label  "POLRI" .
+
+:PasukanKuning  rdf:type  sem:Actor ;
+        rdfs:label  "Pasukan Kuning" .
+
+:PKI    rdf:type    sem:Actor ;
+        rdfs:label  "PKI" .
+
+:Turki  rdf:type    sem:Actor ;
+        rdfs:label  "Turki" .
+
+:SukuMadura  rdf:type  sem:Actor ;
+        rdfs:label  "Suku Madura" .
+
+:APODETI  rdf:type  sem:Actor ;
+        rdfs:label  "APODETI" .
+
+:KerusuhanBanjarmasin
+        rdf:type      sem:Event ;
+        rdfs:label    "Kerusuhan Banjarmasin" ;
+        rdfs:seeAlso  :wikipediaKerusuhanBanjarmasin .
+
+:wikipediaKrisisTimorTimur1999
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Krisis Timor Timur 1999" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :Kanada , :SelandiaBaru , :Samoa , :TimorLeste , :Ghana , :Zimbabwe , :Tajikistan , :Denmark , :Uruguay , :Slovenia , :Meksiko , :Australia , :Nigeria , :SriLanka , :BesiMerahPutih , :Aitarak , :Yordania , :Mesir , :MilisiproIndonesia , :Rusia , :Namibia , :Italia , :INTERFET , :Laksaur , :Bulgaria , :Singapura , :Kopassus , :Mahidi , :Zambia , :Mozambik , :Ukraina , :Prancis , :Argentina , :GardaMudaPenegakIntegrasi , :Benin , :SerbiadanMontenegro , :BosniadanHerzegovina , :Spanyol , :Senegal , :KoreaSelatan , :Kenya , :BritaniaRaya , :Bolivia , :Slowakia , :Nepal , :Tiongkok , :Turki , :Israel , :Jerman , :Swedia , :Pakistan , :Jepang , :Brasil , :Fiji , :Kroasia , :Bangladesh , :BIN , :Gambia , :Irlandia , :LobiJakarta , :AmerikaSerikat , :Chili , :Thailand , :Filipina , :Niger , :Malaysia , :Austria , :Portugal , :Peru , :UNTAET , :Norway , :Vanuatu .
+
+:BrigadeManguni  rdf:type  sem:Actor ;
+        rdfs:label  "Brigade Manguni" .
+
+:wikipediaSeranganUmum1Maret1949
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Serangan Umum 1 Maret 1949" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :Belanda , :Indonesia .
+
+:wikipediaPermesta  rdf:type  sem:View ;
+        rdfs:label       "wikipedia Permesta" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :Taiwan , :AmerikaSerikat , :Indonesia , :Permesta , :Filipina , :CIA , :Polandia , :PRRI .
+
+:KemaharajaanBritania
+        rdf:type    sem:Actor ;
+        rdfs:label  "Kemaharajaan Britania" .
+
+:PendudukanIndonesiaatasTimorTimur
+        rdf:type      sem:Event ;
+        rdfs:label    "Pendudukan Indonesia atas Timor Timur" ;
+        rdfs:seeAlso  :wikipediaPendudukanIndonesiaatasTimorTimur .
+
+:KejatuhanSoeharto  rdf:type  sem:Event ;
+        rdfs:label    "Kejatuhan Soeharto" ;
+        rdfs:seeAlso  :wikipediaKejatuhanSoeharto .
+
+:AmerikaSerikat  rdf:type  sem:Actor ;
+        rdfs:label  "Amerika Serikat" .
+
+:wikipediaPendudukanIndonesiaatasTimorTimur
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pendudukan Indonesia atas Timor Timur" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :UniSoviet , :KoreaSelatan , :Libya , :Thailand , :UDT , :Indonesia , :Mozambik , :Australia , :CNRM , :AmerikaSerikat , :Kanada , :Filipina , :Fretilin , :TimorLeste , :TimorTimur , :Jepang , :Malaysia , :Rusia , :BritaniaRaya , :Portugal , :Tiongkok .
+
+:OrganisasiPapuaMerdeka
+        rdf:type    sem:Actor ;
+        rdfs:label  "Organisasi Papua Merdeka" .
+
+:FrontPembelaIslam  rdf:type  sem:Actor ;
+        rdfs:label  "Front Pembela Islam" .
+
+:Israel  rdf:type   sem:Actor ;
+        rdfs:label  "Israel" .
+
+:OperasiTrisula  rdf:type  sem:Event ;
+        rdfs:label    "Operasi Trisula" ;
+        rdfs:seeAlso  :wikipediaOperasiTrisula .
+
+:MegawatiSoekarnoputri
+        rdf:type    sem:Actor ;
+        rdfs:label  "Megawati Soekarnoputri" .
+
+:BritaniaRaya  rdf:type  sem:Actor ;
+        rdfs:label  "Britania Raya" .
+
+:wikipediaPertempuranSungeiKoemba
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Sungei Koemba" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :Indonesia , :Australia .
+
+:Singapura  rdf:type  sem:Actor ;
+        rdfs:label  "Singapura" .
+
+:PaoAnTui  rdf:type  sem:Actor ;
+        rdfs:label  "Pao An Tui" .
+
+:wikipediaPengebomanMasjidNurulIman1976
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pengeboman Masjid Nurul Iman 1976" ;
+        sem:accordingTo  :wikipedia .
+
+:TentaraNasionalAceh  rdf:type  sem:Actor ;
+        rdfs:label  "Tentara Nasional Aceh" .
+
+:Niger  rdf:type    sem:Actor ;
+        rdfs:label  "Niger" .
+
+:FrontDemokrasiRakyat
+        rdf:type    sem:Actor ;
+        rdfs:label  "Front Demokrasi Rakyat" .
+
+:KonfliksektarianMaluku
+        rdf:type      sem:Event ;
+        rdfs:label    "Konflik sektarian Maluku" ;
+        rdfs:seeAlso  :wikipediaKonfliksektarianMaluku .
+
+:wikipediaKrisissanderaMapenduma
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Krisis sandera Mapenduma" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :RepublikPapuaBarat , :Indonesia .
+
+:wikipediaOperasiJayapura1976
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Operasi Jayapura 1976" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :RepublikPapuaBarat , :Indonesia .
+
+:Portugal  rdf:type  sem:Actor ;
+        rdfs:label  "Portugal" .
+
+:KorpsBrigadeMobil  rdf:type  sem:Actor ;
+        rdfs:label  "Korps Brigade Mobil" .
+
+:PeristiwaArfai  rdf:type  sem:Event ;
+        rdfs:label    "Peristiwa Arfai" ;
+        rdfs:seeAlso  :wikipediaPeristiwaArfai .
+
+:wikipediaPenculikanaktivis19971998
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Penculikan aktivis 1997/1998" ;
+        sem:accordingTo  :wikipedia .
+
+:HuseinAliAlhabsyi  rdf:type  sem:Actor ;
+        rdfs:label  "Husein Ali Alhabsyi" .
+
+:AngkatanBersenjataRepublikIndonesia
+        rdf:type    sem:Actor ;
+        rdfs:label  "Angkatan Bersenjata Republik Indonesia" .
+
+:Bulgaria  rdf:type  sem:Actor ;
+        rdfs:label  "Bulgaria" .
+
+:wikipediaOperasimiliterIndonesiadiAceh19901998
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Operasi militer Indonesia di Aceh 1990-1998" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :LaskarInngBal , :TentaraNasionalAceh , :GerakanAcehMerdeka , :AmerikaSerikat , :AngkatanBersenjataRepublikIndonesia , :Indonesia .
+
+:PemberontakanDarulIslam
+        rdf:type      sem:Event ;
+        rdfs:label    "Pemberontakan Darul Islam" ;
+        rdfs:seeAlso  :wikipediaPemberontakanDarulIslam .
+
+:Prancis  rdf:type  sem:Actor ;
+        rdfs:label  "Prancis" .
+
+:PoldaSulawesiTengah  rdf:type  sem:Actor ;
+        rdfs:label  "Polda Sulawesi Tengah" .
+
+:Slovenia  rdf:type  sem:Actor ;
+        rdfs:label  "Slovenia" .
+
+:TentaraIndia  rdf:type  sem:Actor ;
+        rdfs:label  "Tentara India" .
+
+:SerbiadanMontenegro  rdf:type  sem:Actor ;
+        rdfs:label  "Serbia dan Montenegro" .
+
+:MohammadJawad  rdf:type  sem:Actor ;
+        rdfs:label  "Mohammad Jawad" .
+
+:Vanuatu  rdf:type  sem:Actor ;
+        rdfs:label  "Vanuatu" .
+
+:wikipediaOperasiTrikora
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Operasi Trikora" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :NuginiBelanda , :Belanda , :UniSoviet , :Indonesia .
+
+:Malari  rdf:type     sem:Event ;
+        rdfs:label    "Malari" ;
+        rdfs:seeAlso  :wikipediaMalari .
+
+:Slowakia  rdf:type  sem:Actor ;
+        rdfs:label  "Slowakia" .
+
+:KrisisTimorTimur1999
+        rdf:type      sem:Event ;
+        rdfs:label    "Krisis Timor Timur 1999" ;
+        rdfs:seeAlso  :wikipediaKrisisTimorTimur1999 .
+
+:InsidenPenembakanTimika1996
+        rdf:type      sem:Event ;
+        rdfs:label    "Insiden Penembakan Timika 1996" ;
+        rdfs:seeAlso  :wikipediaInsidenPenembakanTimika1996 .
+
+:Nepal  rdf:type    sem:Actor ;
+        rdfs:label  "Nepal" .
+
+:KelelawarHitam  rdf:type  sem:Actor ;
+        rdfs:label  "Kelelawar Hitam" .
+
+:WargamuslimTanjungPriok
+        rdf:type    sem:Actor ;
+        rdfs:label  "Warga muslim Tanjung Priok" .
+
+:Norway  rdf:type   sem:Actor ;
+        rdfs:label  "Norway" .
+
+:wikipediaMalari  rdf:type  sem:View ;
+        rdfs:label       "wikipedia Malari" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :PemerintahOrdeBaru , :MahasiswaIndonesiadanmasyarakatmiskinperkotaan .
+
+:PolresPoso  rdf:type  sem:Actor ;
+        rdfs:label  "Polres Poso" .
+
+:MilisiproIndonesia  rdf:type  sem:Actor ;
+        rdfs:label  "Milisi pro-Indonesia" .
+
+:MassapelajardanmahasiswadiBandung
+        rdf:type    sem:Actor ;
+        rdfs:label  "Massa pelajar dan mahasiswa di Bandung" .
+
+:KodamJayakarta  rdf:type  sem:Actor ;
+        rdfs:label  "Kodam Jayakarta" .
+
+:Penculikanaktivis19971998
+        rdf:type      sem:Event ;
+        rdfs:label    "Penculikan aktivis 1997/1998" ;
+        rdfs:seeAlso  :wikipediaPenculikanaktivis19971998 .
+
+:KonflikPapua  rdf:type  sem:Event ;
+        rdfs:label    "Konflik Papua" ;
+        rdfs:seeAlso  :wikipediaKonflikPapua .
+
+:Gerwani  rdf:type  sem:Actor ;
+        rdfs:label  "Gerwani" .
+
+:ElemenMasyarakatKotaBandungyangmasihProBungKarno
+        rdf:type    sem:Actor ;
+        rdfs:label  "Elemen Masyarakat Kota Bandung yang masih Pro Bung Karno" .
+
+:Pakistan  rdf:type  sem:Actor ;
+        rdfs:label  "Pakistan" .
+
+:PersemakmuranBangsaBangsa
+        rdf:type    sem:Actor ;
+        rdfs:label  "Persemakmuran Bangsa-Bangsa" .
+
+:wikipediaPemberontakanDarulIslam
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pemberontakan Darul Islam" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :LegiunRatuAdil , :NegaraIslamIndonesia , :Indonesia .
+
+:ABDACommand  rdf:type  sem:Actor ;
+        rdfs:label  "ABDA Command" .
+
+:Kroasia  rdf:type  sem:Actor ;
+        rdfs:label  "Kroasia" .
+
+:India  rdf:type    sem:Actor ;
+        rdfs:label  "India" .
+
+:wikipediaGenosidaTimorTimur
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Genosida Timor Timur" ;
+        sem:accordingTo  :wikipedia .
+
+:LaskarMujahidin  rdf:type  sem:Actor ;
+        rdfs:label  "Laskar Mujahidin" .
+
+:KerusuhanMei1998  rdf:type  sem:Event ;
+        rdfs:label    "Kerusuhan Mei 1998" ;
+        rdfs:seeAlso  :wikipediaKerusuhanMei1998 .
+
+:Irlandia  rdf:type  sem:Actor ;
+        rdfs:label  "Irlandia" .
+
+:FrontKedaulatanMaluku
+        rdf:type    sem:Actor ;
+        rdfs:label  "Front Kedaulatan Maluku" .
+
+:LobiJakarta  rdf:type  sem:Actor ;
+        rdfs:label  "Lobi Jakarta" .
+
+:UniSoviet  rdf:type  sem:Actor ;
+        rdfs:label  "Uni Soviet" .
+
+:ImperiumBelanda  rdf:type  sem:Actor ;
+        rdfs:label  "Imperium Belanda" .
+
+:BadanIntelijenNegaraIndonesia
+        rdf:type    sem:Actor ;
+        rdfs:label  "Badan Intelijen Negara Indonesia" .
+
+:MahasiswaIndonesiadanmasyarakatmiskinperkotaan
+        rdf:type    sem:Actor ;
+        rdfs:label  "Mahasiswa Indonesia dan masyarakat miskin perkotaan" .
+
+:NICA   rdf:type    sem:Actor ;
+        rdfs:label  "NICA" .
+
+:wikipediaRevolusiNasionalIndonesia
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Revolusi Nasional Indonesia" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :BritaniaRaya , :DarulIslam , :KorpsBrigadeMobil , :Belanda , :TentaraIndia , :KekaisaranJepang , :TNI , :RepublikSovietIndonesia , :AngkatanPerangRatuAdil , :NICA , :PaoAnTui , :PDRI , :KesultananPontianak , :UniSoviet , :Australia , :AmerikaSerikat , :KNIL , :TentaraKekaisaranJepang , :Indonesia , :KemaharajaanBritania , :India , :HindiaBelanda .
+
+:PapuaNugini  rdf:type  sem:Actor ;
+        rdfs:label  "Papua Nugini" .
+
+:wikipediaKonflikPapua
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Konflik Papua" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :Samoa , :AmerikaSerikat , :PapuaNugini , :Tonga , :OrganisasiPapuaMerdeka , :KepulauanSolomon , :Vanuatu , :Nauru , :Fiji , :Tuvalu , :Australia , :UniSoviet , :Libya , :Indonesia , :Palau .
+
+:GerakanAcehMerdeka  rdf:type  sem:Actor ;
+        rdfs:label  "Gerakan Aceh Merdeka" .
+
+:FRETILIN  rdf:type  sem:Actor ;
+        rdfs:label  "FRETILIN" .
+
+:LegiunRatuAdil  rdf:type  sem:Actor ;
+        rdfs:label  "Legiun Ratu Adil" .
+
+:UmatKatolikTimorTimur
+        rdf:type    sem:Actor ;
+        rdfs:label  "Umat Katolik Timor Timur" .
+
+:wikipediaInvasiAmbon
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Invasi Ambon" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :RepublikMalukuSelatan , :Indonesia .
+
+:wikipediaPertempuranLautAru
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Laut Aru" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :Belanda , :Indonesia .
+
+:ArabSaudi  rdf:type  sem:Actor ;
+        rdfs:label  "Arab Saudi" .
+
+:Korem011Lilawangsa  rdf:type  sem:Actor ;
+        rdfs:label  "Korem 011/Lilawangsa" .
+
+:KampanyeHindiaBelanda
+        rdf:type      sem:Event ;
+        rdfs:label    "Kampanye Hindia Belanda" ;
+        rdfs:seeAlso  :wikipediaKampanyeHindiaBelanda .
+
+:wikipediaPembantaiandiIndonesia19651966
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pembantaian di Indonesia 1965–1966" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :AbanganJawa , :Gerwani , :PKI .
+
+:Bangladesh  rdf:type  sem:Actor ;
+        rdfs:label  "Bangladesh" .
+
+:wikipediaAgresiMiliterBelandaII
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Agresi Militer Belanda II" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :Belanda , :Indonesia .
+
+:PendukungMegawatiSoekarnoputri
+        rdf:type    sem:Actor ;
+        rdfs:label  "Pendukung Megawati Soekarnoputri" .
+
+:ABRI   rdf:type    sem:Actor ;
+        rdfs:label  "ABRI" .
+
+:Kenya  rdf:type    sem:Actor ;
+        rdfs:label  "Kenya" .
+
+:Namibia  rdf:type  sem:Actor ;
+        rdfs:label  "Namibia" .
+
+:wikipediaTragediSemanggi
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Tragedi Semanggi" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :KepolisianNegaraRepublikIndonesia , :TentaraNasionalIndonesia .
+
+:Denmark  rdf:type  sem:Actor ;
+        rdfs:label  "Denmark" .
+
+:wikipediaPembantaianSantaCruz
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pembantaian Santa Cruz" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :WargaTimorTimur .
+
+:wikipediaInsidenPenembakanTimika1996
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Insiden Penembakan Timika 1996" ;
+        sem:accordingTo  :wikipedia .
+
+:PembantaiandiIndonesia19651966
+        rdf:type      sem:Event ;
+        rdfs:label    "Pembantaian di Indonesia 1965–1966" ;
+        rdfs:seeAlso  :wikipediaPembantaiandiIndonesia19651966 .
+
+:PemerintahOrdeBaru  rdf:type  sem:Actor ;
+        rdfs:label  "Pemerintah Orde Baru" .
+
+:OperasiJayapura1976  rdf:type  sem:Event ;
+        rdfs:label    "Operasi Jayapura 1976" ;
+        rdfs:seeAlso  :wikipediaOperasiJayapura1976 .
