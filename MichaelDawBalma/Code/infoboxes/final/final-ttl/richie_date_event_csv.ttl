@@ -1,0 +1,1054 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <https://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:SeranganUmumSurakarta
+        rdfs:label    "Serangan Umum Surakarta" ;
+        rdfs:seeAlso  :wikipediaSeranganUmumSurakarta .
+
+:PerangTakhtaJawaKedua
+        rdfs:label    "Perang Takhta Jawa Kedua" ;
+        rdfs:seeAlso  :wikipediaPerangTakhtaJawaKedua .
+
+:wikipediaBandungLautanApi
+        rdfs:label       "wikipedia Bandung Lautan Api" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "24" ;
+                                                                   time:month  "3" ;
+                                                                   time:year   "1946"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "24" ;
+                                                                   time:month  "4" ;
+                                                                   time:year   "1946"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:RevolusiNasionalIndonesia
+        rdfs:label    "Revolusi Nasional Indonesia" ;
+        rdfs:seeAlso  :wikipediaRevolusiNasionalIndonesia .
+
+:PerangDiponegoro  rdfs:label  "Perang Diponegoro" ;
+        rdfs:seeAlso  :wikipediaPerangDiponegoro .
+
+:wikipediaPerangBelandaPortugal
+        rdfs:label       "wikipedia Perang Belanda-Portugal" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1602"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1663"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:PerangJawa17411743  rdfs:label  "Perang Jawa (1741–1743)" ;
+        rdfs:seeAlso  :wikipediaPerangJawa17411743 .
+
+:PerangTakhtaJawaPertama
+        rdfs:label    "Perang Takhta Jawa Pertama" ;
+        rdfs:seeAlso  :wikipediaPerangTakhtaJawaPertama .
+
+:PerangBubat  rdfs:label  "Perang Bubat" ;
+        rdfs:seeAlso  :wikipediaPerangBubat .
+
+:wikipediaPeperanganeraNapoleon
+        rdfs:label       "wikipedia Peperangan era Napoleon" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1803"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1815"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPemberontakanDITIIdiAceh
+        rdfs:label       "wikipedia Pemberontakan DI/TII di Aceh" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "20" ;
+                                                                   time:month  "9" ;
+                                                                   time:year   "1953"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaKampanyeKalimantan1945
+        rdfs:label       "wikipedia Kampanye Kalimantan (1945)" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "1" ;
+                                                                   time:month  "5" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "15" ;
+                                                                   time:month  "8" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPerangPasifik
+        rdfs:label       "wikipedia Perang Pasifik" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "7" ;
+                                                                   time:month  "12" ;
+                                                                   time:year   "1941"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "2" ;
+                                                                   time:month  "9" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPertempuranBojongKokosan
+        rdfs:label       "wikipedia Pertempuran Bojong Kokosan" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1945"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:PerangRegreg  rdfs:label  "Perang Regreg" ;
+        rdfs:seeAlso  :wikipediaPerangRegreg .
+
+:KampanyeHindiaBelanda
+        rdfs:label    "Kampanye Hindia Belanda" ;
+        rdfs:seeAlso  :wikipediaKampanyeHindiaBelanda .
+
+:wikipediaRevolusiNasionalIndonesia
+        rdfs:label       "wikipedia Revolusi Nasional Indonesia" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "29" ;
+                                                                   time:month  "9" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "27" ;
+                                                                   time:month  "12" ;
+                                                                   time:year   "1949"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:PertempuranBojongKokosan
+        rdfs:label    "Pertempuran Bojong Kokosan" ;
+        rdfs:seeAlso  :wikipediaPertempuranBojongKokosan .
+
+:DelapanJamPertempurandiMangkang
+        rdfs:label    "Delapan Jam Pertempuran di Mangkang" ;
+        rdfs:seeAlso  :wikipediaDelapanJamPertempurandiMangkang .
+
+:wikipediaPerangAceh  rdfs:label  "wikipedia Perang Aceh" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1873"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1904"
+                                                                 ]
+                                              ]
+                         ] ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1873"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1904"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaInvasiCholakeSriwijaya
+        rdfs:label       "wikipedia Invasi Chola ke Sriwijaya" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1025"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:PerangBayu  rdfs:label  "Perang Bayu" ;
+        rdfs:seeAlso  :wikipediaPerangBayu .
+
+:PerangBelasting  rdfs:label  "Perang Belasting" ;
+        rdfs:seeAlso  :wikipediaPerangBelasting .
+
+:PeristiwaTigaMaret  rdfs:label  "Peristiwa Tiga Maret" ;
+        rdfs:seeAlso  :wikipediaPeristiwaTigaMaret .
+
+:IntervensiBelandadiBali1858
+        rdfs:label    "Intervensi Belanda di Bali (1858)" ;
+        rdfs:seeAlso  :wikipediaIntervensiBelandadiBali1858 .
+
+:Operasi17Agustus  rdfs:label  "Operasi 17 Agustus" ;
+        rdfs:seeAlso  :wikipediaOperasi17Agustus .
+
+:wikipediaPerangBelasting
+        rdfs:label       "wikipedia Perang Belasting" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "15" ;
+                                                                   time:month  "6" ;
+                                                                   time:year   "1908"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "16" ;
+                                                                   time:month  "6" ;
+                                                                   time:year   "1908"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:BandungLautanApi  rdfs:label  "Bandung Lautan Api" ;
+        rdfs:seeAlso  :wikipediaBandungLautanApi .
+
+:Gerakan30September  rdfs:label  "Gerakan 30 September" ;
+        rdfs:seeAlso  :wikipediaGerakan30September .
+
+:wikipediaPerangKuning
+        rdfs:label       "wikipedia Perang Kuning" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1741"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1750"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPerangPadri
+        rdfs:label       "wikipedia Perang Padri" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1803"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1837"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPerangCumbok
+        rdfs:label       "wikipedia Perang Cumbok" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "2" ;
+                                                                   time:month  "12" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "16" ;
+                                                                   time:month  "1" ;
+                                                                   time:year   "1946"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPerangJawa17411743
+        rdfs:label       "wikipedia Perang Jawa (1741–1743)" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:month  "2" ;
+                                                                   time:year   "1741"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1743"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPerangTakhtaJawaKetiga
+        rdfs:label       "wikipedia Perang Takhta Jawa Ketiga" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "15" ;
+                                                                   time:month  "12" ;
+                                                                   time:year   "1749"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:month  "2" ;
+                                                                   time:year   "1757"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaSeranganUmum1Maret1949
+        rdfs:label       "wikipedia Serangan Umum 1 Maret 1949" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "1" ;
+                                                                   time:month  "3" ;
+                                                                   time:year   "1949"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:KonflikPapua  rdfs:label  "Konflik Papua" ;
+        rdfs:seeAlso  :wikipediaKonflikPapua .
+
+:InvasiMaluku  rdfs:label  "Invasi Maluku" ;
+        rdfs:seeAlso  :wikipediaInvasiMaluku .
+
+:wikipediaPerangTakhtaJawaKedua
+        rdfs:label       "wikipedia Perang Takhta Jawa Kedua" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1719"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1723"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaIntervensiBelandadiBali1858
+        rdfs:label       "wikipedia Intervensi Belanda di Bali (1858)" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1858"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:GegerSepehi  rdfs:label  "Geger Sepehi" ;
+        rdfs:seeAlso  :wikipediaGegerSepehi .
+
+:PerangDayakDesa  rdfs:label  "Perang Dayak Desa" ;
+        rdfs:seeAlso  :wikipediaPerangDayakDesa .
+
+:wikipediaKonflikPapua
+        rdfs:label       "wikipedia Konflik Papua" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "1" ;
+                                                                   time:month  "10" ;
+                                                                   time:year   "1962"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPenyerbuanKotabaruYogyakarta
+        rdfs:label       "wikipedia Penyerbuan Kotabaru Yogyakarta" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "7" ;
+                                                                   time:month  "10" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPeristiwaTigaMaret
+        rdfs:label       "wikipedia Peristiwa Tiga Maret" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "3" ;
+                                                                   time:month  "3" ;
+                                                                   time:year   "1947"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:IntervensiBelandadiBali1908
+        rdfs:label    "Intervensi Belanda di Bali (1908)" ;
+        rdfs:seeAlso  :wikipediaIntervensiBelandadiBali1908 .
+
+:wikipediaPerangBayu  rdfs:label  "wikipedia Perang Bayu" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "5" ;
+                                                                   time:month  "7" ;
+                                                                   time:year   "1771"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "11" ;
+                                                                   time:month  "10" ;
+                                                                   time:year   "1772"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPerangRegreg
+        rdfs:label       "wikipedia Perang Regreg" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1404"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1406"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPerangBubat
+        rdfs:label       "wikipedia Perang Bubat" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1357"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPerangDayakDesa
+        rdfs:label       "wikipedia Perang Dayak Desa" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1944"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "0" ;
+                                                                   time:month  "6" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:KampanyeKalimantan1945
+        rdfs:label    "Kampanye Kalimantan (1945)" ;
+        rdfs:seeAlso  :wikipediaKampanyeKalimantan1945 .
+
+:PenyerbuanMeesterCornelis
+        rdfs:label    "Penyerbuan Meester Cornelis" ;
+        rdfs:seeAlso  :wikipediaPenyerbuanMeesterCornelis .
+
+:SeranganUmum1Maret1949
+        rdfs:label    "Serangan Umum 1 Maret 1949" ;
+        rdfs:seeAlso  :wikipediaSeranganUmum1Maret1949 .
+
+:PertempuranLengkong  rdfs:label  "Pertempuran Lengkong" ;
+        rdfs:seeAlso  :wikipediaPertempuranLengkong .
+
+:wikipediaGerakan30September
+        rdfs:label       "wikipedia Gerakan 30 September" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "30" ;
+                                                                   time:month  "9" ;
+                                                                   time:year   "1965"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "1" ;
+                                                                   time:month  "10" ;
+                                                                   time:year   "1965"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaKampanyeHindiaBelanda
+        rdfs:label       "wikipedia Kampanye Hindia Belanda" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "8" ;
+                                                                   time:month  "12" ;
+                                                                   time:year   "1941"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "9" ;
+                                                                   time:month  "3" ;
+                                                                   time:year   "1942"
+                                                                 ]
+                                              ]
+                         ] ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "8" ;
+                                                                   time:month  "12" ;
+                                                                   time:year   "1941"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "9" ;
+                                                                   time:month  "3" ;
+                                                                   time:year   "1942"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:Peristiwa19November  rdfs:label  "Peristiwa 19 November" ;
+        rdfs:seeAlso  :wikipediaPeristiwa19November .
+
+:wikipediaPertempuranLengkong
+        rdfs:label       "wikipedia Pertempuran Lengkong" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "25" ;
+                                                                   time:month  "1" ;
+                                                                   time:year   "1946"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:InvasiCholakeSriwijaya
+        rdfs:label    "Invasi Chola ke Sriwijaya" ;
+        rdfs:seeAlso  :wikipediaInvasiCholakeSriwijaya .
+
+:wikipediaPertempuranMelaka1641
+        rdfs:label       "wikipedia Pertempuran Melaka (1641)" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1641"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPertempuranMedanArea
+        rdfs:label       "wikipedia Pertempuran Medan Area" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "13" ;
+                                                                   time:month  "10" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "15" ;
+                                                                   time:month  "4" ;
+                                                                   time:year   "1946"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:PerangPadri  rdfs:label  "Perang Padri" ;
+        rdfs:seeAlso  :wikipediaPerangPadri .
+
+:PerangBelandaPortugal
+        rdfs:label    "Perang Belanda-Portugal" ;
+        rdfs:seeAlso  :wikipediaPerangBelandaPortugal .
+
+:wikipediaPertempuranKumai
+        rdfs:label       "wikipedia Pertempuran Kumai" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "14" ;
+                                                                   time:month  "1" ;
+                                                                   time:year   "1946"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:PeperanganeraNapoleon
+        rdfs:label    "Peperangan era Napoleon" ;
+        rdfs:seeAlso  :wikipediaPeperanganeraNapoleon .
+
+:wikipediaSeranganUmumSurakarta
+        rdfs:label       "wikipedia Serangan Umum Surakarta" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "7" ;
+                                                                   time:month  "8" ;
+                                                                   time:year   "1949"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:PertempuranLimaHari  rdfs:label  "Pertempuran Lima Hari" ;
+        rdfs:seeAlso  :wikipediaPertempuranLimaHari .
+
+:wikipediaPenyerbuanMeesterCornelis
+        rdfs:label       "wikipedia Penyerbuan Meester Cornelis" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "14" ;
+                                                                   time:month  "8" ;
+                                                                   time:year   "1811"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "26" ;
+                                                                   time:month  "8" ;
+                                                                   time:year   "1811"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPuputanMargarana
+        rdfs:label       "wikipedia Puputan Margarana" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "20" ;
+                                                                   time:month  "11" ;
+                                                                   time:year   "1946"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPertempuranLimaHari
+        rdfs:label       "wikipedia Pertempuran Lima Hari" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "15" ;
+                                                                   time:month  "10" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "19" ;
+                                                                   time:month  "10" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ]
+                         ] ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "15" ;
+                                                                   time:month  "10" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "19" ;
+                                                                   time:month  "10" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:PertempuranSurabaya  rdfs:label  "Pertempuran Surabaya" ;
+        rdfs:seeAlso  :wikipediaPertempuranSurabaya .
+
+:wikipediaIntervensiBelandadiBali1908
+        rdfs:label       "wikipedia Intervensi Belanda di Bali (1908)" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "28" ;
+                                                                   time:month  "4" ;
+                                                                   time:year   "1908"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:month  "4"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:PertempuranMedanArea
+        rdfs:label    "Pertempuran Medan Area" ;
+        rdfs:seeAlso  :wikipediaPertempuranMedanArea .
+
+:wikipediaPertempuranSurabaya
+        rdfs:label       "wikipedia Pertempuran Surabaya" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "27" ;
+                                                                   time:month  "10" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "20" ;
+                                                                   time:month  "11" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaInvasiMaluku
+        rdfs:label       "wikipedia Invasi Maluku" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:month  "2" ;
+                                                                   time:year   "1810"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:month  "8" ;
+                                                                   time:year   "1810"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPerangDiponegoro
+        rdfs:label       "wikipedia Perang Diponegoro" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "21" ;
+                                                                   time:month  "6" ;
+                                                                   time:year   "1825"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "9" ;
+                                                                   time:month  "2" ;
+                                                                   time:year   "1830"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:PerangTakhtaJawaKetiga
+        rdfs:label    "Perang Takhta Jawa Ketiga" ;
+        rdfs:seeAlso  :wikipediaPerangTakhtaJawaKetiga .
+
+:wikipediaEkspedisiPalembangII
+        rdfs:label       "wikipedia Ekspedisi Palembang II" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1821"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaSerbuanYuanMongolkeJawa
+        rdfs:label       "wikipedia Serbuan Yuan-Mongol ke Jawa" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "22" ;
+                                                                   time:month  "1" ;
+                                                                   time:year   "1293"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:month  "7" ;
+                                                                   time:year   "1293"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipedia  rdf:type  sem:Authority .
+
+:wikipediaDelapanJamPertempurandiMangkang
+        rdfs:label       "wikipedia Delapan Jam Pertempuran di Mangkang" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1946"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPemberontakanRadenRonggo
+        rdfs:label       "wikipedia Pemberontakan Raden Ronggo" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "20" ;
+                                                                   time:month  "11" ;
+                                                                   time:year   "1810"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "17" ;
+                                                                   time:month  "12" ;
+                                                                   time:year   "1810"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPeristiwa19November
+        rdfs:label       "wikipedia Peristiwa 19 November" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "19" ;
+                                                                   time:month  "11" ;
+                                                                   time:year   "1945"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:SerbuanYuanMongolkeJawa
+        rdfs:label    "Serbuan Yuan-Mongol ke Jawa" ;
+        rdfs:seeAlso  :wikipediaSerbuanYuanMongolkeJawa .
+
+:PemberontakanRadenRonggo
+        rdfs:label    "Pemberontakan Raden Ronggo" ;
+        rdfs:seeAlso  :wikipediaPemberontakanRadenRonggo .
+
+:PemberontakanDITIIdiAceh
+        rdfs:label    "Pemberontakan DI/TII di Aceh" ;
+        rdfs:seeAlso  :wikipediaPemberontakanDITIIdiAceh .
+
+:EkspedisiPalembangII
+        rdfs:label    "Ekspedisi Palembang II" ;
+        rdfs:seeAlso  :wikipediaEkspedisiPalembangII .
+
+:PerangAceh  rdfs:label  "Perang Aceh" ;
+        rdfs:seeAlso  :wikipediaPerangAceh .
+
+:wikipediaGegerSepehi
+        rdfs:label       "wikipedia Geger Sepehi" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "19" ;
+                                                                   time:month  "6" ;
+                                                                   time:year   "1812"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "20" ;
+                                                                   time:month  "6" ;
+                                                                   time:year   "1812"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:PertempuranKumai  rdfs:label  "Pertempuran Kumai" ;
+        rdfs:seeAlso  :wikipediaPertempuranKumai .
+
+:PerangPasifik  rdfs:label  "Perang Pasifik" ;
+        rdfs:seeAlso  :wikipediaPerangPasifik .
+
+:PerangKuning  rdfs:label  "Perang Kuning" ;
+        rdfs:seeAlso  :wikipediaPerangKuning .
+
+:PenyerbuanKotabaruYogyakarta
+        rdfs:label    "Penyerbuan Kotabaru Yogyakarta" ;
+        rdfs:seeAlso  :wikipediaPenyerbuanKotabaruYogyakarta .
+
+:PuputanMargarana  rdfs:label  "Puputan Margarana" ;
+        rdfs:seeAlso  :wikipediaPuputanMargarana .
+
+:PertempuranMelaka1641
+        rdfs:label    "Pertempuran Melaka (1641)" ;
+        rdfs:seeAlso  :wikipediaPertempuranMelaka1641 .
+
+:PerangCumbok  rdfs:label  "Perang Cumbok" ;
+        rdfs:seeAlso  :wikipediaPerangCumbok .
+
+:wikipediaPerangTakhtaJawaPertama
+        rdfs:label       "wikipedia Perang Takhta Jawa Pertama" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1704"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:year  "1708"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaOperasi17Agustus
+        rdfs:label       "wikipedia Operasi 17 Agustus" ;
+        time:hasTime     [ rdf:type           time:temporanEntity ;
+                           time:hasBeginning  [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "17" ;
+                                                                   time:month  "4" ;
+                                                                   time:year   "1958"
+                                                                 ]
+                                              ] ;
+                           time:hasEnd        [ rdf:type         time:Instant ;
+                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
+                                                                   time:day    "24" ;
+                                                                   time:month  "5" ;
+                                                                   time:year   "1958"
+                                                                 ]
+                                              ]
+                         ] ;
+        sem:accordingTo  :wikipedia .
