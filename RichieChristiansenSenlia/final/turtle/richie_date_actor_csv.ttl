@@ -2,12 +2,13 @@
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix sem:   <https://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
 @prefix time:  <http://www.w3.org/2006/time#> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 
-:PakubuwanaVI  rdfs:label  "Pakubuwana VI" ;
+:PakubuwanaVI  rdf:type  sem:Actor ;
+        rdfs:label    "Pakubuwana VI" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -41,7 +42,8 @@
                                            ]
                       ] .
 
-:SultanMahmudSyah  rdfs:label  "Sultan Mahmud Syah" ;
+:SultanMahmudSyah  rdf:type  sem:Actor ;
+        rdfs:label    "Sultan Mahmud Syah" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
@@ -56,6 +58,7 @@
                       ] .
 
 :DyahPitalokaCitraresmi
+        rdf:type      sem:Actor ;
         rdfs:label    "Dyah Pitaloka Citraresmi" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
@@ -70,7 +73,8 @@
                                            ]
                       ] .
 
-:AmangkuratI  rdfs:label  "Amangkurat I" ;
+:AmangkuratI  rdf:type  sem:Actor ;
+        rdfs:label    "Amangkurat I" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -87,6 +91,7 @@
                       ] .
 
 :SultanAgungdariMataram
+        rdf:type      sem:Actor ;
         rdfs:label    "Sultan Agung dari Mataram" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
@@ -101,7 +106,8 @@
                                            ]
                       ] .
 
-:PakubuwanaV  rdfs:label  "Pakubuwana V" ;
+:PakubuwanaV  rdf:type  sem:Actor ;
+        rdfs:label    "Pakubuwana V" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -119,7 +125,8 @@
                                            ]
                       ] .
 
-:MangkunegaraII  rdfs:label  "Mangkunegara II" ;
+:MangkunegaraII  rdf:type  sem:Actor ;
+        rdfs:label    "Mangkunegara II" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -138,6 +145,7 @@
                       ] .
 
 :SultanMuhammadBahauddin
+        rdf:type      sem:Actor ;
         rdfs:label    "Sultan Muhammad Bahauddin" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
@@ -156,7 +164,8 @@
                                            ]
                       ] .
 
-:HitoshiImamura  rdfs:label  "Hitoshi Imamura" ;
+:HitoshiImamura  rdf:type  sem:Actor ;
+        rdfs:label    "Hitoshi Imamura" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -174,7 +183,8 @@
                                            ]
                       ] .
 
-:PakubuwanaIX  rdfs:label  "Pakubuwana IX" ;
+:PakubuwanaIX  rdf:type  sem:Actor ;
+        rdfs:label    "Pakubuwana IX" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -193,6 +203,7 @@
                       ] .
 
 :IskandarMudadariAceh
+        rdf:type      sem:Actor ;
         rdfs:label    "Iskandar Muda dari Aceh" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
@@ -209,7 +220,8 @@
                                            ]
                       ] .
 
-:HamengkubuwanaIX  rdfs:label  "Hamengkubuwana IX" ;
+:HamengkubuwanaIX  rdf:type  sem:Actor ;
+        rdfs:label    "Hamengkubuwana IX" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -227,7 +239,8 @@
                                            ]
                       ] .
 
-:PakubuwanaIII  rdfs:label  "Pakubuwana III" ;
+:PakubuwanaIII  rdf:type  sem:Actor ;
+        rdfs:label    "Pakubuwana III" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -245,7 +258,8 @@
                                            ]
                       ] .
 
-:HayamWuruk  rdfs:label  "Hayam Wuruk" ;
+:HayamWuruk  rdf:type  sem:Actor ;
+        rdfs:label    "Hayam Wuruk" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -259,7 +273,8 @@
                                            ]
                       ] .
 
-:Anyakrawati  rdfs:label  "Anyakrawati" ;
+:Anyakrawati  rdf:type  sem:Actor ;
+        rdfs:label    "Anyakrawati" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
@@ -271,7 +286,8 @@
                                            ]
                       ] .
 
-:PakuAlamVII  rdfs:label  "Paku Alam VII" ;
+:PakuAlamVII  rdf:type  sem:Actor ;
+        rdfs:label    "Paku Alam VII" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -289,7 +305,8 @@
                                            ]
                       ] .
 
-:AmangkuratIII  rdfs:label  "Amangkurat III" ;
+:AmangkuratIII  rdf:type  sem:Actor ;
+        rdfs:label    "Amangkurat III" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -303,7 +320,8 @@
                                            ]
                       ] .
 
-:KiaiMadja  rdfs:label  "Kiai Madja" ;
+:KiaiMadja  rdf:type  sem:Actor ;
+        rdfs:label    "Kiai Madja" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -319,7 +337,8 @@
                                            ]
                       ] .
 
-:ConradHelfrich  rdfs:label  "Conrad Helfrich" ;
+:ConradHelfrich  rdf:type  sem:Actor ;
+        rdfs:label    "Conrad Helfrich" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -334,6 +353,7 @@
                       ] .
 
 :SultanAlauddinRiayatSyah
+        rdf:type      sem:Actor ;
         rdfs:label    "Sultan Alauddin Riayat Syah" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
@@ -346,7 +366,8 @@
                                            ]
                       ] .
 
-:KarelDoorman  rdfs:label  "Karel Doorman" ;
+:KarelDoorman  rdf:type  sem:Actor ;
+        rdfs:label    "Karel Doorman" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -364,7 +385,8 @@
                                            ]
                       ] .
 
-:Linggabuana  rdfs:label  "Linggabuana" ;
+:Linggabuana  rdf:type  sem:Actor ;
+        rdfs:label    "Linggabuana" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
@@ -376,7 +398,8 @@
                                            ]
                       ] .
 
-:HamengkubuwanaX  rdfs:label  "Hamengkubuwana X" ;
+:HamengkubuwanaX  rdf:type  sem:Actor ;
+        rdfs:label    "Hamengkubuwana X" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -390,7 +413,8 @@
                                            ]
                       ] .
 
-:Baabullah  rdfs:label  "Baabullah" ;
+:Baabullah  rdf:type  sem:Actor ;
+        rdfs:label    "Baabullah" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -407,7 +431,8 @@
                                            ]
                       ] .
 
-:PakubuwanaXI  rdfs:label  "Pakubuwana XI" ;
+:PakubuwanaXI  rdf:type  sem:Actor ;
+        rdfs:label    "Pakubuwana XI" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -425,7 +450,8 @@
                                            ]
                       ] .
 
-:TakeoTakagi  rdfs:label  "Takeo Takagi" ;
+:TakeoTakagi  rdf:type  sem:Actor ;
+        rdfs:label    "Takeo Takagi" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -444,6 +470,7 @@
                       ] .
 
 :IGustiNgurahMadeAgung
+        rdf:type      sem:Actor ;
         rdfs:label    "I Gusti Ngurah Made Agung" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
@@ -462,7 +489,8 @@
                                            ]
                       ] .
 
-:PakubuwanaII  rdfs:label  "Pakubuwana II" ;
+:PakubuwanaII  rdf:type  sem:Actor ;
+        rdfs:label    "Pakubuwana II" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -480,7 +508,8 @@
                                            ]
                       ] .
 
-:HamengkubuwanaIII  rdfs:label  "Hamengkubuwana III" ;
+:HamengkubuwanaIII  rdf:type  sem:Actor ;
+        rdfs:label    "Hamengkubuwana III" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -498,7 +527,8 @@
                                            ]
                       ] .
 
-:MangkunegaraI  rdfs:label  "Mangkunegara I" ;
+:MangkunegaraI  rdf:type  sem:Actor ;
+        rdfs:label    "Mangkunegara I" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -516,7 +546,8 @@
                                            ]
                       ] .
 
-:HamengkubuwanaII  rdfs:label  "Hamengkubuwana II" ;
+:HamengkubuwanaII  rdf:type  sem:Actor ;
+        rdfs:label    "Hamengkubuwana II" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -551,6 +582,7 @@
                       ] .
 
 :HidayatullahIIdariBanjar
+        rdf:type      sem:Actor ;
         rdfs:label    "Hidayatullah II dari Banjar" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
@@ -581,7 +613,8 @@
                                            ]
                       ] .
 
-:BatahaSantiago  rdfs:label  "Bataha Santiago" ;
+:BatahaSantiago  rdf:type  sem:Actor ;
+        rdfs:label    "Bataha Santiago" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -594,6 +627,7 @@
                       ] .
 
 :PangeranAnglingkusumo
+        rdf:type      sem:Actor ;
         rdfs:label    "Pangeran Anglingkusumo" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
@@ -608,7 +642,8 @@
                                            ]
                       ] .
 
-:Wikramawardhana  rdfs:label  "Wikramawardhana" ;
+:Wikramawardhana  rdf:type  sem:Actor ;
+        rdfs:label    "Wikramawardhana" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
@@ -621,6 +656,7 @@
                       ] .
 
 :JohanHarmenRudolfKhler
+        rdf:type      sem:Actor ;
         rdfs:label    "Johan Harmen Rudolf Köhler" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
@@ -639,7 +675,8 @@
                                            ]
                       ] .
 
-:AmangkuratV  rdfs:label  "Amangkurat V" ;
+:AmangkuratV  rdf:type  sem:Actor ;
+        rdfs:label    "Amangkurat V" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -653,7 +690,8 @@
                                            ]
                       ] .
 
-:PakubuwanaX  rdfs:label  "Pakubuwana X" ;
+:PakubuwanaX  rdf:type  sem:Actor ;
+        rdfs:label    "Pakubuwana X" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -671,7 +709,8 @@
                                            ]
                       ] .
 
-:SultanHasanuddin  rdfs:label  "Sultan Hasanuddin" ;
+:SultanHasanuddin  rdf:type  sem:Actor ;
+        rdfs:label    "Sultan Hasanuddin" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -689,7 +728,8 @@
                                            ]
                       ] .
 
-:JanvanSwieten  rdfs:label  "Jan van Swieten" ;
+:JanvanSwieten  rdf:type  sem:Actor ;
+        rdfs:label    "Jan van Swieten" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
@@ -699,7 +739,8 @@
                                            ]
                       ] .
 
-:AndiMappanyukki  rdfs:label  "Andi Mappanyukki" ;
+:AndiMappanyukki  rdf:type  sem:Actor ;
+        rdfs:label    "Andi Mappanyukki" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
@@ -709,7 +750,8 @@
                                            ]
                       ] .
 
-:JisaburoOzawa  rdfs:label  "Jisaburo Ozawa" ;
+:JisaburoOzawa  rdf:type  sem:Actor ;
+        rdfs:label    "Jisaburo Ozawa" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -727,7 +769,8 @@
                                            ]
                       ] .
 
-:AmangkuratIV  rdfs:label  "Amangkurat IV" ;
+:AmangkuratIV  rdf:type  sem:Actor ;
+        rdfs:label    "Amangkurat IV" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -757,7 +800,8 @@
                                            ]
                       ] .
 
-:HisaichiTerauchi  rdfs:label  "Hisaichi Terauchi" ;
+:HisaichiTerauchi  rdf:type  sem:Actor ;
+        rdfs:label    "Hisaichi Terauchi" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -775,7 +819,8 @@
                                            ]
                       ] .
 
-:HamengkubuwanaI  rdfs:label  "Hamengkubuwana I" ;
+:HamengkubuwanaI  rdf:type  sem:Actor ;
+        rdfs:label    "Hamengkubuwana I" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -810,6 +855,7 @@
                       ] .
 
 :KhairunJamildariTernate
+        rdf:type      sem:Actor ;
         rdfs:label    "Khairun Jamil dari Ternate" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
@@ -826,7 +872,8 @@
                                            ]
                       ] .
 
-:PakubuwanaVII  rdfs:label  "Pakubuwana VII" ;
+:PakubuwanaVII  rdf:type  sem:Actor ;
+        rdfs:label    "Pakubuwana VII" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -844,7 +891,8 @@
                                            ]
                       ] .
 
-:HeinterPoorten  rdfs:label  "Hein ter Poorten" ;
+:HeinterPoorten  rdf:type  sem:Actor ;
+        rdfs:label    "Hein ter Poorten" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -862,7 +910,8 @@
                                            ]
                       ] .
 
-:UntungSuropati  rdfs:label  "Untung Suropati" ;
+:UntungSuropati  rdf:type  sem:Actor ;
+        rdfs:label    "Untung Suropati" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -874,7 +923,8 @@
                                            ]
                       ] .
 
-:SulaimandariBanjar  rdfs:label  "Sulaiman dari Banjar" ;
+:SulaimandariBanjar  rdf:type  sem:Actor ;
+        rdfs:label    "Sulaiman dari Banjar" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -890,7 +940,8 @@
                                            ]
                       ] .
 
-:PakubuwanaI  rdfs:label  "Pakubuwana I" ;
+:PakubuwanaI  rdf:type  sem:Actor ;
+        rdfs:label    "Pakubuwana I" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -908,7 +959,8 @@
                                            ]
                       ] .
 
-:IGustiKetutJelantik  rdfs:label  "I Gusti Ketut Jelantik" ;
+:IGustiKetutJelantik  rdf:type  sem:Actor ;
+        rdfs:label    "I Gusti Ketut Jelantik" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
@@ -919,6 +971,7 @@
                       ] .
 
 :AndiAbdullahBauMassepe
+        rdf:type      sem:Actor ;
         rdfs:label    "Andi Abdullah Bau Massepe" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
@@ -929,7 +982,8 @@
                                            ]
                       ] .
 
-:Pattimura  rdfs:label  "Pattimura" ;
+:Pattimura  rdf:type  sem:Actor ;
+        rdfs:label    "Pattimura" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -948,6 +1002,7 @@
                       ] .
 
 :HimayatuddinMuhammadSaidi
+        rdf:type      sem:Actor ;
         rdfs:label    "Himayatuddin Muhammad Saidi" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
@@ -960,7 +1015,8 @@
                                            ]
                       ] .
 
-:Jayakatwang  rdfs:label  "Jayakatwang" ;
+:Jayakatwang  rdf:type  sem:Actor ;
+        rdfs:label    "Jayakatwang" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
@@ -972,7 +1028,8 @@
                                            ]
                       ] .
 
-:KubilaiKhan  rdfs:label  "Kubilai Khan" ;
+:KubilaiKhan  rdf:type  sem:Actor ;
+        rdfs:label    "Kubilai Khan" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -986,7 +1043,8 @@
                                            ]
                       ] .
 
-:PakuAlamI  rdfs:label  "Paku Alam I" ;
+:PakuAlamI  rdf:type  sem:Actor ;
+        rdfs:label    "Paku Alam I" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -1004,7 +1062,8 @@
                                            ]
                       ] .
 
-:TirtayasadariBanten  rdfs:label  "Tirtayasa dari Banten" ;
+:TirtayasadariBanten  rdf:type  sem:Actor ;
+        rdfs:label    "Tirtayasa dari Banten" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -1019,6 +1078,7 @@
                       ] .
 
 :ThahaSyaifuddindariJambi
+        rdf:type      sem:Actor ;
         rdfs:label    "Thaha Syaifuddin dari Jambi" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
@@ -1029,7 +1089,8 @@
                                            ]
                       ] .
 
-:Diponegoro  rdfs:label  "Diponegoro" ;
+:Diponegoro  rdf:type  sem:Actor ;
+        rdfs:label    "Diponegoro" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -1047,7 +1108,8 @@
                                            ]
                       ] .
 
-:KiyotakeKawaguchi  rdfs:label  "Kiyotake Kawaguchi" ;
+:KiyotakeKawaguchi  rdf:type  sem:Actor ;
+        rdfs:label    "Kiyotake Kawaguchi" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -1065,7 +1127,8 @@
                                            ]
                       ] .
 
-:ShojiNishimura  rdfs:label  "Shoji Nishimura" ;
+:ShojiNishimura  rdf:type  sem:Actor ;
+        rdfs:label    "Shoji Nishimura" ;
         time:hasTime  [ rdf:type           time:temporanEntity ;
                         time:hasBeginning  [ rdf:type         time:Instant ;
                                              time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
