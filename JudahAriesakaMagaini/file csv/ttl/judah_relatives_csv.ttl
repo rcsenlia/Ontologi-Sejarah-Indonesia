@@ -1,0 +1,913 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:HartonoReksoDharsono
+        rdf:type    foaf:Person ;
+        rdfs:label  "Hartono Rekso Dharsono" .
+
+:WawanWanisar  rdf:type  foaf:Person ;
+        rdfs:label  "Wawan Wanisar" .
+
+:HashimDjojohadikusumo
+        rdf:type      foaf:Person ;
+        rdfs:label    "Hashim Djojohadikusumo" ;
+        :hasRelative  :BudiDjiwandono , :ThomasDjiwandono , :RayogaHediprasetyoDjojohadikusumo , :PrabowoSubiantoDjojohadikusumo , :SoejonoDjojohadikusumo , :SoebiantoDjojohadikoesoemo , :MargonoDjojohadikoesoemo .
+
+:ZairinZain  rdf:type  foaf:Person ;
+        rdfs:label  "Zairin Zain" .
+
+:AnwarTjokroaminoto  rdf:type  foaf:Person ;
+        rdfs:label    "Anwar Tjokroaminoto" ;
+        :hasRelative  :HarsonoTjokroaminoto , :SitiOetari .
+
+:MaradenPanggabean  rdf:type  foaf:Person ;
+        rdfs:label  "Maraden Panggabean" .
+
+:Soekarno  rdf:type  foaf:Person ;
+        rdfs:label  "Soekarno" .
+
+:PramonoEdhieWibowo  rdf:type  foaf:Person ;
+        rdfs:label    "Pramono Edhie Wibowo" ;
+        :hasRelative  :HartantoEdhieWibowo , :AniYudhoyono , :SusiloBambangYudhoyono .
+
+:SlametSuradio  rdf:type  foaf:Person ;
+        rdfs:label  "Slamet Suradio" .
+
+:MiriamBudiardjo  rdf:type  foaf:Person ;
+        rdfs:label  "Miriam Budiardjo" .
+
+:SutiKarno  rdf:type  foaf:Person ;
+        rdfs:label  "Suti Karno" .
+
+:SoeHokGie  rdf:type  foaf:Person ;
+        rdfs:label    "Soe Hok Gie" ;
+        :hasRelative  :AriefBudiman .
+
+:LetjenTNIKuntoAriefWibowo
+        rdf:type    foaf:Person ;
+        rdfs:label  "Letjen TNI Kunto Arief Wibowo" .
+
+:EnoSigit  rdf:type  foaf:Person ;
+        rdfs:label  "Eno Sigit" .
+
+:TunkuAbdulRahman  rdf:type  foaf:Person ;
+        rdfs:label  "Tunku Abdul Rahman" .
+
+:RachmatKartolo  rdf:type  foaf:Person ;
+        rdfs:label  "Rachmat Kartolo" .
+
+:AnnisaPohan  rdf:type  foaf:Person ;
+        rdfs:label  "Annisa Pohan" .
+
+:ElangMuliaLesmana  rdf:type  foaf:Person ;
+        rdfs:label  "Elang Mulia Lesmana" .
+
+:Danukromo  rdf:type  foaf:Person ;
+        rdfs:label  "Danukromo" .
+
+:RadenAyuMamowinoto  rdf:type  foaf:Person ;
+        rdfs:label  "Raden Ayu Mamowinoto" .
+
+:OlivioMendoncaMoruk  rdf:type  foaf:Person ;
+        rdfs:label  "Olivio Mendonca Moruk" .
+
+:AriefBudiman  rdf:type  foaf:Person ;
+        rdfs:label    "Arief Budiman" ;
+        :hasRelative  :SoeHokGie .
+
+:TaurMatanRuak  rdf:type  foaf:Person ;
+        rdfs:label  "Taur Matan Ruak" .
+
+:AgusWirahadikusumah  rdf:type  foaf:Person ;
+        rdfs:label  "Agus Wirahadikusumah" .
+
+:MSHidayat  rdf:type  foaf:Person ;
+        rdfs:label  "M.S. Hidayat" .
+
+:TheoLSambuaga  rdf:type  foaf:Person ;
+        rdfs:label  "Theo L. Sambuaga" .
+
+:KarinaSalim  rdf:type  foaf:Person ;
+        rdfs:label  "Karina Salim" .
+
+:AgumGumelar  rdf:type  foaf:Person ;
+        rdfs:label    "Agum Gumelar" ;
+        :hasRelative  :TaufikHidayat , :LadyaCheryl , :AchmadTahir .
+
+:MohammadHatta  rdf:type  foaf:Person ;
+        rdfs:label  "Mohammad Hatta" .
+
+:DanangHadiwibowo  rdf:type  foaf:Person ;
+        rdfs:label    "Danang Hadiwibowo" ;
+        :hasRelative  :KuntoAriefWibowo , :FirmanSantyabudi , :TrySutrisno .
+
+:BobbyNasution  rdf:type  foaf:Person ;
+        rdfs:label  "Bobby Nasution" .
+
+:JezzieSetiawan  rdf:type  foaf:Person ;
+        rdfs:label  "Jezzie Setiawan" .
+
+:RadenMasOemarSabibTjokrosoeprodjo
+        rdf:type    foaf:Person ;
+        rdfs:label  "Raden Mas Oemar Sabib Tjokrosoeprodjo" .
+
+:AlshadAhmad  rdf:type  foaf:Person ;
+        rdfs:label  "Alshad Ahmad" .
+
+:KyaiAgengKasanBesariII
+        rdf:type    foaf:Person ;
+        rdfs:label  "Kyai Ageng Kasan Besari II" .
+
+:NagitaSlavina  rdf:type  foaf:Person ;
+        rdfs:label  "Nagita Slavina" .
+
+:SitiHutamiEndangAdiningsih
+        rdf:type      foaf:Person ;
+        rdfs:label    "Siti Hutami Endang Adiningsih" ;
+        :hasRelative  :HutomoMandalaPutra , :SitiHediatiHariyadi , :BambangTrihatmodjo , :SigitHarjojudanto , :SitiHardijantiRukmana .
+
+:BramAdrianto  rdf:type  foaf:Person ;
+        rdfs:label  "Bram Adrianto" .
+
+:HSupardi  rdf:type  foaf:Person ;
+        rdfs:label  "H. Supardi" .
+
+:TommySoeharto  rdf:type  foaf:Person ;
+        rdfs:label    "Tommy Soeharto" ;
+        :hasRelative  :SitiHutamiEndangAdiningsih , :SitiHediatiHariyadi , :BambangTrihatmodjo , :SigitHarjojudanto , :SitiHardijantiRukmana .
+
+:NicolaudosReisLobato
+        rdf:type      foaf:Person ;
+        rdfs:label    "Nicolau dos Reis Lobato" ;
+        :hasRelative  :RogerioLobato .
+
+:PayungBangun  rdf:type  foaf:Person ;
+        rdfs:label  "Payung Bangun" .
+
+:BambangTrihatmodjo  rdf:type  foaf:Person ;
+        rdfs:label  "Bambang Trihatmodjo" .
+
+:IrjenPolFirmanSantyabudi
+        rdf:type    foaf:Person ;
+        rdfs:label  "Irjen Pol. Firman Santyabudi" .
+
+:SutanSjahrir  rdf:type  foaf:Person ;
+        rdfs:label  "Sutan Sjahrir" .
+
+:JaptoSoerjosoemarno  rdf:type  foaf:Person ;
+        rdfs:label  "Japto Soerjosoemarno" .
+
+:HasanBasri  rdf:type  foaf:Person ;
+        rdfs:label  "Hasan Basri" .
+
+:BennyChatib  rdf:type  foaf:Person ;
+        rdfs:label  "Benny Chatib" .
+
+:RadenSjamsoeddin  rdf:type  foaf:Person ;
+        rdfs:label  "Raden Sjamsoeddin" .
+
+:IpikAsmasoebrata  rdf:type  foaf:Person ;
+        rdfs:label    "Ipik Asmasoebrata" ;
+        :hasRelative  :AlexandraAsmasoebrata , :DylanSada , :RamonPapana .
+
+:OttemanIIIMahmudMaamun
+        rdf:type    foaf:Person ;
+        rdfs:label  "Otteman III Mahmud Ma'amun" .
+
+:SrgioVieiradeMello  rdf:type  foaf:Person ;
+        rdfs:label  "Sérgio Vieira de Mello" .
+
+:AliSastroamidjojo  rdf:type  foaf:Person ;
+        rdfs:label    "Ali Sastroamidjojo" ;
+        :hasRelative  :KholilalBangkalani , :Danukromo , :AliWardhana .
+
+:OemarSaidTjokroaminoto
+        rdf:type      foaf:Person ;
+        rdfs:label    "Oemar Said Tjokroaminoto" ;
+        :hasRelative  :Soekarno , :AbikoesnoTjokrosoejoso , :MaiaEstianty , :RadenAyuTjokrodisoerjo , :RadenAjuIstirahMohammadSoebari , :RadenAyuMamowinoto , :RadenMasOemarDjamanTjokroprawiro , :RadenMasAbikoesnoTjokrosoejoso , :SekarmadjiMaridjanKartosoewirjo , :RadenMasPoerwadiTjokrosoedirjo , :RMTjokroamiseno , :KyaiAgengKasanBesariII , :Semaoen , :RadenAjengAdiati , :RadenMasOemarSabibTjokrosoeprodjo , :Musso , :PakubuwonoIII , :RMMangoensoemo , :RadenMasPoewoto , :RadenAdjengIstidjaTjokrosoedarmo , :RadenAjengIstingatin , :WarokRMAdipatiTjokronegoro , :AuliaTahkim .
+
+:PrabowoSubianto  rdf:type  foaf:Person ;
+        rdfs:label    "Prabowo Subianto" ;
+        :hasRelative  :AryoDjojohadikusumo , :ThomasDjiwandono , :BudiDjiwandono , :SoebiantoDjojohadikoesoemo , :HashimDjojohadikusumo , :RahayuSaraswatiDjojohadikusumo , :MargonoDjojohadikoesoemo , :SoejonoDjojohadikusumo .
+
+:ArifinCNoer  rdf:type  foaf:Person ;
+        rdfs:label  "Arifin C. Noer" .
+
+:RanoKarno  rdf:type  foaf:Person ;
+        rdfs:label    "Rano Karno" ;
+        :hasRelative  :IsmedMNoor , :SutiKarno , :TinoKarno .
+
+:AriSihasale  rdf:type  foaf:Person ;
+        rdfs:label  "Ari Sihasale" .
+
+:MargonoDjojohadikoesoemo
+        rdf:type    foaf:Person ;
+        rdfs:label  "Margono Djojohadikoesoemo" .
+
+:DoraMarieSigar  rdf:type  foaf:Person ;
+        rdfs:label  "Dora Marie Sigar" .
+
+:RadenAjengIstingatin
+        rdf:type    foaf:Person ;
+        rdfs:label  "Raden Ajeng Istingatin" .
+
+:IdhamChalid  rdf:type  foaf:Person ;
+        rdfs:label  "Idham Chalid" .
+
+:Ikranagara  rdf:type  foaf:Person ;
+        rdfs:label  "Ikranagara" .
+
+:HeriHertanto  rdf:type  foaf:Person ;
+        rdfs:label  "Heri Hertanto" .
+
+:MaqdirIsmail  rdf:type  foaf:Person ;
+        rdfs:label  "Maqdir Ismail" .
+
+:RayogaHediprasetyoDjojohadikusumo
+        rdf:type    foaf:Person ;
+        rdfs:label  "Rayoga Hediprasetyo Djojohadikusumo" .
+
+:AniYudhoyono  rdf:type  foaf:Person ;
+        rdfs:label  "Ani Yudhoyono" .
+
+:LailiRoesad  rdf:type  foaf:Person ;
+        rdfs:label  "Laili Roesad" .
+
+:IraWibowo  rdf:type  foaf:Person ;
+        rdfs:label  "Ira Wibowo" .
+
+:TaufikHidayat  rdf:type  foaf:Person ;
+        rdfs:label  "Taufik Hidayat" .
+
+:SHSimatupang  rdf:type  foaf:Person ;
+        rdfs:label  "S.H. Simatupang" .
+
+:NisyaAhmad  rdf:type  foaf:Person ;
+        rdfs:label  "Nisya Ahmad" .
+
+:IGustiNgurahRai  rdf:type  foaf:Person ;
+        rdfs:label    "I Gusti Ngurah Rai" ;
+        :hasRelative  :IGustiAyuAgungIndaTrimafoYudha .
+
+:relatives  rdf:type  foaf:Person ;
+        rdfs:label  "relatives" .
+
+:MaruliSimanjuntak  rdf:type  foaf:Person ;
+        rdfs:label  "Maruli Simanjuntak" .
+
+:Musso  rdf:type    foaf:Person ;
+        rdfs:label  "Musso" .
+
+:TeukuUmarAli  rdf:type  foaf:Person ;
+        rdfs:label    "Teuku Umar Ali" ;
+        :hasRelative  :TeukuNyakArif .
+
+:PrabowoSubiantoDjojohadikusumo
+        rdf:type    foaf:Person ;
+        rdfs:label  "Prabowo Subianto Djojohadikusumo" .
+
+:EmilSalim  rdf:type  foaf:Person ;
+        rdfs:label    "Emil Salim" ;
+        :hasRelative  :JezzieSetiawan , :KarinaSalim , :AgusSalim .
+
+:AnindyoBaskoro  rdf:type  foaf:Person ;
+        rdfs:label    "Anindyo Baskoro" ;
+        :hasRelative  :UmarKayam .
+
+:SiskaWidowati  rdf:type  foaf:Person ;
+        rdfs:label  "Siska Widowati" .
+
+:AliWardhana  rdf:type  foaf:Person ;
+        rdfs:label    "Ali Wardhana" ;
+        :hasRelative  :RobertusSanyoto , :AliSastroamidjojo .
+
+:RusliNoor  rdf:type  foaf:Person ;
+        rdfs:label  "Rusli Noor" .
+
+:AksaMahmud  rdf:type  foaf:Person ;
+        rdfs:label    "Aksa Mahmud" ;
+        :hasRelative  :JusufKalla .
+
+:MooryatiSoedibyo  rdf:type  foaf:Person ;
+        rdfs:label    "Mooryati Soedibyo" ;
+        :hasRelative  :PakubuwanaX .
+
+:MachicaMochtar  rdf:type  foaf:Person ;
+        rdfs:label  "Machica Mochtar" .
+
+:PakubuwonoIII  rdf:type  foaf:Person ;
+        rdfs:label  "Pakubuwono III" .
+
+:KhaidirAnwarSani  rdf:type  foaf:Person ;
+        rdfs:label  "Khaidir Anwar Sani" .
+
+:MochtarLubis  rdf:type  foaf:Person ;
+        rdfs:label  "Mochtar Lubis" .
+
+:RadenMasAbikoesnoTjokrosoejoso
+        rdf:type    foaf:Person ;
+        rdfs:label  "Raden Mas AbikoesnoTjokrosoejoso" .
+
+:ChrisPattikawa  rdf:type  foaf:Person ;
+        rdfs:label    "Chris Pattikawa" ;
+        :hasRelative  :KartikaWaode , :MuhammadHusseinHasyim , :CantikaAbigail .
+
+:MedinaLatiefHarjani  rdf:type  foaf:Person ;
+        rdfs:label    "Medina Latief Harjani" ;
+        :hasRelative  :DipoLatief .
+
+:HutomoMandalaPutra  rdf:type  foaf:Person ;
+        rdfs:label  "Hutomo Mandala Putra" .
+
+:PanduPatriaSjahrir  rdf:type  foaf:Person ;
+        rdfs:label  "Pandu Patria Sjahrir" .
+
+:AgungFirmanSampurna  rdf:type  foaf:Person ;
+        rdfs:label    "Agung Firman Sampurna" ;
+        :hasRelative  :DewiYustisiana , :WahyuSanjaya .
+
+:NurmalaKartiniPandjaitan
+        rdf:type    foaf:Person ;
+        rdfs:label  "Nurmala Kartini Pandjaitan" .
+
+:MuhaiminIskandar  rdf:type  foaf:Person ;
+        rdfs:label    "Muhaimin Iskandar" ;
+        :hasRelative  :AbdulHalimIskandar , :AbdurrahmanWahid .
+
+:FuadAminImron  rdf:type  foaf:Person ;
+        rdfs:label  "Fuad Amin Imron" .
+
+:ParamithaRusady  rdf:type  foaf:Person ;
+        rdfs:label    "Paramitha Rusady" ;
+        :hasRelative  :UllySigarRusady .
+
+:UmarWirahadikusumah  rdf:type  foaf:Person ;
+        rdfs:label    "Umar Wirahadikusumah" ;
+        :hasRelative  :ReiniWirahadikusumah , :AgusWirahadikusumah , :UkarBratakusumah .
+
+:MelanchtonSiregar  rdf:type  foaf:Person ;
+        rdfs:label    "Melanchton Siregar" ;
+        :hasRelative  :PayungBangun .
+
+:SoekarnoMNoor  rdf:type  foaf:Person ;
+        rdfs:label    "Soekarno M. Noor" ;
+        :hasRelative  :IsmedMNoor .
+
+:AdamMalik  rdf:type  foaf:Person ;
+        rdfs:label  "Adam Malik" .
+
+:RadenAyuTjokrodisoerjo
+        rdf:type    foaf:Person ;
+        rdfs:label  "Raden Ayu Tjokrodisoerjo" .
+
+:WarokRMAdipatiTjokronegoro
+        rdf:type    foaf:Person ;
+        rdfs:label  "Warok R.M. Adipati Tjokronegoro" .
+
+:MaiaEstianty  rdf:type  foaf:Person ;
+        rdfs:label  "Maia Estianty" .
+
+:GufranDwipayana  rdf:type  foaf:Person ;
+        rdfs:label  "Gufran Dwipayana" .
+
+:AlexAsmasoebrata  rdf:type  foaf:Person ;
+        rdfs:label  "Alex Asmasoebrata" .
+
+:AburizalBakrie  rdf:type  foaf:Person ;
+        rdfs:label    "Aburizal Bakrie" ;
+        :hasRelative  :HSupardi .
+
+:LetdaInfMuhammadFakhriSTHan
+        rdf:type    foaf:Person ;
+        rdfs:label  "Letda Inf. Muhammad Fakhri S.T.Han" .
+
+:SitiOetari  rdf:type  foaf:Person ;
+        rdfs:label    "Siti Oetari" ;
+        :hasRelative  :MaiaEstianty .
+
+:SitiHediatiHariyadi  rdf:type  foaf:Person ;
+        rdfs:label  "Siti Hediati Hariyadi" .
+
+:SyahnazSadiqah  rdf:type  foaf:Person ;
+        rdfs:label  "Syahnaz Sadiqah" .
+
+:AtmonoSuryo  rdf:type  foaf:Person ;
+        rdfs:label  "Atmono Suryo" .
+
+:TeukuMohammadHadiThayeb
+        rdf:type    foaf:Person ;
+        rdfs:label  "Teuku Mohammad Hadi Thayeb" .
+
+:ArieHanggara  rdf:type  foaf:Person ;
+        rdfs:label  "Arie Hanggara" .
+
+:RamonPapana  rdf:type  foaf:Person ;
+        rdfs:label    "Ramon Papana" ;
+        :hasRelative  :AlexAsmasoebrata .
+
+:Semaoen  rdf:type  foaf:Person ;
+        rdfs:label  "Semaoen" .
+
+:JudilherryJustam  rdf:type  foaf:Person ;
+        rdfs:label  "Judilherry Justam" .
+
+:JusufKalla  rdf:type  foaf:Person ;
+        rdfs:label    "Jusuf Kalla" ;
+        :hasRelative  :JajangCNoer .
+
+:RadenMasPoewoto  rdf:type  foaf:Person ;
+        rdfs:label  "Raden Mas Poewoto" .
+
+:SoebiantoDjojohadikoesoemo
+        rdf:type    foaf:Person ;
+        rdfs:label  "Soebianto Djojohadikoesoemo" .
+
+:JerrySambuaga  rdf:type  foaf:Person ;
+        rdfs:label    "Jerry Sambuaga" ;
+        :hasRelative  :Soekardi .
+
+:SjarifuddinBaharsjah
+        rdf:type    foaf:Person ;
+        rdfs:label  "Sjarifuddin Baharsjah" .
+
+:key    rdf:type      foaf:Person ;
+        rdfs:label    "key" ;
+        :hasRelative  :relatives .
+
+:BimoSetiawanAlmachzumi
+        rdf:type    foaf:Person ;
+        rdfs:label  "Bimo Setiawan Almachzumi" .
+
+:DiditHediprasetyo  rdf:type  foaf:Person ;
+        rdfs:label  "Didit Hediprasetyo" .
+
+:AlwinArifin  rdf:type  foaf:Person ;
+        rdfs:label  "Alwin Arifin" .
+
+:Sakirman  rdf:type  foaf:Person ;
+        rdfs:label  "Sakirman" .
+
+:WahyuSanjaya  rdf:type  foaf:Person ;
+        rdfs:label  "Wahyu Sanjaya" .
+
+:IGustiAyuAgungIndaTrimafoYudha
+        rdf:type    foaf:Person ;
+        rdfs:label  "I Gusti Ayu Agung Inda Trimafo Yudha" .
+
+:MusannifRyacudu  rdf:type  foaf:Person ;
+        rdfs:label    "Musannif Ryacudu" ;
+        :hasRelative  :TrySutrisno .
+
+:BobTutupoly  rdf:type  foaf:Person ;
+        rdfs:label  "Bob Tutupoly" .
+
+:FadliZon  rdf:type  foaf:Person ;
+        rdfs:label  "Fadli Zon" .
+
+:KholilalBangkalani  rdf:type  foaf:Person ;
+        rdfs:label  "Kholil al-Bangkalani" .
+
+:TeukuNyakArif  rdf:type  foaf:Person ;
+        rdfs:label  "Teuku Nyak Arif" .
+
+:KuntoAriefWibowo  rdf:type  foaf:Person ;
+        rdfs:label    "Kunto Arief Wibowo" ;
+        :hasRelative  :LetdaInfMuhammadFakhriSTHan , :IrjenPolFirmanSantyabudi , :NoraTristyana , :RyamizardRyacudu .
+
+:FahmiIdris  rdf:type  foaf:Person ;
+        rdfs:label    "Fahmi Idris" ;
+        :hasRelative  :PoempidaHidayatulloh , :HasanBasri .
+
+:PakubuwanaX  rdf:type  foaf:Person ;
+        rdfs:label  "Pakubuwana X" .
+
+:JajangCNoer  rdf:type  foaf:Person ;
+        rdfs:label    "Jajang C. Noer" ;
+        :hasRelative  :ChairaniKalla , :MufidahJusufKalla , :JusufKalla .
+
+:BJHabibie  rdf:type  foaf:Person ;
+        rdfs:label  "B. J. Habibie" .
+
+:HalimahAgustinaKamil
+        rdf:type    foaf:Person ;
+        rdfs:label  "Halimah Agustina Kamil" .
+
+:RadenAjuIstirahMohammadSoebari
+        rdf:type    foaf:Person ;
+        rdfs:label  "Raden Aju Istirah Mohammad Soebari" .
+
+:KatonBagaskara  rdf:type  foaf:Person ;
+        rdfs:label  "Katon Bagaskara" .
+
+:AlexandraAsmasoebrata
+        rdf:type    foaf:Person ;
+        rdfs:label  "Alexandra Asmasoebrata" .
+
+:RobertusSanyoto  rdf:type  foaf:Person ;
+        rdfs:label  "Robertus Sanyoto" .
+
+:AzmiPerkasaAlamAlhaj
+        rdf:type    foaf:Person ;
+        rdfs:label  "Azmi Perkasa Alam Alhaj" .
+
+:KiesSlamet  rdf:type  foaf:Person ;
+        rdfs:label  "Kies Slamet" .
+
+:DipoLatief  rdf:type  foaf:Person ;
+        rdfs:label    "Dipo Latief" ;
+        :hasRelative  :MedinaLatiefHarjani .
+
+:IsmedMNoor  rdf:type  foaf:Person ;
+        rdfs:label  "Ismed M. Noor" .
+
+:AmorosoKatamsi  rdf:type  foaf:Person ;
+        rdfs:label  "Amoroso Katamsi" .
+
+:Soedirman  rdf:type  foaf:Person ;
+        rdfs:label  "Soedirman" .
+
+:DylanSada  rdf:type  foaf:Person ;
+        rdfs:label  "Dylan Sada" .
+
+:SigitHarjojudanto  rdf:type  foaf:Person ;
+        rdfs:label  "Sigit Harjojudanto" .
+
+:RudyWowor  rdf:type  foaf:Person ;
+        rdfs:label    "Rudy Wowor" ;
+        :hasRelative  :HoegengImamSantoso .
+
+:Mayangsari  rdf:type  foaf:Person ;
+        rdfs:label  "Mayangsari" .
+
+:RichardKevin  rdf:type  foaf:Person ;
+        rdfs:label  "Richard Kevin" .
+
+:SyafruddinPrawiranegara
+        rdf:type    foaf:Person ;
+        rdfs:label  "Syafruddin Prawiranegara" .
+
+:ZainalBasriPalaguna  rdf:type  foaf:Person ;
+        rdfs:label    "Zainal Basri Palaguna" ;
+        :hasRelative  :MahmudAryaLamanjiji , :OttemanIIIMahmudMaamun , :AzmiPerkasaAlamAlhaj .
+
+:AmranYS  rdf:type  foaf:Person ;
+        rdfs:label  "Amran YS" .
+
+:LuhutBinsarPandjaitan
+        rdf:type      foaf:Person ;
+        rdfs:label    "Luhut Binsar Pandjaitan" ;
+        :hasRelative  :FayeSimanjuntak , :PanduPatriaSjahrir , :Sjahrir , :NurmalaKartiniPandjaitan , :MaruliSimanjuntak , :SHSimatupang .
+
+:MahmudAryaLamanjiji  rdf:type  foaf:Person ;
+        rdfs:label  "Mahmud Arya Lamanjiji" .
+
+:AndikaPerkasa  rdf:type  foaf:Person ;
+        rdfs:label  "Andika Perkasa" .
+
+:PietPagau  rdf:type  foaf:Person ;
+        rdfs:label    "Piet Pagau" ;
+        :hasRelative  :AlshadAhmad , :RitchieIsmail , :SyahnazSadiqah , :NagitaSlavina , :RaffiAhmad , :NisyaAhmad .
+
+:NoraTristyana  rdf:type  foaf:Person ;
+        rdfs:label  "Nora Tristyana" .
+
+:PoempidaHidayatulloh
+        rdf:type    foaf:Person ;
+        rdfs:label  "Poempida Hidayatulloh" .
+
+:MarliaHardi  rdf:type  foaf:Person ;
+        rdfs:label  "Marlia Hardi" .
+
+:LeilaChairaniBudiman
+        rdf:type      foaf:Person ;
+        rdfs:label    "Leila Chairani Budiman" ;
+        :hasRelative  :SjarifuddinBaharsjah .
+
+:AdeIrmaSuryaniNasution
+        rdf:type    foaf:Person ;
+        rdfs:label  "Ade Irma Suryani Nasution" .
+
+:SitiHardijantiRukmana
+        rdf:type      foaf:Person ;
+        rdfs:label    "Siti Hardijanti Rukmana" ;
+        :hasRelative  :SitiHutamiEndangAdiningsih , :HutomoMandalaPutra , :SitiHediatiHariyadi , :BambangTrihatmodjo , :SigitHarjojudanto .
+
+:RadenMasPoerwadiTjokrosoedirjo
+        rdf:type    foaf:Person ;
+        rdfs:label  "Raden Mas Poerwadi Tjokrosoedirjo" .
+
+:RahayuSaraswatiDjojohadikusumo
+        rdf:type    foaf:Person ;
+        rdfs:label  "Rahayu Saraswati Djojohadikusumo" .
+
+:IndrataNurBayuaji  rdf:type  foaf:Person ;
+        rdfs:label  "Indrata Nur Bayuaji" .
+
+:RaffiAhmad  rdf:type  foaf:Person ;
+        rdfs:label  "Raffi Ahmad" .
+
+:Soekardi  rdf:type   foaf:Person ;
+        rdfs:label    "Soekardi" ;
+        :hasRelative  :TheoLSambuaga .
+
+:Dobricaosi  rdf:type  foaf:Person ;
+        rdfs:label  "Dobrica Ćosić" .
+
+:FranciscusWelirang  rdf:type  foaf:Person ;
+        rdfs:label  "Franciscus Welirang" .
+
+:MuhammadHusseinHasyim
+        rdf:type    foaf:Person ;
+        rdfs:label  "Muhammad Hussein Hasyim" .
+
+:AchmadTahir  rdf:type  foaf:Person ;
+        rdfs:label  "Achmad Tahir" .
+
+:ReiniWirahadikusumah
+        rdf:type    foaf:Person ;
+        rdfs:label  "Reini Wirahadikusumah" .
+
+:IlhamBintang  rdf:type  foaf:Person ;
+        rdfs:label  "Ilham Bintang" .
+
+:ErwinGutawa  rdf:type  foaf:Person ;
+        rdfs:label  "Erwin Gutawa" .
+
+:SusiloBambangYudhoyono
+        rdf:type      foaf:Person ;
+        rdfs:label    "Susilo Bambang Yudhoyono" ;
+        :hasRelative  :IndrataNurBayuaji , :AnnisaPohan , :HartantoEdhieWibowo , :PramonoEdhieWibowo , :SarwoEdhieWibowo .
+
+:ThomasDjiwandono  rdf:type  foaf:Person ;
+        rdfs:label  "Thomas Djiwandono" .
+
+:RogerioLobato  rdf:type  foaf:Person ;
+        rdfs:label  "Rogerio Lobato" .
+
+:AbikoesnoTjokrosoejoso
+        rdf:type    foaf:Person ;
+        rdfs:label  "Abikoesno Tjokrosoejoso" .
+
+:AryoDjojohadikusumo  rdf:type  foaf:Person ;
+        rdfs:label  "Aryo Djojohadikusumo" .
+
+:AbdulHalimIskandar  rdf:type  foaf:Person ;
+        rdfs:label  "Abdul Halim Iskandar" .
+
+:IskandarSitompul  rdf:type  foaf:Person ;
+        rdfs:label  "Iskandar Sitompul" .
+
+:RyamizardRyacudu  rdf:type  foaf:Person ;
+        rdfs:label  "Ryamizard Ryacudu" .
+
+:SoemarnoSosroatmodjo
+        rdf:type      foaf:Person ;
+        rdfs:label    "Soemarno Sosroatmodjo" ;
+        :hasRelative  :BimoSetiawanAlmachzumi , :BundaIffet .
+
+:MegawatiSoekarnoputri
+        rdf:type    foaf:Person ;
+        rdfs:label  "Megawati Soekarnoputri" .
+
+:RatnaRiantiarno  rdf:type  foaf:Person ;
+        rdfs:label  "Ratna Riantiarno" .
+
+:MohammadZamroni  rdf:type  foaf:Person ;
+        rdfs:label  "Mohammad Zamroni" .
+
+:AbdullahSyafiiGAM  rdf:type  foaf:Person ;
+        rdfs:label  "Abdullah Syafi'i (GAM)" .
+
+:OloPanggabean  rdf:type  foaf:Person ;
+        rdfs:label  "Olo Panggabean" .
+
+:ZekeKhaseli  rdf:type  foaf:Person ;
+        rdfs:label    "Zeke Khaseli" ;
+        :hasRelative  :TaufikHidayat .
+
+:RadenMasOemarDjamanTjokroprawiro
+        rdf:type    foaf:Person ;
+        rdfs:label  "Raden Mas Oemar Djaman Tjokroprawiro" .
+
+:AlbertSalim  rdf:type  foaf:Person ;
+        rdfs:label  "Albert Salim" .
+
+:AriSigit  rdf:type  foaf:Person ;
+        rdfs:label  "Ari Sigit" .
+
+:AndreeHalim  rdf:type  foaf:Person ;
+        rdfs:label  "Andree Halim" .
+
+:ARSoehoed  rdf:type  foaf:Person ;
+        rdfs:label    "A.R. Soehoed" ;
+        :hasRelative  :BennyChatib .
+
+:BudiDjiwandono  rdf:type  foaf:Person ;
+        rdfs:label  "Budi Djiwandono" .
+
+:RMMangoensoemo  rdf:type  foaf:Person ;
+        rdfs:label  "R.M Mangoensoemo" .
+
+:FirmanSantyabudi  rdf:type  foaf:Person ;
+        rdfs:label    "Firman Santyabudi" ;
+        :hasRelative  :LetjenTNIKuntoAriefWibowo , :NoraTristyana , :RyamizardRyacudu .
+
+:JohanaSunartiNasution
+        rdf:type    foaf:Person ;
+        rdfs:label  "Johana Sunarti Nasution" .
+
+:HafidinRoyan  rdf:type  foaf:Person ;
+        rdfs:label  "Hafidin Royan" .
+
+:MiekeWidjaja  rdf:type  foaf:Person ;
+        rdfs:label    "Mieke Widjaja" ;
+        :hasRelative  :AriSihasale .
+
+:Sutiyoso  rdf:type  foaf:Person ;
+        rdfs:label  "Sutiyoso" .
+
+:AgusSalim  rdf:type  foaf:Person ;
+        rdfs:label  "Agus Salim" .
+
+:AuliaTahkim  rdf:type  foaf:Person ;
+        rdfs:label  "Aulia Tahkim" .
+
+:Probosutedjo  rdf:type  foaf:Person ;
+        rdfs:label  "Probosutedjo" .
+
+:AhmadDhani  rdf:type  foaf:Person ;
+        rdfs:label  "Ahmad Dhani" .
+
+:TitiekSoeharto  rdf:type  foaf:Person ;
+        rdfs:label    "Titiek Soeharto" ;
+        :hasRelative  :SitiHutamiEndangAdiningsih , :HutomoMandalaPutra , :BambangTrihatmodjo , :SigitHarjojudanto , :SitiHardijantiRukmana .
+
+:MiraSalim  rdf:type  foaf:Person ;
+        rdfs:label  "Mira Salim" .
+
+:SarwoEdhieWibowo  rdf:type  foaf:Person ;
+        rdfs:label  "Sarwo Edhie Wibowo" .
+
+:NugrohoWisnumurti  rdf:type  foaf:Person ;
+        rdfs:label  "Nugroho Wisnumurti" .
+
+:MufidahJusufKalla  rdf:type  foaf:Person ;
+        rdfs:label  "Mufidah Jusuf Kalla" .
+
+:Soedjatmoko  rdf:type  foaf:Person ;
+        rdfs:label    "Soedjatmoko" ;
+        :hasRelative  :SutanSjahrir , :NugrohoWisnumurti , :MiriamBudiardjo .
+
+:PoppyDharsono  rdf:type  foaf:Person ;
+        rdfs:label  "Poppy Dharsono" .
+
+:CokSimbara  rdf:type  foaf:Person ;
+        rdfs:label  "Cok Simbara" .
+
+:TrySutrisno  rdf:type  foaf:Person ;
+        rdfs:label    "Try Sutrisno" ;
+        :hasRelative  :DanangHadiwibowo , :RyamizardRyacudu , :MusannifRyacudu .
+
+:DewiYustisiana  rdf:type  foaf:Person ;
+        rdfs:label  "Dewi Yustisiana" .
+
+:HartantoEdhieWibowo  rdf:type  foaf:Person ;
+        rdfs:label  "Hartanto Edhie Wibowo" .
+
+:JokoWidodo  rdf:type  foaf:Person ;
+        rdfs:label    "Joko Widodo" ;
+        :hasRelative  :AnwarUsman , :BobbyNasution .
+
+:ChairaniKalla  rdf:type  foaf:Person ;
+        rdfs:label  "Chairani Kalla" .
+
+:HendriawanSie  rdf:type  foaf:Person ;
+        rdfs:label  "Hendriawan Sie" .
+
+:Soeharto  rdf:type  foaf:Person ;
+        rdfs:label  "Soeharto" .
+
+:SekarmadjiMaridjanKartosoewirjo
+        rdf:type    foaf:Person ;
+        rdfs:label  "Sekarmadji Maridjan Kartosoewirjo" .
+
+:UmarKayam  rdf:type  foaf:Person ;
+        rdfs:label  "Umar Kayam" .
+
+:ManaiSophiaan  rdf:type  foaf:Person ;
+        rdfs:label  "Manai Sophiaan" .
+
+:BundaIffet  rdf:type  foaf:Person ;
+        rdfs:label  "Bunda Iffet" .
+
+:RadenAjengAdiati  rdf:type  foaf:Person ;
+        rdfs:label  "Raden Ajeng Adiati" .
+
+:FayeSimanjuntak  rdf:type  foaf:Person ;
+        rdfs:label  "Faye Simanjuntak" .
+
+:SanusiHardjadinata  rdf:type  foaf:Person ;
+        rdfs:label  "Sanusi Hardjadinata" .
+
+:AnwarUsman  rdf:type  foaf:Person ;
+        rdfs:label  "Anwar Usman" .
+
+:AnthonySalim  rdf:type  foaf:Person ;
+        rdfs:label    "Anthony Salim" ;
+        :hasRelative  :FranciscusWelirang , :MiraSalim , :AndreeHalim , :AlbertSalim .
+
+:HoegengImamSantoso  rdf:type  foaf:Person ;
+        rdfs:label  "Hoegeng Imam Santoso" .
+
+:AbdurrahmanWahid  rdf:type  foaf:Person ;
+        rdfs:label  "Abdurrahman Wahid" .
+
+:RadenAdjengIstidjaTjokrosoedarmo
+        rdf:type    foaf:Person ;
+        rdfs:label  "Raden Adjeng Istidja Tjokrosoedarmo" .
+
+:KartikaWaode  rdf:type  foaf:Person ;
+        rdfs:label  "Kartika Waode" .
+
+:RMTjokroamiseno  rdf:type  foaf:Person ;
+        rdfs:label  "R.M. Tjokroamiseno" .
+
+:UllySigarRusady  rdf:type  foaf:Person ;
+        rdfs:label  "Ully Sigar Rusady" .
+
+:SiswondoParman  rdf:type  foaf:Person ;
+        rdfs:label    "Siswondo Parman" ;
+        :hasRelative  :Sakirman .
+
+:AriWibowo  rdf:type  foaf:Person ;
+        rdfs:label    "Ari Wibowo" ;
+        :hasRelative  :RichardKevin , :KatonBagaskara , :IraWibowo .
+
+:CantikaAbigail  rdf:type  foaf:Person ;
+        rdfs:label  "Cantika Abigail" .
+
+:SudonoSalim  rdf:type  foaf:Person ;
+        rdfs:label  "Sudono Salim" .
+
+:SoejonoDjojohadikusumo
+        rdf:type    foaf:Person ;
+        rdfs:label  "Soejono Djojohadikusumo" .
+
+:DaliTahir  rdf:type  foaf:Person ;
+        rdfs:label  "Dali Tahir" .
+
+:AdeIrawan  rdf:type  foaf:Person ;
+        rdfs:label  "Ade Irawan" .
+
+:RuhutSitompul  rdf:type  foaf:Person ;
+        rdfs:label    "Ruhut Sitompul" ;
+        :hasRelative  :IskandarSitompul , :MaradenPanggabean .
+
+:EmilArifin  rdf:type  foaf:Person ;
+        rdfs:label  "Emil Arifin" .
+
+:KhofifahIndarParawansa
+        rdf:type    foaf:Person ;
+        rdfs:label  "Khofifah Indar Parawansa" .
+
+:TinoKarno  rdf:type  foaf:Person ;
+        rdfs:label  "Tino Karno" .
+
+:LadyaCheryl  rdf:type  foaf:Person ;
+        rdfs:label  "Ladya Cheryl" .
+
+:HarsonoTjokroaminoto
+        rdf:type      foaf:Person ;
+        rdfs:label    "Harsono Tjokroaminoto" ;
+        :hasRelative  :MSHidayat , :AnwarTjokroaminoto , :SitiOetari .
+
+:Sjahrir  rdf:type  foaf:Person ;
+        rdfs:label  "Sjahrir" .
+
+:RooslilaTahir  rdf:type  foaf:Person ;
+        rdfs:label  "Rooslila Tahir" .
+
+:AMHendropriyono  rdf:type  foaf:Person ;
+        rdfs:label    "A.M. Hendropriyono" ;
+        :hasRelative  :AndikaPerkasa .
+
+:SyariefThayeb  rdf:type  foaf:Person ;
+        rdfs:label    "Syarief Thayeb" ;
+        :hasRelative  :TeukuMohammadHadiThayeb .
+
+:HamzahHaz  rdf:type  foaf:Person ;
+        rdfs:label    "Hamzah Haz" ;
+        :hasRelative  :FuadAminImron .
+
+:RitchieIsmail  rdf:type  foaf:Person ;
+        rdfs:label  "Ritchie Ismail" .
+
+:UkarBratakusumah  rdf:type  foaf:Person ;
+        rdfs:label  "Ukar Bratakusumah" .

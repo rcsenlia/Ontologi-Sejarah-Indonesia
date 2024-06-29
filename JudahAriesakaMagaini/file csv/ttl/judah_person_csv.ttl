@@ -1,0 +1,1299 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:MustaphaHarun  rdf:type  foaf:Person ;
+        rdfs:label  "Mustapha Harun" .
+
+:SofyanDawood  rdf:type  foaf:Person ;
+        rdfs:label  "Sofyan Dawood" .
+
+:XananaGusmo  rdf:type  foaf:Person ;
+        rdfs:label  "Xanana Gusmão" .
+
+:wikipediaBandungLautanApi
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Bandung Lautan Api" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :MacDonald , :MuhammadToha , :AbdoelHarisNasoetion .
+
+:PembantaiandiIndonesia19651966
+        rdf:type      sem:Event ;
+        rdfs:label    "Pembantaian di Indonesia 1965–1966" ;
+        rdfs:seeAlso  :wikipediaPembantaiandiIndonesia19651966 .
+
+:wikipediaKonfrontasiIndonesiaMalaysia
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Konfrontasi Indonesia–Malaysia" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :OmarAliSaifuddienIII , :YusofIshak , :HaroldWilson , :SKNingkan , :AMAzahari , :DNAidit , :AHNasution , :RodneyMoore , :Soeharto , :TunkuAbdulRahman , :YassinAffandi , :WalterWalker , :PranotoReksosamudro , :HaroldMacmillan , :IsmailNasiruddin , :OmarDhani , :LeeKuanYew , :TunkuOsman , :EddyMartadinata , :MustaphaHarun , :BongKeeChok , :Soekarno , :AbdulRazakHussein , :AlecDouglasHome , :AhmadYani , :TuankuSyedPutra .
+
+:CareyAdamson  rdf:type  foaf:Person ;
+        rdfs:label  "Carey Adamson" .
+
+:PeristiwaTanjungPriok
+        rdf:type      sem:Event ;
+        rdfs:label    "Peristiwa Tanjung Priok" ;
+        rdfs:seeAlso  :wikipediaPeristiwaTanjungPriok .
+
+:HasanDiTiro  rdf:type  foaf:Person ;
+        rdfs:label  "Hasan Di Tiro" .
+
+:AgresiMiliterBelandaII
+        rdf:type      sem:Event ;
+        rdfs:label    "Agresi Militer Belanda II" ;
+        rdfs:seeAlso  :wikipediaAgresiMiliterBelandaII .
+
+:SusiloBambangYudhoyono
+        rdf:type    foaf:Person ;
+        rdfs:label  "Susilo Bambang Yudhoyono" .
+
+:Juliana  rdf:type  foaf:Person ;
+        rdfs:label  "Juliana" .
+
+:RevolusiNasionalIndonesia
+        rdf:type      sem:Event ;
+        rdfs:label    "Revolusi Nasional Indonesia" ;
+        rdfs:seeAlso  :wikipediaRevolusiNasionalIndonesia .
+
+:PranotoReksosamudro  rdf:type  foaf:Person ;
+        rdfs:label  "Pranoto Reksosamudro " .
+
+:BOHutapea  rdf:type  foaf:Person ;
+        rdfs:label  "B.O. Hutapea" .
+
+:LouisMountbatten  rdf:type  foaf:Person ;
+        rdfs:label  "Louis Mountbatten" .
+
+:FabianusTibo  rdf:type  foaf:Person ;
+        rdfs:label  "Fabianus Tibo" .
+
+:wikipediaPenculikanaktivis19971998
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Penculikan aktivis 1997/1998" ;
+        sem:accordingTo  :wikipedia .
+
+:AhmadHusein  rdf:type  foaf:Person ;
+        rdfs:label  "Ahmad Husein" .
+
+:PembantaianBeutongAteueh
+        rdf:type      sem:Event ;
+        rdfs:label    "Pembantaian Beutong Ateueh" ;
+        rdfs:seeAlso  :wikipediaPembantaianBeutongAteueh .
+
+:REMartadinata  rdf:type  foaf:Person ;
+        rdfs:label  "R. E. Martadinata" .
+
+:RobertMansergh  rdf:type  foaf:Person ;
+        rdfs:label  "Robert Mansergh" .
+
+:TuankuSyedPutra  rdf:type  foaf:Person ;
+        rdfs:label  "Tuanku Syed Putra" .
+
+:JuliusTahija  rdf:type  foaf:Person ;
+        rdfs:label  "Julius Tahija" .
+
+:DirkvanLangen  rdf:type  foaf:Person ;
+        rdfs:label  "Dirk van Langen" .
+
+:MarufAmin  rdf:type  foaf:Person ;
+        rdfs:label  "Ma'ruf Amin" .
+
+:wikipediaPembantaiandiIndonesia19651966
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pembantaian di Indonesia 1965–1966" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :AbanganJawa , :Gerwani , :PKI .
+
+:Njoto  rdf:type    foaf:Person ;
+        rdfs:label  "Njoto" .
+
+:Kartomo  rdf:type  foaf:Person ;
+        rdfs:label  "Kartomo" .
+
+:JokoWidodo  rdf:type  foaf:Person ;
+        rdfs:label  "Joko Widodo" .
+
+:DadingKalbuadi  rdf:type  foaf:Person ;
+        rdfs:label  "Dading Kalbuadi" .
+
+:SimonSpoor  rdf:type  foaf:Person ;
+        rdfs:label  "Simon Spoor" .
+
+:KrisisTimorTimur1999
+        rdf:type      sem:Event ;
+        rdfs:label    "Krisis Timor Timur 1999" ;
+        rdfs:seeAlso  :wikipediaKrisisTimorTimur1999 .
+
+:BertyLoupatty  rdf:type  foaf:Person ;
+        rdfs:label  "Berty Loupatty" .
+
+:CncioLopezdeCarvalho
+        rdf:type    foaf:Person ;
+        rdfs:label  "Câncio Lopez de Carvalho" .
+
+:JisaburOzawa  rdf:type  foaf:Person ;
+        rdfs:label  "Jisaburō Ozawa" .
+
+:HasandiTiro  rdf:type  foaf:Person ;
+        rdfs:label  "Hasan di Tiro" .
+
+:AlexanderNanlohy  rdf:type  foaf:Person ;
+        rdfs:label  "Alexander Nanlohy" .
+
+:wikipediaKrisissanderaMapenduma
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Krisis sandera Mapenduma" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :KellyKwalik , :PrabowoSubianto .
+
+:wikipediaPembantaianGerejaSuai
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pembantaian Gereja Suai" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :UmatKatolikTimorTimur .
+
+:Musso  rdf:type    foaf:Person ;
+        rdfs:label  "Musso" .
+
+:InvasiAmbon  rdf:type  sem:Event ;
+        rdfs:label    "Invasi Ambon" ;
+        rdfs:seeAlso  :wikipediaInvasiAmbon .
+
+:KaptenMemetSastrawiria
+        rdf:type    foaf:Person ;
+        rdfs:label  "Kapten Memet Sastrawiria" .
+
+:wikipediaOperasimiliterIndonesiadiAceh19901998
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Operasi militer Indonesia di Aceh 1990-1998" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :AbdullahSyafii , :HasanDiTiro , :Sutiyoso , :TrySutrisno , :Soeharto .
+
+:MuinPusadan  rdf:type  foaf:Person ;
+        rdfs:label  "Muin Pusadan" .
+
+:AbdulHarisNasution  rdf:type  foaf:Person ;
+        rdfs:label  "Abdul Haris Nasution" .
+
+:wikipediaKerusuhanPoso
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kerusuhan Poso" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :JusufKalla , :MuinPusadan , :FabianusTibo , :DeddyWoeryantono , :DjasmanBasoOpu , :RinaldyDamanik , :MarinusRiwu , :BandjelaPaliudju , :AbdurrahmanWahid , :ZainalAbidinIshak , :DominggusdaSilva , :SlametKirbiantoro , :AdnanArsal , :SusiloBambangYudhoyono , :AriefPatanga , :AminuddinPonulele .
+
+:TaurMatanRuak  rdf:type  foaf:Person ;
+        rdfs:label  "Taur Matan Ruak" .
+
+:KerusuhanrasialJawaTengah1980
+        rdf:type      sem:Event ;
+        rdfs:label    "Kerusuhan rasial Jawa Tengah 1980" ;
+        rdfs:seeAlso  :wikipediaKerusuhanrasialJawaTengah1980 .
+
+:PrabowoSubianto  rdf:type  foaf:Person ;
+        rdfs:label  "Prabowo Subianto" .
+
+:TanMalaka  rdf:type  foaf:Person ;
+        rdfs:label  "Tan Malaka" .
+
+:SyafruddinPrawiranegara
+        rdf:type    foaf:Person ;
+        rdfs:label  "Syafruddin Prawiranegara" .
+
+:wikipediaPembantaianGerejaLiqui
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pembantaian Gereja Liquiçá" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :UmatKatolikTimorTimur .
+
+:JumuTuani  rdf:type  foaf:Person ;
+        rdfs:label  "Jumu Tuani" .
+
+:wikipediaInvasiIndonesiakeTimorTimur
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Invasi Indonesia ke Timor Timur" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :DadingKalbuadi , :MaradenPanggabean , :Soeharto , :Wiranto , :LuhutBinsarPandjaitan , :WidjojoSoejono , :NicolaudosReisLobato , :FranciscoXavierdoAmaral , :LBMoerdani , :JosAblioOsrioSoares .
+
+:JusufKalla  rdf:type  foaf:Person ;
+        rdfs:label  "Jusuf Kalla" .
+
+:MaradenPanggabean  rdf:type  foaf:Person ;
+        rdfs:label  "Maraden Panggabean" .
+
+:AbuBakarWahid  rdf:type  foaf:Person ;
+        rdfs:label  "Abu Bakar Wahid" .
+
+:ATvanSStachouwer  rdf:type  foaf:Person ;
+        rdfs:label  "A. T. van S. Stachouwer" .
+
+:wikipediaPembantaianSantaCruz
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pembantaian Santa Cruz" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :WargaTimorTimur .
+
+:SrgioVieiradeMello  rdf:type  foaf:Person ;
+        rdfs:label  "Sérgio Vieira de Mello " .
+
+:HitoshiImamura  rdf:type  foaf:Person ;
+        rdfs:label  "Hitoshi Imamura" .
+
+:TahiBonarSimatupang  rdf:type  foaf:Person ;
+        rdfs:label  "Tahi Bonar Simatupang" .
+
+:GatotSoebroto  rdf:type  foaf:Person ;
+        rdfs:label  "Gatot Soebroto" .
+
+:KellyKwalik  rdf:type  foaf:Person ;
+        rdfs:label  "Kelly Kwalik" .
+
+:PeterCosgrove  rdf:type  foaf:Person ;
+        rdfs:label  "Peter Cosgrove" .
+
+:KampanyeHindiaBelanda
+        rdf:type      sem:Event ;
+        rdfs:label    "Kampanye Hindia Belanda" ;
+        rdfs:seeAlso  :wikipediaKampanyeHindiaBelanda .
+
+:InvasiIndonesiakeTimorTimur
+        rdf:type      sem:Event ;
+        rdfs:label    "Invasi Indonesia ke Timor Timur" ;
+        rdfs:seeAlso  :wikipediaInvasiIndonesiakeTimorTimur .
+
+:KerusuhanPoso  rdf:type  sem:Event ;
+        rdfs:label    "Kerusuhan Poso" ;
+        rdfs:seeAlso  :wikipediaKerusuhanPoso .
+
+:wikipediaRevolusiNasionalIndonesia
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Revolusi Nasional Indonesia" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :SoetanSjahrir , :BuurmanVanVreeden , :LouisMountbatten , :MoehammadJasin , :Juliana , :SjafruddinPrawiranegara , :HendrikvanOyen , :TBSimatupang , :AKWidjojoatmodjo , :HubertusvanMook , :AbdulKaharMuzakkar , :AHNasution , :AmirSjarifuddin , :MohammadHatta , :Musso , :GatotSubroto , :AgustinusAdisoetjipto , :RaymondWesterling , :BambangSoegeng , :PhilipChristison , :Soetomo , :LoaSekHie , :OeripSoemohardjo , :JuliusTahija , :TjokordaGdeRakaSoekawati , :ConradHelfrich , :PakubuwanaXII , :REMartadinata , :SimonSpoor , :TanMalaka , :SekarmadjiKartosoewirjo , :Soekarno , :Wilhelmina , :AdelbertvanLangen , :SultanHamidII , :AubertinMallaby , :RobertMansergh , :Soeharto , :Soedirman , :HamengkubuwanaIX .
+
+:wikipediaPertempuranLautAru
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Laut Aru" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :KaptenMemetSastrawiria , :KaptenTjiptadi , :KaptenWiratno , :KolonelSudomo , :KomodorYosSudarso .
+
+:SKNingkan  rdf:type  foaf:Person ;
+        rdfs:label  "S. K. Ningkan" .
+
+:Korem011Lilawangsa  rdf:type  foaf:Person ;
+        rdfs:label  "Korem 011/Lilawangsa" .
+
+:MuhammadJusuf  rdf:type  foaf:Person ;
+        rdfs:label  "Muhammad Jusuf" .
+
+:RizieqShihab  rdf:type  foaf:Person ;
+        rdfs:label  "Rizieq Shihab" .
+
+:GoliathTabuni  rdf:type  foaf:Person ;
+        rdfs:label  "Goliath Tabuni" .
+
+:HamengkubuwanaIX  rdf:type  foaf:Person ;
+        rdfs:label  "Hamengkubuwana IX" .
+
+:AbdulKaharMuzakkar  rdf:type  foaf:Person ;
+        rdfs:label  "Abdul Kahar Muzakkar" .
+
+:WargaTimorTimur  rdf:type  foaf:Person ;
+        rdfs:label  "Warga Timor Timur" .
+
+:RogrioLobato  rdf:type  foaf:Person ;
+        rdfs:label  "Rogério Lobato" .
+
+:Soedirman  rdf:type  foaf:Person ;
+        rdfs:label  "Soedirman" .
+
+:SiswondoParman  rdf:type  foaf:Person ;
+        rdfs:label  "Siswondo Parman" .
+
+:BandjelaPaliudju  rdf:type  foaf:Person ;
+        rdfs:label  "Bandjela Paliudju" .
+
+:JennyShipley  rdf:type  foaf:Person ;
+        rdfs:label  "Jenny Shipley" .
+
+:PendaratandiLabis  rdf:type  sem:Event ;
+        rdfs:label    "Pendaratan di Labis" ;
+        rdfs:seeAlso  :wikipediaPendaratandiLabis .
+
+:BambangSoegeng  rdf:type  foaf:Person ;
+        rdfs:label  "Bambang Soegeng" .
+
+:SekarmadjiKartosuwirjo
+        rdf:type    foaf:Person ;
+        rdfs:label  "Sekarmadji Kartosuwirjo" .
+
+:Prabowo  rdf:type  foaf:Person ;
+        rdfs:label  "Prabowo" .
+
+:wikipediaPeristiwa19Agustus1966
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Peristiwa 19 Agustus 1966" ;
+        sem:accordingTo  :wikipedia .
+
+:BuurmanVanVreeden  rdf:type  foaf:Person ;
+        rdfs:label  "Buurman Van Vreeden" .
+
+:JacobPrai  rdf:type  foaf:Person ;
+        rdfs:label  "Jacob Prai" .
+
+:HaroldMacmillan  rdf:type  foaf:Person ;
+        rdfs:label  "Harold Macmillan" .
+
+:Witarmin  rdf:type  foaf:Person ;
+        rdfs:label  "Witarmin" .
+
+:DjaminGinting  rdf:type  foaf:Person ;
+        rdfs:label  "Djamin Ginting" .
+
+:HamengkubuwonoIX  rdf:type  foaf:Person ;
+        rdfs:label  "Hamengkubuwono IX" .
+
+:OperasiJayapura1976  rdf:type  sem:Event ;
+        rdfs:label    "Operasi Jayapura 1976" ;
+        rdfs:seeAlso  :wikipediaOperasiJayapura1976 .
+
+:AndikaPerkasa  rdf:type  foaf:Person ;
+        rdfs:label  "Andika Perkasa" .
+
+:HariMulyadi  rdf:type  foaf:Person ;
+        rdfs:label  "Hari Mulyadi" .
+
+:AllenLawrencePope  rdf:type  foaf:Person ;
+        rdfs:label  "Allen Lawrence Pope" .
+
+:KomodorYosSudarso  rdf:type  foaf:Person ;
+        rdfs:label  "Komodor Yos Sudarso" .
+
+:AhmadYani  rdf:type  foaf:Person ;
+        rdfs:label  "Ahmad Yani " , "Ahmad Yani" .
+
+:PierreAndreasTendean
+        rdf:type    foaf:Person ;
+        rdfs:label  "Pierre Andreas Tendean" .
+
+:Permesta  rdf:type   sem:Event ;
+        rdfs:label    "Permesta" ;
+        rdfs:seeAlso  :wikipediaPermesta .
+
+:wikipediaPembantaianBeutongAteueh
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pembantaian Beutong Ateueh" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :Batalyon328Kostrad , :Korem011Lilawangsa .
+
+:wikipediaOperasiJayapura1976
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Operasi Jayapura 1976" ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaKerusuhanMei1998
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kerusuhan Mei 1998" ;
+        sem:accordingTo  :wikipedia .
+
+:Operasi17Agustus  rdf:type  sem:Event ;
+        rdfs:label    "Operasi 17 Agustus" ;
+        rdfs:seeAlso  :wikipediaOperasi17Agustus .
+
+:TunkuAbdulRahman  rdf:type  foaf:Person ;
+        rdfs:label  "Tunku Abdul Rahman" .
+
+:MuhammadToha  rdf:type  foaf:Person ;
+        rdfs:label  "Muhammad Toha" .
+
+:MaludinSimbolon  rdf:type  foaf:Person ;
+        rdfs:label  "Maludin Simbolon" .
+
+:ConradHelfrich  rdf:type  foaf:Person ;
+        rdfs:label  "Conrad Helfrich" .
+
+:BandungLautanApi  rdf:type  sem:Event ;
+        rdfs:label    "Bandung Lautan Api" ;
+        rdfs:seeAlso  :wikipediaBandungLautanApi .
+
+:Gerakan30September  rdf:type  sem:Event ;
+        rdfs:label    "Gerakan 30 September" ;
+        rdfs:seeAlso  :wikipediaGerakan30September .
+
+:MoehammadJasin  rdf:type  foaf:Person ;
+        rdfs:label  "Moehammad Jasin" .
+
+:KejatuhanSoeharto  rdf:type  sem:Event ;
+        rdfs:label    "Kejatuhan Soeharto" ;
+        rdfs:seeAlso  :wikipediaKejatuhanSoeharto .
+
+:KarelDoorman  rdf:type  foaf:Person ;
+        rdfs:label  "Karel Doorman" .
+
+:DeddyWoeryantono  rdf:type  foaf:Person ;
+        rdfs:label  "Deddy Woeryantono" .
+
+:MathiasWenda  rdf:type  foaf:Person ;
+        rdfs:label  "Mathias Wenda" .
+
+:wikipediaPendaratandiLabis
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pendaratan di Labis" ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaKonfliksektarianMaluku
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Konflik sektarian Maluku" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :BennyBetjara , :AbuBakarBaasyir , :Wiranto , :AgusWattimena , :AbuBakarWahid , :JafarUmarThalib , :RizieqShihab , :JumuTuani , :AbdurrahmanWahid , :AlexManuputty , :BertyLoupatty , :TonaasWangkoLendyWangke .
+
+:AdelbertvanLangen  rdf:type  foaf:Person ;
+        rdfs:label  "Adelbert van Langen" .
+
+:AlexManuputty  rdf:type  foaf:Person ;
+        rdfs:label  "Alex Manuputty" .
+
+:LeonardusBenyamin  rdf:type  foaf:Person ;
+        rdfs:label  "Leonardus Benyamin" .
+
+:Moerdani  rdf:type  foaf:Person ;
+        rdfs:label  "Moerdani" .
+
+:Sudirman  rdf:type  foaf:Person ;
+        rdfs:label  "Sudirman" .
+
+:DanielJuliusSomba  rdf:type  foaf:Person ;
+        rdfs:label  "Daniel Julius Somba" .
+
+:MHLukman  rdf:type  foaf:Person ;
+        rdfs:label  "M.H. Lukman" .
+
+:SerangankeLimbang  rdf:type  sem:Event ;
+        rdfs:label    "Serangan ke Limbang" ;
+        rdfs:seeAlso  :wikipediaSerangankeLimbang .
+
+:FranciscoXavierdoAmaral
+        rdf:type    foaf:Person ;
+        rdfs:label  "Francisco Xavier do Amaral" .
+
+:IsmailNasiruddin  rdf:type  foaf:Person ;
+        rdfs:label  "Ismail Nasiruddin" .
+
+:EnduMarsono  rdf:type  foaf:Person ;
+        rdfs:label  "Endu Marsono" .
+
+:Soepardjo  rdf:type  foaf:Person ;
+        rdfs:label  "Soepardjo" .
+
+:SarwoEdhieWibowo  rdf:type  foaf:Person ;
+        rdfs:label  "Sarwo Edhie Wibowo" .
+
+:KaptenWiratno  rdf:type  foaf:Person ;
+        rdfs:label  "Kapten Wiratno" .
+
+:DjasmanBasoOpu  rdf:type  foaf:Person ;
+        rdfs:label  "Djasman Baso Opu" .
+
+:KeriLaranSabalae  rdf:type  foaf:Person ;
+        rdfs:label  "Keri Laran Sabalae" .
+
+:MacDonald  rdf:type  foaf:Person ;
+        rdfs:label  "MacDonald" .
+
+:TjokordaGdeRakaSoekawati
+        rdf:type    foaf:Person ;
+        rdfs:label  "Tjokorda Gde Raka Soekawati" .
+
+:Sutiyoso  rdf:type  foaf:Person ;
+        rdfs:label  "Sutiyoso" .
+
+:OlivioMendoncaMoruk  rdf:type  foaf:Person ;
+        rdfs:label  "Olivio Mendonca Moruk" .
+
+:OmarDhani  rdf:type  foaf:Person ;
+        rdfs:label  "Omar Dhani " , "Omar Dhani" .
+
+:PhilipChristison  rdf:type  foaf:Person ;
+        rdfs:label  "Philip Christison" .
+
+:EddyWibowo  rdf:type  foaf:Person ;
+        rdfs:label  "Eddy Wibowo" .
+
+:SimonHendrikSpoor  rdf:type  foaf:Person ;
+        rdfs:label  "Simon Hendrik Spoor" .
+
+:AbdullahSyafii  rdf:type  foaf:Person ;
+        rdfs:label  "Abdullah Syafi'i" .
+
+:JacobRumbiak  rdf:type  foaf:Person ;
+        rdfs:label  "Jacob Rumbiak" .
+
+:AbdurahmanWahid  rdf:type  foaf:Person ;
+        rdfs:label  "Abdurahman Wahid" .
+
+:wikipediaSeranganUmum1Maret1949
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Serangan Umum 1 Maret 1949" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :HamengkubuwonoIX , :Sudirman , :VentjeSumual , :Meyer , :Langen , :JMvdBerge , :Soeharto , :BambangSoegeng .
+
+:wikipediaKerusuhanBanjarmasin
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kerusuhan Banjarmasin" ;
+        sem:accordingTo  :wikipedia .
+
+:EdiSudradjat  rdf:type  foaf:Person ;
+        rdfs:label  "Edi Sudradjat" .
+
+:IsaacJuliusTamala  rdf:type  foaf:Person ;
+        rdfs:label  "Isaac Julius Tamaëla" .
+
+:KonflikPapua  rdf:type  sem:Event ;
+        rdfs:label    "Konflik Papua" ;
+        rdfs:seeAlso  :wikipediaKonflikPapua .
+
+:UmatKatolikTimorTimur
+        rdf:type    foaf:Person ;
+        rdfs:label  "Umat Katolik Timor Timur" .
+
+:EndriartonoSutarto  rdf:type  foaf:Person ;
+        rdfs:label  "Endriartono Sutarto" .
+
+:InsidenPenembakanTimika1996
+        rdf:type      sem:Event ;
+        rdfs:label    "Insiden Penembakan Timika 1996" ;
+        rdfs:seeAlso  :wikipediaInsidenPenembakanTimika1996 .
+
+:TakeoTakagi  rdf:type  foaf:Person ;
+        rdfs:label  "Takeo Takagi" .
+
+:wikipediaKejatuhanSoeharto
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kejatuhan Soeharto" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :FeisalTanjung , :PrabowoSubianto , :Wiranto , :AmienRais , :Harmoko , :Soeharto , :MegawatiSoekarnoputri .
+
+:MuzakirManaf  rdf:type  foaf:Person ;
+        rdfs:label  "Muzakir Manaf" .
+
+:TentaraNasionalIndonesiaAngkatanDarat
+        rdf:type    foaf:Person ;
+        rdfs:label  "Tentara Nasional Indonesia Angkatan Darat" .
+
+:MarinusRiwu  rdf:type  foaf:Person ;
+        rdfs:label  "Marinus Riwu" .
+
+:RadenSoeprapto  rdf:type  foaf:Person ;
+        rdfs:label  "Raden Soeprapto" .
+
+:PembantaianGerejaSuai
+        rdf:type      sem:Event ;
+        rdfs:label    "Pembantaian Gereja Suai" ;
+        rdfs:seeAlso  :wikipediaPembantaianGerejaSuai .
+
+:PembakaranPlazaSentralKlender
+        rdf:type      sem:Event ;
+        rdfs:label    "Pembakaran Plaza Sentral Klender" ;
+        rdfs:seeAlso  :wikipediaPembakaranPlazaSentralKlender .
+
+:wikipediaPemberontakanDarulIslam
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pemberontakan Darul Islam" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :DaudBeureueh , :AhmadYani , :IbnuHadjar , :Sukarno , :RaymondWesterling , :SuryadiSuryadarma , :AbdulHarisNasution , :SekarmadjiKartosuwirjo , :Sudirman , :HasandiTiro , :AlexanderEvertKawilarang , :AbdulKaharMuzakkar , :TahiBonarSimatupang , :Suharto .
+
+:AlecDouglasHome  rdf:type  foaf:Person ;
+        rdfs:label  "Alec Douglas-Home" .
+
+:wikipediaSerangankeLimbang
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Serangan ke Limbang" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :SallehBinSambas , :JeremyMoore .
+
+:ChrisSoumokil  rdf:type  foaf:Person ;
+        rdfs:label  "Chris Soumokil" .
+
+:LBMurdani  rdf:type  foaf:Person ;
+        rdfs:label  "L. B. Murdani" .
+
+:RinaldyDamanik  rdf:type  foaf:Person ;
+        rdfs:label  "Rinaldy Damanik" .
+
+:SusiloYudhoyono  rdf:type  foaf:Person ;
+        rdfs:label  "Susilo Yudhoyono" .
+
+:LeonardusBenyaminMoerdani
+        rdf:type    foaf:Person ;
+        rdfs:label  "Leonardus Benyamin Moerdani" .
+
+:BambangDarmono  rdf:type  foaf:Person ;
+        rdfs:label  "Bambang Darmono" .
+
+:Meyer  rdf:type    foaf:Person ;
+        rdfs:label  "Meyer" .
+
+:YassinAffandi  rdf:type  foaf:Person ;
+        rdfs:label  "Yassin Affandi" .
+
+:ShjiNishimura  rdf:type  foaf:Person ;
+        rdfs:label  "Shōji Nishimura" .
+
+:JoniBotak  rdf:type  foaf:Person ;
+        rdfs:label  "Joni Botak" .
+
+:AubertinMallaby  rdf:type  foaf:Person ;
+        rdfs:label  "Aubertin Mallaby" .
+
+:AMAzahari  rdf:type  foaf:Person ;
+        rdfs:label  "A. M. Azahari" .
+
+:BudiGunawan  rdf:type  foaf:Person ;
+        rdfs:label  "Budi Gunawan" .
+
+:KerusuhanBanjarmasin
+        rdf:type      sem:Event ;
+        rdfs:label    "Kerusuhan Banjarmasin" ;
+        rdfs:seeAlso  :wikipediaKerusuhanBanjarmasin .
+
+:MrAssaat  rdf:type  foaf:Person ;
+        rdfs:label  "Mr. Assaat" .
+
+:VentjeSumual  rdf:type  foaf:Person ;
+        rdfs:label  "Ventje Sumual" .
+
+:wikipediaPeristiwaArfai
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Peristiwa Arfai" ;
+        sem:accordingTo  :wikipedia .
+
+:OmarAliSaifuddienIII
+        rdf:type    foaf:Person ;
+        rdfs:label  "Omar Ali Saifuddien III" .
+
+:Soetomo  rdf:type  foaf:Person ;
+        rdfs:label  "Soetomo" .
+
+:PembantaianSantaCruz
+        rdf:type      sem:Event ;
+        rdfs:label    "Pembantaian Santa Cruz" ;
+        rdfs:seeAlso  :wikipediaPembantaianSantaCruz .
+
+:wikipediaTragediTrisakti
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Tragedi Trisakti" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :TentaraNasionalIndonesiaAngkatanDarat , :UniversitasTrisakti .
+
+:wikipediaKonflikPapua
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Konflik Papua" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :GoliathTabuni , :MegawatiSukarnoputri , :MathiasWenda , :TrySutrisno , :LeonardusBenyaminMoerdani , :JacobPrai , :MarufAmin , :PrabowoSubianto , :JacobRumbiak , :BudiGunawan , :BJHabibie , :SusiloBambangYudhoyono , :Wiranto , :ListyoSigit , :AndikaPerkasa , :AgusSubiyanto , :BennyWenda , :EgianusKogoya , :SebbySambom , :Suharto , :JokoWidodo , :Prabowo , :KellyKwalik , :AbdurrahmanWahid , :JoniBotak .
+
+:Megawati  rdf:type  foaf:Person ;
+        rdfs:label  "Megawati" .
+
+:PemberontakanDarulIslam
+        rdf:type      sem:Event ;
+        rdfs:label    "Pemberontakan Darul Islam" ;
+        rdfs:seeAlso  :wikipediaPemberontakanDarulIslam .
+
+:BennyBetjara  rdf:type  foaf:Person ;
+        rdfs:label  "Benny Betjara" .
+
+:CJvanWestenbrugge  rdf:type  foaf:Person ;
+        rdfs:label  "C.J. van Westenbrugge" .
+
+:AjudanSiwabessy  rdf:type  foaf:Person ;
+        rdfs:label  "Ajudan Siwabessy" .
+
+:KrisissanderaMapenduma
+        rdf:type      sem:Event ;
+        rdfs:label    "Krisis sandera Mapenduma" ;
+        rdfs:seeAlso  :wikipediaKrisissanderaMapenduma .
+
+:JosAblioOsrioSoares  rdf:type  foaf:Person ;
+        rdfs:label  "José Abílio Osório Soares" .
+
+:SebbySambom  rdf:type  foaf:Person ;
+        rdfs:label  "Sebby Sambom" .
+
+:SlametKirbiantoro  rdf:type  foaf:Person ;
+        rdfs:label  "Slamet Kirbiantoro" .
+
+:KerusuhanMei1998  rdf:type  sem:Event ;
+        rdfs:label    "Kerusuhan Mei 1998" ;
+        rdfs:seeAlso  :wikipediaKerusuhanMei1998 .
+
+:Suharto  rdf:type  foaf:Person ;
+        rdfs:label  "Suharto" .
+
+:FeisalTanjung  rdf:type  foaf:Person ;
+        rdfs:label  "Feisal Tanjung" .
+
+:EuricoGuterres  rdf:type  foaf:Person ;
+        rdfs:label  "Eurico Guterres" .
+
+:Harmoko  rdf:type  foaf:Person ;
+        rdfs:label  "Harmoko" .
+
+:WAvanHeuven  rdf:type  foaf:Person ;
+        rdfs:label  "W.A. van Heuven" .
+
+:PauloPereiraGuerreiro
+        rdf:type    foaf:Person ;
+        rdfs:label  "Paulo Pereira Guerreiro" .
+
+:PembantaianGerejaLiqui
+        rdf:type      sem:Event ;
+        rdfs:label    "Pembantaian Gereja Liquiçá" ;
+        rdfs:seeAlso  :wikipediaPembantaianGerejaLiqui .
+
+:AriefPatanga  rdf:type  foaf:Person ;
+        rdfs:label  "Arief Patanga" .
+
+:SeranganUmum1Maret1949
+        rdf:type      sem:Event ;
+        rdfs:label    "Serangan Umum 1 Maret 1949" ;
+        rdfs:seeAlso  :wikipediaSeranganUmum1Maret1949 .
+
+:LBMoerdani  rdf:type  foaf:Person ;
+        rdfs:label  "L. B. Moerdani" .
+
+:PertempuranSungeiKoemba
+        rdf:type      sem:Event ;
+        rdfs:label    "Pertempuran Sungei Koemba" ;
+        rdfs:seeAlso  :wikipediaPertempuranSungeiKoemba .
+
+:ListyoSigit  rdf:type  foaf:Person ;
+        rdfs:label  "Listyo Sigit" .
+
+:wikipediaPeristiwa27Juli
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Peristiwa 27 Juli" ;
+        sem:accordingTo  :wikipedia .
+
+:GenosidaTimorTimur  rdf:type  sem:Event ;
+        rdfs:label    "Genosida Timor Timur" ;
+        rdfs:seeAlso  :wikipediaGenosidaTimorTimur .
+
+:SuryadiSuryadarma  rdf:type  foaf:Person ;
+        rdfs:label  "Suryadi Suryadarma" .
+
+:wikipediaGerakan30September
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Gerakan 30 September" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :SutoyoSiswomiharjo , :Soepardjo , :DonaldIsaacPanjaitan , :AHNasution , :AhmadYani , :Soeharto , :MasTirtodarmoHaryono , :RadenSoeprapto , :UntungSyamsuri , :Soekarno , :SarwoEdhieWibowo , :PierreAndreasTendean , :SiswondoParman .
+
+:RodneyMoore  rdf:type  foaf:Person ;
+        rdfs:label  "Rodney Moore" .
+
+:wikipediaKampanyeHindiaBelanda
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kampanye Hindia Belanda" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :NobutakeKond , :HitoshiImamura , :ThomasCHart , :KiyotakeKawaguchi , :ConradHelfrich , :ShjiNishimura , :JisaburOzawa , :HeinterPoorten , :IbTakahashi , :ATvanSStachouwer , :TakeoTakagi , :HisaichiTerauchi , :RichardPeirse , :KarelDoorman , :ArchibaldWavell .
+
+:KaptenTjiptadi  rdf:type  foaf:Person ;
+        rdfs:label  "Kapten Tjiptadi" .
+
+:LuhutBinsarPandjaitan
+        rdf:type    foaf:Person ;
+        rdfs:label  "Luhut Binsar Pandjaitan" .
+
+:OperasimiliterIndonesiadiAceh19901998
+        rdf:type      sem:Event ;
+        rdfs:label    "Operasi militer Indonesia di Aceh 1990-1998" ;
+        rdfs:seeAlso  :wikipediaOperasimiliterIndonesiadiAceh19901998 .
+
+:HisaichiTerauchi  rdf:type  foaf:Person ;
+        rdfs:label  "Hisaichi Terauchi" .
+
+:LeeKuanYew  rdf:type  foaf:Person ;
+        rdfs:label  "Lee Kuan Yew" .
+
+:Gerwani  rdf:type  foaf:Person ;
+        rdfs:label  "Gerwani" .
+
+:wikipediaOperasiTrikora
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Operasi Trikora" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :CJvanWestenbrugge , :SoerjadiSoerjadarma , :OmarDhani , :LeonardusBenyaminMoerdani , :YosSudarso , :Soekarno , :AhmadYani , :WAvanHeuven , :AbdulHarisNasution , :Soeharto , :EddyMartadinata .
+
+:PemberontakandiAceh  rdf:type  sem:Event ;
+        rdfs:label    "Pemberontakan di Aceh" ;
+        rdfs:seeAlso  :wikipediaPemberontakandiAceh .
+
+:wikipediaAgresiMiliterBelandaII
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Agresi Militer Belanda II" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :DirkvanLangen , :SimonHendrikSpoor , :AbdulHarisNasution , :Djatikoesoemo , :Soedirman .
+
+:Soeharto  rdf:type  foaf:Person ;
+        rdfs:label  "Soeharto" .
+
+:wikipediaOperasiTrisula
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Operasi Trisula" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :BOHutapea , :Kartomo , :Witarmin , :AbdulHarisNasution , :Soeharto .
+
+:SoetanSjahrir  rdf:type  foaf:Person ;
+        rdfs:label  "Soetan Sjahrir" .
+
+:wikipediaInsidenPenembakanTimika1996
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Insiden Penembakan Timika 1996" ;
+        sem:accordingTo  :wikipedia .
+
+:DNAidit  rdf:type  foaf:Person ;
+        rdfs:label  "D. N. Aidit" .
+
+:wikipediaMalari  rdf:type  sem:View ;
+        rdfs:label       "wikipedia Malari" ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaKerusuhanrasialJawaTengah1980
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kerusuhan rasial Jawa Tengah 1980" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :EnduMarsono , :HariMulyadi , :EddyWibowo .
+
+:KolonelSudomo  rdf:type  foaf:Person ;
+        rdfs:label  "Kolonel Sudomo" .
+
+:wikipediaPemberontakandiAceh
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pemberontakan di Aceh" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :SofyanDawood , :Sutiyoso , :BambangDarmono , :Soeharto , :Megawati , :BJHabibie , :IshakDaud , :ZainiAbdullah , :EndriartonoSutarto , :AbdullahSyafii , :SusiloYudhoyono , :MuzakirManaf , :HasandiTiro , :AyahMuni , :AbdurahmanWahid , :TrySutrisno .
+
+:YusofIshak  rdf:type  foaf:Person ;
+        rdfs:label  "Yusof Ishak" .
+
+:Peristiwa19Agustus1966
+        rdf:type      sem:Event ;
+        rdfs:label    "Peristiwa 19 Agustus 1966" ;
+        rdfs:seeAlso  :wikipediaPeristiwa19Agustus1966 .
+
+:SutoyoSiswomiharjo  rdf:type  foaf:Person ;
+        rdfs:label  "Sutoyo Siswomiharjo" .
+
+:AbuBakarBaasyir  rdf:type  foaf:Person ;
+        rdfs:label  "Abu Bakar Ba'asyir" .
+
+:MohammadHatta  rdf:type  foaf:Person ;
+        rdfs:label  "Mohammad Hatta" .
+
+:MegawatiSukarnoputri
+        rdf:type    foaf:Person ;
+        rdfs:label  "Megawati Sukarnoputri" .
+
+:ManueldeSousa  rdf:type  foaf:Person ;
+        rdfs:label  "Manuel de Sousa" .
+
+:AgusSubiyanto  rdf:type  foaf:Person ;
+        rdfs:label  "Agus Subiyanto" .
+
+:AHNasution  rdf:type  foaf:Person ;
+        rdfs:label  "A. H. Nasution" , "A.H. Nasution" .
+
+:JafarUmarThalib  rdf:type  foaf:Person ;
+        rdfs:label  "Ja'far Umar Thalib" .
+
+:HeinterPoorten  rdf:type  foaf:Person ;
+        rdfs:label  "Hein ter Poorten" .
+
+:WilliamHBeale  rdf:type  foaf:Person ;
+        rdfs:label  "William H. Beale" .
+
+:wikipediaPeristiwaTanjungPriok
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Peristiwa Tanjung Priok" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :AmirBiki , :Moerdani , :LeonardusBenyamin , :TrySutrisno .
+
+:HelenClark  rdf:type  foaf:Person ;
+        rdfs:label  "Helen Clark" .
+
+:MegawatiSoekarnoputri
+        rdf:type    foaf:Person ;
+        rdfs:label  "Megawati Soekarnoputri" .
+
+:TragediTrisakti  rdf:type  sem:Event ;
+        rdfs:label    "Tragedi Trisakti" ;
+        rdfs:seeAlso  :wikipediaTragediTrisakti .
+
+:WalterWalker  rdf:type  foaf:Person ;
+        rdfs:label  "Walter Walker" .
+
+:TrySutrisno  rdf:type  foaf:Person ;
+        rdfs:label  "Try Sutrisno" .
+
+:MariAlkatiri  rdf:type  foaf:Person ;
+        rdfs:label  "Mari Alkatiri" .
+
+:DominggusdaSilva  rdf:type  foaf:Person ;
+        rdfs:label  "Dominggus da Silva" .
+
+:wikipediaKerusuhanSambas
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kerusuhan Sambas" ;
+        sem:accordingTo  :wikipedia .
+
+:SoerjadiSoerjadarma  rdf:type  foaf:Person ;
+        rdfs:label  "Soerjadi Soerjadarma" .
+
+:BongKeeChok  rdf:type  foaf:Person ;
+        rdfs:label  "Bong Kee Chok" .
+
+:KonfrontasiIndonesiaMalaysia
+        rdf:type      sem:Event ;
+        rdfs:label    "Konfrontasi Indonesia–Malaysia" ;
+        rdfs:seeAlso  :wikipediaKonfrontasiIndonesiaMalaysia .
+
+:wikipediaPertempuranSungeiKoemba
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Sungei Koemba" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :IvorHodgkinson , :WilliamBroderick .
+
+:KonfliksektarianMaluku
+        rdf:type      sem:Event ;
+        rdfs:label    "Konflik sektarian Maluku" ;
+        rdfs:seeAlso  :wikipediaKonfliksektarianMaluku .
+
+:AbdoelHarisNasoetion
+        rdf:type    foaf:Person ;
+        rdfs:label  "Abdoel Haris Nasoetion" .
+
+:Wiranto  rdf:type  foaf:Person ;
+        rdfs:label  "Wiranto" .
+
+:MasTirtodarmoHaryono
+        rdf:type    foaf:Person ;
+        rdfs:label  "Mas Tirtodarmo Haryono" .
+
+:SjafruddinPrawiranegara
+        rdf:type    foaf:Person ;
+        rdfs:label  "Sjafruddin Prawiranegara" .
+
+:wikipediaPermesta  rdf:type  sem:View ;
+        rdfs:label       "wikipedia Permesta" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :AbdulHarisNasution , :WilliamHBeale , :AlexKawilarang , :DjaminGinting , :AllenLawrencePope , :DanielJuliusSomba , :VentjeSumual , :OmarDhani , :SjafruddinPrawiranegara , :Soekarno , :JoopWarouw .
+
+:AjudanTahapary  rdf:type  foaf:Person ;
+        rdfs:label  "Ajudan Tahapary" .
+
+:ZainalAbidinIshak  rdf:type  foaf:Person ;
+        rdfs:label  "Zainal Abidin Ishak" .
+
+:NinoKonisSantana  rdf:type  foaf:Person ;
+        rdfs:label  "Nino Konis Santana" .
+
+:RichardPeirse  rdf:type  foaf:Person ;
+        rdfs:label  "Richard Peirse" .
+
+:HubertusvanMook  rdf:type  foaf:Person ;
+        rdfs:label  "Hubertus van Mook" .
+
+:Batalyon328Kostrad  rdf:type  foaf:Person ;
+        rdfs:label  "Batalyon 328 Kostrad" .
+
+:UntungSyamsuri  rdf:type  foaf:Person ;
+        rdfs:label  "Untung Syamsuri" .
+
+:DomingusSopacua  rdf:type  foaf:Person ;
+        rdfs:label  "Domingus Sopacua" .
+
+:Peristiwa27Juli  rdf:type  sem:Event ;
+        rdfs:label    "Peristiwa 27 Juli" ;
+        rdfs:seeAlso  :wikipediaPeristiwa27Juli .
+
+:wikipediaInvasiAmbon
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Invasi Ambon" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :IsaacJuliusTamala , :SlametRijadi , :DomingusSopacua , :AjudanSiwabessy , :AlexanderNanlohy , :Soekarno , :ChrisSoumokil , :AlexKawilarang , :AjudanTahapary , :AbdulHarisNasution .
+
+:ThomasCHart  rdf:type  foaf:Person ;
+        rdfs:label  "Thomas C. Hart" .
+
+:PeristiwaArfai  rdf:type  sem:Event ;
+        rdfs:label    "Peristiwa Arfai" ;
+        rdfs:seeAlso  :wikipediaPeristiwaArfai .
+
+:GatotSubroto  rdf:type  foaf:Person ;
+        rdfs:label  "Gatot Subroto" .
+
+:OeripSoemohardjo  rdf:type  foaf:Person ;
+        rdfs:label  "Oerip Soemohardjo" .
+
+:TBSimatupang  rdf:type  foaf:Person ;
+        rdfs:label  "T.B. Simatupang" .
+
+:BennyWenda  rdf:type  foaf:Person ;
+        rdfs:label  "Benny Wenda" .
+
+:wikipediaPemberontakanPKI1948
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pemberontakan PKI 1948" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :Njoto , :AmirSjarifuddin , :AbdulHarisNasution , :Soedirman , :MohammadHatta , :Musso , :DNAidit , :MHLukman , :GatotSoebroto , :Soekarno .
+
+:Djatikoesoemo  rdf:type  foaf:Person ;
+        rdfs:label  "Djatikoesoemo" .
+
+:IbTakahashi  rdf:type  foaf:Person ;
+        rdfs:label  "Ibō Takahashi" .
+
+:WilliamBroderick  rdf:type  foaf:Person ;
+        rdfs:label  "William Broderick" .
+
+:EddyMartadinata  rdf:type  foaf:Person ;
+        rdfs:label  "Eddy Martadinata" .
+
+:PakubuwanaXII  rdf:type  foaf:Person ;
+        rdfs:label  "Pakubuwana XII" .
+
+:wikipedia  rdf:type  sem:Authority .
+
+:JMvdBerge  rdf:type  foaf:Person ;
+        rdfs:label  "J.M. v/d Berge" .
+
+:DavidAlex  rdf:type  foaf:Person ;
+        rdfs:label  "David Alex" .
+
+:MahunoBulerekKarathayano
+        rdf:type    foaf:Person ;
+        rdfs:label  "Ma'huno Bulerek Karathayano" .
+
+:SekarmadjiKartosoewirjo
+        rdf:type    foaf:Person ;
+        rdfs:label  "Sekarmadji Kartosoewirjo" .
+
+:wikipediaGenosidaTimorTimur
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Genosida Timor Timur" ;
+        sem:accordingTo  :wikipedia .
+
+:SultanHamidII  rdf:type  foaf:Person ;
+        rdfs:label  "Sultan Hamid II" .
+
+:AlexKawilarang  rdf:type  foaf:Person ;
+        rdfs:label  "Alex Kawilarang" .
+
+:Sukarno  rdf:type  foaf:Person ;
+        rdfs:label  "Sukarno" .
+
+:RaymondWesterling  rdf:type  foaf:Person ;
+        rdfs:label  "Raymond Westerling" .
+
+:OperasiTrikora  rdf:type  sem:Event ;
+        rdfs:label    "Operasi Trikora" ;
+        rdfs:seeAlso  :wikipediaOperasiTrikora .
+
+:NicolaudosReisLobato
+        rdf:type    foaf:Person ;
+        rdfs:label  "Nicolau dos Reis Lobato" .
+
+:IvorHodgkinson  rdf:type  foaf:Person ;
+        rdfs:label  "Ivor Hodgkinson" .
+
+:AgusWattimena  rdf:type  foaf:Person ;
+        rdfs:label  "Agus Wattimena" .
+
+:ZainiAbdullah  rdf:type  foaf:Person ;
+        rdfs:label  "Zaini Abdullah" .
+
+:OperasiTrisula  rdf:type  sem:Event ;
+        rdfs:label    "Operasi Trisula" ;
+        rdfs:seeAlso  :wikipediaOperasiTrisula .
+
+:AKWidjojoatmodjo  rdf:type  foaf:Person ;
+        rdfs:label  "A.K. Widjojoatmodjo" .
+
+:AlexanderEvertKawilarang
+        rdf:type    foaf:Person ;
+        rdfs:label  "Alexander Evert Kawilarang" .
+
+:PertempuranLautAru  rdf:type  sem:Event ;
+        rdfs:label    "Pertempuran Laut Aru" ;
+        rdfs:seeAlso  :wikipediaPertempuranLautAru .
+
+:AbdurrahmanWahid  rdf:type  foaf:Person ;
+        rdfs:label  "Abdurrahman Wahid" .
+
+:AbdulRazakHussein  rdf:type  foaf:Person ;
+        rdfs:label  "Abdul Razak Hussein" .
+
+:WidjojoSoejono  rdf:type  foaf:Person ;
+        rdfs:label  "Widjojo Soejono" .
+
+:Malari  rdf:type     sem:Event ;
+        rdfs:label    "Malari" ;
+        rdfs:seeAlso  :wikipediaMalari .
+
+:AmienRais  rdf:type  foaf:Person ;
+        rdfs:label  "Amien Rais" .
+
+:Wilhelmina  rdf:type  foaf:Person ;
+        rdfs:label  "Wilhelmina" .
+
+:IshakDaud  rdf:type  foaf:Person ;
+        rdfs:label  "Ishak Daud" .
+
+:PemberontakanPKI1948
+        rdf:type      sem:Event ;
+        rdfs:label    "Pemberontakan PKI 1948" ;
+        rdfs:seeAlso  :wikipediaPemberontakanPKI1948 .
+
+:AminuddinPonulele  rdf:type  foaf:Person ;
+        rdfs:label  "Aminuddin Ponulele" .
+
+:Penculikanaktivis19971998
+        rdf:type      sem:Event ;
+        rdfs:label    "Penculikan aktivis 1997/1998" ;
+        rdfs:seeAlso  :wikipediaPenculikanaktivis19971998 .
+
+:HaroldWilson  rdf:type  foaf:Person ;
+        rdfs:label  "Harold Wilson" .
+
+:KerusuhanSambas  rdf:type  sem:Event ;
+        rdfs:label    "Kerusuhan Sambas" ;
+        rdfs:seeAlso  :wikipediaKerusuhanSambas .
+
+:TragediSemanggi  rdf:type  sem:Event ;
+        rdfs:label    "Tragedi Semanggi" ;
+        rdfs:seeAlso  :wikipediaTragediSemanggi .
+
+:EgianusKogoya  rdf:type  foaf:Person ;
+        rdfs:label  "Egianus Kogoya" .
+
+:DaudBeureueh  rdf:type  foaf:Person ;
+        rdfs:label  "Daud Beureueh" .
+
+:IbnuHadjar  rdf:type  foaf:Person ;
+        rdfs:label  "Ibnu Hadjar" .
+
+:wikipediaPendudukanIndonesiaatasTimorTimur
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pendudukan Indonesia atas Timor Timur" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :PrabowoSubianto , :FeisalTanjung , :MariAlkatiri , :EuricoGuterres , :TrySutrisno , :MaradenPanggabean , :BJHabibie , :DadingKalbuadi , :MahunoBulerekKarathayano , :FranciscoXavierdoAmaral , :KeriLaranSabalae , :TaurMatanRuak , :LBMurdani , :NicolaudosReisLobato , :Soeharto , :DavidAlex , :NinoKonisSantana , :Wiranto , :RogrioLobato , :XananaGusmo , :MuhammadJusuf , :JosAblioOsrioSoares , :EdiSudradjat .
+
+:JohnHoward  rdf:type  foaf:Person ;
+        rdfs:label  "John Howard" .
+
+:AmirSjarifuddin  rdf:type  foaf:Person ;
+        rdfs:label  "Amir Sjarifuddin" .
+
+:wikipediaPembakaranPlazaSentralKlender
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pembakaran Plaza Sentral Klender" ;
+        sem:accordingTo  :wikipedia .
+
+:AyahMuni  rdf:type  foaf:Person ;
+        rdfs:label  "Ayah Muni" .
+
+:PendudukanIndonesiaatasTimorTimur
+        rdf:type      sem:Event ;
+        rdfs:label    "Pendudukan Indonesia atas Timor Timur" ;
+        rdfs:seeAlso  :wikipediaPendudukanIndonesiaatasTimorTimur .
+
+:Soekarno  rdf:type  foaf:Person ;
+        rdfs:label  "Soekarno" .
+
+:HendrikvanOyen  rdf:type  foaf:Person ;
+        rdfs:label  "Hendrik van Oyen" .
+
+:JoopWarouw  rdf:type  foaf:Person ;
+        rdfs:label  "Joop Warouw" .
+
+:PKI    rdf:type    foaf:Person ;
+        rdfs:label  "PKI" .
+
+:TonaasWangkoLendyWangke
+        rdf:type    foaf:Person ;
+        rdfs:label  "Tonaas Wangko Lendy Wangke" .
+
+:DonaldIsaacPanjaitan
+        rdf:type    foaf:Person ;
+        rdfs:label  "Donald Isaac Panjaitan" .
+
+:Langen  rdf:type   foaf:Person ;
+        rdfs:label  "Langen" .
+
+:SallehBinSambas  rdf:type  foaf:Person ;
+        rdfs:label  "Salleh Bin Sambas" .
+
+:ArchibaldWavell  rdf:type  foaf:Person ;
+        rdfs:label  "Archibald Wavell" .
+
+:BJHabibie  rdf:type  foaf:Person ;
+        rdfs:label  "B. J. Habibie" .
+
+:TunkuOsman  rdf:type  foaf:Person ;
+        rdfs:label  "Tunku Osman" .
+
+:wikipediaTragediSemanggi
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Tragedi Semanggi" ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaKrisisTimorTimur1999
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Krisis Timor Timur 1999" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :ManueldeSousa , :JohnHoward , :PauloPereiraGuerreiro , :JennyShipley , :PeterCosgrove , :HelenClark , :Wiranto , :CncioLopezdeCarvalho , :CareyAdamson , :SrgioVieiradeMello , :OlivioMendoncaMoruk , :EuricoGuterres .
+
+:UniversitasTrisakti  rdf:type  foaf:Person ;
+        rdfs:label  "Universitas Trisakti" .
+
+:AbanganJawa  rdf:type  foaf:Person ;
+        rdfs:label  "Abangan Jawa" .
+
+:LoaSekHie  rdf:type  foaf:Person ;
+        rdfs:label  "Loa Sek Hie" .
+
+:KiyotakeKawaguchi  rdf:type  foaf:Person ;
+        rdfs:label  "Kiyotake Kawaguchi" .
+
+:JeremyMoore  rdf:type  foaf:Person ;
+        rdfs:label  "Jeremy Moore" .
+
+:wikipediaOperasi17Agustus
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Operasi 17 Agustus" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :AbdulHarisNasution , :SyafruddinPrawiranegara , :MaludinSimbolon , :AhmadYani , :AhmadHusein , :MrAssaat , :Soekarno .
+
+:AdnanArsal  rdf:type  foaf:Person ;
+        rdfs:label  "Adnan Arsal" .
+
+:AmirBiki  rdf:type  foaf:Person ;
+        rdfs:label  "Amir Biki" .
+
+:AgustinusAdisoetjipto
+        rdf:type    foaf:Person ;
+        rdfs:label  "Agustinus Adisoetjipto" .
+
+:NobutakeKond  rdf:type  foaf:Person ;
+        rdfs:label  "Nobutake Kondō" .
+
+:YosSudarso  rdf:type  foaf:Person ;
+        rdfs:label  "Yos Sudarso" .
+
+:SlametRijadi  rdf:type  foaf:Person ;
+        rdfs:label  "Slamet Rijadi" .

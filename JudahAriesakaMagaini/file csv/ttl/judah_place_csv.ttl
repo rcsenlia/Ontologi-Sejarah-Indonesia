@@ -1,0 +1,701 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:JawaBarat  rdf:type  geo:Feature ;
+        rdfs:label  "Jawa Barat" .
+
+:RevolusiNasionalIndonesia
+        rdf:type      sem:Event ;
+        rdfs:label    "Revolusi Nasional Indonesia" ;
+        rdfs:seeAlso  :wikipediaRevolusiNasionalIndonesia .
+
+:wikipediaPemberontakanPKI1948
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pemberontakan PKI 1948" ;
+        :hasLocation     :Madiun ;
+        sem:accordingTo  :wikipedia .
+
+:Yogyakarta  rdf:type  geo:Feature ;
+        rdfs:label  "Yogyakarta" .
+
+:Gerakan30September  rdf:type  sem:Event ;
+        rdfs:label    "Gerakan 30 September" ;
+        rdfs:seeAlso  :wikipediaGerakan30September .
+
+:TimorLeste  rdf:type  geo:Feature ;
+        rdfs:label  "Timor Leste" , "Timor Leste " .
+
+:PapuawilayahIndonesia
+        rdf:type    geo:Feature ;
+        rdfs:label  "Papua (wilayah Indonesia)" .
+
+:wikipedia  rdf:type  sem:Authority .
+
+:Sarawak  rdf:type  geo:Feature ;
+        rdfs:label  "Sarawak" .
+
+:InvasiAmbon  rdf:type  sem:Event ;
+        rdfs:label    "Invasi Ambon" ;
+        rdfs:seeAlso  :wikipediaInvasiAmbon .
+
+:KrisissanderaMapenduma
+        rdf:type      sem:Event ;
+        rdfs:label    "Krisis sandera Mapenduma" ;
+        rdfs:seeAlso  :wikipediaKrisissanderaMapenduma .
+
+:Sambas  rdf:type   geo:Feature ;
+        rdfs:label  "Sambas" .
+
+:PengebomanBorobudur1985
+        rdf:type      sem:Event ;
+        rdfs:label    "Pengeboman Borobudur 1985" ;
+        rdfs:seeAlso  :wikipediaPengebomanBorobudur1985 .
+
+:wikipediaPeristiwa19Agustus1966
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Peristiwa 19 Agustus 1966" ;
+        :hasLocation     :Bandung ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaKerusuhanPoso
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kerusuhan Poso" ;
+        :hasLocation     :KabupatenPoso ;
+        sem:accordingTo  :wikipedia .
+
+:Padang  rdf:type   geo:Feature ;
+        rdfs:label  "Padang" .
+
+:TragediTrisakti  rdf:type  sem:Event ;
+        rdfs:label    "Tragedi Trisakti" ;
+        rdfs:seeAlso  :wikipediaTragediTrisakti .
+
+:wikipediaKerusuhanrasialJawaTengah1980
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kerusuhan rasial Jawa Tengah 1980" ;
+        :hasLocation     :KabupatenSemarang , :Semarang , :Solo ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaInvasiIndonesiakeTimorTimur
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Invasi Indonesia ke Timor Timur" ;
+        :hasLocation     :TimorTimur ;
+        sem:accordingTo  :wikipedia .
+
+:PemberontakanPKI1948
+        rdf:type      sem:Event ;
+        rdfs:label    "Pemberontakan PKI 1948" ;
+        rdfs:seeAlso  :wikipediaPemberontakanPKI1948 .
+
+:PeristiwaTanjungPriok
+        rdf:type      sem:Event ;
+        rdfs:label    "Peristiwa Tanjung Priok" ;
+        rdfs:seeAlso  :wikipediaPeristiwaTanjungPriok .
+
+:wikipediaBandungLautanApi
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Bandung Lautan Api" ;
+        :hasLocation     :Bandung ;
+        sem:accordingTo  :wikipedia .
+
+:Blitar  rdf:type   geo:Feature ;
+        rdfs:label  "Blitar" .
+
+:wikipediaPemberontakandiAceh
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pemberontakan di Aceh" ;
+        :hasLocation     :Aceh ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPembantaianBeutongAteueh
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pembantaian Beutong Ateueh" ;
+        :hasLocation     :BlangMeurandeh ;
+        sem:accordingTo  :wikipedia .
+
+:Medan  rdf:type    geo:Feature ;
+        rdfs:label  "Medan" .
+
+:Surakarta  rdf:type  geo:Feature ;
+        rdfs:label  "Surakarta" .
+
+:SungeiKoemba  rdf:type  geo:Feature ;
+        rdfs:label  "Sungei Koemba" .
+
+:KerusuhanSambas  rdf:type  sem:Event ;
+        rdfs:label    "Kerusuhan Sambas" ;
+        rdfs:seeAlso  :wikipediaKerusuhanSambas .
+
+:PertempuranSungeiKoemba
+        rdf:type      sem:Event ;
+        rdfs:label    "Pertempuran Sungei Koemba" ;
+        rdfs:seeAlso  :wikipediaPertempuranSungeiKoemba .
+
+:KepulauanMaluku  rdf:type  geo:Feature ;
+        rdfs:label  "Kepulauan Maluku" .
+
+:wikipediaPengebomanBorobudur1985
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pengeboman Borobudur 1985" ;
+        :hasLocation     :CandiBorobudur ;
+        sem:accordingTo  :wikipedia .
+
+:OperasiTrikora  rdf:type  sem:Event ;
+        rdfs:label    "Operasi Trikora" ;
+        rdfs:seeAlso  :wikipediaOperasiTrikora .
+
+:IrianBarat  rdf:type  geo:Feature ;
+        rdfs:label  "Irian Barat" .
+
+:KonfrontasiIndonesiaMalaysia
+        rdf:type      sem:Event ;
+        rdfs:label    "Konfrontasi Indonesia–Malaysia" ;
+        rdfs:seeAlso  :wikipediaKonfrontasiIndonesiaMalaysia .
+
+:KabupatenSemarang  rdf:type  geo:Feature ;
+        rdfs:label  "Kabupaten Semarang" .
+
+:KabupatenJayapura  rdf:type  geo:Feature ;
+        rdfs:label  "Kabupaten Jayapura" .
+
+:wikipediaSerangankeLimbang
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Serangan ke Limbang" ;
+        :hasLocation     :Borneo , :Sarawak , :Limbang ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaOperasi17Agustus
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Operasi 17 Agustus" ;
+        :hasLocation     :Padang ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPembantaianGerejaLiqui
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pembantaian Gereja Liquiçá" ;
+        :hasLocation     :DistrikLiqui ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPendaratandiLabis
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pendaratan di Labis" ;
+        :hasLocation     :Labis ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPembakaranPlazaSentralKlender
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pembakaran Plaza Sentral Klender" ;
+        :hasLocation     :PlazaSentralKlenderJlIGustiNgurahRaiNo13DurenSawitJakartaTimurDKIJakarta ;
+        sem:accordingTo  :wikipedia .
+
+:AgresiMiliterBelandaII
+        rdf:type      sem:Event ;
+        rdfs:label    "Agresi Militer Belanda II" ;
+        rdfs:seeAlso  :wikipediaAgresiMiliterBelandaII .
+
+:TragediSemanggi  rdf:type  sem:Event ;
+        rdfs:label    "Tragedi Semanggi" ;
+        rdfs:seeAlso  :wikipediaTragediSemanggi .
+
+:wikipediaPeristiwaTanjungPriok
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Peristiwa Tanjung Priok" ;
+        :hasLocation     :TanjungPriok ;
+        sem:accordingTo  :wikipedia .
+
+:Peristiwa27Juli  rdf:type  sem:Event ;
+        rdfs:label    "Peristiwa 27 Juli" ;
+        rdfs:seeAlso  :wikipediaPeristiwa27Juli .
+
+:SemenanjungMalaka  rdf:type  geo:Feature ;
+        rdfs:label  "Semenanjung Malaka" .
+
+:Permesta  rdf:type   sem:Event ;
+        rdfs:label    "Permesta" ;
+        rdfs:seeAlso  :wikipediaPermesta .
+
+:MapendumaNduga  rdf:type  geo:Feature ;
+        rdfs:label  "Mapenduma, Nduga" .
+
+:LautArafura  rdf:type  geo:Feature ;
+        rdfs:label  "Laut Arafura" .
+
+:wikipediaOperasiTrisula
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Operasi Trisula" ;
+        :hasLocation     :Blitar ;
+        sem:accordingTo  :wikipedia .
+
+:KerusuhanrasialJawaTengah1980
+        rdf:type      sem:Event ;
+        rdfs:label    "Kerusuhan rasial Jawa Tengah 1980" ;
+        rdfs:seeAlso  :wikipediaKerusuhanrasialJawaTengah1980 .
+
+:SerangankeLimbang  rdf:type  sem:Event ;
+        rdfs:label    "Serangan ke Limbang" ;
+        rdfs:seeAlso  :wikipediaSerangankeLimbang .
+
+:PendaratandiLabis  rdf:type  sem:Event ;
+        rdfs:label    "Pendaratan di Labis" ;
+        rdfs:seeAlso  :wikipediaPendaratandiLabis .
+
+:wikipediaPeristiwaArfai
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Peristiwa Arfai" ;
+        :hasLocation     :Manokwari ;
+        sem:accordingTo  :wikipedia .
+
+:DistrikLiqui  rdf:type  geo:Feature ;
+        rdfs:label  "Distrik Liquiçá" .
+
+:TanjungPriok  rdf:type  geo:Feature ;
+        rdfs:label  "Tanjung Priok" .
+
+:wikipediaTragediTrisakti
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Tragedi Trisakti" ;
+        :hasLocation     :Jakarta ;
+        sem:accordingTo  :wikipedia .
+
+:PengebomanMasjidNurulIman1976
+        rdf:type      sem:Event ;
+        rdfs:label    "Pengeboman Masjid Nurul Iman 1976" ;
+        rdfs:seeAlso  :wikipediaPengebomanMasjidNurulIman1976 .
+
+:GenosidaTimorTimur  rdf:type  sem:Event ;
+        rdfs:label    "Genosida Timor Timur" ;
+        rdfs:seeAlso  :wikipediaGenosidaTimorTimur .
+
+:PemberontakandiAceh  rdf:type  sem:Event ;
+        rdfs:label    "Pemberontakan di Aceh" ;
+        rdfs:seeAlso  :wikipediaPemberontakandiAceh .
+
+:wikipediaKonfrontasiIndonesiaMalaysia
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Konfrontasi Indonesia–Malaysia" ;
+        :hasLocation     :Kalimantan , :SemenanjungMalaka ;
+        sem:accordingTo  :wikipedia .
+
+:OperasimiliterIndonesiadiAceh19901998
+        rdf:type      sem:Event ;
+        rdfs:label    "Operasi militer Indonesia di Aceh 1990-1998" ;
+        rdfs:seeAlso  :wikipediaOperasimiliterIndonesiadiAceh19901998 .
+
+:wikipediaKerusuhanSambas
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kerusuhan Sambas" ;
+        :hasLocation     :Sambas ;
+        sem:accordingTo  :wikipedia .
+
+:SulawesiSelatan  rdf:type  geo:Feature ;
+        rdfs:label  "Sulawesi Selatan" .
+
+:wikipediaKonfliksektarianMaluku
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Konflik sektarian Maluku" ;
+        :hasLocation     :KepulauanMaluku ;
+        sem:accordingTo  :wikipedia .
+
+:BandungLautanApi  rdf:type  sem:Event ;
+        rdfs:label    "Bandung Lautan Api" ;
+        rdfs:seeAlso  :wikipediaBandungLautanApi .
+
+:InvasiIndonesiakeTimorTimur
+        rdf:type      sem:Event ;
+        rdfs:label    "Invasi Indonesia ke Timor Timur" ;
+        rdfs:seeAlso  :wikipediaInvasiIndonesiakeTimorTimur .
+
+:HindiaBelanda  rdf:type  geo:Feature ;
+        rdfs:label  "Hindia Belanda" .
+
+:Peristiwa19Agustus1966
+        rdf:type      sem:Event ;
+        rdfs:label    "Peristiwa 19 Agustus 1966" ;
+        rdfs:seeAlso  :wikipediaPeristiwa19Agustus1966 .
+
+:KerusuhanPoso  rdf:type  sem:Event ;
+        rdfs:label    "Kerusuhan Poso" ;
+        rdfs:seeAlso  :wikipediaKerusuhanPoso .
+
+:PertempuranLautAru  rdf:type  sem:Event ;
+        rdfs:label    "Pertempuran Laut Aru" ;
+        rdfs:seeAlso  :wikipediaPertempuranLautAru .
+
+:PembakaranPlazaSentralKlender
+        rdf:type      sem:Event ;
+        rdfs:label    "Pembakaran Plaza Sentral Klender" ;
+        rdfs:seeAlso  :wikipediaPembakaranPlazaSentralKlender .
+
+:PembantaianGerejaSuai
+        rdf:type      sem:Event ;
+        rdfs:label    "Pembantaian Gereja Suai" ;
+        rdfs:seeAlso  :wikipediaPembantaianGerejaSuai .
+
+:CandiBorobudur  rdf:type  geo:Feature ;
+        rdfs:label  "Candi Borobudur" .
+
+:wikipediaGerakan30September
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Gerakan 30 September" ;
+        :hasLocation     :LubangBuaya ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaKerusuhanBanjarmasin
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kerusuhan Banjarmasin" ;
+        :hasLocation     :Banjarmasin ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPeristiwa27Juli
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Peristiwa 27 Juli" ;
+        :hasLocation     :JakartaIndonesia ;
+        sem:accordingTo  :wikipedia .
+
+:Suai   rdf:type    geo:Feature ;
+        rdfs:label  "Suai" .
+
+:SeranganUmum1Maret1949
+        rdf:type      sem:Event ;
+        rdfs:label    "Serangan Umum 1 Maret 1949" ;
+        rdfs:seeAlso  :wikipediaSeranganUmum1Maret1949 .
+
+:Operasi17Agustus  rdf:type  sem:Event ;
+        rdfs:label    "Operasi 17 Agustus" ;
+        rdfs:seeAlso  :wikipediaOperasi17Agustus .
+
+:PembantaianSantaCruz
+        rdf:type      sem:Event ;
+        rdfs:label    "Pembantaian Santa Cruz" ;
+        rdfs:seeAlso  :wikipediaPembantaianSantaCruz .
+
+:TimorTimur  rdf:type  geo:Feature ;
+        rdfs:label  "Timor Timur" .
+
+:Banjarmasin  rdf:type  geo:Feature ;
+        rdfs:label  "Banjarmasin" .
+
+:PembantaianBeutongAteueh
+        rdf:type      sem:Event ;
+        rdfs:label    "Pembantaian Beutong Ateueh" ;
+        rdfs:seeAlso  :wikipediaPembantaianBeutongAteueh .
+
+:Solo   rdf:type    geo:Feature ;
+        rdfs:label  "Solo" .
+
+:PembantaianGerejaLiqui
+        rdf:type      sem:Event ;
+        rdfs:label    "Pembantaian Gereja Liquiçá" ;
+        rdfs:seeAlso  :wikipediaPembantaianGerejaLiqui .
+
+:wikipediaKerusuhanMei1998
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kerusuhan Mei 1998" ;
+        :hasLocation     :Surakarta , :Jakarta , :Medan ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaKejatuhanSoeharto
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kejatuhan Soeharto" ;
+        :hasLocation     :Indonesia ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPembantaianGerejaSuai
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pembantaian Gereja Suai" ;
+        :hasLocation     :Suai ;
+        sem:accordingTo  :wikipedia .
+
+:Madiun  rdf:type   geo:Feature ;
+        rdfs:label  "Madiun" .
+
+:wikipediaKampanyeHindiaBelanda
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kampanye Hindia Belanda" ;
+        :hasLocation     :HindiaBelanda ;
+        sem:accordingTo  :wikipedia .
+
+:Indonesia  rdf:type  geo:Feature ;
+        rdfs:label  "Indonesia" .
+
+:KerusuhanBanjarmasin
+        rdf:type      sem:Event ;
+        rdfs:label    "Kerusuhan Banjarmasin" ;
+        rdfs:seeAlso  :wikipediaKerusuhanBanjarmasin .
+
+:wikipediaKrisisTimorTimur1999
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Krisis Timor Timur 1999" ;
+        :hasLocation     :TimorLeste ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaSeranganUmum1Maret1949
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Serangan Umum 1 Maret 1949" ;
+        :hasLocation     :Yogyakarta ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPermesta  rdf:type  sem:View ;
+        rdfs:label       "wikipedia Permesta" ;
+        :hasLocation     :IndonesiaTimur ;
+        sem:accordingTo  :wikipedia .
+
+:KejatuhanSoeharto  rdf:type  sem:Event ;
+        rdfs:label    "Kejatuhan Soeharto" ;
+        rdfs:seeAlso  :wikipediaKejatuhanSoeharto .
+
+:PendudukanIndonesiaatasTimorTimur
+        rdf:type      sem:Event ;
+        rdfs:label    "Pendudukan Indonesia atas Timor Timur" ;
+        rdfs:seeAlso  :wikipediaPendudukanIndonesiaatasTimorTimur .
+
+:Ambon  rdf:type    geo:Feature ;
+        rdfs:label  "Ambon" .
+
+:Kalimantan  rdf:type  geo:Feature ;
+        rdfs:label  "Kalimantan" .
+
+:wikipediaPendudukanIndonesiaatasTimorTimur
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pendudukan Indonesia atas Timor Timur" ;
+        :hasLocation     :TimorTimur ;
+        sem:accordingTo  :wikipedia .
+
+:Jakarta  rdf:type  geo:Feature ;
+        rdfs:label  "Jakarta" .
+
+:Semarang  rdf:type  geo:Feature ;
+        rdfs:label  "Semarang" .
+
+:LubangBuaya  rdf:type  geo:Feature ;
+        rdfs:label  "Lubang Buaya" .
+
+:OperasiTrisula  rdf:type  sem:Event ;
+        rdfs:label    "Operasi Trisula" ;
+        rdfs:seeAlso  :wikipediaOperasiTrisula .
+
+:Labis  rdf:type    geo:Feature ;
+        rdfs:label  "Labis" .
+
+:wikipediaPertempuranSungeiKoemba
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Sungei Koemba" ;
+        :hasLocation     :SungeiKoemba ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPengebomanMasjidNurulIman1976
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pengeboman Masjid Nurul Iman 1976" ;
+        :hasLocation     :Padang ;
+        sem:accordingTo  :wikipedia .
+
+:BandarUdaraTimika  rdf:type  geo:Feature ;
+        rdfs:label  "Bandar Udara Timika" .
+
+:KonfliksektarianMaluku
+        rdf:type      sem:Event ;
+        rdfs:label    "Konflik sektarian Maluku" ;
+        rdfs:seeAlso  :wikipediaKonfliksektarianMaluku .
+
+:wikipediaKrisissanderaMapenduma
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Krisis sandera Mapenduma" ;
+        :hasLocation     :PapuawilayahIndonesia , :MapendumaNduga ;
+        sem:accordingTo  :wikipedia .
+
+:JakartaIndonesia  rdf:type  geo:Feature ;
+        rdfs:label  "Jakarta, Indonesia" .
+
+:wikipediaOperasiJayapura1976
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Operasi Jayapura 1976" ;
+        :hasLocation     :KabupatenJayapura ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPenculikanaktivis19971998
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Penculikan aktivis 1997/1998" ;
+        :hasLocation     :Indonesia ;
+        sem:accordingTo  :wikipedia .
+
+:PeristiwaArfai  rdf:type  sem:Event ;
+        rdfs:label    "Peristiwa Arfai" ;
+        rdfs:seeAlso  :wikipediaPeristiwaArfai .
+
+:Sumatra  rdf:type  geo:Feature ;
+        rdfs:label  "Sumatra" .
+
+:wikipediaOperasimiliterIndonesiadiAceh19901998
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Operasi militer Indonesia di Aceh 1990-1998" ;
+        :hasLocation     :Aceh ;
+        sem:accordingTo  :wikipedia .
+
+:PemberontakanDarulIslam
+        rdf:type      sem:Event ;
+        rdfs:label    "Pemberontakan Darul Islam" ;
+        rdfs:seeAlso  :wikipediaPemberontakanDarulIslam .
+
+:Manokwari  rdf:type  geo:Feature ;
+        rdfs:label  "Manokwari" .
+
+:InsidenPenembakanTimika1996
+        rdf:type      sem:Event ;
+        rdfs:label    "Insiden Penembakan Timika 1996" ;
+        rdfs:seeAlso  :wikipediaInsidenPenembakanTimika1996 .
+
+:Malari  rdf:type     sem:Event ;
+        rdfs:label    "Malari" ;
+        rdfs:seeAlso  :wikipediaMalari .
+
+:Aceh   rdf:type    geo:Feature ;
+        rdfs:label  "Aceh" .
+
+:Bandung  rdf:type  geo:Feature ;
+        rdfs:label  "Bandung" .
+
+:wikipediaOperasiTrikora
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Operasi Trikora" ;
+        :hasLocation     :IrianBarat ;
+        sem:accordingTo  :wikipedia .
+
+:KrisisTimorTimur1999
+        rdf:type      sem:Event ;
+        rdfs:label    "Krisis Timor Timur 1999" ;
+        rdfs:seeAlso  :wikipediaKrisisTimorTimur1999 .
+
+:IndonesiaTimur  rdf:type  geo:Feature ;
+        rdfs:label  "Indonesia Timur" .
+
+:Limbang  rdf:type  geo:Feature ;
+        rdfs:label  "Limbang" .
+
+:wikipediaMalari  rdf:type  sem:View ;
+        rdfs:label       "wikipedia Malari" ;
+        :hasLocation     :Jakarta ;
+        sem:accordingTo  :wikipedia .
+
+:Penculikanaktivis19971998
+        rdf:type      sem:Event ;
+        rdfs:label    "Penculikan aktivis 1997/1998" ;
+        rdfs:seeAlso  :wikipediaPenculikanaktivis19971998 .
+
+:PlazaSentralKlenderJlIGustiNgurahRaiNo13DurenSawitJakartaTimurDKIJakarta
+        rdf:type    geo:Feature ;
+        rdfs:label  "Plaza Sentral Klender, Jl. I Gusti Ngurah Rai No. 13, Duren Sawit, Jakarta Timur, DKI Jakarta" .
+
+:wikipediaPemberontakanDarulIslam
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pemberontakan Darul Islam" ;
+        :hasLocation     :SulawesiSelatan , :Aceh , :JawaBarat , :Indonesia ;
+        sem:accordingTo  :wikipedia .
+
+:KonflikPapua  rdf:type  sem:Event ;
+        rdfs:label    "Konflik Papua" ;
+        rdfs:seeAlso  :wikipediaKonflikPapua .
+
+:wikipediaGenosidaTimorTimur
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Genosida Timor Timur" ;
+        :hasLocation     :TimorLeste ;
+        sem:accordingTo  :wikipedia .
+
+:KerusuhanMei1998  rdf:type  sem:Event ;
+        rdfs:label    "Kerusuhan Mei 1998" ;
+        rdfs:seeAlso  :wikipediaKerusuhanMei1998 .
+
+:Semanggi  rdf:type  geo:Feature ;
+        rdfs:label  "Semanggi" .
+
+:wikipediaRevolusiNasionalIndonesia
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Revolusi Nasional Indonesia" ;
+        :hasLocation     :Indonesia ;
+        sem:accordingTo  :wikipedia .
+
+:PapuaNugini  rdf:type  geo:Feature ;
+        rdfs:label  "Papua Nugini" .
+
+:wikipediaKonflikPapua
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Konflik Papua" ;
+        :hasLocation     :PapuaNugini , :PapuawilayahIndonesia ;
+        sem:accordingTo  :wikipedia .
+
+:Dili   rdf:type    geo:Feature ;
+        rdfs:label  "Dili" .
+
+:KabupatenPoso  rdf:type  geo:Feature ;
+        rdfs:label  "Kabupaten Poso" .
+
+:wikipediaPertempuranLautAru
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Laut Aru" ;
+        :hasLocation     :LautArafura ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaInvasiAmbon
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Invasi Ambon" ;
+        :hasLocation     :Ambon ;
+        sem:accordingTo  :wikipedia .
+
+:KampanyeHindiaBelanda
+        rdf:type      sem:Event ;
+        rdfs:label    "Kampanye Hindia Belanda" ;
+        rdfs:seeAlso  :wikipediaKampanyeHindiaBelanda .
+
+:wikipediaPembantaiandiIndonesia19651966
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pembantaian di Indonesia 1965–1966" ;
+        :hasLocation     :Indonesia ;
+        sem:accordingTo  :wikipedia .
+
+:BlangMeurandeh  rdf:type  geo:Feature ;
+        rdfs:label  "Blang Meurandeh" .
+
+:Jawa   rdf:type    geo:Feature ;
+        rdfs:label  "Jawa" .
+
+:wikipediaAgresiMiliterBelandaII
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Agresi Militer Belanda II" ;
+        :hasLocation     :Sumatra , :Jawa ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaTragediSemanggi
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Tragedi Semanggi" ;
+        :hasLocation     :Semanggi ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPembantaianSantaCruz
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pembantaian Santa Cruz" ;
+        :hasLocation     :Dili ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaInsidenPenembakanTimika1996
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Insiden Penembakan Timika 1996" ;
+        :hasLocation     :BandarUdaraTimika ;
+        sem:accordingTo  :wikipedia .
+
+:PembantaiandiIndonesia19651966
+        rdf:type      sem:Event ;
+        rdfs:label    "Pembantaian di Indonesia 1965–1966" ;
+        rdfs:seeAlso  :wikipediaPembantaiandiIndonesia19651966 .
+
+:Borneo  rdf:type   geo:Feature ;
+        rdfs:label  "Borneo" .
+
+:OperasiJayapura1976  rdf:type  sem:Event ;
+        rdfs:label    "Operasi Jayapura 1976" ;
+        rdfs:seeAlso  :wikipediaOperasiJayapura1976 .
