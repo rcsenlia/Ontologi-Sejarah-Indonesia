@@ -1,0 +1,297 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:Indonesia  rdf:type  geo:Feature .
+
+:wikipediaPertempuranLimaHari
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Lima Hari" ;
+        :hasLocation     :Semarang ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPeristiwa19November
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Peristiwa 19 November" ;
+        :hasLocation     :KabupatenKolaka ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPertempuranSurabaya
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Surabaya" ;
+        :hasLocation     :Surabaya ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPerangDayakDesa
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Dayak Desa" ;
+        :hasLocation     :Sanggau ;
+        sem:accordingTo  :wikipedia .
+
+:Kalimantan  rdf:type  geo:Feature .
+
+:wikipediaKonflikPapua
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Konflik Papua" ;
+        :hasLocation     :PapuaNugini , :Papua ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPemberontakanDITIIdiAceh
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pemberontakan DI/TII di Aceh" ;
+        :hasLocation     :Aceh ;
+        sem:accordingTo  :wikipedia .
+
+:Semarang  rdf:type  geo:Feature .
+
+:PeristiwaTigaMaret  rdf:type  sem:Event ;
+        rdfs:label    "Peristiwa Tiga Maret" ;
+        rdfs:seeAlso  :wikipediaPeristiwaTigaMaret .
+
+:Sanggau  rdf:type  geo:Feature .
+
+:Bandung  rdf:type  geo:Feature .
+
+:wikipediaPerangCumbok
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Perang Cumbok" ;
+        :hasLocation     :KabupatenPidie ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPuputanMargarana
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Puputan Margarana" ;
+        :hasLocation     :DesaMarga ;
+        sem:accordingTo  :wikipedia .
+
+:PertempuranKumai  rdf:type  sem:Event ;
+        rdfs:label    "Pertempuran Kumai" ;
+        rdfs:seeAlso  :wikipediaPertempuranKumai .
+
+:KabupatenKolaka  rdf:type  geo:Feature .
+
+:Yogyakarta  rdf:type  geo:Feature .
+
+:Bukittinggi  rdf:type  geo:Feature .
+
+:DesaMarga  rdf:type  geo:Feature .
+
+:wikipediaKampanyeHindiaBelanda
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kampanye Hindia Belanda" ;
+        :hasLocation     :HindiaBelanda ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaBandungLautanApi
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Bandung Lautan Api" ;
+        :hasLocation     :Bandung ;
+        sem:accordingTo  :wikipedia .
+
+:DelapanJamPertempurandiMangkang
+        rdf:type      sem:Event ;
+        rdfs:label    "Delapan Jam Pertempuran di Mangkang" ;
+        rdfs:seeAlso  :wikipediaDelapanJamPertempurandiMangkang .
+
+:PerangCumbok  rdf:type  sem:Event ;
+        rdfs:label    "Perang Cumbok" ;
+        rdfs:seeAlso  :wikipediaPerangCumbok .
+
+:Aceh   rdf:type  geo:Feature .
+
+:SeranganUmum1Maret1949
+        rdf:type      sem:Event ;
+        rdfs:label    "Serangan Umum 1 Maret 1949" ;
+        rdfs:seeAlso  :wikipediaSeranganUmum1Maret1949 .
+
+:Kotabaru  rdf:type  geo:Feature .
+
+:PertempuranBojongKokosan
+        rdf:type      sem:Event ;
+        rdfs:label    "Pertempuran Bojong Kokosan" ;
+        rdfs:seeAlso  :wikipediaPertempuranBojongKokosan .
+
+:KelurahanLubangBuaya
+        rdf:type  geo:Feature .
+
+:Peristiwa19November  rdf:type  sem:Event ;
+        rdfs:label    "Peristiwa 19 November" ;
+        rdfs:seeAlso  :wikipediaPeristiwa19November .
+
+:KampanyeHindiaBelanda
+        rdf:type      sem:Event ;
+        rdfs:label    "Kampanye Hindia Belanda" ;
+        rdfs:seeAlso  :wikipediaKampanyeHindiaBelanda .
+
+:PerangDayakDesa  rdf:type  sem:Event ;
+        rdfs:label    "Perang Dayak Desa" ;
+        rdfs:seeAlso  :wikipediaPerangDayakDesa .
+
+:wikipediaOperasi17Agustus
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Operasi 17 Agustus" ;
+        :hasLocation     :Padang ;
+        sem:accordingTo  :wikipedia .
+
+:wikipedia  rdf:type  sem:Authority .
+
+:PuputanMargarana  rdf:type  sem:Event ;
+        rdfs:label    "Puputan Margarana" ;
+        rdfs:seeAlso  :wikipediaPuputanMargarana .
+
+:PemberontakanDITIIdiAceh
+        rdf:type      sem:Event ;
+        rdfs:label    "Pemberontakan DI/TII di Aceh" ;
+        rdfs:seeAlso  :wikipediaPemberontakanDITIIdiAceh .
+
+:PertempuranLengkong  rdf:type  sem:Event ;
+        rdfs:label    "Pertempuran Lengkong" ;
+        rdfs:seeAlso  :wikipediaPertempuranLengkong .
+
+:wikipediaGerakan30September
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Gerakan 30 September" ;
+        :hasLocation     :KelurahanLubangBuaya ;
+        sem:accordingTo  :wikipedia .
+
+:Surakarta  rdf:type  geo:Feature .
+
+:PertempuranMedanArea
+        rdf:type      sem:Event ;
+        rdfs:label    "Pertempuran Medan Area" ;
+        rdfs:seeAlso  :wikipediaPertempuranMedanArea .
+
+:KonflikPapua  rdf:type  sem:Event ;
+        rdfs:label    "Konflik Papua" ;
+        rdfs:seeAlso  :wikipediaKonflikPapua .
+
+:KabupatenPidie  rdf:type  geo:Feature .
+
+:Sukabumi  rdf:type  geo:Feature .
+
+:wikipediaPenyerbuanKotabaruYogyakarta
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Penyerbuan Kotabaru Yogyakarta" ;
+        :hasLocation     :Kotabaru ;
+        sem:accordingTo  :wikipedia .
+
+:DesaLengkong  rdf:type  geo:Feature .
+
+:PapuaNugini  rdf:type  geo:Feature .
+
+:wikipediaRevolusiNasionalIndonesia
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Revolusi Nasional Indonesia" ;
+        :hasLocation     :Indonesia ;
+        sem:accordingTo  :wikipedia .
+
+:PenyerbuanKotabaruYogyakarta
+        rdf:type      sem:Event ;
+        rdfs:label    "Penyerbuan Kotabaru Yogyakarta" ;
+        rdfs:seeAlso  :wikipediaPenyerbuanKotabaruYogyakarta .
+
+:Medan  rdf:type  geo:Feature .
+
+:SeranganUmumSurakarta
+        rdf:type      sem:Event ;
+        rdfs:label    "Serangan Umum Surakarta" ;
+        rdfs:seeAlso  :wikipediaSeranganUmumSurakarta .
+
+:wikipediaDelapanJamPertempurandiMangkang
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Delapan Jam Pertempuran di Mangkang" ;
+        :hasLocation     :Semarang ;
+        sem:accordingTo  :wikipedia .
+
+:PertempuranLimaHari  rdf:type  sem:Event ;
+        rdfs:label    "Pertempuran Lima Hari" ;
+        rdfs:seeAlso  :wikipediaPertempuranLimaHari .
+
+:Surabaya  rdf:type  geo:Feature .
+
+:BandungLautanApi  rdf:type  sem:Event ;
+        rdfs:label    "Bandung Lautan Api" ;
+        rdfs:seeAlso  :wikipediaBandungLautanApi .
+
+:wikipediaPertempuranBojongKokosan
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Bojong Kokosan" ;
+        :hasLocation     :Sukabumi ;
+        sem:accordingTo  :wikipedia .
+
+:HindiaBelanda  rdf:type  geo:Feature .
+
+:wikipediaPertempuranMedanArea
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Medan Area" ;
+        :hasLocation     :Medan ;
+        sem:accordingTo  :wikipedia .
+
+:PertempuranSurabaya  rdf:type  sem:Event ;
+        rdfs:label    "Pertempuran Surabaya" ;
+        rdfs:seeAlso  :wikipediaPertempuranSurabaya .
+
+:wikipediaSeranganUmum1Maret1949
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Serangan Umum 1 Maret 1949" ;
+        :hasLocation     :Yogyakarta ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPertempuranLengkong
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Lengkong" ;
+        :hasLocation     :DesaLengkong ;
+        sem:accordingTo  :wikipedia .
+
+:Kumai  rdf:type  geo:Feature .
+
+:wikipediaSeranganUmumSurakarta
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Serangan Umum Surakarta" ;
+        :hasLocation     :Surakarta ;
+        sem:accordingTo  :wikipedia .
+
+:KampanyeKalimantan1945
+        rdf:type      sem:Event ;
+        rdfs:label    "Kampanye Kalimantan (1945)" ;
+        rdfs:seeAlso  :wikipediaKampanyeKalimantan1945 .
+
+:Padang  rdf:type  geo:Feature .
+
+:wikipediaPeristiwaTigaMaret
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Peristiwa Tiga Maret" ;
+        :hasLocation     :Bukittinggi ;
+        sem:accordingTo  :wikipedia .
+
+:RevolusiNasionalIndonesia
+        rdf:type      sem:Event ;
+        rdfs:label    "Revolusi Nasional Indonesia" ;
+        rdfs:seeAlso  :wikipediaRevolusiNasionalIndonesia .
+
+:wikipediaKampanyeKalimantan1945
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Kampanye Kalimantan (1945)" ;
+        :hasLocation     :Kalimantan ;
+        sem:accordingTo  :wikipedia .
+
+:Gerakan30September  rdf:type  sem:Event ;
+        rdfs:label    "Gerakan 30 September" ;
+        rdfs:seeAlso  :wikipediaGerakan30September .
+
+:wikipediaPertempuranKumai
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Kumai" ;
+        :hasLocation     :Kumai ;
+        sem:accordingTo  :wikipedia .
+
+:Operasi17Agustus  rdf:type  sem:Event ;
+        rdfs:label    "Operasi 17 Agustus" ;
+        rdfs:seeAlso  :wikipediaOperasi17Agustus .
+
+:Papua  rdf:type  geo:Feature .
