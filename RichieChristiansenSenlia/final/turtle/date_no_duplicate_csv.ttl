@@ -2,7 +2,7 @@
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix sem:   <https://semanticweb.cs.vu.nl/2009/11/sem/> .
 @prefix time:  <http://www.w3.org/2006/time#> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
@@ -146,18 +146,6 @@
 
 :wikipediaPerangAceh  rdf:type  sem:View ;
         rdfs:label       "wikipedia Perang Aceh" ;
-        time:hasTime     [ rdf:type           time:temporanEntity ;
-                           time:hasBeginning  [ rdf:type         time:Instant ;
-                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
-                                                                   time:year  "1873"^^xsd:int
-                                                                 ]
-                                              ] ;
-                           time:hasEnd        [ rdf:type         time:Instant ;
-                                                time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
-                                                                   time:year  "1904"^^xsd:int
-                                                                 ]
-                                              ]
-                         ] ;
         time:hasTime     [ rdf:type           time:temporanEntity ;
                            time:hasBeginning  [ rdf:type         time:Instant ;
                                                 time:inDateTime  [ rdf:type   <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -536,27 +524,6 @@
                          ] ;
         sem:accordingTo  :wikipedia .
 
-:wikipediaPertempuranSurabaya
-        rdf:type         sem:View ;
-        rdfs:label       "wikipedia Pertempuran Surabaya" ;
-        time:hasTime     [ rdf:type           time:temporanEntity ;
-                           time:hasBeginning  [ rdf:type         time:Instant ;
-                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
-                                                                   time:day    "27"^^xsd:int ;
-                                                                   time:month  "10"^^xsd:int ;
-                                                                   time:year   "1945"^^xsd:int
-                                                                 ]
-                                              ] ;
-                           time:hasEnd        [ rdf:type         time:Instant ;
-                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
-                                                                   time:day    "20"^^xsd:int ;
-                                                                   time:month  "11"^^xsd:int ;
-                                                                   time:year   "1945"^^xsd:int
-                                                                 ]
-                                              ]
-                         ] ;
-        sem:accordingTo  :wikipedia .
-
 :wikipediaPertempuranLimaHari
         rdf:type         sem:View ;
         rdfs:label       "wikipedia Pertempuran Lima Hari" ;
@@ -576,18 +543,23 @@
                                                                  ]
                                               ]
                          ] ;
+        sem:accordingTo  :wikipedia .
+
+:wikipediaPertempuranSurabaya
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Pertempuran Surabaya" ;
         time:hasTime     [ rdf:type           time:temporanEntity ;
                            time:hasBeginning  [ rdf:type         time:Instant ;
                                                 time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
-                                                                   time:day    "15"^^xsd:int ;
+                                                                   time:day    "27"^^xsd:int ;
                                                                    time:month  "10"^^xsd:int ;
                                                                    time:year   "1945"^^xsd:int
                                                                  ]
                                               ] ;
                            time:hasEnd        [ rdf:type         time:Instant ;
                                                 time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
-                                                                   time:day    "19"^^xsd:int ;
-                                                                   time:month  "10"^^xsd:int ;
+                                                                   time:day    "20"^^xsd:int ;
+                                                                   time:month  "11"^^xsd:int ;
                                                                    time:year   "1945"^^xsd:int
                                                                  ]
                                               ]
@@ -704,22 +676,6 @@
                                                                  ]
                                               ]
                          ] ;
-        time:hasTime     [ rdf:type           time:temporanEntity ;
-                           time:hasBeginning  [ rdf:type         time:Instant ;
-                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
-                                                                   time:day    "29"^^xsd:int ;
-                                                                   time:month  "9"^^xsd:int ;
-                                                                   time:year   "1945"^^xsd:int
-                                                                 ]
-                                              ] ;
-                           time:hasEnd        [ rdf:type         time:Instant ;
-                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
-                                                                   time:day    "27"^^xsd:int ;
-                                                                   time:month  "12"^^xsd:int ;
-                                                                   time:year   "1949"^^xsd:int
-                                                                 ]
-                                              ]
-                         ] ;
         sem:accordingTo  :wikipedia .
 
 :PemberontakanPKI1948
@@ -781,18 +737,6 @@
 :wikipediaSeranganUmum1Maret1949
         rdf:type         sem:View ;
         rdfs:label       "wikipedia Serangan Umum 1 Maret 1949" ;
-        time:hasTime     [ rdf:type           time:temporanEntity ;
-                           time:hasBeginning  [ rdf:type         time:Instant ;
-                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
-                                                                   time:day    "1"^^xsd:int ;
-                                                                   time:month  "3"^^xsd:int ;
-                                                                   time:year   "1949"^^xsd:int
-                                                                 ]
-                                              ] ;
-                           time:hasEnd        [ rdf:type         time:Instant ;
-                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
-                                              ]
-                         ] ;
         time:hasTime     [ rdf:type           time:temporanEntity ;
                            time:hasBeginning  [ rdf:type         time:Instant ;
                                                 time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -1116,18 +1060,6 @@
 :wikipediaKonflikPapua
         rdf:type         sem:View ;
         rdfs:label       "wikipedia Konflik Papua" ;
-        time:hasTime     [ rdf:type           time:temporanEntity ;
-                           time:hasBeginning  [ rdf:type         time:Instant ;
-                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
-                                                                   time:day    "1"^^xsd:int ;
-                                                                   time:month  "10"^^xsd:int ;
-                                                                   time:year   "1962"^^xsd:int
-                                                                 ]
-                                              ] ;
-                           time:hasEnd        [ rdf:type         time:Instant ;
-                                                time:inDateTime  [ rdf:type  <http://www.w3.org/2006/time#(General)DateTimeDescription> ]
-                                              ]
-                         ] ;
         time:hasTime     [ rdf:type           time:temporanEntity ;
                            time:hasBeginning  [ rdf:type         time:Instant ;
                                                 time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -1694,38 +1626,6 @@
                                                                  ]
                                               ]
                          ] ;
-        time:hasTime     [ rdf:type           time:temporanEntity ;
-                           time:hasBeginning  [ rdf:type         time:Instant ;
-                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
-                                                                   time:day    "8"^^xsd:int ;
-                                                                   time:month  "12"^^xsd:int ;
-                                                                   time:year   "1941"^^xsd:int
-                                                                 ]
-                                              ] ;
-                           time:hasEnd        [ rdf:type         time:Instant ;
-                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
-                                                                   time:day    "9"^^xsd:int ;
-                                                                   time:month  "3"^^xsd:int ;
-                                                                   time:year   "1942"^^xsd:int
-                                                                 ]
-                                              ]
-                         ] ;
-        time:hasTime     [ rdf:type           time:temporanEntity ;
-                           time:hasBeginning  [ rdf:type         time:Instant ;
-                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
-                                                                   time:day    "8"^^xsd:int ;
-                                                                   time:month  "12"^^xsd:int ;
-                                                                   time:year   "1941"^^xsd:int
-                                                                 ]
-                                              ] ;
-                           time:hasEnd        [ rdf:type         time:Instant ;
-                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
-                                                                   time:day    "9"^^xsd:int ;
-                                                                   time:month  "3"^^xsd:int ;
-                                                                   time:year   "1942"^^xsd:int
-                                                                 ]
-                                              ]
-                         ] ;
         sem:accordingTo  :wikipedia .
 
 :PerangDiponegoro  rdf:type  sem:Event ;
@@ -1764,22 +1664,6 @@
 :wikipediaGerakan30September
         rdf:type         sem:View ;
         rdfs:label       "wikipedia Gerakan 30 September" ;
-        time:hasTime     [ rdf:type           time:temporanEntity ;
-                           time:hasBeginning  [ rdf:type         time:Instant ;
-                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
-                                                                   time:day    "30"^^xsd:int ;
-                                                                   time:month  "9"^^xsd:int ;
-                                                                   time:year   "1965"^^xsd:int
-                                                                 ]
-                                              ] ;
-                           time:hasEnd        [ rdf:type         time:Instant ;
-                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
-                                                                   time:day    "1"^^xsd:int ;
-                                                                   time:month  "10"^^xsd:int ;
-                                                                   time:year   "1965"^^xsd:int
-                                                                 ]
-                                              ]
-                         ] ;
         time:hasTime     [ rdf:type           time:temporanEntity ;
                            time:hasBeginning  [ rdf:type         time:Instant ;
                                                 time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
@@ -1907,43 +1791,11 @@
                                                                  ]
                                               ]
                          ] ;
-        time:hasTime     [ rdf:type           time:temporanEntity ;
-                           time:hasBeginning  [ rdf:type         time:Instant ;
-                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
-                                                                   time:day    "17"^^xsd:int ;
-                                                                   time:month  "4"^^xsd:int ;
-                                                                   time:year   "1958"^^xsd:int
-                                                                 ]
-                                              ] ;
-                           time:hasEnd        [ rdf:type         time:Instant ;
-                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
-                                                                   time:day    "24"^^xsd:int ;
-                                                                   time:month  "5"^^xsd:int ;
-                                                                   time:year   "1958"^^xsd:int
-                                                                 ]
-                                              ]
-                         ] ;
         sem:accordingTo  :wikipedia .
 
 :wikipediaBandungLautanApi
         rdf:type         sem:View ;
         rdfs:label       "wikipedia Bandung Lautan Api" ;
-        time:hasTime     [ rdf:type           time:temporanEntity ;
-                           time:hasBeginning  [ rdf:type         time:Instant ;
-                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
-                                                                   time:day    "23"^^xsd:int ;
-                                                                   time:month  "3"^^xsd:int ;
-                                                                   time:year   "1946"^^xsd:int
-                                                                 ]
-                                              ] ;
-                           time:hasEnd        [ rdf:type         time:Instant ;
-                                                time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
-                                                                   time:day    "24"^^xsd:int ;
-                                                                   time:month  "3"^^xsd:int ;
-                                                                   time:year   "1946"^^xsd:int
-                                                                 ]
-                                              ]
-                         ] ;
         time:hasTime     [ rdf:type           time:temporanEntity ;
                            time:hasBeginning  [ rdf:type         time:Instant ;
                                                 time:inDateTime  [ rdf:type    <http://www.w3.org/2006/time#(General)DateTimeDescription> ;
