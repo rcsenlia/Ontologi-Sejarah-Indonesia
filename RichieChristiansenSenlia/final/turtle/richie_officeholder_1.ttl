@@ -1,0 +1,35 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:wikipediaRevolusiNasionalIndonesia
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Revolusi Nasional Indonesia" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :Djatikoesoemo .
+
+:AgresiMiliterBelandaII
+        rdf:type      sem:Event ;
+        rdfs:label    "Agresi Militer Belanda II" ;
+        rdfs:seeAlso  :wikipediaAgresiMiliterBelandaII .
+
+:RevolusiNasionalIndonesia
+        rdf:type      sem:Event ;
+        rdfs:label    "Revolusi Nasional Indonesia" ;
+        rdfs:seeAlso  :wikipediaRevolusiNasionalIndonesia .
+
+:wikipediaAgresiMiliterBelandaII
+        rdf:type         sem:View ;
+        rdfs:label       "wikipedia Agresi Militer Belanda II" ;
+        sem:accordingTo  :wikipedia ;
+        sem:hasActor     :Djatikoesoemo .
+
+:wikipedia  rdf:type  sem:Authority .
+
+:Djatikoesoemo  rdf:type  sem:Actor ;
+        rdfs:label  "Djatikoesoemo" .
